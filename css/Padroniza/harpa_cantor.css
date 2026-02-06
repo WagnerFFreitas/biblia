@@ -1,0 +1,541 @@
+/*======================================================*/
+/*      CONFIGURAÇÃO GLOBAL (CRUCIAL PARA O LAYOUT)     */
+/*======================================================*/
+
+/*======================================================*/
+/*                RESET DE BOX MODEL                    */
+/*   Garante consistência no cálculo de dimensões       */
+/*======================================================*/
+* {
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).   */
+}
+
+/*======================================================*/
+/*         BARRA DE ROLAGEM — NAVEGADORES WEBKIT        */
+/*     Personalização visual para Chrome, Edge, Opera   */
+/*======================================================*/
+::-webkit-scrollbar {
+    width: 10px;                                           /* Define a largura fixa para padronizar o tamanho da BARRA DE ROLAGEM. */
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0a0a;                                 /* Define a cor de fundo da trilha em preto para a BARRA DE ROLAGEM. */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffd700;                           /* Define a cor da alça (thumb) em dourado para a BARRA DE ROLAGEM.                     */
+    border: 1px solid #0a0a0a;                           /* Define uma borda sólida preta para delimitar a alça da BARRA DE ROLAGEM.             */
+    border-radius: 5px;                                    /* Define os cantos arredondados para suavizar o design da alça da BARRA DE ROLAGEM.    */
+}
+
+/*======================================================*/
+/*         BARRA DE ROLAGEM — NAVEGADOR FIREFOX         */
+/*          Personalização visual para Firefox          */
+/*======================================================*/
+html {
+    scrollbar-width: thin;                                 /* Define a largura da BARRA DE ROLAGEM como fina no Firefox.                        */
+    scrollbar-color: #ffd700 #0a0a0a;                  /* Define as cores da BARRA DE ROLAGEM: alça dourada e trilha preta no Firefox.      */
+}
+
+/*======================================================*/
+/*      ESTILOS PARA HARPA CRISTÃ E CANTOR CRISTÃO      */
+/*======================================================*/
+
+/*======================================================*/
+/*              LAYOUT PRINCIPAL DO CORPO               */
+/*     Configurações estruturais para body e html       */
+/*======================================================*/
+body, html {
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do CONTÊINER PRINCIPAL.    */
+    padding: 0;                                            /* Define o preenchimento interno como nulo para remover os espaçamentos padrão do CONTÊINER PRINCIPAL. */
+    height: 100%;                                          /* Define a altura total para garantir que o CONTÊINER PRINCIPAL ocupe toda a viewport.                 */
+    font-family: sans-serif;                               /* Define o tipo de fonte como SANS-SERIF para o CONTÊINER PRINCIPAL.                                   */
+    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o CONTÊINER PRINCIPAL.                                    */
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o CONTÊINER PRINCIPAL.                                        */
+    color: #fff;                                         /* Define a cor do texto em branco para o CONTÊINER PRINCIPAL.                                          */
+    overflow-x: hidden;                                    /* Oculta o transbordamento horizontal e desativa a rolagem lateral do CONTÊINER PRINCIPAL.             */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do CONTÊINER PRINCIPAL.                 */
+    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os elementos no CONTÊINER PRINCIPAL.       */
+}
+
+/*======================================================*/
+/*                   VÍDEO DE FUNDO                     */
+/*        Elemento fixo que cobre toda a tela           */
+/*======================================================*/
+#background-video {
+    position: fixed;                                       /* Define o posicionamento fixo para manter o VÍDEO DE FUNDO estático durante a rolagem da página.   */
+    top: 0;                                                /* Define a distância do topo como zero para que o VÍDEO DE FUNDO comece no limite superior.         */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar o VÍDEO DE FUNDO ao limite lateral.         */
+    width: 100%;                                           /* Define a largura total para garantir que o VÍDEO DE FUNDO preencha a tela horizontalmente.        */
+    height: 100%;                                          /* Define a altura total para garantir que o VÍDEO DE FUNDO cubra toda a área de visualização.       */
+    object-fit: cover;                                     /* Define o ajuste do objeto para cobrir toda a área sem distorcer o VÍDEO DE FUNDO.                 */
+    z-index: -2;                                           /* Define a ordem de empilhamento em camada de fundo para o VÍDEO DE FUNDO.                          */
+}
+
+/*======================================================*/
+/*                  SOBREPOSIÇÃO ESCURA                 */
+/*        Camada semitransparente sobre o vídeo         */
+/*======================================================*/
+.overlay {
+    position: fixed;                                       /* Define o posicionamento fixo para manter a SOBREPOSIÇÃO ESCURA estática durante a rolagem da página. */
+    top: 0;                                                /* Define a distância do topo como zero para que a SOBREPOSIÇÃO ESCURA comece no limite superior.       */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar a SOBREPOSIÇÃO ESCURA ao limite lateral.       */
+    width: 100%;                                           /* Define a largura total para garantir que a SOBREPOSIÇÃO ESCURA preencha a tela horizontalmente.      */
+    height: 100%;                                          /* Define a altura total para garantir que a SOBREPOSIÇÃO ESCURA cubra toda a área de visualização.     */
+    background-color: rgba(10, 10, 10, 0.7);             /* Define a cor de fundo em preto translúcido para a SOBREPOSIÇÃO ESCURA.                               */
+    z-index: -1;                                           /* Define a ordem de empilhamento em camada intermediária para a SOBREPOSIÇÃO ESCURA.                   */
+}
+
+/*======================================================*/
+/*                       CABEÇALHO                      */
+/*       Área superior com título e subtítulo           */
+/*======================================================*/
+header {
+    padding: 30px 20px 15px 20px;                          /* Define o preenchimento interno assimétrico para criar um respiro no CABEÇALHO.       */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o CABEÇALHO.                         */
+    flex-shrink: 0;                                        /* Impede que o CABEÇALHO seja comprimido durante a distribuição do espaço flexível.    */
+}
+
+/*======================================================*/
+/*                  TÍTULO PRINCIPAL                    */
+/*     Nome principal do aplicativo com destaque        */
+/*======================================================*/
+.titulo-principal {
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do TÍTULO PRINCIPAL.    */
+    font-size: 2.7em;                                      /* Define o tamanho da fonte para dar destaque ao TÍTULO PRINCIPAL.                                  */
+    color: #ffd700;                                      /* Define a cor do texto em dourado para o TÍTULO PRINCIPAL.                                         */
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);          /* Define uma sombra de texto para criar profundidade e destaque no TÍTULO PRINCIPAL.                */
+}
+
+/*======================================================*/
+/*                      SUBTÍTULO                       */
+/*    Texto descritivo abaixo do título principal       */
+/*======================================================*/
+.subtitulo {
+    margin-top: 5px;                                       /* Define o espaçamento superior para separar o SUBTÍTULO do título principal.     */
+    font-size: 1.2em;                                      /* Define o tamanho da fonte para o SUBTÍTULO.                                     */
+    text-shadow: 0 2px 8px #000;                         /* Define uma sombra de texto para criar profundidade e destaque no SUBTÍTULO.     */
+}
+
+/*======================================================*/
+/*                    MENU DE NAVEGAÇÃO                 */
+/*   Barra com botões para diferentes funcionalidades   */
+/*======================================================*/
+.menu-harpa-cantor {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do MENU DE NAVEGAÇÃO.     */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no MENU DE NAVEGAÇÃO.     */
+    justify-content: center;                               /* Define o alinhamento horizontal centralizado para os elementos no MENU DE NAVEGAÇÃO.   */
+    padding: 10px 0;                                       /* Define o preenchimento interno vertical para criar um respiro no MENU DE NAVEGAÇÃO.    */
+    background: rgba(0,0,0,0.6);                         /* Define a cor de fundo em preto translúcido para o MENU DE NAVEGAÇÃO.                   */
+    border-top: 1px solid rgba(255, 255, 255, 0.2);      /* Define uma borda superior sólida branca translúcida para delimitar o MENU DE NAVEGAÇÃO.*/
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);   /* Define uma borda inferior sólida branca translúcida para delimitar o MENU DE NAVEGAÇÃO.*/
+}
+
+/*======================================================*/
+/*                   BOTÕES DO MENU                     */
+/*     Estilo padrão para botões e links do menu        */
+/*======================================================*/
+.menu-button, .menu-link {
+    margin: 0 20px;                                        /* Define margens horizontais para separar os BOTÕES DO MENU.                           */
+    padding: 8px 18px;                                     /* Define o preenchimento interno para criar um respiro nos BOTÕES DO MENU.             */
+    background: none;                                      /* Define a cor de fundo como transparente para os BOTÕES DO MENU.                      */
+    border: none;                                          /* Define a borda como nula para remover o contorno padrão dos BOTÕES DO MENU.          */
+    border-radius: 4px;                                    /* Define os cantos arredondados para suavizar o design dos BOTÕES DO MENU.             */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação nos BOTÕES DO MENU. */
+    color: #e0e0e0;                                      /* Define a cor do texto em cinza claro para os BOTÕES DO MENU.                         */
+    font-size: 1.1em;                                      /* Define o tamanho da fonte para assegurar a legibilidade nos BOTÕES DO MENU.          */
+    text-decoration: none;                                 /* Define a decoração do texto como nula para remover o sublinhado dos BOTÕES DO MENU.  */
+    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades dos BOTÕES DO MENU.            */
+}
+
+/*======================================================*/
+/*                BOTÕES DO MENU — HOVER                */
+/*    Efeito visual ao passar o mouse sobre o botão     */
+/*======================================================*/
+.menu-button:hover, .menu-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);          /* Define a cor de fundo como branco translúcido para o efeito visual de HOVER nos BOTÕES DO MENU.     */
+    color: #fff;                                         /* Define a cor do texto em branco para o efeito visual de HOVER nos BOTÕES DO MENU.                   */
+}
+
+/*======================================================*/
+/*                   CONTEÚDO PRINCIPAL                 */
+/*       Área central onde o conteúdo é exibido         */
+/*======================================================*/
+main {
+    flex: 1;                                               /* Define o crescimento flexível para ocupar o espaço disponível no CONTEÚDO PRINCIPAL.                */
+    position: relative;                                    /* Define o posicionamento relativo para permitir ajustes de posicionamento no CONTEÚDO PRINCIPAL.     */
+    z-index: 0;                                            /* Define a ordem de empilhamento em camada base para o CONTEÚDO PRINCIPAL.                            */
+    padding: 20px;                                         /* Define o preenchimento interno para criar um respiro no CONTEÚDO PRINCIPAL.                         */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do CONTEÚDO PRINCIPAL.                 */
+    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os elementos no CONTEÚDO PRINCIPAL.       */
+    justify-content: flex-start;                           /* Define o alinhamento vertical ao início para os elementos no CONTEÚDO PRINCIPAL.                    */
+}
+
+/*======================================================*/
+/*                   TELA INICIAL                       */
+/*       Página de boas-vindas com instruções           */
+/*======================================================*/
+#tela-inicial {
+    padding: 40px 20px;                                    /* Define o preenchimento interno para criar um respiro na TELA INICIAL.                   */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para a TELA INICIAL.                         */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout da TELA INICIAL.           */
+    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os elementos na TELA INICIAL. */
+    justify-content: center;                               /* Define o alinhamento vertical centralizado para os elementos na TELA INICIAL.           */
+    flex-grow: 1;                                          /* Permite que a TELA INICIAL se expanda para ocupar o espaço disponível.                  */
+}
+
+/*======================================================*/
+/*                MENSAGEM DE BOAS-VINDAS               */
+/*              Saudação inicial ao usuário             */
+/*======================================================*/
+.bem-vindo {
+    font-size: 2.5em;                                      /* Define o tamanho da fonte para dar destaque à MENSAGEM DE BOAS-VINDAS.                    */
+    text-shadow: 0 2px 12px #000;                        /* Define uma sombra de texto para criar profundidade e destaque na MENSAGEM DE BOAS-VINDAS. */
+}
+
+/*======================================================*/
+/*                  INSTRUÇÃO INICIAL                   */
+/*          Texto orientativo para o usuário            */
+/*======================================================*/
+.instrucao {
+    margin-top: 15px;                                      /* Define o espaçamento superior para separar a INSTRUÇÃO INICIAL da mensagem de boas-vindas.*/
+    font-size: 1.5em;                                      /* Define o tamanho da fonte para a INSTRUÇÃO INICIAL.                                       */
+    text-shadow: 0 2px 8px #000;                         /* Define uma sombra de texto para criar profundidade e destaque na INSTRUÇÃO INICIAL.       */
+}
+
+/*======================================================*/
+/*              FAIXA DE BOTÕES DE HINOS                */
+/*       Grade de botões para seleção de faixas         */
+/*======================================================*/
+#botoes-faixa-hinos {
+    display: none;                                         /* Define a exibição como nula para ocultar a FAIXA DE BOTÕES DE HINOS por padrão.      */
+}
+
+/*======================================================*/
+/*            FAIXA DE BOTÕES DE HINOS — ATIVO          */
+/*   Estado visível quando a funcionalidade está ativa  */
+/*======================================================*/
+#botoes-faixa-hinos.active {
+    display: flex;                                         /* Define a exibição como flex para ativar o layout da FAIXA DE BOTÕES DE HINOS.                     */
+    flex-wrap: wrap;                                       /* Define a quebra automática de linha para distribuir os botões na FAIXA DE BOTÕES DE HINOS.        */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos na FAIXA DE BOTÕES DE HINOS.         */
+    justify-content: center;                               /* Define o alinhamento horizontal centralizado para os elementos na FAIXA DE BOTÕES DE HINOS.       */
+    max-width: 1200px;                                     /* Define o limite máximo de largura para evitar expansão excessiva da FAIXA DE BOTÕES DE HINOS.     */
+    margin: 20px auto;                                     /* Define margens verticais e centralização horizontal para a FAIXA DE BOTÕES DE HINOS.              */
+    padding: 20px;                                         /* Define o preenchimento interno para criar um respiro na FAIXA DE BOTÕES DE HINOS.                 */
+    gap: 15px;                                             /* Define o espaçamento entre os botões na FAIXA DE BOTÕES DE HINOS.                                 */
+    background-color: rgba(0, 0, 0, 0.5);                /* Define a cor de fundo em preto translúcido para a FAIXA DE BOTÕES DE HINOS.                       */
+    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design da FAIXA DE BOTÕES DE HINOS.                 */
+}
+
+/*======================================================*/
+/*                    BOTÃO DE FAIXA                    */
+/*     Controle individual para selecionar faixas       */
+/*======================================================*/
+.botao-faixa {
+    padding: 12px 25px;                                    /* Define o preenchimento interno para criar um respiro no BOTÃO DE FAIXA.              */
+    background-color: rgba(255, 215, 0, 0.4);            /* Define a cor de fundo em dourado translúcido para o BOTÃO DE FAIXA.                  */
+    border: 2px solid transparent;                         /* Define uma borda sólida transparente para delimitar o BOTÃO DE FAIXA.                */
+    border-radius: 8px;                                    /* Define os cantos arredondados para suavizar o design do BOTÃO DE FAIXA.              */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO DE FAIXA.  */
+    color: #fff;                                         /* Define a cor do texto em branco para garantir o contraste no BOTÃO DE FAIXA.         */
+    font-size: 1.1em;                                      /* Define o tamanho da fonte para assegurar a legibilidade no BOTÃO DE FAIXA.           */
+    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades do BOTÃO DE FAIXA.             */
+}
+
+/*======================================================*/
+/*                BOTÃO DE FAIXA — HOVER                */
+/*    Efeito visual ao passar o mouse sobre o botão     */
+/*======================================================*/
+.botao-faixa:hover {
+    background-color: rgba(255, 215, 0, 0.8);            /* Define a cor de fundo em dourado mais opaco para o efeito visual de HOVER no BOTÃO DE FAIXA.        */
+    border-color: rgba(35, 43, 92, 0.9);                 /* Define a cor da borda como azul escuro translúcido para o efeito visual de HOVER no BOTÃO DE FAIXA. */
+    color: #fff;                                         /* Define a cor do texto em branco para garantir o contraste no BOTÃO DE FAIXA em HOVER.               */
+    border-width: 4px;                                     /* Define a largura da borda como 4px para destacar o BOTÃO DE FAIXA em HOVER.                         */
+}
+
+/*======================================================*/
+/*               BOTÃO DE FAIXA — ATIVO                 */
+/*   Estado visual quando o botão está selecionado      */
+/*======================================================*/
+.botao-faixa.active {
+    background-color: #ffd700;                           /* Define a cor de fundo em dourado sólido para o BOTÃO DE FAIXA ativo. */
+    border-color: rgba(35, 43, 92, 0.9);                 /* Define a cor da borda como azul escuro translúcido para o BOTÃO DE FAIXA ativo. */
+    color: #000;                                         /* Define a cor do texto em preto para garantir o contraste no BOTÃO DE FAIXA ativo. */
+    border-width: 4px;                                     /* Define a largura da borda como 4px para destacar o BOTÃO DE FAIXA ativo. */
+}
+
+/*======================================================*/
+/*                 BOTÃO DE CAPÍTULO                    */
+/*      Controle para selecionar capítulos/hinos        */
+/*======================================================*/
+.botao-capitulo {
+    min-width: 200px;                                      /* Define a largura mínima para garantir a visibilidade do BOTÃO DE CAPÍTULO.                     */
+    max-width: 100%;                                       /* Define o limite máximo de largura sem restrições para o BOTÃO DE CAPÍTULO.                     */
+    min-height: 48px;                                      /* Define a altura mínima para garantir a usabilidade do BOTÃO DE CAPÍTULO.                       */
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do BOTÃO DE CAPÍTULO.*/
+    padding: 10px 16px;                                    /* Define o preenchimento interno para criar um respiro no BOTÃO DE CAPÍTULO.                     */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do BOTÃO DE CAPÍTULO.             */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no BOTÃO DE CAPÍTULO.             */
+    justify-content: flex-start;                           /* Define o alinhamento horizontal ao início para o conteúdo do BOTÃO DE CAPÍTULO.                */
+    gap: 5px;                                              /* Define o espaçamento entre os elementos internos do BOTÃO DE CAPÍTULO.                         */
+    text-align: left;                                      /* Define o alinhamento de texto à esquerda para o BOTÃO DE CAPÍTULO.                             */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO DE CAPÍTULO.         */
+    background: rgba(59, 71, 161, 0.8);                  /* Define a cor de fundo em azul translúcido para o BOTÃO DE CAPÍTULO.                            */
+    border: 2px solid transparent;                         /* Define uma borda sólida transparente para delimitar o BOTÃO DE CAPÍTULO.                       */
+    border-radius: 8px;                                    /* Define os cantos arredondados para suavizar o design do BOTÃO DE CAPÍTULO.                     */
+    color: #fff;                                         /* Define a cor do texto em branco para garantir o contraste no BOTÃO DE CAPÍTULO.                */
+    font-size: 1em;                                        /* Define o tamanho da fonte para assegurar a legibilidade no BOTÃO DE CAPÍTULO.                  */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);              /* Define uma sombra suave para criar profundidade e destaque no BOTÃO DE CAPÍTULO.               */
+    transition: background 0.2s, transform 0.2s, border-color 0.2s; /* Define transições suaves para as propriedades do BOTÃO DE CAPÍTULO.                   */
+}
+
+/*======================================================*/
+/*              BOTÃO DE CAPÍTULO — HOVER               */
+/*    Efeito visual ao passar o mouse sobre o botão     */
+/*======================================================*/
+.botao-capitulo:hover {
+    background: rgba(35, 43, 92, 0.9);                   /* Define a cor de fundo em azul escuro translúcido para o efeito visual de HOVER no BOTÃO DE CAPÍTULO.*/
+    transform: translateY(-1px);                           /* Define o deslocamento vertical para cima no efeito de HOVER do BOTÃO DE CAPÍTULO.                   */
+    border-color: #ffd700;                               /* Define a cor da borda como dourada para destacar o BOTÃO DE CAPÍTULO em HOVER.                      */
+}
+
+/*======================================================*/
+/*                      HINO EXIBIDO                    */
+/*      Container principal para exibição do hino       */
+/*======================================================*/
+#hino-exibido {
+    margin-bottom: 80px;                                   /* Define o espaçamento inferior para evitar sobreposição com o rodapé fixo.     */
+}
+
+/*======================================================*/
+/*                 CONTAINER DO HINO                    */
+/*     Área com fundo escuro para exibir a letra        */
+/*======================================================*/
+.hino-conteiner {
+    max-width: 800px;                                      /* Define o limite máximo de largura para evitar expansão excessiva do CONTAINER DO HINO.  */
+    margin: 40px auto 0 auto;                              /* Define margens verticais e centralização horizontal para o CONTAINER DO HINO.           */
+    padding: 20px 30px;                                    /* Define o preenchimento interno para criar um respiro no CONTAINER DO HINO.              */
+    background: rgba(0,0,0,0.8);                         /* Define a cor de fundo em preto translúcido para o CONTAINER DO HINO.                    */
+    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design do CONTAINER DO HINO.              */
+    border-top: 2px solid;                                 /* Define uma borda superior sólida para delimitar o CONTAINER DO HINO.                    */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);             /* Define uma sombra suave para criar profundidade e destaque no CONTAINER DO HINO.        */
+}
+
+/*======================================================*/
+/*                   TÍTULO DO HINO                     */
+/*          Nome do hino com destaque visual            */
+/*======================================================*/
+.hino-titulo {
+    margin-bottom: 15px;                                   /* Define o espaçamento inferior para separar o TÍTULO DO HINO da letra.         */
+    font-size: 1.8em;                                      /* Define o tamanho da fonte para dar destaque ao TÍTULO DO HINO.                */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TÍTULO DO HINO.             */
+}
+
+/*======================================================*/
+/*                    LETRA DO HINO                     */
+/*     Estilo dos parágrafos com a letra da música      */
+/*======================================================*/
+.hino-letra p {
+    margin-bottom: 15px;                                   /* Define o espaçamento inferior para separar os parágrafos da LETRA DO HINO.    */
+    font-size: 1.8em;                                      /* Define o tamanho da fonte para a LETRA DO HINO.                               */
+    line-height: 1.6;                                      /* Define a altura da linha para melhorar a legibilidade da LETRA DO HINO.       */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para a LETRA DO HINO.              */
+}
+
+/*======================================================*/
+/*                      CORO DO HINO                    */
+/*        Estilo especial para seções de refrão         */
+/*======================================================*/
+.hino-letra .coro {
+    opacity: 0.9;                                          /* Define a opacidade para criar contraste visual no CORO DO HINO.    */
+}
+
+/*======================================================*/
+/*                       RODAPÉ                         */
+/*        Área fixa inferior com informações            */
+/*======================================================*/
+.rodape {
+    position: fixed;                                       /* Define o posicionamento fixo para manter o RODAPÉ estático na parte inferior da tela.*/
+    bottom: 0;                                             /* Define a distância do fundo como zero para fixar o RODAPÉ no limite inferior.        */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar o RODAPÉ ao limite lateral.    */
+    width: 100%;                                           /* Define a largura total para garantir que o RODAPÉ ocupe toda a extensão horizontal.  */
+    height: 50px;                                          /* Define a altura fixa para padronizar a dimensão vertical do RODAPÉ.                  */
+    z-index: 10;                                           /* Define a ordem de empilhamento para que o RODAPÉ se sobreponha ao conteúdo.          */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do RODAPÉ.              */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no RODAPÉ.              */
+    justify-content: center;                               /* Define o alinhamento horizontal centralizado para os elementos no RODAPÉ.            */
+    background: rgba(0,0,0,0.8);                         /* Define a cor de fundo em preto translúcido para o RODAPÉ.                            */
+    border-top: 1px solid rgba(255, 255, 255, 0.1);      /* Define uma borda superior sólida branca translúcida para delimitar o RODAPÉ.         */
+    color: #d4ac0d;                                      /* Define a cor do texto em dourado para o RODAPÉ.                                      */
+    font-size: 1.3em;                                      /* Define o tamanho da fonte para o texto do RODAPÉ.                                    */
+    letter-spacing: 0.5px;                                 /* Define o espaçamento entre as letras para melhorar a legibilidade do texto do RODAPÉ.*/
+    line-height: 0.5;                                      /* Define a altura da linha para ajustar o espaçamento vertical do texto do RODAPÉ.     */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o conteúdo do RODAPÉ.                */
+}
+
+/*======================================================*/
+/*           MENSAGEM DE ERRO DE CARREGAMENTO           */
+/*       Estilo para exibir erros de carregamento       */
+/*======================================================*/
+.erro-carregamento {
+    padding: 12px;                                         /* Define o preenchimento interno para criar um respiro na MENSAGEM DE ERRO DE CARREGAMENTO.         */
+    background-color: #881111;                           /* Define a cor de fundo em vermelho escuro para a MENSAGEM DE ERRO DE CARREGAMENTO.                 */
+    border-radius: 5px;                                    /* Define os cantos arredondados para suavizar o design da MENSAGEM DE ERRO DE CARREGAMENTO.         */
+    color: #ffbaba;                                      /* Define a cor do texto em vermelho claro para a MENSAGEM DE ERRO DE CARREGAMENTO.                  */
+    font-size: 0.95em;                                     /* Define o tamanho da fonte para a MENSAGEM DE ERRO DE CARREGAMENTO.                                */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para a MENSAGEM DE ERRO DE CARREGAMENTO.               */
+}
+
+/*======================================================*/
+/*           BOTÕES DE HINOS — ESTADO VAZIO             */
+/*       Oculta o container quando não há botões        */
+/*======================================================*/
+#botoes-hinos:empty {
+    display: none !important;                              /* Define a exibição como nula para ocultar o container de BOTÕES DE HINOS quando vazio.*/
+}
+
+/*======================================================*/
+/*              VERSÃO MOBILE (ATÉ 900px)               */
+/*     Ajustes para dispositivos com telas menores      */
+/*======================================================*/
+@media (max-width: 900px) {
+    /*==================================================*/
+    /*    OCULTAR BOTÃO SLIDE — ÚLTIMO ITEM DO MENU     */
+    /*==================================================*/
+    .menu-harpa-cantor > :last-child {
+        display: none !important;                          /* Define a exibição como nula para ocultar o último item do MENU DE NAVEGAÇÃO.  */
+    }
+    
+    .botao-slide, #btn-slide {
+        display: none !important;                          /* Define a exibição como nula para ocultar os BOTÕES DE SLIDE. */
+    }
+
+    /*==================================================*/
+    /*         BARRA DE ROLAGEM — OCULTAÇÃO             */
+    /*==================================================*/
+    ::-webkit-scrollbar {
+        width: 0px;                                        /* Define a largura como zero para ocultar a BARRA DE ROLAGEM visual.            */
+        background: transparent;                           /* Define o fundo como transparente para a BARRA DE ROLAGEM.                     */
+        display: none;                                     /* Define a exibição como nula para ocultar completamente a BARRA DE ROLAGEM.    */
+    }
+
+    /*==================================================*/
+    /*          CABEÇALHO E TÍTULOS — MOBILE            */
+    /*==================================================*/
+    .titulo-principal {
+        font-size: 1.8em;                                  /* Define o tamanho da fonte para o TÍTULO PRINCIPAL.   */
+        line-height: 1.2;                                  /* Define a altura da linha para o TÍTULO PRINCIPAL.    */
+    }
+
+    .subtitulo {
+        font-size: 1em;                                    /* Define o tamanho da fonte para o SUBTÍTULO.          */
+    }
+
+    header {
+        padding: 15px 10px;                                /* Define o preenchimento interno para criar um respiro no CABEÇALHO. */
+    }
+
+    /*==================================================*/
+    /*           MENU DE NAVEGAÇÃO — MOBILE             */
+    /*==================================================*/
+    .menu-harpa-cantor {
+        flex-wrap: wrap;                                   /* Define a quebra automática de linha para distribuir os itens do MENU DE NAVEGAÇÃO.   */
+        padding: 5px 0;                                    /* Define o preenchimento interno vertical para criar um respiro no MENU DE NAVEGAÇÃO.  */
+        gap: 5px;                                          /* Define o espaçamento entre os itens do MENU DE NAVEGAÇÃO.                            */
+    }
+
+    .menu-button, .menu-link {
+        margin: 2px;                                       /* Define margens externas para separar os BOTÕES DO MENU.                       */
+        padding: 10px 15px;                                /* Define o preenchimento interno para criar um respiro nos BOTÕES DO MENU.      */
+        font-size: 1em;                                    /* Define o tamanho da fonte para assegurar a legibilidade nos BOTÕES DO MENU.   */
+        flex-grow: 1;                                      /* Permite que os BOTÕES DO MENU se expandam para ocupar o espaço disponível.    */
+        text-align: center;                                /* Define o alinhamento de texto centralizado para os BOTÕES DO MENU.            */
+    }
+
+    /*==================================================*/
+    /*           MENSAGENS INICIAIS — MOBILE            */
+    /*==================================================*/
+    .bem-vindo {
+        font-size: 1.8em;                                  /* Define o tamanho da fonte para a MENSAGEM DE BOAS-VINDAS.    */
+    }
+
+    .instrucao {
+        font-size: 1.1em;                                  /* Define o tamanho da fonte para a INSTRUÇÃO INICIAL.  */
+    }
+
+    /*==================================================*/
+    /*        FAIXA DE BOTÕES DE HINOS — MOBILE         */
+    /*==================================================*/
+    #botoes-faixa-hinos.active {
+        display: grid;                                     /* Define a exibição como grade para organizar os botões na FAIXA DE BOTÕES DE HINOS.   */
+        grid-template-columns: repeat(3, 1fr);             /* Define a estrutura de 3 colunas iguais para a FAIXA DE BOTÕES DE HINOS.              */
+        gap: 8px;                                          /* Define o espaçamento entre os botões na FAIXA DE BOTÕES DE HINOS.                    */
+        padding: 10px;                                     /* Define o preenchimento interno para criar um respiro na FAIXA DE BOTÕES DE HINOS.    */
+        justify-content: normal;                           /* Define o alinhamento horizontal como normal para a FAIXA DE BOTÕES DE HINOS.         */
+    }
+
+    .botao-faixa {
+        padding: 10px 5px;                                 /* Define o preenchimento interno para criar um respiro no BOTÃO DE FAIXA.                           */
+        font-size: 0.95em;                                 /* Define o tamanho da fonte para assegurar a legibilidade no BOTÃO DE FAIXA.                        */
+        width: 100%;                                       /* Define a largura total para garantir que o BOTÃO DE FAIXA preencha o espaço.                      */
+        margin: 0;                                         /* Define as margens externas como nulas para remover os espaçamentos padrão do BOTÃO DE FAIXA.      */
+        display: flex;                                     /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do BOTÃO DE FAIXA.                   */
+        justify-content: center;                           /* Define o alinhamento horizontal centralizado para o conteúdo do BOTÃO DE FAIXA.                   */
+    }
+
+    /*==================================================*/
+    /*     BOTÃO DE FAIXA ESPECÍFICO — 13º ELEMENTO     */
+    /*  Posicionamento especial para o botão "601-640"  */
+    /*==================================================*/
+    .botao-faixa:nth-child(13) {
+        grid-column: 2;                                    /* Define a posição na coluna 2 para o 13º BOTÃO DE FAIXA.      */
+    }
+
+    /*==================================================*/
+    /*          BOTÕES DE CAPÍTULO — MOBILE             */
+    /*==================================================*/
+    .botao-capitulo {
+        width: 100%;                                       /* Define a largura total para garantir que o BOTÃO DE CAPÍTULO preencha o espaço.      */
+        min-width: auto;                                   /* Define a largura mínima como automática para permitir ajuste do BOTÃO DE CAPÍTULO.   */
+        padding: 12px 15px;                                /* Define o preenchimento interno para criar um respiro no BOTÃO DE CAPÍTULO.           */
+        font-size: 1.1em;                                  /* Define o tamanho da fonte para assegurar a legibilidade no BOTÃO DE CAPÍTULO.        */
+        justify-content: flex-start;                       /* Define o alinhamento horizontal ao início para o conteúdo do BOTÃO DE CAPÍTULO.      */
+    }
+
+    /*==================================================*/
+    /*       CONTAINER E LETRA DO HINO — MOBILE         */
+    /*==================================================*/
+    .hino-conteiner {
+        width: 95%;                                        /* Define a largura relativa para o CONTAINER DO HINO.                           */
+        padding: 15px;                                     /* Define o preenchimento interno para criar um respiro no CONTAINER DO HINO.    */
+        margin-top: 20px;                                  /* Define o espaçamento superior para o CONTAINER DO HINO.                       */
+    }
+
+    .hino-titulo {
+        font-size: 1.5em;                                  /* Define o tamanho da fonte para o TÍTULO DO HINO.     */
+    }
+
+    .hino-letra p {
+        font-size: 1.3em;                                  /* Define o tamanho da fonte para a LETRA DO HINO.                               */
+        line-height: 1.5;                                  /* Define a altura da linha para melhorar a legibilidade da LETRA DO HINO.       */
+    }
+
+    /*==================================================*/
+    /*                  RODAPÉ — MOBILE                 */
+    /*==================================================*/
+    .rodape {
+        font-size: 0.9em;                                  /* Define o tamanho da fonte para o texto do RODAPÉ.                             */
+        height: auto;                                      /* Define a altura automática para que o RODAPÉ se ajuste ao seu conteúdo.       */
+        padding: 10px 0;                                   /* Define o preenchimento interno vertical para criar um respiro no RODAPÉ.      */
+        line-height: 1.2;                                  /* Define a altura da linha para melhorar a legibilidade do texto do RODAPÉ.     */
+    }
+
+    /*==================================================*/
+    /*              HINO EXIBIDO — MOBILE               */
+    /*   Ajuste para evitar sobreposição com rodapé     */
+    /*==================================================*/
+    #hino-exibido {
+        margin-bottom: 70px;                               /* Define o espaçamento inferior para evitar sobreposição com o RODAPÉ.          */
+    }
+}

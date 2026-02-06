@@ -7,9 +7,9 @@
 /*                          - Ordem canônica dos livros                          */
 /*===============================================================================*/
 
-console.log("[slide_biblia_dados.js] Script iniciado.")                           // Indica o início do módulo de dados bíblicos
+console.log("[slide_biblia_dados.js] Script iniciado.")                              /* Indica o início do módulo de dados bíblicos */
 
-// Cria o objeto de mapeamento de nomes de livros com acentos para formato padrão
+/* BLOCO: Cria o objeto de mapeamento de nomes de livros com acentos para formato padrão */
 const livroAcentuadosParaSemAcentos = {
     "Gênesis": "genesis",
     "Êxodo": "exodo",
@@ -76,7 +76,7 @@ const livroAcentuadosParaSemAcentos = {
     "Apocalipse": "apocalipse"
 }
 
-// Cria a estrutura base com contagem de versículos por capítulo
+/* BLOCO: Cria a estrutura base com contagem de versículos por capítulo                  */
 const baseLivros = {
     "genesis": { 1: 31, 2: 25, 3: 24, 4: 26, 5: 32, 6: 22, 7: 24, 8: 22, 9: 29, 10: 32, 11: 32, 12: 20, 13: 18, 14: 24, 15: 21, 16: 16, 17: 27, 18: 33, 19: 38, 20: 18, 21: 34, 22: 24, 23: 20, 24: 67, 25: 34, 26: 35, 27: 46, 28: 22, 29: 35, 30: 43, 31: 55, 32: 32, 33: 20, 34: 31, 35: 29, 36: 43, 37: 36, 38: 30, 39: 23, 40: 23, 41: 57, 42: 38, 43: 34, 44: 34, 45: 28, 46: 34, 47: 31, 48: 22, 49: 33, 50: 26 },
     "exodo": { 1: 22, 2: 25, 3: 22, 4: 31, 5: 23, 6: 30, 7: 25, 8: 32, 9: 35, 10: 29, 11: 10, 12: 37, 13: 22, 14: 31, 15: 27, 16: 36, 17: 16, 18: 27, 19: 29, 20: 26, 21: 36, 22: 31, 23: 33, 24: 18 },
@@ -143,7 +143,7 @@ const baseLivros = {
     "apocalipse": { 1: 20, 2: 29, 3: 22, 4: 11, 5: 14, 6: 17, 7: 17, 8: 13, 9: 21, 10: 11, 11: 19, 12: 17, 13: 18, 14: 20, 15: 8, 16: 21, 17: 18, 18: 24, 19: 21, 20: 15, 21: 27, 22: 21 }
 }
 
-// Cria o objeto de contagem de versículos por versão (todas usam a mesma estrutura base)
+/* BLOCO: Cria o objeto de contagem de versículos por versão (todas usam a mesma estrutura base)   */
 const contagemVersiculosPorVersao = {
     acf: baseLivros,
     ara: baseLivros,
@@ -155,7 +155,7 @@ const contagemVersiculosPorVersao = {
     original: baseLivros,
 }
 
-// Cria o array com a ordem canônica dos livros
+/* BLOCO: Cria o array com a ordem canônica dos livros                                   */
 const livrosOrdem = [
     "genesis",
     "exodo",
@@ -222,10 +222,8 @@ const livrosOrdem = [
     "apocalipse"
 ]
 
-/*===============================================================================*/
-/*                              EXPORTAÇÕES GLOBAIS                              */
-/*===============================================================================*/
-window.livroAcentuadosParaSemAcentos = livroAcentuadosParaSemAcentos
-window.baseLivros = baseLivros
-window.contagemVersiculosPorVersao = contagemVersiculosPorVersao
-window.livrosOrdem = livrosOrdem
+/* BLOCO: Define as exportações globais para permitir o acesso aos dados bíblicos por outros módulos do sistema*/
+window.livroAcentuadosParaSemAcentos = livroAcentuadosParaSemAcentos               /* Exporta mapa de nomes       */
+window.baseLivros = baseLivros                                                     /* Exporta banco de contagem   */
+window.contagemVersiculosPorVersao = contagemVersiculosPorVersao                   /* Exporta mapa de traduções   */
+window.livrosOrdem = livrosOrdem                                                   /* Exporta lista de ordenação  */

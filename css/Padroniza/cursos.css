@@ -1,0 +1,110 @@
+/*======================================================*/
+/*         ESTILOS DA PÁGINA DE CURSOS BÍBLICOS         */
+/* Layout, cores, títulos, listas, links e marca d'água */
+/*======================================================*/
+
+/*======================================================*/
+/*              LAYOUT PRINCIPAL DO CORPO               */
+/*   Configurações gerais de fundo, fonte e espaçamento */
+/*======================================================*/
+body {
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do CONTÊINER PRINCIPAL. */
+    padding: 20px;                                         /* Define o preenchimento interno para criar um respiro no CONTÊINER PRINCIPAL.                      */
+    background-color: #f4f4f4;                           /* Define a cor de fundo em cinza claro para o CONTÊINER PRINCIPAL.                                  */
+    font-family: Arial, sans-serif;                        /* Define o tipo de fonte como ARIAL, SANS-SERIF para o CONTÊINER PRINCIPAL.                         */
+    line-height: 1.6;                                      /* Define a altura da linha para melhorar a legibilidade do texto no CONTÊINER PRINCIPAL.            */
+}
+
+/*======================================================*/
+/*               CONTEÚDO PRINCIPAL                     */
+/*   Área central que exibe o conteúdo dos cursos       */
+/*======================================================*/
+.content {
+    width: 100%;                                           /* Define a largura total para garantir que o CONTEÚDO PRINCIPAL ocupe toda a extensão. */
+}
+
+/*======================================================*/
+/*                TÍTULO PRINCIPAL (H1)                 */
+/*   Cabeçalho principal centralizado com destaque      */
+/*======================================================*/
+h1 {
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do TÍTULO PRINCIPAL.    */
+    padding: 0;                                            /* Define o preenchimento interno como nulo para remover os espaçamentos padrão do TÍTULO PRINCIPAL. */
+    color: #3663bd;                                      /* Define a cor do texto em azul escuro para o TÍTULO PRINCIPAL.                                     */
+    font-size: 2.5em;                                      /* Define o tamanho da fonte do TÍTULO PRINCIPAL.                                                    */
+    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO do TÍTULO PRINCIPAL.                                        */
+    font-weight: 900;                                      /* Define o peso da fonte como EXTRA-NEGRITO do TÍTULO PRINCIPAL.                                    */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TÍTULO PRINCIPAL.                               */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);         /* Adiciona uma sombra sutil para dar profundidade ao texto do TÍTULO PRINCIPAL.                     */
+}
+
+/*======================================================*/
+/*                  SUBTÍTULOS (H2)                     */
+/*   Cabeçalhos secundários alinhados à esquerda        */
+/*======================================================*/
+h2 {
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do SUBTÍTULO.    */
+    padding: 0;                                            /* Define o preenchimento interno como nulo para remover os espaçamentos padrão do SUBTÍTULO. */
+    color: #3663bd;                                      /* Define a cor do texto em azul escuro para o SUBTÍTULO.                                     */
+    font-size: 2em;                                        /* Define o tamanho da fonte do SUBTÍTULO.                                                    */
+    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO do SUBTÍTULO.                                        */
+    font-weight: 900;                                      /* Define o peso da fonte como EXTRA-NEGRITO do SUBTÍTULO.                                    */
+    text-align: left;                                      /* Define o alinhamento de texto à esquerda para o SUBTÍTULO.                                 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);         /* Adiciona uma sombra sutil para dar profundidade ao texto do SUBTÍTULO.                     */
+}
+
+/*======================================================*/
+/*                LISTA NÃO ORDENADA                    */
+/*   Remove os marcadores e o preenchimento padrão      */
+/*======================================================*/
+ul {
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão da LISTA NÃO ORDENADA.     */
+    padding: 0;                                            /* Define o preenchimento interno como nulo para remover os espaçamentos padrão da LISTA NÃO ORDENADA.  */
+    list-style-type: none;                                 /* Define o estilo de lista como nulo para remover os marcadores da LISTA NÃO ORDENADA.                 */
+}
+
+/*======================================================*/
+/*                  ITENS DA LISTA                      */
+/*   Estilo dos blocos individuais com fundo branco     */
+/*======================================================*/
+li {
+    margin: 10px 0;                                        /* Define margens verticais para separar os ITENS DA LISTA.                      */
+    padding: 15px;                                         /* Define o preenchimento interno para criar um respiro nos ITENS DA LISTA.      */
+    background: #fff;                                    /* Define a cor de fundo em branco para destacar os ITENS DA LISTA.              */
+    border-radius: 5px;                                    /* Define os cantos arredondados para suavizar o design dos ITENS DA LISTA.      */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);            /* Adiciona uma sombra sutil para criar profundidade nos ITENS DA LISTA.         */
+}
+
+/*======================================================*/
+/*                        LINKS                         */
+/*   Estilo padrão dos elementos de navegação           */
+/*======================================================*/
+a {
+    color: #007BFF;                                      /* Define a cor do texto em azul para os LINKS.                                   */
+    text-decoration: none;                                 /* Define a decoração do texto como nula para remover o sublinhado dos LINKS.     */
+}
+
+/*======================================================*/
+/*                  LINKS — HOVER                       */
+/*   Efeito visual ao passar o mouse sobre o link       */
+/*======================================================*/
+a:hover {
+    text-decoration: underline;                            /* Aplica o sublinhado no efeito de HOVER para destaque visual nos LINKS.         */
+}
+
+/*======================================================*/
+/*                    MARCA D'ÁGUA                      */
+/*   Imagem de fundo fixa semi-transparente             */
+/*======================================================*/
+.watermark {
+    position: fixed;                                       /* Define o posicionamento fixo para manter a MARCA D'ÁGUA estática durante a rolagem da página.     */
+    top: 0;                                                /* Define a distância do topo como zero para que a MARCA D'ÁGUA comece no limite superior.           */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar a MARCA D'ÁGUA ao limite lateral.           */
+    width: 100%;                                           /* Define a largura total para garantir que a MARCA D'ÁGUA preencha a tela horizontalmente.          */
+    height: 100%;                                          /* Define a altura total para garantir que a MARCA D'ÁGUA cubra toda a área de visualização.         */
+    background-image: url("..\\img\\cursos.jpg");          /* Define a imagem de fundo para a MARCA D'ÁGUA.                                                     */
+    background-repeat: repeat;                             /* Define a repetição da imagem para preencher toda a área da MARCA D'ÁGUA.                          */
+    background-size: cover;                                /* Ajusta a imagem para cobrir toda a área da MARCA D'ÁGUA.                                          */
+    opacity: 0.2;                                          /* Define a opacidade para tornar a MARCA D'ÁGUA semi-transparente e sutil.                          */
+    pointer-events: none;                                  /* Desativa a interação do mouse para que a MARCA D'ÁGUA não bloqueie cliques no conteúdo.           */
+}

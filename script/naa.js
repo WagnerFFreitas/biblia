@@ -6,99 +6,106 @@
 /*                    - Manipulação de títulos e modo de leitura                 */
 /*===============================================================================*/
 
-// Este bloco definição da versão da Bíblia para este script
-window.BIBLE_VERSION                   = 'naa';                                                              // Define o identificador da versão
-window.NOME_VERSAO_COMPLETA_BIBLIA     = 'Nova Almeida Atualizada';                                          // Nome completo da versão
-console.log(`[${window.BIBLE_VERSION}.js] Script carregado. Definindo funções específicas para NAA.`);       // Loga o carregamento do script
+/* BLOCO: Define as constantes globais de identificação e o nome completo da tradução para o sistema    */
+window.BIBLE_VERSION                   = 'naa';                                                                    /* Identificador da versão      */
+window.NOME_VERSAO_COMPLETA_BIBLIA     = 'Nova Almeida Atualizada';                                                /* Nome completo da tradução    */
+console.log(`[${window.BIBLE_VERSION}.js] Script carregado. Definindo funções específicas para NAA.`);             /* Log de carga do módulo       */
 
-// Este bloco cria a função que será chamada por livros_capitulos.js. Obtém a contagem de versículos para um determinado livro e capítulo.
-window.getSpecificVerseCount = function(livro, capitulo) {
-    return window.getVerseCount(livro, capitulo);                                                            // Chama a função global para obter a contagem
-};
+/* BLOCO: Função que retorna a contagem de versículos consultando o motor de dados central              */
+window.getSpecificVerseCount = function(livro, capitulo) {                                                         /* Inicia contador de versos    */
+    return window.getVerseCount(livro, capitulo);                                                                  /* Consulta base de dados       */
+}
 
-// Este bloco carrega e exibe um versículo específico da Bíblia NAA.
-window.loadSpecificVerse = async function(livro, capitulo, versiculo) {
-    console.log(`[NAA] Carregando: ${livro} ${capitulo}:${versiculo}`);                                      // Loga o carregamento do versículo
-    const content = document.querySelector('.conteudo');                                                     // Seleciona o conteiner principal
-    if (!content) {                                                                                          // Verifica se o conteiner principal existe
-        console.error("[NAA] Elemento .conteudo não encontrado.");                                           // Loga erro se não encontrar o conteiner
-        return;                                                                                              // Interrompe a função se o conteiner não existir
+/* BLOCO: Função assíncrona responsável por buscar o JSON da tradução e renderizar o versículo na tela  */
+window.loadSpecificVerse = async function(livro, capitulo, versiculo) {                                            /* Inicia motor de carga        */
+    console.log(`[NAA] Carregando: ${livro} ${capitulo}:${versiculo}`);                                            /* Log de posição de leitura    */
+    const content = document.querySelector('.conteudo');                                                           /* Localiza contêiner no DOM    */
+    if (!content) {                                                                                                /* Valida existência elemento   */
+        console.error("[NAA] Elemento .conteudo não encontrado.");                                                 /* Relata falha de interface    */
+        return;
     }
 
-    const existingVersiculoDiv = content.querySelector('.texto-versiculo');                                  // Busca o versículo anterior exibido
-    if (existingVersiculoDiv) {                                                                              // Remove o versículo anterior, se existir
-        existingVersiculoDiv.remove();                                                                       // Remove da tela
+    /* BLOCO: Localiza e remove a exibição do versículo anterior para preparar a interface para o novo conteúdo*/
+    const existingVersiculoDiv = content.querySelector('.texto-versiculo');                                        /* Busca div de verso antigo    */
+    if (existingVersiculoDiv) {
+        existingVersiculoDiv.remove();                                                                             /* Remove elemento do documento  */
     }
 
-    const versiculoElementDiv = document.createElement('div');                                               // Cria um novo elemento <div> para o versículo
-    versiculoElementDiv.classList.add('versiculo', 'texto-versiculo');                                       // Adiciona classes CSS para estilização
-    if (document.body.classList.contains('module-leitura')) {                                                // Verifica se o modo de leitura está ativo no body
-        versiculoElementDiv.classList.add('modo-leitura');                                                   // Adiciona classe se modo leitura estiver ativo
+    /* BLOCO: Cria o contêiner visual do versículo e aplica classes para suportar o modo leitura        */
+    const versiculoElementDiv = document.createElement('div');                                                     /* Instancia elemento de bloco  */
+    versiculoElementDiv.classList.add('versiculo', 'texto-versiculo');                                             /* Atribui classes de estilo    */
+    if (document.body.classList.contains('module-leitura')) {                                                      /* Verifica estado interface    */
+        versiculoElementDiv.classList.add('modo-leitura');                                                         /* Aplica layout de leitura     */
     }
 
-    // Inicia um bloco try-catch para lidar com possíveis erros de requisição
+    /* BLOCO: Tenta realizar a requisição do arquivo JSON contendo o texto e os títulos do capítulo     */
     try {
-        const response = await fetch(`../versao/naa/${livro}/${capitulo}.json`);                             // Busca o arquivo JSON do capítulo
-        if (!response.ok) {                                                                                  // Verifica se a requisição HTTP foi bem-sucedida
-            throw new Error(`HTTP ${response.status} ao buscar JSON para ${livro} ${capitulo} (NAA)`);       // Lança um erro se a resposta não for 'ok'
+        const response = await fetch(`../versao/naa/${livro}/${capitulo}.json`);                                   /* Solicita arquivo ao servidor */
+        if (!response.ok) {                                                                                        /* Valida resposta da rede      */
+            throw new Error(`HTTP ${response.status} ao buscar JSON para ${livro} ${capitulo} (NAA)`);             /* Lança exceção de falha       */
         }
-        const data = await response.json();                                                                  // Converte a resposta em formato JSON
+        const data = await response.json();                                                                        /* Converte em objeto real      */
 
-        if (data.versiculos && data.versiculos[versiculo]) {                                                 // Verifica se o versículo existe nos dados carregados
-            if (data.titulos && data.titulos[versiculo]) {                                                   // Verifica se existe título para o versículo
-                const tituloInternoH3 = document.createElement('h3');                                        // Cria elemento para o título interno
-                tituloInternoH3.classList.add('titulo-versiculo-interno');                                   // Adiciona classe ao título
-                tituloInternoH3.textContent = data.titulos[versiculo];                                       // Define o texto do título
-                versiculoElementDiv.appendChild(tituloInternoH3);                                            // Adiciona o título à div do versículo
+        /* BLOCO: Valida a existência do versículo nos dados e processa o título da seção se disponível   */
+        if (data.versiculos && data.versiculos[versiculo]) {                                                       /* Verifica se índice existe    */
+            if (data.titulos && data.titulos[versiculo]) {                                                         /* Verifica subtítulo da seção  */
+                const tituloInternoH3 = document.createElement('h3');                                              /* Cria cabeçalho de seção      */
+                tituloInternoH3.classList.add('titulo-versiculo-interno');                                         /* Estiliza o cabeçalho         */
+                tituloInternoH3.textContent = data.titulos[versiculo];                                             /* Insere texto do título       */
+                versiculoElementDiv.appendChild(tituloInternoH3);                                                  /* Anexa ao bloco do versículo  */
             }
 
-            const textoP = document.createElement('p');                                                      // Cria elemento <p> para o texto do versículo
-            textoP.id = `versiculo-${versiculo}`;                                                            // Define o id do <p>
-            textoP.textContent = data.versiculos[versiculo];                                                 // Define o texto do versículo
-            versiculoElementDiv.appendChild(textoP);                                                         // Adiciona o <p> à div do versículo
-        } else {                                                                                             // Caso o versículo não seja encontrado nos dados
-            const textoP = document.createElement('p');                                                      // Cria elemento <p> para mensagem de erro
-            textoP.textContent = `Versículo ${versiculo} não encontrado nos dados.`;                         // Define mensagem de erro
-            versiculoElementDiv.appendChild(textoP);                                                         // Adiciona o <p> à div do versículo
-            console.warn(`[NAA] Versículo ${versiculo} não encontrado nos dados de ${livro} ${capitulo}.json (NAA)`);
+            /* BLOCO: Instancia o parágrafo para o texto bíblico e atribui o identificador único para busca*/
+            const textoP = document.createElement('p');                                                            /* Cria elemento de parágrafo   */
+            textoP.id = `versiculo-${versiculo}`;                                                                  /* Define identificador único   */
+            textoP.textContent = data.versiculos[versiculo];                                                       /* Insere o texto sagrado       */
+            versiculoElementDiv.appendChild(textoP);                                                               /* Anexa texto ao bloco         */
+        } else {   
+            
+            /* BLOCO: Trata o caso de versículo não localizado nos dados carregados do servidor         */
+            const textoP = document.createElement('p');                                                            /* Cria aviso de ausência       */
+            textoP.textContent = `Versículo ${versiculo} não encontrado nos dados.`;                               /* Define mensagem amigável     */
+            versiculoElementDiv.appendChild(textoP);                                                               /* Anexa aviso ao bloco         */
+            console.warn(`[NAA] Versículo ${versiculo} não encontrado em ${livro} ${capitulo}.json (NAA)`);              /* Alerta técnico no console    */
         }
-    } catch (error) {                                                                                        // Captura erros que possam ocorrer no bloco try
-        console.error(`[NAA] Erro ao carregar versículo ${livro} ${capitulo}:${versiculo} (NAA):`, error);   // Loga erro
-        const textoP = document.createElement('p');                                                          // Cria elemento <p> para mensagem de erro
-        textoP.textContent = `Erro ao carregar versículo ${versiculo}.`;                                     // Define mensagem de erro
-        textoP.style.color = "red";                                                                          // Define cor vermelha para o texto
-        versiculoElementDiv.appendChild(textoP);                                                             // Adiciona o <p> à div do versículo
+    } catch (error) {                                                                                              /* Captura falha na requisição  */
+        
+        /* BLOCO: Registra a falha técnica no console e exibe um alerta visual de erro para o usuário   */
+        console.error(`[NAA] Erro ao carregar versículo ${livro} ${capitulo}:${versiculo} (NAA):`, error);         /* Log de erro crítico técnico  */
+        const textoP = document.createElement('p');                                                                /* Cria parágrafo de erro       */
+        textoP.textContent = `Erro ao carregar versículo ${versiculo}.`;                                           /* Define aviso de erro         */
+        textoP.style.color = "red";                                                                                /* Aplica destaque visual       */
+        versiculoElementDiv.appendChild(textoP);                                                                   /* Anexa erro ao bloco          */
     }
 
-    content.appendChild(versiculoElementDiv);                                                                // Adiciona o versículo ao conteiner
+    content.appendChild(versiculoElementDiv);                                                                      /* Publica versículo no site    */
 
-    if (window.titulo) {                                                                                     // Verifica se o elemento do título principal existe
-        let nomeLivroDisplay = livro.toUpperCase();                                                          // Define nome do livro em maiúsculas como fallback
-        if (typeof window.getLivroDisplayName === 'function') {                                              // Verifica se a função para obter o nome formatado do livro existe
-            nomeLivroDisplay = window.getLivroDisplayName(livro);                                            // Usa a função para obter nome acentuado
-        } else {                                                                                             // Caso a função não exista
-            console.warn("[NAA] Função window.getLivroDisplayName não encontrada. Usando chave do livro em maiúsculas para o título.");
+    /* BLOCO: Atualiza o elemento de título H2 principal para refletir a navegação atual do usuário     */
+    if (window.titulo) {                                                                                           /* Verifica se H2 está pronto   */
+        let nomeLivroDisplay = livro.toUpperCase();                                                                /* Buffer para nome do livro    */
+        if (typeof window.getLivroDisplayName === 'function') {                                                    /* Verifica tradutor de nomes   */
+            nomeLivroDisplay = window.getLivroDisplayName(livro);                                                  /* Obtém nome legível           */
+        } else {
+            console.warn("[NAA] Função getLivroDisplayName não encontrada.");                                      /* Alerta falta de função       */
         }
-        window.titulo.textContent = `${nomeLivroDisplay} - CAPÍTULO ${capitulo} - VERSÍCULO ${versiculo}`;   // Atualiza o texto do título da página
-    } else {                                                                                                 // Caso o elemento do título não seja encontrado
-        console.warn(`[NAA] Elemento H2 principal (window.titulo) não encontrado para atualizar.`);
+        window.titulo.textContent = `${nomeLivroDisplay} - CAPÍTULO ${capitulo} - VERSÍCULO ${versiculo}`;         /* Escreve novo título H2       */
+    } else {
+        console.warn(`[NAA] Elemento H2 principal (window.titulo) não encontrado.`);                               /* Alerta ausência de H2        */
     }
-};
+}
 
-// Este bloco define a função para obter o título de uma seção.
-window.getSpecificChapterTitle = async function(livro, capitulo, versiculo) {
-    console.log(`[NAA] Obtendo título interno para: ${livro} ${capitulo}:${versiculo}`);                     // Loga a busca do título
-    try {                                                                                                    // Inicia um bloco try-catch para lidar com erros
-        const response = await fetch(`../versao/naa/${livro}/${capitulo}.json`);                             // Busca o arquivo JSON do capítulo
-        if (!response.ok) {                                                                                  // Verifica se a requisição foi bem-sucedida
-            throw new Error(`HTTP ${response.status} ao buscar JSON para ${livro} ${capitulo} (NAA)`);
+/* BLOCO: Função destinada a recuperar o título de seção de um capítulo específico via requisição assíncrona*/
+window.getSpecificChapterTitle = async function(livro, capitulo, versiculo) {                                      /* Inicia busca de subtítulo    */
+    console.log(`[NAA] Obtendo título interno para: ${livro} ${capitulo}:${versiculo}`);                           /* Log de busca de metadados    */
+    try {
+        const response = await fetch(`../versao/naa/${livro}/${capitulo}.json`);                                   /* Solicita dados do servidor   */
+        if (!response.ok) {                                                                                        /* Valida resposta da rede      */
+            throw new Error(`HTTP ${response.status} ao buscar JSON para ${livro} ${capitulo} (NAA)`);             /* Lança exceção de erro        */
         }
-        const data = await response.json();                                                                  // Converte a resposta para JSON
-        return data.titulos && data.titulos[versiculo] ? data.titulos[versiculo] : null;                     // Retorna o título se existir, caso contrário retorna null
-    } catch (error) {                                                                                        // Captura erros que possam ocorrer
-        console.error(`[NAA] Erro ao obter título interno para ${livro} ${capitulo}:${versiculo} (NAA):`, error);// Loga erro
-        return null;                                                                                         // Retorna null em caso de erro
+        const data = await response.json();                                                                        /* Converte em objeto real      */
+        return data.titulos && data.titulos[versiculo] ? data.titulos[versiculo] : null;                           /* Retorna subtítulo ou nulo    */
+    } catch (error) {
+        console.error(`[NAA] Erro ao obter título interno para ${livro} ${capitulo}:${versiculo} (NAA):`, error);  /* Log de falha na busca        */
+        return null;                                                                                               /* Retorno seguro no erro       */
     }
-};
-
-// --- FIM DO SCRIPT naa.js ---
+}

@@ -1,107 +1,104 @@
 /*===============================================================================*/
 /*                        MÓDULO DE UTILITÁRIOS DO SLIDE                         */
 /*===============================================================================*/
-/*           Este módulo contém:                                                 */
-/*                             - Funções para normalização de nomes de livros    */
-/*                             - Funções para conversão de formatos              */
-/*                             - Utilitários gerais                              */
+/*  Este módulo contém:                                                          */
+/*                    - Funções para normalização de nomes de livros             */
+/*                    - Funções para conversão de formatos                       */
+/*                    - Utilitários gerais para contagem e validação             */
 /*===============================================================================*/
 
-console.log("[slide_biblia_utils.js] Script iniciado.")                           // Indica o início do módulo de utilitários
+console.log("[slide_biblia_utils.js] Script iniciado.")                                                                  /* Log de inicialização        */
 
-//  Este bloco cria a função normalizar o nome do livro para o formato interno padrão
-function normalizarNomeLivro(nome) {
-    if (!window.livroAcentuadosParaSemAcentos) {
-        console.warn("[slide_biblia_utils.js] Dados bíblicos não carregados")     // Verifica se o dicionário de livros está carregado
-        return nome.toLowerCase()                                                 // Retorna o nome em minúsculo caso não haja dicionário
+/* BLOCO: Função para normalizar o nome do livro para o formato interno padrão (sem acentos e minúsculo)*/
+function normalizarNomeLivro(nome) {                                                                                     /* Inicia normalização         */
+    if (!window.livroAcentuadosParaSemAcentos) {                                                                         /* Verifica carga de dados     */
+        console.warn("[slide_biblia_utils.js] Dados bíblicos não carregados")                                            /* Alerta dados ausentes       */
+        return nome.toLowerCase()                                                                                        /* Fallback minúsculo          */
     }
-    
-    const nomeLower = nome.toLowerCase()                                          // Converte o nome para minúsculo
-    // Procura o nome no dicionário, ignorando acentos
-    const semAcentos = Object.keys(window.livroAcentuadosParaSemAcentos).find((key) => key.toLowerCase() === nomeLower)
+
+    const nomeLower = nome.toLowerCase()                                                                                 /* Converte para minúsculas    */
+
+    const semAcentos = Object.keys(window.livroAcentuadosParaSemAcentos).find((key) => key.toLowerCase() === nomeLower)  /* Busca chave no dicionário   */
     if (semAcentos) {
-        return window.livroAcentuadosParaSemAcentos[semAcentos]                   // Se encontrar, retorna o nome sem acentos
+        return window.livroAcentuadosParaSemAcentos[semAcentos]                                                          /* Retorna valor sem acento    */
     }
 
-    return (                                                                      // Caso não encontre, tenta encontrar o nome já normalizado
+    return (
         Object.keys(window.livroAcentuadosParaSemAcentos).find((key) => window.livroAcentuadosParaSemAcentos[key] === nomeLower) ||
-        nomeLower                                                                 // Se não encontrar, retorna o nome em minúsculo
+        nomeLower                                                                                                        /* Retorna ID ou original      */
     )
 }
 
-// Este bloco cria a função que obtém o nome acentuado de um livro para exibição
-function obterNomeAcentuado(nomeSemAcento) {
-    if (!window.livroAcentuadosParaSemAcentos) {                                  // Verifica se o dicionário de livros está carregado
-        console.warn("[slide_biblia_utils.js] Dados bíblicos não carregados")
-        return nomeSemAcento                                                      // Retorna o nome sem acento caso não haja dicionário
+/* BLOCO: Função que obtém o nome acentuado (legível) de um livro a partir do seu identificador interno */
+function obterNomeAcentuado(nomeSemAcento) {                                                                             /* Inicia busca de nome real   */
+    if (!window.livroAcentuadosParaSemAcentos) {                                                                         /* Verifica carga de dados     */
+        console.warn("[slide_biblia_utils.js] Dados bíblicos não carregados")                                            /* Alerta dados ausentes       */
+        return nomeSemAcento                                                                                             /* Retorna ID como fallback    */
     }
 
-    return (                                                                      // Procura a chave cujo valor corresponde ao nome sem acento
+    return (
         Object.keys(window.livroAcentuadosParaSemAcentos).find((key) => window.livroAcentuadosParaSemAcentos[key] === nomeSemAcento) ||
-        nomeSemAcento                                                             // Se não encontrar, retorna o nome sem acento
+        nomeSemAcento                                                                                                    /* Retorna chave ou original   */
     )
 }
 
-
-// Este bloco cria a função que valida se um livro existe na configuração da versão
-function validarLivro(livro, versao) {
-    // Verifica se a estrutura de contagem de versículos está carregada e se a versão existe
-    if (!window.contagemVersiculosPorVersao || !window.contagemVersiculosPorVersao[versao]) {
-        return false                                                              // Retorna falso se não houver dados
+/* BLOCO: Função que valida se um identificador de livro existe na configuração da versão selecionada   */
+function validarLivro(livro, versao) {                                                                                   /* Inicia validação de livro   */
+    if (!window.contagemVersiculosPorVersao || !window.contagemVersiculosPorVersao[versao]) {                            /* Verifica integridade objeto */
+        return false                                                                                                     /* Retorna falso por erro      */
     }
 
-    return window.contagemVersiculosPorVersao[versao].hasOwnProperty(livro)       // Verifica se o livro existe na versão informada
+    return window.contagemVersiculosPorVersao[versao].hasOwnProperty(livro)                                              /* Verifica existência chave   */
 }
 
-
-// Este bloco cria a função que obtém a contagem de versículos de um capítulo
-function obterContagemVersiculos(livro, capitulo, versao) {
-    if (!validarLivro(livro, versao)) {                                           // Valida se o livro existe na versão
-        return 0                                                                  // Retorna 0 se o livro não existir
+/* BLOCO: Função que recupera a contagem de versículos de um capítulo específico dentro de uma tradução */
+function obterContagemVersiculos(livro, capitulo, versao) {                                                              /* Inicia consulta de versos   */
+    if (!validarLivro(livro, versao)) {                                                                                  /* Valida o livro primeiro     */
+        return 0                                                                                                         /* Retorna zero se inválido    */
     }
-    return window.contagemVersiculosPorVersao[versao][livro][capitulo] || 0       // Retorna a contagem de versículos do capítulo, ou 0 se não existir
+    return window.contagemVersiculosPorVersao[versao][livro][capitulo] || 0                                              /* Retorna total de versículos */
 }
 
-// Este bloco cria a função que obtém o próximo livro na ordem canônica
-function obterProximoLivro(livroAtual) {
-    if (!window.livrosOrdem) {                                                    // Verifica se a ordem dos livros está carregada
-        return null
+/* BLOCO: Função que identifica o próximo livro na sequência canônica da Bíblia                         */
+function obterProximoLivro(livroAtual) {                                                                                 /* Inicia busca próximo livro  */
+    if (!window.livrosOrdem) {                                                                                           /* Verifica lista de ordem     */
+        return null                                                                                                      /* Retorna nulo se ausente     */
     }
 
-    const index = window.livrosOrdem.indexOf(livroAtual)                          // Obtém o índice do livro atual
-    if (index === -1 || index === window.livrosOrdem.length - 1) {                // Se não encontrar ou for o último, retorna null
-        return null
+    const index = window.livrosOrdem.indexOf(livroAtual)                                                                 /* Localiza posição atual      */
+    if (index === -1 || index === window.livrosOrdem.length - 1) {                                                       /* Verifica se é o último      */
+        return null                                                                                                      /* Retorna nulo (fim da lista) */
     }
-    return window.livrosOrdem[index + 1]                                          // Retorna o próximo livro na ordem
+    return window.livrosOrdem[index + 1]                                                                                 /* Retorna sucessor na lista   */
 }
 
-// Este bloco cria a função que obtém o livro anterior na ordem canônica
-function obterLivroAnterior(livroAtual) {
-    if (!window.livrosOrdem) {                                                    // Verifica se a ordem dos livros está carregada
-        return null
+/* BLOCO: Função que identifica o livro anterior na sequência canônica da Bíblia                        */
+function obterLivroAnterior(livroAtual) {                                                                                /* Inicia busca livro anterior */
+    if (!window.livrosOrdem) {                                                                                           /* Verifica lista de ordem     */
+        return null                                                                                                      /* Retorna nulo se ausente     */
     }
-    const index = window.livrosOrdem.indexOf(livroAtual)                          // Obtém o índice do livro atual
-    if (index <= 0) {                                                             // Se for o primeiro ou não encontrar, retorna null
-        return null
+    const index = window.livrosOrdem.indexOf(livroAtual)                                                                 /* Localiza posição atual      */
+    if (index <= 0) {                                                                                                    /* Verifica se é o primeiro    */
+        return null                                                                                                      /* Retorna nulo (sem anterior) */
     }
-    return window.livrosOrdem[index - 1]                                          // Retorna o livro anterior na ordem
+    return window.livrosOrdem[index - 1]                                                                                 /* Retorna antecessor na lista */
 }
 
-// Este bloco cria a função que obtém o número total de capítulos de um livro 
-function obterTotalCapitulos(livro, versao) {
-    if (!validarLivro(livro, versao)) {                                           // Valida se o livro existe na versão
-        return 0                                                                  // Retorna 0 se o livro não existir
+/* BLOCO: Função que calcula a quantidade total de capítulos que um livro possui em determinada versão  */
+function obterTotalCapitulos(livro, versao) {                                                                            /* Inicia contagem capítulos   */
+    if (!validarLivro(livro, versao)) {                                                                                  /* Valida o livro primeiro     */
+        return 0                                                                                                         /* Retorna zero se inválido    */
     }
-    return Object.keys(window.contagemVersiculosPorVersao[versao][livro]).length  // Retorna a quantidade de capítulos do livro
+    return Object.keys(window.contagemVersiculosPorVersao[versao][livro]).length                                         /* Conta chaves do objeto livro*/
 }
 
 /*===============================================================================*/
 /*                             EXPORTAÇÕES GLOBAIS                               */
 /*===============================================================================*/
-window.normalizarNomeLivro = normalizarNomeLivro
-window.obterNomeAcentuado = obterNomeAcentuado
-window.validarLivro = validarLivro
-window.obterContagemVersiculos = obterContagemVersiculos
-window.obterProximoLivro = obterProximoLivro
-window.obterLivroAnterior = obterLivroAnterior
-window.obterTotalCapitulos = obterTotalCapitulos
+window.normalizarNomeLivro = normalizarNomeLivro                                                                         /* Exporta normalização        */
+window.obterNomeAcentuado = obterNomeAcentuado                                                                           /* Exporta tradutor nomes      */
+window.validarLivro = validarLivro                                                                                       /* Exporta validador           */
+window.obterContagemVersiculos = obterContagemVersiculos                                                                 /* Exporta contador versículos */
+window.obterProximoLivro = obterProximoLivro                                                                             /* Exporta seletor sucessor    */
+window.obterLivroAnterior = obterLivroAnterior                                                                           /* Exporta seletor antecessor  */
+window.obterTotalCapitulos = obterTotalCapitulos                                                                         /* Exporta contador capítulos  */

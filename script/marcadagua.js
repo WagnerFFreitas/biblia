@@ -6,15 +6,15 @@
 /*                    - Criação e inserção do elemento visual de fundo           */
 /*===============================================================================*/
 
-// Este bloco adiciona a marca d'água assim que todo o documento HTML for carregado
-window.onload = () => {
-    const content = document.querySelector('.conteudo');                          // Obtém o conteiner principal de conteúdo
-    const marcadaguaConteiner = document.createElement('div');                    // Cria um conteiner específico para a marca d'água
-    marcadaguaConteiner.classList.add('marcadagua');                              // Adiciona classe para estilização
-    const img = document.createElement('img');                                    // Cria o elemento de imagem para a marca d'água
-    img.src = '../img/biblia.png';                                                // Define o caminho da imagem
-    img.alt = "Marca d'água da Bíblia";                                           // Define texto alternativo para acessibilidade
-    img.classList.add('marca-dagua-imagem');                                        // Adiciona classe para estilização
-    marcadaguaConteiner.appendChild(img);                                         // Adiciona a imagem ao conteiner
-    content.appendChild(marcadaguaConteiner);                                     // Adiciona o conteiner ao conteúdo principal
+/* BLOCO: Configura o gatilho de carregamento total da janela para injetar o elemento visual decorativo no fundo da página  */
+window.onload = () => {                                                           /* Inicia ao carregar a página  */
+    const content = document.querySelector('.conteudo');                          /* Localiza a seção principal   */
+    const marcadaguaConteiner = document.createElement('div');                    /* Cria o contêiner do fundo    */
+    marcadaguaConteiner.classList.add('marcadagua');                              /* Aplica a classe de estilo    */
+    const img = document.createElement('img');                                    /* Instancia o objeto imagem    */
+    img.src = '../img/biblia.png';                                                /* Define o endereço da imagem  */
+    img.alt = "Marca d'água da Bíblia";                                           /* Define texto de segurança    */
+    img.classList.add('marca-dagua-imagem');                                      /* Define dimensões da imagem   */
+    marcadaguaConteiner.appendChild(img);                                         /* Une a imagem ao contêiner    */
+    content.appendChild(marcadaguaConteiner);                                     /* Publica o conjunto no site   */
 };

@@ -9,22 +9,16 @@
 
 /* BLOCO: Classe de gestão de versículos                                       */
 class VersiculosManager {                                                                          /* Inicia a classe de gestão            */
-    
-    /* BLOCO: Método construtor da classe                                      */
     constructor() {                                                                                /* Método de inicialização              */
         this.versiculoAtivo = null;                                                                /* Guarda o versículo atual             */
     }
 
     /* BLOCO: Método assíncrono para carregar e exibir um versículo específico */
     async carregarVersiculo(livro, capitulo, versiculo) {                                          /* Inicia a carga do texto              */
-        
-        /* BLOCO: Registro de logs e persistência do estado                    */
         console.log(`[VersiculosManager] Carregando: ${livro} ${capitulo}:${versiculo}`);          /* Registra log no console              */
-
         window.ultimoVersiculoSelecionado = versiculo;                                             /* Salva na memória global              */
-
         const areaConteudo = document.querySelector('section.conteudo');       
-                            /* Captura a seção do site              */
+        /* Captura a seção do site              */
         /* BLOCO: Validação de existência do conteiner principal               */
         if (!areaConteudo) {                                                                       /* Verifica se a seção existe           */
             console.error("[VersiculosManager] Seção não encontrada.");                            /* Loga erro de interface               */

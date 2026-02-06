@@ -1,0 +1,310 @@
+/*======================================================*/
+/*           ESTILOS ESPECÍFICOS MODO DE LEITURA        */
+/*   Layout, botões, títulos, responsividade e cores    */
+/*======================================================*/
+
+/*======================================================*/
+/*            CONTEINER PRINCIPAL MODO LEITURA          */
+/*   Container que engloba todo o conteúdo do modo      */
+/*======================================================*/
+.modo-leitura-conteudo {
+    width: auto;                                           /* Define a largura como automática para o CONTEINER PRINCIPAL DO MODO LEITURA.                      */
+    max-width: 80%;                                        /* Define o limite máximo de largura para o CONTEINER PRINCIPAL DO MODO LEITURA.                     */
+    margin: 20px auto;                                     /* Define as margens laterais automáticas para centralizar o CONTEINER PRINCIPAL DO MODO LEITURA.    */
+    margin-left: 265px;                                    /* Define o recuo à esquerda para posicionar o CONTEINER PRINCIPAL DO MODO LEITURA.                  */
+    margin-right: 10px;                                    /* Define o espaçamento à direita para o CONTEINER PRINCIPAL DO MODO LEITURA.                        */
+    padding: 1px;                                          /* Define o preenchimento interno para criar um respiro no CONTEINER PRINCIPAL DO MODO LEITURA.      */
+    background-color: rgba(30, 30, 30, 0.7);             /* Define a cor de fundo com transparência para o CONTEINER PRINCIPAL DO MODO LEITURA.               */
+    border-radius: 8px;                                    /* Define os cantos arredondados para suavizar o design do CONTEINER PRINCIPAL DO MODO LEITURA.      */
+}
+
+/*======================================================*/
+/*                CABEÇALHO MODO LEITURA                */
+/*      Área superior com informações do capítulo       */
+/*======================================================*/
+.reading-mode-header {
+    margin-bottom: 20px;                                   /* Define o espaçamento inferior para o CABEÇALHO DO MODO LEITURA.               */
+    font-size: 1.8em;                                      /* Define o tamanho da fonte para o CABEÇALHO DO MODO LEITURA.                   */
+    color: #4CAF50;                                      /* Define a cor do texto em verde para o CABEÇALHO DO MODO LEITURA.              */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o CABEÇALHO DO MODO LEITURA.  */
+}
+
+/*======================================================*/
+/*                NAVEGAÇÃO MODO LEITURA                */
+/*  Contêiner para botões de navegação entre capítulos  */
+/*======================================================*/
+.reading-mode-navigation {
+    margin-bottom: 20px;                                   /* Define o espaçamento inferior para a NAVEGAÇÃO DO MODO LEITURA.                      */
+    padding: 10px;                                         /* Define o preenchimento interno para criar um respiro na NAVEGAÇÃO DO MODO LEITURA.   */
+    text-align: left;                                      /* Define o alinhamento do texto à esquerda para a NAVEGAÇÃO DO MODO LEITURA.           */
+}
+
+/*======================================================*/
+/*         NAVEGAÇÃO MODO LEITURA — BOTÕES              */
+/*   Estilo base para botões de navegação de capítulo   */
+/*======================================================*/
+#modoLeitura-capitulo-anterior,
+#modoLeitura-capitulo-proximo {
+    margin: 0 5px;                                         /* Define as margens horizontais para os BOTÕES DE NAVEGAÇÃO DO MODO LEITURA.                                       */
+    padding: 10px 15px;                                    /* Define o preenchimento interno para criar um respiro nos BOTÕES DE NAVEGAÇÃO DO MODO LEITURA.                    */
+    border: 1px solid transparent;                         /* Define a borda transparente para os BOTÕES DE NAVEGAÇÃO DO MODO LEITURA.                                         */
+    border-radius: 4px;                                    /* Define os cantos arredondados para suavizar o design dos BOTÕES DE NAVEGAÇÃO DO MODO LEITURA.                    */
+    font-size: 1em;                                        /* Define o tamanho da fonte para os BOTÕES DE NAVEGAÇÃO DO MODO LEITURA.                                           */
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para os BOTÕES DE NAVEGAÇÃO DO MODO LEITURA.                                   */
+    line-height: 1.2;                                      /* Define a altura da linha para os BOTÕES DE NAVEGAÇÃO DO MODO LEITURA.                                            */
+    color: white;                                        /* Define a cor do texto em branco para os BOTÕES DE NAVEGAÇÃO DO MODO LEITURA.                                     */
+    background-color: #4CAF50;                           /* Define a cor de fundo em verde para os BOTÕES DE NAVEGAÇÃO DO MODO LEITURA.                                      */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação nos BOTÕES DE NAVEGAÇÃO DO MODO LEITURA.        */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Define transições suaves para efeitos visuais nos BOTÕES DE NAVEGAÇÃO DO MODO LEITURA. */
+}
+
+/*======================================================*/
+/*    NAVEGAÇÃO MODO LEITURA — BOTÃO ANTERIOR ATIVO     */
+/*         Estilo para botão anterior habilitado        */
+/*======================================================*/
+#modoLeitura-capitulo-anterior:not([disabled]) {
+    background-color: #4CAF50;                           /* Define a cor de fundo em verde para o BOTÃO ANTERIOR HABILITADO.                */
+    color: white;                                        /* Define a cor do texto em branco para o BOTÃO ANTERIOR HABILITADO.               */
+    border-color: #3e8e41;                               /* Define a cor da borda em verde escuro para o BOTÃO ANTERIOR HABILITADO.         */
+}
+
+/*======================================================*/
+/*    NAVEGAÇÃO MODO LEITURA — BOTÃO ANTERIOR HOVER     */
+/*       Efeito visual ao passar o mouse no ativo       */
+/*======================================================*/
+#modoLeitura-capitulo-anterior:not([disabled]):hover {
+    background-color: #45a049;                           /* Define a cor de fundo em verde escuro para o efeito de HOVER no BOTÃO ANTERIOR HABILITADO.          */
+    border-color: #3a7d3c;                               /* Define a cor da borda em verde mais escuro para o efeito de HOVER no BOTÃO ANTERIOR HABILITADO.     */
+}
+
+/*======================================================*/
+/*  NAVEGAÇÃO MODO LEITURA — BOTÃO ANTERIOR DESATIVADO  */
+/*        Estilo para botão anterior desabilitado       */
+/*======================================================*/
+#modoLeitura-capitulo-anterior[disabled] {
+    background-color: #ffffff;                           /* Define a cor de fundo em branco para o BOTÃO ANTERIOR DESATIVADO.             */
+    color: #6c757d;                                      /* Define a cor do texto em cinza para o BOTÃO ANTERIOR DESATIVADO.              */
+    border: 1px solid #ced4da;                           /* Define a borda cinza clara para o BOTÃO ANTERIOR DESATIVADO.                  */
+    opacity: 1;                                            /* Define a opacidade total para o BOTÃO ANTERIOR DESATIVADO.                    */
+    cursor: not-allowed;                                   /* Define o cursor como "não permitido" para o BOTÃO ANTERIOR DESATIVADO.        */
+}
+
+/*======================================================*/
+/*     NAVEGAÇÃO MODO LEITURA — BOTÃO PRÓXIMO ATIVO     */
+/*          Estilo para botão próximo habilitado        */
+/*======================================================*/
+#modoLeitura-capitulo-proximo:not([disabled]) {
+    background-color: #4CAF50;                           /* Define a cor de fundo em verde para o BOTÃO PRÓXIMO HABILITADO.                 */
+    color: white;                                        /* Define a cor do texto em branco para o BOTÃO PRÓXIMO HABILITADO.                */
+    border-color: #3e8e41;                               /* Define a cor da borda em verde escuro para o BOTÃO PRÓXIMO HABILITADO.          */
+}
+
+/*======================================================*/
+/*    NAVEGAÇÃO MODO LEITURA — BOTÃO PRÓXIMO HOVER      */
+/*      Efeito visual ao passar o mouse no ativo        */
+/*======================================================*/
+#modoLeitura-capitulo-proximo:not([disabled]):hover {
+    background-color: #45a049;                           /* Define a cor de fundo em verde escuro para o efeito de HOVER no BOTÃO PRÓXIMO HABILITADO.           */
+    border-color: #3a7d3c;                               /* Define a cor da borda em verde mais escuro para o efeito de HOVER no BOTÃO PRÓXIMO HABILITADO.      */
+}
+
+/*======================================================*/
+/*   NAVEGAÇÃO MODO LEITURA — BOTÃO PRÓXIMO DESATIVADO  */
+/*        Estilo para botão próximo desabilitado        */
+/*======================================================*/
+#modoLeitura-capitulo-proximo[disabled] {
+    background-color: #6c757d;                           /* Define a cor de fundo em cinza para o BOTÃO PRÓXIMO DESATIVADO.                 */
+    color: #adb5bd;                                      /* Define a cor do texto em cinza claro para o BOTÃO PRÓXIMO DESATIVADO.           */
+    border-color: #5a6268;                               /* Define a cor da borda em cinza escuro para o BOTÃO PRÓXIMO DESATIVADO.          */
+    opacity: 0.75;                                         /* Define a opacidade reduzida para o BOTÃO PRÓXIMO DESATIVADO.                    */
+    cursor: not-allowed;                                   /* Define o cursor como "não permitido" para o BOTÃO PRÓXIMO DESATIVADO.           */
+}
+
+/*======================================================*/
+/*                 VERSÍCULOS DO CAPÍTULO               */
+/*    Área principal que exibe os versículos bíblicos   */
+/*======================================================*/
+.chapter-verses {
+    padding: 20px;                                         /* Define o preenchimento interno para criar um respiro na ÁREA DE VERSÍCULOS.          */
+    font-size: 1.1em;                                      /* Define o tamanho da fonte para os VERSÍCULOS DO CAPÍTULO.                            */
+    line-height: 1.6;                                      /* Define a altura da linha para melhorar a legibilidade nos VERSÍCULOS DO CAPÍTULO.    */
+    color: #fff;                                         /* Define a cor do texto em branco para os VERSÍCULOS DO CAPÍTULO.                      */
+}
+
+/*======================================================*/
+/*            CONTEINER INDIVIDUAL DO VERSÍCULO         */
+/*    Estrutura flexível para cada versículo bíblico    */
+/*======================================================*/
+.verse-conteiner {
+    margin-bottom: 10px;                                   /* Define o espaçamento inferior para cada CONTEINER DE VERSÍCULO.                      */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no CONTEINER DE VERSÍCULO.        */
+    align-items: flex-start;                               /* Define o alinhamento vertical ao topo para os elementos no CONTEINER DE VERSÍCULO.   */
+}
+
+/*======================================================*/
+/*                  NÚMERO DO VERSÍCULO                 */
+/*    Número que identifica cada versículo bíblico      */
+/*======================================================*/
+.verse-number {
+    margin-right: 8px;                                     /* Define o espaçamento à direita para o NÚMERO DO VERSÍCULO.                    */
+    min-width: 20px;                                       /* Define a largura mínima para garantir visibilidade do NÚMERO DO VERSÍCULO.    */
+    font-size: 0.8em;                                      /* Define o tamanho reduzido da fonte para o NÚMERO DO VERSÍCULO.                */
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para destacar o NÚMERO DO VERSÍCULO.        */
+    color: #888;                                         /* Define a cor do texto em cinza para o NÚMERO DO VERSÍCULO.                    */
+}
+
+/*======================================================*/
+/*                   TEXTO DO VERSÍCULO                 */
+/*     Conteúdo textual principal de cada versículo     */
+/*======================================================*/
+.verse-text {
+    flex: 1;                                               /* Permite que o TEXTO DO VERSÍCULO se expanda para ocupar o espaço disponível.  */
+    line-height: 1.5;                                      /* Define a altura da linha para melhorar a legibilidade do TEXTO DO VERSÍCULO.  */
+    color: #f0ad4e;                                      /* Define a cor do texto em laranja dourado para o TEXTO DO VERSÍCULO.           */
+}
+
+/*======================================================*/
+/*            TÍTULO DA SEÇÃO DO VERSÍCULO              */
+/*   Cabeçalho temático para grupos de versículos       */
+/*======================================================*/
+.verse-section-title {
+    margin: 20px 0 10px;                                   /* Define as margens vertical e inferior para o TÍTULO DA SEÇÃO DO VERSÍCULO.      */
+    padding-bottom: 5px;                                   /* Define o preenchimento interno inferior para o TÍTULO DA SEÇÃO DO VERSÍCULO.    */
+    font-size: 1.3em;                                      /* Define o tamanho da fonte para o TÍTULO DA SEÇÃO DO VERSÍCULO.                  */
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o TÍTULO DA SEÇÃO DO VERSÍCULO.          */
+    color: #4CAF50;                                      /* Define a cor do texto em verde para o TÍTULO DA SEÇÃO DO VERSÍCULO.             */
+    border-bottom: 1px solid #444;                       /* Define uma borda inferior sólida para demarcar o TÍTULO DA SEÇÃO DO VERSÍCULO.  */
+}
+
+/*======================================================*/
+/*                 TÍTULO DO CAPÍTULO                   */
+/*    Cabeçalho principal identificando o capítulo      */
+/*======================================================*/
+.chapter-title {
+    margin: 20px 0 15px;                                   /* Define as margens vertical e inferior para o TÍTULO DO CAPÍTULO.              */
+    padding-bottom: 10px;                                  /* Define o preenchimento interno inferior para o TÍTULO DO CAPÍTULO.            */
+    font-size: 1.5em;                                      /* Define o tamanho da fonte para o TÍTULO DO CAPÍTULO.                          */
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o TÍTULO DO CAPÍTULO.                  */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TÍTULO DO CAPÍTULO.         */
+    color: #4CAF50;                                      /* Define a cor do texto em verde para o TÍTULO DO CAPÍTULO.                     */
+    border-bottom: 2px solid #4CAF50;                    /* Define uma borda inferior sólida em verde para o TÍTULO DO CAPÍTULO.          */
+}
+
+/*======================================================*/
+/*       BOTÃO MODO LEITURA NA NAVEGAÇÃO SUPERIOR       */
+/*   Estilo base para o botão que ativa o modo leitura  */
+/*======================================================*/
+#modo-leitura {
+    background-color: transparent;                         /* Define a cor de fundo como transparente para o BOTÃO MODO LEITURA NA NAVEGAÇÃO.                   */
+    transition: background-color 0.3s ease;                /* Define uma transição suave para mudanças de cor de fundo no BOTÃO MODO LEITURA NA NAVEGAÇÃO.      */
+}
+
+/*======================================================*/
+/*     BOTÃO MODO LEITURA — ESTADO ATIVO                */
+/*     Estilo quando o modo leitura está ativado        */
+/*======================================================*/
+#modo-leitura[aria-pressed="true"] {
+    background-color: #4CAF50 !important;                /* Define a cor de fundo em verde para o BOTÃO MODO LEITURA quando ATIVO.          */
+}
+
+/*======================================================*/
+/*     BOTÃO MODO LEITURA — HOVER NO ESTADO ATIVO       */
+/*    Efeito visual ao passar o mouse quando ativo      */
+/*======================================================*/
+#modo-leitura[aria-pressed="true"]:hover {
+    background-color: #45a049 !important;                /* Define a cor de fundo em verde escuro para o efeito de HOVER no BOTÃO MODO LEITURA ATIVO.    */
+}
+
+/*======================================================*/
+/*    BOTÃO MODO LEITURA — HOVER NO ESTADO INATIVO      */
+/*   Efeito visual ao passar o mouse quando inativo     */
+/*======================================================*/
+#modo-leitura[aria-pressed="false"]:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important; /* Define a cor de fundo semitransparente para o efeito de HOVER no BOTÃO MODO LEITURA INATIVO.      */
+}
+
+/*======================================================*/
+/*          ESTILIZAÇÃO DO TEXTO DO VERSÍCULO           */
+/* Configurações gerais para exibição do texto bíblico  */
+/*======================================================*/
+.texto-versiculo {
+    position: relative;                                    /* Define o posicionamento relativo para o TEXTO DO VERSÍCULO.                          */
+    margin-top: 10px;                                      /* Define o espaçamento superior para o TEXTO DO VERSÍCULO.                             */
+    margin-bottom: 80px;                                   /* Define o espaçamento inferior para o TEXTO DO VERSÍCULO.                             */
+    line-height: 1.2;                                      /* Define a altura da linha para melhorar a legibilidade no TEXTO DO VERSÍCULO.         */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TEXTO DO VERSÍCULO.                */
+    color: #f8f8f8;                                      /* Define a cor do texto em branco suave para o TEXTO DO VERSÍCULO.                     */
+    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o TEXTO DO VERSÍCULO.                     */
+    white-space: normal;                                   /* Permite a quebra automática de linha para o TEXTO DO VERSÍCULO.                      */
+    overflow: hidden;                                      /* Oculta o conteúdo que transborda no TEXTO DO VERSÍCULO.                              */
+    text-overflow: ellipsis;                               /* Adiciona reticências ao final de textos longos no TEXTO DO VERSÍCULO.                */
+    word-wrap: break-word;                                 /* Permite a quebra de palavras longas no TEXTO DO VERSÍCULO.                           */
+    transition: margin-left 0.3s ease;                     /* Define uma transição suave para mudanças de margem esquerda no TEXTO DO VERSÍCULO.   */
+}
+
+/*======================================================*/
+/*           TÍTULO DO VERSÍCULO (ELEMENTO H3)          */
+/*    Cabeçalho temático acima do texto do versículo    */
+/*======================================================*/
+.texto-versiculo h3 {
+    margin: 0 0 20px 0;                                    /* Define as margens para o TÍTULO DO VERSÍCULO (H3).                              */
+    line-height: 1.3;                                      /* Define a altura da linha para o TÍTULO DO VERSÍCULO (H3).                       */
+    color: #4CAF50;                                      /* Define a cor do texto em verde para o TÍTULO DO VERSÍCULO (H3).                 */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TÍTULO DO VERSÍCULO (H3).     */
+    text-transform: uppercase;                             /* Transforma o texto em maiúsculas para o TÍTULO DO VERSÍCULO (H3).               */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);         /* Define uma sombra no texto para criar profundidade no TÍTULO DO VERSÍCULO (H3). */
+}
+
+/*======================================================*/
+/*           REGRAS ESPECÍFICAS PARA DESKTOP            */
+/*   Estilos otimizados para telas maiores que 900px    */
+/*======================================================*/
+@media (min-width: 901px) {
+    .texto-versiculo {
+        margin-left: 266px;                                /* Define o recuo à esquerda para compensar o menu lateral no DESKTOP.                  */
+        margin-right: 30px;                                /* Define o espaçamento à direita para criar um respiro no DESKTOP.                     */
+        max-width: calc(100% - 80px);                      /* Define a largura máxima calculada para o TEXTO DO VERSÍCULO no DESKTOP.              */
+        font-size: 3.2vw;                                  /* Define o tamanho da fonte responsivo baseado na largura da viewport no DESKTOP.      */
+    }
+
+    .texto-versiculo h3 {
+        font-size: 3.2vw;                                  /* Define o tamanho da fonte responsivo para o TÍTULO DO VERSÍCULO no DESKTOP.   */
+    }
+
+    /*===================================================*/
+    /*        AJUSTE ESPECÍFICO PARA MODO LEITURA        */
+    /*Margens expandidas quando o modo leitura está ativo*/
+    /*===================================================*/
+    body[modo-leitura="true"] .texto-versiculo {
+        margin-left: 400px;                                /* Define um recuo maior à esquerda quando o MODO LEITURA está ativo no DESKTOP. */
+        margin-right: 0;                                   /* Remove o espaçamento à direita quando o MODO LEITURA está ativo no DESKTOP.   */
+        max-width: calc(100% - 420px);                     /* Define a largura máxima calculada para o MODO LEITURA no DESKTOP.             */
+    }
+}
+
+/*======================================================*/
+/*             REGRAS ESPECÍFICAS PARA MOBILE           */
+/*        Estilos otimizados para telas até 900px       */
+/*======================================================*/
+@media (max-width: 900px) {
+    .texto-versiculo {
+        margin-left: 0;                                    /* Remove o recuo à esquerda para otimizar o espaço.                  */
+        margin-right: 0;                                   /* Remove o espaçamento à direita para otimizar o espaço.             */
+        padding: 0 10px;                                   /* Define um preenchimento interno lateral para criar um respiro.     */
+        max-width: 100%;                                   /* Define a largura máxima total para preencher a tela.               */
+        font-size: 1.9rem;                                 /* Define um tamanho de fonte fixo legível.                           */
+    }
+
+    .texto-versiculo h3 {
+        font-size: 2rem;                                   /* Define um tamanho de fonte fixo para o TÍTULO DO VERSÍCULO.  */
+    }
+    
+    /*==================================================*/
+    /*       PROTEÇÃO CONTRA CONFLITOS NO MOBILE        */
+    /*  Garante que o modo leitura não quebre o layout  */
+    /*==================================================*/
+    body[modo-leitura="true"] .texto-versiculo {
+        margin-left: 0;                                    /* Remove qualquer margem esquerda no MODO LEITURA.                              */
+        max-width: 100%;                                   /* Define o limite máximo de largura sem restrições para o MODO LEITURA.         */
+    }
+}

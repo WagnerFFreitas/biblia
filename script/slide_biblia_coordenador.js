@@ -1,61 +1,63 @@
 /*===============================================================================*/
 /*                             COORDENADOR DO SLIDE                              */
 /*===============================================================================*/
-/*  Este arquivo agora contém apenas:                                            */
-/*                                   - Inicialização e configuração do listener  */
-/*                                   - Coordenação entre os módulos              */
+/*  Este arquivo é responsável por:                                              */
+/*                                   - Inicializar e configurar o listener       */
+/*                                   - Coordenar a comunicação entre módulos     */
+/*                                   - Gerenciar a abertura da janela de slide   */
 /*===============================================================================*/
 
-console.log("[slide_biblia_coordenador.js] Script iniciado.")                                  // Indica o início do coordenador do slide
+console.log("[slide_biblia_coordenador.js] Script iniciado.")                                                            /* Log de inicialização do coordenador  */
 
-// Cria a função para inicializar o listener do link 'Slide' (mantida do original)
+/* BLOCO: Define a função que localiza o gatilho de abertura do slide no cabeçalho e vincula os eventos de monitoramento */
 function inicializarSlide() {
-    console.log("[slide_biblia_coordenador.js] Configurando listener do link 'Slide'.")        // Loga o início da configuração do listener
-    let linkSlideEncontrado = document.getElementById("link-slide")                            // Procura o link pelo ID
-    if (!linkSlideEncontrado) {                                                                // Se não encontrar pelo ID, procura pelo texto
-        const linksHeader = document.querySelectorAll("header nav ul li a")                    // Seleciona todos os links do header
+    console.log("[slide_biblia_coordenador.js] Configurando listener do link 'Slide'.")                                  /* Log de configuração do listener      */
+    let linkSlideEncontrado = document.getElementById("link-slide")                                                      /* Procura o link pelo ID oficial       */
+    if (!linkSlideEncontrado) {                                                                                          /* Fallback se não achar pelo ID        */
+        const linksHeader = document.querySelectorAll("header nav ul li a")                                              /* Seleciona todos os links da navegação*/
         linksHeader.forEach((link) => {
-            if (link.textContent.trim().toLowerCase() === "slide") {                           // Compara o texto do link
-                linkSlideEncontrado = link                                                     // Se encontrar, armazena a referência
+            if (link.textContent.trim().toLowerCase() === "slide") {                                                     /* Compara o texto interno do link      */
+                linkSlideEncontrado = link                                                                               /* Armazena a referência encontrada     */
             }
         })
     }
 
-    if (linkSlideEncontrado) {                                                                 // Se encontrou o link do slide
-        linkSlideEncontrado.addEventListener("click", (event) => {                             // Adiciona o listener de clique
-            event.preventDefault() // Previne o comportamento padrão do link
-            console.log("[slide_biblia_coordenador.js] Link 'Slide' clicado.")                 // Loga o clique
-            const urlParams = new URLSearchParams(window.location.search)                      // Obtém os parâmetros da URL
-            const versao = window.BIBLE_VERSION || urlParams.get("version") || "arc"           // Define a versão da bíblia
-            let livro = window.activeLivro || "genesis"                                        // Define o livro ativo
-            const cap = window.activeCapitulo || 1                                             // Define o capítulo ativo
-            const versBtn = window.activeVersiculoButton                                       // Obtém o botão do versículo ativo
+    /* BLOCO: Adiciona o escutador de cliques para capturar o estado atual da bíblia e disparar a janela de projeção    */
+    if (linkSlideEncontrado) {
+        linkSlideEncontrado.addEventListener("click", (event) => {                                                       /* Adiciona o listener de clique        */
+            event.preventDefault()                                                                                       /* Bloqueia o comportamento de âncora   */
+            console.log("[slide_biblia_coordenador.js] Link 'Slide' clicado.")                                           /* Log de acionamento do usuário        */
+            const urlParams = new URLSearchParams(window.location.search)                                                /* Analisa os parâmetros da URL atual   */
+            const versao = window.BIBLE_VERSION || urlParams.get("version") || "arc"                                     /* Identifica a tradução bíblica ativa  */
+            let livro = window.activeLivro || "genesis"                                                                  /* Identifica o livro selecionado       */
+            const cap = window.activeCapitulo || 1                                                                       /* Identifica o capítulo selecionado    */
+            const versBtn = window.activeVersiculoButton                                                                 /* Captura o botão do versículo ativo   */
             const versNum = versBtn
-                ? Number.parseInt(versBtn.dataset.versiculo, 10) || Number.parseInt(versBtn.textContent.trim(), 10) || 1 // Extrai o número do versículo
+                ? Number.parseInt(versBtn.dataset.versiculo, 10) || Number.parseInt(versBtn.textContent.trim(), 10) || 1 /* Extrai o índice numérico do verso    */
                 : 1
 
-            if (!livro || !cap) {                                                                                        // Se não houver livro ou capítulo selecionado
-                alert("Por favor, selecione um livro e capítulo primeiro.")                                              // Alerta o usuário
-                console.warn("[slide_biblia_coordenador.js] Tentativa de abrir slide sem livro/capítulo ativo.")         // Loga o erro
+            /* BLOCO: Realiza a validação de segurança para garantir que há um conteúdo selecionado antes da abertura   */
+            if (!livro || !cap) {
+                alert("Por favor, selecione um livro e capítulo primeiro.")                                              /* Emite alerta de orientação           */
+                console.warn("[slide_biblia_coordenador.js] Tentativa de abertura sem seleção.")                         /* Log de aviso de falha na seleção     */
                 return
             }
 
-            livro = window.normalizarNomeLivro(livro)                                          // Normaliza o nome do livro
+            livro = window.normalizarNomeLivro(livro)                                                                    /* Padroniza o identificador do livro   */
             console.log(
-                `[slide_biblia_coordenador.js] Estado atual para slide: Versão=${versao}, Livro=${livro}, Cap=${cap}, VersNum=${versNum}`,
-            )                                                                                  // Loga o estado atual
-            window.abrirJanelaSlide(livro, cap, versNum, versao)                               // Chama a função para abrir a janela do slide
+                `[slide_biblia_coordenador.js] Estado preparado: Versão=${versao}, Livro=${livro}, Cap=${cap}`)          /* Log de dados prontos para o slide    */
+            window.abrirJanelaSlide(livro, cap, versNum, versao)                                                         /* Dispara o motor de abertura da janela*/
         })
     } else {
-        console.warn("[slide_biblia_coordenador.js] Link 'Slide' não encontrado no cabeçalho.")// Loga se não encontrou o link
+        console.warn("[slide_biblia_coordenador.js] Link 'Slide' não localizado no DOM.")                                /* Log de erro de carregamento visual   */
     }
 }
 
-window.inicializarSlide = inicializarSlide                                                     // Exporta a função globalmente
+window.inicializarSlide = inicializarSlide                                                                               /* Exporta a função para o escopo global*/
 
-// Cria a função para inicializar automaticamente quando o DOM estiver pronto.
+/* BLOCO: Define a rotina de pré-carregamento que assegura a disponibilidade de todos os módulos antes de liberar o uso */
 function inicializarQuandoPronto() {
-    const modulosNecessarios = [                                                               // Verifica se todos os módulos necessários foram carregados
+    const modulosNecessarios = [                                                                                         /* Lista de dependências obrigatórias   */
         'gerarHtmlJanelaSlide',
         'escreverHtmlNaJanela',
         'abrirJanelaSlide',
@@ -64,18 +66,19 @@ function inicializarQuandoPronto() {
         'livrosOrdem'
     ]
     
-    const modulosCarregados = modulosNecessarios.every(modulo => typeof window[modulo] !== 'undefined')      // Verifica se todos os módulos estão definidos
-        if (modulosCarregados) {                                                                             // Se todos os módulos estão carregados
-        console.log("[slide_biblia_coordenador.js] Todos os módulos carregados, inicializando...")           // Loga o sucesso
+    /* BLOCO: Verifica a existência de cada módulo essencial no objeto window para evitar erros de execução             */
+    const modulosCarregados = modulosNecessarios.every(modulo => typeof window[modulo] !== 'undefined')                  /* Valida as propriedades globais       */
+        if (modulosCarregados) {
+        console.log("[slide_biblia_coordenador.js] Módulos verificados, inicializando...")                               /* Log de sucesso de carregamento       */
         if (typeof inicializarSlide === "function") {
-            inicializarSlide()                                                                 // Inicializa o listener do slide
+            inicializarSlide()                                                                                           /* Ativa os vínculos do slide           */
         } else {
-            console.error("[slide_biblia_coordenador.js] inicializarSlide não está definida.") // Loga erro se a função não existir
+            console.error("[slide_biblia_coordenador.js] inicializarSlide não disponível.")                              /* Log de erro de referência interna    */
         }
     } else {
-        console.log("[slide_biblia_coordenador.js] Aguardando módulos...")                     // Loga que está aguardando módulos
-        setTimeout(inicializarQuandoPronto, 100)                                               // Tenta novamente após 100ms
+        console.log("[slide_biblia_coordenador.js] Aguardando scripts de suporte...")                                    /* Log de espera por dependências       */
+        setTimeout(inicializarQuandoPronto, 100)                                                                         /* Reagenda a verificação em 100ms      */
     }
 }
 
-document.addEventListener("DOMContentLoaded", inicializarQuandoPronto)                         // Adiciona o listener para inicialização automática 
+document.addEventListener("DOMContentLoaded", inicializarQuandoPronto)                                                   /* Ativa a inicialização automática     */

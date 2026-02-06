@@ -1,0 +1,846 @@
+/*======================================================*/
+/*                PÁGINA DA CONCORDÂNCIA                */
+/*  Este arquivo contém os estilos específicos para a   */
+/*  página de concordância bíblica, que permite buscar  */
+/*           e visualizar ocorrências de palavras.      */
+/*======================================================*/
+
+/*======================================================*/
+/*                 CONTAINER DE FILTROS                 */
+/*      Área fixa para opções de busca e filtragem      */
+/*======================================================*/
+.filtros-conteiner {
+    position: fixed;                                       /* Define o posicionamento fixo para manter a BARRA DE MENU SUPERIOR sempre visível no topo da página.             */
+    top: 175px;                                            /* Define a distância em relação ao topo para posicionar a BARRA DE MENU SUPERIOR abaixo do cabeçalho.             */
+    left: 155px;                                           /* Define a distância da esquerda como zero para alinhar a BARRA DE MENU SUPERIOR ao limite lateral.               */
+    right: 16px;                                           /* Define a distância em relação à direita para posicionar o BOTÃO FECHAR no MODAL SOBRE.                          */
+    z-index: 901;                                          /* Define a ordem de empilhamento para que a BARRA DE MENU SUPERIOR se sobreponha a elementos de fundo.            */
+    height: 80px;                                          /* Define a altura fixa para padronizar a dimensão vertical da BARRA DE MENU SUPERIOR.                             */
+    margin-bottom: 15px;                                   /* Define o espaçamento inferior para separar os BOTÕES DOS CAPÍTULOS do próximo bloco.                            */
+    padding: 6px 15px;                                     /* Define o preenchimento interno para criar um respiro na BARRA DE MENU SUPERIOR.                                 */
+    background: linear-gradient(135deg, rgba(26, 26, 26, 0.2) 0%, rgba(51, 51, 51, 0.2) 100%); /* Define um degradê linear cinza para o fundo da BARRA DE MENU SUPERIOR.  */
+    border: 2px solid #d4af37;                           /* Define uma borda sólida branca para destacar o CAMPO DE TEXTO na BARRA DE PESQUISA.                             */
+    border-radius: 12px;                                   /* Define os cantos arredondados para suavizar o design do SELETOR da BARRA DE PESQUISA.                           */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);           /* Define uma sombra suave para criar profundidade e destaque na BARRA DE MENU SUPERIOR.                           */
+}
+
+/*======================================================*/
+/*                 LINHA DE AGRUPAMENTO                 */
+/*         Organização dos elementos de filtro          */
+/*======================================================*/
+.filtros-linha {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do CABEÇALHO SUPERIOR.  */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no CABEÇALHO SUPERIOR.  */
+    gap: 8px;                                              /* Define o espaçamento entre as palavras no CONTAINER DAS PALAVRAS.                    */
+    margin-bottom: 8px;                                    /* Define o espaçamento inferior para o SUBTÍTULO DA VERSÃO.                            */
+}
+
+/*======================================================*/
+/*              GRUPO INDIVIDUAL DE FILTRO              */
+/*======================================================*/
+.filtro-grupo {
+    margin-bottom: 6px;                                    /* Define o espaçamento inferior para separar os BOTÕES DOS CAPÍTULOS do próximo bloco. */
+}
+
+/*======================================================*/
+/*             AJUSTE DE LARGURA DO FLEXBOX             */
+/*======================================================*/
+.filtro-grupo:nth-child(1) { flex: 1.2; }                  /* Seleciona o PRIMEIRO elemento que tem "peso" de 1.2. Será maior que a referência (1) e menor que 1.5.*/
+.filtro-grupo:nth-child(2) { flex: 0.8; }                  /* Seleciona o SEGUNDO element que rem "peso" de 0.8. Será um dos mais estreitos.                       */
+.filtro-grupo:nth-child(3) { flex: 1; }                    /* Seleciona o TERCEIRO element que rem "peso" de 1. Serve como a largura "padrão" ou de referência.    */
+.filtro-grupo:nth-child(4) { flex: 1.5; }                  /* Seleciona o QUARTO element que rem "peso" de 1.5. Este será o item MAIS LARGO de todos.              */
+.filtro-grupo:nth-child(5) { flex: 0.6; }                  /* Seleciona o QUINTO element que rem "peso" de 0.6. Este será o item MAIS ESTREITO de todos.           */
+/* 
+   A propriedade 'flex' define a PROPORÇÃO de espaço que cada item vai ocupar.
+   O navegador divide o espaço restante do container entre os itens,
+   usando esses números (1.2, 0.8, 1, etc.) como pesos na distribuição.
+*/
+
+/*======================================================*/
+/*             ALINHAMENTO DO ÚLTIMO GRUPO              */
+/*======================================================*/
+.filtro-grupo:last-child {
+    align-self: flex-start;                                /* Define o alinhamento individual do item no eixo transversal (vertical, na maioria dos casos)      */
+}
+
+/*======================================================*/
+/*                  REMOÇÃO DE MARGEM                   */
+/*            Para o último grupo de filtro             */
+/*======================================================*/
+.filtro-grupo:last-child {
+    margin-bottom: 0;                                      /* Define as margens externas como nulas para remover os espaçamentos padrão.    */
+}
+
+/*======================================================*/
+/*          INPUT DE TEXTO DO GRUPO DE FILTRO           */
+/*======================================================*/
+.filtro-grupo input[type="text"] {
+    width: 100%;                                           /* Define a largura total para garantir que o CONTÊINER PRINCIPAL ocupe toda a extensão.                            */
+    height: 35px;                                          /* Define a altura fixa para padronizar a dimensão vertical da BARRA DE MENU SUPERIOR.                              */
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão.                                       */
+    padding: 8px 12px;                                     /* Define o preenchimento interno para criar um respiro ao redor do texto no CAMPO DE TEXTO da BARRA DE PESQUISA.   */
+    background: #333333;                                 /* Define a cor de fundo em cinza escuro para o SELETOR da BARRA DE PESQUISA.                                       */
+    border: 2px solid #555555;                           /* Define uma borda sólida branca para destacar o CAMPO DE TEXTO na BARRA DE PESQUISA.                              */
+    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design do SELETOR da BARRA DE PESQUISA.                            */
+    color: #ffffff;                                      /* Define a cor do texto em branco do CONTÊINER PRINCIPAL.                                                          */
+    font-size: 0.95em;                                     /* Define o tamanho da fonte do SUBTÍTULO DA VERSÃO.                                                                */
+    transition: all 0.3s ease;                             /* Define uma transição suave para os efeitos de fundo nos links do MENU SUPERIOR.                                  */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).                                                 */
+}
+
+/*======================================================*/
+/*   INPUT DE TEXTO DO GRUPO DE FILTRO — HOVER/FOCUS    */
+/*======================================================*/
+.filtro-grupo input[type="text"]:hover,
+.filtro-grupo input[type="text"]:focus {
+    background: #3a3a3a;                                 /* Define a cor de fundo em cinza escuro para o CAMPO DE TEXTO quando o mouse passar ou o campo for focado.     */
+    border-color: #d4af37;                               /* Define a cor da borda em dourado para destaque quando o mouse passar ou o campo for focado.                  */
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);        /* Define uma sombra suave e dourada para criar um efeito de brilho e foco.                                     */
+    outline: none;                                         /* Remove o contorno padrão do navegador quando o elemento recebe foco.                                         */
+}
+
+/*======================================================*/
+/*      AJUSTES DO ÚLTIMO GRUPO DE FILTRO (FLEX)        */
+/*======================================================*/
+.filtro-grupo:last-child {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens internos do ÚLTIMO GRUPO DE FILTRO.                         */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos dentro do ÚLTIMO GRUPO DE FILTRO.    */
+    margin-top: 20px;                                      /* Define o espaçamento superior para separar o ÚLTIMO GRUPO DE FILTRO do bloco anterior.            */
+}
+
+/*======================================================*/
+/*              RÓTULO DO GRUPO DE FILTRO               */
+/*======================================================*/
+.filtro-grupo label {
+    display: block;                                        /* Define a exibição como bloco em linha para permitir dimensões e espaçamentos nos links da BARRA DE MENU SUPERIOR.  */
+    margin-bottom: 2px;                                    /* Define o espaçamento inferior para o SUBTÍTULO DA VERSÃO.                                                          */
+    color: #d4af37;                                      /* Define a cor do texto em dourado do TÍTULO PRINCIPAL.                                                              */
+    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO FORTE do TÍTULO PRINCIPAL.                                                       */
+    font-size: 0.95em;                                     /* Define o tamanho da fonte do SUBTÍTULO DA VERSÃO.                                                                  */
+}
+
+/*======================================================*/
+/*         INPUTS E SELECTS DO GRUPO DE FILTRO          */
+/*======================================================*/
+.filtro-grupo input,
+.filtro-grupo select {
+    width: 100%;                                           /* Define a largura total para garantir que o CONTÊINER PRINCIPAL ocupe toda a extensão.             */
+    height: 28px;                                          /* Define a altura fixa para padronizar a dimensão vertical da BARRA DE MENU SUPERIOR.                  */
+    padding: 4px 8px;                                      /* Define o preenchimento interno para criar um respiro ao redor do texto no SELETOR da BARRA DE PESQUISA.          */
+    background: #333333;                                 /* Define a cor de fundo em cinza escuro para o SELETOR da BARRA DE PESQUISA.                                       */
+    border: 2px solid #555555;                           /* Define uma borda sólida branca para destacar o CAMPO DE TEXTO na BARRA DE PESQUISA.                              */
+    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design do SELETOR da BARRA DE PESQUISA.                            */
+    color: #ffffff;                                      /* Define a cor do texto em branco do CONTÊINER PRINCIPAL.                                           */
+    font-size: 0.95em;                                     /* Define o tamanho da fonte do SUBTÍTULO DA VERSÃO.            */
+    transition: all 0.3s ease;                             /* Define uma transição suave para os efeitos de fundo nos links do MENU SUPERIOR.                                    */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).              */
+}
+
+/*======================================================*/
+/*       INPUTS E SELECTS DO GRUPO DE FILTRO — FOCUS    */
+/*======================================================*/
+.filtro-grupo input:focus,
+.filtro-grupo select:focus {
+    background: #3a3a3a;                                   /* Define a cor de fundo em cinza escuro quando o CAMPO DE ENTRADA ou SELETOR recebe foco.            */
+    border-color: #d4af37;                                 /* Define a cor da borda em dourado para destaque quando o CAMPO DE ENTRADA ou SELETOR recebe foco.  */
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);          /* Define uma sombra suave e dourada para criar um efeito de brilho e foco.                          */
+    outline: none;                                         /* Remove o contorno padrão do navegador quando o elemento recebe foco.                              */
+}
+/*======================================================*/
+/*           PLACEHOLDER DO CAMPO DE FILTRO             */
+/*======================================================*/
+.filtro-grupo input::placeholder {
+    color: #999999;                                      /* Define a cor do texto em cinza claro para o TEXTO TRANSLITERADO.   */
+    font-size: 0.85rem;                                    /* Define o tamanho da fonte para o TEXTO TRANSLITERADO.              */
+}
+
+/*======================================================*/
+/*               CONTAINER SELECT CUSTOMIZADO           */
+/*======================================================*/
+.custom-select {
+    position: relative;                                    /* Define o posicionamento relativo para o CABEÇALHO.   */
+    width: 100%;                                           /* Define a largura total para garantir que o CONTÊINER PRINCIPAL ocupe toda a extensão.             */
+}
+
+/*======================================================*/
+/*           ELEMENTO SELECIONADO NO SELECT             */
+/*======================================================*/
+.select-selected {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens (como texto e seta) dentro do ELEMENTO SELECIONADO.         */
+    position: relative;                                    /* Define o posicionamento relativo para permitir o posicionamento absoluto de elementos internos (como uma seta). */
+    width: 100%;                                           /* Define a largura total para garantir que o ELEMENTO SELECIONADO ocupe toda a extensão disponível. */
+    height: 28px;                                          /* Define a altura fixa para padronizar a dimensão vertical do ELEMENTO SELECIONADO.                 */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para o texto e outros elementos dentro do seletor.       */
+    padding: 4px 8px;                                      /* Define o preenchimento interno vertical e horizontal para criar um respiro no ELEMENTO SELECIONADO. */
+    background: #333333;                                   /* Define a cor de fundo em cinza escuro para o ELEMENTO SELECIONADO.                                */
+    border: 2px solid #555555;                             /* Define uma borda sólida cinza escura para delimitar o ELEMENTO SELECIONADO.                       */
+    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design do ELEMENTO SELECIONADO.                     */
+    color: #ffffff;                                        /* Define a cor do texto em branco para garantir o contraste no ELEMENTO SELECIONADO.                */
+    font-size: 0.95em;                                     /* Define o tamanho da fonte para o texto do ELEMENTO SELECIONADO.                                   */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar que o ELEMENTO SELECIONADO é clicável.                 */
+    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades CSS alteradas (para efeitos de HOVER/FOCUS). */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total do elemento (Evita quebrar o layout).                    */
+}
+/*======================================================*/
+/*             SETA DE EXPANSÃO (AFTER)                 */
+/*======================================================*/
+.select-selected:after {
+    content: '▼';                                          /* Define o pseudo-elemento com conteúdo vazio para criar a camada de OVERLAY ESCURO.                */
+    position: absolute;                                    /* Define o posicionamento absoluto para que o CONTEÚDO DO DROPDOWN flutue em relação ao seu container. */
+    top: 50%;                                              /* Define a distância do topo em 50% para auxiliar a centralização vertical da OPÇÃO SOBRE.                                 */
+    right: 10px;                                           /* Define a distância em relação à direita para posicionar o BOTÃO FECHAR no MODAL SOBRE.     */
+    transform: translateY(-50%);                           /* Aplica o deslocamento de correção para garantir a centralização perfeita do MODAL SOBRE.                                 */
+    color: #d4af37;                                        /* Define a cor do texto em dourado do TÍTULO PRINCIPAL.                                             */
+    font-size: 0.8rem;                                     /* Define o tamanho da fonte para a legibilidade do número nos BOTÕES DOS CAPÍTULOS.                                */
+    transition: transform 0.3s ease;                       /* Define uma transição suave para os efeitos de fundo nos links do MENU SUPERIOR.                                    */
+}
+
+/*======================================================*/
+/*      ROTAÇÃO DA SETA NO SELECT ATIVO (AFTER)         */
+/*======================================================*/
+.select-selected.select-arrow-active:after {
+    transform: translateY(-50%) rotate(180deg);            /* Aplica o deslocamento de correção para garantir a centralização perfeita do MODAL SOBRE.                                 */
+}
+
+/*======================================================*/
+/*             ESTADO HOVER DO SELECT                   */
+/*======================================================*/
+.select-selected:hover {
+    background: #3a3a3a;                                   /* Define a cor de fundo em cinza escuro no efeito de HOVER para o ELEMENTO SELECIONADO.             */
+    border-color: #d4af37;                                 /* Define a cor da borda em dourado para destaque no efeito de HOVER do ELEMENTO SELECIONADO.        */
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);          /* Define uma sombra suave e dourada para criar um efeito de brilho e foco no HOVER.                 */
+}
+
+/*======================================================*/
+/*             LISTA DE OPÇÕES DO SELECT                */
+/*======================================================*/
+.select-items {
+    display: block;                                        /* Define a exibição como bloco em linha para permitir dimensões e espaçamentos nos links da BARRA DE MENU SUPERIOR.  */
+    position: absolute;                                    /* Define o posicionamento absoluto para que o CONTEÚDO DO DROPDOWN flutue em relação ao seu container. */
+    top: 100%;                                             /* Define o posicionamento para que o CONTEÚDO DO DROPDOWN comece imediatamente abaixo do elemento pai. */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar a BARRA DE MENU SUPERIOR ao limite lateral.    */
+    right: 0;                                              /* Define a distância em relação à direita para posicionar o BOTÃO FECHAR no MODAL SOBRE.     */
+    z-index: 99;                                           /* Define a ordem de empilhamento em nível máximo para garantir que o MODAL SOBRE fique acima de todos os elementos.        */
+    max-height: 180px;                                     /* Define a altura máxima calculada para limitar o TEXTO SOBRE e evitar transbordamento no MODAL.    */
+    overflow-y: auto;                                      /* Define o comportamento de rolagem vertical automática para o conteúdo do MENU LATERAL DE LIVROS.     */
+    background: #333333;                                   /* Define a cor de fundo em cinza escuro para o SELETOR da BARRA DE PESQUISA.                                       */
+    border: 2px solid #d4af37;                             /* Define uma borda sólida branca para destacar o CAMPO DE TEXTO na BARRA DE PESQUISA.                              */
+    border-top: none;                                      /* Define a borda como nula para remover o contorno do BOTÃO FECHAR no MODAL SOBRE.           */
+    border-radius: 0 0 6px 6px;                            /* Define os cantos arredondados para suavizar o design do SELETOR da BARRA DE PESQUISA.                            */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);             /* Define uma sombra suave para criar profundidade e destaque na BARRA DE MENU SUPERIOR. */
+}
+
+/*======================================================*/
+/*             ITEM INDIVIDUAL DO SELECT                */
+/*======================================================*/
+.select-items div {
+    padding: 8px 12px;                                     /* Define o preenchimento interno para criar um respiro ao redor do texto no SELETOR da BARRA DE PESQUISA.          */
+    background: #333333;                                   /* Define a cor de fundo em cinza escuro para o SELETOR da BARRA DE PESQUISA.                                       */
+    border-bottom: 1px solid #555555;                      /* Define uma borda sólida branca para destacar o CAMPO DE TEXTO na BARRA DE PESQUISA.                              */
+    color: #ffffff;                                        /* Define a cor do texto em branco do CONTÊINER PRINCIPAL.                                           */
+    font-size: 0.9rem;                                     /* Define o tamanho da fonte para a legibilidade do número nos BOTÕES DOS CAPÍTULOS.                                */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO DA BARRA DE PESQUISA.      */
+    transition: all 0.3s ease;                             /* Define uma transição suave para os efeitos de fundo nos links do MENU SUPERIOR.                                    */
+}
+
+/*======================================================*/
+/*             ITEM INDIVIDUAL DO SELECT — HOVER        */
+/*======================================================*/
+.select-items div:hover {
+    background: #d4af37;                                   /* Define a cor de fundo em dourado para destacar visualmente as opções na lista do DROPDOWN.        */
+    color: #1a1a1a;                                        /* Define a cor do texto em preto para o efeito de HOVER nas opções do DROPDOWN.   */
+}
+
+/*======================================================*/
+/*          REMOÇÃO DE BORDA DO ÚLTIMO ITEM             */
+/*======================================================*/
+.select-items div:last-child {
+border-bottom: none;                                   /* Remove a borda inferior para criar uma conexão visual com o próximo elemento ou para fins de design. */
+}
+
+/*======================================================*/
+/*               OCULTAR SELECT NATIVO                  */
+/*======================================================*/
+.select-hide {
+    display: none;                                         /* Define a exibição como nula para ocultar o CONTEÚDO DO DROPDOWN por padrão.                          */
+}
+
+/*======================================================*/
+/*          ESTILO DO ITEM ATUALMENTE SELECIONADO       */
+/*======================================================*/
+.same-as-selected {
+    background: rgba(212, 175, 55, 0.2);                   /* Define o fundo como branco translúcido para o efeito visual de HOVER na BARRA DO MENU SUPERIOR.     */
+    color: #d4af37;                                        /* Define a cor do texto em dourado do TÍTULO PRINCIPAL.                                             */
+}
+
+
+
+
+
+
+
+/*======================================================*/
+/*          SEÇÃO DE PALAVRAS E ITEM BASE               */
+/*======================================================*/
+.palavra-section,
+.palavra-item {
+    position: relative;                                    /* Define o posicionamento relativo para permitir o posicionamento absoluto de elementos filhos.                      */
+    min-height: auto;                                      /* Define a altura mínima como automática, permitindo que o elemento se ajuste ao conteúdo interno.                 */
+    overflow: hidden;                                      /* Define o comportamento de transbordamento como oculto para cortar o conteúdo que exceder os limites do container. */
+    margin-bottom: 5px;                                    /* Define o espaçamento inferior para separar os ITENS/SEÇÕES de palavra do bloco seguinte.                         */
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%); /* Define um degradê linear escuro para o fundo da SEÇÃO/ITEM de palavra.                                         */
+    border: 2px solid #444444;                             /* Define uma borda sólida cinza escura para delimitar o elemento.                                                  */
+    border-radius: 12px;                                   /* Define os cantos arredondados para suavizar o design da SEÇÃO/ITEM de palavra.                                   */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);             /* Define uma sombra suave para criar profundidade e destaque.                                                      */
+    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades CSS alteradas (para efeitos de HOVER/FOCUS).               */
+    contain: content;                                      /* Otimiza a renderização, isolando o estilo, layout e pintura do elemento do resto da página.                      */
+}
+
+/*======================================================*/
+/*          SEÇÃO DE PALAVRAS E ITEM BASE — HOVER       */
+/*======================================================*/
+.palavra-section:hover,
+.palavra-item:hover {
+    border-color: #d4af37;                                 /* Define a cor da borda para delimitar o ITEM DA PALAVRA no MODO LEITURA.         */
+    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2);        /* Define uma sombra suave para criar profundidade e destaque na BARRA DE MENU SUPERIOR. */
+    transform: translateY(-2px);                           /* Aplica o deslocamento de correção para garantir a centralização perfeita do MODAL SOBRE.                                 */
+}
+
+/*======================================================*/
+/*                 CABEÇALHO DA PALAVRA                 */
+/*======================================================*/
+.palavra-header {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar e distribuir os itens dentro do CABEÇALHO DA PALAVRA.                 */
+    position: relative;                                    /* Define o posicionamento relativo para permitir o posicionamento absoluto de elementos internos.      */
+    min-height: 60px;                                      /* Define a altura mínima do CABEÇALHO DA PALAVRA para garantir a visibilidade e um bom preenchimento. */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para o texto e outros elementos do CABEÇALHO.             */
+    justify-content: center;                               /* Define o alinhamento horizontal centralizado para o conteúdo do CABEÇALHO DA PALAVRA.                */
+    z-index: 1;                                            /* Define a ordem de empilhamento para que o CABEÇALHO se sobreponha a elementos de fundo.              */
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão.                           */
+    padding: 12px 20px;                                    /* Define o preenchimento interno vertical e horizontal para criar um respiro no CABEÇALHO.             */
+    background: linear-gradient(135deg, #4a5bff 0%, #3a4bef 100%); /* Define um degradê linear azul para o fundo do CABEÇALHO DA PALAVRA.                               */
+    border-radius: 8px 8px 8px 8px;                        /* Define os cantos arredondados para suavizar o design do CABEÇALHO DA PALAVRA.                        */
+}
+
+/*======================================================*/
+/*             CABEÇALHO DA PALAVRA — HOVER             */
+/*======================================================*/
+.palavra-header:hover {
+    background: linear-gradient(135deg, #5a6bff 0%, #4a5bff 100%); /* Define um degradê linear ligeiramente mais claro no efeito de HOVER para o CABEÇALHO.          */
+    border-color: #d4af37;                                 /* Define a cor da borda em dourado para destaque no efeito de HOVER.                                */
+    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2);        /* Aplica uma sombra mais pronunciada e dourada no HOVER para criar um efeito de "elevação".        */
+    transform: translateY(-2px);                           /* Move o elemento 2px para cima para criar um efeito visual de destaque no HOVER.                   */
+}
+
+/*======================================================*/
+/*                TÍTULO DA PALAVRA                     */
+/*======================================================*/
+.palavra-titulo {
+    flex: 1;                                               /* Permite que o TÍTULO DA PALAVRA cresça para ocupar todo o espaço disponível no cabeçalho.            */
+    padding: 0;                                            /* Define o preenchimento interno como nulo para remover os espaçamentos padrão.                        */
+    background: none;                                      /* Define o fundo como transparente para que o degradê do pai seja visível.                             */
+    color: #ffffff;                                        /* Define a cor do texto em branco para o TÍTULO DA PALAVRA.                                          */
+    font-size: 1.4rem;                                     /* Define o tamanho da fonte para o TÍTULO DA PALAVRA.                                                  */
+    font-weight: 700;                                      /* Define o peso da fonte em negrito forte para dar destaque ao TÍTULO DA PALAVRA.                      */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TÍTULO DA PALAVRA.                                 */
+    text-transform: uppercase;                             /* Transforma o texto em maiúsculas para o TÍTULO DA PALAVRA.                                           */
+    letter-spacing: 1px;                                   /* Define um leve espaçamento entre as letras para melhorar a legibilidade do TÍTULO.                   */
+    border-radius: 0;                                      /* Remove qualquer arredondamento de canto herdado.                                                     */
+    box-shadow: none;                                      /* Remove qualquer sombra que possa ter sido herdada.                                                   */
+}
+
+/*======================================================*/
+/*             INDICADOR DE EXPANSÃO                    */
+/*======================================================*/
+.expand-indicator {
+    position: absolute;                                    /* Define o posicionamento absoluto para que o CONTEÚDO DO DROPDOWN flutue em relação ao seu container. */
+    top: 50%;                                              /* Define a distância do topo em 50% para auxiliar a centralização vertical da OPÇÃO SOBRE.                                 */
+    left: 20px;                                            /* Define o espaçamento à direita para separar o CAMPO DE TEXTO de outros elementos na BARRA DE PESQUISA.           */
+    z-index: 10;                                           /* Define a ordem de empilhamento para que o MENU LATERAL DE LIVROS se sobreponha ao conteúdo principal.*/
+    transform: translateY(-50%);                           /* Aplica o deslocamento de correção para garantir a centralização perfeita do MODAL SOBRE.                                 */
+    color: #d4af37;                                        /* Define a cor do texto em dourado do TÍTULO PRINCIPAL.                                             */
+    font-size: 1rem;
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO DA BARRA DE PESQUISA.      */
+    transition: transform 0.3s ease;                       /* Define uma transição suave para os efeitos de fundo nos links do MENU SUPERIOR.                                    */
+}
+
+/*======================================================*/
+/*             CONTADOR DE OCORRÊNCIAS — HOVER          */
+/*======================================================*/
+.contador:hover,
+.ocorrencias-count:hover {
+    box-shadow: 0 4px 12px rgba(212, 175, 55, 0.4);        /* Define uma sombra suave para criar profundidade e destaque na BARRA DE MENU SUPERIOR. */
+    transform: translateY(-50%) translateY(-2px);          /* Aplica o deslocamento de correção para garantir a centralização perfeita do MODAL SOBRE.                                 */
+}
+/*======================================================*/
+/*             INFORMAÇÃO DA FONTE (ESQUERDA)           */
+/*======================================================*/
+.palavra-fonte-info,
+.fonte-info {
+    display: block;                                        /* Define a exibição como bloco para garantir que o elemento ocupe sua própria linha e largura total.  */
+    position: absolute;                                    /* Define o posicionamento absoluto em relação ao seu container pai, permitindo o posicionamento exato. */
+    top: 60px;                                             /* Define a distância de 60px em relação ao topo do elemento pai (posicionando-o abaixo do cabeçalho).  */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar o elemento ao limite lateral esquerdo.         */
+    width: 50%;                                            /* Define a largura para ocupar metade do espaço disponível.                                            */
+    z-index: 5;                                            /* Define a ordem de empilhamento para que o elemento fique sobre a maioria dos elementos de fundo.     */
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão.                           */
+    padding: 6px 20px;                                     /* Define o preenchimento interno vertical e horizontal para criar um respiro no conteúdo.              */
+    background: linear-gradient(135deg, #0c0909 0%, #0a0a0a 100%); /* Define um degradê linear muito escuro para o fundo da informação.                                    */
+    border: 1px solid #333333;                             /* Define uma borda sólida cinza escura para delimitar o elemento.                                      */
+    border-right: none;                                    /* Remove a borda direita, facilitando a união visual com o elemento vizinho.                           */
+    border-radius: 0;                                      /* Remove qualquer arredondamento de canto herdado.                                                     */
+    color: #d4af37;                                        /* Define a cor do texto em dourado para destaque.                                                      */
+    font-size: 1.2rem;                                     /* Define o tamanho da fonte para a informação.                                                         */
+    line-height: 1.4;                                      /* Define a altura da linha para melhorar a legibilidade do texto.                                      */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total do elemento (Evita quebrar o layout).                       */
+}
+
+/*======================================================*/
+/*             INFORMAÇÃO "VEJA TAMBÉM" (DIREITA)       */
+/*======================================================*/
+.palavra-veja-tambem-info,
+.veja-tambem {
+    display: block;                                        /* Define a exibição como bloco para garantir que o elemento ocupe sua própria linha e largura total.  */
+    position: absolute;                                    /* Define o posicionamento absoluto em relação ao seu container pai, permitindo o posicionamento exato. */
+    top: 60px;                                             /* Define a distância de 60px em relação ao topo do elemento pai (posicionando-o abaixo do cabeçalho).  */
+    right: 0;                                              /* Define a distância da direita como zero para alinhar o elemento ao limite lateral direito.           */
+    width: 50%;                                            /* Define a largura para ocupar metade do espaço disponível.                                            */
+    z-index: 5;                                            /* Define a ordem de empilhamento para que o elemento fique sobre a maioria dos elementos de fundo.     */
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão.                           */
+    padding: 6px 20px;                                     /* Define o preenchimento interno vertical e horizontal para criar um respiro no conteúdo.              */
+    background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%); /* Define um degradê linear escuro para o fundo da informação (diferente da esquerda para contraste).   */
+    border: 1px solid #333333;                             /* Define uma borda sólida cinza escura para delimitar o elemento.                                      */
+    border-left: none;                                     /* Remove a borda esquerda, facilitando a união visual com o elemento vizinho.                          */
+    border-radius: 0;                                      /* Remove qualquer arredondamento de canto herdado.                                                     */
+    color: #d4af37;                                        /* Define a cor do texto em dourado para destaque.                                                      */
+    font-size: 1.2rem;                                     /* Define o tamanho da fonte para a informação.                                                         */
+    line-height: 1.4;                                      /* Define a altura da linha para melhorar a legibilidade do texto.                                      */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total do elemento (Evita quebrar o layout).                       */
+}
+/*======================================================*/
+/*            VISIBILIDADE DA FONTE (PÓS HEADER)        */
+/*======================================================*/
+.palavra-header + .palavra-fonte-info,
+.palavra-header + .fonte-info {
+    display: block;                                        /* Define a exibição como bloco para garantir a VISIBILIDADE do menu ao interagir com o DROPDOWN.    */
+    visibility: visible;                                   /* Define a exibição como bloco para garantir a VISIBILIDADE do menu ao interagir com o DROPDOWN.    */
+    opacity: 1;                                            /* Define a opacidade para tornar a MARCA D'ÁGUA semi-transparente e sutil.                          */
+}
+
+/*======================================================*/
+/*        VISIBILIDADE "VEJA TAMBÉM" (PÓS FONTE)        */
+/*======================================================*/
+.palavra-fonte-info + .palavra-veja-tambem-info,
+.fonte-info + .veja-tambem {
+    display: block;                                        /* Define a exibição como bloco para garantir a VISIBILIDADE do menu ao interagir com o DROPDOWN.    */
+    visibility: visible;                                   /* Define a exibição como bloco para garantir a VISIBILIDADE do menu ao interagir com o DROPDOWN.    */
+    opacity: 1;                                            /* Define a opacidade para tornar a MARCA D'ÁGUA semi-transparente e sutil.                          */
+}
+
+/*======================================================*/
+/*             CONTEÚDO DAS CONCORDÂNCIAS               */
+/*======================================================*/
+.concordancias-content {
+    position: relative;                                    /* Define o posicionamento relativo para o CABEÇALHO.   */
+    top: 0;                                                /* Define a distância do topo como zero para que a MARCA D'ÁGUA comece no limite superior.           */
+    display: none;                                         /* Define a exibição como nula para ocultar o CONTEÚDO DO DROPDOWN por padrão.                          */
+    margin-top: 40px;                                      /* Define o espaçamento superior para separar o CONTEÚDO PRINCIPAL da barra de menu.       */
+    padding: 20px;                                         /* Define o preenchimento interno vertical para criar um respiro na BARRA DE MENU SUPERIOR.             */
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+    border-top: 1px solid #444444;                         /* Define uma borda sólida branca para destacar o CAMPO DE TEXTO na BARRA DE PESQUISA.                              */
+    contain: style layout;
+}
+
+/*======================================================*/
+/*        CONTEÚDO DAS CONCORDÂNCIAS — EXPANDIDO        */
+/*======================================================*/
+.concordancias-content.expanded {
+    display: block;                                        /* Define a exibição como bloco para garantir a VISIBILIDADE do menu ao interagir com o DROPDOWN.    */
+    animation: slideDown 0.3s ease-out;
+}
+
+/*======================================================*/
+/*                   ANIMAÇÃO SLIDE DOWN                */
+/*======================================================*/
+@keyframes slideDown {
+    from {
+        opacity: 0;                                        /* Define a opacidade para tornar a MARCA D'ÁGUA semi-transparente e sutil.                          */
+        transform: translateY(-10px);                      /* Aplica o deslocamento de correção para garantir a centralização perfeita do MODAL SOBRE.                                 */
+    }
+    to {
+        opacity: 1;                                        /* Define a opacidade para tornar a MARCA D'ÁGUA semi-transparente e sutil.                          */
+        transform: translateY(0);                          /* Aplica o deslocamento de correção para garantir a centralização perfeita do MODAL SOBRE.                                 */
+    }
+}
+
+/*======================================================*/
+/*             AGRUPAMENTO POR LIVRO BÍBLICO            */
+/*======================================================*/
+.livro-grupo {
+    overflow: hidden;                                      /* Define o transbordamento como oculto para impedir que a MARCA D'ÁGUA exiba barras de rolagem.     */
+    margin-bottom: 15px;                                   /* Define o espaçamento inferior para separar os VERSÍCULOS.       */
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+    border-radius: 8px;                                    /* Define os cantos arredondados para suavizar o design do SELETOR da BARRA DE PESQUISA.                            */
+}
+
+/*======================================================*/
+/*              CABEÇALHO DO GRUPO DE LIVRO             */
+/*======================================================*/
+.livro-header {
+    padding: 10px 15px;
+    background: linear-gradient(135deg, #3a3a3a 0%, #2a2a2a 100%);
+    border-radius: 8px 8px 0 0;                            /* Define os cantos arredondados para suavizar o design do SELETOR da BARRA DE PESQUISA.                            */
+    color: #d4af37;                                        /* Define a cor do texto em dourado do TÍTULO PRINCIPAL.                                             */
+    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO FORTE do TÍTULO PRINCIPAL.                                      */
+    font-size: 1.1rem;                                     /* Define o tamanho da fonte para os links do MENU LATERAL DOS LIVROS.                                  */
+    text-transform: uppercase;                             /* Transforma o texto em maiúsculas para o TÍTULO DO VERSÍCULO (MOBILE). */
+    letter-spacing: 0.5px;                                 /* Define o espaçamento entre as palavras no CONTAINER DAS PALAVRAS.                          */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO DA BARRA DE PESQUISA.      */
+    transition: all 0.3s ease;                             /* Define uma transição suave para os efeitos de fundo nos links do MENU SUPERIOR.                                    */
+}
+
+/*======================================================*/
+/*             CONTAINER DE CONTAGEM DE RESULTADOS      */
+/*======================================================*/
+.contador-conteiner {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do CABEÇALHO SUPERIOR.               */
+    position: fixed;                                       /* Define o posicionamento fixo para manter a BARRA DE MENU SUPERIOR sempre visível no topo da página.  */
+    top: 265px;                                            /* Define a distância em relação ao topo para posicionar o elemento. */
+    left: 155px;                                           /* Define a distância da esquerda para alinhar o elemento após o menu lateral. */
+    right: 16px;                                           /* Define a distância da direita para alinhar o elemento antes da borda lateral. */
+    z-index: 900;                                          /* Define a ordem de empilhamento para que o elemento fique sobre o conteúdo principal. */
+    height: 54px;                                          /* Define a altura fixa para padronizar a dimensão vertical do elemento. */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no CABEÇALHO SUPERIOR.               */
+    justify-content: flex-start;                           /* Alinha horizontalmente ao início da exibição dos VERSÍCULOS.                               */
+    padding: 0 16px;                                       /* Define o preenchimento interno vertical para criar um respiro na BARRA DE MENU SUPERIOR.             */
+    background: linear-gradient(135deg, rgba(26, 26, 26, 0.2) 0%, rgba(51, 51, 51, 0.2) 100%);
+    border: 1px solid #d4af37;                             /* Define uma borda sólida branca para destacar o CAMPO DE TEXTO na BARRA DE PESQUISA.                              */
+    border-radius: 8px;                                    /* Define os cantos arredondados para suavizar o design do SELETOR da BARRA DE PESQUISA.                            */
+/* Define a altura fixa para padronizar a dimensão vertical da BARRA DE MENU SUPERIOR.   */
+
+}
+
+/*======================================================*/
+/*             BOTÃO DE PAGINAÇÃO                       */
+/*======================================================*/
+.btn-paginacao {
+    min-width: 100px;                                      /* Define a largura mínima para garantir a visibilidade dos ITENS INDIVIDUAIS DAS PALAVRAS.                         */
+}
+
+/*======================================================*/
+/*             BOTÃO "CARREGAR MAIS"                    */
+/*======================================================*/
+.btn-carregar-mais {
+    height: auto;                                          /* Define a altura automática para que o MENU LATERAL DE LIVROS se ajuste ao seu conteúdo (MOBILE).                                   */
+    margin: 0 20px;                                        /* Define margens verticais como nulas e horizontais em 13px para espaçar o texto da BARRA DE MENU SUPERIOR.  */
+    color: #d4af37;                                        /* Define a cor do texto em dourado do TÍTULO PRINCIPAL.                                             */
+    font-size: 1.2em;                                      /* Define o tamanho da fonte do SUBTÍTULO DA VERSÃO.            */
+    font-weight: 500;                                      /* Define o peso da fonte em NEGRITO FORTE do TÍTULO PRINCIPAL.                                      */
+    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO do CONTÊINER PRINCIPAL.                                     */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o BOTÃO DA BARRA DE PESQUISA.               */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO DA BARRA DE PESQUISA.      */
+    transition: all 0.3s ease;                             /* Define uma transição suave para os efeitos de fundo nos links do MENU SUPERIOR.                                    */
+}
+
+/*======================================================*/
+/*             MENSAGEM "SEM RESULTADOS"                */
+/*======================================================*/
+.sem-resultados {
+    padding: 40px 20px;                                    /* Define o preenchimento interno para criar um respiro ao redor do texto no CAMPO DE TEXTO da BARRA DE PESQUISA.   */
+    color: #cccccc;                                        /* Define a cor do texto em cinza claro para o TEXTO TRANSLITERADO.   */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o BOTÃO DA BARRA DE PESQUISA.               */
+}
+
+/*======================================================*/
+/*          TÍTULO DA MENSAGEM "SEM RESULTADOS"         */
+/*======================================================*/
+.sem-resultados h3 {
+    font-size: 1.5rem;                                     /* Define o tamanho da fonte do SUBTÍTULO DA VERSÃO.            */
+}
+
+/*======================================================*/
+/*             INDICADOR DE CARREGAMENTO                */
+/*          Spinner animado durante buscas               */
+/*======================================================*/
+.loader,
+.loader-global-busca {
+    padding: 40px 20px;                                    /* Define o preenchimento interno para criar um respiro ao redor do texto no CAMPO DE TEXTO da BARRA DE PESQUISA.   */
+    color: #d4af37;                                        /* Define a cor do texto em dourado do TÍTULO PRINCIPAL.                                             */
+    font-size: 1.2rem;                                     /* Define o tamanho da fonte para os LINKS NA BARRA DE MENU SUPERIOR (MOBILE).                                 */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o BOTÃO DA BARRA DE PESQUISA.               */
+}
+
+/*======================================================*/
+/*             AJUSTE FINAL BOTÃO PAGINAÇÃO             */
+/*          Estilos completos para botões de navegação    */
+/*======================================================*/
+.btn-paginacao {
+    padding: 8px 16px;                                     /* Define o preenchimento interno para criar um respiro ao redor do texto no CAMPO DE TEXTO da BARRA DE PESQUISA.   */
+    background: #d4af37;                                   /* Define a cor de fundo em dourado para destacar visualmente as opções na lista do DROPDOWN.        */
+    border: none;                                          /* Define a borda como nula para remover o contorno padrão dos BOTÕES DOS CAPÍTULOS.                                */
+    border-radius: 4px;                                    /* Define os cantos arredondados para suavizar o design do SELETOR da BARRA DE PESQUISA.                            */
+    color: #1a1a1a;                                        /* Define a cor do texto em preto para o efeito de HOVER nas opções do DROPDOWN.   */
+    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO FORTE do TÍTULO PRINCIPAL.                                      */
+    font-size: 0.95em;                                     /* Define o tamanho da fonte do SUBTÍTULO DA VERSÃO.            */
+    text-transform: uppercase;                             /* Transforma o texto em maiúsculas para o TÍTULO DO VERSÍCULO (MOBILE). */
+    letter-spacing: 0.5px;                                 /* Define o espaçamento entre as palavras no CONTAINER DAS PALAVRAS.                          */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO DA BARRA DE PESQUISA.      */
+    transition: all 0.3s ease;                             /* Define uma transição suave para os efeitos de fundo nos links do MENU SUPERIOR.                                    */
+}
+
+/*======================================================*/
+/*             STATUS DA BUSCA GLOBAL                   */
+/*          Container para feedback da busca             */
+/*======================================================*/
+#busca-status {
+    padding: 15px;                                         /* Define o preenchimento interno para criar um respiro ao redor do texto no CAMPO DE TEXTO da BARRA DE PESQUISA.   */
+    background: #fff;                                      /* Define a cor de fundo em branco para garantir o contraste no CAMPO DE TEXTO da BARRA DE PESQUISA.                */
+    border: 2px solid var(--cor-destaque);                 /* Define uma borda sólida branca para destacar o CAMPO DE TEXTO na BARRA DE PESQUISA.                              */
+    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design do SELETOR da BARRA DE PESQUISA.                            */
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);               /* Define uma sombra suave para criar profundidade e destaque na BARRA DE MENU SUPERIOR. */
+    font-family: 'Arial', sans-serif;                      /* Define o tipo de fonte como SEGOE UI, TAHOMA, GENEVA, VERDANA, SANS-SERIF.                */
+}
+
+/*======================================================*/
+/*             SPINNER DO STATUS DA BUSCA               */
+/*          Animação de carregamento do status           */
+/*======================================================*/
+#busca-status .loading-spinner {
+    width: 30px;                                           /* Define a largura total para garantir que o CONTÊINER PRINCIPAL ocupe toda a extensão.             */
+    height: 30px;                                          /* Define a altura fixa para padronizar a dimensão vertical da BARRA DE MENU SUPERIOR.                  */
+    margin: 0 auto 10px;                                   /* Define margens verticais como nulas e horizontais em 13px para espaçar o texto da BARRA DE MENU SUPERIOR.  */
+    border: 3px solid #f3f3f3;                             /* Define uma borda sólida branca para destacar o CAMPO DE TEXTO na BARRA DE PESQUISA.                              */
+    border-top: 3px solid var(--cor-destaque);             /* Define uma borda sólida branca para destacar o CAMPO DE TEXTO na BARRA DE PESQUISA.                              */
+    border-radius: 50%;                                    /* Define os cantos arredondados para suavizar o design do SELETOR da BARRA DE PESQUISA.                            */
+    animation: spin 1s linear infinite;                    /* Aplica a animação 'spin' com duração de 1s, linear e infinita. */
+}
+
+/*======================================================*/
+/*             TEXTO DO STATUS DA BUSCA                 */
+/*          Mensagem informativa do progresso              */
+/*======================================================*/
+#busca-status p {
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão.    */
+    font-size: 14px;                                       /* Define o tamanho da fonte para a legibilidade do número nos BOTÕES DOS CAPÍTULOS.                                */
+    color: #333;                                           /* Define a cor do texto em cinza escuro para a TRADUÇÃO DA PALAVRA no MODO LEITURA.      */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o BOTÃO DA BARRA DE PESQUISA.               */
+}
+
+/*======================================================*/
+/*             PROGRESSO DA BUSCA                       */
+/*          Indicador visual do andamento                 */
+/*======================================================*/
+#busca-progress {
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO do CONTÊINER PRINCIPAL.                                         */
+    color: var(--cor-destaque);                            /* Define a cor do texto em dourado do TÍTULO PRINCIPAL.                                             */
+}
+
+/*======================================================*/
+/*                   ANIMAÇÃO SPIN                      */
+/*          Rotação contínua para elementos animados      */
+/*======================================================*/
+@keyframes spin {
+    0% { transform: rotate(0deg); }                        /* Aplica o deslocamento de correção para garantir a centralização perfeita do MODAL SOBRE.                                 */
+    100% { transform: rotate(360deg); }                    /* Aplica o deslocamento de correção para garantir a centralização perfeita do MODAL SOBRE.                                 */
+}
+
+/*======================================================*/
+/*             ISOLAMENTO DE RENDERIZAÇÃO (ITEM)        */
+/*          Otimização de performance para itens         */
+/*======================================================*/
+.palavra-item {
+    contain: content;                                      /* Otimiza a renderização, isolando o estilo, layout e pintura do elemento para melhorar a performance. */
+}
+
+/*======================================================*/
+/*          ISOLAMENTO DE RENDERIZAÇÃO (CONTEÚDO)       */
+/*          Otimização para conteúdo dinâmico            */
+/*======================================================*/
+.concordancias-content {
+    contain: style layout;                                 /* Otimiza a renderização, isolando especificamente o estilo e o layout do conteúdo para evitar re-cálculos globais. */
+}
+
+/*======================================================*/
+/*               SPINNER DE CARREGAMENTO GERAL          */
+/*          Spinner padrão para carregamentos            */
+/*======================================================*/
+.loading-spinner {
+    width: 40px;                                           /* Define a largura total para garantir que o CONTÊINER PRINCIPAL ocupe toda a extensão.             */
+    height: 40px;                                          /* Define a altura fixa para padronizar a dimensão vertical da BARRA DE MENU SUPERIOR.                  */
+    margin: 0 auto 15px;                                   /* Define margens verticais como nulas e horizontais em 13px para espaçar o texto da BARRA DE MENU SUPERIOR.  */
+    border: 4px solid #333;                                /* Define uma borda sólida branca para destacar o CAMPO DE TEXTO na BARRA DE PESQUISA.                              */
+    border-top: 4px solid #d4af37;                         /* Define uma borda sólida branca para destacar o CAMPO DE TEXTO na BARRA DE PESQUISA.                              */
+    border-radius: 50%;                                    /* Define os cantos arredondados para suavizar o design do SELETOR da BARRA DE PESQUISA.                            */
+    animation: spin 1s linear infinite;                    /* Aplica a animação 'spin' com duração de 1s, linear e infinita. */
+}
+
+/*======================================================*/
+/*               MENSAGEM DE ERRO NA BUSCA              */
+/*          Exibida quando ocorre falha na busca         */
+/*======================================================*/
+.erro-busca {
+    padding: 20px;                                         /* Define o preenchimento interno para criar um respiro ao redor do texto no CAMPO DE TEXTO da BARRA DE PESQUISA.   */
+    background: rgba(255, 107, 107, 0.1);                  /* Define o fundo como branco translúcido para o efeito visual de HOVER na BARRA DO MENU SUPERIOR.     */
+    border: 1px solid #ff6b6b;                             /* Define uma borda sólida branca para destacar o CAMPO DE TEXTO na BARRA DE PESQUISA.                              */
+    border-radius: 8px;                                    /* Define os cantos arredondados para suavizar o design do SELETOR da BARRA DE PESQUISA.                            */
+    color: #ff6b6b;                                        /* Define a cor do texto em dourado do TÍTULO PRINCIPAL.                                             */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o BOTÃO DA BARRA DE PESQUISA.               */
+}
+
+/*=====================================================*/
+/*          CORREÇÕES ESPECÍFICAS PARA MOBILE          */
+/*     Ajustes responsivos para dispositivos móveis     */
+/*=====================================================*/
+@media (max-width: 768px) {
+
+    /*==================================================*/
+    /*           CONTAINER DE FILTROS (MOBILE)          */
+    .filtros-conteiner {
+        position: static;                                  /* Define o posicionamento estático para integrar a BARRA DE MENU SUPERIOR ao fluxo normal da página (MOBILE).*/
+        top: 0;                                            /* Define a distância do topo como zero para que a MARCA D'ÁGUA comece no limite superior.           */
+        left: 0;                                           /* Define a distância da esquerda como zero para alinhar a BARRA DE MENU SUPERIOR ao limite lateral.    */
+        width: 100%;                                       /* Define a largura total para garantir que o CONTÊINER PRINCIPAL ocupe toda a extensão.             */
+        margin-bottom: 15px;                               /* Define o espaçamento inferior para separar os VERSÍCULOS.       */
+    }
+
+    /*==================================================*/
+    /*            LINHA DE FILTROS (MOBILE)             */
+    /*==================================================*/
+    .filtros-linha {
+        flex-direction: column;                            /* Define a orientação em coluna para empilhar verticalmente os itens do CABEÇALHO (MOBILE).  */
+        gap: 15px;                                         /* Define o espaçamento entre as palavras no CONTAINER DAS PALAVRAS.                          */
+    }
+
+    /*==================================================*/
+    /*            GRUPO DE FILTROS (MOBILE)             */
+    /*==================================================*/
+    .filtro-grupo {
+        flex: none;                                        /* Define o crescimento flexível do CONTEÚDO PRINCIPAL em relação a outros elementos.      */
+        margin-bottom: 15px;                               /* Define o espaçamento inferior para separar os VERSÍCULOS.       */
+    }
+
+    /*==================================================*/
+    /*             BOTÃO DE BUSCA (MOBILE)              */
+    /*==================================================*/
+    .search-btn {
+        margin-top: 8px;                                   /* Define o espaçamento superior para separar o CONTEÚDO PRINCIPAL da barra de menu.       */
+    }
+
+    /*==================================================*/
+    /*            BLOCOS DE INFORMAÇÃO (MOBILE)         */
+    /*==================================================*/
+    .palavra-fonte-info,
+    .palavra-veja-tambem-info,
+    .fonte-info,
+    .veja-tambem {
+        position: static;                                  /* Define o posicionamento estático para integrar a BARRA DE MENU SUPERIOR ao fluxo normal da página (MOBILE).*/
+        width: 100%;                                       /* Define a largura total para garantir que o CONTÊINER PRINCIPAL ocupe toda a extensão.             */
+        border: 1px solid #333333;                         /* Define uma borda sólida branca para destacar o CAMPO DE TEXTO na BARRA DE PESQUISA.                              */
+    }
+
+    /*==================================================*/
+    /*          CONTAINER DE CONTAGEM (MOBILE)          */
+    /*==================================================*/
+    .contador-conteiner {
+        display: flex;                                     /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do CABEÇALHO SUPERIOR.               */
+        position: static;                                  /* Define o posicionamento estático para integrar a BARRA DE MENU SUPERIOR ao fluxo normal da página (MOBILE).*/
+        top: auto;                                         /* Remove a especificação de distância do topo, permitindo o posicionamento automático. */
+        left: 0;                                           /* Define a distância da esquerda como zero. */
+        width: 100%;                                       /* Define a largura total para garantir que o CONTÊINER PRINCIPAL ocupe toda a extensão.             */
+        height: auto;                                      /* Define a altura automática para que o MENU LATERAL DE LIVROS se ajuste ao seu conteúdo (MOBILE).                                   */
+        flex-direction: column;                            /* Define a orientação em coluna para empilhar verticalmente os itens do CABEÇALHO (MOBILE).  */
+        gap: 10px;                                         /* Define o espaçamento entre as palavras no CONTAINER DAS PALAVRAS.                          */
+        padding: 12px 16px;                                /* Define o preenchimento interno para criar um respiro ao redor do texto no CAMPO DE TEXTO da BARRA DE PESQUISA.   */
+        margin-bottom: 15px;                               /* Define o espaçamento inferior para separar os VERSÍCULOS.       */
+    }
+
+    /*==================================================*/
+    /*             PARÁGRAFO DO CONTADOR (MOBILE)       */
+    /*==================================================*/
+    .contador-conteiner p {
+        position: static;                                  /* Define o posicionamento estático para integrar a BARRA DE MENU SUPERIOR ao fluxo normal da página (MOBILE).*/
+        transform: none;                                   /* Aplica o deslocamento de correção para garantir a centralização perfeita do MODAL SOBRE.                                 */
+        text-align: center;                                /* Define o alinhamento de texto centralizado para o BOTÃO DA BARRA DE PESQUISA.               */
+    }
+
+    /*==================================================*/
+    /*           CONTAINER DE RESULTADOS (MOBILE)       */
+    /*==================================================*/
+    #resultados-conteiner {
+        height: auto;                                      /* Define a altura automática para que o MENU LATERAL DE LIVROS se ajuste ao seu conteúdo (MOBILE).                                   */
+        overflow-y: auto;                                  /* Define o comportamento de rolagem vertical automática para o conteúdo do MENU LATERAL DE LIVROS.     */
+        margin-left: 0;                                    /* Define as margens externas como nulas para remover os espaçamentos padrão.    */
+        margin-top: 0;                                     /* Define as margens externas como nulas para remover os espaçamentos padrão.    */
+    }
+
+    /*==================================================*/
+    /*        REPETIÇÃO DE BLOCOS (CONSISTÊNCIA)        */
+    /*==================================================*/
+    /* Repetição de blocos originais para manter a consistência com o arquivo de entrada. */
+    .filtros-linha {
+        flex-direction: column;                            /* Define a orientação em coluna para empilhar verticalmente os itens do CABEÇALHO (MOBILE).  */
+        gap: 15px;                                         /* Define o espaçamento entre as palavras no CONTAINER DAS PALAVRAS.                          */
+    }
+
+    /*==================================================*/
+    /*            GRUPO DE FILTROS (MOBILE)             */
+    /*==================================================*/
+    .filtro-grupo {
+        flex: none;                                        /* Define o crescimento flexível do CONTEÚDO PRINCIPAL em relação a outros elementos.      */
+        margin-bottom: 15px;                               /* Define o espaçamento inferior para separar os VERSÍCULOS.       */
+    }
+
+    /*==================================================*/
+    /*             BOTÃO DE BUSCA (MOBILE)              */
+    /*==================================================*/
+    .search-btn {
+        margin-top: 8px;                                   /* Define o espaçamento superior para separar o CONTEÚDO PRINCIPAL da barra de menu.       */
+    }
+
+    /*==================================================*/
+    /*            BLOCOS DE INFORMAÇÃO (MOBILE)         */
+    /*==================================================*/
+    .palavra-fonte-info,
+    .palavra-veja-tambem-info,
+    .fonte-info,
+    .veja-tambem {
+        position: static;                                  /* Define o posicionamento estático para integrar o bloco ao fluxo normal do documento.       */
+        width: 100%;                                       /* Define a largura total para que o bloco ocupe toda a extensão disponível.             */
+        border: 1px solid #333333;                         /* Define uma borda sólida cinza escura.                              */
+    }
+
+    /*==================================================*/
+    /*          CONTAINER DE CONTAGEM (MOBILE)          */
+    /*==================================================*/
+    .contador-conteiner {
+        display: flex;                                     /* Ativa o FLEXBOX para alinhar os itens internos do container.               */
+        position: static;                                  /* Define o posicionamento estático para integrar o container ao fluxo normal do documento.       */
+        top: auto;                                         /* Remove a especificação de distância do topo, permitindo o posicionamento automático. */
+        left: 0;                                           /* Define a distância da esquerda como zero. */
+        width: 100%;                                       /* Define a largura total para que o container ocupe toda a extensão disponível.             */
+        height: auto;                                      /* Define a altura automática para que o container se ajuste ao seu conteúdo.                                   */
+        flex-direction: column;                            /* Organiza os itens internos em uma coluna (empilhados verticalmente).  */
+        gap: 10px;                                         /* Define o espaçamento uniforme entre os itens internos do container.                          */
+        padding: 12px 16px;                                /* Define o preenchimento interno para criar um respiro.   */
+        margin-bottom: 15px;                               /* Define o espaçamento inferior para separar os VERSÍCULOS.       */
+    }
+
+    /*==================================================*/
+    /*             PARÁGRAFO DO CONTADOR (MOBILE)       */
+    /*==================================================*/
+    .contador-conteiner p {
+        position: static;                                  /* Define o posicionamento estático para integrar o parágrafo ao fluxo normal do documento.       */
+        transform: none;                                   /* Remove qualquer transformação aplicada ao parágrafo, retornando-o à sua posição original.                                 */
+        text-align: center;                                /* Define o alinhamento de texto centralizado.               */
+    }
+
+    /*==================================================*/
+    /*           CONTAINER DE RESULTADOS (MOBILE)       */
+    /*==================================================*/
+    #resultados-conteiner {
+        height: auto;                                      /* Define a altura automática para que o container se ajuste ao seu conteúdo.                                   */
+        overflow-y: auto;                                  /* Adiciona rolagem vertical automática se o conteúdo exceder a altura.     */
+        margin-left: 0;                                    /* Define as margens externas como nulas para remover os espaçamentos padrão.    */
+        margin-top: 0;                                     /* Define as margens externas como nulas para remover os espaçamentos padrão.    */
+    }
+}

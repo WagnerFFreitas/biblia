@@ -37,7 +37,6 @@
 
     /* BLOCO: Define variáveis globais de estado                               */
     window.NOME_VERSAO_COMPLETA_BIBLIA = 'Versão King James';                                           /* Nome global da bíblia ativa            */
-
     window.modoLeituraAtivo = false;                                                                    /* Estado do modo tela cheia              */
     window.ultimoLivroSelecionado = null;                                                               /* Cache do último livro lido             */
     window.ultimoCapituloSelecionado = null;                                                            /* Cache do último capítulo lido          */

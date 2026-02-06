@@ -1,0 +1,1191 @@
+/*======================================================*/
+/*                  PÁGINA DAS VERSÕES                  */
+/*  Este arquivo contém os estilos específicos para a   */
+/*  página "versoes.html", que exibe o conteúdo de uma  */
+/*               versão específica da Bíblia.           */
+/*======================================================*/
+
+/*======================================================*/
+/*            CONFIGURAÇÃO INICIAL (RESET)              */
+/*    Remove margens e PADDING padrão para garantir     */
+/*           consistência entre navegadores.            */
+/*======================================================*/
+* {
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão.    */
+    padding: 0;                                            /* Define o preenchimento interno como nulo para remover os espaçamentos padrão. */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).              */
+}
+
+/*======================================================*/
+/*          LAYOUT PRINCIPAL DO CORPO DA PÁGINA         */
+/*      Configura o layout básico do corpo da página    */
+/*           para ocupar toda a altura da tela.         */
+/*======================================================*/
+body {
+    width: 100%;                                           /* Define a largura total para garantir que o CONTÊINER PRINCIPAL ocupe toda a extensão.             */
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do CONTÊINER PRINCIPAL. */
+    overflow-x: hidden;                                    /* Oculta o transbordamento horizontal e desativa a rolagem lateral do CONTÊINER PRINCIPAL.          */
+    background-color: #181818;                           /* Define a cor de fundo em cinza escuro do CONTÊINER PRINCIPAL.                                     */
+    color: #fff;                                         /* Define a cor do texto em branco do CONTÊINER PRINCIPAL.                                           */
+    font-family: SANS-SERIF;                               /* Define o tipo de fonte como SANS-SERIF do CONTÊINER PRINCIPAL.                                    */
+    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO do CONTÊINER PRINCIPAL.                                     */
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO do CONTÊINER PRINCIPAL.                                         */
+}
+
+/*=====================================================*/
+/*              CABEÇALHO E TÍTULOS                    */
+/*   Header, títulos principais e seletor de versão    */
+/*=====================================================*/
+header {
+    position: relative;                                    /* Define o posicionamento relativo para o CABEÇALHO.   */
+    width: 100%;                                           /* Define a largura total para o CABEÇALHO.             */
+}
+
+/*=====================================================*/
+/*       POSICIONAMENTO DO CABEÇALHO SUPERIOR          */
+/*  Define o posicionamento do cabeçalho, garantindo   */
+/*       que ele fique sobre outros elementos.         */
+/*=====================================================*/
+.cabecalho-superior {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do CABEÇALHO SUPERIOR.               */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no CABEÇALHO SUPERIOR.               */
+    justify-content: space-between;                        /* Define a distribuição dos itens para criar espaçamento entre os blocos do CABEÇALHO SUPERIOR.     */
+    padding-top: 20px;                                     /* Define o preenchimento interno superior para criar um respiro no CABEÇALHO SUPERIOR.              */
+}
+
+/*======================================================*/
+/*              TÍTULO PRINCIPAL – BÍBLIA               */
+/*     Estilo do título principal da versão bíblica     */
+/*======================================================*/
+#titulo-principal-versao {
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do TÍTULO PRINCIPAL.    */
+    margin-left: 30px;                                     /* Define o recuo à esquerda para o TÍTULO PRINCIPAL.                                                */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, SANS-SERIF;  /* Define o tipo de fonte como SEGOE UI, TAHOMA, GENEVA, VERDANA, SANS-SERIF.                */
+    font-size: 2.5rem;                                     /* Define o tamanho da fonte do TÍTULO PRINCIPAL.                                                    */
+    font-weight: 700;                                      /* Define o peso da fonte em NEGRITO FORTE do TÍTULO PRINCIPAL.                                      */
+    color: #d4ac0d;                                      /* Define a cor do texto em dourado do TÍTULO PRINCIPAL.                                             */
+}
+
+/*======================================================*/
+/*                 SUBTÍTULO DA VERSÃO                  */
+/*       Exibe o nome extenso da versão bíblica         */
+/*======================================================*/
+#subtitulo-versao-extenso {
+    margin-top: 1px;                                       /* Define o espaçamento superior para o SUBTÍTULO DA VERSÃO.    */
+    margin-right: 0;                                       /* Define o espaçamento à direita para o SUBTÍTULO DA VERSÃO.   */
+    margin-bottom: 0.5px;                                  /* Define o espaçamento inferior para o SUBTÍTULO DA VERSÃO.    */
+    margin-left: 295px;                                    /* Define o recuo à esquerda do SUBTÍTULO DA VERSÃO.            */
+    font-size: 1.5em;                                      /* Define o tamanho da fonte do SUBTÍTULO DA VERSÃO.            */
+    color: #d4ac0d;                                      /* Define a cor do texto em dourado do SUBTÍTULO DA VERSÃO.     */
+}
+
+/*======================================================*/
+/*                  BARRA DE PESQUISA                   */
+/*         Container do campo de busca bíblica          */
+/*======================================================*/
+.barra-pesquisa {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout da BARRA DE PESQUISA.   */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos na BARRA DE PESQUISA.   */
+    margin-right: 20px;                                    /* Define o espaçamento à direita para separar a BARRA DE PESQUISA de outros elementos. */
+}
+
+/*======================================================*/
+/*             BARRA DE PESQUISA — SELETOR              */
+/*       Seleção de livro, capítulo ou versículo        */
+/*======================================================*/
+.barra-pesquisa select {
+    width: auto;                                           /* Define a largura como automática para permitir que o SELETOR se ajuste ao tamanho do texto na BARRA DE PESQUISA. */
+    margin-right: 5px;                                     /* Define o espaçamento à direita para separar o SELETOR de outros elementos na BARRA DE PESQUISA.                  */
+    padding: 8px;                                          /* Define o preenchimento interno para criar um respiro ao redor do texto no SELETOR da BARRA DE PESQUISA.          */
+    background-color: #383838;                           /* Define a cor de fundo em cinza escuro para o SELETOR da BARRA DE PESQUISA.                                       */
+    border: 1px solid #fff;                              /* Define uma borda sólida branca para destacar o SELETOR da BARRA DE PESQUISA.                                     */
+    border-radius: 5px;                                    /* Define os cantos arredondados para suavizar o design do SELETOR da BARRA DE PESQUISA.                            */
+    font-size: 16px;                                       /* Define o tamanho da fonte para assegurar a legibilidade no SELETOR da BARRA DE PESQUISA.                         */
+}
+
+/*======================================================*/
+/*           BARRA DE PESQUISA — CAMPO TEXTO            */
+/*               Entrada manual de busca                */
+/*======================================================*/
+.barra-pesquisa input[type="text"] {
+    width: 200px;                                          /* Define a largura fixa para padronizar o tamanho do CAMPO DE TEXTO na BARRA DE PESQUISA.                          */
+    margin-right: 10px;                                    /* Define o espaçamento à direita para separar o CAMPO DE TEXTO de outros elementos na BARRA DE PESQUISA.           */
+    padding: 8px;                                          /* Define o preenchimento interno para criar um respiro ao redor do texto no CAMPO DE TEXTO da BARRA DE PESQUISA.   */
+    background-color: #383838;                           /* Define a cor de fundo em cinza escuro para o CAMPO DE TEXTO na BARRA DE PESQUISA.                                */
+    border: 1px solid #fff;                              /* Define uma borda sólida branca para destacar o CAMPO DE TEXTO na BARRA DE PESQUISA.                              */
+    border-radius: 5px;                                    /* Define os cantos arredondados para suavizar o design do CAMPO DE TEXTO na BARRA DE PESQUISA.                     */
+    color: #fff;                                         /* Define a cor do texto em branco para garantir o contraste no CAMPO DE TEXTO da BARRA DE PESQUISA.                */
+    font-size: 16px;                                       /* Define o tamanho da fonte para assegurar a legibilidade no CAMPO DE TEXTO da BARRA DE PESQUISA.                  */
+}
+
+/*======================================================*/
+/*              BARRA DE PESQUISA — BOTÃO               */
+/*           Aciona a busca do texto bíblico            */
+/*======================================================*/
+.barra-pesquisa button {
+    padding: 8px 15px;                                     /* Define o preenchimento interno vertical e horizontal para dimensionar o BOTÃO DA BARRA DE PESQUISA.  */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO DA BARRA DE PESQUISA.      */
+    background-color: #4CAF50;                           /* Define a cor de fundo em verde claro para destacar a ação do BOTÃO DA BARRA DE PESQUISA.             */
+    border: 1px solid #fff;                              /* Define uma borda sólida branca para delimitar o BOTÃO DA BARRA DE PESQUISA.                          */
+    border-radius: 5px;                                    /* Define os cantos arredondados para suavizar o design do BOTÃO DA BARRA DE PESQUISA.                  */
+    color: #fff;                                         /* Define a cor do texto em branco para garantir a leitura no BOTÃO DA BARRA DE PESQUISA.               */
+    font-size: 1.6rem;                                     /* Define o tamanho da fonte para dar destaque ao texto do BOTÃO DA BARRA DE PESQUISA.                  */
+}
+
+/*======================================================*/
+/*          BARRA DE MENU SUPERIOR — NAVEGAÇÃO          */
+/*       Barra fixa com menus e links principais        */
+/*======================================================*/
+nav {
+    position: fixed;                                       /* Define o posicionamento fixo para manter a BARRA DE MENU SUPERIOR sempre visível no topo da página.  */
+    top: 110px;                                            /* Define a distância em relação ao topo para posicionar a BARRA DE MENU SUPERIOR abaixo do cabeçalho.  */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar a BARRA DE MENU SUPERIOR ao limite lateral.    */
+    z-index: 1;                                            /* Define a ordem de empilhamento para que a BARRA DE MENU SUPERIOR se sobreponha a elementos de fundo. */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout da BARRA DE MENU SUPERIOR.              */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos na BARRA DE MENU SUPERIOR.              */
+    justify-content: space-between;                        /* Define a distribuição dos itens para criar espaçamento entre os blocos da BARRA DE MENU SUPERIOR.    */
+    width: 100%;                                           /* Define a largura total para garantir que a BARRA DE MENU SUPERIOR ocupe toda a extensão horizontal.  */
+    height: 40px;                                          /* Define a altura fixa para padronizar a dimensão vertical da BARRA DE MENU SUPERIOR.                  */
+    padding: 10px 0;                                       /* Define o preenchimento interno vertical para criar um respiro na BARRA DE MENU SUPERIOR.             */
+    background: linear-gradient(to right, #333, #555, #777);  /* Define um degradê linear cinza para o fundo da BARRA DE MENU SUPERIOR.                     */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);            /* Define uma sombra suave para criar profundidade e destaque na BARRA DE MENU SUPERIOR.                */
+}
+
+/*======================================================*/
+/*            BARRA DE MENU SUPERIOR — LISTA            */
+/*             Agrupa os links de navegação             */
+/*======================================================*/
+nav .menu-opcoes {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout das OPÇÕES DA BARRA DE MENU SUPERIOR.                 */
+    flex-grow: 1;                                          /* Permite que a lista se expanda para ocupar o espaço disponível na BARRA DE MENU SUPERIOR.                          */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos na BARRA DE MENU SUPERIOR.                            */
+    justify-content: center;                               /* Define o alinhamento horizontal centralizado para as OPÇÕES DA BARRA DE MENU SUPERIOR.                             */
+    margin-left: 80px;                                     /* Define o recuo à esquerda para posicionar as OPÇÕES DA BARRA DE MENU SUPERIOR.                                     */
+    padding: 0;                                            /* Define o preenchimento interno como nulo para remover os espaçamentos padrão das OPÇÕES DA BARRA DE MENU SUPERIOR. */
+    list-style: none;                                      /* Define o estilo de lista como nulo para remover os marcadores das OPÇÕES DA BARRA DE MENU SUPERIOR.                */
+}
+
+/*======================================================*/
+/*            BARRA DE MENU SUPERIOR — ITEM             */
+/*             Item individual da navegação             */
+/*======================================================*/
+nav .menu-opcoes li {
+    margin: 0 13px;                                        /* Define margens verticais como nulas e horizontais em 13px para espaçar o texto da BARRA DE MENU SUPERIOR.  */
+    white-space: nowrap;                                   /* Impede a quebra de linha para manter os itens do menu na mesma linha.                                      */
+}
+
+/*======================================================*/
+/*            BARRA DO MENU SUPERIOR — LINK             */
+/*             Estilo dos links navegáveis              */
+/*======================================================*/
+nav .menu-opcoes li a {
+    display: inline-block;                                 /* Define a exibição como bloco em linha para permitir dimensões e espaçamentos nos links da BARRA DE MENU SUPERIOR.  */
+    padding: 4px 4px;                                      /* Define o preenchimento interno para criar um respiro nos links da BARRA DE MENU SUPERIOR.                          */
+    transition: background 0.3s ease;                      /* Define uma transição suave para os efeitos de fundo nos links do MENU SUPERIOR.                                    */
+    border-radius: 5px;                                    /* Define os cantos arredondados para suavizar o design dos links na BARRA DE MENU SUPERIOR.                          */
+    color: #fff;                                         /* Define a cor do texto em branco para garantir o contraste nos links do MENU SUPERIOR.                              */
+    font-size: 1.2vw;                                      /* Define o tamanho da fonte de forma responsiva para os links do MENU SUPERIOR.                                      */
+    text-decoration: none;                                 /* Define a decoração do texto como nula para remover o sublinhado dos links no MENU SUPERIOR.                        */
+}
+
+/*======================================================*/
+/*            BARRA DO MENU SUPERIOR — HOVER            */
+/*           Efeito visual ao passar o mouse            */
+/*======================================================*/
+nav .menu-opcoes li a:hover {
+    background: rgba(255, 255, 255, 0.2);                /* Define o fundo como branco translúcido para o efeito visual de HOVER na BARRA DO MENU SUPERIOR.     */
+}
+
+/*======================================================*/
+/*          TÍTULO DO MENU LATERAL DOS LIVROS           */
+/*       Identificador visual da seção de livros        */
+/*======================================================*/
+.titulo-menu {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do TÍTULO DO MENU LATERAL DOS LIVROS.   */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no TÍTULO DO MENU LATERAL DOS LIVROS.   */
+    margin-left: 37px;                                     /* Define o recuo à esquerda para o posicionamento do TÍTULO DO MENU LATERAL DOS LIVROS.                */
+    margin-right: 20px;                                    /* Define o espaçamento à direita para o TÍTULO DO MENU LATERAL DOS LIVROS.                             */
+    font-size: 1.5vw;                                      /* Define o tamanho da fonte de forma responsiva para o TÍTULO DO MENU LATERAL DOS LIVROS.              */
+}
+
+/*======================================================*/
+/*          BARRA DO MENU SUSPENSO (DROPDOWN)           */
+/*           Estrutura base do menu suspenso            */
+/*======================================================*/
+.meu-suspenso {
+    position: relative;                                    /* Define o posicionamento relativo para o container do MENU SUSPENSO (DROPDOWN).                                           */
+    display: inline-block;                                 /* Define o container do MENU SUSPENSO fique alinhado lado a lado com outros itens, preservando suas propriedades de bloco. */
+}
+
+/*======================================================*/
+/*     BARRA DO MENU SUPERIOR - DROPDOWN — CONTEÚDO     */
+/*        Lista flutuante exibida ao interagir          */
+/*======================================================*/
+.conteudo-menu-suspenso {
+    position: absolute;                                    /* Define o posicionamento absoluto para que o CONTEÚDO DO DROPDOWN flutue em relação ao seu container. */
+    top: 100%;                                             /* Define o posicionamento para que o CONTEÚDO DO DROPDOWN comece imediatamente abaixo do elemento pai. */
+    left: -5px;                                            /* Define um ajuste horizontal fino para alinhar visualmente o CONTEÚDO DO DROPDOWN.                    */
+    z-index: 1;                                            /* Define a ordem de empilhamento para que o CONTEÚDO DO DROPDOWN fique acima dos elementos de fundo.   */
+    display: none;                                         /* Define a exibição como nula para ocultar o CONTEÚDO DO DROPDOWN por padrão.                          */
+    width: 240px;                                          /* Define a largura fixa para padronizar o tamanho do CONTEÚDO DO DROPDOWN.                             */
+    list-style: none;                                      /* Define o estilo de lista como nulo para remover os marcadores do CONTEÚDO DO DROPDOWN.               */
+    background-color: rgba(0, 0, 0, 0.9);                /* Define a cor de fundo em preto translúcido para destacar o CONTEÚDO DO DROPDOWN.                     */
+    border-radius: 8px;                                    /* Define os cantos arredondados para suavizar o design do CONTEÚDO DO DROPDOWN.                        */
+}
+
+/*======================================================*/
+/*     BARRA DO MENU SUPERIOR - DROPDOWN — EXIBIÇÃO     */
+/*           Mostra o menu ao passar o mouse            */
+/*======================================================*/
+.meu-suspenso:hover .conteudo-menu-suspenso {
+    display: block;                                        /* Define a exibição como bloco para garantir a VISIBILIDADE do menu ao interagir com o DROPDOWN.    */
+}
+
+/*======================================================*/
+/*      BARRA DO MENU SUPERIOR - DROPDOWN — LINKS       */
+/*          Estilo dos links internos do menu           */
+/*======================================================*/
+.conteudo-menu-suspenso li a {
+    display: block;                                        /* Define a exibição como bloco para garantir o PREENCHIMENTO total da largura nos links do DROPDOWN.*/
+    padding: 6px 8px;                                      /* Define o preenchimento interno para criar um respiro nos links do DROPDOWN.                       */
+    color: #d4ac0d !important;                           /* Define a cor do texto em dourado para destacar visualmente as opções na lista do DROPDOWN.        */
+    text-decoration: none;                                 /* Define a decoração do texto como nula para remover o sublinhado dos links no DROPDOWN.            */
+}
+
+/*======================================================*/
+/*      BARRA DO MENU SUPERIOR - DROPDOWN — HOVER       */
+/*          Feedback visual ao passar o mouse           */
+/*======================================================*/
+.conteudo-menu-suspenso li a:hover {
+    background-color: #0f0e0e;                           /* Define a cor de fundo em preto para o efeito de HOVER nas opções do DROPDOWN.   */
+    color: #fff !important;                              /* Define a cor do texto em branco para o efeito de HOVER nas opções do DROPDOWN.  */
+}
+
+/*======================================================*/
+/*                MENU LATERAL DE LIVROS                */
+/*      Navegação fixa lateral dos livros bíblicos      */
+/*======================================================*/
+.menu-livros {
+    position: fixed;                                       /* Define o posicionamento fixo para manter o MENU LATERAL DE LIVROS sempre visível durante a navegação.*/
+    top: 150px;                                            /* Define a distância em relação ao topo para o posicionamento do MENU LATERAL DE LIVROS.               */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar o MENU LATERAL DE LIVROS ao limite lateral.    */
+    bottom: 0;                                             /* Define a distância do fundo como zero para estender o MENU LATERAL DE LIVROS até a base da tela.     */
+    z-index: 10;                                           /* Define a ordem de empilhamento para que o MENU LATERAL DE LIVROS se sobreponha ao conteúdo principal.*/
+    width: 225px;                                          /* Define a largura fixa para padronizar a dimensão horizontal do MENU LATERAL DE LIVROS.               */
+    height: calc(100vh - 180px);                           /* Define a altura do MENU LATERAL DE LIVROS automaticamente (dinamicamente).                           */
+    margin-right: 20px;                                    /* Define o espaçamento à direita para distanciar o MENU LATERAL DE LIVROS do conteúdo central.         */
+    padding: 18px;                                         /* Define o preenchimento interno para criar um respiro no MENU LATERAL DE LIVROS.                      */
+    overflow-y: auto;                                      /* Define o comportamento de rolagem vertical automática para o conteúdo do MENU LATERAL DE LIVROS.     */
+}
+
+/*======================================================*/
+/*           MENU LATERAL DOS LIVROS — LISTA            */
+/*======================================================*/
+.menu-livros ul {
+    margin: 15px 0 0 15px;                                 /* Define margem superior de 15px e recuo à esquerda de 15px para separar e alinhar a LISTA DE LIVROS.  */
+    list-style-type: none;                                 /* Define o estilo de lista como nulo para remover os marcadores da LISTA DE LIVROS.                    */
+}
+
+/*======================================================*/
+/*            MENU LATERAL DOS LIVROS — ITEM            */
+/*======================================================*/
+.menu-livros li {
+    margin-bottom: 10px;                                   /* Define o espaçamento inferior para separar os ITENS da LISTA DE LIVROS.       */
+}
+
+/*======================================================*/
+/*            MENU LATERAL DOS LIVROS — LINK            */
+/*======================================================*/
+.menu-livros a {
+    color: #fff;                                         /* Define a cor do texto em branco para os links do MENU LATERAL DOS LIVROS.                            */
+    font-size: 1.1rem;                                     /* Define o tamanho da fonte para os links do MENU LATERAL DOS LIVROS.                                  */
+    text-decoration: none;                                 /* Define a decoração do texto como nula para remover o sublinhado dos links do MENU LATERAL DOS LIVROS.*/
+}
+
+/*======================================================*/
+/*           MENU LATERAL DOS LIVROS — HOVER            */
+/*======================================================*/
+.menu-livros a:hover {
+    text-decoration: underline;                            /* Aplica o sublinhado no efeito de HOVER para destaque visual. */
+}
+
+/*======================================================*/
+/*         MENU LATERAL DOS LIVROS — SCROLLBAR          */
+/*======================================================*/
+.menu-livros::-webkit-scrollbar {
+    width: 12px;                                           /* Define a largura fixa para padronizar o tamanho da BARRA DE ROLAGEM no MENU LATERAL DE LIVROS.    */
+}
+
+.menu-livros::-webkit-scrollbar-track {
+    background: #383838;                                 /* Define a cor de fundo da trilha para a BARRA DE ROLAGEM do MENU LATERAL DE LIVROS.      */
+}
+
+.menu-livros::-webkit-scrollbar-thumb {
+    margin: 5px;                                           /* Define a margem externa para criar um espaçamento ao redor da ALÇA da BARRA DE ROLAGEM. */
+    background: #a7a2a2;                                 /* Define a cor da alça (thumb) para a BARRA DE ROLAGEM do MENU LATERAL DE LIVROS.         */
+    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design da ALÇA da BARRA DE ROLAGEM.       */
+}
+
+
+/*======================================================*/
+/*                  CONTEÚDO PRINCIPAL                  */
+/*     Área central de leitura e exibição do texto      */
+/*======================================================*/
+.conteudo {
+    flex: 3;                                               /* Define o crescimento flexível do CONTEÚDO PRINCIPAL em relação a outros elementos.      */
+    height: calc(100vh - 160px);                           /* Define a altura na área principal automaticamente (dinamicamente).                      */
+    margin-top: 50px;                                      /* Define o espaçamento superior para separar o CONTEÚDO PRINCIPAL da barra de menu.       */
+    margin-left: 10px;                                     /* Define o recuo à esquerda para o espaçamento do texto no CONTEÚDO PRINCIPAL.            */
+    padding-right: 20px;                                   /* Define o preenchimento interno à direita para criar um respiro no CONTEÚDO PRINCIPAL.   */
+    overflow-y: auto;                                      /* Define o comportamento de rolagem vertical automática para o CONTEÚDO PRINCIPAL.        */
+    overflow-x: hidden;                                    /* Oculta o transbordamento horizontal e desativa a rolagem lateral no CONTEÚDO PRINCIPAL. */
+}
+
+
+/*======================================================*/
+/*                 SCROLLBAR — CONTEÚDO                 */
+/*======================================================*/
+.conteudo::-webkit-scrollbar {
+    width: 16px;                                           /* Define a largura fixa para padronizar o tamanho da BARRA DE ROLAGEM na ÁREA PRINCIPAL.  */
+}
+
+.conteudo::-webkit-scrollbar-track {
+    background: #383838;                                 /* Define a cor de fundo da trilha para a BARRA DE ROLAGEM na ÁREA PRINCIPAL.              */
+}
+
+.conteudo::-webkit-scrollbar-thumb {
+    margin: 5px;                                           /* Define a margem externa para criar um espaçamento ao redor da ALÇA da BARRA DE ROLAGEM. */
+    min-height: 50px;                                      /* Define a altura mínima da ALÇA da BARRA DE ROLAGEM para garantir a usabilidade.         */
+    background: #a7a2a2;                                 /* Define a cor da alça (thumb) para a BARRA DE ROLAGEM na ÁREA PRINCIPAL.                 */
+    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design da ALÇA da BARRA DE ROLAGEM.       */
+}
+
+/*======================================================*/
+/*                TÍTULOS (H2) DA VERSÃO                */
+/*            Cabeçalho principal das seções            */
+/*======================================================*/
+h2 {
+    width: 100%;                                           /* Define a largura total que o TÍTULO DA VERSÃO ocupa.                                 */
+    max-width: 100%;                                       /* Define o limite máximo de largura sem restrições para o TÍTULO DA VERSÃO.            */
+    margin-top: 30px;                                      /* Define o espaçamento superior para separar o TÍTULO DA VERSÃO dos elementos acima.   */
+    margin-right: 0;                                       /* Define o espaçamento à direita para o TÍTULO DA VERSÃO.                              */
+    margin-bottom: 30px;                                   /* Define o espaçamento inferior para separar o TÍTULO DA VERSÃO dos elementos abaixo.  */
+    margin-left: 150px;                                    /* Define o recuo à esquerda para o posicionamento do TÍTULO DA VERSÃO.                 */
+    font-size: 2.5vw;                                      /* Define o tamanho da fonte do TÍTULO DA VERSÃO de forma responsiva.                   */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TÍTULO DA VERSÃO.                  */
+    color: #d4ac0d;                                      /* Define a cor do texto em dourado para o TÍTULO DA VERSÃO.                            */
+}
+
+/*======================================================*/
+/*                     TÍTULOS (H3)                     */
+/*               QUE FICA SOBRE OS BOTÕES               */
+/*======================================================*/
+h3 {
+    margin: 10px 0 0 30px;                                 /* Define margem superior de 10px e recuo à esquerda de 30px para separar o TÍTULO sobre os botões.  */
+    font-size: 11.5em;                                     /* Define o tamanho da fonte do TÍTULO sobre os botões.                                              */
+    color: #d4ac0d;                                      /* Define a cor do texto em dourado do TÍTULO sobre os botões.                                       */
+}
+
+/*=====================================================*/
+/*                  MARCA D'ÁGUA                       */
+/*       Imagem de fundo semi-transparente             */
+/*=====================================================*/
+.marca-dagua-imagem {
+    position: fixed;                                       /* Define o posicionamento fixo para manter a MARCA D'ÁGUA estática durante a rolagem da página.     */
+    top: 0;                                                /* Define a distância do topo como zero para que a MARCA D'ÁGUA comece no limite superior.           */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar a MARCA D'ÁGUA ao limite lateral.           */
+    z-index: 10;                                           /* Define a ordem de empilhamento em camada de fundo para a MARCA D'ÁGUA.                            */
+    width: 100%;                                           /* Define a largura total para garantir que a MARCA D'ÁGUA preencha a tela horizontalmente.          */
+    height: 120%;                                          /* Define a altura expandida para garantir que a MARCA D'ÁGUA cubra toda a área de visualização.     */
+    overflow: hidden;                                      /* Define o transbordamento como oculto para impedir que a MARCA D'ÁGUA exiba barras de rolagem.     */
+    pointer-events: none;                                  /* Desativa a interação do mouse para que a MARCA D'ÁGUA não bloqueie cliques no conteúdo.           */
+    opacity: 0.3;                                          /* Define a opacidade para tornar a MARCA D'ÁGUA semi-transparente e sutil.                          */
+    background-size: cover;                                /* Define o tamanho do fundo para cobrir toda a área sem distorcer a MARCA D'ÁGUA.                   */
+    background-repeat: no-repeat;                          /* Impede que a imagem de fundo da MARCA D'ÁGUA se repita na tela.                                   */
+    background-position: center;                           /* Centraliza a imagem de fundo da MARCA D'ÁGUA na área de visualização.                             */
+}
+
+/*======================================================*/
+/*               ESTILOS DO TEXTO BÍBLICO               */
+/*    Estrutura base dos versículos e seus elementos    */
+/*======================================================*/
+.versiculo {
+    margin-bottom: 20px;                                   /* Define o espaçamento inferior para separar os VERSÍCULOS.       */
+}
+
+/*======================================================*/
+/*             TÍTULO INTERNO DO VERSÍCULO              */
+/* Destaque temático do versículo (ex: “No Princípio”)  */
+/*======================================================*/
+.titulo-versiculo-interno {
+    margin-top: 15px;                                      /* Define o espaçamento superior para o TÍTULO INTERNO DO VERSÍCULO.  */
+    margin-right: 0;                                       /* Define o espaçamento à direita para o TÍTULO INTERNO DO VERSÍCULO. */
+    margin-bottom: 15px;                                   /* Define o espaçamento inferior para o TÍTULO INTERNO DO VERSÍCULO.  */
+    margin-left: 30px;                                     /* Define o recuo à esquerda para o TÍTULO INTERNO DO VERSÍCULO.      */
+    font-size: 1.5rem;                                     /* Define o tamanho da fonte do TÍTULO INTERNO DO VERSÍCULO.          */
+    color: #d4ac0d;                                      /* Define a cor do texto em dourado do TÍTULO INTERNO DO VERSÍCULO.   */
+}
+
+/*======================================================*/
+/*                  TEXTO DO VERSÍCULO                  */
+/*        Estilo do parágrafo bíblico principal         */
+/*======================================================*/
+.texto-versiculo p {
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do TEXTO DO VERSÍCULO.  */
+    padding: 0 10px;                                       /* Define o preenchimento interno lateral para criar um respiro horizontal no TEXTO DO VERSÍCULO.    */
+    font-size: 3rem;                                       /* Define o tamanho da fonte para dar destaque ao TEXTO DO VERSÍCULO.                                */
+    line-height: 1.1;                                      /* Define a altura da linha para manter o espaçamento vertical compacto no TEXTO DO VERSÍCULO.       */
+    text-align: justify;                                   /* Define o alinhamento justificado para o TEXTO DO VERSÍCULO.                                       */
+}
+
+/*=======================================================*/
+/*              TEXTO ORIGINAL (HEBRAICO)                */
+/* Palavras, transliteração e tradução palavra a palavra */
+/*=======================================================*/
+.versiculo .traducao-completa {
+    display: block;                                        /* Define a exibição como bloco para garantir que o TEXTO ORIGINAL (HEBRAICO) ocupe uma linha exclusiva.*/
+    margin-top: 0;                                         /* Define o espaçamento superior para o TEXTO ORIGINAL (HEBRAICO).                                      */
+    margin-right: 30px;                                    /* Define o recuo à direita para o TEXTO ORIGINAL (HEBRAICO).                                           */
+    margin-bottom: 15px;                                   /* Define o espaçamento inferior para o TEXTO ORIGINAL (HEBRAICO).                                      */
+    margin-left: 30px;                                     /* Define o recuo à esquerda para o TEXTO ORIGINAL (HEBRAICO).                                          */
+    font-size: 1.1em;                                      /* Define o tamanho da fonte do TEXTO ORIGINAL (HEBRAICO).                                              */
+    text-align: justify;                                   /* Define o alinhamento justificado para o TEXTO ORIGINAL (HEBRAICO).                                   */
+}
+
+/*=======================================================*/
+/*                CONTAINER DAS PALAVRAS                 */
+/* Organiza as palavras hebraicas em layout flexível RTL */
+/*=======================================================*/
+.versiculo .palavras-container {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout da exibição dos VERSÍCULOS.   */
+    flex-wrap: wrap;                                       /* Define a quebra automática de linha para que as palavras sejam distribuídas no VERSÍCULO.  */
+    justify-content: flex-start;                           /* Alinha horizontalmente ao início da exibição dos VERSÍCULOS.                               */
+    direction: rtl;                                        /* Define a orientação da direita para a esquerda para o texto em HEBRAICO.                   */
+    margin-top: 20px;                                      /* Define o espaçamento superior para separar o CONTAINER DAS PALAVRAS do texto principal.    */
+    margin-right: 30px;                                    /* Define o recuo à direita do CONTAINER DAS PALAVRAS.                                        */
+    margin-bottom: 0;                                      /* Define o espaçamento inferior para o CONTAINER DAS PALAVRAS.                               */
+    margin-left: 30px;                                     /* Define o recuo à esquerda do CONTAINER DAS PALAVRAS.                                       */
+    padding-top: 15px;                                     /* Define o preenchimento interno superior para o CONTAINER DAS PALAVRAS.                     */
+    gap: 15px 20px;                                        /* Define o espaçamento entre as palavras no CONTAINER DAS PALAVRAS.                          */
+    border-top: 1px dashed #444;                         /* Define uma borda tracejada superior para a divisão visual no CONTAINER DAS PALAVRAS.       */
+}
+
+
+/*======================================================*/
+/*              ITEM INDIVIDUAL DA PALAVRA              */
+/*      Agrupa hebraico, transliteração e tradução      */
+/*======================================================*/
+.versiculo .word-detail-item {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout dos ITENS INDIVIDUAIS DAS PALAVRAS.                 */
+    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os elementos.                                          */
+    align-items: flex-end;                                 /* Alinha horizontalmente ao final os elementos dos ITENS INDIVIDUAIS DAS PALAVRAS.                                 */
+    min-width: 80px;                                       /* Define a largura mínima para garantir a visibilidade dos ITENS INDIVIDUAIS DAS PALAVRAS.                         */
+    max-width: 320px;                                      /* Define a largura máxima permitida para limitar a expansão dos ITENS INDIVIDUAIS DAS PALAVRAS.                    */
+    padding: 12px 15px;                                    /* Define o preenchimento interno vertical e horizontal para criar um respiro nos ITENS INDIVIDUAIS DAS PALAVRAS.   */
+    white-space: nowrap;                                   /* Impede a quebra automática de linha para manter a integridade visual dos ITENS INDIVIDUAIS DAS PALAVRAS.         */
+    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design dos ITENS INDIVIDUAIS DAS PALAVRAS.                         */
+}
+
+
+/*=======================================================*/
+/*                LINHAS INTERNAS DO ITEM                */
+/*   Controla alinhamento e espaçamento de cada linha    */
+/*=======================================================*/
+.versiculo .word-detail-item>div {
+    display: block;                                        /* Define a exibição como bloco para garantir que as LINHAS INTERNAS DO ITEM sejam empilhadas verticalmente.  */
+    width: 100%;                                           /* Define a largura total para que a LINHA INTERNA do ITEM ocupe todo o espaço disponível.                    */
+    margin-bottom: 4px;                                    /* Define o espaçamento inferior para separar as LINHAS INTERNAS DO ITEM.                                     */
+    line-height: 1.2;                                      /* Define a altura da linha para ajustar o espaçamento vertical entre os textos.                              */
+    text-align: right;                                     /* Define o alinhamento do texto à direita para a LINHA INTERNA DO ITEM.                                      */
+}
+
+
+/*======================================================*/
+/*                    TEXTO HEBRAICO                    */
+/*          Destaque visual do texto original           */
+/*======================================================*/
+.versiculo .hebraico-text {
+    font-family: "Noto Sans Hebrew", serif;                /* Define o tipo de fonte como hebraica para o TEXTO HEBRAICO.        */
+    font-size: 1.4em;                                      /* Define o tamanho da fonte para o TEXTO HEBRAICO.                   */
+    font-weight: 700;                                      /* Define o peso da fonte em NEGRITO FORTE para o TEXTO HEBRAICO.     */
+    color: #d4ac0d;                                      /* Define a cor do texto em dourado para o TEXTO HEBRAICO.            */
+}
+
+
+/*======================================================*/
+/*                 TEXTO TRANSLITERADO                  */
+/*          Representação fonética do hebraico          */
+/*======================================================*/
+.versiculo .transliteral-text {
+    font-size: 0.9em;                                      /* Define o tamanho da fonte para o TEXTO TRANSLITERADO.              */
+    color: #aaa;                                         /* Define a cor do texto em cinza claro para o TEXTO TRANSLITERADO.   */
+}
+
+/*======================================================*/
+/*                 TRADUÇÃO DA PALAVRA                  */
+/*         Significado da palavra em português          */
+/*======================================================*/
+.versiculo .traducao-palavra-text {
+    font-size: 1em;                                        /* Define o tamanho da fonte para a TRADUÇÃO DA PALAVRA.              */
+    font-weight: normal;                                   /* Define o peso da fonte como normal para a TRADUÇÃO DA PALAVRA.     */
+}
+
+
+/*======================================================*/
+/*            MODO LEITURA — ITEM DA PALAVRA            */
+/*        Ajustes visuais para leitura contínua         */
+/*======================================================*/
+body.module-leitura .versiculo .word-detail-item {
+    background-color: #f9f6f0;                           /* Define a cor de fundo em bege claro para a leitura suave no MODO LEITURA.       */
+    border-color: #d0c4ac;                               /* Define a cor da borda para delimitar o ITEM DA PALAVRA no MODO LEITURA.         */
+}
+
+
+/*======================================================*/
+/*            MODO LEITURA — TEXTO HEBRAICO             */
+/*======================================================*/
+body.module-leitura .versiculo .hebraico-text {
+    color: #8b4513;                                      /* Define a cor do texto em marrom para o TEXTO HEBRAICO no MODO LEITURA.          */
+}
+
+
+/*======================================================*/
+/*          MODO LEITURA — TEXTO TRANSLITERADO          */
+/*======================================================*/
+body.module-leitura .versiculo .transliteral-text {
+    color: #777;                                         /* Define a cor do texto em cinza médio para o TEXTO TRANSLITERADO no MODO LEITURA.*/
+}
+
+
+/*======================================================*/
+/*          MODO LEITURA — TRADUÇÃO DA PALAVRA          */
+/*======================================================*/
+body.module-leitura .versiculo .traducao-palavra-text {
+    color: #333;                                         /* Define a cor do texto em cinza escuro para a TRADUÇÃO DA PALAVRA no MODO LEITURA.      */
+}
+
+/*======================================================*/
+/*                        RODAPÉ                        */
+/*     Área fixa com informações no final da página     */
+/*======================================================*/
+footer {
+    position: fixed;                                       /* Define o posicionamento fixo para manter o RODAPÉ estático na parte inferior da tela.   */
+    bottom: 0;                                             /* Define a distância do fundo como zero para fixar o RODAPÉ no limite inferior.           */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar o RODAPÉ ao limite lateral.       */
+    z-index: 1;                                            /* Define a ordem de empilhamento para que o RODAPÉ se sobreponha ao conteúdo.             */
+    width: 100%;                                           /* Define a largura total para garantir que o RODAPÉ ocupe toda a extensão horizontal.     */
+    height: 30px;                                          /* Define a altura fixa para padronizar a dimensão vertical do RODAPÉ.                     */
+    background-color: #383838;                           /* Define a cor de fundo em cinza escuro para o RODAPÉ.                                    */
+    color: #d4ac0d;                                      /* Define a cor do texto em dourado para o RODAPÉ.                                         */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o conteúdo do RODAPÉ.                   */
+}
+
+
+/*======================================================*/
+/*                    RODAPÉ — TEXTO                    */
+/*======================================================*/
+footer p {
+    font-size: 1.3em;                                      /* Define o tamanho da fonte para o texto do RODAPÉ.   */
+    line-height: 1.5;                                      /* Define a altura da linha para melhorar a legibilidade do texto do RODAPÉ. */
+}
+
+
+/*======================================================*/
+/*              CONTEÚDO DA OPÇÃO “SOBRE”               */
+/*     Janela central com informações da aplicação      */
+/*======================================================*/
+.conteudo-sobre {
+    position: fixed;                                       /* Define o posicionamento fixo para manter a janela do MODAL SOBRE sempre visível durante a interação.                     */
+    top: 50%;                                              /* Define a distância do topo em 50% para auxiliar a centralização vertical da OPÇÃO SOBRE.                                 */
+    left: 50%;                                             /* Define a distância da esquerda em 50% para auxiliar a centralização horizontal da OPÇÃO SOBRE.                           */
+    z-index: 1000;                                         /* Define a ordem de empilhamento em nível máximo para garantir que o MODAL SOBRE fique acima de todos os elementos.        */
+    transform: translate(-50%, -50%);                      /* Aplica o deslocamento de correção para garantir a centralização perfeita do MODAL SOBRE.                                 */
+    width: 92%;                                            /* Define a largura relativa para garantir que o MODAL SOBRE seja responsivo em diferentes resoluções.                      */
+    max-width: 1000px;                                     /* Define o limite máximo de largura para evitar que o MODAL SOBRE se torne excessivamente largo.                           */
+    height: 82vh;                                          /* Define a altura baseada na visão vertical para garantir que a opção SOBRE ocupe a maior parte da tela.                   */
+    padding: 45px;                                         /* Define o preenchimento interno para criar um respiro entre o conteúdo e as bordas da OPÇÃO SOBRE.                        */
+    overflow: hidden;                                      /* Define o comportamento de transbordamento como oculto para impedir que o conteúdo ultrapasse os limites do MODAL SOBRE.  */
+    background: rgba(0, 0, 0, 0.9);                      /* Define a cor de fundo em preto translúcido para destacar e isolar o conteúdo do MODAL SOBRE.                             */
+    border: 2px solid #d4ac0d;                           /* Define uma borda sólida dourada para delimitar e destacar visualmente a área da OPÇÃO SOBRE.                             */
+    border-radius: 12px;                                   /* Define os cantos arredondados para suavizar o design da janela flutuante da OPÇÃO SOBRE.                                 */
+}
+
+
+/*======================================================*/
+/*             MODAL “SOBRE” — BOTÃO FECHAR             */
+/*======================================================*/
+.fechar-sobre {
+    position: absolute;                                    /* Define o posicionamento absoluto para que o BOTÃO FECHAR flutue sobre o MODAL SOBRE.       */
+    top: 15px;                                             /* Define a distância em relação ao topo para posicionar o BOTÃO FECHAR no MODAL SOBRE.       */
+    right: 15px;                                           /* Define a distância em relação à direita para posicionar o BOTÃO FECHAR no MODAL SOBRE.     */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO FECHAR.          */
+    background: transparent;                               /* Define o fundo como transparente para que o BOTÃO FECHAR não tenha cor de preenchimento.   */
+    border: none;                                          /* Define a borda como nula para remover o contorno do BOTÃO FECHAR no MODAL SOBRE.           */
+    font-size: 28px;                                       /* Define o tamanho da fonte para destacar o ícone de fechar no BOTÃO FECHAR.                 */
+    color: #d4ac0d;                                      /* Define a cor do texto em dourado para dar destaque ao BOTÃO FECHAR.                        */
+}
+
+
+/*======================================================*/
+/*                MODAL “SOBRE” — TEXTO                 */
+/*======================================================*/
+.texto-sobre {
+    position: relative;                                    /* Define o posicionamento relativo para manter o TEXTO SOBRE dentro do fluxo do MODAL.              */
+    z-index: 920;                                          /* Define a ordem de empilhamento em camada elevada para que o TEXTO SOBRE fique visível.            */
+    max-height: calc(82vh - 120px);                        /* Define a altura máxima calculada para limitar o TEXTO SOBRE e evitar transbordamento no MODAL.    */
+    overflow-y: auto;                                      /* Define a rolagem vertical automática para exibir todo o conteúdo do TEXTO SOBRE.                  */
+    font-size: 1.2rem;                                     /* Define o tamanho da fonte para o TEXTO SOBRE.                                                     */
+    font-weight: normal;                                   /* Define o peso da fonte como normal para o TEXTO SOBRE.                                            */
+    line-height: 1.4;                                      /* Define a altura da linha para melhorar a legibilidade do TEXTO SOBRE.                             */
+    text-align: justify;                                   /* Define o alinhamento justificado para distribuir o TEXTO SOBRE de forma uniforme.                 */
+}
+
+
+/*======================================================*/
+/*        OVERLAY ESCURO (Texto sobre a imagem)         */
+/*      Escurece o fundo quando o modal está ativo      */
+/*======================================================*/
+body.sobre-ativo::after {
+    content: '';                                           /* Define o pseudo-elemento com conteúdo vazio para criar a camada de OVERLAY ESCURO.                */
+    position: fixed;                                       /* Define o posicionamento fixo para cobrir toda a tela quando o OVERLAY ESCURO estiver ativo.       */
+    top: 0;                                                /* Define a distância do topo como zero para iniciar o OVERLAY ESCURO no limite superior.            */
+    left: 0;                                               /* Define a distância da esquerda como zero para iniciar o OVERLAY ESCURO no limite lateral.         */
+    width: 100%;                                           /* Define a largura total para garantir que o OVERLAY ESCURO preencha toda a tela.                   */
+    height: 100%;                                          /* Define a altura total para garantir que o OVERLAY ESCURO preencha toda a tela.                    */
+    background: rgba(0, 0, 0, 0.7);                      /* Define a cor de fundo escura e translúcida para escurecer o fundo sob a JANELA SOBRE.             */
+}
+
+
+/*======================================================*/
+/*                  GRADE DE CAPÍTULOS                  */
+/*       Botões organizados em layout responsivo        */
+/*======================================================*/
+.capitulos {
+    display: grid;                                         /* Define a exibição como grade para organizar os BOTÕES DOS CAPÍTULOS em colunas e linhas estruturadas.            */
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr)); /* Define a estrutura de colunas responsivas que se ajustam automaticamente ao espaço da GRADE DE CAPÍTULOS.  */
+    gap: 6px;                                              /* Define o espaçamento uniforme entre cada botão dentro da GRADE DE CAPÍTULOS.                                     */
+    max-width: calc(100% - 80px);                          /* Define a largura máxima permitida para limitar a expansão da GRADE DE CAPÍTULOS.                                 */
+    margin-top: -40px;                                     /* Define o ajuste de margem superior para elevar o posicionamento da GRADE DE CAPÍTULOS na área principal.         */
+    margin-right: 20px;                                    /* Define o recuo à direita para manter o distanciamento da borda lateral da GRADE DE CAPÍTULOS.                    */
+    margin-bottom: 0;                                      /* Define o espaçamento inferior para a GRADE DE CAPÍTULOS.                                                         */
+    margin-left: 250px;                                    /* Define o recuo à esquerda para evitar a sobreposição com o menu lateral e alinhar a GRADE DE CAPÍTULOS.          */
+    padding: 20px;                                         /* Define o preenchimento interno para criar um respiro ao redor dos BOTÕES DOS CAPÍTULOS.                          */
+}
+
+/*======================================================*/
+/*                  BOTÕES DE CAPÍTULO                  */
+/*======================================================*/
+.capitulos button,
+.botao-capitulo {
+    margin: 0;                                             /* Define as margens externas como nulas para garantir o alinhamento correto dos BOTÕES DOS CAPÍTULOS.              */
+    padding: 8px 0;                                        /* Define o preenchimento interno vertical para dar a altura compacta e um respiro aos BOTÕES DOS CAPÍTULOS.        */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação nos BOTÕES DOS CAPÍTULOS.                       */
+    transition: background-color 0.3s;                     /* Define uma transição suave para as mudanças de cor de fundo nos BOTÕES DOS CAPÍTULOS.                            */
+    background-color: #3f51b5;                           /* Define a cor de fundo em azul índigo para destacar os BOTÕES DOS CAPÍTULOS.                                      */
+    border: none;                                          /* Define a borda como nula para remover o contorno padrão dos BOTÕES DOS CAPÍTULOS.                                */
+    border-radius: 4px;                                    /* Define os cantos arredondados para suavizar o design dos BOTÕES DOS CAPÍTULOS.                                   */
+    color: #fff;                                         /* Define a cor do texto em branco para garantir a leitura nos BOTÕES DOS CAPÍTULOS.                                */
+    font-size: 1.1rem;                                     /* Define o tamanho da fonte para a legibilidade do número nos BOTÕES DOS CAPÍTULOS.                                */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o número nos BOTÕES DOS CAPÍTULOS.                               */
+}
+
+.capitulos button:hover,
+.botao-capitulo:hover {
+    background-color: #45a049;                           /* Define a cor de fundo em verde claro no efeito de HOVER nos BOTÕES DOS CAPÍTULOS.      */
+}
+
+.capitulos button.active {
+    background-color: #4CAF50;                           /* Define a cor de fundo em verde claro para o BOTÃO DE CAPÍTULO ativo. */
+}
+
+/*======================================================*/
+/*                 GRADE DE VERSÍCULOS                  */
+/*======================================================*/
+.versiculos {
+    display: grid;                                         /* Define a exibição como grade para organizar os BOTÕES DOS VERSÍCULOS em colunas e linhas estruturadas.     */
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));  /* Define a estrutura de colunas responsivas para a GRADE DE VERSÍCULOS.                               */
+    gap: 6px;                                              /* Define o espaçamento uniforme entre cada botão dentro da GRADE DE VERSÍCULOS.                              */
+    max-width: calc(100% - 80px);                          /* Define a largura máxima permitida para limitar a expansão da GRADE DE VERSÍCULOS.                          */
+    margin-top: -10px;                                     /* Define o ajuste de margem superior para posicionar a GRADE DE VERSÍCULOS.                                  */
+    margin-right: 20px;                                    /* Define o recuo à direita para manter o distanciamento da GRADE DE VERSÍCULOS.                              */
+    margin-bottom: 0;                                      /* Define o espaçamento inferior para a GRADE DE VERSÍCULOS.                                                  */
+    margin-left: 250px;                                    /* Define o recuo à esquerda para evitar a sobreposição e alinhar a GRADE DE VERSÍCULOS.                      */
+    padding: 20px;                                         /* Define o preenchimento interno para criar um respiro ao redor dos BOTÕES DOS VERSÍCULOS.                   */
+}
+
+/*======================================================*/
+/*                BOTÕES DOS VERSÍCULOS                 */
+/*======================================================*/
+.botao-versiculo {
+    padding: 6px 0;                                        /* Define o preenchimento interno vertical para dar a altura compacta e um respiro aos BOTÕES DOS VERSÍCULOS. */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação nos BOTÕES DOS VERSÍCULOS.                */
+    transition: background-color 0.3s;                     /* Define uma transição suave para as mudanças de cor de fundo nos BOTÕES DOS VERSÍCULOS.                     */
+    background-color: #6758ec;                           /* Define a cor de fundo em roxo para destacar os BOTÕES DOS VERSÍCULOS.                                      */
+    border: none;                                          /* Define a borda como nula para remover o contorno padrão dos BOTÕES DOS VERSÍCULOS.                         */
+    border-radius: 4px;                                    /* Define os cantos arredondados para suavizar o design dos BOTÕES DOS VERSÍCULOS.                            */
+    color: white;                                        /* Define a cor do texto em branco para garantir a leitura nos BOTÕES DOS VERSÍCULOS.                         */
+    font-size: 1.1rem;                                     /* Define o tamanho da fonte para a legibilidade do número nos BOTÕES DOS VERSÍCULOS.                         */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o número nos BOTÕES DOS VERSÍCULOS.                        */
+}
+
+.botao-versiculo:hover {
+    background-color: #45a049;                           /* Define a cor de fundo em verde claro no efeito de HOVER nos BOTÕES DOS VERSÍCULOS.     */
+}
+
+.botao-versiculo.active {
+    background-color: #4CAF50;                           /* Define a cor de fundo em verde claro para o BOTÃO DE VERSÍCULO ativo.*/
+}
+
+/*======================================================*/
+/*                  CONTAINERS AUXILIARES               */
+/*======================================================*/
+.capitulos-conteiner {
+    margin-bottom: 20px;                                   /* Define o espaçamento inferior para separar os BOTÕES DOS CAPÍTULOS do próximo bloco.   */
+}
+
+.conteudo-versiculos {
+    margin-bottom: 20px;                                   /* Define o espaçamento inferior para separar os BOTÕES DOS VERSÍCULOS do próximo bloco.  */
+}
+
+/*=====================================================*/
+/*          CORREÇÕES ESPECÍFICAS PARA MOBILE          */
+/*=====================================================*/
+@media (max-width: 900px) {
+
+    /*==================================================*/
+    /*               RESET GERAL (MOBILE)               */
+    /*==================================================*/
+    ::-webkit-scrollbar {
+        display: none;                                                                                                                                                                                                                                                       /* Define a exibição como nula para ocultar a BARRA DE ROLAGEM visual em navegadores Webkit (MOBILE). */
+    }
+
+    /* Firefox, IE e Edge legado                                                                                                                                                                                                                                                                    */
+    html,
+    body {
+        scrollbar-width: none;                             /* Define a largura da BARRA DE ROLAGEM como nula para garantir a ocultação no navegador Firefox (MOBILE).    */
+        -ms-overflow-style: none;                          /* Define o estilo de transbordamento como nulo para ocultar a BARRA DE ROLAGEM no IE e Edge (MOBILE).        */
+    }
+
+    /*==================================================*/
+    /*     OCULTAÇÃO DE ELEMENTOS DESKTOP (MOBILE)      */
+    /*==================================================*/
+    #modo-leitura,
+    #link-slide {
+        display: none !important;                          /* Define a exibição como nula para desativar os RECURSOS DESKTOP que não são utilizados na versão MOBILE.    */
+    }
+
+    /*==================================================*/
+    /*          OCULTAR ITENS DO MENU (MOBILE)          */
+    /*==================================================*/
+    nav .menu-opcoes li:has(#modo-leitura),
+    nav .menu-opcoes li:has(#link-slide) {
+        display: none !important;                          /* Define a exibição como nula para remover os itens de lista correspondentes aos recursos ocultos do MENU MOBILE.  */
+    }
+
+    /*==================================================*/
+    /*                CABEÇALHO (MOBILE)                */
+    /*==================================================*/
+    .cabecalho-superior {
+        flex-direction: column;                            /* Define a orientação em coluna para empilhar verticalmente os itens do CABEÇALHO (MOBILE).  */
+        align-items: center;                               /* Define o alinhamento vertical centralizado para os elementos do CABEÇALHO (MOBILE).        */
+        gap: 10px;                                         /* Define o espaçamento uniforme entre os itens do CABEÇALHO (MOBILE).                        */
+        padding-bottom: 10px;                              /* Define o preenchimento interno inferior para criar um respiro no CABEÇALHO (MOBILE).       */
+        text-align: center;                                /* Define o alinhamento de texto centralizado para o CABEÇALHO (MOBILE).                      */
+    }
+
+    /*==================================================*/
+    /*           TITULO PRINCIPAL DA VERSÃO             */
+    /*           AJUSTES DE TÍTULOS (MOBILE)            */
+    /*==================================================*/
+    #titulo-principal-versao {
+        margin-left: 0;                                    /* Define o recuo à esquerda como nulo para centralizar o TÍTULO PRINCIPAL DA VERSÃO (MOBILE).*/
+        font-size: 2.3rem;                                 /* Define o tamanho da fonte para o TÍTULO PRINCIPAL DA VERSÃO (MOBILE).                      */
+    }
+
+    #subtitulo-versao-extenso {
+        margin-left: 0;                                    /* Define o recuo à esquerda como nulo para centralizar o SUBTÍTULO DA VERSÃO (MOBILE).    */
+        text-align: center;                                /* Define o alinhamento de texto centralizado para o SUBTÍTULO DA VERSÃO (MOBILE).         */
+    }
+
+    /*==================================================*/
+    /*      BARRA DE PESQUISA - CONTAINER (MOBILE)      */
+    /*==================================================*/
+    .barra-pesquisa {
+        display: flex;                                     /* Ativa o FLEXBOX para alinhar os itens corretamente no layout da BARRA DE PESQUISA (MOBILE).          */
+        flex-direction: column;                            /* Define a orientação em coluna para empilhar verticalmente os elementos da BARRA DE PESQUISA (MOBILE).*/
+        align-items: stretch;                              /* Define o alinhamento para que os itens ocupem toda a largura da BARRA DE PESQUISA (MOBILE).          */
+        gap: 8px;                                          /* Define o espaçamento uniforme entre os elementos internos da BARRA DE PESQUISA (MOBILE).             */
+        width: 92%;                                        /* Define a largura total para preencher o espaço disponível na BARRA DE PESQUISA (MOBILE).             */
+        margin-left: auto;                                 /* Define a margem esquerda como automática para auxiliar a centralização da BARRA DE PESQUISA (MOBILE).*/
+        margin-right: auto;                                /* Define a margem direita como automática para auxiliar a centralização da BARRA DE PESQUISA (MOBILE). */
+    }
+
+    /*==================================================*/
+    /*    BARRA DE PESQUISA - INPUT e BOTÃO (MOBILE)    */
+    /*==================================================*/
+    .barra-pesquisa input[type="text"],
+    .barra-pesquisa button {
+        width: 100%;                                       /* Define a largura total para garantir que o INPUT e o BOTÃO preencham o espaço da BARRA DE PESQUISA (MOBILE).*/
+        height: 40px;                                      /* Define a altura fixa para padronizar a dimensão vertical do INPUT e do BOTÃO (MOBILE).                      */
+        margin: 0;                                         /* Define as margens externas como nulas para remover os espaçamentos padrão do INPUT e do BOTÃO (MOBILE).     */
+        border-radius: 5px;                                /* Define os cantos arredondados para suavizar o design do INPUT e do BOTÃO (MOBILE).                          */
+    }
+
+    /*==================================================*/
+    /*       BARRA DE PESQUISA - SELECT (MOBILE)        */
+    /*==================================================*/
+    .barra-pesquisa select {
+        width: 100%;                                       /* Define a largura total para garantir que o SELETOR preencha o espaço da BARRA DE PESQUISA (MOBILE).  */
+        height: 40px;                                      /* Define a altura fixa para padronizar a dimensão vertical do SELETOR (MOBILE).                        */
+    }
+
+    /*==================================================*/
+    /*              BARRA DO MENU SUPERIOR              */
+    /*       GRID 6 COLUNAS - CONTAINER (MOBILE)        */
+    /*==================================================*/
+    nav {
+        position: static;                                  /* Define o posicionamento estático para integrar a BARRA DE MENU SUPERIOR ao fluxo normal da página (MOBILE).*/
+        flex-direction: column;                            /* Define a orientação em coluna para empilhar verticalmente os itens da BARRA DE MENU SUPERIOR (MOBILE).     */
+        height: auto;                                      /* Define a altura automática para que a BARRA DE MENU SUPERIOR se ajuste ao seu conteúdo (MOBILE).           */
+        padding: 5px;                                      /* Define o preenchimento interno para criar um respiro na BARRA DE MENU SUPERIOR (MOBILE).                   */
+        background: rgba(68, 68, 68, 0.95);              /* Define a cor de fundo escura e semi-transparente para a BARRA DE MENU SUPERIOR (MOBILE).                   */
+    }
+
+    /*==================================================*/
+    /*              BARRA DO MENU SUPERIOR              */
+    /*             ESCONDER TÍTULO (MOBILE)             */
+    /*==================================================*/
+    .titulo-menu {
+        display: none;                                     /* Define a exibição como nula para ocultar o rótulo LIVROS e otimizar o espaço no layout (MOBILE).  */
+    }
+
+    /*==================================================*/
+    /*              BARRA DO MENU SUPERIOR              */
+    /*                CONTAINER (MOBILE)                */
+    /*==================================================*/
+    nav .menu-opcoes {
+        display: grid;                                     /* Define a exibição como grade para organizar os itens da BARRA DE MENU SUPERIOR em colunas estruturadas (MOBILE). */
+        grid-template-columns: repeat(6, 1fr);             /* Define a estrutura de 6 colunas iguais para a distribuição dos itens do MENU SUPERIOR (MOBILE).                  */
+        gap: 10px 5px;                                     /* Define o espaçamento entre linhas e colunas dos itens do MENU SUPERIOR (MOBILE).                                 */
+        width: 100%;                                       /* Define a largura total para preencher a BARRA DE MENU SUPERIOR (MOBILE).                                         */
+        margin-left: 0;                                    /* Define o recuo à esquerda como nulo para centralizar as OPÇÕES DA BARRA DE MENU SUPERIOR (MOBILE).               */
+        padding: 10px;                                     /* Define o preenchimento interno para criar um respiro ao redor dos itens da BARRA DE MENU SUPERIOR (MOBILE).      */
+    }
+
+    /*==================================================*/
+    /*     BARRA DO MENU SUPERIOR - ITENS (MOBILE)      */
+    /*==================================================*/
+    nav .menu-opcoes li {
+        display: flex;                                     /* Ativa o FLEXBOX para alinhar os itens corretamente no layout da opção da BARRA DE MENU SUPERIOR (MOBILE).  */
+        justify-content: center;                           /* Define o alinhamento horizontal centralizado para as opções da BARRA DE MENU SUPERIOR (MOBILE).            */
+        align-items: center;                               /* Define o alinhamento vertical centralizado para os itens da BARRA DE MENU SUPERIOR (MOBILE).               */
+        margin: 0;                                         /* Define as margens externas como nulas para remover os espaçamentos padrão do MENU SUPERIOR (MOBILE).       */
+    }
+
+    /*==================================================*/
+    /*              BARRA DO MENU SUPERIOR              */
+    /*            DISTRIBUIÇÃO DO MENU (MOBILE)         */
+    /*==================================================*/
+    /*            Linha 1            */
+    nav .menu-opcoes li:nth-child(1) {
+        grid-column: span 3;                               /* Define que o item ocupará 3 colunas na grade do MENU SUPERIOR (MOBILE).       */
+        order: 1;                                          /* Define a ordem de exibição como primeira na grade do MENU SUPERIOR (MOBILE).  */
+    }
+
+    /*            Linha 2            */
+    nav .menu-opcoes li:nth-child(4) {
+        grid-column: span 3;                               /* Define que o item ocupará 3 colunas na grade do MENU SUPERIOR (MOBILE).       */
+        order: 2;                                          /* Define a ordem de exibição como segunda na grade do MENU SUPERIOR (MOBILE).   */
+    }
+
+    /*            Linha 3            */
+    nav .menu-opcoes li:nth-child(5) {
+        position: relative;                                /* Define o posicionamento relativo para permitir o ajuste fino do item no MENU SUPERIOR (MOBILE).   */
+        left: -2px;                                        /* Define o deslocamento da esquerda em -2px para o ajuste fino do item no MENU SUPERIOR (MOBILE).   */
+        grid-column: span 3;                               /* Define que o item ocupará 3 colunas na grade do MENU SUPERIOR (MOBILE).                           */
+        order: 3;                                          /* Define a ordem de exibição como terceira na grade do MENU SUPERIOR (MOBILE).                      */
+        justify-content: flex-end;                         /* Define o alinhamento horizontalmente ao final o conteúdo do item no MENU SUPERIOR (MOBILE).       */
+        padding-right: 2px;                                /* Define o preenchimento à direita para criar um respiro no item do MENU SUPERIOR (MOBILE).         */
+    }
+
+    /*            Linha 4            */
+    nav .menu-opcoes li:nth-child(7) {
+        position: relative;                                /* Define o posicionamento relativo para permitir o ajuste fino do item no MENU SUPERIOR (MOBILE).   */
+        left: -2px;                                        /* Define o deslocamento da esquerda em -2px para o ajuste fino do item no MENU SUPERIOR (MOBILE).   */
+        grid-column: span 3;                               /* Define que o item ocupará 3 colunas na grade do MENU SUPERIOR (MOBILE).                           */
+        order: 4;                                          /* Define a ordem de exibição como quarta na grade do MENU SUPERIOR (MOBILE).                        */
+        justify-content: flex-start;                       /* Define o alinhamento horizontalmente ao início o conteúdo do item no MENU SUPERIOR (MOBILE).      */
+        padding-left: 2px;                                 /* Define o preenchimento à esquerda para criar um respiro no item do MENU SUPERIOR (MOBILE).        */
+    }
+
+    /*            Linha 5            */
+    nav .menu-opcoes li:nth-child(6) {
+        grid-column: span 2;                               /* Define que o item ocupará 2 colunas na grade do MENU SUPERIOR (MOBILE).                                                        */
+        order: 5;                                          /* Define a ordem de exibição como quinta na grade do MENU SUPERIOR (MOBILE).                                                     */
+        justify-content: center;                           /* Define o alinhamento horizontal centralizado para as opções do MENU SUPERIOR (MOBILE).                                         */
+        padding: 0;                                        /* Define o preenchimento interno como nulo para remover os espaçamentos padrão das opções da BARRA DE MENU SUPERIOR (MOBILE).    */
+    }
+
+    /*            Linha 6            */
+    nav .menu-opcoes li:nth-child(8) {
+        grid-column: span 2;                               /* Define que o item ocupará 2 colunas na grade do MENU SUPERIOR (MOBILE).       */
+        order: 6;                                          /* Define a ordem de exibição como sexta na grade do MENU SUPERIOR (MOBILE).     */
+    }
+
+    /*            Linha 7            */
+    nav .menu-opcoes li:nth-child(9) {
+        grid-column: span 2;                               /* Define que o item ocupará 2 colunas na grade do MENU SUPERIOR (MOBILE).       */
+        order: 7;                                          /* Define a ordem de exibição como sétima na grade do MENU SUPERIOR (MOBILE).    */
+    }
+
+    /*==================================================*/
+    /*              BARRA DO MENU SUPERIOR              */
+    /*            2 - LINKS DO MENU (MOBILE)            */
+    /*==================================================*/
+    nav .menu-opcoes li a {
+        width: calc(100% - 2px);                           /* Define a largura calculada para o ajuste do item na BARRA DE MENU SUPERIOR (MOBILE).                        */
+        padding: 5px 0;                                    /* Define o preenchimento interno vertical para criar um respiro nos LINKS NA BARRA DE MENU SUPERIOR (MOBILE). */
+        white-space: nowrap;                               /* Impede a quebra automática de linha para manter o texto na mesma linha (MOBILE).                            */
+        font-size: 1.2rem;                                 /* Define o tamanho da fonte para os LINKS NA BARRA DE MENU SUPERIOR (MOBILE).                                 */
+        line-height: 1.1;                                  /* Define a altura da linha para o texto nos LINKS NA BARRA DE MENU SUPERIOR (MOBILE).                         */
+        color: #e0e0e0;                                  /* Define a cor do texto em cinza claro para os LINKS NA BARRA DE MENU SUPERIOR (MOBILE).                      */
+        text-align: center;                                /* Define o alinhamento de texto centralizado para os LINKS NA BARRA DE MENU SUPERIOR (MOBILE).                */
+    }
+
+    /*==================================================*/
+    /*              BARRA DO MENU SUPERIOR              */
+    /*         3 - AJUSTES ESPECÍFICOS (MOBILE)         */
+    /*==================================================*/
+    nav .menu-opcoes li:nth-child(1) a {
+        width: min-content;                                /* Define a largura mínima necessária para o texto (MOBILE).                     */
+        margin: 0 auto;                                    /* Define margens laterais automáticas para centralizar o texto (MOBILE).        */
+        white-space: normal;                               /* Permite a quebra automática de linha para o texto (MOBILE).                   */
+        line-height: 1;                                    /* Define a altura da linha (MOBILE).                                            */
+    }
+
+    /*==================================================*/
+    /*              BARRA DO MENU SUPERIOR              */
+    /*         4 - AJUSTES ESPECÍFICOS (MOBILE)         */
+    /*==================================================*/
+    nav .menu-opcoes li:nth-child(4) a {
+        width: 100%;                                                                                                                                                                                                                                                             /* Define a largura total (MOBILE). */
+        padding-left: 0;                                   /* Define o preenchimento esquerdo como nulo (MOBILE).          */
+        white-space: normal;                               /* Permite a quebra automática de linha para o texto (MOBILE).  */
+        line-height: 1;                                    /* Define a altura da linha (MOBILE).                           */
+        text-align: center;                                /* Define o alinhamento de texto centralizado (MOBILE).         */
+    }
+
+    /*==================================================*/
+    /*              MENU LATERAL DOS LIVROS             */
+    /*      LISTA DE LIVROS COM 2 COLUNAS (MOBILE)      */
+    /*==================================================*/
+    .menu-livros {
+        position: static;                                  /* Define o posicionamento estático para integrar o MENU LATERAL DE LIVROS ao fluxo normal da página (MOBILE).                        */
+        overflow: visible;                                 /* Define o transbordamento como visível para permitir que o conteúdo se expanda além dos limites do MENU LATERAL DOS LIVROS (MOBILE).*/
+        width: 100%;                                       /* Define a largura total para garantir que o MENU LATERAL DE LIVROS preencha toda a tela (MOBILE).                                   */
+        height: auto;                                      /* Define a altura automática para que o MENU LATERAL DE LIVROS se ajuste ao seu conteúdo (MOBILE).                                   */
+        margin-bottom: 5px;                                /* Define o espaçamento inferior para criar uma separação abaixo do MENU LATERAL DOS LIVROS (MOBILE).                                 */
+        padding: 15px 10px;                                /* Define o preenchimento interno vertical e horizontal para criar um respiro no MENU LATERAL DOS LIVROS (MOBILE).                    */
+        background-color: rgba(5, 5, 5, 0.95);           /* Define a cor de fundo em preto semi-transparente para o MENU LATERAL DOS LIVROS (MOBILE).                                          */
+        border-right: none;                                /* Define a borda direita como nula para remover o contorno do MENU LATERAL DOS LIVROS (MOBILE).                                      */
+        border-bottom: 2px solid #555;                   /* Define uma borda sólida inferior para demarcar o limite do MENU LATERAL DOS LIVROS (MOBILE).                                       */
+    }
+
+    /*==================================================*/
+    /*              MENU LATERAL DOS LIVROS             */
+    /*        PSEUDO-ELEMENTO "LIVROS" (MOBILE)         */
+    /*==================================================*/
+    .menu-livros::before {
+        content: "LIVROS";                                 /* Define o conteúdo de texto para o título da seção de LIVROS no layout MOBILE.                                            */
+        display: block;                                    /* Define a exibição como bloco para garantir que o título ocupe uma linha exclusiva acima da LISTA DE LIVROS (MOBILE).     */
+        margin-bottom: 10px;                               /* Define o espaçamento inferior para separar o TÍTULO DOS LIVROS da lista abaixo (MOBILE).                                 */
+        padding-bottom: 5px;                               /* Define o preenchimento interno inferior para criar um respiro entre o TÍTULO DOS LIVROS e a borda (MOBILE).              */
+        border-bottom: 1px solid #777;                   /* Define uma borda sólida inferior para demarcar o TÍTULO DOS LIVROS (MOBILE).                                             */
+        font-size: 1.8rem;                                 /* Define o tamanho da fonte para o TÍTULO DOS LIVROS (MOBILE).                                                             */
+        text-align: left;                                  /* Define o alinhamento de texto à esquerda para o TÍTULO DOS LIVROS (MOBILE).                                              */
+    }
+
+    /*==================================================*/
+    /*              MENU LATERAL DOS LIVROS             */
+    /*              LISTA INTERNA (MOBILE)              */
+    /*==================================================*/
+    .menu-livros ul {
+        display: grid;                                     /* Define a exibição como grade para organizar os itens da LISTA DE LIVROS em duas colunas (MOBILE).                  */
+        grid-template-columns: 1fr 1fr;                    /* Define a estrutura de 2 colunas iguais para a LISTA DE LIVROS (MOBILE).                                            */
+        gap: 10px 40px;                                    /* Define o espaçamento entre linhas e colunas dos itens da LISTA DE LIVROS (MOBILE).                                 */
+        margin: 0;                                         /* Define as margens externas como nulas para remover os espaçamentos padrão da LISTA DE LIVROS (MOBILE).             */
+        padding: 0;                                        /* Define o preenchimento interno como nulo para remover os espaçamentos padrão dos itens da LISTA DE LIVROS (MOBILE).*/
+        text-align: left;                                  /* Define o alinhamento de texto à esquerda para a LISTA DE LIVROS (MOBILE).                                          */
+    }
+
+    /*==================================================*/
+    /*              MENU LATERAL DOS LIVROS             */
+    /*              ITENS DA LISTA (MOBILE)             */
+    /*==================================================*/
+    .menu-livros li {
+        display: block;                                    /* Define a exibição como bloco para garantir que cada ITEM DA LISTA se comporte como um elemento independente (MOBILE).    */
+        margin: 0;                                         /* Define as margens externas como nulas para remover os espaçamentos padrão dos ITENS DA LISTA (MOBILE).                   */
+    }
+
+    /*==================================================*/
+    /*              MENU LATERAL DOS LIVROS             */
+    /*             LINKS DOS LIVROS (MOBILE)            */
+    /*==================================================*/
+    .menu-livros a {
+        display: block;                                    /* Define a exibição como bloco para expandir a área clicável por toda a largura disponível nos LINKS DOS LIVROS (MOBILE).  */
+        overflow: hidden;                                  /* Oculta o transbordamento para textos que excedam a largura dos LINKS DOS LIVROS (MOBILE).                                */
+        text-decoration: none;                             /* Define a decoração do texto como nula para remover o sublinhado dos LINKS DOS LIVROS (MOBILE).                           */
+        white-space: nowrap;                               /* Impede a quebra automática de linha para manter o texto na mesma linha (MOBILE).                                         */
+        text-overflow: ellipsis;                           /* Adiciona reticências ao final de textos longos nos LINKS DOS LIVROS (MOBILE).                                            */
+        font-size: 1rem;                                   /* Define o tamanho da fonte para os LINKS DOS LIVROS (MOBILE).                                                             */
+    }
+
+    /*==================================================*/
+    /*              MENU LATERAL DOS LIVROS             */
+    /*             HOVER NOS LINKS (MOBILE)             */
+    /*==================================================*/
+    .menu-livros a:hover {
+        text-decoration: underline;                        /* Aplica sublinhado no efeito de HOVER nos LINKS DOS LIVROS (MOBILE).             */
+        color: #d4ac0d;                                  /* Define a cor do texto em dourado no HOVER nos LINKS DOS LIVROS (MOBILE).        */
+    }
+
+    /*==================================================*/
+    /*           CONTEÚDO PRINCIPAL (MOBILE)            */
+    /*==================================================*/
+    .conteudo {
+        overflow: visible;                                 /* Define o transbordamento como visível para permitir que o conteúdo se expanda além dos limites (MOBILE).   */
+        width: 100%;                                       /* Define a largura total para garantir que o CONTEÚDO PRINCIPAL preencha toda a tela (MOBILE).               */
+        height: auto;                                      /* Define a altura automática para que o CONTEÚDO PRINCIPAL se ajuste ao seu conteúdo (MOBILE).               */
+        margin-left: 0;                                    /* Define o recuo à esquerda como nulo para alinhar o CONTEÚDO PRINCIPAL à borda da tela (MOBILE).            */
+        margin-top: 0;                                     /* Define o espaçamento superior como nulo para alinhar o CONTEÚDO PRINCIPAL ao elemento acima (MOBILE).      */
+        padding: 0 5px 10px 5px;                           /* Define o preenchimento interno para criar um respiro ao redor do CONTEÚDO PRINCIPAL (MOBILE).              */
+    }
+
+    /*==================================================*/
+    /*      TÍTULOS H2 - TITULO DA VERSÃO (MOBILE)      */
+    /*==================================================*/
+    h2 {
+        overflow: visible;                                 /* Define o transbordamento como visível para o TÍTULO DA VERSÃO (MOBILE).                    */
+        margin-left: 0;                                    /* Define o recuo à esquerda como nulo para centralizar o TÍTULO DA VERSÃO (MOBILE).          */
+        margin-right: 0;                                   /* Define o recuo à direita como nulo para centralizar o TÍTULO DA VERSÃO (MOBILE).           */
+        margin-top: 5px;                                   /* Define o espaçamento superior para o TÍTULO DA VERSÃO (MOBILE).                            */
+        margin-bottom: 5px;                                /* Define o espaçamento inferior para o TÍTULO DA VERSÃO (MOBILE).                            */
+        width: 100%;                                       /* Define a largura total para o TÍTULO DA VERSÃO (MOBILE).                                   */
+        max-width: 100% !important;                        /* Define a largura máxima forçada para o TÍTULO DA VERSÃO (MOBILE).                          */
+        padding: 0 2px;                                    /* Define o preenchimento interno lateral para criar um respiro no TÍTULO DA VERSÃO (MOBILE). */
+        text-align: center;                                /* Define o alinhamento de texto centralizado para o TÍTULO DA VERSÃO (MOBILE).               */
+        white-space: normal;                               /* Permite a quebra automática de linha para o TÍTULO DA VERSÃO (MOBILE).                     */
+        font-size: 8vw;                                    /* Define o tamanho da fonte de forma responsiva para o TÍTULO DA VERSÃO (MOBILE).            */
+        line-height: 1.1;                                  /* Define a altura da linha para o TÍTULO DA VERSÃO (MOBILE).                                 */
+    }
+
+    /*==================================================*/
+    /*      TÍTULOS H3 - SOBRE OS BOTÕES (MOBILE)       */
+    /*==================================================*/
+    h3 {
+        margin-left: 0;                                    /* Define o recuo à esquerda como nulo para centralizar o TÍTULO H3 (MOBILE).    */
+        text-align: center;                                /* Define o alinhamento de texto centralizado para o TÍTULO H3 (MOBILE).         */
+    }
+
+    /*==================================================*/
+    /* VERSÍCULOS E PROTEÇÃO CONTRA CONFLITOS  (MOBILE) */
+    /*==================================================*/
+    .versiculo,
+    .texto-versiculo {
+        width: 100%;                                       /* Define a largura total para o bloco do VERSÍCULO (MOBILE).                           */
+        margin-left: 0;                                    /* Define o recuo à esquerda como nulo para o VERSÍCULO (MOBILE).                       */
+        margin-right: 0;                                   /* Define o recuo à direita como nulo para o VERSÍCULO (MOBILE).                        */
+        padding: 0 10px;                                   /* Define o preenchimento interno lateral para criar um respiro no VERSÍCULO (MOBILE).  */
+        box-sizing: border-box;                            /* Inclui bordas e padding no tamanho total do VERSÍCULO (MOBILE).                      */
+    }
+
+    /*==================================================*/
+    /*    VERSÍCULOS - ESTILO DE CABEÇALHO (MOBILE)     */
+    /*==================================================*/
+    .texto-versiculo h3,
+    .titulo-versiculo-interno {
+        width: 100%;                                       /* Define a largura total para o CABEÇALHO do VERSÍCULO (MOBILE).                       */
+        margin: 0 0 20px 0;                                /* Define a margem inferior em 20px para separar o TÍTULO DO VERSÍCULO (MOBILE).        */
+        color: #4CAF50;                                  /* Define a cor do texto em verde para o TÍTULO DO VERSÍCULO (MOBILE).                  */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);     /* Aplica uma sombra ao texto do TÍTULO DO VERSÍCULO (MOBILE).                          */
+        font-size: 2rem;                                   /* Define o tamanho da fonte para o TÍTULO DO VERSÍCULO (MOBILE).                       */
+        line-height: 1.3;                                  /* Define a altura da linha para o TÍTULO DO VERSÍCULO (MOBILE).                        */
+        text-align: center;                                /* Define o alinhamento de texto centralizado para o TÍTULO DO VERSÍCULO (MOBILE).      */
+        text-transform: uppercase;                                                                                                                                                                                                                                               /* Transforma o texto em maiúsculas para o TÍTULO DO VERSÍCULO (MOBILE). */
+    }
+
+    /*==================================================*/
+    /*         VERSÍCULOS - PARÁGRAFOS (MOBILE)         */
+    /*==================================================*/
+    .texto-versiculo p {
+        width: 100%;                                       /* Define a largura total para o PARÁGRAFO do VERSÍCULO (MOBILE).                       */
+        padding: 0;                                        /* Define o preenchimento interno como nulo para remover espaçamentos padrão (MOBILE).  */
+        margin: 0;                                         /* Define as margens externas como nulas para o PARÁGRAFO do VERSÍCULO (MOBILE).        */
+        font-size: 1.9rem;                                 /* Define o tamanho da fonte para o PARÁGRAFO do VERSÍCULO (MOBILE).                    */
+        text-align: center;                                /* Define o alinhamento de texto centralizado para o PARÁGRAFO do VERSÍCULO (MOBILE).   */
+    }
+
+    /*==================================================*/
+    /*          BOTÕES DOS CAPÍTULOS (MOBILE)           */
+    /*==================================================*/
+    .capitulos {
+        grid-template-columns: repeat(5, 1fr);             /* Define a estrutura de 5 colunas iguais para os BOTÕES DOS CAPÍTULOS (MOBILE).                     */
+        justify-content: center;                           /* Define o alinhamento horizontal centralizado para os BOTÕES DOS CAPÍTULOS (MOBILE).               */
+        gap: 5px;                                          /* Define o espaçamento entre os BOTÕES DOS CAPÍTULOS (MOBILE).                                      */
+        width: 100%;                                       /* Define a largura total para a GRADE DE CAPÍTULOS (MOBILE).                                        */
+        max-width: 100%;                                   /* Define a largura máxima para a GRADE DE CAPÍTULOS (MOBILE).                                       */
+        margin: 0 auto;                                    /* Define as margens laterais como automáticas para centralizar a GRADE DE CAPÍTULOS (MOBILE).       */
+        padding: 10px 5px;                                 /* Define o preenchimento interno para criar um respiro ao redor dos BOTÕES DOS CAPÍTULOS (MOBILE).  */
+        display: grid;                                     /* Define a exibição como grade para organizar os BOTÕES DOS CAPÍTULOS (MOBILE).                     */
+    }
+
+    .capitulos button,
+    .botao-capitulo {
+        width: 100%;                                       /* Define a largura total para que cada BOTÃO DE CAPÍTULO preencha sua coluna (MOBILE).                 */
+        margin: 0;                                         /* Define as margens externas como nulas para o BOTÃO DE CAPÍTULO (MOBILE).                             */
+        padding: 10px 0;                                   /* Define o preenchimento interno vertical para dar altura e um respiro ao BOTÃO DE CAPÍTULO (MOBILE).  */
+        font-size: 1.6rem;                                 /* Define o tamanho da fonte para o BOTÃO DE CAPÍTULO (MOBILE).                                         */
+        border-radius: 8px;                                /* Define os cantos arredondados para o BOTÃO DE CAPÍTULO (MOBILE).                                     */
+    }
+
+    /*==================================================*/
+    /*          BOTÕES DOS VERSÍCULOS (MOBILE)          */
+    /*==================================================*/
+    .versiculos {
+        grid-template-columns: repeat(5, 1fr);             /* Define a estrutura de 5 colunas iguais para os BOTÕES DOS VERSÍCULOS (MOBILE).                    */
+        justify-content: center;                           /* Define o alinhamento horizontal centralizado para os BOTÕES DOS VERSÍCULOS (MOBILE).              */
+        gap: 5px;                                          /* Define o espaçamento entre os BOTÕES DOS VERSÍCULOS (MOBILE).                                     */
+        width: 100%;                                       /* Define a largura total para a GRADE DE VERSÍCULOS (MOBILE).                                       */
+        max-width: 100%;                                   /* Define a largura máxima para a GRADE DE VERSÍCULOS (MOBILE).                                      */
+        margin: 0 auto;                                    /* Define as margens laterais como automáticas para centralizar a GRADE DE VERSÍCULOS (MOBILE).      */
+        padding: 10px 5px;                                 /* Define o preenchimento interno para criar um respiro ao redor dos BOTÕES DOS VERSÍCULOS (MOBILE). */
+        display: grid;                                     /* Define a exibição como grade para organizar os BOTÕES DOS VERSÍCULOS (MOBILE).                    */
+    }
+
+    .botao-versiculo {
+        width: 100%;                                       /* Define a largura total para que cada BOTÃO DE VERSÍCULO preencha sua coluna (MOBILE).                */
+        margin: 0;                                         /* Define as margens externas como nulas para o BOTÃO DE VERSÍCULO (MOBILE).                            */
+        padding: 10px 0;                                   /* Define o preenchimento interno vertical para dar altura e um respiro ao BOTÃO DE VERSÍCULO (MOBILE). */
+        font-size: 1.6rem;                                 /* Define o tamanho da fonte para o BOTÃO DE VERSÍCULO (MOBILE).                                        */
+        border-radius: 8px;                                /* Define os cantos arredondados para o BOTÃO DE VERSÍCULO (MOBILE).                                    */
+    }
+
+    /*==================================================*/
+    /*   CONTAINER DE PALAVRAS DO VERSÍCULO (MOBILE)    */
+    /*==================================================*/
+    .versiculo .palavras-container {
+        justify-content: center;                           /* Define o alinhamento horizontal centralizado para as palavras do VERSÍCULO (MOBILE).              */
+        gap: 8px;                                          /* Define o espaçamento entre as palavras do VERSÍCULO (MOBILE).                                     */
+        margin: 15px 0;                                    /* Define espaçamento vertical em 15px e zera as margens laterais do CONTAINER DE PALAVRAS (MOBILE). */
+    }
+
+    .versiculo .word-detail-item {
+        align-items: center;                               /* Define o alinhamento vertical centralizado para o ITEM DA PALAVRA (MOBILE).          */
+        width: 48%;                                        /* Define a largura em 48% para que 2 palavras caibam por linha no VERSÍCULO (MOBILE).  */
+    }
+
+    .versiculo .word-detail-item>div {
+        text-align: center;                                /* Define o alinhamento de texto centralizado para as linhas internas (MOBILE).  */
+    }
+
+}
