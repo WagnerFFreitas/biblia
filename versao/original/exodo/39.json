@@ -1,86 +1,396 @@
 {
-  "livro": "Êxodo - וְאֵלֶּה שְׁמוֹת - Ve'elleh Shemot",
+  "livro": "Êxodo - שְׁמוֹת - Shemot",
   "capítulo": 39,
-  "titulos": {
-    "1": "A confecção das vestes sacerdotais",
-    "2": "O éfode",
-    "8": "O peitoral",
-    "22": "O manto e as outras vestes",
-    "32": "A conclusão e entrega da obra"
-  },
+  "titulos": {},
   "versiculos": {
     "1": {
-      "traducao_completa": "E-de o-azul e-púrpura e-escarlate fizeram vestes-de serviço para-servir em-o-santuário; e-fizeram * vestes-de o-santuário para-Arão, conforme que ordenou o-SENHOR * Moisés.",
+      "traducao_completa": "E do azul, e da púrpura, e do carmesim fizeram as vestes do ministério para ministrar no santuário; e fizeram as vestes de santidade que eram para Arão, como YHWH ordenara a Moisés.",
       "palavras": [
-        { "hebraico": "וּמִן־הַתְּכֵלֶת", "transliteral": "umin-hattechelet", "traducao_palavra": "E-de o-azul" },
-        { "hebraico": "וְהָאַרְגָּמָן", "transliteral": "veha'argaman", "traducao_palavra": "e-púrpura" },
-        { "hebraico": "וְתוֹלַעַת", "transliteral": "vetola'at", "traducao_palavra": "e-escarlate" },
-        { "hebraico": "הַשָּׁנִי", "transliteral": "hashshani", "traducao_palavra": "" },
-        { "hebraico": "עָשׂוּ", "transliteral": "asu", "traducao_palavra": "fizeram" },
-        { "hebraico": "בִגְדֵי־שְׂרָד", "transliteral": "vigdey-serad", "traducao_palavra": "vestes-de serviço" },
-        { "hebraico": "לְשָׁרֵת", "transliteral": "lesharet", "traducao_palavra": "para-servir" },
-        { "hebraico": "בַּקֹּדֶשׁ", "transliteral": "baqqodesh", "traducao_palavra": "em-o-santuário" },
-        { "hebraico": "וַיַּעֲשׂוּ", "transliteral": "vayya'asu", "traducao_palavra": "e-fizeram" },
-        { "hebraico": "אֶת־בִּגְדֵי", "transliteral": "et-bigdey", "traducao_palavra": "* vestes-de" },
-        { "hebraico": "הַקֹּדֶשׁ", "transliteral": "haqqodesh", "traducao_palavra": "o-santuário" },
-        { "hebraico": "לְאַהֲרֹן", "transliteral": "le'aharon", "traducao_palavra": "para-Arão" },
-        { "hebraico": "כַּאַשֶׁר", "transliteral": "ca'asher", "traducao_palavra": "conforme" },
-        { "hebraico": "צִוָּה", "transliteral": "tsivvah", "traducao_palavra": "que ordenou" },
-        { "hebraico": "יְהוָה", "transliteral": "Yehovah", "traducao_palavra": "o-SENHOR" },
-        { "hebraico": "אֶת־מֹשֶׁה", "transliteral": "et-mosheh", "traducao_palavra": "* Moisés" }
+        { "hebraico": "וּמִן־הַתְּכֵלֶת", "transliteral": "û-min-hat-tə-ḵē-leṯ", "traducao_palavra": "e do azul" },
+        { "hebraico": "וְהָאַרְגָּמָן", "transliteral": "wə-hā-ʾar-gā-mān", "traducao_palavra": "e da púrpura" },
+        { "hebraico": "וְתוֹלַעַת", "transliteral": "wə-ṯô-la-ʿaṯ", "traducao_palavra": "e do verme de" },
+        { "hebraico": "הַשָּׁנִי", "transliteral": "haš-šā-nî", "traducao_palavra": "carmesim/escarlate" },
+        { "hebraico": "עָשׂוּ", "transliteral": "ʿā-śû", "traducao_palavra": "fizeram" },
+        { "hebraico": "בִגְדֵי־שְׂרָד", "transliteral": "ḇiḡ-ḏê-śə-rāḏ", "traducao_palavra": "vestes de ministério" },
+        { "hebraico": "לְשָׁרֵת", "transliteral": "lə-šā-rēṯ", "traducao_palavra": "para ministrar" },
+        { "hebraico": "בַּקֹּדֶשׁ", "transliteral": "baq-qō-ḏeš", "traducao_palavra": "no santuário" },
+        { "hebraico": "וַיַּעֲשׂוּ", "transliteral": "way-ya-ʿă-śû", "traducao_palavra": "e fizeram" },
+        { "hebraico": "אֶת־בִּגְדֵי", "transliteral": "ʾeṯ-biḡ-ḏê", "traducao_palavra": "as vestes de" },
+        { "hebraico": "הַקֹּדֶשׁ", "transliteral": "ha-qō-ḏeš", "traducao_palavra": "santidade" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que [eram]" },
+        { "hebraico": "לְאַהֲרֹן", "transliteral": "lə-ʾa-hă-rōn", "traducao_palavra": "para Arão" },
+        { "hebraico": "כַּאַשֶׁר", "transliteral": "ka-ʾă-šer", "traducao_palavra": "conforme" },
+        { "hebraico": "צִוָּה", "transliteral": "ṣiw-wā", "traducao_palavra": "ordenara" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶת־מֹשֶׁה׃", "transliteral": "ʾeṯ-mō-šeh", "traducao_palavra": "a Moisés" }
       ]
     },
     "2": {
-      "traducao_completa": "E-ele-fez * o-éfode-de ouro, azul e-púrpura e-escarlate e-linho fino retorcido.",
+      "traducao_completa": "E fez o efode de ouro, azul, púrpura, carmesim e linho fino retorcido.",
       "palavras": [
-        { "hebraico": "וַיַּעַשׂ", "transliteral": "vayya'as", "traducao_palavra": "E-ele-fez" },
-        { "hebraico": "אֶת־הָאֵפֹד", "transliteral": "et-ha'ephod", "traducao_palavra": "* o-éfode-de" },
-        { "hebraico": "זָהָב", "transliteral": "zahav", "traducao_palavra": "ouro" },
-        { "hebraico": "תְּכֵלֶת", "transliteral": "techelet", "traducao_palavra": "azul" },
-        { "hebraico": "וְאַרְגָּמָן", "transliteral": "ve'argaman", "traducao_palavra": "e-púrpura" },
-        { "hebraico": "וְתוֹלַעַת", "transliteral": "vetola'at", "traducao_palavra": "e-escarlate" },
-        { "hebraico": "שָׁנִי", "transliteral": "shani", "traducao_palavra": "" },
-        { "hebraico": "וְשֵׁשׁ", "transliteral": "veshesh", "traducao_palavra": "e-linho" },
-        { "hebraico": "מׇשְׁזָר", "transliteral": "moshzar", "traducao_palavra": "fino retorcido" }
+        { "hebraico": "וַיַּעַשׂ", "transliteral": "way-ya-ʿaś", "traducao_palavra": "e fez" },
+        { "hebraico": "אֶת־הָאֵפֹד", "transliteral": "ʾeṯ-hā-ʾê-p̄ōḏ", "traducao_palavra": "o efode" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "תְּכֵלֶת", "transliteral": "tə-ḵē-leṯ", "traducao_palavra": "azul" },
+        { "hebraico": "וְאַרְגָּמָן", "transliteral": "wə-ʾar-gā-mān", "traducao_palavra": "e púrpura" },
+        { "hebraico": "וְתוֹלַעַת", "transliteral": "wə-ṯô-la-ʿaṯ", "traducao_palavra": "e carmesim" },
+        { "hebraico": "שָׁנִי", "transliteral": "šā-nî", "traducao_palavra": "escarlate" },
+        { "hebraico": "וְשֵׁשׁ", "transliteral": "wə-šēš", "traducao_palavra": "e linho fino" },
+        { "hebraico": "מָשְׁזָר׃", "transliteral": "mā-šə-zār", "traducao_palavra": "retorcido" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "E bateram as lâminas de ouro, e as cortou em fios, para tecê-las no meio do azul, e no meio da púrpura, e no meio do carmesim, e no meio do linho fino, obra de artífice.",
+      "palavras": [
+        { "hebraico": "וַיְרַקְּעוּ", "transliteral": "way-raq-qə-ʿû", "traducao_palavra": "e bateram/estenderam" },
+        { "hebraico": "אֶת־פַּחֵי", "transliteral": "ʾeṯ-pa-ḥê", "traducao_palavra": "[as] lâminas de" },
+        { "hebraico": "הַזָּהָב", "transliteral": "haz-zā-hāḇ", "traducao_palavra": "o ouro" },
+        { "hebraico": "וְקִצֵּץ", "transliteral": "wə-qiṣ-ṣēṣ", "traducao_palavra": "e cortou" },
+        { "hebraico": "פְּתִילִם", "transliteral": "pə-ṯî-lim", "traducao_palavra": "fios" },
+        { "hebraico": "לַעֲשׂוֹת", "transliteral": "la-ʿă-śôṯ", "traducao_palavra": "para fazer/trabalhar" },
+        { "hebraico": "בְּתוֹךְ", "transliteral": "bə-ṯôḵ", "traducao_palavra": "no meio de" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Fizeram-lhe ombreiras que se uniam; nas suas duas extremidades se unia.",
+      "palavras": [
+        { "hebraico": "כְּתֵפֹת", "transliteral": "ḵə-ṯē-p̄ōṯ", "traducao_palavra": "ombreiras" },
+        { "hebraico": "עָשׂוּ־לוֹ", "transliteral": "ʿā-śû-lô", "traducao_palavra": "fizeram para ele" },
+        { "hebraico": "חֹבְרֹת", "transliteral": "ḥō-ḇə-rōṯ", "traducao_palavra": "unidas" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "E o cinto de obra esmerada que estava sobre ele era da mesma obra, de uma só peça com ele; de ouro, azul, púrpura, carmesim e linho fino retorcido, como YHWH ordenara a Moisés.",
+      "palavras": [
+        { "hebraico": "וְחֵשֶׁב", "transliteral": "wə-ḥē-šeḇ", "traducao_palavra": "e o cinto de" },
+        { "hebraico": "אֲפֻדָּתוֹ", "transliteral": "ʾă-p̄ud-dā-ṯô", "traducao_palavra": "seu efode" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que [estava]" },
+        { "hebraico": "עָלָיו", "transliteral": "ʿā-lāyw", "traducao_palavra": "sobre ele" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "E prepararam as pedras de ônix, engastadas em engastes de ouro, gravadas com gravuras de selo, com os nomes dos filhos de Israel.",
+      "palavras": [
+        { "hebraico": "וַיַּעֲשׂוּ", "transliteral": "way-ya-ʿă-śû", "traducao_palavra": "e fizeram/prepararam" },
+        { "hebraico": "אֶת־אַבְנֵי", "transliteral": "ʾeṯ-ʾaḇ-nê", "traducao_palavra": "as pedras de" },
+        { "hebraico": "הַשֹּׁהַם", "transliteral": "ha-šō-ham", "traducao_palavra": "o ônix" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "E as pôs sobre as ombreiras do efode, por pedras de memorial para os filhos de Israel, como YHWH ordenara a Moisés.",
+      "palavras": [
+        { "hebraico": "וַיָּשֶׂם", "transliteral": "way-yā-śem", "traducao_palavra": "e as pôs" },
+        { "hebraico": "אֹתָם", "transliteral": "ʾō-ṯām", "traducao_palavra": "elas" },
+        { "hebraico": "עַל", "transliteral": "ʿal", "traducao_palavra": "sobre" },
+        { "hebraico": "כִּתְפֹת", "transliteral": "kiṯ-p̄ōṯ", "traducao_palavra": "ombreiras de" },
+        { "hebraico": "הָאֵפֹד", "transliteral": "hā-ʾê-p̄ōḏ", "traducao_palavra": "o efode" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "E fez o peitoral de obra de artífice, como a obra do efode: de ouro, azul, púrpura, carmesim e linho fino retorcido.",
+      "palavras": [
+        { "hebraico": "וַיַּעַשׂ", "transliteral": "way-ya-ʿaś", "traducao_palavra": "e fez" },
+        { "hebraico": "אֶת־הַחֹשֶׁן", "transliteral": "ʾeṯ-ha-ḥō-šen", "traducao_palavra": "o peitoral" },
+        { "hebraico": "מַעֲשֵׂה", "transliteral": "ma-ʿă-śēh", "traducao_palavra": "obra de" },
+        { "hebraico": "חֹשֵׁב", "transliteral": "ḥō-šēḇ", "traducao_palavra": "artífice" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Quadrado era; dobrado fizeram o peitoral; um palmo era o seu comprimento, e um palmo a sua largura, sendo dobrado.",
+      "palavras": [
+        { "hebraico": "רָבוּעַ", "transliteral": "rā-ḇû-aʿ", "traducao_palavra": "quadrado" },
+        { "hebraico": "הָיָה", "transliteral": "hā-yā", "traducao_palavra": "era" },
+        { "hebraico": "כָּפוּל", "transliteral": "kā-p̄ûl", "traducao_palavra": "dobrado" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E encheram nele quatro fileiras de pedras: a primeira fileira de sárdio, topázio e carbúnculo; esta era a primeira fileira.",
+      "palavras": [
+        { "hebraico": "וַיְמַלְאוּ־בוֹ", "transliteral": "way-mal-ʾû-ḇô", "traducao_palavra": "e encheram nele" },
+        { "hebraico": "אַרְבָּעָה", "transliteral": "ʾar-bā-ʿā", "traducao_palavra": "quatro" },
+        { "hebraico": "טוּרֵי", "transliteral": "ṭû-rê", "traducao_palavra": "fileiras de" },
+        { "hebraico": "אָבֶן", "transliteral": "ʾā-ḇen", "traducao_palavra": "pedra" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "E a segunda fileira: esmeralda, safira e diamante.",
+      "palavras": [
+        { "hebraico": "וְהַטוּר", "transliteral": "wə-ha-ṭûr", "traducao_palavra": "e a fileira" },
+        { "hebraico": "הַשֵּׁנִי", "transliteral": "haš-šê-nî", "traducao_palavra": "a segunda" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "E a terceira fileira: jacinto, ágata e ametista.",
+      "palavras": [
+        { "hebraico": "וְהַטּוּר", "transliteral": "wə-ha-ṭûr", "traducao_palavra": "e a fileira" },
+        { "hebraico": "הַשְּׁלִישִׁי", "transliteral": "haš-šə-lî-šî", "traducao_palavra": "a terceira" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "E a quarta fileira: berilo, ônix e jaspe; engastadas em engastes de ouro nos seus engastes.",
+      "palavras": [
+        { "hebraico": "וְהַטּוּר", "transliteral": "wə-ha-ṭûr", "traducao_palavra": "e a fileira" },
+        { "hebraico": "הָרְבִיעִי", "transliteral": "hā-rə-ḇî-ʿî", "traducao_palavra": "a quarta" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "E as pedras eram conforme os nomes dos filhos de Israel, doze segundo os seus nomes; gravuras de selo, cada uma com o seu nome, para as doze tribos.",
+      "palavras": [
+        { "hebraico": "וְהָאֲבָנִים", "transliteral": "wə-hā-ʾă-ḇā-nîm", "traducao_palavra": "e as pedras" },
+        { "hebraico": "עַל־שְׁמֹת", "transliteral": "ʿal-šə-mōṯ", "traducao_palavra": "segundo os nomes de" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "E fizeram para o peitoral correntes de obra trançada, obra de cordão, de ouro puro.",
+      "palavras": [
+        { "hebraico": "וַיַּעֲשׂוּ", "transliteral": "way-ya-ʿă-śû", "traducao_palavra": "e fizeram" },
+        { "hebraico": "עַל־הַחֹשֶׁן", "transliteral": "ʿal-ha-ḥō-šen", "traducao_palavra": "sobre o peitoral" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "E fizeram dois engastes de ouro e duas argolas de ouro; e puseram as duas argolas nas duas extremidades do peitoral.",
+      "palavras": [
+        { "hebraico": "וַיַּעֲשׂוּ", "transliteral": "way-ya-ʿă-śû", "traducao_palavra": "e fizeram" },
+        { "hebraico": "שְׁתֵּי", "transliteral": "šə-tê", "traducao_palavra": "duas de" },
+        { "hebraico": "מִשְׁבְּצֹת", "transliteral": "miš-bə-ṣōṯ", "traducao_palavra": "engastes" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "E puseram as duas tranças de ouro nas duas argolas, nas extremidades do peitoral.",
+      "palavras": [
+        { "hebraico": "וַיִּתְּנוּ", "transliteral": "way-yit-tə-nû", "traducao_palavra": "e puseram" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "E as duas pontas das duas tranças puseram nos dois engastes; e as puseram sobre as ombreiras do efode, na sua parte dianteira.",
+      "palavras": [
+        { "hebraico": "וְאֵת", "transliteral": "wə-ʾēṯ", "traducao_palavra": "e" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "E fizeram duas argolas de ouro e as puseram nas duas extremidades do peitoral, na sua borda, que estava junto ao efode, por dentro.",
+      "palavras": [
+        { "hebraico": "וַיַּעֲשׂוּ", "transliteral": "way-ya-ʿă-śû", "traducao_palavra": "e fizeram" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "Fizeram mais duas argolas de ouro e as puseram nas duas ombreiras do efode, por baixo, na sua parte dianteira, junto à sua junção, sobre o cinto de obra esmerada do efode.",
+      "palavras": [
+        { "hebraico": "וַיַּעֲשׂוּ", "transliteral": "way-ya-ʿă-śû", "traducao_palavra": "e fizeram" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "E ligaram o peitoral pelas suas argolas às argolas do efode com um cordão de azul, para que estivesse sobre o cinto de obra esmerada do efode, e não se apartasse o peitoral do efode, como YHWH ordenara a Moisés.",
+      "palavras": [
+        { "hebraico": "וַיִּרְכְּסוּ", "transliteral": "way-yir-kə-śû", "traducao_palavra": "e ligaram" },
+        { "hebraico": "אֶת־הַחֹשֶׁן", "transliteral": "ʾeṯ-ha-ḥō-šen", "traducao_palavra": "o peitoral" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "E fez o manto do efode de obra de tecelão, todo de azul.",
+      "palavras": [
+        { "hebraico": "וַיַּעַשׂ", "transliteral": "way-ya-ʿaś", "traducao_palavra": "e fez" },
+        { "hebraico": "אֶת־מְעִיל", "transliteral": "ʾeṯ-mə-ʿîl", "traducao_palavra": "[o] manto de" },
+        { "hebraico": "הָאֵפֹד", "transliteral": "hā-ʾê-p̄ōḏ", "traducao_palavra": "o efode" },
+        { "hebraico": "מַעֲשֵׂה", "transliteral": "ma-ʿă-śēh", "traducao_palavra": "obra de" },
+        { "hebraico": "אֹרֵג", "transliteral": "ʾō-rēḡ", "traducao_palavra": "tecelão" },
+        { "hebraico": "כְּלִיל", "transliteral": "kə-lîl", "traducao_palavra": "todo de" },
+        { "hebraico": "תְּכֵלֶת׃", "transliteral": "tə-ḵē-leṯ", "traducao_palavra": "azul" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "E a abertura do manto no meio dele, como a abertura de uma cota de malha; uma orla para a sua abertura ao redor, para que não se rompesse.",
+      "palavras": [
+        { "hebraico": "וּפִי־הַמְּעִיל", "transliteral": "û-p̄î-ham-mə-ʿîl", "traducao_palavra": "e a abertura do manto" },
+        { "hebraico": "בְּתוֹכוֹ", "transliteral": "bə-ṯô-ḵô", "traducao_palavra": "no meio dele" },
+        { "hebraico": "כְּפִי", "transliteral": "kə-p̄î", "traducao_palavra": "como a abertura de" },
+        { "hebraico": "תַחְרָא", "transliteral": "taḥ-rā", "traducao_palavra": "cota de malha" },
+        { "hebraico": "שָׂפָה", "transliteral": "śā-p̄ā", "traducao_palavra": "uma orla" },
+        { "hebraico": "לְפִיו", "transliteral": "lə-p̄îw", "traducao_palavra": "para sua abertura" },
+        { "hebraico": "סָבִיב", "transliteral": "śā-ḇîḇ", "traducao_palavra": "ao redor" },
+        { "hebraico": "לֹא", "transliteral": "lō", "traducao_palavra": "[para que] não" },
+        { "hebraico": "יִקָּרֵעַ׃", "transliteral": "yiq-qā-rē-aʿ", "traducao_palavra": "se rompesse" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "E fizeram nas abas do manto romãs de azul, e de púrpura, e de carmesim retorcido.",
+      "palavras": [
+        { "hebraico": "וַיַּעֲשׂוּ", "transliteral": "way-ya-ʿă-śû", "traducao_palavra": "e fizeram" },
+        { "hebraico": "עַל־שׁוּלֵי", "transliteral": "ʿal-šû-lê", "traducao_palavra": "nas abas de" },
+        { "hebraico": "הַמְּעִיל", "transliteral": "ham-mə-ʿîl", "traducao_palavra": "o manto" },
+        { "hebraico": "רִמּוֹנֵי", "transliteral": "rim-mô-nê", "traducao_palavra": "romãs de" },
+        { "hebraico": "תְּכֵלֶת", "transliteral": "tə-ḵē-leṯ", "traducao_palavra": "azul" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "Fizeram também campainhas de ouro puro, e puseram as campainhas no meio das romãs, nas abas do manto ao redor, entre as romãs.",
+      "palavras": [
+        { "hebraico": "וַיַּעֲשׂוּ", "transliteral": "way-ya-ʿă-śû", "traducao_palavra": "e fizeram" },
+        { "hebraico": "פַעֲמֹנֵי", "transliteral": "p̄a-ʿă-mō-nê", "traducao_palavra": "campainhas de" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "טָהוֹר", "transliteral": "ṭā-hôr", "traducao_palavra": "puro" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "Uma campainha e uma romã, uma campainha e uma romã, nas abas do manto ao redor, para ministrar, como YHWH ordenara a Moisés.",
+      "palavras": [
+        { "hebraico": "פַּעֲמֹן", "transliteral": "pa-ʿă-mōn", "traducao_palavra": "uma campainha" },
+        { "hebraico": "וְרִמּוֹן", "transliteral": "wə-rim-môn", "traducao_palavra": "e uma romã" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "E fizeram as túnicas de linho fino, obra de tecelão, para Arão e para seus filhos.",
+      "palavras": [
+        { "hebraico": "וַיַּעֲשׂוּ", "transliteral": "way-ya-ʿă-śû", "traducao_palavra": "e fizeram" },
+        { "hebraico": "אֶת־הַכֻּתֳּנֹת", "transliteral": "ʾeṯ-hak-kut-to-nōṯ", "traducao_palavra": "as túnicas" },
+        { "hebraico": "שֵׁשׁ", "transliteral": "šēš", "traducao_palavra": "[de] linho fino" }
+      ]
+    },
+    "28": {
+      "traducao_completa": "E a mitra de linho fino, e o ornamento das tiaras de linho fino, e os calções de linho retorcido.",
+      "palavras": [
+        { "hebraico": "וְאֵת", "transliteral": "wə-ʾēṯ", "traducao_palavra": "e" },
+        { "hebraico": "הַמִּצְנֶפֶת", "transliteral": "ham-miṣ-ne-p̄eṯ", "traducao_palavra": "a mitra" }
+      ]
+    },
+    "29": {
+      "traducao_completa": "E o cinto de linho fino retorcido, e de azul, e de púrpura, e de carmesim, obra de bordador, como YHWH ordenara a Moisés.",
+      "palavras": [
+        { "hebraico": "וְאֶת־הָאַבְנֵט", "transliteral": "wə-ʾeṯ-hā-ʾaḇ-nēṭ", "traducao_palavra": "e o cinto" }
+      ]
+    },
+    "30": {
+      "traducao_completa": "E fizeram a lâmina do diadema da santidade de ouro puro, e nela escreveram uma escritura como de gravura de selo: SANTIDADE A YHWH.",
+      "palavras": [
+        { "hebraico": "וַיַּעֲשׂוּ", "transliteral": "way-ya-ʿă-śû", "traducao_palavra": "e fizeram" },
+        { "hebraico": "אֶת־צִיץ", "transliteral": "ʾeṯ-ṣîṣ", "traducao_palavra": "a lâmina de" },
+        { "hebraico": "נֵזֶר־הַקֹּדֶשׁ", "transliteral": "nē-zer-ha-qō-ḏeš", "traducao_palavra": "diadema da santidade" }
+      ]
+    },
+    "31": {
+      "traducao_completa": "E puseram nela um cordão de azul, para a colocar sobre a mitra por cima, como YHWH ordenara a Moisés.",
+      "palavras": [
+        { "hebraico": "וַיִּתְּנוּ", "transliteral": "way-yit-tə-nû", "traducao_palavra": "e puseram" },
+        { "hebraico": "עָלָיו", "transliteral": "ʿā-lāyw", "traducao_palavra": "sobre ela" },
+        { "hebraico": "פְּתִיל", "transliteral": "pə-ṯîl", "traducao_palavra": "um cordão de" },
+        { "hebraico": "תְּכֵלֶת", "transliteral": "tə-ḵē-leṯ", "traducao_palavra": "azul" }
       ]
     },
     "32": {
-      "traducao_completa": "E-ela-acabou toda obra-de Tabernáculo-de tenda-de reunião; e-eles-fizeram filhos-de Israel conforme tudo que ordenou o-SENHOR * Moisés, assim fizeram.",
+      "traducao_completa": "Assim se terminou toda a obra do Tabernáculo da tenda da congregação; e fizeram os filhos de Israel conforme tudo o que YHWH ordenara a Moisés, assim o fizeram.",
       "palavras": [
-        { "hebraico": "וַתֵּכֶל", "transliteral": "vattechel", "traducao_palavra": "E-ela-acabou" },
-        { "hebraico": "כׇּל־עֲבֹדַת", "transliteral": "col-avodat", "traducao_palavra": "toda obra-de" },
-        { "hebraico": "מִשְׁכַּן", "transliteral": "mishkan", "traducao_palavra": "Tabernáculo-de" },
-        { "hebraico": "אֹהֶל", "transliteral": "ohel", "traducao_palavra": "tenda-de" },
-        { "hebraico": "מוֹעֵד", "transliteral": "mo'ed", "traducao_palavra": "reunião" },
-        { "hebraico": "וַיַּעֲשׂוּ", "transliteral": "vayya'asu", "traducao_palavra": "e-eles-fizeram" },
-        { "hebraico": "בְּנֵי", "transliteral": "beney", "traducao_palavra": "filhos-de" },
-        { "hebraico": "יִשְׂרָאֵל", "transliteral": "yisra'el", "traducao_palavra": "Israel" },
-        { "hebraico": "כְּכֹל", "transliteral": "cechol", "traducao_palavra": "conforme tudo" },
-        { "hebraico": "אֲשֶׁר", "transliteral": "asher", "traducao_palavra": "que" },
-        { "hebraico": "צִוָּה", "transliteral": "tsivvah", "traducao_palavra": "ordenou" },
-        { "hebraico": "יְהוָה", "transliteral": "Yehovah", "traducao_palavra": "o-SENHOR" },
-        { "hebraico": "אֶת־מֹשֶׁה", "transliteral": "et-mosheh", "traducao_palavra": "* Moisés" },
-        { "hebraico": "כֵּן", "transliteral": "ken", "traducao_palavra": "assim" },
-        { "hebraico": "עָשׂוּ", "transliteral": "asu", "traducao_palavra": "fizeram" }
+        { "hebraico": "וַתֵּכֶל", "transliteral": "wat-tē-ḵel", "traducao_palavra": "e terminou" },
+        { "hebraico": "כָּל־עֲבֹדַת", "transliteral": "kāl-ʿă-ḇō-ḏaṯ", "traducao_palavra": "toda a obra de" },
+        { "hebraico": "מִשְׁכַּן", "transliteral": "miš-kan", "traducao_palavra": "Tabernáculo de" },
+        { "hebraico": "אֹהֶל", "transliteral": "ʾō-hel", "traducao_palavra": "tenda de" },
+        { "hebraico": "מוֹעֵד", "transliteral": "mô-ʿēḏ", "traducao_palavra": "congregação" },
+        { "hebraico": "וַיַּעֲשׂוּ", "transliteral": "way-ya-ʿă-śû", "traducao_palavra": "e fizeram" },
+        { "hebraico": "בְּנֵי", "transliteral": "bə-nê", "traducao_palavra": "filhos de" },
+        { "hebraico": "יִשְׂרָאֵל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "כְּכֹל", "transliteral": "kə-ḵōl", "traducao_palavra": "conforme tudo" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "צִוָּה", "transliteral": "ṣiw-wā", "traducao_palavra": "ordenou" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶת־מֹשֶׁה", "transliteral": "ʾeṯ-mō-šeh", "traducao_palavra": "a Moisés" },
+        { "hebraico": "כֵּן", "transliteral": "kēn", "traducao_palavra": "assim" },
+        { "hebraico": "עָשׂוּ׃", "transliteral": "ʿā-śû", "traducao_palavra": "fizeram" }
+      ]
+    },
+    "33": {
+      "traducao_completa": "E trouxeram o Tabernáculo a Moisés: a tenda e todos os seus utensílios, os seus colchetes, as suas tábuas, os seus varais, as suas colunas e as suas bases;",
+      "palavras": [
+        { "hebraico": "וַיָּבִיאּוּ", "transliteral": "way-yā-ḇî-ʾû", "traducao_palavra": "e trouxeram" },
+        { "hebraico": "אֶת־הַמִּשְׁכָּן", "transliteral": "ʾeṯ-ham-miš-kān", "traducao_palavra": "o Tabernáculo" },
+        { "hebraico": "אֶל־מֹשֶׁה", "transliteral": "ʾel-mō-šeh", "traducao_palavra": "a Moisés" }
+      ]
+    },
+    "34": {
+      "traducao_completa": "e a cobertura de peles de carneiro tintas de vermelho, e a cobertura de peles de golfinhos, e o véu do anteparo;",
+      "palavras": [
+        { "hebraico": "וְאֶת־מִכְסֵה", "transliteral": "wə-ʾeṯ-miḵ-śē", "traducao_palavra": "e a cobertura de" }
+      ]
+    },
+    "35": {
+      "traducao_completa": "a arca do Testemunho e os seus varais, e o propiciatório;",
+      "palavras": [
+        { "hebraico": "אֶת־אֲרֹן", "transliteral": "ʾeṯ-ʾă-rōn", "traducao_palavra": "a arca de" },
+        { "hebraico": "הָעֵדֻת", "transliteral": "hā-ʿē-ḏuṯ", "traducao_palavra": "o Testemunho" }
+      ]
+    },
+    "36": {
+      "traducao_completa": "a mesa, todos os seus utensílios e o pão da proposição;",
+      "palavras": [
+        { "hebraico": "אֶת־הַשֻּׁלְחָן", "transliteral": "ʾeṯ-ha-šul-ḥān", "traducao_palavra": "a mesa" }
+      ]
+    },
+    "37": {
+      "traducao_completa": "o candelabro puro, as suas lâmpadas, as lâmpadas em ordem, e todos os seus utensílios, e o azeite para a luminária;",
+      "palavras": [
+        { "hebraico": "אֶת־הַמְּנֹרָה", "transliteral": "ʾeṯ-ham-mə-nō-rā", "traducao_palavra": "o candelabro" }
+      ]
+    },
+    "38": {
+      "traducao_completa": "e o altar de ouro, e o óleo da unção, e o incenso aromático, e o anteparo para a porta da tenda;",
+      "palavras": [
+        { "hebraico": "וְאֵת", "transliteral": "wə-ʾēṯ", "traducao_palavra": "e" },
+        { "hebraico": "מִזְבַּח", "transliteral": "miz-baḥ", "traducao_palavra": "altar de" },
+        { "hebraico": "הַזָּהָב", "transliteral": "haz-zā-hāḇ", "traducao_palavra": "o ouro" }
+      ]
+    },
+    "39": {
+      "traducao_completa": "o altar de bronze e a sua grelha de bronze, os seus varais e todos os seus utensílios, a bacia e a sua base;",
+      "palavras": [
+        { "hebraico": "אֵת", "transliteral": "ʾēṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "מִזְבַּח", "transliteral": "miz-baḥ", "traducao_palavra": "altar de" },
+        { "hebraico": "הַנְּחֹשֶׁת", "transliteral": "han-nə-ḥō-šeṯ", "traducao_palavra": "o bronze" }
+      ]
+    },
+    "40": {
+      "traducao_completa": "as cortinas do pátio, as suas colunas e as suas bases, e o anteparo para a porta do pátio, as suas cordas e os seus pregos, e todos os utensílios do serviço do Tabernáculo, para a tenda da congregação;",
+      "palavras": [
+        { "hebraico": "אֵת", "transliteral": "ʾēṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "קִלְעֵי", "transliteral": "qil-ʿê", "traducao_palavra": "cortinas de" },
+        { "hebraico": "הֶחָצֵר", "transliteral": "he-ḥā-ṣēr", "traducao_palavra": "o pátio" }
+      ]
+    },
+    "41": {
+      "traducao_completa": "as vestes do ministério para ministrar no santuário, as vestes de santidade para Arão, o sacerdote, e as vestes de seus filhos para servirem como sacerdotes.",
+      "palavras": [
+        { "hebraico": "אֶת־בִּגְדֵי", "transliteral": "ʾeṯ-biḡ-ḏê", "traducao_palavra": "as vestes de" }
+      ]
+    },
+    "42": {
+      "traducao_completa": "Conforme tudo o que YHWH ordenara a Moisés, assim fizeram os filhos de Israel toda a obra.",
+      "palavras": [
+        { "hebraico": "כְּכֹל", "transliteral": "kə-ḵōl", "traducao_palavra": "conforme tudo" },
+        { "hebraico": "אֲשֶׁר־צִוָּה", "transliteral": "ʾă-šer-ṣiw-wā", "traducao_palavra": "que ordenou" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶת־מֹשֶׁה", "transliteral": "ʾeṯ-mō-šeh", "traducao_palavra": "a Moisés" },
+        { "hebraico": "כֵּן", "transliteral": "kēn", "traducao_palavra": "assim" },
+        { "hebraico": "עָשׂוּ", "transliteral": "ʿā-śû", "traducao_palavra": "fizeram" },
+        { "hebraico": "בְּנֵי", "transliteral": "bə-nê", "traducao_palavra": "filhos de" },
+        { "hebraico": "יִשְׂרָאֵל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "אֵת", "transliteral": "ʾēṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "כָּל־הָעֲבֹדָה׃", "transliteral": "kāl-hā-ʿă-ḇō-ḏā", "traducao_palavra": "todo o serviço" }
       ]
     },
     "43": {
-      "traducao_completa": "E-ele-viu Moisés * toda a-obra, e-eis fizeram * ela, conforme que ordenou o-SENHOR assim fizeram; e-ele-abençoou * eles Moisés.",
+      "traducao_completa": "E viu Moisés toda a obra, e eis que a tinham feito; como YHWH ordenara, assim a fizeram; e abençoou-os Moisés.",
       "palavras": [
-        { "hebraico": "וַיַּרְא", "transliteral": "vayar", "traducao_palavra": "E-ele-viu" },
-        { "hebraico": "מֹשֶׁה", "transliteral": "mosheh", "traducao_palavra": "Moisés" },
-        { "hebraico": "אֶת־כׇּל־הַמְּלָאכָה", "transliteral": "et-col-hammlachah", "traducao_palavra": "* toda a-obra" },
-        { "hebraico": "וְהִנֵּה", "transliteral": "vehineh", "traducao_palavra": "e-eis" },
-        { "hebraico": "עָשׂוּ", "transliteral": "asu", "traducao_palavra": "fizeram" },
-        { "hebraico": "אֹתָהּ", "transliteral": "otah", "traducao_palavra": "* ela" },
-        { "hebraico": "כַּאַשֶׁר", "transliteral": "ca'asher", "traducao_palavra": "conforme" },
-        { "hebraico": "צִוָּה", "transliteral": "tsivvah", "traducao_palavra": "que ordenou" },
-        { "hebraico": "יְהוָה", "transliteral": "Yehovah", "traducao_palavra": "o-SENHOR" },
-        { "hebraico": "כֵּן", "transliteral": "ken", "traducao_palavra": "assim" },
-        { "hebraico": "עָשׂוּ", "transliteral": "asu", "traducao_palavra": "fizeram" },
-        { "hebraico": "וַיְבָרֶךְ", "transliteral": "vayvarech", "traducao_palavra": "e-ele-abençoou" },
-        { "hebraico": "אֹתָם", "transliteral": "otam", "traducao_palavra": "* eles" },
-        { "hebraico": "מֹשֶׁה", "transliteral": "mosheh", "traducao_palavra": "Moisés" }
+        { "hebraico": "וַיַּרְא", "transliteral": "way-yarʾ", "traducao_palavra": "e viu" },
+        { "hebraico": "מֹשֶׁה", "transliteral": "mō-šeh", "traducao_palavra": "Moisés" },
+        { "hebraico": "אֶת־כָּל־הַמְּלָאכָה", "transliteral": "ʾeṯ-kāl-ham-mə-lā-ḵā", "traducao_palavra": "toda a obra" },
+        { "hebraico": "וְהִנֵּה", "transliteral": "wə-hin-nēh", "traducao_palavra": "e eis" },
+        { "hebraico": "עָשׂוּ", "transliteral": "ʿā-śû", "traducao_palavra": "fizeram" },
+        { "hebraico": "אֹתָהּ", "transliteral": "ʾō-ṯāh", "traducao_palavra": "ela" },
+        { "hebraico": "כַּאַשֶׁר", "transliteral": "ka-ʾă-šer", "traducao_palavra": "conforme" },
+        { "hebraico": "צִוָּה", "transliteral": "ṣiw-wā", "traducao_palavra": "ordenou" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "כֵּן", "transliteral": "kēn", "traducao_palavra": "assim" },
+        { "hebraico": "עָשׂוּ", "transliteral": "ʿā-śû", "traducao_palavra": "fizeram" },
+        { "hebraico": "וַיְבָרֶךְ", "transliteral": "way-ḇā-reḵ", "traducao_palavra": "e abençoou" },
+        { "hebraico": "אֹתָם", "transliteral": "ʾō-ṯām", "traducao_palavra": "eles" },
+        { "hebraico": "מֹשֶׁה׃", "transliteral": "mō-šeh", "traducao_palavra": "Moisés" }
       ]
     }
   }

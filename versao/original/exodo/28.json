@@ -1,154 +1,687 @@
 {
-  "livro": "Êxodo - וְאֵלֶּה שְׁמוֹת - Ve'elleh Shemot",
+  "livro": "Êxodo - שְׁמוֹת - Shemot",
   "capítulo": 28,
-  "titulos": {
-    "1": "As vestes sacerdotais",
-    "6": "O éfode",
-    "15": "O peitoral do juízo",
-    "31": "O manto do éfode",
-    "36": "A lâmina de ouro para a mitra",
-    "40": "As vestes para os filhos de Arão"
-  },
+  "titulos": {},
   "versiculos": {
     "1": {
-      "traducao_completa": "E-tu faz-chegar para-ti * Arão teu-irmão e-* seus-filhos com-ele de-meio-de filhos-de Israel para-servir-Me-como-sacerdote; Arão, Nadabe e-Abiú, Eleazar e-Itamar, filhos-de Arão.",
+      "traducao_completa": "E tu, faze chegar a ti Arão, teu irmão, e seus filhos com ele, de entre os filhos de Israel, para me servirem como sacerdotes: Arão, Nadabe e Abiú, Eleazar e Itamar, os filhos de Arão.",
       "palavras": [
-        { "hebraico": "וְאַתָּה", "transliteral": "ve'attah", "traducao_palavra": "E-tu" },
-        { "hebraico": "הַקְרֵב", "transliteral": "haqrev", "traducao_palavra": "faz-chegar" },
-        { "hebraico": "אֵלֶיךָ", "transliteral": "eleycha", "traducao_palavra": "para-ti" },
-        { "hebraico": "אֶת־אַהֲרֹן", "transliteral": "et-aharon", "traducao_palavra": "* Arão" },
-        { "hebraico": "אָחִיךָ", "transliteral": "achicha", "traducao_palavra": "teu-irmão" },
-        { "hebraico": "וְאֶת־בָּנָיו", "transliteral": "ve'et-banayv", "traducao_palavra": "e-* seus-filhos" },
-        { "hebraico": "אִתּוֹ", "transliteral": "itto", "traducao_palavra": "com-ele" },
-        { "hebraico": "מִתּוֹךְ", "transliteral": "mittoch", "traducao_palavra": "de-meio-de" },
-        { "hebraico": "בְּנֵי", "transliteral": "beney", "traducao_palavra": "filhos-de" },
-        { "hebraico": "יִשְׂרָאֵל", "transliteral": "yisra'el", "traducao_palavra": "Israel" },
-        { "hebraico": "לְכַהֲנוֹ־לִי", "transliteral": "lechahano-li", "traducao_palavra": "para-servir-Me-como-sacerdote" },
-        { "hebraico": "אַהֲרֹן", "transliteral": "aharon", "traducao_palavra": "Arão" },
-        { "hebraico": "נָדָב", "transliteral": "nadav", "traducao_palavra": "Nadabe" },
-        { "hebraico": "וַאֲבִיהוּא", "transliteral": "va'avihu", "traducao_palavra": "e-Abiú" },
-        { "hebraico": "אֶלְעָזָר", "transliteral": "el'azar", "traducao_palavra": "Eleazar" },
-        { "hebraico": "וְאִיתָמָר", "transliteral": "ve'itamar", "traducao_palavra": "e-Itamar" },
-        { "hebraico": "בְּנֵי", "transliteral": "beney", "traducao_palavra": "filhos-de" },
-        { "hebraico": "אַהֲרֹן", "transliteral": "aharon", "traducao_palavra": "Arão" }
+        { "hebraico": "וְאַתָּה", "transliteral": "wə-ʾat-tā", "traducao_palavra": "e tu" },
+        { "hebraico": "הַקְרֵב", "transliteral": "haq-rēḇ", "traducao_palavra": "faze chegar/aproximar" },
+        { "hebraico": "אֵלֶיךָ", "transliteral": "ʾē-le-ḵā", "traducao_palavra": "a ti" },
+        { "hebraico": "אֶת־אַהֲרֹן", "transliteral": "ʾeṯ-ʾa-hă-rōn", "traducao_palavra": "Arão" },
+        { "hebraico": "אָחִיךָ", "transliteral": "ʾā-ḥî-ḵā", "traducao_palavra": "teu irmão" },
+        { "hebraico": "וְאֶת־בָּנָיו", "transliteral": "wə-ʾeṯ-bā-nāw", "traducao_palavra": "e seus filhos" },
+        { "hebraico": "אִתּוֹ", "transliteral": "ʾit-tô", "traducao_palavra": "com ele" },
+        { "hebraico": "מִתּוֹךְ", "transliteral": "mit-tôḵ", "traducao_palavra": "de entre" },
+        { "hebraico": "בְּנֵי", "transliteral": "bə-nê", "traducao_palavra": "filhos de" },
+        { "hebraico": "יִשְׂרָאֵל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "לְכַהֲנוֹ־לִי", "transliteral": "lə-ḵa-hă-nô-lî", "traducao_palavra": "para servirem-me como sacerdotes" },
+        { "hebraico": "אַהֲרֹן", "transliteral": "ʾa-hă-rōn", "traducao_palavra": "Arão" },
+        { "hebraico": "נָדָב", "transliteral": "nā-ḏāḇ", "traducao_palavra": "Nadabe" },
+        { "hebraico": "וַאֲבִיהוּא", "transliteral": "wa-ʾă-ḇî-hû", "traducao_palavra": "e Abiú" },
+        { "hebraico": "אֶלְעָזָר", "transliteral": "ʾel-ʿā-zār", "traducao_palavra": "Eleazar" },
+        { "hebraico": "וְאִיתָמָר", "transliteral": "wə-ʾî-ṯā-mār", "traducao_palavra": "e Itamar" },
+        { "hebraico": "בְּנֵי", "transliteral": "bə-nê", "traducao_palavra": "filhos de" },
+        { "hebraico": "אַהֲרֹן׃", "transliteral": "ʾa-hă-rōn", "traducao_palavra": "Arão" }
       ]
     },
     "2": {
-      "traducao_completa": "E-farás vestes-de santidade para-Arão teu-irmão, para-honra e-para-glória.",
+      "traducao_completa": "E farás vestes de santidade para Arão, teu irmão, para glória e para ornamento.",
       "palavras": [
-        { "hebraico": "וְעָשִׂיתָ", "transliteral": "ve'asita", "traducao_palavra": "E-farás" },
-        { "hebraico": "בִגְדֵי־קֹדֶשׁ", "transliteral": "vigdey-qodesh", "traducao_palavra": "vestes-de santidade" },
-        { "hebraico": "לְאַהֲרֹן", "transliteral": "le'aharon", "traducao_palavra": "para-Arão" },
-        { "hebraico": "אָחִיךָ", "transliteral": "achicha", "traducao_palavra": "teu-irmão" },
-        { "hebraico": "לְכָבוֹד", "transliteral": "lechavod", "traducao_palavra": "para-honra" },
-        { "hebraico": "וּלְתִפְאָרֶת", "transliteral": "ultiph'aret", "traducao_palavra": "e-para-glória" }
+        { "hebraico": "וְעָשִׂיתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "בִגְדֵי־קֹדֶשׁ", "transliteral": "biḡ-ḏê-qō-ḏeš", "traducao_palavra": "vestes de santidade" },
+        { "hebraico": "לְאַהֲרֹן", "transliteral": "lə-ʾa-hă-rōn", "traducao_palavra": "para Arão" },
+        { "hebraico": "אָחִיךָ", "transliteral": "ʾā-ḥî-ḵā", "traducao_palavra": "teu irmão" },
+        { "hebraico": "לְכָבוֹד", "transliteral": "lə-ḵā-ḇôḏ", "traducao_palavra": "para glória" },
+        { "hebraico": "וּלְתִפְאָרֶת׃", "transliteral": "û-lə-ṯip̄-ʾā-reṯ", "traducao_palavra": "e para ornamento/beleza" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "E tu falarás a todos os sábios de coração, os quais eu enchi com espírito de sabedoria, para que façam as vestes de Arão, para o santificar, para que me sirva como sacerdote.",
+      "palavras": [
+        { "hebraico": "וְאַתָּה", "transliteral": "wə-ʾat-tā", "traducao_palavra": "e tu" },
+        { "hebraico": "תְּדַבֵּר", "transliteral": "tə-ḏab-bēr", "traducao_palavra": "falarás" },
+        { "hebraico": "אֶל־כָּל־חַכְמֵי־לֵב", "transliteral": "ʾel-kāl-ḥaḵ-mê-lēḇ", "traducao_palavra": "a todos sábios de coração" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "מִלֵּאתִיו", "transliteral": "mil-lē-ṯîw", "traducao_palavra": "enchi a ele" },
+        { "hebraico": "רוּחַ", "transliteral": "rû-aḥ", "traducao_palavra": "espírito de" },
+        { "hebraico": "חָכְמָה", "transliteral": "ḥāḵ-mā", "traducao_palavra": "sabedoria" },
+        { "hebraico": "וְעָשׂוּ", "transliteral": "wə-ʿā-śû", "traducao_palavra": "para que façam" },
+        { "hebraico": "אֶת־בִּגְדֵי", "transliteral": "ʾeṯ-biḡ-ḏê", "traducao_palavra": "as vestes de" },
+        { "hebraico": "אַהֲרֹן", "transliteral": "ʾa-hă-rōn", "traducao_palavra": "Arão" },
+        { "hebraico": "לְקַדְּשׁוֹ", "transliteral": "lə-qad-də-šô", "traducao_palavra": "para santificá-lo" },
+        { "hebraico": "לְכַהֲנוֹ־לִי׃", "transliteral": "lə-ḵa-hă-nô-lî", "traducao_palavra": "para servir-me como sacerdote" }
       ]
     },
     "4": {
-      "traducao_completa": "E-estas as-vestes que eles-farão: peitoral e-éfode e-manto e-túnica bordada, mitra e-cinto; e-eles-farão vestes-de santidade para-Arão teu-irmão e-para-seus-filhos para-servir-Me-como-sacerdote.",
+      "traducao_completa": "E estas são as vestes que farão: um peitoral, um efode, um manto, uma túnica bordada, uma mitra e um cinto; farão, pois, vestes de santidade para Arão, teu irmão, e para os seus filhos, para que me sirvam como sacerdotes.",
       "palavras": [
-        { "hebraico": "וְאֵלֶּה", "transliteral": "ve'elleh", "traducao_palavra": "E-estas" },
-        { "hebraico": "הַבְּגָדִים", "transliteral": "habbegadim", "traducao_palavra": "as-vestes" },
-        { "hebraico": "אֲשֶׁר", "transliteral": "asher", "traducao_palavra": "que" },
-        { "hebraico": "יַעֲשׂוּ", "transliteral": "ya'asu", "traducao_palavra": "eles-farão" },
-        { "hebraico": "חֹשֶׁן", "transliteral": "choshen", "traducao_palavra": "peitoral" },
-        { "hebraico": "וְאֵפוֹד", "transliteral": "ve'ephod", "traducao_palavra": "e-éfode" },
-        { "hebraico": "וּמְעִיל", "transliteral": "um'il", "traducao_palavra": "e-manto" },
-        { "hebraico": "וּכְתֹנֶת", "transliteral": "uchetnet", "traducao_palavra": "e-túnica" },
-        { "hebraico": "תַּשְׁבֵּץ", "transliteral": "tashbets", "traducao_palavra": "bordada" },
-        { "hebraico": "מִצְנֶפֶת", "transliteral": "mitsnephet", "traducao_palavra": "mitra" },
-        { "hebraico": "וְאַבְנֵט", "transliteral": "ve'avnet", "traducao_palavra": "e-cinto" },
-        { "hebraico": "וְעָשׂוּ", "transliteral": "ve'asu", "traducao_palavra": "e-eles-farão" },
-        { "hebraico": "בִגְדֵי־קֹדֶשׁ", "transliteral": "vigdey-qodesh", "traducao_palavra": "vestes-de santidade" },
-        { "hebraico": "לְאַהֲרֹן", "transliteral": "le'aharon", "traducao_palavra": "para-Arão" },
-        { "hebraico": "אָחִיךָ", "transliteral": "achicha", "traducao_palavra": "teu-irmão" },
-        { "hebraico": "וּלְבָנָיו", "transliteral": "ulvanayv", "traducao_palavra": "e-para-seus-filhos" },
-        { "hebraico": "לְכַהֲנוֹ־לִי", "transliteral": "lechahano-li", "traducao_palavra": "para-servir-Me-como-sacerdote" }
+        { "hebraico": "וְאֵלֶּה", "transliteral": "wə-ʾēl-leh", "traducao_palavra": "e estas [são]" },
+        { "hebraico": "הַבְּגָדִים", "transliteral": "hab-bə-ḡā-ḏîm", "traducao_palavra": "as vestes" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "יַעֲשׂוּ", "transliteral": "ya-ʿă-śû", "traducao_palavra": "farão" },
+        { "hebraico": "חֹשֶׁן", "transliteral": "ḥō-šen", "traducao_palavra": "peitoral" },
+        { "hebraico": "וְאֵפוֹד", "transliteral": "wə-ʾē-p̄ôḏ", "traducao_palavra": "e efode" },
+        { "hebraico": "וּמְעִיל", "transliteral": "û-mə-ʿîl", "traducao_palavra": "e manto" },
+        { "hebraico": "וּכְתֹנֶת", "transliteral": "û-ḵə-ṯō-neṯ", "traducao_palavra": "e túnica" },
+        { "hebraico": "תַּשְׁבֵּץ", "transliteral": "taš-bēṣ", "traducao_palavra": "bordada/xadrez" },
+        { "hebraico": "מִצְנֶפֶת", "transliteral": "miṣ-ne-p̄eṯ", "traducao_palavra": "mitra/turbante" },
+        { "hebraico": "וְאַבְנֵט", "transliteral": "wə-ʾaḇ-nēṭ", "traducao_palavra": "e cinto" },
+        { "hebraico": "וְעָשׂוּ", "transliteral": "wə-ʿā-śû", "traducao_palavra": "e farão" },
+        { "hebraico": "בִגְדֵי־קֹדֶשׁ", "transliteral": "biḡ-ḏê-qō-ḏeš", "traducao_palavra": "vestes de santidade" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "E tomarão o ouro, o azul, a púrpura, o carmesim e o linho fino.",
+      "palavras": [
+        { "hebraico": "וְהֵם", "transliteral": "wə-hēm", "traducao_palavra": "e eles" },
+        { "hebraico": "יִקְחוּ", "transliteral": "yiq-ḥû", "traducao_palavra": "tomarão" },
+        { "hebraico": "אֶת־הַזָּהָב", "transliteral": "ʾeṯ-haz-zā-hāḇ", "traducao_palavra": "o ouro" },
+        { "hebraico": "וְאֶת־הַתְּכֵלֶת", "transliteral": "wə-ʾeṯ-hat-tə-ḵē-leṯ", "traducao_palavra": "e o azul" },
+        { "hebraico": "וְאֶת־הָאַרְגָּמָן", "transliteral": "wə-ʾeṯ-hā-ʾar-gā-mān", "traducao_palavra": "e a púrpura" },
+        { "hebraico": "וְאֶת־תּוֹלַעַת", "transliteral": "wə-ʾeṯ-tô-la-ʿaṯ", "traducao_palavra": "e o carmesim" },
+        { "hebraico": "הַשָּׁנִי", "transliteral": "haš-šā-nî", "traducao_palavra": "[verme escarlate]" },
+        { "hebraico": "וְאֶת־הַשֵּׁשׁ׃", "transliteral": "wə-ʾeṯ-haš-šēš", "traducao_palavra": "e o linho fino" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "E farão o efode de ouro, de azul, de púrpura, de carmesim e de linho fino retorcido, obra de artífice.",
+      "palavras": [
+        { "hebraico": "וְעָשׂוּ", "transliteral": "wə-ʿā-śû", "traducao_palavra": "e farão" },
+        { "hebraico": "אֶת־הָאֵפֹד", "transliteral": "ʾeṯ-hā-ʾê-p̄ōḏ", "traducao_palavra": "o efode" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "תְּכֵלֶת", "transliteral": "tə-ḵē-leṯ", "traducao_palavra": "azul" },
+        { "hebraico": "וְאַרְגָּמָן", "transliteral": "wə-ʾar-gā-mān", "traducao_palavra": "e púrpura" },
+        { "hebraico": "תּוֹלַעַת", "transliteral": "tô-la-ʿaṯ", "traducao_palavra": "carmesim" },
+        { "hebraico": "שָׁנִי", "transliteral": "šā-nî", "traducao_palavra": "[escarlate]" },
+        { "hebraico": "וְשֵׁשׁ", "transliteral": "wə-šēš", "traducao_palavra": "e linho fino" },
+        { "hebraico": "מָשְׁזָר", "transliteral": "mā-šə-zār", "traducao_palavra": "retorcido" },
+        { "hebraico": "מַעֲשֵׂה", "transliteral": "ma-ʿă-śēh", "traducao_palavra": "obra de" },
+        { "hebraico": "חֹשֵׁב׃", "transliteral": "ḥō-šēḇ", "traducao_palavra": "artífice/tecelão" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Terá duas ombreiras que se unam às suas duas extremidades, e assim se unirá.",
+      "palavras": [
+        { "hebraico": "שְׁתֵּי", "transliteral": "šə-tê", "traducao_palavra": "duas de" },
+        { "hebraico": "כְתֵפֹת", "transliteral": "ḵə-ṯē-p̄ōṯ", "traducao_palavra": "ombreiras" },
+        { "hebraico": "חֹבְרֹת", "transliteral": "ḥō-ḇə-rōṯ", "traducao_palavra": "unidas" },
+        { "hebraico": "יִהְיוּ־לוֹ", "transliteral": "yih-yû-lô", "traducao_palavra": "serão para ele" },
+        { "hebraico": "אֶל־שְׁנֵי", "transliteral": "ʾel-šə-nê", "traducao_palavra": "nas duas de" },
+        { "hebraico": "קְצוֹתָיו", "transliteral": "qə-ṣô-ṯāw", "traducao_palavra": "suas extremidades" },
+        { "hebraico": "וְחֻבָּר׃", "transliteral": "wə-ḥub-bār", "traducao_palavra": "e será unido" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "E o cinto de obra esmerada que estará sobre ele será da sua mesma obra, de uma só peça com ele: de ouro, de azul, de púrpura, de carmesim e de linho fino retorcido.",
+      "palavras": [
+        { "hebraico": "וְחֵשֶׁב", "transliteral": "wə-ḥē-šeḇ", "traducao_palavra": "e o cinto/obra esmerada de" },
+        { "hebraico": "אֲפֻדָּתוֹ", "transliteral": "ʾă-p̄ud-dā-ṯô", "traducao_palavra": "seu efode" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "עָלָיו", "transliteral": "ʿā-lāw", "traducao_palavra": "[está] sobre ele" },
+        { "hebraico": "כְּמַעֲשֵׂהוּ", "transliteral": "kə-ma-ʿă-śē-hû", "traducao_palavra": "conforme sua obra" },
+        { "hebraico": "מִמֶּנּוּ", "transliteral": "mim-men-nû", "traducao_palavra": "dele [mesmo]" },
+        { "hebraico": "יִהְיֶה", "transliteral": "yih-yeh", "traducao_palavra": "será" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "E tomarás duas pedras de ônix, e gravarás nelas os nomes dos filhos de Israel.",
+      "palavras": [
+        { "hebraico": "וְלָקַחְתָּ", "transliteral": "wə-lā-qaḥ-tā", "traducao_palavra": "e tomarás" },
+        { "hebraico": "אֶת־שְׁתֵּי", "transliteral": "ʾeṯ-šə-tê", "traducao_palavra": "as duas de" },
+        { "hebraico": "אַבְנֵי־שֹׁהַם", "transliteral": "ʾaḇ-nê-šō-ham", "traducao_palavra": "pedras de ônix" },
+        { "hebraico": "וּפִתַּחְתָּ", "transliteral": "û-p̄it-taḥ-tā", "traducao_palavra": "e gravarás" },
+        { "hebraico": "עֲלֵיהֶם", "transliteral": "ʿă-lê-hem", "traducao_palavra": "sobre elas" },
+        { "hebraico": "שְׁמוֹת", "transliteral": "šə-môṯ", "traducao_palavra": "[os] nomes de" },
+        { "hebraico": "בְּנֵי", "transliteral": "bə-nê", "traducao_palavra": "filhos de" },
+        { "hebraico": "יִשְׂרָאֵל׃", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Seis dos seus nomes numa pedra, e os nomes dos seis restantes na outra pedra, segundo as suas gerações.",
+      "palavras": [
+        { "hebraico": "שִׁשָּׁה", "transliteral": "šiš-šā", "traducao_palavra": "seis de" },
+        { "hebraico": "מִשְּׁמֹתָם", "transliteral": "miš-šə-mō-ṯām", "traducao_palavra": "seus nomes" },
+        { "hebraico": "עַל", "transliteral": "ʿal", "traducao_palavra": "sobre" },
+        { "hebraico": "הָאֶבֶן", "transliteral": "hā-ʾe-ḇen", "traducao_palavra": "a pedra" },
+        { "hebraico": "הָאֶחָת", "transliteral": "hā-ʾe-ḥāṯ", "traducao_palavra": "a uma" },
+        { "hebraico": "וְאֶת־שְׁמוֹת", "transliteral": "wə-ʾeṯ-šə-môṯ", "traducao_palavra": "e os nomes de" },
+        { "hebraico": "הַשִּׁשָּׁה", "transliteral": "haš-šiš-šā", "traducao_palavra": "os seis" },
+        { "hebraico": "הַנּוֹתָרִים", "transliteral": "han-nô-ṯā-rîm", "traducao_palavra": "os restantes" },
+        { "hebraico": "עַל־הָאֶבֶן", "transliteral": "ʿal-hā-ʾe-ḇen", "traducao_palavra": "sobre a pedra" },
+        { "hebraico": "הַשֵּׁנִית", "transliteral": "haš-šê-nîṯ", "traducao_palavra": "a segunda" },
+        { "hebraico": "כְּתוֹלְדֹתָם׃", "transliteral": "kə-ṯô-lə-ḏō-ṯām", "traducao_palavra": "segundo suas gerações" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Obra de lapidário, como gravuras de selo, gravarás as duas pedras com os nomes dos filhos de Israel; engastadas em ouro as farás.",
+      "palavras": [
+        { "hebraico": "מַעֲשֵׂה", "transliteral": "ma-ʿă-śēh", "traducao_palavra": "obra de" },
+        { "hebraico": "חָרַשׁ", "transliteral": "ḥā-raš", "traducao_palavra": "artífice/lapidário" },
+        { "hebraico": "אֶבֶן", "transliteral": "ʾe-ḇen", "traducao_palavra": "[em] pedra" },
+        { "hebraico": "פִּתּוּחֵי", "transliteral": "pit-tû-ḥê", "traducao_palavra": "gravuras de" },
+        { "hebraico": "חֹתָם", "transliteral": "ḥō-ṯām", "traducao_palavra": "selo" },
+        { "hebraico": "תְּפַתַּח", "transliteral": "tə-p̄at-taḥ", "traducao_palavra": "gravarás" },
+        { "hebraico": "אֶת־שְׁתֵּי", "transliteral": "ʾeṯ-šə-tê", "traducao_palavra": "as duas de" },
+        { "hebraico": "הָאֲבָנִים", "transliteral": "hā-ʾă-ḇā-nîm", "traducao_palavra": "pedras" },
+        { "hebraico": "עַל־שְׁמוֹת", "transliteral": "ʿal-šə-môṯ", "traducao_palavra": "sobre os nomes de" },
+        { "hebraico": "בְּנֵי־יִשְׂרָאֵל", "transliteral": "bə-nê-yiś-rā-ʾēl", "traducao_palavra": "filhos de Israel" },
+        { "hebraico": "מֻסַבֹּת", "transliteral": "mu-śab-bōṯ", "traducao_palavra": "cercadas/engastadas" },
+        { "hebraico": "מִשְׁבְּצוֹת", "transliteral": "miš-bə-ṣôṯ", "traducao_palavra": "em engastes de" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "תַּעֲשֶׂה", "transliteral": "ta-ʿă-śeh", "traducao_palavra": "farás" },
+        { "hebraico": "אֹתָם׃", "transliteral": "ʾō-ṯām", "traducao_palavra": "elas" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "E porás as duas pedras sobre as ombreiras do efode, por pedras de memorial para os filhos de Israel; e Arão levará os seus nomes diante de YHWH sobre as suas duas ombreiras por memorial.",
+      "palavras": [
+        { "hebraico": "וְשַׂמְתָּ", "transliteral": "wə-śam-tā", "traducao_palavra": "e porás" },
+        { "hebraico": "אֶת־שְׁתֵּי", "transliteral": "ʾeṯ-šə-tê", "traducao_palavra": "as duas de" },
+        { "hebraico": "הָאֲבָנִים", "transliteral": "hā-ʾă-ḇā-nîm", "traducao_palavra": "pedras" },
+        { "hebraico": "עַל", "transliteral": "ʿal", "traducao_palavra": "sobre" },
+        { "hebraico": "כִּתְפֹת", "transliteral": "kiṯ-p̄ōṯ", "traducao_palavra": "ombreiras de" },
+        { "hebraico": "הָאֵפֹד", "transliteral": "hā-ʾê-p̄ōḏ", "traducao_palavra": "o efode" },
+        { "hebraico": "אַבְנֵי", "transliteral": "ʾaḇ-nê", "traducao_palavra": "pedras de" },
+        { "hebraico": "זִכָּרֹן", "transliteral": "zik-kā-rōn", "traducao_palavra": "memorial" },
+        { "hebraico": "לִבְנֵי", "transliteral": "liḇ-nê", "traducao_palavra": "para filhos de" },
+        { "hebraico": "יִשְׂרָאֵל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "וְנָשָׂא", "transliteral": "wə-nā-śā", "traducao_palavra": "e levará" },
+        { "hebraico": "אַהֲרֹן", "transliteral": "ʾa-hă-rōn", "traducao_palavra": "Arão" },
+        { "hebraico": "אֶת־שְׁמוֹתָם", "transliteral": "ʾeṯ-šə-mô-ṯām", "traducao_palavra": "os nomes deles" },
+        { "hebraico": "לִפְנֵי", "transliteral": "lip̄-nê", "traducao_palavra": "diante de" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "עַל־שְׁתֵּי", "transliteral": "ʿal-šə-tê", "traducao_palavra": "sobre as duas de" },
+        { "hebraico": "כְתֵפָיו", "transliteral": "ḵə-ṯē-p̄āyw", "traducao_palavra": "suas ombreiras" },
+        { "hebraico": "לְזִכָּרֹן׃", "transliteral": "lə-zik-kā-rōn", "traducao_palavra": "por memorial" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Farás também engastes de ouro,",
+      "palavras": [
+        { "hebraico": "וְעָשִׂיתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "מִשְׁבְּצֹת", "transliteral": "miš-bə-ṣōṯ", "traducao_palavra": "engastes de" },
+        { "hebraico": "זָהָב׃", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "e duas correntes de ouro puro; de obra trançada as farás, de obra de cordão; e porás as correntes trançadas nos engastes.",
+      "palavras": [
+        { "hebraico": "וּשְׁתֵּי", "transliteral": "û-šə-tê", "traducao_palavra": "e duas de" },
+        { "hebraico": "שַׁרְשְׁרֹת", "transliteral": "šar-šə-rōṯ", "traducao_palavra": "correntes" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "טָהוֹר", "transliteral": "ṭā-hôr", "traducao_palavra": "puro" },
+        { "hebraico": "מִגְבָּלֹת", "transliteral": "miḡ-bā-lōṯ", "traducao_palavra": "terminadas/trançadas" },
+        { "hebraico": "תַּעֲשֶׂה", "transliteral": "ta-ʿă-śeh", "traducao_palavra": "farás" },
+        { "hebraico": "אֹתָם", "transliteral": "ʾō-ṯām", "traducao_palavra": "elas" },
+        { "hebraico": "מַעֲשֵׂה", "transliteral": "ma-ʿă-śēh", "traducao_palavra": "obra de" },
+        { "hebraico": "עֲבֹת", "transliteral": "ʿă-ḇōṯ", "traducao_palavra": "cordas/trança" },
+        { "hebraico": "וְנָתַתָּה", "transliteral": "wə-nā-ṯat-tā", "traducao_palavra": "e porás" },
+        { "hebraico": "אֶת־שַׁרְשְׁרֹת", "transliteral": "ʾeṯ-šar-šə-rōṯ", "traducao_palavra": "as correntes" },
+        { "hebraico": "הָעֲבֹתֹת", "transliteral": "hā-ʿă-ḇō-ṯōṯ", "traducao_palavra": "as trançadas" },
+        { "hebraico": "עַל־הַמִּשְׁבְּצֹת׃", "transliteral": "ʿal-ham-miš-bə-ṣōṯ", "traducao_palavra": "sobre os engastes" }
       ]
     },
     "15": {
-      "traducao_completa": "E-farás peitoral-de juízo obra-de desenhista; como-obra-de éfode farás-ele; de-ouro, azul e-púrpura e-escarlate e-linho fino retorcido farás * ele.",
+      "traducao_completa": "E farás o peitoral do juízo, obra de artífice; como a obra do efode o farás: de ouro, azul, púrpura, carmesim e linho fino retorcido o farás.",
       "palavras": [
-        { "hebraico": "וְעָשִׂיתָ", "transliteral": "ve'asita", "traducao_palavra": "E-farás" },
-        { "hebraico": "חֹשֶׁן", "transliteral": "choshen", "traducao_palavra": "peitoral-de" },
-        { "hebraico": "מִשְׁפָּט", "transliteral": "mishpat", "traducao_palavra": "juízo" },
-        { "hebraico": "מַעֲשֵׂה", "transliteral": "ma'aseh", "traducao_palavra": "obra-de" },
-        { "hebraico": "חֹשֵׁב", "transliteral": "choshev", "traducao_palavra": "desenhista" },
-        { "hebraico": "כְּמַעֲשֵׂה", "transliteral": "kema'aseh", "traducao_palavra": "como-obra-de" },
-        { "hebraico": "אֵפֹד", "transliteral": "ephod", "traducao_palavra": "éfode" },
-        { "hebraico": "תַּעֲשֶׂנּוּ", "transliteral": "ta'asennu", "traducao_palavra": "farás-ele" },
-        { "hebraico": "זָהָב", "transliteral": "zahav", "traducao_palavra": "de-ouro" },
-        { "hebraico": "תְּכֵלֶת", "transliteral": "techelet", "traducao_palavra": "azul" },
-        { "hebraico": "וְאַרְגָּמָן", "transliteral": "ve'argaman", "traducao_palavra": "e-púrpura" },
-        { "hebraico": "וְתוֹלַעַת", "transliteral": "vetola'at", "traducao_palavra": "e-escarlate" },
-        { "hebraico": "שָׁנִי", "transliteral": "shani", "traducao_palavra": "" },
-        { "hebraico": "וְשֵׁשׁ", "transliteral": "veshesh", "traducao_palavra": "e-linho" },
-        { "hebraico": "מׇשְׁזָר", "transliteral": "moshzar", "traducao_palavra": "fino retorcido" },
-        { "hebraico": "תַּעֲשֶׂה", "transliteral": "ta'aseh", "traducao_palavra": "farás" },
-        { "hebraico": "אֹתוֹ", "transliteral": "oto", "traducao_palavra": "* ele" }
+        { "hebraico": "וְעָשִׂיתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "חֹשֶׁן", "transliteral": "ḥō-šen", "traducao_palavra": "peitoral" },
+        { "hebraico": "מִשְׁפָּט", "transliteral": "miš-pāṭ", "traducao_palavra": "[do] juízo" },
+        { "hebraico": "מַעֲשֵׂה", "transliteral": "ma-ʿă-śēh", "traducao_palavra": "obra de" },
+        { "hebraico": "חֹשֵׁב", "transliteral": "ḥō-šēḇ", "traducao_palavra": "artífice" },
+        { "hebraico": "כְּמַעֲשֵׂה", "transliteral": "kə-ma-ʿă-śēh", "traducao_palavra": "como a obra de" },
+        { "hebraico": "אֵפֹד", "transliteral": "ʾē-p̄ōḏ", "traducao_palavra": "efode" },
+        { "hebraico": "תַּעֲשֶׂנּוּ", "transliteral": "ta-ʿă-śen-nû", "traducao_palavra": "o farás" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "תְּכֵלֶת", "transliteral": "tə-ḵē-leṯ", "traducao_palavra": "azul" },
+        { "hebraico": "וְאַרְגָּמָן", "transliteral": "wə-ʾar-gā-mān", "traducao_palavra": "e púrpura" },
+        { "hebraico": "וְתוֹלַעַת", "transliteral": "wə-ṯô-la-ʿaṯ", "traducao_palavra": "e carmesim" },
+        { "hebraico": "שָׁנִי", "transliteral": "šā-nî", "traducao_palavra": "[escarlate]" },
+        { "hebraico": "וְשֵׁשׁ", "transliteral": "wə-šēš", "traducao_palavra": "e linho fino" },
+        { "hebraico": "מָשְׁזָר", "transliteral": "mā-šə-zār", "traducao_palavra": "retorcido" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Quadrado será, dobrado; um palmo será o seu comprimento e um palmo a sua largura.",
+      "palavras": [
+        { "hebraico": "רָבוּעַ", "transliteral": "rā-ḇû-aʿ", "traducao_palavra": "quadrado" },
+        { "hebraico": "יִהְיֶה", "transliteral": "yih-yeh", "traducao_palavra": "será" },
+        { "hebraico": "כָּפוּל", "transliteral": "kā-p̄ûl", "traducao_palavra": "dobrado" },
+        { "hebraico": "זֶרֶת", "transliteral": "ze-reṯ", "traducao_palavra": "um palmo" },
+        { "hebraico": "אָרְכּוֹ", "transliteral": "ʾār-kô", "traducao_palavra": "[seu] comprimento" },
+        { "hebraico": "וְזֶרֶת", "transliteral": "wə-ze-reṯ", "traducao_palavra": "e um palmo" },
+        { "hebraico": "רָחְבּוֹ׃", "transliteral": "rāḥ-bô", "traducao_palavra": "[sua] largura" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "E o encherás de engaste de pedras, quatro fileiras de pedras: uma fileira de sárdio, topázio e carbúnculo; esta será a primeira fileira.",
+      "palavras": [
+        { "hebraico": "וּמִלֵּאתָ", "transliteral": "û-mil-lê-ṯā", "traducao_palavra": "e o encherás" },
+        { "hebraico": "בוֹ", "transliteral": "bô", "traducao_palavra": "nele" },
+        { "hebraico": "מִלֻּאַת", "transliteral": "mil-lu-ʾaṯ", "traducao_palavra": "engaste de" },
+        { "hebraico": "אֶבֶן", "transliteral": "ʾe-ḇen", "traducao_palavra": "pedra" },
+        { "hebraico": "אַרְבָּעָה", "transliteral": "ʾar-bā-ʿā", "traducao_palavra": "quatro" },
+        { "hebraico": "טוּרִים", "transliteral": "ṭû-rîm", "traducao_palavra": "fileiras" },
+        { "hebraico": "אָבֶן", "transliteral": "ʾā-ḇen", "traducao_palavra": "[de] pedra" },
+        { "hebraico": "טוּר", "transliteral": "ṭûr", "traducao_palavra": "fileira de" },
+        { "hebraico": "אֹדֶם", "transliteral": "ʾō-ḏem", "traducao_palavra": "sárdio/rubi" },
+        { "hebraico": "פִּטְדָה", "transliteral": "piṭ-ḏā", "traducao_palavra": "topázio" },
+        { "hebraico": "וּבָרֶקֶת", "transliteral": "û-ḇā-re-qeṯ", "traducao_palavra": "e carbúnculo/esmeralda" },
+        { "hebraico": "הַטּוּר", "transliteral": "ha-ṭûr", "traducao_palavra": "a fileira" },
+        { "hebraico": "הָאֶחָד׃", "transliteral": "hā-ʾe-ḥāḏ", "traducao_palavra": "a primeira" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "E a segunda fileira: esmeralda, safira e diamante.",
+      "palavras": [
+        { "hebraico": "וְהַטּוּר", "transliteral": "wə-ha-ṭûr", "traducao_palavra": "e a fileira" },
+        { "hebraico": "הַשֵּׁנִי", "transliteral": "haš-šê-nî", "traducao_palavra": "a segunda" },
+        { "hebraico": "נֹפֶךְ", "transliteral": "nō-p̄eḵ", "traducao_palavra": "esmeralda/turquesa" },
+        { "hebraico": "סַפִּיר", "transliteral": "sap-pîr", "traducao_palavra": "safira" },
+        { "hebraico": "וְיָהֲלֹם׃", "transliteral": "wə-yā-hă-lōm", "traducao_palavra": "e diamante/cristal" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "E a terceira fileira: jacinto, ágata e ametista.",
+      "palavras": [
+        { "hebraico": "וְהַטּוּר", "transliteral": "wə-ha-ṭûr", "traducao_palavra": "e a fileira" },
+        { "hebraico": "הַשְּׁלִישִׁי", "transliteral": "haš-šə-lî-šî", "traducao_palavra": "a terceira" },
+        { "hebraico": "לֶשֶׁם", "transliteral": "le-šem", "traducao_palavra": "jacinto/ligure" },
+        { "hebraico": "שְׁבוֹ", "transliteral": "šə-ḇô", "traducao_palavra": "ágata" },
+        { "hebraico": "וְאַחְלָמָה׃", "transliteral": "wə-ʾaḥ-lā-mā", "traducao_palavra": "e ametista" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "E a quarta fileira: berilo, ônix e jaspe; engastadas em ouro elas estarão nos seus engastes.",
+      "palavras": [
+        { "hebraico": "וְהַטּוּר", "transliteral": "wə-ha-ṭûr", "traducao_palavra": "e a fileira" },
+        { "hebraico": "הָרְבִיעִי", "transliteral": "hā-rə-ḇî-ʿî", "traducao_palavra": "a quarta" },
+        { "hebraico": "תַּרְשִׁישׁ", "transliteral": "ṯar-šîš", "traducao_palavra": "berilo/crisólito" },
+        { "hebraico": "וְשֹׁהַם", "transliteral": "wə-šō-ham", "traducao_palavra": "e ônix" },
+        { "hebraico": "וְיָשְׁפֵה", "transliteral": "wə-yā-šə-p̄ēh", "traducao_palavra": "e jaspe" },
+        { "hebraico": "מְשֻׁבָּצִים", "transliteral": "mə-šub-bā-ṣîm", "traducao_palavra": "entrelaçadas/engastadas" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "[em] ouro" },
+        { "hebraico": "יִהְיוּ", "transliteral": "yih-yû", "traducao_palavra": "serão" },
+        { "hebraico": "בְּמִלּוּאָתָם׃", "transliteral": "bə-mil-lû-ʾā-ṯām", "traducao_palavra": "nos seus engastes" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "E as pedras serão segundo os nomes dos filhos de Israel, doze segundo os seus nomes; como gravuras de selo, cada uma com o seu nome, serão para as doze tribos.",
+      "palavras": [
+        { "hebraico": "וְהָאֲבָנִים", "transliteral": "wə-hā-ʾă-ḇā-nîm", "traducao_palavra": "e as pedras" },
+        { "hebraico": "תִּהְיֶיןָ", "transliteral": "tih-ye-nā", "traducao_palavra": "serão" },
+        { "hebraico": "עַל־שְׁמֹת", "transliteral": "ʿal-šə-mōṯ", "traducao_palavra": "segundo os nomes de" },
+        { "hebraico": "בְּנֵי־יִשְׂרָאֵל", "transliteral": "bə-nê-yiś-rā-ʾēl", "traducao_palavra": "filhos de Israel" },
+        { "hebraico": "שְׁתֵּים", "transliteral": "šə-têm", "traducao_palavra": "duas" },
+        { "hebraico": "עֶשְׂרֵה", "transliteral": "ʿeś-rē", "traducao_palavra": "dez [doze]" },
+        { "hebraico": "עַל־שְׁמֹתָם", "transliteral": "ʿal-šə-mō-ṯām", "traducao_palavra": "segundo os seus nomes" },
+        { "hebraico": "פִּתּוּחֵי", "transliteral": "pit-tû-ḥê", "traducao_palavra": "gravuras de" },
+        { "hebraico": "חוֹתָם", "transliteral": "ḥô-ṯām", "traducao_palavra": "selo" },
+        { "hebraico": "אִישׁ", "transliteral": "ʾîš", "traducao_palavra": "cada uma [homem]" },
+        { "hebraico": "עַל־שְׁמוֹ", "transliteral": "ʿal-šə-mô", "traducao_palavra": "com o seu nome" },
+        { "hebraico": "תִּהְיֶיןָ", "transliteral": "tih-ye-nā", "traducao_palavra": "serão elas" },
+        { "hebraico": "לִשְׁנֵי", "transliteral": "liš-nê", "traducao_palavra": "para os dois" },
+        { "hebraico": "עָשָׂר", "transliteral": "ʿā-śār", "traducao_palavra": "dez [doze]" },
+        { "hebraico": "שָׁבֶט׃", "transliteral": "šā-ḇeṭ", "traducao_palavra": "tribo" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "E farás para o peitoral correntes trançadas, de obra de cordão, de ouro puro.",
+      "palavras": [
+        { "hebraico": "וְעָשִׂיתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "עַל־הַחֹשֶׁן", "transliteral": "ʿal-ha-ḥō-šen", "traducao_palavra": "sobre o peitoral" },
+        { "hebraico": "שַׁרְשֹׁת", "transliteral": "šar-šōṯ", "traducao_palavra": "correntes" },
+        { "hebraico": "גַּבְלֻת", "transliteral": "gaḇ-luṯ", "traducao_palavra": "trançadas/limites" },
+        { "hebraico": "מַעֲשֵׂה", "transliteral": "ma-ʿă-śēh", "traducao_palavra": "obra de" },
+        { "hebraico": "עֲבֹת", "transliteral": "ʿă-ḇōṯ", "traducao_palavra": "cordão" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "טָהוֹר׃", "transliteral": "ṭā-hôr", "traducao_palavra": "puro" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "Farás também para o peitoral duas argolas de ouro; e porás as duas argolas nas duas extremidades do peitoral.",
+      "palavras": [
+        { "hebraico": "וְעָשִׂיתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "עַל־הַחֹשֶׁן", "transliteral": "ʿal-ha-ḥō-šen", "traducao_palavra": "sobre o peitoral" },
+        { "hebraico": "שְׁתֵּי", "transliteral": "šə-tê", "traducao_palavra": "duas de" },
+        { "hebraico": "טַבְּעוֹת", "transliteral": "ṭab-bə-ʿôṯ", "traducao_palavra": "argolas de" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "וְנָתַתָּ", "transliteral": "wə-nā-ṯat-tā", "traducao_palavra": "e porás" },
+        { "hebraico": "אֶת־שְׁתֵּי", "transliteral": "ʾeṯ-šə-tê", "traducao_palavra": "as duas de" },
+        { "hebraico": "הַטַּבָּעוֹת", "transliteral": "ha-ṭab-bā-ʿôṯ", "traducao_palavra": "as argolas" },
+        { "hebraico": "עַל־שְׁנֵי", "transliteral": "ʿal-šə-nê", "traducao_palavra": "nas duas de" },
+        { "hebraico": "קְצוֹת", "transliteral": "qə-ṣôṯ", "traducao_palavra": "extremidades de" },
+        { "hebraico": "הַחֹשֶׁן׃", "transliteral": "ha-ḥō-šen", "traducao_palavra": "o peitoral" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "E porás as duas tranças de ouro nas duas argolas, nas extremidades do peitoral.",
+      "palavras": [
+        { "hebraico": "וְנָתַתָּה", "transliteral": "wə-nā-ṯat-tā", "traducao_palavra": "e porás" },
+        { "hebraico": "אֶת־שְׁתֵּי", "transliteral": "ʾeṯ-šə-tê", "traducao_palavra": "as duas de" },
+        { "hebraico": "עֲבֹתֹת", "transliteral": "ă-ḇō-ṯōṯ", "traducao_palavra": "cordões/tranças de" },
+        { "hebraico": "הַזָּהָב", "transliteral": "ha-zā-hāḇ", "traducao_palavra": "o ouro" },
+        { "hebraico": "עַל־שְׁתֵּי", "transliteral": "ʿal-šə-tê", "traducao_palavra": "nas duas de" },
+        { "hebraico": "הַטַּבָּעֹת", "transliteral": "ha-ṭab-bā-ʿōṯ", "traducao_palavra": "as argolas" },
+        { "hebraico": "אֶל־קְצוֹת", "transliteral": "ʾel-qə-ṣôṯ", "traducao_palavra": "nas extremidades de" },
+        { "hebraico": "הַחֹשֶׁן׃", "transliteral": "ha-ḥō-šen", "traducao_palavra": "o peitoral" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "E as duas pontas das duas tranças porás nos dois engastes, e as porás sobre as ombreiras do efode, na sua parte dianteira.",
+      "palavras": [
+        { "hebraico": "וְאֵת", "transliteral": "wə-ʾēṯ", "traducao_palavra": "e" },
+        { "hebraico": "שְׁתֵּי", "transliteral": "šə-tê", "traducao_palavra": "as duas" },
+        { "hebraico": "קְצוֹת", "transliteral": "qə-ṣôṯ", "traducao_palavra": "pontas de" },
+        { "hebraico": "שְׁתֵּי", "transliteral": "šə-tê", "traducao_palavra": "as duas" },
+        { "hebraico": "הָעֲבֹתֹת", "transliteral": "hā-ʿă-ḇō-ṯōṯ", "traducao_palavra": "tranças" },
+        { "hebraico": "תִּתֵּן", "transliteral": "tit-tēn", "traducao_palavra": "porás" },
+        { "hebraico": "עַל־שְׁתֵּי", "transliteral": "ʿal-šə-tê", "traducao_palavra": "nos dois de" },
+        { "hebraico": "הַמִּשְׁבְּצוֹת", "transliteral": "ha-miš-bə-ṣôṯ", "traducao_palavra": "os engastes" },
+        { "hebraico": "וְנָתַתָּה", "transliteral": "wə-nā-ṯat-tā", "traducao_palavra": "e as porás" },
+        { "hebraico": "עַל־כִּתְפוֹת", "transliteral": "ʿal-kiṯ-p̄ôṯ", "traducao_palavra": "sobre ombreiras de" },
+        { "hebraico": "הָאֵפֹד", "transliteral": "hā-ʾē-p̄ōḏ", "traducao_palavra": "o efode" },
+        { "hebraico": "אֶל־מוּל", "transliteral": "ʾel-mûl", "traducao_palavra": "em frente de" },
+        { "hebraico": "פָּנָיו׃", "transliteral": "pā-nāw", "traducao_palavra": "sua face" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "Farás também duas argolas de ouro e as porás nas duas extremidades do peitoral, na sua borda que está junto ao lado do efode, por dentro.",
+      "palavras": [
+        { "hebraico": "וְעָשִׂיתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "שְׁתֵּי", "transliteral": "šə-tê", "traducao_palavra": "duas de" },
+        { "hebraico": "טַבְּעוֹת", "transliteral": "ṭab-bə-ʿôṯ", "traducao_palavra": "argolas de" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "וְשַׂמְתָּ", "transliteral": "wə-śam-tā", "traducao_palavra": "e porás" },
+        { "hebraico": "אֹתָם", "transliteral": "ʾō-ṯām", "traducao_palavra": "elas" },
+        { "hebraico": "עַל־שְׁנֵי", "transliteral": "ʿal-šə-nê", "traducao_palavra": "nas duas de" },
+        { "hebraico": "קְצוֹת", "transliteral": "qə-ṣôṯ", "traducao_palavra": "extremidades de" },
+        { "hebraico": "הַחֹשֶׁן", "transliteral": "ha-ḥō-šen", "traducao_palavra": "o peitoral" },
+        { "hebraico": "עַל־שְׂפָתוֹ", "transliteral": "ʿal-śə-p̄ā-ṯô", "traducao_palavra": "na sua borda" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "אֶל־עֵבֶר", "transliteral": "ʾel-ʿē-ḇer", "traducao_palavra": "para o lado de" },
+        { "hebraico": "הָאֵפֹד", "transliteral": "hā-ʾē-p̄ōḏ", "traducao_palavra": "o efode" },
+        { "hebraico": "בָּיְתָה׃", "transliteral": "bā-yə-ṯā", "traducao_palavra": "para dentro" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "Farás mais duas argolas de ouro e as porás nas duas ombreiras do efode, por baixo, na sua parte dianteira, junto à sua junção, sobre o cinto de obra esmerada do efode.",
+      "palavras": [
+        { "hebraico": "וְעָשִׂיתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "שְׁתֵּי", "transliteral": "šə-tê", "traducao_palavra": "duas de" },
+        { "hebraico": "טַבְּעוֹת", "transliteral": "ṭab-bə-ʿôṯ", "traducao_palavra": "argolas de" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "וְנָתַתָּה", "transliteral": "wə-nā-ṯat-tā", "traducao_palavra": "e as porás" },
+        { "hebraico": "אֹתָם", "transliteral": "ʾō-ṯām", "traducao_palavra": "elas" },
+        { "hebraico": "עַל־שְׁתֵּי", "transliteral": "ʿal-šə-tê", "traducao_palavra": "nas duas de" },
+        { "hebraico": "כִתְפוֹת", "transliteral": "ḵiṯ-p̄ôṯ", "traducao_palavra": "ombreiras de" },
+        { "hebraico": "הָאֵפֹד", "transliteral": "hā-ʾē-p̄ōḏ", "traducao_palavra": "o efode" },
+        { "hebraico": "מִלְּמַטָּה", "transliteral": "mil-lə-maṭ-ṭā", "traducao_palavra": "por baixo" },
+        { "hebraico": "מִמּוּל", "transliteral": "mim-mûl", "traducao_palavra": "em frente de" },
+        { "hebraico": "פָּנָיו", "transliteral": "pā-nāw", "traducao_palavra": "sua face" },
+        { "hebraico": "לְעֻמַּת", "transliteral": "lə-ʿum-maṯ", "traducao_palavra": "junto a" },
+        { "hebraico": "מַחְבַּרְתּוֹ", "transliteral": "maḥ-bar-tô", "traducao_palavra": "sua junção" },
+        { "hebraico": "מִמַּעַל", "transliteral": "mim-ma-ʿal", "traducao_palavra": "sobre" },
+        { "hebraico": "לְחֵשֶׁב", "transliteral": "lə-ḥē-šeḇ", "traducao_palavra": "o cinto de" },
+        { "hebraico": "הָאֵפֹד׃", "transliteral": "hā-ʾē-p̄ōḏ", "traducao_palavra": "o efode" }
+      ]
+    },
+    "28": {
+      "traducao_completa": "E ligarão o peitoral pelas suas argolas às argolas do efode com um cordão de azul, para que esteja sobre o cinto de obra esmerada do efode, e não se aparte o peitoral de sobre o efode.",
+      "palavras": [
+        { "hebraico": "וְיִרְכְּסוּ", "transliteral": "wə-yir-kə-śû", "traducao_palavra": "e ligarão" },
+        { "hebraico": "אֶת־הַחֹשֶׁן", "transliteral": "ʾeṯ-ha-ḥō-šen", "traducao_palavra": "o peitoral" },
+        { "hebraico": "מִטַּבְּעֹתָו", "transliteral": "mi-ṭab-bə-ʿō-ṯāw", "traducao_palavra": "pelas suas argolas" },
+        { "hebraico": "אֶל־טַבְּעֹת", "transliteral": "ʾel-ṭab-bə-ʿōṯ", "traducao_palavra": "às argolas de" },
+        { "hebraico": "הָאֵפֹד", "transliteral": "hā-ʾē-p̄ōḏ", "traducao_palavra": "o efode" },
+        { "hebraico": "בִּפְתִיל", "transliteral": "bip̄-ṯîl", "traducao_palavra": "com cordão de" },
+        { "hebraico": "תְּכֵלֶת", "transliteral": "tə-ḵē-leṯ", "traducao_palavra": "azul" },
+        { "hebraico": "לִהְיוֹת", "transliteral": "li-hyôṯ", "traducao_palavra": "para que esteja" },
+        { "hebraico": "עַל־חֵשֶׁב", "transliteral": "ʿal-ḥē-šeḇ", "traducao_palavra": "sobre o cinto de" },
+        { "hebraico": "הָאֵפֹד", "transliteral": "hā-ʾē-p̄ōḏ", "traducao_palavra": "o efode" },
+        { "hebraico": "וְלֹא־יִזַּח", "transliteral": "wə-lō-yiz-zaḥ", "traducao_palavra": "e não se aparte/desloque" },
+        { "hebraico": "הַחֹשֶׁן", "transliteral": "ha-ḥō-šen", "traducao_palavra": "o peitoral" },
+        { "hebraico": "מֵעַל", "transliteral": "mē-ʿal", "traducao_palavra": "de sobre" },
+        { "hebraico": "הָאֵפֹד׃", "transliteral": "hā-ʾē-p̄ōḏ", "traducao_palavra": "o efode" }
+      ]
+    },
+    "29": {
+      "traducao_completa": "E Arão levará os nomes dos filhos de Israel no peitoral do juízo sobre o seu coração, quando entrar no santuário, para memorial perante YHWH continuamente.",
+      "palavras": [
+        { "hebraico": "וְנָשָׂא", "transliteral": "wə-nā-śā", "traducao_palavra": "e levará" },
+        { "hebraico": "אַהֲרֹן", "transliteral": "ʾa-hă-rōn", "traducao_palavra": "Arão" },
+        { "hebraico": "אֶת־שְׁמוֹת", "transliteral": "ʾeṯ-šə-môṯ", "traducao_palavra": "[os] nomes de" },
+        { "hebraico": "בְּנֵי־יִשְׂרָאֵל", "transliteral": "bə-nê-yiś-rā-ʾēl", "traducao_palavra": "filhos de Israel" },
+        { "hebraico": "בְּחֹשֶׁן", "transliteral": "bə-ḥō-šen", "traducao_palavra": "no peitoral de" },
+        { "hebraico": "הַמִּשְׁפָּט", "transliteral": "ha-miš-pāṭ", "traducao_palavra": "o juízo" },
+        { "hebraico": "עַל־לִבּוֹ", "transliteral": "ʿal-lib-bô", "traducao_palavra": "sobre seu coração" },
+        { "hebraico": "בְּבֹאוֹ", "transliteral": "bə-ḇō-ʾô", "traducao_palavra": "ao entrar ele" },
+        { "hebraico": "אֶל־הַקֹּדֶשׁ", "transliteral": "ʾel-ha-qō-ḏeš", "traducao_palavra": "no santuário" },
+        { "hebraico": "לְזִכָּרֹן", "transliteral": "lə-zik-kā-rōn", "traducao_palavra": "para memorial" },
+        { "hebraico": "לִפְנֵי־יְהוָה", "transliteral": "lip̄-nê-YHWH", "traducao_palavra": "perante YHWH" },
+        { "hebraico": "תָּמִיד׃", "transliteral": "tā-mîḏ", "traducao_palavra": "continuamente" }
       ]
     },
     "30": {
-      "traducao_completa": "E-porás para peitoral-de o-juízo * o-Urim e-* o-Tumim; e-eles-estarão sobre coração-de Arão em-vinda-dele diante-de o-SENHOR; e-levará Arão * juízo-de filhos-de Israel sobre seu-coração diante-de o-SENHOR sempre.",
+      "traducao_completa": "Também porás no peitoral do juízo o Urim e o Tumim, para que estejam sobre o coração de Arão quando entrar perante YHWH; assim Arão levará o juízo dos filhos de Israel sobre o seu coração perante YHWH continuamente.",
       "palavras": [
-        { "hebraico": "וְנָתַתָּ", "transliteral": "venatatta", "traducao_palavra": "E-porás" },
-        { "hebraico": "אֶל־חֹשֶׁן", "transliteral": "el-choshen", "traducao_palavra": "para peitoral-de" },
-        { "hebraico": "הַמִּשְׁפָּט", "transliteral": "hammishpat", "traducao_palavra": "o-juízo" },
-        { "hebraico": "אֶת־הָאוּרִים", "transliteral": "et-ha'urim", "traducao_palavra": "* o-Urim" },
-        { "hebraico": "וְאֶת־הַתֻּמִּים", "transliteral": "ve'et-hattummim", "traducao_palavra": "e-* o-Tumim" },
-        { "hebraico": "וְהָיוּ", "transliteral": "vehayu", "traducao_palavra": "e-eles-estarão" },
-        { "hebraico": "עַל־לֵב", "transliteral": "al-lev", "traducao_palavra": "sobre coração-de" },
-        { "hebraico": "אַהֲרֹן", "transliteral": "aharon", "traducao_palavra": "Arão" },
-        { "hebraico": "בְּבֹאוֹ", "transliteral": "bevo'o", "traducao_palavra": "em-vinda-dele" },
-        { "hebraico": "לִפְנֵי", "transliteral": "lipheney", "traducao_palavra": "diante-de" },
-        { "hebraico": "יְהוָה", "transliteral": "Yehovah", "traducao_palavra": "o-SENHOR" },
-        { "hebraico": "וְנָשָׂא", "transliteral": "venasa", "traducao_palavra": "e-levará" },
-        { "hebraico": "אַהֲרֹן", "transliteral": "aharon", "traducao_palavra": "Arão" },
-        { "hebraico": "אֶת־מִשְׁפַּט", "transliteral": "et-mishpat", "traducao_palavra": "* juízo-de" },
-        { "hebraico": "בְּנֵי־יִשְׂרָאֵל", "transliteral": "beney-yisra'el", "traducao_palavra": "filhos-de Israel" },
-        { "hebraico": "עַל־לִבּוֹ", "transliteral": "al-libbo", "traducao_palavra": "sobre seu-coração" },
-        { "hebraico": "לִפְנֵי", "transliteral": "lipheney", "traducao_palavra": "diante-de" },
-        { "hebraico": "יְהוָה", "transliteral": "Yehovah", "traducao_palavra": "o-SENHOR" },
-        { "hebraico": "תָּמִיד", "transliteral": "tamid", "traducao_palavra": "sempre" }
+        { "hebraico": "וְנָתַתָּ", "transliteral": "wə-nā-ṯat-tā", "traducao_palavra": "e porás" },
+        { "hebraico": "אֶל־חֹשֶׁן", "transliteral": "ʾel-ḥō-šen", "traducao_palavra": "no peitoral de" },
+        { "hebraico": "הַמִּשְׁפָּט", "transliteral": "ha-miš-pāṭ", "traducao_palavra": "o juízo" },
+        { "hebraico": "אֶת־הָאוּרִים", "transliteral": "ʾeṯ-hā-ʾû-rîm", "traducao_palavra": "[o] Urim [as luzes]" },
+        { "hebraico": "וְאֶת־הַתֻּמִּים", "transliteral": "wə-ʾeṯ-ha-tum-mîm", "traducao_palavra": "e [o] Tumim [as perfeições]" },
+        { "hebraico": "וְהָיוּ", "transliteral": "wə-hā-yû", "traducao_palavra": "e estarão" },
+        { "hebraico": "עַל־לֵב", "transliteral": "ʿal-lēḇ", "traducao_palavra": "sobre coração de" },
+        { "hebraico": "אַהֲרֹן", "transliteral": "ʾa-hă-rōn", "traducao_palavra": "Arão" },
+        { "hebraico": "בְּבֹאוֹ", "transliteral": "bə-ḇō-ʾô", "traducao_palavra": "no entrar dele" },
+        { "hebraico": "לִפְנֵי", "transliteral": "lip̄-nê", "traducao_palavra": "perante" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וְנָשָׂא", "transliteral": "wə-nā-śā", "traducao_palavra": "e levará" },
+        { "hebraico": "אַהֲרֹן", "transliteral": "ʾa-hă-rōn", "traducao_palavra": "Arão" },
+        { "hebraico": "אֶת־מִשְׁפַּט", "transliteral": "ʾeṯ-miš-paṭ", "traducao_palavra": "o juízo de" },
+        { "hebraico": "בְּנֵי־יִשְׂרָאֵל", "transliteral": "bə-nê-yiś-rā-ʾēl", "traducao_palavra": "filhos de Israel" },
+        { "hebraico": "עַל־לִבּוֹ", "transliteral": "ʿal-lib-bô", "traducao_palavra": "sobre seu coração" },
+        { "hebraico": "לִפְנֵי", "transliteral": "lip̄-nê", "traducao_palavra": "perante" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "תָּמִיד׃", "transliteral": "tā-mîḏ", "traducao_palavra": "continuamente" }
+      ]
+    },
+    "31": {
+      "traducao_completa": "E farás o manto do efode todo de azul.",
+      "palavras": [
+        { "hebraico": "וְעָשִׂיתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "אֶת־מְעִיל", "transliteral": "ʾeṯ-mə-ʿîl", "traducao_palavra": "[o] manto de" },
+        { "hebraico": "הָאֵפוֹד", "transliteral": "hā-ʾê-p̄ôḏ", "traducao_palavra": "o efode" },
+        { "hebraico": "כְּלִיל", "transliteral": "kə-lîl", "traducao_palavra": "todo de/totalmente" },
+        { "hebraico": "תְּכֵלֶת׃", "transliteral": "tə-ḵē-leṯ", "traducao_palavra": "azul" }
+      ]
+    },
+    "32": {
+      "traducao_completa": "E a abertura da sua cabeça estará no meio dele; haverá uma orla para a sua abertura ao redor, obra de tecelão, como a abertura de uma cota de malha haverá nela, para que não se rompa.",
+      "palavras": [
+        { "hebraico": "וְהָיָה", "transliteral": "wə-hā-yā", "traducao_palavra": "e haverá" },
+        { "hebraico": "פִי־רֹאשׁוֹ", "transliteral": "p̄î-rō-šô", "traducao_palavra": "abertura de sua cabeça" },
+        { "hebraico": "בְּתוֹכוֹ", "transliteral": "bə-ṯô-ḵô", "traducao_palavra": "no meio dele" },
+        { "hebraico": "שָׂפָה", "transliteral": "śā-p̄ā", "traducao_palavra": "uma orla/lábio" },
+        { "hebraico": "לְפִיו", "transliteral": "lə-p̄îw", "traducao_palavra": "para sua abertura" },
+        { "hebraico": "סָבִיב", "transliteral": "śā-ḇîḇ", "traducao_palavra": "ao redor" },
+        { "hebraico": "מַעֲשֵׂה", "transliteral": "ma-ʿă-śēh", "traducao_palavra": "obra de" },
+        { "hebraico": "אֹרֵג", "transliteral": "ʾō-rēḡ", "traducao_palavra": "tecelão" },
+        { "hebraico": "כְּפִי", "transliteral": "kə-p̄î", "traducao_palavra": "como a abertura de" },
+        { "hebraico": "תַחְרָא", "transliteral": "taḥ-rā", "traducao_palavra": "cota de malha" },
+        { "hebraico": "יִהְיֶה־לּוֹ", "transliteral": "yih-yeh-lô", "traducao_palavra": "haverá nela" },
+        { "hebraico": "לֹא", "transliteral": "lō", "traducao_palavra": "[para que] não" },
+        { "hebraico": "יִקָּרֵעַ׃", "transliteral": "yiq-qā-rē-aʿ", "traducao_palavra": "se rompa" }
+      ]
+    },
+    "33": {
+      "traducao_completa": "E farás nas suas abas romãs de azul, e de púrpura, e de carmesim, ao redor das suas abas; e campainhas de ouro no meio delas ao redor.",
+      "palavras": [
+        { "hebraico": "וְעָשִׂיתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "עַל־שׁוּלָיו", "transliteral": "ʿal-šû-lāyw", "traducao_palavra": "nas suas abas/franjas" },
+        { "hebraico": "רִמֹּנֵי", "transliteral": "rim-mō-nê", "traducao_palavra": "romãs de" },
+        { "hebraico": "תְּכֵלֶת", "transliteral": "tə-ḵē-leṯ", "traducao_palavra": "azul" },
+        { "hebraico": "וְאַרְגָּמָן", "transliteral": "wə-ʾar-gā-mān", "traducao_palavra": "e púrpura" },
+        { "hebraico": "וְתוֹלַעַת", "transliteral": "wə-ṯô-la-ʿaṯ", "traducao_palavra": "e carmesim" },
+        { "hebraico": "שָׁנִי", "transliteral": "šā-nî", "traducao_palavra": "[escarlate]" },
+        { "hebraico": "וּפַעֲמֹנֵי", "transliteral": "û-p̄a-ʿă-mō-nê", "traducao_palavra": "e campainhas de" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "בְּתוֹכָם", "transliteral": "bə-ṯô-ḵām", "traducao_palavra": "no meio delas" },
+        { "hebraico": "סָבִיב׃", "transliteral": "śā-ḇîḇ", "traducao_palavra": "ao redor" }
+      ]
+    },
+    "34": {
+      "traducao_completa": "Uma campainha de ouro e uma romã, uma campainha de ouro e uma romã, nas abas do manto ao redor.",
+      "palavras": [
+        { "hebraico": "פַּעֲמֹן", "transliteral": "pa-ʿă-mōn", "traducao_palavra": "campainha de" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "וְרִמּוֹן", "transliteral": "wə-rim-môn", "traducao_palavra": "e romã" },
+        { "hebraico": "עַל־שׁוּלֵי", "transliteral": "ʿal-šû-lê", "traducao_palavra": "nas abas de" },
+        { "hebraico": "הַמְּעִיל", "transliteral": "ham-mə-ʿîl", "traducao_palavra": "o manto" },
+        { "hebraico": "סָבִיב׃", "transliteral": "śā-ḇîḇ", "traducao_palavra": "ao redor" }
+      ]
+    },
+    "35": {
+      "traducao_completa": "E estará sobre Arão para ministrar; e ouvir-se-á o seu som quando entrar no santuário perante YHWH e quando sair, para que não morra.",
+      "palavras": [
+        { "hebraico": "וְהָיָה", "transliteral": "wə-hā-yā", "traducao_palavra": "e estará" },
+        { "hebraico": "עַל־אַהֲרֹן", "transliteral": "ʿal-ʾa-hă-rōn", "traducao_palavra": "sobre Arão" },
+        { "hebraico": "לְשָׁרֵת", "transliteral": "lə-šā-rēṯ", "traducao_palavra": "para ministrar" },
+        { "hebraico": "וְנִשְׁמַע", "transliteral": "wə-niš-maʿ", "traducao_palavra": "e ouvir-se-á" },
+        { "hebraico": "קוֹלוֹ", "transliteral": "qô-lô", "traducao_palavra": "[o] seu som" },
+        { "hebraico": "בְּבֹאוֹ", "transliteral": "bə-ḇō-ʾô", "traducao_palavra": "ao entrar ele" },
+        { "hebraico": "אֶל־הַקֹּדֶשׁ", "transliteral": "ʾel-ha-qō-ḏeš", "traducao_palavra": "no santuário" },
+        { "hebraico": "וּבְצֵאתוֹ", "transliteral": "û-ḇə-ṣê-ṯô", "traducao_palavra": "e ao sair ele" },
+        { "hebraico": "וְלֹא", "transliteral": "wə-lō", "traducao_palavra": "para que não" },
+        { "hebraico": "יָמוּת׃", "transliteral": "yā-mûṯ", "traducao_palavra": "morra" }
       ]
     },
     "36": {
-      "traducao_completa": "E-farás uma-placa-de ouro puro; e-gravarás sobre-ela gravações-de selo: SANTIDADE PARA-O-SENHOR.",
+      "traducao_completa": "Farás também uma lâmina de ouro puro, e gravarás nela gravuras de selo: SANTIDADE A YHWH.",
       "palavras": [
-        { "hebraico": "וְעָשִׂיתָ", "transliteral": "ve'asita", "traducao_palavra": "E-farás" },
-        { "hebraico": "צִּיץ", "transliteral": "tsits", "traducao_palavra": "uma-placa-de" },
-        { "hebraico": "זָהָב", "transliteral": "zahav", "traducao_palavra": "ouro" },
-        { "hebraico": "טָהוֹר", "transliteral": "tahor", "traducao_palavra": "puro" },
-        { "hebraico": "וּפִתַּחְתָּ", "transliteral": "upittachta", "traducao_palavra": "e-gravarás" },
-        { "hebraico": "עָלָיו", "transliteral": "alayv", "traducao_palavra": "sobre-ela" },
-        { "hebraico": "פִּתּוּחֵי", "transliteral": "pittuchey", "traducao_palavra": "gravações-de" },
-        { "hebraico": "חֹתָם", "transliteral": "chotam", "traducao_palavra": "selo" },
-        { "hebraico": "קֹדֶשׁ", "transliteral": "qodesh", "traducao_palavra": "SANTIDADE" },
-        { "hebraico": "לַיהוָה", "transliteral": "la-Yehovah", "traducao_palavra": "PARA-O-SENHOR" }
+        { "hebraico": "וְעָשִׂיתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "צִּיץ", "transliteral": "ṣṣîṣ", "traducao_palavra": "uma lâmina/flor" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "[de] ouro" },
+        { "hebraico": "טָהוֹר", "transliteral": "ṭā-hôr", "traducao_palavra": "puro" },
+        { "hebraico": "וּפִתַּחְתָּ", "transliteral": "û-p̄it-taḥ-tā", "traducao_palavra": "e gravarás" },
+        { "hebraico": "עָלָיו", "transliteral": "ʿā-lāyw", "traducao_palavra": "sobre ela" },
+        { "hebraico": "פִּתּוּחֵי", "transliteral": "pit-tû-ḥê", "traducao_palavra": "gravuras de" },
+        { "hebraico": "חֹתָם", "transliteral": "ḥō-ṯām", "traducao_palavra": "selo" },
+        { "hebraico": "קֹדֶשׁ", "transliteral": "qō-ḏeš", "traducao_palavra": "santidade" },
+        { "hebraico": "לַיהוָה׃", "transliteral": "la-YHWH", "traducao_palavra": "a YHWH" }
+      ]
+    },
+    "37": {
+      "traducao_completa": "E pô-la-ás com um cordão de azul, e estará sobre a mitra; na parte dianteira da mitra estará.",
+      "palavras": [
+        { "hebraico": "וְשַׂמְתָּ", "transliteral": "wə-śam-tā", "traducao_palavra": "e porás" },
+        { "hebraico": "אֹתוֹ", "transliteral": "ʾō-ṯô", "traducao_palavra": "ela [lâmina]" },
+        { "hebraico": "עַל־פְּתִיל", "transliteral": "ʿal-p̄ə-ṯîl", "traducao_palavra": "sobre cordão de" },
+        { "hebraico": "תְּכֵלֶת", "transliteral": "tə-ḵē-leṯ", "traducao_palavra": "azul" },
+        { "hebraico": "וְהָיָה", "transliteral": "wə-hā-yā", "traducao_palavra": "e estará" },
+        { "hebraico": "עַל־הַמִּצְנָפֶת", "transliteral": "ʿal-ham-miṣ-ne-p̄eṯ", "traducao_palavra": "sobre a mitra" },
+        { "hebraico": "אֶל־מוּל", "transliteral": "ʾel-mûl", "traducao_palavra": "na frente de" },
+        { "hebraico": "פְּנֵי", "transliteral": "pə-nê", "traducao_palavra": "face de" },
+        { "hebraico": "הַמִּצְנֶפֶת", "transliteral": "ham-miṣ-ne-p̄eṯ", "traducao_palavra": "a mitra" },
+        { "hebraico": "יִהְיֶה׃", "transliteral": "yih-yeh", "traducao_palavra": "estará" }
+      ]
+    },
+    "38": {
+      "traducao_completa": "E estará sobre a testa de Arão, para que Arão leve a iniquidade das coisas santas, que os filhos de Israel santificarem em todas as suas santas ofertas; e estará continuamente sobre a sua testa, para que sejam aceitos perante YHWH.",
+      "palavras": [
+        { "hebraico": "וְהָיָה", "transliteral": "wə-hā-yā", "traducao_palavra": "e estará" },
+        { "hebraico": "עַל־מֵצַח", "transliteral": "ʿal-mê-ṣaḥ", "traducao_palavra": "sobre a testa de" },
+        { "hebraico": "אַהֲרֹן", "transliteral": "ʾa-hă-rōn", "traducao_palavra": "Arão" },
+        { "hebraico": "וְנָשָׂא", "transliteral": "wə-nā-śā", "traducao_palavra": "e levará" },
+        { "hebraico": "אַהֲרֹן", "transliteral": "ʾa-hă-rōn", "traducao_palavra": "Arão" },
+        { "hebraico": "אֶת־עֲוֺן", "transliteral": "ʾeṯ-ʿă-wōn", "traducao_palavra": "a iniquidade de" },
+        { "hebraico": "הַקֳּדָשִׁים", "transliteral": "haq-qo-ḏā-šîm", "traducao_palavra": "as coisas santas" },
+        { "hebraico": "תָּמִיד", "transliteral": "tā-mîḏ", "traducao_palavra": "continuamente" },
+        { "hebraico": "לְרָצוֹן", "transliteral": "lə-rā-ṣôn", "traducao_palavra": "para aceitação" },
+        { "hebraico": "לָהֶם", "transliteral": "lā-hem", "traducao_palavra": "para eles" },
+        { "hebraico": "לִפְנֵי", "transliteral": "lip̄-nê", "traducao_palavra": "perante" },
+        { "hebraico": "יְהוָה׃", "transliteral": "YHWH", "traducao_palavra": "YHWH" }
+      ]
+    },
+    "39": {
+      "traducao_completa": "Também tecerás a túnica de linho fino; e farás uma mitra de linho fino; e farás um cinto, obra de bordador.",
+      "palavras": [
+        { "hebraico": "וְשִׁבַּצְתָּ", "transliteral": "wə-šib-baṣ-tā", "traducao_palavra": "e tecerás [em xadrez]" },
+        { "hebraico": "הַכְּתֹנֶת", "transliteral": "hak-kə-ṯō-neṯ", "traducao_palavra": "[a] túnica de" },
+        { "hebraico": "שֵׁשׁ", "transliteral": "šēš", "traducao_palavra": "linho fino" },
+        { "hebraico": "וְעָשִׂיתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "מִצְנֶפֶת", "transliteral": "miṣ-ne-p̄eṯ", "traducao_palavra": "uma mitra de" },
+        { "hebraico": "שֵׁשׁ", "transliteral": "šēš", "traducao_palavra": "linho fino" },
+        { "hebraico": "וְאַבְנֵט", "transliteral": "wə-ʾaḇ-nēṭ", "traducao_palavra": "e um cinto" },
+        { "hebraico": "תַּעֲשֶׂה", "transliteral": "ta-ʿă-śeh", "traducao_palavra": "farás" },
+        { "hebraico": "מַעֲשֵׂה", "transliteral": "ma-ʿă-śēh", "traducao_palavra": "obra de" },
+        { "hebraico": "רֹקֵם׃", "transliteral": "rō-qēm", "traducao_palavra": "bordador" }
+      ]
+    },
+    "40": {
+      "traducao_completa": "Também para os filhos de Arão farás túnicas, e farás para eles cintos; e tiaras lhes farás para glória e para ornamento.",
+      "palavras": [
+        { "hebraico": "וְלִבְנֵי", "transliteral": "wə-liḇ-nê", "traducao_palavra": "e para os filhos de" },
+        { "hebraico": "אַהֲרֹן", "transliteral": "ʾa-hă-rōn", "traducao_palavra": "Arão" },
+        { "hebraico": "תַּעֲשֶׂה", "transliteral": "ta-ʿă-śeh", "traducao_palavra": "farás" },
+        { "hebraico": "כֻתֳּנֹת", "transliteral": "ḵut-to-nōṯ", "traducao_palavra": "túnicas" },
+        { "hebraico": "מִגְבָּעוֹת", "transliteral": "miḡ-bā-ʿôṯ", "traducao_palavra": "tiaras/mitras altas" },
+        { "hebraico": "לְכָבוֹד", "transliteral": "lə-ḵā-ḇôḏ", "traducao_palavra": "para glória" },
+        { "hebraico": "וּלְתִפְאָרֶת׃", "transliteral": "û-lə-ṯip̄-ʾā-reṯ", "traducao_palavra": "e para ornamento" }
+      ]
+    },
+    "41": {
+      "traducao_completa": "E vestirás com elas a Arão, teu irmão, e também a seus filhos com ele; e os ungirás, e os consagrarás, e os santificarás, para que me sirvam como sacerdotes.",
+      "palavras": [
+        { "hebraico": "וְהִלְבַּשְׁתָּ", "transliteral": "wə-hil-baš-tā", "traducao_palavra": "e vestirás" },
+        { "hebraico": "אֹתָם", "transliteral": "ʾō-ṯām", "traducao_palavra": "eles" },
+        { "hebraico": "אֶת־אַהֲרֹן", "transliteral": "ʾeṯ-ʾa-hă-rōn", "traducao_palavra": "[a] Arão" },
+        { "hebraico": "וּמָשַׁחְתָּ", "transliteral": "û-mā-šaḥ-tā", "traducao_palavra": "e ungirás" },
+        { "hebraico": "אֹתָם", "transliteral": "ʾō-ṯām", "traducao_palavra": "eles" },
+        { "hebraico": "וּמִלֵּאתָ", "transliteral": "û-mil-lê-ṯā", "traducao_palavra": "e encherás" },
+        { "hebraico": "אֶת־יָדָם", "transliteral": "ʾeṯ-yā-ḏām", "traducao_palavra": "as mãos deles [consagrarás]" },
+        { "hebraico": "וְקִדַּשְׁתָּ", "transliteral": "wə-qid-daš-tā", "traducao_palavra": "e santificarás" }
+      ]
+    },
+    "42": {
+      "traducao_completa": "Faze-lhes também calções de linho, para cobrir a carne da nudez; serão desde os lombos até às coxas.",
+      "palavras": [
+        { "hebraico": "וַעֲשֵׂה", "transliteral": "wa-ʿă-śēh", "traducao_palavra": "e faze" },
+        { "hebraico": "לָהֶם", "transliteral": "lā-hem", "traducao_palavra": "para eles" },
+        { "hebraico": "מִכְנְסֵי־בָד", "transliteral": "miḵ-nə-śê-ḇāḏ", "traducao_palavra": "calções de linho" },
+        { "hebraico": "לְכַסּוֹת", "transliteral": "lə-ḵas-śôṯ", "traducao_palavra": "para cobrir" },
+        { "hebraico": "בְּשַׂר", "transliteral": "bə-śar", "traducao_palavra": "[a] carne de" },
+        { "hebraico": "עֶרְוָה", "transliteral": "ʿer-wā", "traducao_palavra": "nudez" },
+        { "hebraico": "מִמָּתְנַיִם", "transliteral": "mim-mā-ṯə-na-yim", "traducao_palavra": "desde [os] lombos" },
+        { "hebraico": "וְעַד־יְרֵכַיִם", "transliteral": "wə-ʿaḏ-yə-rê-ḵa-yim", "traducao_palavra": "e até [as] coxas" },
+        { "hebraico": "יִהְיוּ׃", "transliteral": "yih-yû", "traducao_palavra": "serão eles" }
       ]
     },
     "43": {
-      "traducao_completa": "E-elas-estarão sobre Arão e-sobre seus-filhos em-vinda-deles para tenda-de reunião, ou em-aproximação-deles para o-altar para-servir em-o-santuário, e-não levarão iniquidade e-morrerão; estatuto perpétuo para-ele e-para-seu-descendente após-ele.",
+      "traducao_completa": "E estarão sobre Arão e sobre os seus filhos, quando entrarem na tenda da congregação, ou quando se aproximarem do altar para ministrar no santuário, para que não levem iniquidade e morram; isto será estatuto perpétuo para ele e para a sua semente depois dele.",
       "palavras": [
-        { "hebraico": "וְהָיוּ", "transliteral": "vehayu", "traducao_palavra": "E-elas-estarão" },
-        { "hebraico": "עַל־אַהֲרֹן", "transliteral": "al-aharon", "traducao_palavra": "sobre Arão" },
-        { "hebraico": "וְעַל־בָּנָיו", "transliteral": "ve'al-banayv", "traducao_palavra": "e-sobre seus-filhos" },
-        { "hebraico": "בְּבֹאָם", "transliteral": "bevo'am", "traducao_palavra": "em-vinda-deles" },
-        { "hebraico": "אֶל־אֹהֶל", "transliteral": "el-ohel", "traducao_palavra": "para tenda-de" },
-        { "hebraico": "מוֹעֵד", "transliteral": "mo'ed", "traducao_palavra": "reunião" },
-        { "hebraico": "אוֹ", "transliteral": "o", "traducao_palavra": "ou" },
-        { "hebraico": "בְגִשְׁתָּם", "transliteral": "vegishtam", "traducao_palavra": "em-aproximação-deles" },
-        { "hebraico": "אֶל־הַמִּזְבֵּחַ", "transliteral": "el-hammizbeach", "traducao_palavra": "para o-altar" },
-        { "hebraico": "לְשָׁרֵת", "transliteral": "lesharet", "traducao_palavra": "para-servir" },
-        { "hebraico": "בַּקֹּדֶשׁ", "transliteral": "baqqodesh", "traducao_palavra": "em-o-santuário" },
-        { "hebraico": "וְלֹא־יִשְׂאוּ", "transliteral": "velo-yis'u", "traducao_palavra": "e-não levarão" },
-        { "hebraico": "עָוֺן", "transliteral": "avon", "traducao_palavra": "iniquidade" },
-        { "hebraico": "וָמֵתוּ", "transliteral": "vametu", "traducao_palavra": "e-morrerão" },
-        { "hebraico": "חֻקַּת", "transliteral": "chuqqat", "traducao_palavra": "estatuto" },
-        { "hebraico": "עוֹלָם", "transliteral": "olam", "traducao_palavra": "perpétuo" },
-        { "hebraico": "לוֹ", "transliteral": "lo", "traducao_palavra": "para-ele" },
-        { "hebraico": "וּלְזַרְעוֹ", "transliteral": "ulzar'o", "traducao_palavra": "e-para-seu-descendente" },
-        { "hebraico": "אַחֲרָיו", "transliteral": "acharayv", "traducao_palavra": "após-ele" }
+        { "hebraico": "וְהָיוּ", "transliteral": "wə-hā-yû", "traducao_palavra": "e estarão" },
+        { "hebraico": "עַל־אַהֲרֹן", "transliteral": "ʿal-ʾa-hă-rōn", "traducao_palavra": "sobre Arão" },
+        { "hebraico": "וְעַל־בָּנָיו", "transliteral": "wə-ʿal-bā-nāyw", "traducao_palavra": "e sobre seus filhos" },
+        { "hebraico": "בְּבֹאָם", "transliteral": "bə-ḇō-ʾām", "traducao_palavra": "ao entrarem" },
+        { "hebraico": "אֶל־אֹהֶל", "transliteral": "ʾel-ʾō-hel", "traducao_palavra": "na tenda de" },
+        { "hebraico": "מוֹעֵד", "transliteral": "mô-ʿēḏ", "traducao_palavra": "congregação" },
+        { "hebraico": "אוֹ", "transliteral": "ʾô", "traducao_palavra": "ou" },
+        { "hebraico": "בְגִשְׁתָּם", "transliteral": "ḇə-ḡiš-tām", "traducao_palavra": "ao aproximarem-se" },
+        { "hebraico": "אֶל־הַמִּזְבֵּחַ", "transliteral": "ʾel-ham-miz-bē-aḥ", "traducao_palavra": "do altar" },
+        { "hebraico": "לְשָׁרֵת", "transliteral": "lə-šā-rēṯ", "traducao_palavra": "para ministrar" },
+        { "hebraico": "בַּקֹּדֶשׁ", "transliteral": "baq-qō-ḏeš", "traducao_palavra": "no santuário" },
+        { "hebraico": "וְלֹא־יִשְׂאוּ", "transliteral": "wə-lō-yiś-ʾû", "traducao_palavra": "para que não levem" },
+        { "hebraico": "עָוֺן", "transliteral": "ʿā-wōn", "traducao_palavra": "iniquidade" },
+        { "hebraico": "וָמֵתוּ", "transliteral": "wā-mē-ṯû", "traducao_palavra": "e morram" },
+        { "hebraico": "חֻקַּת", "transliteral": "ḥuq-qaṯ", "traducao_palavra": "estatuto de" },
+        { "hebraico": "עוֹלָם", "transliteral": "ʿô-lām", "traducao_palavra": "eternidade" },
+        { "hebraico": "לוֹ", "transliteral": "lô", "traducao_palavra": "para ele" },
+        { "hebraico": "וּלְזַרְעוֹ", "transliteral": "û-lə-zar-ʿô", "traducao_palavra": "e para sua semente" },
+        { "hebraico": "אַחֲרָיו׃", "transliteral": "ʾa-ḥă-rāyw", "traducao_palavra": "depois dele" }
       ]
     }
   }

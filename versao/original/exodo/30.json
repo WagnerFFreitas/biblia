@@ -1,100 +1,569 @@
 {
-  "livro": "Êxodo - וְאֵלֶּה שְׁמוֹת - Ve'elleh Shemot",
+  "livro": "Êxodo - שְׁמוֹת - Shemot",
   "capítulo": 30,
-  "titulos": {
-    "1": "O altar de incenso",
-    "11": "O dinheiro do resgate",
-    "17": "A bacia de bronze",
-    "22": "O azeite da santa unção",
-    "34": "O incenso sagrado"
-  },
+  "titulos": {},
   "versiculos": {
     "1": {
-      "traducao_completa": "E-farás altar para-queimar incenso; madeira-de acácia farás ele.",
+      "traducao_completa": "E farás um altar para queimar incenso; de madeira de acácia o farás.",
       "palavras": [
-        { "hebraico": "וְעָשִׂיתָ", "transliteral": "ve'asita", "traducao_palavra": "E-farás" },
-        { "hebraico": "מִזְבֵּחַ", "transliteral": "mizbeach", "traducao_palavra": "altar" },
-        { "hebraico": "מִקְטַר", "transliteral": "miqtar", "traducao_palavra": "para-queimar" },
-        { "hebraico": "קְטֹרֶת", "transliteral": "qtoret", "traducao_palavra": "incenso" },
-        { "hebraico": "עֲצֵי", "transliteral": "atsey", "traducao_palavra": "madeira-de" },
-        { "hebraico": "שִׁטִּים", "transliteral": "shittim", "traducao_palavra": "acácia" },
-        { "hebraico": "תַּעֲשֶׂה", "transliteral": "ta'aseh", "traducao_palavra": "farás" },
-        { "hebraico": "אֹתוֹ", "transliteral": "oto", "traducao_palavra": "ele" }
+        { "hebraico": "וְעָשִׂיתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "מִזְבֵּחַ", "transliteral": "miz-bē-aḥ", "traducao_palavra": "um altar" },
+        { "hebraico": "מִקְטַר", "transliteral": "miq-ṭar", "traducao_palavra": "de queimar" },
+        { "hebraico": "קְטֹרֶת", "transliteral": "qə-ṭō-reṯ", "traducao_palavra": "incenso" },
+        { "hebraico": "עֲצֵי", "transliteral": "ʿă-ṣê", "traducao_palavra": "madeiras de" },
+        { "hebraico": "שִׁטִּים", "transliteral": "šiṭ-ṭîm", "traducao_palavra": "acácia" },
+        { "hebraico": "תַּעֲשֶׂה", "transliteral": "ta-ʿă-śeh", "traducao_palavra": "farás" },
+        { "hebraico": "אֹתוֹ׃", "transliteral": "ʾō-ṯô", "traducao_palavra": "ele" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Um côvado será o seu comprimento, e um côvado a sua largura, será quadrado; e dois côvados a sua altura; dele mesmo serão as suas pontas.",
+      "palavras": [
+        { "hebraico": "אַמָּה", "transliteral": "ʾam-mā", "traducao_palavra": "um côvado" },
+        { "hebraico": "אָרְכּוֹ", "transliteral": "ʾār-kô", "traducao_palavra": "[seu] comprimento" },
+        { "hebraico": "וְאַמָּה", "transliteral": "wə-ʾam-mā", "traducao_palavra": "e um côvado" },
+        { "hebraico": "רָחְבּוֹ", "transliteral": "rāḥ-bô", "traducao_palavra": "[sua] largura" },
+        { "hebraico": "רָבוּעַ", "transliteral": "rā-ḇû-aʿ", "traducao_palavra": "quadrado" },
+        { "hebraico": "יִהְיֶה", "transliteral": "yih-yeh", "traducao_palavra": "será" },
+        { "hebraico": "וְאַמָּתַיִם", "transliteral": "wə-ʾam-mā-ṯa-yim", "traducao_palavra": "e dois côvados" },
+        { "hebraico": "קֹמָתוֹ", "transliteral": "qō-mā-ṯô", "traducao_palavra": "[sua] altura" },
+        { "hebraico": "מִמֶּנּוּ", "transliteral": "mim-men-nû", "traducao_palavra": "dele [mesmo]" },
+        { "hebraico": "קַרְנֹתָיו׃", "transliteral": "qar-nō-ṯāw", "traducao_palavra": "suas pontas" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "E o cobrirás de ouro puro, o seu teto, e as suas paredes ao redor, e as suas pontas; e farás para ele uma moldura de ouro ao redor.",
+      "palavras": [
+        { "hebraico": "וְצִפִּיתָ", "transliteral": "wə-ṣip-pî-ṯā", "traducao_palavra": "e cobrirás" },
+        { "hebraico": "אֹתוֹ", "transliteral": "ʾō-ṯô", "traducao_palavra": "ele" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "טָהוֹר", "transliteral": "ṭā-hôr", "traducao_palavra": "puro" },
+        { "hebraico": "אֶת־גַּגּוֹ", "transliteral": "ʾeṯ-gag-gô", "traducao_palavra": "[o] seu teto" },
+        { "hebraico": "וְאֶת־קִירֹתָיו", "transliteral": "wə-ʾeṯ-qî-rō-ṯāw", "traducao_palavra": "e suas paredes" },
+        { "hebraico": "סָבִיב", "transliteral": "śā-ḇîḇ", "traducao_palavra": "ao redor" },
+        { "hebraico": "וְאֶת־קַרְנֹתָיו", "transliteral": "wə-ʾeṯ-qar-nō-ṯāw", "traducao_palavra": "e suas pontas" },
+        { "hebraico": "וְעָשִׂיתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "לּוֹ", "transliteral": "lô", "traducao_palavra": "para ele" },
+        { "hebraico": "זֵר", "transliteral": "zēr", "traducao_palavra": "moldura de" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "סָבִיב׃", "transliteral": "śā-ḇîḇ", "traducao_palavra": "ao redor" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "E duas argolas de ouro farás para ele debaixo da sua moldura, nos seus dois cantos, em ambos os seus lados as farás; e elas serão para lugares dos varais, para carregar o altar com eles.",
+      "palavras": [
+        { "hebraico": "וּשְׁתֵּי", "transliteral": "û-šə-tê", "traducao_palavra": "e duas de" },
+        { "hebraico": "טַבְּעֹת", "transliteral": "ṭab-bə-ʿōṯ", "traducao_palavra": "argolas de" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "תַּעֲשֶׂה־לּוֹ", "transliteral": "ta-ʿă-śeh-lô", "traducao_palavra": "farás para ele" },
+        { "hebraico": "מִתַּחַת", "transliteral": "mit-ta-ḥaṯ", "traducao_palavra": "de debaixo de" },
+        { "hebraico": "לְזֵרוֹ", "transliteral": "lə-zē-rô", "traducao_palavra": "sua moldura" },
+        { "hebraico": "עַל", "transliteral": "ʿal", "traducao_palavra": "em" },
+        { "hebraico": "שְׁתֵּי", "transliteral": "šə-tê", "traducao_palavra": "as duas de" },
+        { "hebraico": "צַלְעֹתָיו", "transliteral": "ṣal-ʿō-ṯāw", "traducao_palavra": "seus lados" },
+        { "hebraico": "לְבָתִּים", "transliteral": "lə-ḇāt-tîm", "traducao_palavra": "para lugares/casas" },
+        { "hebraico": "לַבַּדִּים", "transliteral": "lab-bad-dîm", "traducao_palavra": "para os varais" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "E farás os varais de madeira de acácia, e os cobrirás de ouro.",
+      "palavras": [
+        { "hebraico": "וְעָשִׂיתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "אֶת־הַבַּדִּים", "transliteral": "ʾeṯ-hab-bad-dîm", "traducao_palavra": "as varas" },
+        { "hebraico": "עֲצֵי", "transliteral": "ʿă-ṣê", "traducao_palavra": "madeiras de" },
+        { "hebraico": "שִׁטִּים", "transliteral": "šiṭ-ṭîm", "traducao_palavra": "acácia" },
+        { "hebraico": "וְצִפִּיתָ", "transliteral": "wə-ṣip-pî-ṯā", "traducao_palavra": "e cobrirás" },
+        { "hebraico": "אֹתָם", "transliteral": "ʾō-ṯām", "traducao_palavra": "elas" },
+        { "hebraico": "זָהָב׃", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "E o porás diante do véu que está junto à arca do Testemunho, diante do propiciatório que está sobre o Testemunho, onde me encontrarei contigo.",
+      "palavras": [
+        { "hebraico": "וְנָתַתָּה", "transliteral": "wə-nā-ṯat-tā", "traducao_palavra": "e porás" },
+        { "hebraico": "אֹתוֹ", "transliteral": "ʾō-ṯô", "traducao_palavra": "ele" },
+        { "hebraico": "לִפְנֵי", "transliteral": "lip̄-nê", "traducao_palavra": "diante de" },
+        { "hebraico": "הַפָּרֹכֶת", "transliteral": "hap-pā-rō-ḵeṯ", "traducao_palavra": "o véu" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "עַל־אֲרֹן", "transliteral": "ʿal-ʾă-rōn", "traducao_palavra": "sobre arca de" },
+        { "hebraico": "הָעֵדֻת", "transliteral": "hā-ʿē-ḏuṯ", "traducao_palavra": "o Testemunho" },
+        { "hebraico": "לִפְנֵי", "transliteral": "lip̄-nê", "traducao_palavra": "diante de" },
+        { "hebraico": "הַכַּפֹּרֶת", "transliteral": "hak-kap-pō-reṯ", "traducao_palavra": "o propiciatório" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "עַל־הָעֵדֻת", "transliteral": "ʿal-hā-ʿē-ḏuṯ", "traducao_palavra": "sobre o Testemunho" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "onde" },
+        { "hebraico": "אִוָּעֵד", "transliteral": "ʾiw-wā-ʿēḏ", "traducao_palavra": "encontrarei-me" },
+        { "hebraico": "לְךָ", "transliteral": "lə-ḵā", "traducao_palavra": "com você" },
+        { "hebraico": "שָׁמָּה׃", "transliteral": "šām-mā", "traducao_palavra": "ali" }
       ]
     },
     "7": {
-      "traducao_completa": "E-queimará sobre-ele Arão incenso-de especiarias; manhã em-manhã, em-preparar-ele * as-lâmpadas, queimará-ele-ele.",
+      "traducao_completa": "E Arão queimará sobre ele incenso aromático; cada manhã, ao preparar as lâmpadas, o queimará.",
       "palavras": [
-        { "hebraico": "וְהִקְטִיר", "transliteral": "vehiqtiyr", "traducao_palavra": "E-queimará" },
-        { "hebraico": "עָלָיו", "transliteral": "alayv", "traducao_palavra": "sobre-ele" },
-        { "hebraico": "אַהֲרֹן", "transliteral": "aharon", "traducao_palavra": "Arão" },
-        { "hebraico": "קְטֹרֶת", "transliteral": "qtoret", "traducao_palavra": "incenso-de" },
-        { "hebraico": "סַמִּים", "transliteral": "sammim", "traducao_palavra": "especiarias" },
-        { "hebraico": "בַּבֹּקֶר", "transliteral": "babboqer", "traducao_palavra": "manhã" },
-        { "hebraico": "בַּבֹּקֶר", "transliteral": "babboqer", "traducao_palavra": "em-manhã" },
-        { "hebraico": "בְּהֵיטִיבוֹ", "transliteral": "beheytivo", "traducao_palavra": "em-preparar-ele" },
-        { "hebraico": "אֶת־הַנֵּרֹת", "transliteral": "et-hannērot", "traducao_palavra": "* as-lâmpadas" },
-        { "hebraico": "יַקְטִירֶנָּה", "transliteral": "yaqtiyrennah", "traducao_palavra": "queimará-ele-ele" }
+        { "hebraico": "וְהִקְטִיר", "transliteral": "wə-hiq-ṭîr", "traducao_palavra": "e queimará" },
+        { "hebraico": "עָלָיו", "transliteral": "ʿā-lāyw", "traducao_palavra": "sobre ele" },
+        { "hebraico": "אַהֲרֹן", "transliteral": "ʾa-hă-rōn", "traducao_palavra": "Arão" },
+        { "hebraico": "קְטֹרֶת", "transliteral": "qə-ṭō-reṯ", "traducao_palavra": "incenso de" },
+        { "hebraico": "סַמִּים", "transliteral": "sam-mîm", "traducao_palavra": "aromas" },
+        { "hebraico": "בַּבֹּקֶר", "transliteral": "bab-bō-qer", "traducao_palavra": "na manhã" },
+        { "hebraico": "בַּבֹּקֶר", "transliteral": "bab-bō-qer", "traducao_palavra": "na manhã" },
+        { "hebraico": "בְּהֵיטִיבוֹ", "transliteral": "bə-hê-ṭî-ḇô", "traducao_palavra": "no preparar dele" },
+        { "hebraico": "אֶת־הַנֵּרֹת", "transliteral": "ʾeṯ-han-nē-rōṯ", "traducao_palavra": "as lâmpadas" },
+        { "hebraico": "יַקְטִירֶנָּה׃", "transliteral": "yaq-ṭî-ren-nā", "traducao_palavra": "queimará ele [incenso]" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "E quando Arão acender as lâmpadas entre as duas tardes, o queimará; incenso contínuo perante YHWH por vossas gerações.",
+      "palavras": [
+        { "hebraico": "וּבְהַעֲלֹת", "transliteral": "û-ḇə-ha-ʿă-lōṯ", "traducao_palavra": "e ao acender/subir" },
+        { "hebraico": "אַהֲרֹן", "transliteral": "ʾa-hă-rōn", "traducao_palavra": "Arão" },
+        { "hebraico": "אֶת־הַנֵּרֹת", "transliteral": "ʾeṯ-han-nē-rōṯ", "traducao_palavra": "as lâmpadas" },
+        { "hebraico": "בֵּין", "transliteral": "bên", "traducao_palavra": "entre" },
+        { "hebraico": "הָעַרְבַּיִם", "transliteral": "hā-ʿar-ba-yim", "traducao_palavra": "as duas tardes" },
+        { "hebraico": "יַקְטִירֶנָּה", "transliteral": "yaq-ṭî-ren-nā", "traducao_palavra": "queimará ele" },
+        { "hebraico": "קְטֹרֶת", "transliteral": "qə-ṭō-reṯ", "traducao_palavra": "incenso" },
+        { "hebraico": "תָּמִיד", "transliteral": "tā-mîḏ", "traducao_palavra": "contínuo" },
+        { "hebraico": "לִפְנֵי", "transliteral": "lip̄-nê", "traducao_palavra": "perante" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "לְדֹרֹתֵיכֶם׃", "transliteral": "lə-ḏō-rō-ṯê-ḵem", "traducao_palavra": "por vossas gerações" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Não oferecereis sobre ele incenso estranho, nem holocausto, nem oferta de manjares; nem derramareis sobre ele libação.",
+      "palavras": [
+        { "hebraico": "לֹא־תַעֲלוּ", "transliteral": "lō-ṯa-ʿă-lû", "traducao_palavra": "não fareis subir/oferecer" },
+        { "hebraico": "עָלָיו", "transliteral": "ʿā-lāyw", "traducao_palavra": "sobre ele" },
+        { "hebraico": "קְטֹרֶת", "transliteral": "qə-ṭō-reṯ", "traducao_palavra": "incenso" },
+        { "hebraico": "זָרָה", "transliteral": "zā-rā", "traducao_palavra": "estranho" },
+        { "hebraico": "וְעֹלָה", "transliteral": "wə-ʿō-lā", "traducao_palavra": "e holocausto" },
+        { "hebraico": "וּמִנְחָה", "transliteral": "û-min-ḥā", "traducao_palavra": "e oferta de manjares" },
+        { "hebraico": "וְנֵסֶךְ", "transliteral": "wə-nē-seḵ", "traducao_palavra": "e libação" },
+        { "hebraico": "לֹא", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תִסְּכוּ", "transliteral": "tis-sə-ḵû", "traducao_palavra": "derramareis" },
+        { "hebraico": "עָלָיו׃", "transliteral": "ʿā-lāyw", "traducao_palavra": "sobre ele" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E uma vez no ano Arão fará expiação sobre as suas pontas com o sangue do sacrifício pelo pecado das expiações; uma vez no ano fará expiação sobre ele por vossas gerações; santíssimo é a YHWH.",
+      "palavras": [
+        { "hebraico": "וְכִפֶּר", "transliteral": "wə-ḵip-per", "traducao_palavra": "e fará expiação" },
+        { "hebraico": "אַהֲרֹן", "transliteral": "ʾa-hă-rōn", "traducao_palavra": "Arão" },
+        { "hebraico": "עַל־קַרְנֹתָיו", "transliteral": "ʿal-qar-nō-ṯāw", "traducao_palavra": "sobre as pontas dele" },
+        { "hebraico": "אַחַת", "transliteral": "ʾa-ḥaṯ", "traducao_palavra": "uma [vez]" },
+        { "hebraico": "בַּשָּׁנָה", "transliteral": "ba-šā-nā", "traducao_palavra": "no ano" },
+        { "hebraico": "מִדַּם", "transliteral": "mid-dam", "traducao_palavra": "do sangue de" },
+        { "hebraico": "חַטַּאת", "transliteral": "ḥaṭ-ṭaṯ", "traducao_palavra": "sacrifício pelo pecado de" },
+        { "hebraico": "הַכִּפֻּרִים", "transliteral": "hak-kip-pu-rîm", "traducao_palavra": "as expiações" },
+        { "hebraico": "קֹדֶשׁ־קָדָשִׁים", "transliteral": "qō-ḏeš-qā-ḏā-šîm", "traducao_palavra": "santo de santos [santíssimo]" },
+        { "hebraico": "הוּא", "transliteral": "hû", "traducao_palavra": "ele [é]" },
+        { "hebraico": "לַיהוָה׃", "transliteral": "la-YHWH", "traducao_palavra": "a YHWH" }
       ]
     },
     "11": {
-      "traducao_completa": "E-ele-falou o-SENHOR para Moisés dizendo:",
+      "traducao_completa": "E falou YHWH a Moisés, dizendo:",
       "palavras": [
-        { "hebraico": "וַיְדַבֵּר", "transliteral": "vaydabber", "traducao_palavra": "E-ele-falou" },
-        { "hebraico": "יְהוָה", "transliteral": "Yehovah", "traducao_palavra": "o-SENHOR" },
-        { "hebraico": "אֶל־מֹשֶׁה", "transliteral": "el-mosheh", "traducao_palavra": "para Moisés" },
-        { "hebraico": "לֵּאמֹר", "transliteral": "lemor", "traducao_palavra": "dizendo" }
+        { "hebraico": "וַיְדַבֵּר", "transliteral": "way-yə-ḏab-bēr", "traducao_palavra": "e falou" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־מֹשֶׁה", "transliteral": "ʾel-mō-šeh", "traducao_palavra": "a Moisés" },
+        { "hebraico": "לֵּאמֹר׃", "transliteral": "lē-mōr", "traducao_palavra": "dizendo" }
       ]
     },
     "12": {
-      "traducao_completa": "Quando levantares * a-cabeça-de [censo] filhos-de Israel para-seus-recenseados, e-eles-darão homem resgate-de sua-alma para-o-SENHOR em-recensear * eles; e-não será neles praga em-recensear * eles.",
+      "traducao_completa": "Quando tomares a soma dos filhos de Israel, segundo o seu recenseamento, cada um dará a YHWH o resgate da sua alma, ao serem contados; para que não haja neles praga quando os contares.",
       "palavras": [
-        { "hebraico": "כִּי", "transliteral": "ki", "traducao_palavra": "Quando" },
-        { "hebraico": "תִשָּׂא", "transliteral": "tissa", "traducao_palavra": "levantares" },
-        { "hebraico": "אֶת־רֹאשׁ", "transliteral": "et-rosh", "traducao_palavra": "* a-cabeça-de [censo]" },
-        { "hebraico": "בְּנֵי־יִשְׂרָאֵל", "transliteral": "beney-yisra'el", "traducao_palavra": "filhos-de Israel" },
-        { "hebraico": "לִפְקֻדֵיהֶם", "transliteral": "liphqudeyhem", "traducao_palavra": "para-seus-recenseados" },
-        { "hebraico": "וְנָתְנוּ", "transliteral": "venatnu", "traducao_palavra": "e-eles-darão" },
-        { "hebraico": "אִישׁ", "transliteral": "ish", "traducao_palavra": "homem" },
-        { "hebraico": "כֹּפֶר", "transliteral": "copher", "traducao_palavra": "resgate-de" },
-        { "hebraico": "נַפְשׁוֹ", "transliteral": "naphsho", "traducao_palavra": "sua-alma" },
-        { "hebraico": "לַיהוָה", "transliteral": "la-Yehovah", "traducao_palavra": "para-o-SENHOR" },
-        { "hebraico": "בִּפְקֹד", "transliteral": "biphqod", "traducao_palavra": "em-recensear" },
-        { "hebraico": "אֹתָם", "transliteral": "otam", "traducao_palavra": "* eles" },
-        { "hebraico": "וְלֹא־יִהְיֶה", "transliteral": "velo-yihyeh", "traducao_palavra": "e-não será" },
-        { "hebraico": "בָהֶם", "transliteral": "bahem", "traducao_palavra": "neles" },
-        { "hebraico": "נֶגֶף", "transliteral": "negeph", "traducao_palavra": "praga" }
+        { "hebraico": "כִּי", "transliteral": "kî", "traducao_palavra": "quando" },
+        { "hebraico": "תִשָּׂא", "transliteral": "ṯiś-śā", "traducao_palavra": "tomares/levantares" },
+        { "hebraico": "אֶת־רֹאשׁ", "transliteral": "ʾeṯ-rōš", "traducao_palavra": "[a] cabeça de/soma de" },
+        { "hebraico": "בְּנֵי־יִשְׂרָאֵל", "transliteral": "bə-nê-yiś-rā-ʾēl", "traducao_palavra": "filhos de Israel" },
+        { "hebraico": "לִפְקֻדֵיהֶם", "transliteral": "lip̄-qu-ḏê-hem", "traducao_palavra": "segundo o recenseamento deles" },
+        { "hebraico": "וְנָתְנוּ", "transliteral": "wə-nā-ṯə-nû", "traducao_palavra": "e darão" },
+        { "hebraico": "אִישׁ", "transliteral": "ʾîš", "traducao_palavra": "cada um" },
+        { "hebraico": "כֹּפֶר", "transliteral": "kō-p̄er", "traducao_palavra": "[o] resgate de" },
+        { "hebraico": "נַפְשׁוֹ", "transliteral": "nap̄-šô", "traducao_palavra": "sua alma" },
+        { "hebraico": "לַיהוָה", "transliteral": "la-YHWH", "traducao_palavra": "a YHWH" },
+        { "hebraico": "בִּפְקֹד", "transliteral": "bip̄-qōḏ", "traducao_palavra": "no contar" },
+        { "hebraico": "אֹתָם", "transliteral": "ʾō-ṯām", "traducao_palavra": "eles" },
+        { "hebraico": "וְלֹא־יִהְיֶה", "transliteral": "wə-lō-yih-yeh", "traducao_palavra": "e não haverá" },
+        { "hebraico": "בָהֶם", "transliteral": "ḇā-hem", "traducao_palavra": "neles" },
+        { "hebraico": "נֶגֶף", "transliteral": "ne-ḡep̄", "traducao_palavra": "praga" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Isto dará todo aquele que passar pelo recenseamento: meio siclo, segundo o siclo do santuário; o siclo é de vinte geras; a metade do siclo será oferta a YHWH.",
+      "palavras": [
+        { "hebraico": "זֶה", "transliteral": "zeh", "traducao_palavra": "isto" },
+        { "hebraico": "יִתְּנוּ", "transliteral": "yit-tə-nû", "traducao_palavra": "darão" },
+        { "hebraico": "כָּל־הָעֹבֵר", "transliteral": "kāl-hā-ʿō-ḇēr", "traducao_palavra": "todo o que passar" },
+        { "hebraico": "עַל־הַפְּקֻדִים", "transliteral": "ʿal-hap-pə-qu-ḏîm", "traducao_palavra": "pelo recenseamento" },
+        { "hebraico": "מַחֲצִית", "transliteral": "ma-ḥă-ṣîṯ", "traducao_palavra": "metade de" },
+        { "hebraico": "הַשֶּׁקֶל", "transliteral": "ha-še-qel", "traducao_palavra": "o siclo" },
+        { "hebraico": "בְּשֶׁקֶל", "transliteral": "bə-še-qel", "traducao_palavra": "no siclo de" },
+        { "hebraico": "הַקֹּדֶשׁ", "transliteral": "ha-qō-ḏeš", "traducao_palavra": "o santuário" },
+        { "hebraico": "עֶשְׂרִים", "transliteral": "ʿeś-rîm", "traducao_palavra": "vinte" },
+        { "hebraico": "גֵּרָה", "transliteral": "gē-rā", "traducao_palavra": "geras" },
+        { "hebraico": "הַשֶּׁקֶל", "transliteral": "ha-še-qel", "traducao_palavra": "[é] o siclo" },
+        { "hebraico": "מַחֲצִית", "transliteral": "ma-ḥă-ṣîṯ", "traducao_palavra": "[a] metade de" },
+        { "hebraico": "הַשֶּׁקֶל", "transliteral": "ha-še-qel", "traducao_palavra": "o siclo" },
+        { "hebraico": "תְּרוּמָה", "transliteral": "tə-rû-mā", "traducao_palavra": "[é] oferta" },
+        { "hebraico": "לַיהוָה׃", "transliteral": "la-YHWH", "traducao_palavra": "a YHWH" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Todo aquele que passar pelo recenseamento, de vinte anos para cima, dará a oferta a YHWH.",
+      "palavras": [
+        { "hebraico": "כֹּל", "transliteral": "kōl", "traducao_palavra": "todo o" },
+        { "hebraico": "הָעֹבֵר", "transliteral": "hā-ʿō-ḇēr", "traducao_palavra": "que passar" },
+        { "hebraico": "עַל־הַפְּקֻדִים", "transliteral": "ʿal-hap-pə-qu-ḏîm", "traducao_palavra": "pelo recenseamento" },
+        { "hebraico": "מִבֶּן", "transliteral": "mib-ben", "traducao_palavra": "desde filho de" },
+        { "hebraico": "עֶשְׂרִים", "transliteral": "ʿeś-rîm", "traducao_palavra": "vinte" },
+        { "hebraico": "שָׁנָה", "transliteral": "šā-nā", "traducao_palavra": "ano" },
+        { "hebraico": "וָמָעְלָה", "transliteral": "wā-mā-ʿə-lā", "traducao_palavra": "e para cima" },
+        { "hebraico": "יִתֵּן", "transliteral": "yit-tēn", "traducao_palavra": "dará" },
+        { "hebraico": "תְּרוּמַת", "transliteral": "tə-rû-maṯ", "traducao_palavra": "[a] oferta de" },
+        { "hebraico": "יְהוָה׃", "transliteral": "YHWH", "traducao_palavra": "YHWH" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "O rico não aumentará, e o pobre não diminuirá do meio siclo, ao darem a oferta a YHWH, para fazer expiação por vossas almas.",
+      "palavras": [
+        { "hebraico": "הֶעָשִׁיר", "transliteral": "he-ʿā-šîr", "traducao_palavra": "o rico" },
+        { "hebraico": "לֹא־יַרְבֶּה", "transliteral": "lō-yar-beh", "traducao_palavra": "não aumentará" },
+        { "hebraico": "וְהַדַּל", "transliteral": "wə-had-dal", "traducao_palavra": "e o pobre" },
+        { "hebraico": "לֹא", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "יַמְעִיט", "transliteral": "yam-ʿîṭ", "traducao_palavra": "diminuirá" },
+        { "hebraico": "מִמַּחֲצִית", "transliteral": "mim-ma-ḥă-ṣîṯ", "traducao_palavra": "do meio de" },
+        { "hebraico": "הַשָּׁקֶל", "transliteral": "ha-šā-qel", "traducao_palavra": "o siclo" },
+        { "hebraico": "לָתֵת", "transliteral": "lā-ṯēṯ", "traducao_palavra": "ao dar" },
+        { "hebraico": "אֶת־תְּרוּמַת", "transliteral": "ʾeṯ-tə-rû-maṯ", "traducao_palavra": "a oferta de" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "לְכַפֵּר", "transliteral": "lə-ḵap-pēr", "traducao_palavra": "para fazer expiação" },
+        { "hebraico": "עַל־נַפְשֹׁתֵיכֶם׃", "transliteral": "ʿal-nap̄-šō-ṯê-ḵem", "traducao_palavra": "sobre vossas almas" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "E tomarás o dinheiro das expiações dos filhos de Israel, e o darás para o serviço da tenda da congregação; e será para memorial aos filhos de Israel perante YHWH, para fazer expiação por vossas almas.",
+      "palavras": [
+        { "hebraico": "וְלָקַחְתָּ", "transliteral": "wə-lā-qaḥ-tā", "traducao_palavra": "e tomarás" },
+        { "hebraico": "אֶת־כֶּסֶף", "transliteral": "ʾeṯ-ke-sep̄", "traducao_palavra": "o dinheiro de" },
+        { "hebraico": "הַכִּפֻּרִים", "transliteral": "hak-kip-pu-rîm", "traducao_palavra": "as expiações" },
+        { "hebraico": "מֵאֵת", "transliteral": "mē-ʾēṯ", "traducao_palavra": "de com" },
+        { "hebraico": "בְּנֵי", "transliteral": "bə-nê", "traducao_palavra": "filhos de" },
+        { "hebraico": "יִשְׂרָאֵל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "E falou YHWH a Moisés, dizendo:",
+      "palavras": [
+        { "hebraico": "וַיְדַבֵּר", "transliteral": "way-yə-ḏab-bēr", "traducao_palavra": "e falou" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־מֹשֶׁה", "transliteral": "ʾel-mō-šeh", "traducao_palavra": "a Moisés" },
+        { "hebraico": "לֵּאמֹר׃", "transliteral": "lē-mōr", "traducao_palavra": "dizendo" }
       ]
     },
     "18": {
-      "traducao_completa": "E-farás bacia-de bronze e-base-dela bronze para-lavar; e-porás-ela entre tenda-de reunião e-entre o-altar, e-porás lá águas.",
+      "traducao_completa": "Farás também uma bacia de bronze com a sua base de bronze, para lavar; e a porás entre a tenda da congregação e o altar, e porás nela água.",
       "palavras": [
-        { "hebraico": "וְעָשִׂיתָ", "transliteral": "ve'asita", "traducao_palavra": "E-farás" },
-        { "hebraico": "כִּיּוֹר", "transliteral": "kiyyor", "traducao_palavra": "bacia-de" },
-        { "hebraico": "נְחֹשֶׁת", "transliteral": "nechoshet", "traducao_palavra": "bronze" },
-        { "hebraico": "וְכַנּוֹ", "transliteral": "vecanno", "traducao_palavra": "e-base-dela" },
-        { "hebraico": "נְחֹשֶׁת", "transliteral": "nechoshet", "traducao_palavra": "bronze" },
-        { "hebraico": "לְרׇחְצָה", "transliteral": "lerochtsah", "traducao_palavra": "para-lavar" },
-        { "hebraico": "וְנָתַתָּ", "transliteral": "venatatta", "traducao_palavra": "e-porás-ela" },
-        { "hebraico": "אֹתוֹ", "transliteral": "oto", "traducao_palavra": "" },
-        { "hebraico": "בֵּין־אֹהֶל", "transliteral": "beyn-ohel", "traducao_palavra": "entre tenda-de" },
-        { "hebraico": "מוֹעֵד", "transliteral": "mo'ed", "traducao_palavra": "reunião" },
-        { "hebraico": "וּבֵין", "transliteral": "uveyn", "traducao_palavra": "e-entre" },
-        { "hebraico": "הַמִּזְבֵּחַ", "transliteral": "hammizbeach", "traducao_palavra": "o-altar" },
-        { "hebraico": "וְנָתַתָּ", "transliteral": "venatatta", "traducao_palavra": "e-porás" },
-        { "hebraico": "שָׁמָּה", "transliteral": "shammah", "traducao_palavra": "lá" },
-        { "hebraico": "מָיִם", "transliteral": "mayim", "traducao_palavra": "águas" }
+        { "hebraico": "וְעָשִׂיתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "כִּיּוֹר", "transliteral": "ki-yôr", "traducao_palavra": "uma bacia" },
+        { "hebraico": "נְחֹשֶׁת", "transliteral": "nə-ḥō-šeṯ", "traducao_palavra": "bronze" },
+        { "hebraico": "וְכַנּוֹ", "transliteral": "wə-kan-nô", "traducao_palavra": "e sua base de" },
+        { "hebraico": "נְחֹשֶׁת", "transliteral": "nə-ḥō-šeṯ", "traducao_palavra": "bronze" },
+        { "hebraico": "לְרָחְצָה", "transliteral": "lə-rāḥ-ṣā", "traducao_palavra": "para lavar" },
+        { "hebraico": "וְנָתַתָּ", "transliteral": "wə-nā-ṯat-tā", "traducao_palavra": "e a porás" },
+        { "hebraico": "אֹתוֹ", "transliteral": "ʾō-ṯô", "traducao_palavra": "ela" },
+        { "hebraico": "בֵּין־אֹהֶל", "transliteral": "bên-ʾō-hel", "traducao_palavra": "entre a tenda de" },
+        { "hebraico": "מוֹעֵד", "transliteral": "mô-ʿēḏ", "traducao_palavra": "congregação" },
+        { "hebraico": "וּבֵין", "transliteral": "û-ḇên", "traducao_palavra": "e entre" },
+        { "hebraico": "הַמִּזְבֵּחַ", "transliteral": "ham-miz-bē-aḥ", "traducao_palavra": "o altar" },
+        { "hebraico": "וְנָתַתָּ", "transliteral": "wə-nā-ṯat-tā", "traducao_palavra": "e porás" },
+        { "hebraico": "שָׁמָּה", "transliteral": "šām-mā", "traducao_palavra": "ali" },
+        { "hebraico": "מָיִם׃", "transliteral": "mā-yim", "traducao_palavra": "água" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "E Arão e seus filhos lavarão nela as suas mãos e os seus pés.",
+      "palavras": [
+        { "hebraico": "וְרָחֲצוּ", "transliteral": "wə-rā-ḥă-ṣû", "traducao_palavra": "e lavarão" },
+        { "hebraico": "אַהֲרֹן", "transliteral": "ʾa-hă-rōn", "traducao_palavra": "Arão" },
+        { "hebraico": "וּבָנָיו", "transliteral": "û-ḇā-nāw", "traducao_palavra": "e seus filhos" },
+        { "hebraico": "מִמֶּנּוּ", "transliteral": "mim-men-nû", "traducao_palavra": "nela [da bacia]" },
+        { "hebraico": "אֶת־יְדֵיהֶם", "transliteral": "ʾeṯ-yə-ḏê-hem", "traducao_palavra": "[as] suas mãos" },
+        { "hebraico": "וְאֶת־רַגְלֵיהֶם׃", "transliteral": "wə-ʾeṯ-raḡ-lê-hem", "traducao_palavra": "e os seus pés" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "Quando entrarem na tenda da congregação, lavar-se-ão com água, para que não morram; ou quando se aproximarem do altar para ministrar, para queimar oferta queimada a YHWH.",
+      "palavras": [
+        { "hebraico": "בְּבֹאָם", "transliteral": "bə-ḇō-ʾām", "traducao_palavra": "ao entrarem eles" },
+        { "hebraico": "אֶל־אֹהֶל", "transliteral": "ʾel-ʾō-hel", "traducao_palavra": "na tenda de" },
+        { "hebraico": "מוֹעֵד", "transliteral": "mô-ʿēḏ", "traducao_palavra": "congregação" },
+        { "hebraico": "יִרְחֲצוּ־מַיִם", "transliteral": "yir-ḥă-ṣû-ma-yim", "traducao_palavra": "lavar-se-ão com água" },
+        { "hebraico": "וְלֹא", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "יָמֻתוּ", "transliteral": "yā-mu-ṯû", "traducao_palavra": "morram" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "Lavarão, pois, as suas mãos e os seus pés, para que não morram; e isto lhes será por estatuto perpétuo, a ele e à sua semente pelas suas gerações.",
+      "palavras": [
+        { "hebraico": "וְרָחֲצוּ", "transliteral": "wə-rā-ḥă-ṣû", "traducao_palavra": "e lavarão" },
+        { "hebraico": "יְדֵיהֶם", "transliteral": "yə-ḏê-hem", "traducao_palavra": "suas mãos" },
+        { "hebraico": "וְרַגְלֵיהֶם", "transliteral": "wə-raḡ-lê-hem", "traducao_palavra": "e seus pés" },
+        { "hebraico": "וְלֹא", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "יָמֻתוּ", "transliteral": "yā-mu-ṯû", "traducao_palavra": "morram" },
+        { "hebraico": "וְהָיְתָה", "transliteral": "wə-hā-yə-ṯā", "traducao_palavra": "e será" },
+        { "hebraico": "לָהֶם", "transliteral": "lā-hem", "traducao_palavra": "para eles" },
+        { "hebraico": "חָק־עוֹלָם", "transliteral": "ḥāq-ʿô-lām", "traducao_palavra": "estatuto perpétuo" },
+        { "hebraico": "לוֹ", "transliteral": "lô", "traducao_palavra": "para ele" },
+        { "hebraico": "וּלְזַרְעוֹ", "transliteral": "û-lə-zar-ʿô", "traducao_palavra": "e para sua semente" },
+        { "hebraico": "לְדֹרֹתָם׃", "transliteral": "lə-ḏō-rō-ṯām", "traducao_palavra": "por suas gerações" }
+      ]
+    }
+  },
+    "22": {
+      "traducao_completa": "E falou YHWH a Moisés, dizendo:",
+      "palavras": [
+        { "hebraico": "וַיְדַבֵּר", "transliteral": "way-yə-ḏab-bēr", "traducao_palavra": "e falou" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־מֹשֶׁה", "transliteral": "ʾel-mō-šeh", "traducao_palavra": "a Moisés" },
+        { "hebraico": "לֵּאמֹר׃", "transliteral": "lē-mōr", "traducao_palavra": "dizendo" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "E tu, toma para ti especiarias capitais: de mirra fluida, quinhentos [siclos], e de cinamomo aromático a metade, isto é, duzentos e cinquenta, e de cálamo aromático, duzentos e cinquenta,",
+      "palavras": [
+        { "hebraico": "וְאַתָּה", "transliteral": "wə-ʾat-tā", "traducao_palavra": "e tu" },
+        { "hebraico": "קַח־לְךָ", "transliteral": "qaḥ-lə-ḵā", "traducao_palavra": "toma para ti" },
+        { "hebraico": "בְּשָׂמִים", "transliteral": "bə-śā-mîm", "traducao_palavra": "especiarias" },
+        { "hebraico": "רֹאשׁ", "transliteral": "rōš", "traducao_palavra": "cabeça/principais" },
+        { "hebraico": "מָר־דְּרוֹר", "transliteral": "mōr-də-rôr", "traducao_palavra": "mirra pura/fluida" },
+        { "hebraico": "חֲמֵשׁ", "transliteral": "ḥă-mēš", "traducao_palavra": "cinco" },
+        { "hebraico": "מֵאוֹת", "transliteral": "mê-ʾôṯ", "traducao_palavra": "centenas" },
+        { "hebraico": "וְקִנְּמָן־בֶּשֶׂם", "transliteral": "wə-qin-nə-man-be-śem", "traducao_palavra": "e cinamomo aromático" },
+        { "hebraico": "מַחֲצִיתוֹ", "transliteral": "ma-ḥă-ṣî-ṯô", "traducao_palavra": "sua metade" },
+        { "hebraico": "חֲמִשִּׁים", "transliteral": "ḥă-miš-šîm", "traducao_palavra": "cinquenta" },
+        { "hebraico": "וּמָאתָיִם", "transliteral": "û-mā-ṯā-yim", "traducao_palavra": "e duzentos" },
+        { "hebraico": "וּקְנֵה־בֹשֶׂם", "transliteral": "û-qə-nēh-ḇō-śem", "traducao_palavra": "e cálamo aromático" },
+        { "hebraico": "חֲמִשִּׁים", "transliteral": "ḥă-miš-šîm", "traducao_palavra": "cinquenta" },
+        { "hebraico": "וּמָאתָיִם׃", "transliteral": "û-mā-ṯā-yim", "traducao_palavra": "e duzentos" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "e de cássia, quinhentos, segundo o siclo do santuário, e de azeite de oliveira, um him.",
+      "palavras": [
+        { "hebraico": "וְקִדָּה", "transliteral": "wə-qid-dā", "traducao_palavra": "e cássia" },
+        { "hebraico": "חֲמֵשׁ", "transliteral": "ḥă-mēš", "traducao_palavra": "cinco" },
+        { "hebraico": "מֵאוֹת", "transliteral": "mê-ʾôṯ", "traducao_palavra": "centenas" },
+        { "hebraico": "בְּשֶׁקֶל", "transliteral": "bə-še-qel", "traducao_palavra": "no siclo de" },
+        { "hebraico": "הַקֹּדֶשׁ", "transliteral": "ha-qō-ḏeš", "traducao_palavra": "o santuário" },
+        { "hebraico": "וְשֶׁמֶן", "transliteral": "wə-še-men", "traducao_palavra": "e azeite de" },
+        { "hebraico": "זַיִת", "transliteral": "za-yiṯ", "traducao_palavra": "oliveira" },
+        { "hebraico": "הִין׃", "transliteral": "hîn", "traducao_palavra": "um him" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "E farás disso o óleo da santa unção, um perfume composto segundo a obra do perfumista; será o óleo da santa unção.",
+      "palavras": [
+        { "hebraico": "וְעָשִׂיתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "אֹתוֹ", "transliteral": "ʾō-ṯô", "traducao_palavra": "ele" },
+        { "hebraico": "שֶׁמֶן", "transliteral": "še-men", "traducao_palavra": "óleo de" },
+        { "hebraico": "מִשְׁחַת־קֹדֶשׁ", "transliteral": "miš-ḥaṯ-qō-ḏeš", "traducao_palavra": "unção santa" },
+        { "hebraico": "רֹקַח", "transliteral": "rō-qaḥ", "traducao_palavra": "perfume/composto" },
+        { "hebraico": "מִרְקַחַת", "transliteral": "mir-qa-ḥaṯ", "traducao_palavra": "mistura" },
+        { "hebraico": "מַעֲשֵׂה", "transliteral": "ma-ʿă-śēh", "traducao_palavra": "obra de" },
+        { "hebraico": "רֹקֵחַ", "transliteral": "rō-qē-aḥ", "traducao_palavra": "perfumista" },
+        { "hebraico": "שֶׁמֶן", "transliteral": "še-men", "traducao_palavra": "óleo de" },
+        { "hebraico": "מִשְׁחַת־קֹדֶשׁ", "transliteral": "miš-ḥaṯ-qō-ḏeš", "traducao_palavra": "unção santa" },
+        { "hebraico": "יִהְיֶה׃", "transliteral": "yih-yeh", "traducao_palavra": "será ele" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "E ungirás com ele a tenda da congregação e a arca do Testemunho,",
+      "palavras": [
+        { "hebraico": "וּמָשַׁחְתָּ", "transliteral": "û-mā-šaḥ-tā", "traducao_palavra": "e ungirás" },
+        { "hebraico": "בוֹ", "transliteral": "bô", "traducao_palavra": "com ele" },
+        { "hebraico": "אֶת־אֹהֶל", "transliteral": "ʾeṯ-ʾō-hel", "traducao_palavra": "[a] tenda de" },
+        { "hebraico": "מוֹעֵד", "transliteral": "mô-ʿēḏ", "traducao_palavra": "congregação" },
+        { "hebraico": "וְאֵת", "transliteral": "wə-ʾēṯ", "traducao_palavra": "e" },
+        { "hebraico": "אֲרוֹן", "transliteral": "ʾă-rōn", "traducao_palavra": "arca de" },
+        { "hebraico": "הָעֵדֻת׃", "transliteral": "hā-ʿē-ḏuṯ", "traducao_palavra": "o Testemunho" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "e a mesa com todos os seus utensílios, e o candelabro com os seus utensílios, e o altar do incenso,",
+      "palavras": [
+        { "hebraico": "וְאֶת־הַשֻּׁלְחָן", "transliteral": "wə-ʾeṯ-ha-šul-ḥān", "traducao_palavra": "e a mesa" },
+        { "hebraico": "וְאֶת־כָּל־כֵּלָיו", "transliteral": "wə-ʾeṯ-kāl-kê-lāyw", "traducao_palavra": "e todos seus vasos" },
+        { "hebraico": "וְאֶת־הַמְּנֹרָה", "transliteral": "wə-ʾeṯ-ham-mə-nô-rā", "traducao_palavra": "e o candelabro" },
+        { "hebraico": "וְאֶת־כֵּלֶיהָ", "transliteral": "wə-ʾeṯ-kê-le-hā", "traducao_palavra": "e seus vasos" },
+        { "hebraico": "וְאֵת", "transliteral": "wə-ʾēṯ", "traducao_palavra": "e" },
+        { "hebraico": "מִזְבַּח", "transliteral": "miz-baḥ", "traducao_palavra": "[o] altar de" },
+        { "hebraico": "הַקְּטֹרֶת׃", "transliteral": "ha-qə-ṭō-reṯ", "traducao_palavra": "o incenso" }
+      ]
+    },
+    "28": {
+      "traducao_completa": "e o altar do holocausto com todos os seus utensílios, e a bacia com a sua base.",
+      "palavras": [
+        { "hebraico": "וְאֵת", "transliteral": "wə-ʾēṯ", "traducao_palavra": "e" },
+        { "hebraico": "מִזְבַּח", "transliteral": "miz-baḥ", "traducao_palavra": "[o] altar de" },
+        { "hebraico": "הָעֹלָה", "transliteral": "hā-ʿō-lā", "traducao_palavra": "o holocausto" },
+        { "hebraico": "וְאֶת־כָּל־כֵּלָיו", "transliteral": "wə-ʾeṯ-kāl-kê-lāyw", "traducao_palavra": "e todos seus vasos" },
+        { "hebraico": "וְאֶת־הַכִּיֹּר", "transliteral": "wə-ʾeṯ-hak-ki-yôr", "traducao_palavra": "e a bacia" },
+        { "hebraico": "וְאֶת־כַּנּוֹ׃", "transliteral": "wə-ʾeṯ-kan-nô", "traducao_palavra": "e sua base" }
+      ]
+    },
+    "29": {
+      "traducao_completa": "Assim os santificarás, para que sejam santíssimos; tudo o que tocar neles será santo.",
+      "palavras": [
+        { "hebraico": "וְקִדַּשְׁתָּ", "transliteral": "wə-qid-daš-tā", "traducao_palavra": "e santificarás" },
+        { "hebraico": "אֹתָם", "transliteral": "ʾō-ṯām", "traducao_palavra": "eles" },
+        { "hebraico": "וְהָיוּ", "transliteral": "wə-hā-yû", "traducao_palavra": "para que sejam" },
+        { "hebraico": "קֹדֶשׁ", "transliteral": "qō-ḏeš", "traducao_palavra": "santo de" },
+        { "hebraico": "קָדָשִׁים", "transliteral": "qā-ḏā-šîm", "traducao_palavra": "santos [santíssimos]" },
+        { "hebraico": "כָּל־הַנֹּגֵעַ", "transliteral": "kāl-han-nō-ḡē-aʿ", "traducao_palavra": "todo o que tocar" },
+        { "hebraico": "בָּהֶם", "transliteral": "bā-hem", "traducao_palavra": "neles" },
+        { "hebraico": "יִקְדָּשׁ׃", "transliteral": "yiq-dāš", "traducao_palavra": "será santo" }
       ]
     },
     "30": {
-      "traducao_completa": "E-* Arão e-* seus-filhos ungirás, e-santificarás eles para-servir-Me-como-sacerdote.",
+      "traducao_completa": "Também ungirás a Arão e a seus filhos, e os santificarás para me servirem como sacerdotes.",
       "palavras": [
-        { "hebraico": "וְאֶת־אַהֲרֹן", "transliteral": "ve'et-aharon", "traducao_palavra": "E-* Arão" },
-        { "hebraico": "וְאֶת־בָּנָיו", "transliteral": "ve'et-banayv", "traducao_palavra": "e-* seus-filhos" },
-        { "hebraico": "תִּמְשָׁח", "transliteral": "timshach", "traducao_palavra": "ungirás" },
-        { "hebraico": "וְקִדַּשְׁתָּ", "transliteral": "veqiddashta", "traducao_palavra": "e-santificarás" },
-        { "hebraico": "אֹתָם", "transliteral": "otam", "traducao_palavra": "eles" },
-        { "hebraico": "לְכַהֵן־לִי", "transliteral": "lechachen-li", "traducao_palavra": "para-servir-Me-como-sacerdote" }
+        { "hebraico": "וְאֶת־אַהֲרֹן", "transliteral": "wə-ʾeṯ-ʾa-hă-rōn", "traducao_palavra": "e a Arão" },
+        { "hebraico": "וְאֶת־בָּנָיו", "transliteral": "wə-ʾeṯ-bā-nāyw", "traducao_palavra": "e a seus filhos" },
+        { "hebraico": "תִּמְשָׁח", "transliteral": "tim-šāḥ", "traducao_palavra": "ungirás" },
+        { "hebraico": "וְקִדַּשְׁתָּ", "transliteral": "wə-qid-daš-tā", "traducao_palavra": "e santificarás" },
+        { "hebraico": "אֹתָם", "transliteral": "ʾō-ṯām", "traducao_palavra": "eles" },
+        { "hebraico": "לְכַהֵן־לִי׃", "transliteral": "lə-ḵa-hēn-lî", "traducao_palavra": "para servirem-me como sacerdotes" }
+      ]
+    },
+    "31": {
+      "traducao_completa": "E falarás aos filhos de Israel, dizendo: Este me será o óleo da santa unção por vossas gerações.",
+      "palavras": [
+        { "hebraico": "וְאֶל־בְּנֵי", "transliteral": "wə-ʾel-bə-nê", "traducao_palavra": "e aos filhos de" },
+        { "hebraico": "יִשְׂרָאֵל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "תְּדַבֵּר", "transliteral": "tə-ḏab-bēr", "traducao_palavra": "falarás" },
+        { "hebraico": "לֵאמֹר", "transliteral": "lē-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "שֶׁמֶן", "transliteral": "še-men", "traducao_palavra": "óleo de" },
+        { "hebraico": "מִשְׁחַת־קֹדֶשׁ", "transliteral": "miš-ḥaṯ-qō-ḏeš", "traducao_palavra": "unção santa" },
+        { "hebraico": "יִהְיֶה", "transliteral": "yih-yeh", "traducao_palavra": "será" },
+        { "hebraico": "זֶה", "transliteral": "zeh", "traducao_palavra": "este" },
+        { "hebraico": "לִי", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "לְדֹרֹתֵיכֶם׃", "transliteral": "lə-ḏō-rō-ṯê-ḵem", "traducao_palavra": "por vossas gerações" }
+      ]
+    },
+    "32": {
+      "traducao_completa": "Sobre carne de homem não se derramará, nem fareis outro semelhante conforme a sua composição; santo é, e santo será para vós.",
+      "palavras": [
+        { "hebraico": "עַל־בְּשַׂר", "transliteral": "ʿal-bə-śar", "traducao_palavra": "sobre carne de" },
+        { "hebraico": "אָדָם", "transliteral": "ʾā-ḏām", "traducao_palavra": "homem" },
+        { "hebraico": "לֹא", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "יִיסָךְ", "transliteral": "yî-śāḵ", "traducao_palavra": "será derramado/ungido" },
+        { "hebraico": "וּבְמַתְכֻּנְתּוֹ", "transliteral": "û-ḇə-maṯ-kun-tô", "traducao_palavra": "e em sua composição/medida" },
+        { "hebraico": "לֹא", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תַעֲשׂוּ", "transliteral": "ṯa-ʿă-śû", "traducao_palavra": "fareis" },
+        { "hebraico": "כָּמֹהוּ", "transliteral": "kā-mō-hû", "traducao_palavra": "como ele" },
+        { "hebraico": "קֹדֶשׁ", "transliteral": "qō-ḏeš", "traducao_palavra": "santo" },
+        { "hebraico": "הוּא", "transliteral": "hû", "traducao_palavra": "é ele" },
+        { "hebraico": "קֹדֶשׁ", "transliteral": "qō-ḏeš", "traducao_palavra": "santo" },
+        { "hebraico": "יִהְיֶה", "transliteral": "yih-yeh", "traducao_palavra": "será" },
+        { "hebraico": "לָכֶם׃", "transliteral": "lā-ḵem", "traducao_palavra": "para vós" }
+      ]
+    },
+    "33": {
+      "traducao_completa": "O homem que compuser perfume como este, ou o que dele puser sobre um estranho, será extirpado dos seus povos.",
+      "palavras": [
+        { "hebraico": "אִישׁ", "transliteral": "ʾîš", "traducao_palavra": "[qualquer] homem" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "יִרְקַח", "transliteral": "yir-qaḥ", "traducao_palavra": "compuser" },
+        { "hebraico": "כָּמֹהוּ", "transliteral": "kā-mō-hû", "traducao_palavra": "como ele" },
+        { "hebraico": "וַאֲשֶׁר", "transliteral": "wa-ʾă-šer", "traducao_palavra": "e quem" },
+        { "hebraico": "יִתֵּן", "transliteral": "yit-tēn", "traducao_palavra": "puser" },
+        { "hebraico": "מִמֶּנּוּ", "transliteral": "mim-men-nû", "traducao_palavra": "dele" },
+        { "hebraico": "עַל־זָר", "transliteral": "ʿal-zār", "traducao_palavra": "sobre um estranho" },
+        { "hebraico": "וְנִכְרַת", "transliteral": "wə-niḵ-raṯ", "traducao_palavra": "será extirpado" },
+        { "hebraico": "מֵעַמָּיו׃", "transliteral": "mē-ʿam-māyw", "traducao_palavra": "de seus povos" }
+      ]
+    },
+    "34": {
+      "traducao_completa": "E disse YHWH a Moisés: Toma para ti especiarias: estoraque, onicha, gálbano aromático e incenso puro; de cada um haverá o mesmo peso.",
+      "palavras": [
+        { "hebraico": "וַיֹּאמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־מֹשֶׁה", "transliteral": "ʾel-mō-šeh", "traducao_palavra": "a Moisés" },
+        { "hebraico": "קַח־לְךָ", "transliteral": "qaḥ-lə-ḵā", "traducao_palavra": "toma para ti" },
+        { "hebraico": "סַמִּים", "transliteral": "sam-mîm", "traducao_palavra": "especiarias" },
+        { "hebraico": "נָטָף", "transliteral": "nā-ṭāp̄", "traducao_palavra": "estoraque/gotas" },
+        { "hebraico": "וּשְׁחֵלֶת", "transliteral": "û-šə-ḥē-leṯ", "traducao_palavra": "e onicha/concha" },
+        { "hebraico": "וְחֶלְבְּנָה", "transliteral": "wə-ḥel-bə-nā", "traducao_palavra": "e gálbano" },
+        { "hebraico": "סַמִּים", "transliteral": "sam-mîm", "traducao_palavra": "especiarias" },
+        { "hebraico": "וּלְבֹנָה", "transliteral": "û-lə-ḇō-nā", "traducao_palavra": "e incenso" },
+        { "hebraico": "זַכָּה", "transliteral": "zak-kā", "traducao_palavra": "puro/claro" },
+        { "hebraico": "בַּד", "transliteral": "baḏ", "traducao_palavra": "parte" },
+        { "hebraico": "בְּבַד", "transliteral": "bə-ḇaḏ", "traducao_palavra": "por parte [igual]" },
+        { "hebraico": "יִהְיֶה׃", "transliteral": "yih-yeh", "traducao_palavra": "será" }
+      ]
+    },
+    "35": {
+      "traducao_completa": "E disto farás incenso, um perfume segundo a obra do perfumista, temperado com sal, puro e santo.",
+      "palavras": [
+        { "hebraico": "וְעָשִׂיתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "אֹתָהּ", "transliteral": "ʾō-ṯāh", "traducao_palavra": "dele [incenso]" },
+        { "hebraico": "קְטֹרֶת", "transliteral": "qə-ṭō-reṯ", "traducao_palavra": "incenso" },
+        { "hebraico": "רֹקַח", "transliteral": "rō-qaḥ", "traducao_palavra": "perfume" },
+        { "hebraico": "מַעֲשֵׂה", "transliteral": "ma-ʿă-śēh", "traducao_palavra": "obra de" },
+        { "hebraico": "רֹקֵחַ", "transliteral": "rō-qē-aḥ", "traducao_palavra": "perfumista" },
+        { "hebraico": "מְמֻלָּח", "transliteral": "mə-mul-lāḥ", "traducao_palavra": "salgado/temperado com sal" },
+        { "hebraico": "טָהוֹר", "transliteral": "ṭā-hôr", "traducao_palavra": "puro" },
+        { "hebraico": "קֹדֶשׁ׃", "transliteral": "qō-ḏeš", "traducao_palavra": "santo" }
+      ]
+    },
+    "36": {
+      "traducao_completa": "E dele moerás um pouco muito miúdo, e o porás diante do Testemunho na tenda da congregação, onde me encontrarei contigo; santíssimo será para vós.",
+      "palavras": [
+        { "hebraico": "וְשָׁחַקְתָּ", "transliteral": "wə-šā-ḥaq-tā", "traducao_palavra": "e moerás" },
+        { "hebraico": "מִמֶּנָּה", "transliteral": "mim-men-nā", "traducao_palavra": "dele" },
+        { "hebraico": "הָדֵק", "transliteral": "hā-ḏēq", "traducao_palavra": "[até ficar] miúdo" },
+        { "hebraico": "וְנָתַתָּה", "transliteral": "wə-nā-ṯat-tā", "traducao_palavra": "e o porás" },
+        { "hebraico": "מִמֶּנָּה", "transliteral": "mim-men-nā", "traducao_palavra": "dele" },
+        { "hebraico": "לִפְנֵי", "transliteral": "lip̄-nê", "traducao_palavra": "diante de" },
+        { "hebraico": "הָעֵדֻת", "transliteral": "hā-ʿē-ḏuṯ", "traducao_palavra": "o Testemunho" },
+        { "hebraico": "בְּאֹהֶל", "transliteral": "bə-ʾō-hel", "traducao_palavra": "na tenda de" },
+        { "hebraico": "מוֹעֵד", "transliteral": "mô-ʿēḏ", "traducao_palavra": "congregação" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "onde" },
+        { "hebraico": "אִוָּעֵד", "transliteral": "ʾiw-wā-ʿēḏ", "traducao_palavra": "me encontrarei" },
+        { "hebraico": "לְךָ", "transliteral": "lə-ḵā", "traducao_palavra": "com você" },
+        { "hebraico": "שָׁמָּה", "transliteral": "šām-mā", "traducao_palavra": "ali" },
+        { "hebraico": "קֹדֶשׁ", "transliteral": "qō-ḏeš", "traducao_palavra": "santo de" },
+        { "hebraico": "קָדָשִׁים", "transliteral": "qā-ḏā-šîm", "traducao_palavra": "santos [santíssimo]" },
+        { "hebraico": "תִּהְיֶה", "transliteral": "tih-yeh", "traducao_palavra": "será" },
+        { "hebraico": "לָכֶם׃", "transliteral": "lā-ḵem", "traducao_palavra": "para vós" }
+      ]
+    },
+    "37": {
+      "traducao_completa": "E o incenso que farás conforme a composição deste, não o fareis para vós mesmos; santo será para ti para YHWH.",
+      "palavras": [
+        { "hebraico": "וְהַקְּטֹרֶת", "transliteral": "wə-ha-qə-ṭō-reṯ", "traducao_palavra": "e o incenso" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "תַּעֲשֶׂה", "transliteral": "ta-ʿă-śeh", "traducao_palavra": "farás" },
+        { "hebraico": "בְּמַתְכֻּנְתָּהּ", "transliteral": "bə-maṯ-kun-tāh", "traducao_palavra": "na sua composição" },
+        { "hebraico": "לֹא", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תַעֲשׂוּ", "transliteral": "ṯa-ʿă-śû", "traducao_palavra": "fareis" },
+        { "hebraico": "לָכֶם", "transliteral": "lā-ḵem", "traducao_palavra": "para vós" },
+        { "hebraico": "קֹדֶשׁ", "transliteral": "qō-ḏeš", "traducao_palavra": "santo" },
+        { "hebraico": "תִּהְיֶה", "transliteral": "tih-yeh", "traducao_palavra": "será" },
+        { "hebraico": "לְךָ", "transliteral": "lə-ḵā", "traducao_palavra": "para ti" },
+        { "hebraico": "לַיהוָה׃", "transliteral": "la-YHWH", "traducao_palavra": "para YHWH" }
+      ]
+    },
+    "38": {
+      "traducao_completa": "O homem que fizer outro semelhante para o cheirar, será extirpado dos seus povos.",
+      "palavras": [
+        { "hebraico": "אִישׁ", "transliteral": "ʾîš", "traducao_palavra": "[qualquer] homem" },
+        { "hebraico": "אֲשֶׁר־יַעֲשֶׂה", "transliteral": "ʾă-šer-ya-ʿă-śeh", "traducao_palavra": "que fizer" },
+        { "hebraico": "כָמֹהָ", "transliteral": "ḵā-mō-hā", "traducao_palavra": "como ele" },
+        { "hebraico": "לְהָרִיחַ", "transliteral": "lə-hā-rî-aḥ", "traducao_palavra": "para cheirar" },
+        { "hebraico": "בָּהּ", "transliteral": "bāh", "traducao_palavra": "nele" },
+        { "hebraico": "וְנִכְרַת", "transliteral": "wə-niḵ-raṯ", "traducao_palavra": "então será extirpado" },
+        { "hebraico": "מֵעַמָּיו׃", "transliteral": "mē-ʿam-māyw", "traducao_palavra": "de seus povos" }
       ]
     }
   }

@@ -1,106 +1,286 @@
 {
-  "livro": "Êxodo - וְאֵלֶּה שְׁמוֹת - Ve'elleh Shemot",
+  "livro": "Êxodo - שְׁמוֹת - Shemot",
   "capítulo": 35,
-  "titulos": {
-    "1": "O Sábado e a oferta para o Tabernáculo",
-    "10": "O convite aos sábios de coração",
-    "20": "A generosidade do povo",
-    "30": "A chamada de Bezalel e Ooliabe"
-  },
+  "titulos": {},
   "versiculos": {
     "1": {
-      "traducao_completa": "E-ele-reuniu Moisés * toda congregação-de filhos-de Israel; e-ele-disse para-eles: Estas as-palavras que ordenou o-SENHOR para-fazer * elas.",
+      "traducao_completa": "E convocou Moisés toda a congregação dos filhos de Israel, e disse-lhes: Estas são as palavras que YHWH ordenou para que se cumpram.",
       "palavras": [
-        { "hebraico": "וַיַּקְהֵל", "transliteral": "vayyaq'hel", "traducao_palavra": "E-ele-reuniu" },
-        { "hebraico": "מֹשֶׁה", "transliteral": "mosheh", "traducao_palavra": "Moisés" },
-        { "hebraico": "אֶת־כׇּל־עֲדַת", "transliteral": "et-kol-adat", "traducao_palavra": "* toda congregação-de" },
-        { "hebraico": "בְּנֵי־יִשְׂרָאֵל", "transliteral": "beney-yisra'el", "traducao_palavra": "filhos-de Israel" },
-        { "hebraico": "וַיֹּאמֶר", "transliteral": "vayo'mer", "traducao_palavra": "e-ele-disse" },
-        { "hebraico": "אֲלֵהֶם", "transliteral": "alechem", "traducao_palavra": "para-eles" },
-        { "hebraico": "אֵלֶּה", "transliteral": "elleh", "traducao_palavra": "Estas" },
-        { "hebraico": "הַדְּבָרִים", "transliteral": "haddvarim", "traducao_palavra": "as-palavras" },
-        { "hebraico": "אֲשֶׁר־צִוָּה", "transliteral": "asher-tsivvah", "traducao_palavra": "que ordenou" },
-        { "hebraico": "יְהוָה", "transliteral": "Yehovah", "traducao_palavra": "o-SENHOR" },
-        { "hebraico": "לַעֲשֹׂת", "transliteral": "la'asot", "traducao_palavra": "para-fazer" },
-        { "hebraico": "אֹתָם", "transliteral": "otam", "traducao_palavra": "* elas" }
+        { "hebraico": "וַיַּקְהֵל", "transliteral": "way-yaq-hēl", "traducao_palavra": "e convocou" },
+        { "hebraico": "מֹשֶׁה", "transliteral": "mō-šeh", "traducao_palavra": "Moisés" },
+        { "hebraico": "אֶת־כָּל־עֲדַת", "transliteral": "ʾeṯ-kāl-ʿă-ḏaṯ", "traducao_palavra": "toda congregação de" },
+        { "hebraico": "בְּנֵי", "transliteral": "bə-nê", "traducao_palavra": "filhos de" },
+        { "hebraico": "יִשְׂרָאֵל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "וַיֹּאמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "אֲלֵהֶם", "transliteral": "ă-lê-hem", "traducao_palavra": "a eles" },
+        { "hebraico": "אֵלֶּה", "transliteral": "ʾēl-leh", "traducao_palavra": "estas [são]" },
+        { "hebraico": "הַדְּבָרִים", "transliteral": "had-də-ḇā-rîm", "traducao_palavra": "as palavras" },
+        { "hebraico": "אֲשֶׁר־צִוָּה", "transliteral": "ʾă-šer-ṣiw-wā", "traducao_palavra": "que ordenou" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "לַעֲשֹׂת", "transliteral": "la-ʿă-śōṯ", "traducao_palavra": "para fazer/cumprir" },
+        { "hebraico": "אֹתָם׃", "transliteral": "ʾō-ṯām", "traducao_palavra": "elas" }
       ]
     },
     "2": {
-      "traducao_completa": "Seis dias será-feita obra, e-em-o-dia o-sétimo será para-vós santidade, sábado-de descanso para-o-SENHOR; todo o-que-fizer nele obra será-morto.",
+      "traducao_completa": "Seis dias se fará obra, mas o sétimo dia será para vós santo, Sábado de repouso solene a YHWH; qualquer que nele fizer obra morrerá.",
       "palavras": [
-        { "hebraico": "שֵׁשֶׁת", "transliteral": "sheshet", "traducao_palavra": "Seis" },
-        { "hebraico": "יָמִים", "transliteral": "yamim", "traducao_palavra": "dias" },
-        { "hebraico": "תֵּעָשֶׂה", "transliteral": "te'aseh", "traducao_palavra": "será-feita" },
-        { "hebraico": "מְלָאכָה", "transliteral": "melachah", "traducao_palavra": "obra" },
-        { "hebraico": "וּבַיּוֹם", "transliteral": "uvayyom", "traducao_palavra": "e-em-o-dia" },
-        { "hebraico": "הַשְּׁבִיעִי", "transliteral": "hashvi'i", "traducao_palavra": "o-sétimo" },
-        { "hebraico": "יִהְיֶה", "transliteral": "yihyeh", "traducao_palavra": "será" },
-        { "hebraico": "לָכֶם", "transliteral": "lachem", "traducao_palavra": "para-vós" },
-        { "hebraico": "קֹדֶשׁ", "transliteral": "qodesh", "traducao_palavra": "santidade" },
-        { "hebraico": "שַׁבַּת", "transliteral": "shabbat", "traducao_palavra": "sábado-de" },
-        { "hebraico": "שַׁבָּתוֹן", "transliteral": "shabbaton", "traducao_palavra": "descanso" },
-        { "hebraico": "לַיהוָה", "transliteral": "la-Yehovah", "traducao_palavra": "para-o-SENHOR" },
-        { "hebraico": "כׇּל־הָעֹשֶׂה", "transliteral": "kol-ha'oseh", "traducao_palavra": "todo o-que-fizer" },
-        { "hebraico": "בוֹ", "transliteral": "vo", "traducao_palavra": "nele" },
-        { "hebraico": "מְלָאכָה", "transliteral": "melachah", "traducao_palavra": "obra" },
-        { "hebraico": "יוּמָת", "transliteral": "yumat", "traducao_palavra": "será-morto" }
+        { "hebraico": "שֵׁשֶׁת", "transliteral": "šē-šeṯ", "traducao_palavra": "seis de" },
+        { "hebraico": "יָמִים", "transliteral": "yā-mîm", "traducao_palavra": "dias" },
+        { "hebraico": "תֵּעָשֶׂה", "transliteral": "tē-ʿā-śeh", "traducao_palavra": "se fará" },
+        { "hebraico": "מְלָאכָה", "transliteral": "məlā-ḵā", "traducao_palavra": "obra" },
+        { "hebraico": "וּבַיּוֹם", "transliteral": "û-ḇay-yôm", "traducao_palavra": "e no dia" },
+        { "hebraico": "הַשְּׁבִיעִי", "transliteral": "haš-šə-ḇî-ʿî", "traducao_palavra": "o sétimo" },
+        { "hebraico": "יִהְיֶה", "transliteral": "yih-yeh", "traducao_palavra": "será" },
+        { "hebraico": "לָכֶם", "transliteral": "lā-ḵem", "traducao_palavra": "para vós" },
+        { "hebraico": "קֹדֶשׁ", "transliteral": "qō-ḏeš", "traducao_palavra": "santo" },
+        { "hebraico": "שַׁבַּת", "transliteral": "šab-baṯ", "traducao_palavra": "Sábado de" },
+        { "hebraico": "שַׁבָּתוֹן", "transliteral": "šab-bā-ṯôn", "traducao_palavra": "repouso solene" },
+        { "hebraico": "לַיהוָה", "transliteral": "la-YHWH", "traducao_palavra": "a YHWH" },
+        { "hebraico": "כָּל־הָעֹשֶׂה", "transliteral": "kāl-hā-ʿō-śeh", "traducao_palavra": "todo o que fizer" },
+        { "hebraico": "בוֹ", "transliteral": "bô", "traducao_palavra": "nele" },
+        { "hebraico": "מְלָאכָה", "transliteral": "məlā-ḵā", "traducao_palavra": "obra" },
+        { "hebraico": "יוּמָת׃", "transliteral": "yû-māṯ", "traducao_palavra": "morrerá" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Não acendereis fogo em nenhuma das vossas habitações no dia do Sábado.",
+      "palavras": [
+        { "hebraico": "לֹא־תְבַעֲרוּ", "transliteral": "lō-ṯə-ḇa-ʿă-rû", "traducao_palavra": "não acendereis" },
+        { "hebraico": "אֵשׁ", "transliteral": "ʾēš", "traducao_palavra": "fogo" },
+        { "hebraico": "בְּכֹל", "transliteral": "bə-ḵōl", "traducao_palavra": "em todas" },
+        { "hebraico": "מֹשְׁבֹתֵיכֶם", "transliteral": "mō-šə-ḇō-ṯê-ḵem", "traducao_palavra": "vossas habitações" },
+        { "hebraico": "בְּיוֹם", "transliteral": "bə-yôm", "traducao_palavra": "no dia de" },
+        { "hebraico": "הַשַּׁבָּת׃", "transliteral": "ha-šab-bāṯ", "traducao_palavra": "o Sábado" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "E falou Moisés a toda a congregação dos filhos de Israel, dizendo: Esta é a palavra que YHWH ordenou, dizendo:",
+      "palavras": [
+        { "hebraico": "וַיֹּאמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "מֹשֶׁה", "transliteral": "mō-šeh", "traducao_palavra": "Moisés" },
+        { "hebraico": "אֶל־כָּל־עֲדַת", "transliteral": "ʾel-kāl-ʿă-ḏaṯ", "traducao_palavra": "a toda congregação de" },
+        { "hebraico": "בְּנֵי־יִשְׂרָאֵל", "transliteral": "bə-nê-yiś-rā-ʾēl", "traducao_palavra": "filhos de Israel" },
+        { "hebraico": "לֵאמֹר", "transliteral": "lē-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "זֶה", "transliteral": "zeh", "traducao_palavra": "esta [é]" },
+        { "hebraico": "הַדָּבָר", "transliteral": "had-dā-ḇār", "traducao_palavra": "a palavra" },
+        { "hebraico": "אֲשֶׁר־צִוָּה", "transliteral": "ʾă-šer-ṣiw-wā", "traducao_palavra": "que ordenou" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "לֵאמֹר׃", "transliteral": "lē-mōr", "traducao_palavra": "dizendo" }
       ]
     },
     "5": {
-      "traducao_completa": "Tomai de-com-vós oferta para-o-SENHOR; todo impulsionado-de seu-coração trará-ela, * oferta-de o-SENHOR: ouro e-prata e-bronze.",
+      "traducao_completa": "Tomai de entre vós uma oferta para YHWH; todo voluntário de coração a trará como oferta de YHWH: ouro, prata e bronze,",
       "palavras": [
-        { "hebraico": "קְחוּ", "transliteral": "qchu", "traducao_palavra": "Tomai" },
-        { "hebraico": "מֵאִתְּכֶם", "transliteral": "me'ittechem", "traducao_palavra": "de-com-vós" },
-        { "hebraico": "תְּרוּמָה", "transliteral": "terumah", "traducao_palavra": "oferta" },
-        { "hebraico": "לַיהוָה", "transliteral": "la-Yehovah", "traducao_palavra": "para-o-SENHOR" },
-        { "hebraico": "כֹּל", "transliteral": "kol", "traducao_palavra": "todo" },
-        { "hebraico": "נְדִיב", "transliteral": "nediv", "traducao_palavra": "impulsionado-de" },
-        { "hebraico": "לִבּוֹ", "transliteral": "libbo", "traducao_palavra": "seu-coração" },
-        { "hebraico": "יְבִיאֶהָ", "transliteral": "yevi'eha", "traducao_palavra": "trará-ela" },
-        { "hebraico": "אֵת", "transliteral": "et", "traducao_palavra": "*" },
-        { "hebraico": "תְּרוּמַת", "transliteral": "terumat", "traducao_palavra": "oferta-de" },
-        { "hebraico": "יְהוָה", "transliteral": "Yehovah", "traducao_palavra": "o-SENHOR" },
-        { "hebraico": "זָהָב", "transliteral": "zahav", "traducao_palavra": "ouro" },
-        { "hebraico": "וָכֶסֶף", "transliteral": "vacheseph", "traducao_palavra": "e-prata" },
-        { "hebraico": "וּנְחֹשֶׁת", "transliteral": "unechoshet", "traducao_palavra": "e-bronze" }
+        { "hebraico": "קְחוּ", "transliteral": "qə-ḥû", "traducao_palavra": "tomai" },
+        { "hebraico": "מֵאִתְּכֶם", "transliteral": "mē-ʾit-tə-ḵem", "traducao_palavra": "de entre vós" },
+        { "hebraico": "תְּרוּמָה", "transliteral": "tə-rû-mā", "traducao_palavra": "uma oferta" },
+        { "hebraico": "לַיהוָה", "transliteral": "la-YHWH", "traducao_palavra": "para YHWH" },
+        { "hebraico": "כֹּל", "transliteral": "kōl", "traducao_palavra": "todo" },
+        { "hebraico": "נְדִיב", "transliteral": "nə-ḏîḇ", "traducao_palavra": "voluntário de" },
+        { "hebraico": "לִבּוֹ", "transliteral": "lib-bô", "traducao_palavra": "seu coração" },
+        { "hebraico": "יְבִיאֶהָ", "transliteral": "yə-ḇî-ʾe-hā", "traducao_palavra": "a trará" },
+        { "hebraico": "אֵת", "transliteral": "ʾēṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "תְּרוּמַת", "transliteral": "tə-rû-maṯ", "traducao_palavra": "oferta de" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "וָכֶסֶף", "transliteral": "wā-ḵe-sep̄", "traducao_palavra": "e prata" },
+        { "hebraico": "וּנְחֹשֶׁת׃", "transliteral": "û-nə-ḥō-šeṯ", "traducao_palavra": "e bronze" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E todo sábio de coração entre vós venha e faça tudo o que YHWH ordenou:",
+      "palavras": [
+        { "hebraico": "וְכָל־חֲכַם־לֵב", "transliteral": "wə-ḵāl-ḥă-ḵam-lēḇ", "traducao_palavra": "e todo sábio de coração" },
+        { "hebraico": "בָּכֶם", "transliteral": "bā-ḵem", "traducao_palavra": "em vós" },
+        { "hebraico": "יָבֹאוּ", "transliteral": "yā-ḇō-ʾû", "traducao_palavra": "venham" },
+        { "hebraico": "וְיַעֲשׂוּ", "transliteral": "wə-ya-ʿă-śû", "traducao_palavra": "e façam" },
+        { "hebraico": "אֵת", "transliteral": "ʾēṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "כָּל־אֲשֶׁר", "transliteral": "kāl-ʾă-šer", "traducao_palavra": "tudo o que" },
+        { "hebraico": "צִוָּה", "transliteral": "ṣiw-wā", "traducao_palavra": "ordenou" },
+        { "hebraico": "יְהוָה׃", "transliteral": "YHWH", "traducao_palavra": "YHWH" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "E saiu toda a congregação dos filhos de Israel de diante de Moisés.",
+      "palavras": [
+        { "hebraico": "וַיֵּצְאוּ", "transliteral": "way-yē-ṣə-ʾû", "traducao_palavra": "e saíram" },
+        { "hebraico": "כָּל־עֲדַת", "transliteral": "kāl-ʿă-ḏaṯ", "traducao_palavra": "toda congregação de" },
+        { "hebraico": "בְּנֵי־יִשְׂרָאֵל", "transliteral": "bə-nê-yiś-rā-ʾēl", "traducao_palavra": "filhos de Israel" },
+        { "hebraico": "מִלִּפְנֵי", "transliteral": "mil-lip̄-nê", "traducao_palavra": "de diante de" },
+        { "hebraico": "מֹשֶׁה׃", "transliteral": "mō-šeh", "traducao_palavra": "Moisés" }
       ]
     },
     "21": {
-      "traducao_completa": "E-eles-vieram, todo homem que impulsionou-ele seu-coração; e-todo o-que moveu seu-espírito * ele, trouxeram * oferta-de o-SENHOR para obra-de tenda-de reunião.",
+      "traducao_completa": "E vieram, cada homem cujo coração o impeliu, e todo aquele cujo espírito o moveu voluntariamente, trouxeram a oferta de YHWH para a obra da tenda da congregação, e para todo o seu serviço, e para as vestes de santidade.",
       "palavras": [
-        { "hebraico": "וַיָּבֹאוּ", "transliteral": "vayyavo'u", "traducao_palavra": "E-eles-vieram" },
-        { "hebraico": "כׇּל־אִישׁ", "transliteral": "kol-ish", "traducao_palavra": "todo homem" },
-        { "hebraico": "אֲשֶׁר־נְשָׂאוֹ", "transliteral": "asher-nesa'o", "traducao_palavra": "que impulsionou-ele" },
-        { "hebraico": "לִבּוֹ", "transliteral": "libbo", "traducao_palavra": "seu-coração" },
-        { "hebraico": "וְכֹל", "transliteral": "vechol", "traducao_palavra": "e-todo" },
-        { "hebraico": "אֲשֶׁר", "transliteral": "asher", "traducao_palavra": "o-que" },
-        { "hebraico": "נָדְבָה", "transliteral": "nadbah", "traducao_palavra": "moveu" },
-        { "hebraico": "רוּחוֹ", "transliteral": "rucho", "traducao_palavra": "seu-espírito" },
-        { "hebraico": "אֹתוֹ", "transliteral": "oto", "traducao_palavra": "* ele" },
-        { "hebraico": "הֵבִיאוּ", "transliteral": "hevi'u", "traducao_palavra": "trouxeram" },
-        { "hebraico": "אֶת־תְּרוּמַת", "transliteral": "et-terumat", "traducao_palavra": "* oferta-de" },
-        { "hebraico": "יְהוָה", "transliteral": "Yehovah", "traducao_palavra": "o-SENHOR" },
-        { "hebraico": "לִמְלֶאכֶת", "transliteral": "limlechet", "traducao_palavra": "para obra-de" },
-        { "hebraico": "אֹהֶל", "transliteral": "ohel", "traducao_palavra": "tenda-de" },
-        { "hebraico": "מוֹעֵד", "transliteral": "mo'ed", "traducao_palavra": "reunião" }
+        { "hebraico": "וַיָּבֹאוּ", "transliteral": "way-yā-ḇō-ʾû", "traducao_palavra": "e vieram" },
+        { "hebraico": "כָּל־אִישׁ", "transliteral": "kāl-ʾîš", "traducao_palavra": "todo homem" },
+        { "hebraico": "אֲשֶׁר־נְשָׂאוֹ", "transliteral": "ʾă-šer-nə-śā-ʾô", "traducao_palavra": "que o levantou/impeliu" },
+        { "hebraico": "לִבּוֹ", "transliteral": "lib-bô", "traducao_palavra": "seu coração" },
+        { "hebraico": "וְכֹל", "transliteral": "wə-ḵōl", "traducao_palavra": "e todo" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "נָדְבָה", "transliteral": "nā-ḏə-ḇā", "traducao_palavra": "moveu voluntariamente" },
+        { "hebraico": "רוּחוֹ", "transliteral": "rû-ḥô", "traducao_palavra": "seu espírito" },
+        { "hebraico": "אֹתוֹ", "transliteral": "ʾō-ṯô", "traducao_palavra": "a ele" },
+        { "hebraico": "הֵבִיאוּ", "transliteral": "hē-ḇî-ʾû", "traducao_palavra": "trouxeram" },
+        { "hebraico": "אֶת־תְּרוּמַת", "transliteral": "ʾeṯ-tə-rû-maṯ", "traducao_palavra": "a oferta de" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "לִמְלֶאכֶת", "transliteral": "lim-le-ḵeṯ", "traducao_palavra": "para a obra de" },
+        { "hebraico": "אֹהֶל", "transliteral": "ʾō-hel", "traducao_palavra": "tenda de" },
+        { "hebraico": "מוֹעֵד", "transliteral": "mô-ʿēḏ", "traducao_palavra": "congregação" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "E vieram os homens com as mulheres; todos os voluntários de coração trouxeram fivelas, pendentes, anéis e braceletes, todos os objetos de ouro; e todo homem que ofereceu oferta de movimento de ouro a YHWH.",
+      "palavras": [
+        { "hebraico": "וַיָּבֹאוּ", "transliteral": "way-yā-ḇō-ʾû", "traducao_palavra": "e vieram" },
+        { "hebraico": "הָאָנָשִׁים", "transliteral": "hā-ʾă-nā-šîm", "traducao_palavra": "os homens" },
+        { "hebraico": "עַל־הַנָּשִׁים", "transliteral": "ʿal-han-nā-šîm", "traducao_palavra": "com as mulheres" },
+        { "hebraico": "כֹּל", "transliteral": "kōl", "traducao_palavra": "todos" },
+        { "hebraico": "נְדִיב", "transliteral": "nə-ḏîḇ", "traducao_palavra": "voluntários de" },
+        { "hebraico": "לֵב", "transliteral": "lēḇ", "traducao_palavra": "coração" },
+        { "hebraico": "הֵבִיאוּ", "transliteral": "hē-ḇî-ʾû", "traducao_palavra": "trouxeram" },
+        { "hebraico": "חָח", "transliteral": "ḥāḥ", "traducao_palavra": "fivela/gancho" },
+        { "hebraico": "וָנֶזֶם", "transliteral": "wā-ne-zem", "traducao_palavra": "e pendente" },
+        { "hebraico": "וְטַבַּעַת", "transliteral": "wə-ṭab-ba-ʿaṯ", "traducao_palavra": "e anel" },
+        { "hebraico": "וְכוּמָז", "transliteral": "wə-ḵû-māz", "traducao_palavra": "e bracelete/colar" },
+        { "hebraico": "כָּל־כְּלִי", "transliteral": "kāl-kə-lî", "traducao_palavra": "todo objeto de" },
+        { "hebraico": "זָהָב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "E todo homem com quem se achou azul, púrpura, carmesim, linho fino, pelos de cabra, peles de carneiro tintas de vermelho e peles de golfinhos, os trazia.",
+      "palavras": [
+        { "hebraico": "וְכָל־אִישׁ", "transliteral": "wə-ḵāl-ʾîš", "traducao_palavra": "e todo homem" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "נִמְצָא", "transliteral": "nim-ṣā", "traducao_palavra": "foi achado" },
+        { "hebraico": "אִתּוֹ", "transliteral": "ʾit-tô", "traducao_palavra": "com ele" },
+        { "hebraico": "תְּכֵלֶת", "transliteral": "tə-ḵē-leṯ", "traducao_palavra": "azul" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "Todo o que oferecia oferta alçada de prata ou de bronze, trazia a oferta de YHWH; e todo aquele com quem se achava madeira de acácia para toda a obra do serviço, a trazia.",
+      "palavras": [
+        { "hebraico": "כָּל־מֵרִים", "transliteral": "kāl-mê-rîm", "traducao_palavra": "todo o que levantava" },
+        { "hebraico": "תְּרוּמַת", "transliteral": "tə-rû-maṯ", "traducao_palavra": "oferta de" },
+        { "hebraico": "כֶּסֶף", "transliteral": "ke-sep̄", "traducao_palavra": "prata" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "E toda mulher sábia de coração fiava com as suas mãos, e traziam o fiado: o azul, a púrpura, o carmesim e o linho fino.",
+      "palavras": [
+        { "hebraico": "וְכָל־אִשָּׁה", "transliteral": "wə-ḵāl-ʾiš-šā", "traducao_palavra": "e toda mulher" },
+        { "hebraico": "חַכְמַת־לֵב", "transliteral": "ḥaḵ-maṯ-lēḇ", "traducao_palavra": "sábia de coração" },
+        { "hebraico": "בְּיָדֶיהָ", "transliteral": "bə-yā-ḏe-hā", "traducao_palavra": "com suas mãos" },
+        { "hebraico": "טָווּ", "transliteral": "ṭā-wû", "traducao_palavra": "fiaram" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "E todas as mulheres cujo coração as moveu em sabedoria, fiavam os pelos de cabra.",
+      "palavras": [
+        { "hebraico": "וְכָל־הַנָּשִׁים", "transliteral": "wə-ḵāl-han-nā-šîm", "traducao_palavra": "e todas as mulheres" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "נָשָׂא", "transliteral": "nā-śā", "traducao_palavra": "moveu/levantou" },
+        { "hebraico": "לִבָּן", "transliteral": "lib-bān", "traducao_palavra": "o coração delas" },
+        { "hebraico": "אֹתָנָה", "transliteral": "ʾō-ṯā-nā", "traducao_palavra": "a elas" },
+        { "hebraico": "בְּחָכְמָה", "transliteral": "bə-ḥāḵ-mā", "traducao_palavra": "em sabedoria" },
+        { "hebraico": "טָווּ", "transliteral": "ṭā-wû", "traducao_palavra": "fiaram" },
+        { "hebraico": "אֶת־הָעִזִּים׃", "transliteral": "ʾeṯ-hā-ʿiz-zîm", "traducao_palavra": "[os pelos de] cabras" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "E os príncipes traziam pedras de ônix e pedras de engaste para o efode e para o peitoral;",
+      "palavras": [
+        { "hebraico": "וְהַנְּשִׂאִם", "transliteral": "wə-han-nə-śi-ʾim", "traducao_palavra": "e os príncipes" },
+        { "hebraico": "הֵבִיאוּ", "transliteral": "hē-ḇî-ʾû", "traducao_palavra": "trouxeram" },
+        { "hebraico": "אֵת", "transliteral": "ʾēṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "אַבְנֵי", "transliteral": "ʾaḇ-nê", "traducao_palavra": "pedras de" },
+        { "hebraico": "הַשֹּׁהַם", "transliteral": "ha-šō-ham", "traducao_palavra": "o ônix" }
+      ]
+    },
+    "28": {
+      "traducao_completa": "e as especiarias e o azeite para a luminária, e para o óleo da unção, e para o incenso aromático.",
+      "palavras": [
+        { "hebraico": "וְאֶת־הַבֹּשֶׂם", "transliteral": "wə-ʾeṯ-hab-bō-śem", "traducao_palavra": "e a especiaria" },
+        { "hebraico": "וְאֶת־הַשָּׁמֶן", "transliteral": "wə-ʾeṯ-ha-šā-men", "traducao_palavra": "e o azeite" }
+      ]
+    },
+    "29": {
+      "traducao_completa": "Todo homem e mulher cujo coração os moveu voluntariamente a trazer para toda a obra que YHWH ordenara fazer por mão de Moisés; os filhos de Israel trouxeram oferta voluntária a YHWH.",
+      "palavras": [
+        { "hebraico": "כָּל־אִישׁ", "transliteral": "kāl-ʾîš", "traducao_palavra": "todo homem" },
+        { "hebraico": "וְאִשָּׁה", "transliteral": "wə-ʾiš-šā", "traducao_palavra": "e mulher" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "נָדַב", "transliteral": "nā-ḏaḇ", "traducao_palavra": "moveu voluntariamente" },
+        { "hebraico": "לִבָּם", "transliteral": "lib-bām", "traducao_palavra": "o coração deles" },
+        { "hebraico": "אֹתָם", "transliteral": "ʾō-ṯām", "traducao_palavra": "a eles" },
+        { "hebraico": "לְהָבִיא", "transliteral": "lə-hā-ḇî", "traducao_palavra": "para trazer" },
+        { "hebraico": "לְכָל־הַמְּלָּאכָה", "transliteral": "lə-ḵāl-ham-məlā-ḵā", "traducao_palavra": "para toda a obra" }
       ]
     },
     "30": {
-      "traducao_completa": "E-ele-disse Moisés para filhos-de Israel: Vede, chamou o-SENHOR por-nome Bezalel, filho-de Uri, filho-de Hur, para-tribo-de Judá.",
+      "traducao_completa": "E disse Moisés aos filhos de Israel: Vede, YHWH chamou por nome a Bezalel, filho de Uri, filho de Hur, da tribo de Judá.",
       "palavras": [
-        { "hebraico": "וַיֹּאמֶר", "transliteral": "vayo'mer", "traducao_palavra": "E-ele-disse" },
-        { "hebraico": "מֹשֶׁה", "transliteral": "mosheh", "traducao_palavra": "Moisés" },
-        { "hebraico": "אֶל־בְּנֵי", "transliteral": "el-beney", "traducao_palavra": "para filhos-de" },
-        { "hebraico": "יִשְׂרָאֵל", "transliteral": "yisra'el", "traducao_palavra": "Israel" },
-        { "hebraico": "רְאוּ", "transliteral": "re'u", "traducao_palavra": "Vede" },
-        { "hebraico": "קָרָא", "transliteral": "qara", "traducao_palavra": "chamou" },
-        { "hebraico": "יְהוָה", "transliteral": "Yehovah", "traducao_palavra": "o-SENHOR" },
-        { "hebraico": "בְּשֵׁם", "transliteral": "beshem", "traducao_palavra": "por-nome" },
-        { "hebraico": "בְּצַלְאֵל", "transliteral": "betsal'el", "traducao_palavra": "Bezalel" },
-        { "hebraico": "בֶּן־אוּרִי", "transliteral": "ben-uriy", "traducao_palavra": "filho-de Uri" },
-        { "hebraico": "בֶן־חוּר", "transliteral": "ven-chur", "traducao_palavra": "filho-de Hur" },
-        { "hebraico": "לְמַטֵּה", "transliteral": "lematteh", "traducao_palavra": "para-tribo-de" },
-        { "hebraico": "יְהוּדָה", "transliteral": "yehudah", "traducao_palavra": "Judá" }
+        { "hebraico": "וַיֹּאמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "מֹשֶׁה", "transliteral": "mō-šeh", "traducao_palavra": "Moisés" },
+        { "hebraico": "אֶל־בְּנֵי", "transliteral": "ʾel-bə-nê", "traducao_palavra": "aos filhos de" },
+        { "hebraico": "יִשְׂרָאֵל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "רְאוּ", "transliteral": "rə-ʾû", "traducao_palavra": "vede" },
+        { "hebraico": "קָרָא", "transliteral": "qā-rā", "traducao_palavra": "chamou" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "בְּשֵׁם", "transliteral": "bə-šēm", "traducao_palavra": "por nome" },
+        { "hebraico": "בְּצַלְאֵל", "transliteral": "bə-ṣal-ʾēl", "traducao_palavra": "Bezalel" }
+      ]
+    },
+    "31": {
+      "traducao_completa": "E o encheu com o Espírito de Deus, em sabedoria, em entendimento e em conhecimento, e em toda obra,",
+      "palavras": [
+        { "hebraico": "וַיְמַלֵּא", "transliteral": "way-mal-lē", "traducao_palavra": "e o encheu" },
+        { "hebraico": "אֹתוֹ", "transliteral": "ʾō-ṯô", "traducao_palavra": "a ele" },
+        { "hebraico": "רוּחַ", "transliteral": "rû-aḥ", "traducao_palavra": "Espírito de" },
+        { "hebraico": "אֱלֹהִים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "בְּחָכְמָה", "transliteral": "bə-ḥāḵ-mā", "traducao_palavra": "em sabedoria" },
+        { "hebraico": "בִּתְבוּנָה", "transliteral": "biṯ-ḇû-nā", "traducao_palavra": "em entendimento" },
+        { "hebraico": "וּבְדַעַת", "transliteral": "û-ḇə-ḏa-ʿaṯ", "traducao_palavra": "e em conhecimento" }
+      ]
+    },
+    "32": {
+      "traducao_completa": "e para projetar projetos, para trabalhar em ouro, e em prata, e em bronze,",
+      "palavras": [
+        { "hebraico": "וְלַחְשֹׁב", "transliteral": "wə-laḥ-šōḇ", "traducao_palavra": "e para projetar" },
+        { "hebraico": "מַחֲשָׁבֹת", "transliteral": "ma-ḥă-šā-ḇōṯ", "traducao_palavra": "projetos" },
+        { "hebraico": "לַעֲשֹׂת", "transliteral": "la-ʿă-śōṯ", "traducao_palavra": "para trabalhar" }
+      ]
+    },
+    "33": {
+      "traducao_completa": "e em lavramento de pedras para engastar, e em entalho de madeira, para trabalhar em toda obra de artífice.",
+      "palavras": [
+        { "hebraico": "וּבַחֲרֹשֶׁת", "transliteral": "û-ḇa-ḥă-rō-šeṯ", "traducao_palavra": "e em lavramento de" },
+        { "hebraico": "אֶבֶן", "transliteral": "ʾe-ḇen", "traducao_palavra": "pedra" }
+      ]
+    },
+    "34": {
+      "traducao_completa": "E pôs no seu coração [a habilidade] para ensinar, a ele e a Oholiabe, filho de Aisamaque, da tribo de Dã.",
+      "palavras": [
+        { "hebraico": "וּלְהוֹרֹת", "transliteral": "û-lə-hô-rōṯ", "traducao_palavra": "e para ensinar" },
+        { "hebraico": "נָתַן", "transliteral": "nā-ṯān", "traducao_palavra": "pôs/deu" },
+        { "hebraico": "בְּלִבּוֹ", "transliteral": "bə-lib-bô", "traducao_palavra": "no coração dele" },
+        { "hebraico": "הוּא", "transliteral": "hû", "traducao_palavra": "ele" },
+        { "hebraico": "וְאָהֳלִיאָב", "transliteral": "wə-ʾā-hŏ-lî-ʾāḇ", "traducao_palavra": "e Oholiabe" }
+      ]
+    },
+    "35": {
+      "traducao_completa": "Encheu-os de sabedoria de coração para fazerem toda obra de artífice, e de mestre, e de bordador em azul, em púrpura, em carmesim, em linho fino, e de tecelão; fazedores de toda obra e projetistas de projetos.",
+      "palavras": [
+        { "hebraico": "מִלֵּא", "transliteral": "mil-lē", "traducao_palavra": "encheu" },
+        { "hebraico": "אֹתָם", "transliteral": "ʾō-ṯām", "traducao_palavra": "a eles" },
+        { "hebraico": "חָכְמַת־לֵב", "transliteral": "ḥaḵ-maṯ-lēḇ", "traducao_palavra": "sabedoria de coração" },
+        { "hebraico": "לַעֲשׂוֹת", "transliteral": "la-ʿă-śôṯ", "traducao_palavra": "para fazer" },
+        { "hebraico": "כָּל־מְלֶאכֶת", "transliteral": "kāl-mle-ḵeṯ", "traducao_palavra": "toda obra de" },
+        { "hebraico": "חָרָשׁ", "transliteral": "ḥā-rāš", "traducao_palavra": "artífice/gravador" },
+        { "hebraico": "וְחֹשֵׁב", "transliteral": "wə-ḥō-šēḇ", "traducao_palavra": "e mestre/projetista" },
+        { "hebraico": "וְרֹקֵם", "transliteral": "wə-rō-qēm", "traducao_palavra": "e bordador" },
+        { "hebraico": "וְאֹרֵג", "transliteral": "wə-ʾō-rēḡ", "traducao_palavra": "e tecelão" }
       ]
     }
   }

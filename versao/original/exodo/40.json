@@ -1,77 +1,434 @@
 {
-  "livro": "Êxodo - וְאֵלֶּה שְׁמוֹת - Ve'elleh Shemot",
+  "livro": "Êxodo - שְׁמוֹת - Shemot",
   "capítulo": 40,
-  "titulos": {
-    "1": "A ordem para levantar o Tabernáculo",
-    "17": "A montagem do Tabernáculo",
-    "34": "A nuvem e a glória do SENHOR"
-  },
+  "titulos": {},
   "versiculos": {
     "1": {
-      "traducao_completa": "E-ele-falou o-SENHOR para Moisés dizendo:",
+      "traducao_completa": "E falou YHWH a Moisés, dizendo:",
       "palavras": [
-        { "hebraico": "וַיְדַבֵּר", "transliteral": "vaydabber", "traducao_palavra": "E-ele-falou" },
-        { "hebraico": "יְהוָה", "transliteral": "Yehovah", "traducao_palavra": "o-SENHOR" },
-        { "hebraico": "אֶל־מֹשֶׁה", "transliteral": "el-mosheh", "traducao_palavra": "para Moisés" },
-        { "hebraico": "לֵּאמֹר", "transliteral": "lemor", "traducao_palavra": "dizendo" }
+        { "hebraico": "וַיְדַבֵּר", "transliteral": "way-yə-ḏab-bēr", "traducao_palavra": "e falou" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־מֹשֶׁה", "transliteral": "ʾel-mō-šeh", "traducao_palavra": "a Moisés" },
+        { "hebraico": "לֵּאמֹר׃", "transliteral": "lē-mōr", "traducao_palavra": "dizendo" }
       ]
     },
     "2": {
-      "traducao_completa": "Em-dia-de o-mês o-primeiro, em-um para-o-mês, levantarás * o-Tabernáculo-de tenda-de reunião.",
+      "traducao_completa": "No dia do primeiro mês, no primeiro [dia] do mês, levantarás o Tabernáculo da tenda da congregação.",
       "palavras": [
-        { "hebraico": "בְּיוֹם־הַחֹדֶשׁ", "transliteral": "beyom-hachodesh", "traducao_palavra": "Em-dia-de o-mês" },
-        { "hebraico": "הָרִאשׁוֹן", "transliteral": "harishon", "traducao_palavra": "o-primeiro" },
-        { "hebraico": "בְּאֶחָד", "transliteral": "be'echad", "traducao_palavra": "em-um" },
-        { "hebraico": "לַחֹדֶשׁ", "transliteral": "lachodesh", "traducao_palavra": "para-o-mês" },
-        { "hebraico": "תָּקִים", "transliteral": "taqim", "traducao_palavra": "levantarás" },
-        { "hebraico": "אֶת־מִשְׁכַּן", "transliteral": "et-mishkan", "traducao_palavra": "* o-Tabernáculo-de" },
-        { "hebraico": "אֹהֶל", "transliteral": "ohel", "traducao_palavra": "tenda-de" },
-        { "hebraico": "מוֹעֵד", "transliteral": "mo'ed", "traducao_palavra": "reunião" }
+        { "hebraico": "בְּיוֹם־הַחֹדֶשׁ", "transliteral": "bə-yôm-ha-ḥō-ḏeš", "traducao_palavra": "no dia do mês" },
+        { "hebraico": "הָרִאשׁוֹן", "transliteral": "hā-ri-šôn", "traducao_palavra": "o primeiro" },
+        { "hebraico": "בְּאֶחָד", "transliteral": "bə-ʾe-ḥāḏ", "traducao_palavra": "no primeiro" },
+        { "hebraico": "לַחֹדֶשׁ", "transliteral": "la-ḥō-ḏeš", "traducao_palavra": "do mês" },
+        { "hebraico": "תָּקִים", "transliteral": "tā-qîm", "traducao_palavra": "levantarás" },
+        { "hebraico": "אֶת־מִשְׁכַּן", "transliteral": "ʾeṯ-miš-kan", "traducao_palavra": "[o] Tabernáculo de" },
+        { "hebraico": "אֹהֶל", "transliteral": "ʾō-hel", "traducao_palavra": "tenda de" },
+        { "hebraico": "מוֹעֵד׃", "transliteral": "mô-ʿēḏ", "traducao_palavra": "congregação" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "E porás ali a arca do Testemunho, e cobrirás a arca com o véu.",
+      "palavras": [
+        { "hebraico": "וְשַׂמְתָּ", "transliteral": "wə-śam-tā", "traducao_palavra": "e porás" },
+        { "hebraico": "שָׁם", "transliteral": "šām", "traducao_palavra": "ali" },
+        { "hebraico": "אֵת", "transliteral": "ʾēṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "אֲרוֹן", "transliteral": "ʾă-rōn", "traducao_palavra": "[a] arca de" },
+        { "hebraico": "הָעֵדֻת", "transliteral": "hā-ʿē-ḏuṯ", "traducao_palavra": "o Testemunho" },
+        { "hebraico": "וְסַכֹּתָ", "transliteral": "wə-sak-kō-ṯā", "traducao_palavra": "e cobrirás/protegerás" },
+        { "hebraico": "עַל־הָאָרֹן", "transliteral": "ʿal-hā-ʾā-rōn", "traducao_palavra": "sobre a arca" },
+        { "hebraico": "אֶת־הַפָּרֹכֶת׃", "transliteral": "ʾeṯ-hap-pā-rō-ḵeṯ", "traducao_palavra": "[com] o véu" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "E introduzirás a mesa, e porás em ordem o que se deve pôr em ordem sobre ela; e introduzirás o candelabro, e acenderás as suas lâmpadas.",
+      "palavras": [
+        { "hebraico": "וְהֵבֵאתָ", "transliteral": "wə-hē-ḇê-ṯā", "traducao_palavra": "e introduzirás" },
+        { "hebraico": "אֶת־הַשֻּׁלְחָן", "transliteral": "ʾeṯ-ha-šul-ḥān", "traducao_palavra": "a mesa" },
+        { "hebraico": "וְעָרַכְתָּ", "transliteral": "wə-ʿā-raḵ-tā", "traducao_palavra": "e porás em ordem" },
+        { "hebraico": "אֶת־עֶרְכּוֹ", "transliteral": "ʾeṯ-ʿer-kô", "traducao_palavra": "[o] seu arranjo" },
+        { "hebraico": "וְהֵבֵאתָ", "transliteral": "wə-hē-ḇê-ṯā", "traducao_palavra": "e introduzirás" },
+        { "hebraico": "אֶת־הַמְּנֹרָה", "transliteral": "ʾeṯ-ham-mə-nō-rā", "traducao_palavra": "o candelabro" },
+        { "hebraico": "וְהַעֲלֵיתָ", "transliteral": "wə-ha-ʿă-lê-ṯā", "traducao_palavra": "e farás subir/acenderás" },
+        { "hebraico": "אֶת־נֵרֹתֶיהָ׃", "transliteral": "ʾeṯ-nē-rō-ṯe-hā", "traducao_palavra": "[as] suas lâmpadas" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "E porás o altar de ouro para o incenso diante da arca do Testemunho; e colocarás o anteparo da porta para o Tabernáculo.",
+      "palavras": [
+        { "hebraico": "וְנָתַתָּה", "transliteral": "wə-nā-ṯat-tā", "traducao_palavra": "e porás" },
+        { "hebraico": "אֵת", "transliteral": "ʾēṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "מִזְבַּח", "transliteral": "miz-baḥ", "traducao_palavra": "[o] altar de" },
+        { "hebraico": "הַזָּהָב", "transliteral": "haz-zā-hāḇ", "traducao_palavra": "o ouro" },
+        { "hebraico": "לִקְטֹרֶת", "transliteral": "liq-ṭō-reṯ", "traducao_palavra": "para incenso" },
+        { "hebraico": "לִפְנֵי", "transliteral": "lip̄-nê", "traducao_palavra": "diante de" },
+        { "hebraico": "אֲרוֹן", "transliteral": "ʾă-rōn", "traducao_palavra": "arca de" },
+        { "hebraico": "הָעֵדֻת", "transliteral": "hā-ʿē-ḏuṯ", "traducao_palavra": "o Testemunho" },
+        { "hebraico": "וְשַׂמְתָּ", "transliteral": "wə-śam-tā", "traducao_palavra": "e colocarás" },
+        { "hebraico": "אֶת־מָסַךְ", "transliteral": "ʾeṯ-mā-śāḵ", "traducao_palavra": "[o] anteparo de" },
+        { "hebraico": "הַפֶּתַח", "transliteral": "hap-pe-ṯaḥ", "traducao_palavra": "a entrada" },
+        { "hebraico": "לַמִּשְׁכָּן׃", "transliteral": "lam-miš-kān", "traducao_palavra": "para o Tabernáculo" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "E porás o altar do holocausto diante da porta do Tabernáculo da tenda da congregação.",
+      "palavras": [
+        { "hebraico": "וְנָתַתָּה", "transliteral": "wə-nā-ṯat-tā", "traducao_palavra": "e porás" },
+        { "hebraico": "אֵת", "transliteral": "ʾēṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "מִזְבַּח", "transliteral": "miz-baḥ", "traducao_palavra": "altar de" },
+        { "hebraico": "הָעֹלָה", "transliteral": "hā-ʿō-lā", "traducao_palavra": "o holocausto" },
+        { "hebraico": "לִפְנֵי", "transliteral": "lip̄-nê", "traducao_palavra": "diante de" },
+        { "hebraico": "פֶּתַח", "transliteral": "pe-ṯaḥ", "traducao_palavra": "entrada de" },
+        { "hebraico": "מִשְׁכַּן", "transliteral": "miš-kan", "traducao_palavra": "Tabernáculo de" },
+        { "hebraico": "אֹהֶל־מוֹעֵד׃", "transliteral": "ʾō-hel-mô-ʿēḏ", "traducao_palavra": "tenda da congregação" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "E porás a bacia entre a tenda da congregação e o altar, e porás nela água.",
+      "palavras": [
+        { "hebraico": "וְנָתַתָּ", "transliteral": "wə-nā-ṯat-tā", "traducao_palavra": "e porás" },
+        { "hebraico": "אֶת־הַכִּיֹּר", "transliteral": "ʾeṯ-hak-ki-yôr", "traducao_palavra": "a bacia" },
+        { "hebraico": "בֵּין־אֹהֶל", "transliteral": "bên-ʾō-hel", "traducao_palavra": "entre tenda de" },
+        { "hebraico": "מוֹעֵד", "transliteral": "mô-ʿēḏ", "traducao_palavra": "congregação" },
+        { "hebraico": "וּבֵין", "transliteral": "û-ḇên", "traducao_palavra": "e entre" },
+        { "hebraico": "הַמִּזְבֵּחַ", "transliteral": "ham-miz-bē-aḥ", "traducao_palavra": "o altar" },
+        { "hebraico": "וְנָתַתָּ", "transliteral": "wə-nā-ṯat-tā", "traducao_palavra": "e porás" },
+        { "hebraico": "שָׁמָּה", "transliteral": "šām-mā", "traducao_palavra": "ali" },
+        { "hebraico": "מָיִם׃", "transliteral": "mā-yim", "traducao_palavra": "água" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "E estabelecerás o pátio ao redor, e colocarás o anteparo da porta do pátio.",
+      "palavras": [
+        { "hebraico": "וְשַׂמְתָּ", "transliteral": "wə-śam-tā", "traducao_palavra": "e estabelecerás" },
+        { "hebraico": "אֶת־הֶחָצֵר", "transliteral": "ʾeṯ-he-ḥā-ṣēr", "traducao_palavra": "o pátio" },
+        { "hebraico": "סָבִיב", "transliteral": "śā-ḇîḇ", "traducao_palavra": "ao redor" },
+        { "hebraico": "וְנָתַתָּ", "transliteral": "wə-nā-ṯat-tā", "traducao_palavra": "e darás/porás" },
+        { "hebraico": "אֶת־מָסַךְ", "transliteral": "ʾeṯ-mā-śāḵ", "traducao_palavra": "o anteparo de" },
+        { "hebraico": "שַׁעַר", "transliteral": "ša-ʿar", "traducao_palavra": "portal de" },
+        { "hebraico": "הֶחָצֵר׃", "transliteral": "he-ḥā-ṣēr", "traducao_palavra": "o pátio" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "E tomarás o óleo da unção, e ungirás o Tabernáculo e tudo o que há nele; e o santificarás com todos os seus utensílios, e será santo.",
+      "palavras": [
+        { "hebraico": "וְלָקַחְתָּ", "transliteral": "wə-lā-qaḥ-tā", "traducao_palavra": "e tomarás" },
+        { "hebraico": "אֶת־שֶׁמֶן", "transliteral": "ʾeṯ-še-men", "traducao_palavra": "[o] óleo de" },
+        { "hebraico": "הַמִּשְׁחָה", "transliteral": "ham-miš-ḥā", "traducao_palavra": "a unção" },
+        { "hebraico": "וּמָשַׁחְתָּ", "transliteral": "û-mā-šaḥ-tā", "traducao_palavra": "e ungirás" },
+        { "hebraico": "אֶת־הַמִּשְׁכָּן", "transliteral": "ʾeṯ-ham-miš-kān", "traducao_palavra": "o Tabernáculo" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E ungirás o altar do holocausto e todos os seus utensílios; e santificarás o altar, e o altar será santíssimo.",
+      "palavras": [
+        { "hebraico": "וּמָשַׁחְתָּ", "transliteral": "û-mā-šaḥ-tā", "traducao_palavra": "e ungirás" },
+        { "hebraico": "אֶת־מִזְבַּח", "transliteral": "ʾeṯ-miz-baḥ", "traducao_palavra": "o altar de" },
+        { "hebraico": "הָעֹלָה", "transliteral": "hā-ʿō-lā", "traducao_palavra": "o holocausto" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "E ungirás a bacia e a sua base, e a santificarás.",
+      "palavras": [
+        { "hebraico": "וּמָשַׁחְתָּ", "transliteral": "û-mā-šaḥ-tā", "traducao_palavra": "e ungirás" },
+        { "hebraico": "אֶת־הַכִּיֹּר", "transliteral": "ʾeṯ-hak-ki-yôr", "traducao_palavra": "a bacia" },
+        { "hebraico": "וְאֶת־כַּנּוֹ", "transliteral": "wə-ʾeṯ-kan-nô", "traducao_palavra": "e a sua base" },
+        { "hebraico": "וְקִדַּשְׁתָּ", "transliteral": "wə-qid-daš-tā", "traducao_palavra": "e santificarás" },
+        { "hebraico": "אֹתוֹ׃", "transliteral": "ʾō-ṯô", "traducao_palavra": "a ela" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "E farás chegar Arão e seus filhos à porta da tenda da congregação, e os lavarás com água.",
+      "palavras": [
+        { "hebraico": "וְהִקְרַבְתָּ", "transliteral": "wə-hiq-raḇ-tā", "traducao_palavra": "e farás chegar" },
+        { "hebraico": "אֶת־אַהֲרֹן", "transliteral": "ʾeṯ-ʾa-hă-rōn", "traducao_palavra": "Arão" },
+        { "hebraico": "וְאֶת־בָּנָיו", "transliteral": "wə-ʾeṯ-bā-nāyw", "traducao_palavra": "e seus filhos" },
+        { "hebraico": "אֶל־פֶּתַח", "transliteral": "ʾel-pe-ṯaḥ", "traducao_palavra": "[à] porta de" },
+        { "hebraico": "אֹהֶל", "transliteral": "ʾō-hel", "traducao_palavra": "tenda de" },
+        { "hebraico": "מוֹעֵד", "transliteral": "mô-ʿēḏ", "traducao_palavra": "congregação" },
+        { "hebraico": "וְרָחַצְתָּ", "transliteral": "wə-rā-ḥaṣ-tā", "traducao_palavra": "e lavarás" },
+        { "hebraico": "אֹתָם", "transliteral": "ʾō-ṯām", "traducao_palavra": "eles" },
+        { "hebraico": "בַּמָּיִם׃", "transliteral": "bam-mā-yim", "traducao_palavra": "na água" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "E vestirás a Arão as vestes de santidade, e o ungirás, e o santificarás, para que me sirva como sacerdote.",
+      "palavras": [
+        { "hebraico": "וְהִלְבַּשְׁתָּ", "transliteral": "wə-hil-baš-tā", "traducao_palavra": "e vestirás" },
+        { "hebraico": "אֶת־אַהֲרֹן", "transliteral": "ʾeṯ-ʾa-hă-rōn", "traducao_palavra": "a Arão" },
+        { "hebraico": "אֵת", "transliteral": "ʾēṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "בִּגְדֵי", "transliteral": "biḡ-ḏê", "traducao_palavra": "vestes de" },
+        { "hebraico": "הַקֹּדֶשׁ", "transliteral": "ha-qō-ḏeš", "traducao_palavra": "a santidade" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "E farás chegar os seus filhos, e lhes vestirás túnicas,",
+      "palavras": [
+        { "hebraico": "וְאֶת־בָּנָיו", "transliteral": "wə-ʾeṯ-bā-nāyw", "traducao_palavra": "e os seus filhos" },
+        { "hebraico": "תַּקְרִיב", "transliteral": "taq-rîḇ", "traducao_palavra": "farás chegar" },
+        { "hebraico": "וְהִלְבַּשְׁתָּם", "transliteral": "wə-hil-baš-tām", "traducao_palavra": "e vestirás eles" },
+        { "hebraico": "כֻּתֳּנֹת׃", "transliteral": "kut-to-nōṯ", "traducao_palavra": "túnicas" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "e os ungirás como ungiste a seu pai, para que me sirvam como sacerdotes; e a sua unção lhes será por sacerdócio perpétuo pelas suas gerações.",
+      "palavras": [
+        { "hebraico": "וּמָשַׁחְתָּ", "transliteral": "û-mā-šaḥ-tā", "traducao_palavra": "e os ungirás" },
+        { "hebraico": "אֹתָם", "transliteral": "ʾō-ṯām", "traducao_palavra": "eles" },
+        { "hebraico": "כַּאֲשֶׁר", "transliteral": "ka-ʾă-šer", "traducao_palavra": "como" },
+        { "hebraico": "מָשַׁחְתָּ", "transliteral": "mā-šaḥ-tā", "traducao_palavra": "ungiste" },
+        { "hebraico": "אֶת־אֲבִיהֶם", "transliteral": "ʾeṯ-ʾă-ḇî-hem", "traducao_palavra": "[a] seu pai" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "E fez Moisés conforme tudo o que YHWH lhe ordenara, assim o fez.",
+      "palavras": [
+        { "hebraico": "וַיַּעַשׂ", "transliteral": "way-ya-ʿaś", "traducao_palavra": "e fez" },
+        { "hebraico": "מֹשֶׁה", "transliteral": "mō-šeh", "traducao_palavra": "Moisés" },
+        { "hebraico": "כְּכֹל", "transliteral": "kə-ḵōl", "traducao_palavra": "conforme tudo" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "צִוָּה", "transliteral": "ṣiw-wā", "traducao_palavra": "ordenou" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֹתוֹ", "transliteral": "ʾō-ṯô", "traducao_palavra": "ele" },
+        { "hebraico": "כֵּן", "transliteral": "kēn", "traducao_palavra": "assim" },
+        { "hebraico": "עָשָׂה׃", "transliteral": "ʿā-śā", "traducao_palavra": "fez" }
       ]
     },
     "17": {
-      "traducao_completa": "E-ele-foi em-o-mês o-primeiro em-o-ano o-segundo, em-um para-o-mês, levantou-se o-Tabernáculo.",
+      "traducao_completa": "E aconteceu no primeiro mês, no segundo ano, no primeiro [dia] do mês, que o Tabernáculo foi levantado.",
       "palavras": [
-        { "hebraico": "וַיְהִי", "transliteral": "vayehi", "traducao_palavra": "E-ele-foi" },
-        { "hebraico": "בַּחֹדֶשׁ", "transliteral": "bachodesh", "traducao_palavra": "em-o-mês" },
-        { "hebraico": "הָרִאשׁוֹן", "transliteral": "harishon", "traducao_palavra": "o-primeiro" },
-        { "hebraico": "בַּשָּׁנָה", "transliteral": "bashshanah", "traducao_palavra": "em-o-ano" },
-        { "hebraico": "הַשֵּׁנִית", "transliteral": "hashshenit", "traducao_palavra": "o-segundo" },
-        { "hebraico": "בְּאֶחָד", "transliteral": "be'echad", "traducao_palavra": "em-um" },
-        { "hebraico": "לַחֹדֶשׁ", "transliteral": "lachodesh", "traducao_palavra": "para-o-mês" },
-        { "hebraico": "הוּקַם", "transliteral": "huqam", "traducao_palavra": "levantou-se" },
-        { "hebraico": "הַמִּשְׁכָּן", "transliteral": "hammishkan", "traducao_palavra": "o-Tabernáculo" }
+        { "hebraico": "וַיְהִי", "transliteral": "way-hî", "traducao_palavra": "e aconteceu" },
+        { "hebraico": "בַּחֹדֶשׁ", "transliteral": "ba-ḥō-ḏeš", "traducao_palavra": "no mês" },
+        { "hebraico": "הָרִאשׁוֹן", "transliteral": "hā-ri-šôn", "traducao_palavra": "o primeiro" },
+        { "hebraico": "בַּשָּׁנָה", "transliteral": "ba-šā-nā", "traducao_palavra": "no ano" },
+        { "hebraico": "הַשֵּׁנִית", "transliteral": "haš-šê-nîṯ", "traducao_palavra": "o segundo" },
+        { "hebraico": "בְּאֶחָד", "transliteral": "bə-ʾe-ḥāḏ", "traducao_palavra": "no primeiro" },
+        { "hebraico": "לַחֹדֶשׁ", "transliteral": "la-ḥō-ḏeš", "traducao_palavra": "do mês" },
+        { "hebraico": "הוּקַם", "transliteral": "hû-qam", "traducao_palavra": "foi levantado" },
+        { "hebraico": "הַמִּשְׁכָּן׃", "transliteral": "ham-miš-kān", "traducao_palavra": "o Tabernáculo" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "E levantou Moisés o Tabernáculo, e pôs as suas bases, e colocou as suas tábuas, e meteu os seus varais, e levantou as suas colunas.",
+      "palavras": [
+        { "hebraico": "וַיָּקֶם", "transliteral": "way-yā-qem", "traducao_palavra": "e levantou" },
+        { "hebraico": "מֹשֶׁה", "transliteral": "mō-šeh", "traducao_palavra": "Moisés" },
+        { "hebraico": "אֶת־הַמִּשְׁכָּן", "transliteral": "ʾeṯ-ham-miš-kān", "traducao_palavra": "o Tabernáculo" },
+        { "hebraico": "וַיִּתֵּן", "transliteral": "way-yit-tēn", "traducao_palavra": "e pôs" },
+        { "hebraico": "אֶת־אַדְנָיו", "transliteral": "ʾeṯ-ʾaḏ-nāyw", "traducao_palavra": "suas bases" },
+        { "hebraico": "וַיָּשֶׂם", "transliteral": "way-yā-śem", "traducao_palavra": "e colocou" },
+        { "hebraico": "אֶת־קְרָשָׁיו", "transliteral": "ʾeṯ-qə-rā-šāyw", "traducao_palavra": "suas tábuas" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "E estendeu a tenda sobre o Tabernáculo, e pôs a cobertura da tenda sobre ela, por cima, como YHWH ordenara a Moisés.",
+      "palavras": [
+        { "hebraico": "וַיִּפְרֹשׂ", "transliteral": "way-yip̄-rōś", "traducao_palavra": "e estendeu" },
+        { "hebraico": "אֶת־הָאֹהֶל", "transliteral": "ʾeṯ-hā-ʾō-hel", "traducao_palavra": "[a] tenda" },
+        { "hebraico": "עַל־הַמִּשְׁכָּן", "transliteral": "ʿal-ham-miš-kān", "traducao_palavra": "sobre o Tabernáculo" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "E tomou e pôs o Testemunho na arca, e colocou os varais na arca, e pôs o propiciatório sobre a arca, por cima.",
+      "palavras": [
+        { "hebraico": "וַיִּקַּח", "transliteral": "way-yiq-qaḥ", "traducao_palavra": "e tomou" },
+        { "hebraico": "וַיִּתֵּן", "transliteral": "way-yit-tēn", "traducao_palavra": "e pôs" },
+        { "hebraico": "אֶת־הָעֵדֻת", "transliteral": "ʾeṯ-hā-ʿē-ḏuṯ", "traducao_palavra": "o Testemunho" },
+        { "hebraico": "אֶל־הָאָרֹן", "transliteral": "ʾel-hā-ʾā-rōn", "traducao_palavra": "na arca" },
+        { "hebraico": "וַיָּשֶׂם", "transliteral": "way-yā-śem", "traducao_palavra": "e colocou" },
+        { "hebraico": "אֶת־הַבַּדִּים", "transliteral": "ʾeṯ-hab-bad-dîm", "traducao_palavra": "as varas" },
+        { "hebraico": "עַל־הָאָרֹן", "transliteral": "ʿal-hā-ʾā-rōn", "traducao_palavra": "na arca" },
+        { "hebraico": "וַיִּתֵּן", "transliteral": "way-yit-tēn", "traducao_palavra": "e pôs" },
+        { "hebraico": "אֶת־הַכַּפֹּרֶת", "transliteral": "ʾeṯ-hak-kap-pō-reṯ", "traducao_palavra": "o propiciatório" },
+        { "hebraico": "עַל־הָאָרֹן", "transliteral": "ʿal-hā-ʾā-rōn", "traducao_palavra": "sobre a arca" },
+        { "hebraico": "מִלְמָעְלָה׃", "transliteral": "mil-mā-ʿă-lā", "traducao_palavra": "por cima" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "E introduziu a arca no Tabernáculo, e pendurou o véu do anteparo, e cobriu a arca do Testemunho, como YHWH ordenara a Moisés.",
+      "palavras": [
+        { "hebraico": "וַיָּבֵא", "transliteral": "way-yā-ḇē", "traducao_palavra": "e introduziu" },
+        { "hebraico": "אֶת־הָאָרֹן", "transliteral": "ʾeṯ-hā-ʾā-rōn", "traducao_palavra": "a arca" },
+        { "hebraico": "אֶל־הַמִּשְׁכָּן", "transliteral": "ʾel-ham-miš-kān", "traducao_palavra": "no Tabernáculo" },
+        { "hebraico": "וַיָּשֶׂם", "transliteral": "way-yā-śem", "traducao_palavra": "e pôs" },
+        { "hebraico": "אֵת", "transliteral": "ʾēṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "פָּרֹכֶת", "transliteral": "pā-rō-ḵeṯ", "traducao_palavra": "[o] véu de" },
+        { "hebraico": "הַמָּסָךְ", "transliteral": "ham-mā-śāḵ", "traducao_palavra": "o anteparo" },
+        { "hebraico": "וַיָּסֶךְ", "transliteral": "way-yā-seḵ", "traducao_palavra": "e cobriu/velou" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "E pôs a mesa na tenda da congregação, ao lado do Tabernáculo, para o norte, fora do véu.",
+      "palavras": [
+        { "hebraico": "וַיִּתֵּן", "transliteral": "way-yit-tēn", "traducao_palavra": "e pôs" },
+        { "hebraico": "אֶת־הַשֻּׁלְחָן", "transliteral": "ʾeṯ-ha-šul-ḥān", "traducao_palavra": "a mesa" },
+        { "hebraico": "בְּאֹהֶל", "transliteral": "bə-ʾō-hel", "traducao_palavra": "na tenda de" },
+        { "hebraico": "מוֹעֵד", "transliteral": "mô-ʿēḏ", "traducao_palavra": "congregação" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "E pôs sobre ela em ordem o arranjo do pão perante YHWH, como YHWH ordenara a Moisés.",
+      "palavras": [
+        { "hebraico": "וַיַּעֲרֹךְ", "transliteral": "way-ya-ʿă-rōḵ", "traducao_palavra": "e pôs em ordem" },
+        { "hebraico": "עָלָיו", "transliteral": "ʿā-lāyw", "traducao_palavra": "sobre ela" },
+        { "hebraico": "עֵרֶךְ", "transliteral": "ʿē-reḵ", "traducao_palavra": "arranjo de" },
+        { "hebraico": "לֶחֶם", "transliteral": "le-ḥem", "traducao_palavra": "pão" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "E pôs o candelabro na tenda da congregação, defronte da mesa, ao lado do Tabernáculo, para o sul.",
+      "palavras": [
+        { "hebraico": "וַיָּשֶׂם", "transliteral": "way-yā-śem", "traducao_palavra": "e pôs" },
+        { "hebraico": "אֶת־הַמְּנֹרָה", "transliteral": "ʾeṯ-ham-mə-nō-rā", "traducao_palavra": "o candelabro" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "E acendeu as lâmpadas perante YHWH, como YHWH ordenara a Moisés.",
+      "palavras": [
+        { "hebraico": "וַיַּעַל", "transliteral": "way-ya-ʿal", "traducao_palavra": "e fez subir/acendeu" },
+        { "hebraico": "הַנֵּרֹת", "transliteral": "han-nē-rōṯ", "traducao_palavra": "as lâmpadas" },
+        { "hebraico": "לִפְנֵי", "transliteral": "lip̄-nê", "traducao_palavra": "perante" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "E pôs o altar de ouro na tenda da congregação, diante do véu.",
+      "palavras": [
+        { "hebraico": "וַיָּשֶׂם", "transliteral": "way-yā-śem", "traducao_palavra": "e pôs" },
+        { "hebraico": "אֶת־מִזְבַּח", "transliteral": "ʾeṯ-miz-baḥ", "traducao_palavra": "o altar de" },
+        { "hebraico": "הַזָּהָב", "transliteral": "ha-zā-hāḇ", "traducao_palavra": "ouro" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "E queimou sobre ele incenso aromático, como YHWH ordenara a Moisés.",
+      "palavras": [
+        { "hebraico": "וַיַּקְטֵר", "transliteral": "way-yaq-ṭēr", "traducao_palavra": "e queimou" },
+        { "hebraico": "עָלָיו", "transliteral": "ʿā-lāyw", "traducao_palavra": "sobre ele" },
+        { "hebraico": "קְטֹרֶת", "transliteral": "qə-ṭō-reṯ", "traducao_palavra": "incenso de" },
+        { "hebraico": "סַמִּים", "transliteral": "sam-mîm", "traducao_palavra": "aromas" }
+      ]
+    },
+    "28": {
+      "traducao_completa": "E colocou o anteparo da porta para o Tabernáculo.",
+      "palavras": [
+        { "hebraico": "וַיָּשֶׂם", "transliteral": "way-yā-śem", "traducao_palavra": "e colocou" },
+        { "hebraico": "אֶת־מָסַךְ", "transliteral": "ʾeṯ-mā-śāḵ", "traducao_palavra": "o anteparo de" },
+        { "hebraico": "הַפֶּתַח", "transliteral": "hap-pe-ṯaḥ", "traducao_palavra": "a entrada" }
+      ]
+    },
+    "29": {
+      "traducao_completa": "E o altar do holocausto pôs à porta do Tabernáculo da tenda da congregação, e ofereceu sobre ele o holocausto e a oferta de manjares, como YHWH ordenara a Moisés.",
+      "palavras": [
+        { "hebraico": "וְאֵת", "transliteral": "wə-ʾēṯ", "traducao_palavra": "e" },
+        { "hebraico": "מִזְבַּח", "transliteral": "miz-baḥ", "traducao_palavra": "[o] altar de" },
+        { "hebraico": "הָעֹלָה", "transliteral": "hā-ʿō-lā", "traducao_palavra": "o holocausto" }
+      ]
+    },
+    "30": {
+      "traducao_completa": "E pôs a bacia entre a tenda da congregação e o altar, e pôs nela água para lavar.",
+      "palavras": [
+        { "hebraico": "וַיָּשֶׂם", "transliteral": "way-yā-śem", "traducao_palavra": "e pôs" },
+        { "hebraico": "אֶת־הַכִּיֹּר", "transliteral": "ʾeṯ-hak-ki-yôr", "traducao_palavra": "a bacia" }
+      ]
+    },
+    "31": {
+      "traducao_completa": "E Moisés, Arão e seus filhos lavaram nela as suas mãos e os seus pés.",
+      "palavras": [
+        { "hebraico": "וְרָחֲצוּ", "transliteral": "wə-rā-ḥă-ṣû", "traducao_palavra": "e lavaram" },
+        { "hebraico": "מִמֶּנּוּ", "transliteral": "mim-men-nû", "traducao_palavra": "dela [bacia]" }
+      ]
+    },
+    "32": {
+      "traducao_completa": "Quando entravam na tenda da congregação e quando se chegavam ao altar, lavavam-se, como YHWH ordenara a Moisés.",
+      "palavras": [
+        { "hebraico": "בְּבֹאָם", "transliteral": "bə-ḇō-ʾām", "traducao_palavra": "ao entrarem eles" }
+      ]
+    },
+    "33": {
+      "traducao_completa": "E levantou o pátio ao redor do Tabernáculo e do altar, e colocou o anteparo da porta do pátio. Assim Moisés acabou a obra.",
+      "palavras": [
+        { "hebraico": "וַיָּקֶם", "transliteral": "way-yā-qem", "traducao_palavra": "e levantou" },
+        { "hebraico": "אֶת־הֶחָצֵר", "transliteral": "ʾeṯ-he-ḥā-ṣēr", "traducao_palavra": "o pátio" },
+        { "hebraico": "וַיְכַל", "transliteral": "way-ḵal", "traducao_palavra": "e acabou" },
+        { "hebraico": "מֹשֶׁה", "transliteral": "mō-šeh", "traducao_palavra": "Moisés" },
+        { "hebraico": "אֶת־הַמְּלָּאכָה׃", "transliteral": "ʾeṯ-ham-məlā-ḵā", "traducao_palavra": "a obra" }
       ]
     },
     "34": {
-      "traducao_completa": "E-ele-cobriu o-nuvem * tenda-de reunião; e-glória-de o-SENHOR encheu * o-Tabernáculo.",
+      "traducao_completa": "Então a nuvem cobriu a tenda da congregação, e a glória de YHWH encheu o Tabernáculo.",
       "palavras": [
-        { "hebraico": "וַיְכַס", "transliteral": "vayyechas", "traducao_palavra": "E-ele-cobriu" },
-        { "hebraico": "הֶעָנָן", "transliteral": "he'anan", "traducao_palavra": "o-nuvem" },
-        { "hebraico": "אֶת־אֹהֶל", "transliteral": "et-ohel", "traducao_palavra": "* tenda-de" },
-        { "hebraico": "מוֹעֵד", "transliteral": "mo'ed", "traducao_palavra": "reunião" },
-        { "hebraico": "וּכְבוֹד", "transliteral": "uchevod", "traducao_palavra": "e-glória-de" },
-        { "hebraico": "יְהוָה", "transliteral": "Yehovah", "traducao_palavra": "o-SENHOR" },
-        { "hebraico": "מָלֵא", "transliteral": "male", "traducao_palavra": "encheu" },
-        { "hebraico": "אֶת־הַמִּשְׁכָּן", "transliteral": "et-hammishkan", "traducao_palavra": "* o-Tabernáculo" }
+        { "hebraico": "וַיְכַס", "transliteral": "way-ḵas", "traducao_palavra": "então cobriu" },
+        { "hebraico": "הֶעָנָן", "transliteral": "he-ʿā-nān", "traducao_palavra": "a nuvem" },
+        { "hebraico": "אֶת־אֹהֶל", "transliteral": "ʾeṯ-ʾō-hel", "traducao_palavra": "a tenda de" },
+        { "hebraico": "מוֹעֵד", "transliteral": "mô-ʿēḏ", "traducao_palavra": "congregação" },
+        { "hebraico": "וּכְבוֹד", "transliteral": "û-ḵə-ḇôḏ", "traducao_palavra": "e a glória de" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "מָלֵא", "transliteral": "mā-lē", "traducao_palavra": "encheu" },
+        { "hebraico": "אֶת־הַמִּשְׁכָּן׃", "transliteral": "ʾeṯ-ham-miš-kān", "traducao_palavra": "o Tabernáculo" }
+      ]
+    },
+    "35": {
+      "traducao_completa": "E Moisés não podia entrar na tenda da congregação, porque a nuvem parava sobre ela, e a glória de YHWH enchia o Tabernáculo.",
+      "palavras": [
+        { "hebraico": "וְלֹא־יָכֹל", "transliteral": "wə-lō-yā-ḵōl", "traducao_palavra": "e não podia" },
+        { "hebraico": "מֹשֶׁה", "transliteral": "mō-šeh", "traducao_palavra": "Moisés" },
+        { "hebraico": "לָבוֹא", "transliteral": "lā-ḇô", "traducao_palavra": "entrar" },
+        { "hebraico": "אֶל־אֹהֶל", "transliteral": "ʾel-ʾō-hel", "traducao_palavra": "na tenda de" },
+        { "hebraico": "מוֹעֵד", "transliteral": "mô-ʿēḏ", "traducao_palavra": "congregação" },
+        { "hebraico": "כִּי־שָׁכַן", "transliteral": "kî-šā-ḵan", "traducao_palavra": "porque parara/pousara" },
+        { "hebraico": "עָלָיו", "transliteral": "ʿā-lāyw", "traducao_palavra": "sobre ela" },
+        { "hebraico": "הֶעָנָן", "transliteral": "he-ʿā-nān", "traducao_palavra": "a nuvem" }
+      ]
+    },
+    "36": {
+      "traducao_completa": "E quando a nuvem se levantava de sobre o Tabernáculo, os filhos de Israel partiam em todas as suas jornadas.",
+      "palavras": [
+        { "hebraico": "וּבְהֵעָלוֹת", "transliteral": "û-ḇə-hē-ʿā-lôṯ", "traducao_palavra": "e ao subir/elevar-se" },
+        { "hebraico": "הֶעָנָן", "transliteral": "he-ʿā-nān", "traducao_palavra": "a nuvem" },
+        { "hebraico": "מֵעַל", "transliteral": "mē-ʿal", "traducao_palavra": "de sobre" },
+        { "hebraico": "הַמִּשְׁכָּן", "transliteral": "ham-miš-kān", "traducao_palavra": "o Tabernáculo" },
+        { "hebraico": "יִסְעוּ", "transliteral": "yis-ʿû", "traducao_palavra": "partiam" },
+        { "hebraico": "בְּנֵי", "transliteral": "bə-nê", "traducao_palavra": "os filhos de" },
+        { "hebraico": "יִשְׂרָאֵל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "בְּכֹל", "transliteral": "bə-ḵōl", "traducao_palavra": "em todas" },
+        { "hebraico": "מַסְעֵיהֶם׃", "transliteral": "mas-ʿê-hem", "traducao_palavra": "suas jornadas" }
+      ]
+    },
+    "37": {
+      "traducao_completa": "Mas se a nuvem não se levantava, não partiam até ao dia em que ela se levantava.",
+      "palavras": [
+        { "hebraico": "וְאִם־לֹא", "transliteral": "wə-ʾim-lō", "traducao_palavra": "e se não" },
+        { "hebraico": "יֵעָלֶה", "transliteral": "yē-ʿā-leh", "traducao_palavra": "se levantava" },
+        { "hebraico": "הֶעָנָן", "transliteral": "he-ʿā-nān", "traducao_palavra": "a nuvem" },
+        { "hebraico": "וְלֹא", "transliteral": "wə-lō", "traducao_palavra": "então não" },
+        { "hebraico": "יִסְעוּ", "transliteral": "yis-ʿû", "traducao_palavra": "partiam" },
+        { "hebraico": "עַד־יוֹם", "transliteral": "ʿaḏ-yôm", "traducao_palavra": "até o dia" },
+        { "hebraico": "הֵעָלֹתוֹ׃", "transliteral": "hē-ʿā-lō-ṯô", "traducao_palavra": "[de] seu levantar" }
       ]
     },
     "38": {
-      "traducao_completa": "Pois nuvem-de o-SENHOR sobre o-Tabernáculo dia, e-fogo será noite nele, para-olhos-de toda casa-de Israel em-todas suas-jornadas.",
+      "traducao_completa": "Porque a nuvem de YHWH estava sobre o Tabernáculo de dia, e o fogo estava nele de noite, aos olhos de toda a casa de Israel, em todas as suas jornadas.",
       "palavras": [
-        { "hebraico": "כִּי", "transliteral": "ki", "traducao_palavra": "Pois" },
-        { "hebraico": "עֲנַן", "transliteral": "anan", "traducao_palavra": "nuvem-de" },
-        { "hebraico": "יְהוָה", "transliteral": "Yehovah", "traducao_palavra": "o-SENHOR" },
-        { "hebraico": "עַל־הַמִּשְׁכָּן", "transliteral": "al-hammishkan", "traducao_palavra": "sobre o-Tabernáculo" },
-        { "hebraico": "יוֹמָם", "transliteral": "yomam", "traducao_palavra": "dia" },
-        { "hebraico": "וְאֵשׁ", "transliteral": "ve'esh", "traducao_palavra": "e-fogo" },
-        { "hebraico": "תִּהְיֶה", "transliteral": "tihyeh", "traducao_palavra": "será" },
-        { "hebraico": "לַיְלָה", "transliteral": "laylah", "traducao_palavra": "noite" },
-        { "hebraico": "בּוֹ", "transliteral": "bo", "traducao_palavra": "nele" },
-        { "hebraico": "לְעֵינֵי", "transliteral": "le'eyney", "traducao_palavra": "para-olhos-de" },
-        { "hebraico": "כׇל־בֵּית־יִשְׂרָאֵל", "transliteral": "col-beyt-yisra'el", "traducao_palavra": "toda casa-de Israel" },
-        { "hebraico": "בְּכׇל־מַסְעֵיהֶם", "transliteral": "bechol-mas'eyhem", "traducao_palavra": "em-todas suas-jornadas" }
+        { "hebraico": "כִּי", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "עֲנַן", "transliteral": "ʿă-nan", "traducao_palavra": "[a] nuvem de" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "עַל־הַמִּשְׁכָּן", "transliteral": "ʿal-ham-miš-kān", "traducao_palavra": "sobre o Tabernáculo" },
+        { "hebraico": "יוֹמָם", "transliteral": "yô-mām", "traducao_palavra": "de dia" },
+        { "hebraico": "וְאֵשׁ", "transliteral": "wə-ʾēš", "traducao_palavra": "e fogo" },
+        { "hebraico": "תִּהְיֶה", "transliteral": "tih-yeh", "traducao_palavra": "estava/haveria" },
+        { "hebraico": "לַיְלָה", "transliteral": "lay-lā", "traducao_palavra": "de noite" },
+        { "hebraico": "בּוֹ", "transliteral": "bô", "traducao_palavra": "nele" },
+        { "hebraico": "לְעֵינֵי", "transliteral": "lə-ʿê-nê", "traducao_palavra": "aos olhos de" },
+        { "hebraico": "כָל־בֵּית", "transliteral": "ḵāl-bêṯ", "traducao_palavra": "toda casa de" },
+        { "hebraico": "יִשְׂרָאֵל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "בְּכָל־מַסְעֵיהֶם׃", "transliteral": "bə-ḵāl-mas-ʿê-hem", "traducao_palavra": "em todas suas jornadas" }
       ]
     }
+  },
+  "lexico": {
+    "מִשְׁכָּן": { "raiz": "שׁכן", "classe": "Substantivo Masculino", "significado": "Tabernáculo, morada, habitação sagrada", "referencia": "BDB 10153" },
+    "עָנָן": { "raiz": "ענן", "classe": "Substantivo Masculino", "significado": "Nuvem", "referencia": "BDB 7731" },
+    "כָּבוֹד": { "raiz": "כבד", "classe": "Substantivo Masculino", "significado": "Glória, honra, peso, majestade", "referencia": "BDB 4586" },
+    "מַסָּע": { "raiz": "נסע", "classe": "Substantivo Masculino", "significado": "Jornada, viagem, partida, etapa", "referencia": "BDB 6511" },
+    "אֵשׁ": { "raiz": "אשׁשׁ", "classe": "Substantivo Feminino", "significado": "Fogo", "referencia": "BDB 776" },
+    "עֵדֻת": { "raiz": "עוד", "classe": "Substantivo Feminino", "significado": "Testemunho, preceito, lei divina", "referencia": "BDB 7189" }
   }
 }
