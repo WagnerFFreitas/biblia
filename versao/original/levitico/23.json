@@ -1,0 +1,679 @@
+{
+  "livro": "Levítico - וַיִּקְרָא - Vayikra",
+  "capítulo": 23,
+  "titulos": {},
+  "versiculos": {
+    "1": {
+      "traducao_completa": "E falou YHWH a Moisés, dizendo:",
+      "palavras": [
+        { "hebraico": "וַיְדַבֵּ֥ר", "transliteral": "way-yə-ḏab-bēr", "traducao_palavra": "e falou" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־מֹשֶׁ֥ה", "transliteral": "ʾel-mō-šeh", "traducao_palavra": "a Moisés" },
+        { "hebraico": "לֵּאמֹֽר׃", "transliteral": "lē-mōr", "traducao_palavra": "dizendo" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Fala aos filhos de Israel, e dize-lhes: As festas fixas de YHWH, que convocareis como santas convocações, estas são as minhas festas fixas.",
+      "palavras": [
+        { "hebraico": "דַּבֵּ֞ר", "transliteral": "dab-bēr", "traducao_palavra": "fala" },
+        { "hebraico": "אֶל־בְּנֵ֧י", "transliteral": "ʾel-bə-nê", "traducao_palavra": "aos filhos de" },
+        { "hebraico": "יִשְׂרָאֵ֛ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "וְאָמַרְתָּ֥", "transliteral": "wə-ʾā-mar-tā", "traducao_palavra": "e dize" },
+        { "hebraico": "אֲלֵיהֶ֑ם", "transliteral": "ʾă-lê-hem", "traducao_palavra": "a eles" },
+        { "hebraico": "מֹועֲדֵ֣י", "transliteral": "mô-ʿă-ḏê", "traducao_palavra": "as festas fixas de" },
+        { "hebraico": "יְהוָ֗ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֲשֶׁר־תִּקְרְא֥וּ", "transliteral": "ʾă-šer-tiq-rə-ʾû", "traducao_palavra": "que convocareis" },
+        { "hebraico": "אֹתָם֙", "transliteral": "ʾō-ṯām", "traducao_palavra": "elas" },
+        { "hebraico": "מִקְרָאֵ֣י", "transliteral": "miq-rā-ʾê", "traducao_palavra": "convocações de" },
+        { "hebraico": "קֹ֔דֶשׁ", "transliteral": "qō-ḏeš", "traducao_palavra": "santidade" },
+        { "hebraico": "אֵ֥לֶּה", "transliteral": "ʾēl-leh", "traducao_palavra": "estas [são]" },
+        { "hebraico": "הֵ֖ם", "transliteral": "hēm", "traducao_palavra": "elas" },
+        { "hebraico": "מֹועֲדָֽי׃", "transliteral": "mô-ʿă-ḏāy", "traducao_palavra": "minhas festas fixas" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Seis dias se fará trabalho, mas o sétimo dia será o sábado do descanso solene, santa convocação; nenhum trabalho fareis; sábado de YHWH é em todas as vossas habitações.",
+      "palavras": [
+        { "hebraico": "שֵׁ֣שֶׁת", "transliteral": "šē-šeṯ", "traducao_palavra": "seis" },
+        { "hebraico": "יָמִים֮", "transliteral": "yā-mîm", "traducao_palavra": "dias" },
+        { "hebraico": "תֵּעָשֶׂ֣ה", "transliteral": "tê-ʿā-śeh", "traducao_palavra": "se fará" },
+        { "hebraico": "מְלָאכָה֒", "transliteral": "mə-lā-ḵā", "traducao_palavra": "trabalho" },
+        { "hebraico": "וּבַיֹּ֣ום", "transliteral": "ū-ḇay-yôm", "traducao_palavra": "e no dia" },
+        { "hebraico": "הַשְּׁבִיעִ֗י", "transliteral": "haš-šə-ḇî-ʿî", "traducao_palavra": "sétimo" },
+        { "hebraico": "שַׁבַּ֤ת", "transliteral": "šab-baṯ", "traducao_palavra": "sábado de" },
+        { "hebraico": "שַׁבָּתֹון֙", "transliteral": "šab-bā-ṯôn", "traducao_palavra": "descanso solene" },
+        { "hebraico": "מִקְרָא־קֹ֔דֶשׁ", "transliteral": "miq-rā-qō-ḏeš", "traducao_palavra": "santa convocação" },
+        { "hebraico": "כָּל־מְלָאכָ֖ה", "transliteral": "kāl-mə-lā-ḵā", "traducao_palavra": "qualquer trabalho" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תַעֲשׂ֑וּ", "transliteral": "ṯa-ʿă-śû", "traducao_palavra": "fareis" },
+        { "hebraico": "שַׁבָּ֥ת", "transliteral": "šab-bāṯ", "traducao_palavra": "sábado" },
+        { "hebraico": "הִוא֙", "transliteral": "hî", "traducao_palavra": "ele [é]" },
+        { "hebraico": "לַיהוָ֔ה", "transliteral": "la-YHWH", "traducao_palavra": "para YHWH" },
+        { "hebraico": "בְּכֹ֖ל", "transliteral": "bə-ḵōl", "traducao_palavra": "em todas" },
+        { "hebraico": "מֹושְׁבֹתֵיכֶֽם׃", "transliteral": "mô-šə-ḇō-ṯê-ḵem", "traducao_palavra": "vossas habitações" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Estas são as festas fixas de YHWH, as santas convocações, que convocareis nos seus tempos determinados.",
+      "palavras": [
+        { "hebraico": "אֵ֚לֶּה", "transliteral": "ʾēl-leh", "traducao_palavra": "estas [são]" },
+        { "hebraico": "מֹועֲדֵ֣י", "transliteral": "mô-ʿă-ḏê", "traducao_palavra": "as festas fixas de" },
+        { "hebraico": "יְהוָ֔ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "מִקְרָאֵ֖י", "transliteral": "miq-rā-ʾê", "traducao_palavra": "convocações de" },
+        { "hebraico": "קֹ֑דֶשׁ", "transliteral": "qō-ḏeš", "traducao_palavra": "santidade" },
+        { "hebraico": "אֲשֶׁר־תִּקְרְא֥וּ", "transliteral": "ʾă-šer-tiq-rə-ʾû", "traducao_palavra": "que convocareis" },
+        { "hebraico": "אֹתָ֖ם", "transliteral": "ʾō-ṯām", "traducao_palavra": "elas" },
+        { "hebraico": "בְּמֹועֲדָֽם׃", "transliteral": "bə-mô-ʿă-ḏām", "traducao_palavra": "no seu tempo determinado" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "No primeiro mês, aos catorze do mês, entre as duas tardes, é a Páscoa de YHWH.",
+      "palavras": [
+        { "hebraico": "בַּחֹ֣דֶשׁ", "transliteral": "ba-ḥō-ḏeš", "traducao_palavra": "no mês" },
+        { "hebraico": "הָרִאשֹׁ֗ון", "transliteral": "hā-ri-šôn", "traducao_palavra": "o primeiro" },
+        { "hebraico": "בְּאַרְבָּעָ֨ה", "transliteral": "bə-ʾar-bā-ʿā", "traducao_palavra": "nos quatro" },
+        { "hebraico": "עָשָׂ֥ר", "transliteral": "ʿā-śār", "traducao_palavra": "[e] dez [catorze]" },
+        { "hebraico": "לַחֹ֖דֶשׁ", "transliteral": "la-ḥō-ḏeš", "traducao_palavra": "do mês" },
+        { "hebraico": "בֵּ֣ין", "transliteral": "bên", "traducao_palavra": "entre" },
+        { "hebraico": "הָעַרְבָּ֑יִם", "transliteral": "hā-ʿar-ba-yim", "traducao_palavra": "as duas tardes" },
+        { "hebraico": "פֶּ֖סַח", "transliteral": "pe-saḥ", "traducao_palavra": "[é a] Páscoa" },
+        { "hebraico": "לַיהוָֽה׃", "transliteral": "la-YHWH", "traducao_palavra": "para YHWH" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "E aos quinze dias deste mês é a festa dos pães asmos de YHWH; sete dias comereis pães asmos.",
+      "palavras": [
+        { "hebraico": "וּבַחֲמִשָּׁ֨ה", "transliteral": "ū-ḇa-ḥă-miš-šā", "traducao_palavra": "e aos cinco" },
+        { "hebraico": "עָשָׂ֥ר", "transliteral": "ʿā-śār", "traducao_palavra": "[e] dez [quinze]" },
+        { "hebraico": "יֹום֙", "transliteral": "yôm", "traducao_palavra": "dia" },
+        { "hebraico": "לַחֹ֣דֶשׁ", "transliteral": "la-ḥō-ḏeš", "traducao_palavra": "do mês" },
+        { "hebraico": "הַזֶּ֔ה", "transliteral": "haz-zeh", "traducao_palavra": "este" },
+        { "hebraico": "חַ֥ג", "transliteral": "ḥaḡ", "traducao_palavra": "festa de" },
+        { "hebraico": "הַמַּצֹּ֖ות", "transliteral": "ham-maṣ-ṣôṯ", "traducao_palavra": "os pães asmos" },
+        { "hebraico": "לַיהוָ֑ה", "transliteral": "la-YHWH", "traducao_palavra": "para YHWH" },
+        { "hebraico": "שִׁבְעַ֥ת", "transliteral": "šib-ʿaṯ", "traducao_palavra": "sete" },
+        { "hebraico": "יָמִ֖ים", "transliteral": "yā-mîm", "traducao_palavra": "dias" },
+        { "hebraico": "מַצֹּ֥ות", "transliteral": "maṣ-ṣôṯ", "traducao_palavra": "pães asmos" },
+        { "hebraico": "תֹּאכֵֽלוּ׃", "transliteral": "tō-ḵê-lû", "traducao_palavra": "comereis" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "No primeiro dia tereis santa convocação; nenhum trabalho servil fareis.",
+      "palavras": [
+        { "hebraico": "בַּיֹּום֙", "transliteral": "bay-yôm", "traducao_palavra": "no dia" },
+        { "hebraico": "הָרִאשֹׁ֔ון", "transliteral": "hā-ri-šôn", "traducao_palavra": "o primeiro" },
+        { "hebraico": "מִקְרָא־קֹ֖דֶשׁ", "transliteral": "miq-rā-qō-ḏeš", "traducao_palavra": "santa convocação" },
+        { "hebraico": "יִהְיֶ֣ה", "transliteral": "yih-yeh", "traducao_palavra": "haverá" },
+        { "hebraico": "לָכֶ֑ם", "transliteral": "lā-ḵem", "traducao_palavra": "para vós" },
+        { "hebraico": "כָּל־מְלֶ֥אכֶת", "transliteral": "kāl-me-le-ḵeṯ", "traducao_palavra": "qualquer obra de" },
+        { "hebraico": "עֲבֹדָ֖ה", "transliteral": "ʿă-ḇō-ḏā", "traducao_palavra": "servidão/trabalho" },
+        { "hebraico": "לֹ֥א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תַעֲשֽׂוּ׃", "transliteral": "ṯa-ʿă-śû", "traducao_palavra": "fareis" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "E sete dias oferecereis oferta queimada a YHWH; ao sétimo dia haverá santa convocação; nenhum trabalho servil fareis.",
+      "palavras": [
+        { "hebraico": "וְהִקְרַבְתֶּ֥ם", "transliteral": "wə-hiq-raḇ-tem", "traducao_palavra": "e oferecereis" },
+        { "hebraico": "אִשֶּׁ֛ה", "transliteral": "ʾiš-šeh", "traducao_palavra": "oferta queimada" },
+        { "hebraico": "לַיהוָ֖ה", "transliteral": "la-YHWH", "traducao_palavra": "a YHWH" },
+        { "hebraico": "שִׁבְעַ֣ת", "transliteral": "šib-ʿaṯ", "traducao_palavra": "sete" },
+        { "hebraico": "יָמִ֑ים", "transliteral": "yā-mîm", "traducao_palavra": "dias" },
+        { "hebraico": "בַּיֹּום֙", "transliteral": "bay-yôm", "traducao_palavra": "no dia" },
+        { "hebraico": "הַשְּׁבִיעִ֣י", "transliteral": "haš-šə-ḇî-ʿî", "traducao_palavra": "sétimo" },
+        { "hebraico": "מִקְרָא־קֹ֔דֶשׁ", "transliteral": "miq-rā-qō-ḏeš", "traducao_palavra": "santa convocação" },
+        { "hebraico": "כָּל־מְלֶ֥אכֶת", "transliteral": "kāl-me-le-ḵeṯ", "traducao_palavra": "qualquer obra de" },
+        { "hebraico": "עֲבֹדָ֖ה", "transliteral": "ʿă-ḇō-ḏā", "traducao_palavra": "servidão" },
+        { "hebraico": "לֹ֥א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תַעֲשֽׂוּ׃", "transliteral": "ṯa-ʿă-śû", "traducao_palavra": "fareis" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "E falou YHWH a Moisés, dizendo:",
+      "palavras": [
+        { "hebraico": "וַיְדַבֵּ֥ר", "transliteral": "way-yə-ḏab-bēr", "traducao_palavra": "e falou" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־מֹשֶׁ֥ה", "transliteral": "ʾel-mō-šeh", "traducao_palavra": "a Moisés" },
+        { "hebraico": "לֵּאמֹֽר׃", "transliteral": "lē-mōr", "traducao_palavra": "dizendo" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Fala aos filhos de Israel e dize-lhes: Quando houverdes entrado na terra que eu vos dou, e segardes a sua colheita, então trareis um molho das primícias da vossa colheita ao sacerdote;",
+      "palavras": [
+        { "hebraico": "דַּבֵּ֞ר", "transliteral": "dab-bēr", "traducao_palavra": "fala" },
+        { "hebraico": "אֶל־בְּנֵ֧י", "transliteral": "ʾel-bə-nê", "traducao_palavra": "aos filhos de" },
+        { "hebraico": "יִשְׂרָאֵ֛ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "וְאָמַרְתָּ֥", "transliteral": "wə-ʾā-mar-tā", "traducao_palavra": "e dirás" },
+        { "hebraico": "אֲלֵיהֶ֑ם", "transliteral": "ʾă-lê-hem", "traducao_palavra": "a eles" },
+        { "hebraico": "כִּֽי־תָבֹ֣אוּ", "transliteral": "kî-ṯā-ḇō-ʾû", "traducao_palavra": "quando entrardes" },
+        { "hebraico": "אֶל־הָאָ֗רֶץ", "transliteral": "ʾel-hā-ʾā-reṣ", "traducao_palavra": "na terra" },
+        { "hebraico": "אֲשֶׁ֤ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "אֲנִי֙", "transliteral": "ʾă-nî", "traducao_palavra": "Eu" },
+        { "hebraico": "נֹתֵ֣ן", "transliteral": "nō-ṯên", "traducao_palavra": "dou" },
+        { "hebraico": "לָכֶ֔ם", "transliteral": "lā-ḵem", "traducao_palavra": "a vós" },
+        { "hebraico": "וּקְצַרְתֶּ֖ם", "transliteral": "ū-qə-ṣar-tem", "traducao_palavra": "e segardes" },
+        { "hebraico": "אֶת־קְצִירָ֑הּ", "transliteral": "ʾeṯ-qə-ṣî-rāh", "traducao_palavra": "sua colheita" },
+        { "hebraico": "וַהֲבֵאתֶ֥ם", "transliteral": "wa-hă-ḇê-ṯem", "traducao_palavra": "e trareis" },
+        { "hebraico": "אֶת־עֹ֛מֶר", "transliteral": "ʾeṯ-ʿō-mer", "traducao_palavra": "o molho/ômer" },
+        { "hebraico": "רֵאשִׁ֥ית", "transliteral": "rē-šîṯ", "traducao_palavra": "[das] primícias de" },
+        { "hebraico": "קְצִירְכֶ֖ם", "transliteral": "qə-ṣî-rə-ḵem", "traducao_palavra": "vossa colheita" },
+        { "hebraico": "אֶל־הַכֹּהֵֽן׃", "transliteral": "ʾel-hak-kō-hên", "traducao_palavra": "ao sacerdote" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "E ele moverá o molho perante YHWH, para que sejais aceitos; no dia seguinte ao sábado, o sacerdote o moverá.",
+      "palavras": [
+        { "hebraico": "וְהֵנִ֧יף", "transliteral": "wə-hē-nîp̄", "traducao_palavra": "e moverá" },
+        { "hebraico": "אֶת־הָעֹ֛מֶר", "transliteral": "ʾeṯ-hā-ʿō-mer", "traducao_palavra": "o molho" },
+        { "hebraico": "לִפְנֵ֥י", "transliteral": "lip̄-nê", "traducao_palavra": "perante" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "לִֽרְצֹנְכֶ֑ם", "transliteral": "lir-ṣō-nə-ḵem", "traducao_palavra": "para vossa aceitação" },
+        { "hebraico": "מִֽמָּחֳרַת֙", "transliteral": "mim-mā-ḥo-raṯ", "traducao_palavra": "no dia seguinte a" },
+        { "hebraico": "הַשַּׁבָּ֔ת", "transliteral": "haš-šab-bāṯ", "traducao_palavra": "o sábado" },
+        { "hebraico": "יְנִיפֶ֖נּוּ", "transliteral": "yə-nî-p̄en-nû", "traducao_palavra": "[o] moverá" },
+        { "hebraico": "הַכֹּהֵֽן׃", "transliteral": "hak-kō-hên", "traducao_palavra": "o sacerdote" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "E no dia em que moverdes o molho, oferecereis um cordeiro sem defeito, de um ano, em holocausto a YHWH.",
+      "palavras": [
+        { "hebraico": "וַעֲשִׂיתֶ֕ם", "transliteral": "wa-ʿă-śî-ṯem", "traducao_palavra": "e fareis" },
+        { "hebraico": "בְּיֹ֥ום", "transliteral": "bə-yôm", "traducao_palavra": "no dia de" },
+        { "hebraico": "הֲנִֽיפְכֶ֖ם", "transliteral": "hă-nî-p̄ə-ḵem", "traducao_palavra": "vossa movimentação de" },
+        { "hebraico": "אֶת־הָעֹ֑מֶר", "transliteral": "ʾeṯ-hā-ʿō-mer", "traducao_palavra": "o molho" },
+        { "hebraico": "כֶּבֶשׂ", "transliteral": "ke-ḇeś", "traducao_palavra": "cordeiro" },
+        { "hebraico": "תָּמִ֧ים", "transliteral": "tā-mîm", "traducao_palavra": "íntegro" },
+        { "hebraico": "בֶּן־שְׁנָתֹ֛ו", "transliteral": "ben-šə-nā-ṯô", "traducao_palavra": "filho de seu ano" },
+        { "hebraico": "לְעֹלָ֖ה", "transliteral": "lə-ʿō-lā", "traducao_palavra": "para holocausto" },
+        { "hebraico": "לַיהוָֽה׃", "transliteral": "la-YHWH", "traducao_palavra": "para YHWH" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "E a sua oferta de manjares será de duas décimas de flor de farinha, amassada com azeite, para oferta queimada de cheiro suave a YHWH, e a sua libação de vinho, a quarta parte de um him.",
+      "palavras": [
+        { "hebraico": "וּמִנְחָתֹו֩", "transliteral": "ū-min-ḥā-ṯô", "traducao_palavra": "e sua oferta de manjares" },
+        { "hebraico": "שְׁנֵ֨י", "transliteral": "šə-nê", "traducao_palavra": "duas" },
+        { "hebraico": "עֶשְׂרֹנִ֜ים", "transliteral": "ʿeś-rō-nîm", "traducao_palavra": "décimas" },
+        { "hebraico": "סֹ֣לֶת", "transliteral": "sō-leṯ", "traducao_palavra": "flor de farinha" },
+        { "hebraico": "בְּלוּלָ֥ה", "transliteral": "bə-lū-lā", "traducao_palavra": "misturada" },
+        { "hebraico": "בַשֶּׁ֛מֶן", "transliteral": "ḇaš-še-men", "traducao_palavra": "com azeite" },
+        { "hebraico": "אִשֶּׁ֥ה", "transliteral": "ʾiš-šeh", "traducao_palavra": "oferta queimada" },
+        { "hebraico": "לַיהוָ֖ה", "transliteral": "la-YHWH", "traducao_palavra": "a YHWH" },
+        { "hebraico": "רֵ֣יחַ", "transliteral": "rê-aḥ", "traducao_palavra": "cheiro" },
+        { "hebraico": "נִיחֹ֑חַ", "transliteral": "nî-ḥō-aḥ", "traducao_palavra": "agradável" },
+        { "hebraico": "וְנִסְכֹּ֥ה", "transliteral": "wə-nis-kōh", "traducao_palavra": "e sua libação" },
+        { "hebraico": "יַ֖יִן", "transliteral": "ya-yin", "traducao_palavra": "vinho" },
+        { "hebraico": "רְבִיעִ֥ית", "transliteral": "rə-ḇî-ʿîṯ", "traducao_palavra": "quarta parte" },
+        { "hebraico": "הַהִֽין׃", "transliteral": "ha-hîn", "traducao_palavra": "[de um] him" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "E não comereis pão, nem trigo torrado, nem espigas verdes, até àquele mesmo dia em que trouxerdes a oferta do vosso Deus; estatuto perpétuo é pelas vossas gerações, em todas as vossas habitações.",
+      "palavras": [
+        { "hebraico": "וְלֶחֶם֩", "transliteral": "wə-le-ḥem", "traducao_palavra": "e pão" },
+        { "hebraico": "וְקָלִ֨י", "transliteral": "wə-qā-lî", "traducao_palavra": "e [grão] tostado" },
+        { "hebraico": "וְכַרְמֶ֜ל", "transliteral": "wə-ḵar-mel", "traducao_palavra": "e espigas verdes" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תֹֽאכְל֗וּ", "transliteral": "ṯō-ḵə-lû", "traducao_palavra": "comereis" },
+        { "hebraico": "עַד־עֶ֙צֶם֙", "transliteral": "ʿaḏ-ʿe-ṣem", "traducao_palavra": "até o próprio" },
+        { "hebraico": "הַיֹּ֣ום", "transliteral": "hay-yôm", "traducao_palavra": "dia" },
+        { "hebraico": "הַזֶּ֔ה", "transliteral": "haz-zeh", "traducao_palavra": "este" },
+        { "hebraico": "עַ֣ד", "transliteral": "ʿaḏ", "traducao_palavra": "até" },
+        { "hebraico": "הֲבִיאֲכֶ֔ם", "transliteral": "hă-ḇî-ʾă-ḵem", "traducao_palavra": "vós trazerdes" },
+        { "hebraico": "אֶת־קָרְבַּ֖ן", "transliteral": "ʾeṯ-qār-ban", "traducao_palavra": "a oferta de" },
+        { "hebraico": "אֱלֹהֵיכֶ֑ם", "transliteral": "ʾĕ-lō-hê-ḵem", "traducao_palavra": "vosso Deus" },
+        { "hebraico": "חֻקַּ֤ת", "transliteral": "ḥuq-qaṯ", "traducao_palavra": "estatuto de" },
+        { "hebraico": "עוֹלָם֙", "transliteral": "ʿô-lām", "traducao_palavra": "eternidade" },
+        { "hebraico": "לְדֹרֹ֣תֵיכֶ֔ם", "transliteral": "lə-ḏō-rō-ṯê-ḵem", "traducao_palavra": "pelas vossas gerações" },
+        { "hebraico": "בְּכֹ֖ל", "transliteral": "bə-ḵōl", "traducao_palavra": "em todas" },
+        { "hebraico": "מֹשְׁבֹתֵיכֶֽם׃", "transliteral": "mō-šə-ḇō-ṯê-ḵem", "traducao_palavra": "vossas habitações" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "Depois contareis para vós desde o dia seguinte ao sábado, desde o dia em que trouxerdes o molho da oferta movida; sete semanas inteiras serão.",
+      "palavras": [
+        { "hebraico": "וּסְפַרְתֶּ֤ם", "transliteral": "ū-śə-p̄ar-tem", "traducao_palavra": "e contareis" },
+        { "hebraico": "לָכֶם֙", "transliteral": "lā-ḵem", "traducao_palavra": "para vós" },
+        { "hebraico": "מִמָּחֳרַת", "transliteral": "mim-mā-ḥo-raṯ", "traducao_palavra": "desde o dia seguinte a" },
+        { "hebraico": "הַשַּׁבָּ֔ת", "transliteral": "haš-šab-bāṯ", "traducao_palavra": "o sábado" },
+        { "hebraico": "מִיֹּום֙", "transliteral": "miy-yôm", "traducao_palavra": "desde o dia" },
+        { "hebraico": "הֲבִיאֲכֶ֔ם", "transliteral": "hă-ḇî-ʾă-ḵem", "traducao_palavra": "vós trazerdes" },
+        { "hebraico": "אֶת־עֹ֖מֶר", "transliteral": "ʾeṯ-ʿō-mer", "traducao_palavra": "o molho de" },
+        { "hebraico": "הַתְּנוּפָ֑ה", "transliteral": "hat-tə-nû-p̄ā", "traducao_palavra": "a oferta movida" },
+        { "hebraico": "שֶׁ֥בַע", "transliteral": "še-ḇaʿ", "traducao_palavra": "sete" },
+        { "hebraico": "שַׁבָּתֹ֖ות", "transliteral": "šab-bā-ṯôṯ", "traducao_palavra": "semanas" },
+        { "hebraico": "תְּמִימֹ֥ת", "transliteral": "tə-mî-mōṯ", "traducao_palavra": "completas/íntegras" },
+        { "hebraico": "תִּהְיֶֽינָה׃", "transliteral": "tih-ye-nā", "traducao_palavra": "elas serão" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Até ao dia seguinte ao sétimo sábado, contareis cinquenta dias; então oferecereis nova oferta de manjares a YHWH.",
+      "palavras": [
+        { "hebraico": "עַ֣ד", "transliteral": "ʿaḏ", "traducao_palavra": "até" },
+        { "hebraico": "מִֽמָּחֳרַת֙", "transliteral": "mim-mā-ḥo-raṯ", "traducao_palavra": "o dia seguinte a" },
+        { "hebraico": "הַשַּׁבָּ֣ת", "transliteral": "haš-šab-bāṯ", "traducao_palavra": "o sábado" },
+        { "hebraico": "הַשְּׁבִיעִ֔ת", "transliteral": "haš-šə-ḇî-ʿîṯ", "traducao_palavra": "sétimo" },
+        { "hebraico": "תִּסְפְּר֖וּ", "transliteral": "tis-pə-rû", "traducao_palavra": "contareis" },
+        { "hebraico": "חֲמִשִּׁ֣ים", "transliteral": "ḥă-miš-šîm", "traducao_palavra": "cinquenta" },
+        { "hebraico": "יֹ֑ום", "transliteral": "yôm", "traducao_palavra": "dia" },
+        { "hebraico": "וְהִקְרַבְתֶּ֛ם", "transliteral": "wə-hiq-raḇ-tem", "traducao_palavra": "e oferecereis" },
+        { "hebraico": "מִנְחָ֥ה", "transliteral": "min-ḥā", "traducao_palavra": "oferta de manjares" },
+        { "hebraico": "חֲדָשָׁ֖ה", "transliteral": "ḥă-ḏā-šā", "traducao_palavra": "nova" },
+        { "hebraico": "לַיהוָֽה׃", "transliteral": "la-YHWH", "traducao_palavra": "a YHWH" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "Das vossas habitações trareis dois pães de oferta movida; de duas décimas de efa de flor de farinha serão, levedados se cozerão; primícias são a YHWH.",
+      "palavras": [
+        { "hebraico": "מִמֹּושְׁבֹתֵיכֶ֨ם", "transliteral": "mim-mô-šə-ḇō-ṯê-ḵem", "traducao_palavra": "das vossas habitações" },
+        { "hebraico": "תָּבִ֜יאּוּ", "transliteral": "tā-ḇî-ʾû", "traducao_palavra": "trareis" },
+        { "hebraico": "לֶ֣חֶם", "transliteral": "le-ḥem", "traducao_palavra": "pães [de]" },
+        { "hebraico": "תְּנוּפָה֮", "transliteral": "tə-nū-p̄ā", "traducao_palavra": "oferta movida" },
+        { "hebraico": "שְׁתַּיִם֮", "transliteral": "šə-ta-yim", "traducao_palavra": "dois" },
+        { "hebraico": "שְׁנֵ֣י", "transliteral": "šə-nê", "traducao_palavra": "duas" },
+        { "hebraico": "עֶשְׂרֹנִים֮", "transliteral": "ʿeś-rō-nîm", "traducao_palavra": "décimas" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "Com o pão oferecereis sete cordeiros de um ano, sem defeito, e um novilho, e dois carneiros; holocausto serão a YHWH, com a sua oferta de manjares e as suas libações, por oferta queimada de cheiro suave a YHWH.",
+      "palavras": [
+        { "hebraico": "וְהִקְרַבְתֶּ֣ם", "transliteral": "wə-hiq-raḇ-tem", "traducao_palavra": "e oferecereis" },
+        { "hebraico": "עַל־הַלֶּ֗חֶם", "transliteral": "ʿal-hal-le-ḥem", "traducao_palavra": "além do pão" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "Também oferecereis um bode para oferta pelo pecado, e dois cordeiros de um ano para sacrifício pacífico.",
+      "palavras": [
+        { "hebraico": "וַעֲשִׂיתֶ֛ם", "transliteral": "wa-ʿă-śî-ṯem", "traducao_palavra": "e fareis/oferecereis" },
+        { "hebraico": "שְׂעִיר־עִזִּ֥ים", "transliteral": "śə-ʿîr-ʿiz-zîm", "traducao_palavra": "um bode" },
+        { "hebraico": "אֶחָ֖ד", "transliteral": "ʾe-ḥāḏ", "traducao_palavra": "um" },
+        { "hebraico": "לְחַטָּ֑את", "transliteral": "lə-ḥaṭ-ṭāṯ", "traducao_palavra": "por oferta pelo pecado" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "Então o sacerdote os moverá com o pão das primícias por oferta movida perante YHWH, com os dois cordeiros; santos serão a YHWH para o sacerdote.",
+      "palavras": [
+        { "hebraico": "וְהֵנִיף", "transliteral": "wə-hē-nîp̄", "traducao_palavra": "então moverá" },
+        { "hebraico": "הַכֹּהֵ֣ן", "transliteral": "hak-kō-hên", "traducao_palavra": "o sacerdote" },
+        { "hebraico": "אֹתָם֩", "transliteral": "ʾō-ṯām", "traducao_palavra": "eles" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "E naquele mesmo dia apregoareis que tereis santa convocação; nenhum trabalho servil fareis; estatuto perpétuo é em todas as vossas habitações, pelas vossas gerações.",
+      "palavras": [
+        { "hebraico": "וּקְרָאתֶ֞ם", "transliteral": "ū-qə-rā-ṯem", "traducao_palavra": "e apregoareis" },
+        { "hebraico": "בְּעֶ֣צֶם ׀", "transliteral": "bə-ʿe-ṣem", "traducao_palavra": "no próprio" },
+        { "hebraico": "הַיֹּ֣ום", "transliteral": "hay-yôm", "traducao_palavra": "dia" },
+        { "hebraico": "הַזֶּ֗ה", "transliteral": "haz-zeh", "traducao_palavra": "este" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "E, quando segardes a colheita da vossa terra, não acabarás de segar os cantos do teu campo, nem colherás o rebusco da tua colheita; para o pobre e para o estrangeiro os deixarás. Eu sou YHWH vosso Deus.",
+      "palavras": [
+        { "hebraico": "וּֽבְקֻצְרְכֶם֮", "transliteral": "ū-ḇə-quṣ-rə-ḵem", "traducao_palavra": "e quando segardes" },
+        { "hebraico": "אֶת־קְצִ֣יר", "transliteral": "ʾeṯ qə-ṣîr", "traducao_palavra": "a colheita de" },
+        { "hebraico": "אַרְצְכֶם֒", "transliteral": "ʾar-ṣə-ḵem", "traducao_palavra": "vossa terra" },
+        { "hebraico": "לֹא־תְכַלֶּ֞ה", "transliteral": "lō-ṯə-ḵal-leh", "traducao_palavra": "não acabarás" },
+        { "hebraico": "פְּאַ֤ת", "transliteral": "pə-ʾaṯ", "traducao_palavra": "[o] canto de" },
+        { "hebraico": "שָׂדְךָ֙", "transliteral": "śā-ḏə-ḵā", "traducao_palavra": "teu campo" },
+        { "hebraico": "בְּקֻצְרֶ֔ךָ", "transliteral": "bə-quṣ-re-ḵā", "traducao_palavra": "ao segares" },
+        { "hebraico": "וְלֶ֥קֶט", "transliteral": "wə-le-qeṭ", "traducao_palavra": "e o rebusco de" },
+        { "hebraico": "קְצִירְךָ֖", "transliteral": "qə-ṣî-rə-ḵā", "traducao_palavra": "tua colheita" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תְלַקֵּ֑ט", "transliteral": "ṯə-laq-qēṭ", "traducao_palavra": "colherás" },
+        { "hebraico": "לֶֽעָנִ֤י", "transliteral": "le-ʿā-nî", "traducao_palavra": "ao pobre" },
+        { "hebraico": "וְלַגֵּר֙", "transliteral": "wə-la-gēr", "traducao_palavra": "e ao estrangeiro" },
+        { "hebraico": "תַּעֲזֹ֣ב", "transliteral": "ta-ʿă-zōḇ", "traducao_palavra": "os deixarás" },
+        { "hebraico": "אֹתָ֔ם", "transliteral": "ʾō-ṯām", "traducao_palavra": "eles" },
+        { "hebraico": "אֲנִ֖י", "transliteral": "ʾă-nî", "traducao_palavra": "Eu [som]" },
+        { "hebraico": "יְהוָ֥ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֱלֹהֵיכֶֽם׃", "transliteral": "ʾĕ-lō-hê-ḵem", "traducao_palavra": "vosso Deus" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "E falou YHWH a Moisés, dizendo:",
+      "palavras": [
+        { "hebraico": "וַיְדַבֵּ֥ר", "transliteral": "way-yə-ḏab-bēr", "traducao_palavra": "e falou" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־מֹשֶׁ֥ה", "transliteral": "ʾel-mō-šeh", "traducao_palavra": "a Moisés" },
+        { "hebraico": "לֵּאמֹֽר׃", "transliteral": "lē-mōr", "traducao_palavra": "dizendo" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "Fala aos filhos de Israel, dizendo: No sétimo mês, ao primeiro do mês, tereis descanso solene, memorial de aclamação, santa convocação.",
+      "palavras": [
+        { "hebraico": "דַּבֵּ֨ר", "transliteral": "dab-bēr", "traducao_palavra": "fala" },
+        { "hebraico": "אֶל־בְּנֵ֧י", "transliteral": "ʾel-bə-nê", "traducao_palavra": "aos filhos de" },
+        { "hebraico": "יִשְׂרָאֵ֛ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "לֵאמֹ֑ר", "transliteral": "lē-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "בַּחֹ֣דֶשׁ", "transliteral": "ba-ḥō-ḏeš", "traducao_palavra": "no mês" },
+        { "hebraico": "הַשְּׁבִיעִ֗י", "transliteral": "haš-šə-ḇî-ʿî", "traducao_palavra": "o sétimo" },
+        { "hebraico": "בְּאֶחָד֙", "transliteral": "bə-ʾe-ḥāḏ", "traducao_palavra": "em um [primeiro dia]" },
+        { "hebraico": "לַחֹ֔דֶשׁ", "transliteral": "la-ḥō-ḏeš", "traducao_palavra": "do mês" },
+        { "hebraico": "יִהְיֶ֥ה", "transliteral": "yih-yeh", "traducao_palavra": "haverá" },
+        { "hebraico": "לָכֶ֖ם", "transliteral": "lā-ḵem", "traducao_palavra": "para vós" },
+        { "hebraico": "שַׁבָּתֹ֑ון", "transliteral": "šab-bā-ṯôn", "traducao_palavra": "descanso solene" },
+        { "hebraico": "זִכְרֹ֥ון", "transliteral": "ziḵ-rôn", "traducao_palavra": "memorial de" },
+        { "hebraico": "תְּרוּעָ֖ה", "transliteral": "tərû-ʿā", "traducao_palavra": "aclamação/trombetas" },
+        { "hebraico": "מִקְרָא־קֹֽדֶשׁ׃", "transliteral": "miq-rā-qō-ḏeš", "traducao_palavra": "santa convocação" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "Nenhum trabalho servil fareis, e oferecereis oferta queimada a YHWH.",
+      "palavras": [
+        { "hebraico": "כָּל־מְלֶ֥אכֶת", "transliteral": "kāl-me-le-ḵeṯ", "traducao_palavra": "qualquer obra de" },
+        { "hebraico": "עֲבֹדָ֖ה", "transliteral": "ʿă-ḇō-ḏā", "traducao_palavra": "servidão" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תַעֲשׂ֑וּ", "transliteral": "ṯa-ʿă-śû", "traducao_palavra": "fareis" },
+        { "hebraico": "וְהִקְרַבְתֶּ֥ם", "transliteral": "wə-hiq-raḇ-tem", "traducao_palavra": "e oferecereis" },
+        { "hebraico": "אִשֶּׁ֖ה", "transliteral": "ʾiš-šeh", "traducao_palavra": "oferta queimada" },
+        { "hebraico": "לַיהוָֽה׃", "transliteral": "la-YHWH", "traducao_palavra": "a YHWH" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "Falou mais YHWH a Moisés, dizendo:",
+      "palavras": [
+        { "hebraico": "וַיְדַבֵּ֥ר", "transliteral": "way-yə-ḏab-bēr", "traducao_palavra": "e falou" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־מֹשֶׁ֥ה", "transliteral": "ʾel-mō-šeh", "traducao_palavra": "a Moisés" },
+        { "hebraico": "לֵּאמֹֽר׃", "transliteral": "lē-mōr", "traducao_palavra": "dizendo" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "Certamente aos dez dias deste sétimo mês será o dia da expiação; tereis santa convocação, e afligireis as vossas almas; e oferecereis oferta queimada a YHWH.",
+      "palavras": [
+        { "hebraico": "אַ֡ךְ", "transliteral": "ʾaḵ", "traducao_palavra": "certamente/contudo" },
+        { "hebraico": "בֶּעָשֹׂור֩", "transliteral": "be-ʿā-śôr", "traducao_palavra": "aos dez" },
+        { "hebraico": "לַחֹ֨דֶשׁ", "transliteral": "la-ḥō-ḏeš", "traducao_palavra": "do mês" },
+        { "hebraico": "הַשְּׁבִיעִ֜י", "transliteral": "haš-šə-ḇî-ʿî", "traducao_palavra": "sétimo" },
+        { "hebraico": "הַזֶּ֗ה", "transliteral": "haz-zeh", "traducao_palavra": "este" },
+        { "hebraico": "יֹ֧ום", "transliteral": "yôm", "traducao_palavra": "dia de" },
+        { "hebraico": "הַכִּפֻּרִ֣ים", "transliteral": "hak-kip-pu-rîm", "traducao_palavra": "as expiações" },
+        { "hebraico": "הוּא֮", "transliteral": "hû", "traducao_palavra": "ele [é]" },
+        { "hebraico": "מִקְרָא־קֹדֶשׁ֮", "transliteral": "miq-rā-qō-ḏeš", "traducao_palavra": "santa convocação" },
+        { "hebraico": "יִהְיֶ֣ה", "transliteral": "yih-yeh", "traducao_palavra": "haverá" },
+        { "hebraico": "לָכֶם֒", "transliteral": "lā-ḵem", "traducao_palavra": "para vós" },
+        { "hebraico": "וְעִנִּיתֶ֖ם", "transliteral": "wə-ʿin-nî-ṯem", "traducao_palavra": "e afligireis" },
+        { "hebraico": "אֶת־נַפְשֹׁתֵיכֶ֑ם", "transliteral": "ʾeṯ-nap̄-šō-ṯê-ḵem", "traducao_palavra": "vossas almas" },
+        { "hebraico": "וְהִקְרַבְתֶּ֥ם", "transliteral": "wə-hiq-raḇ-tem", "traducao_palavra": "e oferecereis" },
+        { "hebraico": "אִשֶּׁ֖ה", "transliteral": "ʾiš-šeh", "traducao_palavra": "oferta queimada" },
+        { "hebraico": "לַיהוָֽה׃", "transliteral": "la-YHWH", "traducao_palavra": "a YHWH" }
+      ]
+    },
+    "28": {
+      "traducao_completa": "E naquele mesmo dia nenhum trabalho fareis, porque é o dia da expiação, para fazer expiação por vós perante YHWH vosso Deus.",
+      "palavras": [
+        { "hebraico": "וְכָל־מְלָאכָה֙", "transliteral": "wə-ḵāl-mə-lā-ḵā", "traducao_palavra": "e qualquer trabalho" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תַעֲשׂ֔וּ", "transliteral": "ṯa-ʿă-śû", "traducao_palavra": "fareis" },
+        { "hebraico": "בְּעֶ֖צֶם", "transliteral": "bə-ʿe-ṣem", "traducao_palavra": "no próprio" },
+        { "hebraico": "הַיֹּ֣ום", "transliteral": "hay-yôm", "traducao_palavra": "dia" },
+        { "hebraico": "הַזֶּ֑ה", "transliteral": "haz-zeh", "traducao_palavra": "este" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "יֹ֤ום", "transliteral": "yôm", "traducao_palavra": "dia de" },
+        { "hebraico": "כִּפֻּרִים֙", "transliteral": "kip-pu-rîm", "traducao_palavra": "expiações" },
+        { "hebraico": "ה֔וּא", "transliteral": "hû", "traducao_palavra": "ele [é]" },
+        { "hebraico": "לְכַפֵּ֣ר", "transliteral": "lə-ḵap-pēr", "traducao_palavra": "para fazer expiação" },
+        { "hebraico": "עֲלֵיכֶ֔ם", "transliteral": "ʿă-lê-ḵem", "traducao_palavra": "por vós" },
+        { "hebraico": "לִפְנֵ֖י", "transliteral": "lip̄-nê", "traducao_palavra": "perante" },
+        { "hebraico": "יְהוָ֥ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֱלֹהֵיכֶֽם׃", "transliteral": "ʾĕ-lō-hê-ḵem", "traducao_palavra": "vosso Deus" }
+      ]
+    },
+    "29": {
+      "traducao_completa": "Pois toda alma que não se afligir naquele mesmo dia será extirpada do seu povo.",
+      "palavras": [
+        { "hebraico": "כִּ֤י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "כָל־הַנֶּ֨פֶשׁ֙", "transliteral": "ḵāl-han-ne-p̄eš", "traducao_palavra": "toda a alma" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "לֹֽא־תְעֻנֶּ֔ה", "transliteral": "lō-ṯə-ʿun-neh", "traducao_palavra": "não se afligir" },
+        { "hebraico": "בְּעֶ֖צֶם", "transliteral": "bə-ʿe-ṣem", "traducao_palavra": "no próprio" },
+        { "hebraico": "הַיֹּ֣ום", "transliteral": "hay-yôm", "traducao_palavra": "dia" },
+        { "hebraico": "הַזֶּ֑ה", "transliteral": "haz-zeh", "traducao_palavra": "este" },
+        { "hebraico": "וְנִכְרְתָ֖ה", "transliteral": "wə-niḵ-rə-ṯā", "traducao_palavra": "será extirpada" },
+        { "hebraico": "מֵעַמֶּֽיהָ׃", "transliteral": "mē-ʿam-me-hā", "traducao_palavra": "de seu povo" }
+      ]
+    },
+    "30": {
+      "traducao_completa": "E toda alma que naquele mesmo dia fizer algum trabalho, eu a destruirei do meio do seu povo.",
+      "palavras": [
+        { "hebraico": "וְכָל־הַנֶּ֗פֶשׁ", "transliteral": "wə-ḵāl-han-ne-p̄eš", "traducao_palavra": "e toda a alma" },
+        { "hebraico": "אֲשֶׁ֤ר תַּעֲשֶׂה֙", "transliteral": "ʾă-šer ta-ʿă-śeh", "traducao_palavra": "que fizer" },
+        { "hebraico": "כָּל־מְלָאכָ֔ה", "transliteral": "kāl-mə-lā-ḵā", "traducao_palavra": "qualquer trabalho" },
+        { "hebraico": "בְּעֶ֖צֶם", "transliteral": "bə-ʿe-ṣem", "traducao_palavra": "no próprio" },
+        { "hebraico": "הַיֹּ֣ום", "transliteral": "hay-yôm", "traducao_palavra": "dia" },
+        { "hebraico": "הַזֶּ֑ה", "transliteral": "haz-zeh", "traducao_palavra": "este" },
+        { "hebraico": "וְהַאֲבַדְתִּ֛י", "transliteral": "wə-ha-ʾă-ḇaḏ-tî", "traducao_palavra": "então destruirei" },
+        { "hebraico": "אֶת־הַנֶּ֥פֶשׁ", "transliteral": "ʾeṯ han-ne-p̄eš", "traducao_palavra": "a alma" },
+        { "hebraico": "הַהִ֖וא", "transliteral": "ha-hî", "traducao_palavra": "aquela" },
+        { "hebraico": "מִקֶּ֥רֶב", "transliteral": "miq-qe-reḇ", "traducao_palavra": "do meio de" },
+        { "hebraico": "עַמָּֽהּ׃", "transliteral": "ʿam-māh", "traducao_palavra": "seu povo" }
+      ]
+    },
+    "31": {
+      "traducao_completa": "Nenhum trabalho fareis; estatuto perpétuo é pelas vossas gerações, em todas as vossas habitações.",
+      "palavras": [
+        { "hebraico": "כָּל־מְלָאכָה֮", "transliteral": "kāl-mə-lā-ḵā", "traducao_palavra": "qualquer trabalho" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תַעֲשׂוּ֒", "transliteral": "ṯa-ʿă-śû", "traducao_palavra": "fareis" },
+        { "hebraico": "חֻקַּ֤ת", "transliteral": "ḥuq-qaṯ", "traducao_palavra": "estatuto de" },
+        { "hebraico": "עוֹלָם֙", "transliteral": "ʿô-lām", "traducao_palavra": "eternidade" },
+        { "hebraico": "לְדֹרֹ֣תֵיכֶ֔ם", "transliteral": "lə-ḏō-rō-ṯê-ḵem", "traducao_palavra": "pelas vossas gerações" },
+        { "hebraico": "בְּכֹ֖ל", "transliteral": "bə-ḵōl", "traducao_palavra": "em todas" },
+        { "hebraico": "מֹשְׁבֹתֵיכֶֽם׃", "transliteral": "mō-šə-ḇō-ṯê-ḵem", "traducao_palavra": "vossas habitações" }
+      ]
+    },
+    "32": {
+      "traducao_completa": "Sábado de descanso vos será, e afligireis as vossas almas; aos nove do mês à tarde, de uma tarde a outra tarde, celebrareis o vosso sábado.",
+      "palavras": [
+        { "hebraico": "שַׁבַּ֨ת", "transliteral": "šab-baṯ", "traducao_palavra": "sábado de" },
+        { "hebraico": "שַׁבָּת֥וֹן", "transliteral": "šab-bā-ṯôn", "traducao_palavra": "descanso solene" },
+        { "hebraico": "הִוא֙", "transliteral": "hî", "traducao_palavra": "ele [é]" },
+        { "hebraico": "לָכֶ֔ם", "transliteral": "lā-ḵem", "traducao_palavra": "para vós" },
+        { "hebraico": "וְעִנִּיתֶ֖ם", "transliteral": "wə-ʿin-nî-ṯem", "traducao_palavra": "e afligireis" },
+        { "hebraico": "אֶת־נַפְשֹׁתֵיכֶ֑ם", "transliteral": "ʾeṯ-nap̄-šō-ṯê-ḵem", "traducao_palavra": "vossas almas" },
+        { "hebraico": "בְּתִשְׁעָ֤ה", "transliteral": "bə-ṯiš-ʿā", "traducao_palavra": "aos nove" },
+        { "hebraico": "לַחֹ֨דֶשׁ֙", "transliteral": "la-ḥō-ḏeš", "traducao_palavra": "do mês" },
+        { "hebraico": "בָּעֶ֔רֶב", "transliteral": "bā-ʿe-reḇ", "traducao_palavra": "à tarde" },
+        { "hebraico": "מֵעֶ֣רֶב", "transliteral": "mê-ʿe-reḇ", "traducao_palavra": "da tarde" },
+        { "hebraico": "עַד־עֶ֔רֶב", "transliteral": "ʿaḏ-ʿe-reḇ", "traducao_palavra": "até a tarde" },
+        { "hebraico": "תִּשְׁבְּת֖וּ", "transliteral": "tiš-bə-ṯû", "traducao_palavra": "celebrareis/descansareis" },
+        { "hebraico": "שַׁבַּתְּכֶֽם׃", "transliteral": "šab-bat-tə-ḵem", "traducao_palavra": "vosso sábado" }
+      ]
+    },
+    "33": {
+      "traducao_completa": "E falou YHWH a Moisés, dizendo:",
+      "palavras": [
+        { "hebraico": "וַיְדַבֵּ֥ר", "transliteral": "way-yə-ḏab-bēr", "traducao_palavra": "e falou" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־מֹשֶׁ֥ה", "transliteral": "ʾel-mō-šeh", "traducao_palavra": "a Moisés" },
+        { "hebraico": "לֵּאמֹֽר׃", "transliteral": "lē-mōr", "traducao_palavra": "dizendo" }
+      ]
+    },
+    "34": {
+      "traducao_completa": "Fala aos filhos de Israel, dizendo: Aos quinze dias deste sétimo mês será a festa das cabanas por sete dias a YHWH.",
+      "palavras": [
+        { "hebraico": "דַּבֵּ֨ר", "transliteral": "dab-bēr", "traducao_palavra": "fala" },
+        { "hebraico": "אֶל־בְּנֵ֧י", "transliteral": "ʾel-bə-nê", "traducao_palavra": "aos filhos de" },
+        { "hebraico": "יִשְׂרָאֵ֛ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "לֵאמֹ֑ר", "transliteral": "lē-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "בַּחֲמִשָּׁ֨ה", "transliteral": "ba-ḥă-miš-šā", "traducao_palavra": "aos cinco" },
+        { "hebraico": "עָשָׂ֥ר", "transliteral": "ʿā-śār", "traducao_palavra": "dez [quinze]" },
+        { "hebraico": "יֹום֙", "transliteral": "yôm", "traducao_palavra": "dia" },
+        { "hebraico": "לַחֹ֣דֶשׁ", "transliteral": "la-ḥō-ḏeš", "traducao_palavra": "do mês" },
+        { "hebraico": "הַשְּׁבִיעִ֣י", "transliteral": "haš-šə-ḇî-ʿî", "traducao_palavra": "sétimo" },
+        { "hebraico": "הַזֶּ֔ה", "transliteral": "haz-zeh", "traducao_palavra": "este" },
+        { "hebraico": "חַ֧ג", "transliteral": "ḥaḡ", "traducao_palavra": "festa de" },
+        { "hebraico": "הַסֻּכֹּ֛ות", "transliteral": "has-suk-kôṯ", "traducao_palavra": "as cabanas/tabernáculos" },
+        { "hebraico": "שִׁבְעַ֥ת", "transliteral": "šib-ʿaṯ", "traducao_palavra": "sete" },
+        { "hebraico": "יָמִ֖ים", "transliteral": "yā-mîm", "traducao_palavra": "dias" },
+        { "hebraico": "לַיהוָֽה׃", "transliteral": "la-YHWH", "traducao_palavra": "a YHWH" }
+      ]
+    },
+    "35": {
+      "traducao_completa": "No primeiro dia haverá santa convocação; nenhum trabalho servil fareis.",
+      "palavras": [
+        { "hebraico": "בַּיֹּ֥ום", "transliteral": "bay-yôm", "traducao_palavra": "no dia" },
+        { "hebraico": "הָרִאשֹׁ֖ון", "transliteral": "hā-ri-šôn", "traducao_palavra": "primeiro" },
+        { "hebraico": "מִקְרָא־קֹ֑דֶשׁ", "transliteral": "miq-rā-qō-ḏeš", "traducao_palavra": "santa convocação" },
+        { "hebraico": "כָּל־מְלֶ֥אכֶת", "transliteral": "kāl-me-le-ḵeṯ", "traducao_palavra": "qualquer obra de" },
+        { "hebraico": "עֲבֹדָ֖ה", "transliteral": "ʿă-ḇō-ḏā", "traducao_palavra": "servidão" },
+        { "hebraico": "לֹ֥א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תַעֲשֽׂוּ׃", "transliteral": "ṯa-ʿă-śû", "traducao_palavra": "fareis" }
+      ]
+    },
+    "36": {
+      "traducao_completa": "Sete dias oferecereis ofertas queimadas a YHWH; ao oitavo dia tereis santa convocação, e oferecereis ofertas queimadas a YHWH; é assembleia solene; nenhum trabalho servil fareis.",
+      "palavras": [
+        { "hebraico": "שִׁבְעַ֣ת", "transliteral": "šib-ʿaṯ", "traducao_palavra": "sete" },
+        { "hebraico": "יָמִ֔ים", "transliteral": "yā-mîm", "traducao_palavra": "dias" },
+        { "hebraico": "תַּקְרִ֥יבוּ", "transliteral": "ṯaq-rî-ḇû", "traducao_palavra": "oferecereis" },
+        { "hebraico": "אִשֶּׁ֖ה", "transliteral": "ʾiš-šeh", "traducao_palavra": "oferta queimada" },
+        { "hebraico": "לַיהוָ֑ה", "transliteral": "la-YHWH", "traducao_palavra": "a YHWH" },
+        { "hebraico": "בַּיֹּ֣ום", "transliteral": "bay-yôm", "traducao_palavra": "no dia" },
+        { "hebraico": "הַשְּׁמִינִ֡י", "transliteral": "haš-šə-mî-nî", "traducao_palavra": "oitavo" },
+        { "hebraico": "מִקְרָא־קֹ֨דֶשׁ֙", "transliteral": "miq-rā-qō-ḏeš", "traducao_palavra": "santa convocação" },
+        { "hebraico": "יִהְיֶ֣ה", "transliteral": "yih-yeh", "traducao_palavra": "haverá" },
+        { "hebraico": "לָכֶ֔ם", "transliteral": "lā-ḵem", "traducao_palavra": "para vós" },
+        { "hebraico": "וְהִקְרַבְתֶּ֥ם", "transliteral": "wə-hiq-raḇ-tem", "traducao_palavra": "e oferecereis" },
+        { "hebraico": "אִשֶּׁ֖ה", "transliteral": "ʾiš-šeh", "traducao_palavra": "oferta queimada" },
+        { "hebraico": "לַיהוָ֑ה", "transliteral": "la-YHWH", "traducao_palavra": "a YHWH" },
+        { "hebraico": "עֲצֶ֣רֶת", "transliteral": "ʿă-ṣe-reṯ", "traducao_palavra": "assembleia solene" },
+        { "hebraico": "הִ֔וא", "transliteral": "hî", "traducao_palavra": "ela [é]" },
+        { "hebraico": "כָּל־מְלֶ֥אכֶת", "transliteral": "kāl-me-le-ḵeṯ", "traducao_palavra": "qualquer obra de" },
+        { "hebraico": "עֲבֹדָ֖ה", "transliteral": "ʿă-ḇō-ḏā", "traducao_palavra": "servidão" },
+        { "hebraico": "לֹ֥א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תַעֲשֽׂוּ׃", "transliteral": "ṯa-ʿă-śû", "traducao_palavra": "fareis" }
+      ]
+    },
+    "37": {
+      "traducao_completa": "Estas são as festas fixas de YHWH, que convocareis para serem santas convocações, para oferecer a YHWH oferta queimada, holocausto e oferta de manjares, sacrifício e libações, cada qual no seu dia próprio;",
+      "palavras": [
+        { "hebraico": "אֵ֚לֶּה", "transliteral": "ʾēl-leh", "traducao_palavra": "estas [são]" },
+        { "hebraico": "מֹועֲדֵ֣י", "transliteral": "mô-ʿă-ḏê", "traducao_palavra": "as festas fixas de" },
+        { "hebraico": "יְהוָ֔ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֲשֶׁר־תִּקְרְא֥וּ", "transliteral": "ʾă-šer-tiq-rə-ʾû", "traducao_palavra": "que convocareis" },
+        { "hebraico": "אֹתָ֖ם", "transliteral": "ʾō-ṯām", "traducao_palavra": "elas" },
+        { "hebraico": "מִקְרָאֵ֣י", "transliteral": "miq-rā-ʾê", "traducao_palavra": "convocações de" },
+        { "hebraico": "קֹ֑דֶשׁ", "transliteral": "qō-ḏeš", "traducao_palavra": "santidade" },
+        { "hebraico": "לְהַקְרִ֨יב", "transliteral": "lə-haq-rîḇ", "traducao_palavra": "para oferecer" },
+        { "hebraico": "אִשֶּׁ֜ה", "transliteral": "ʾiš-šeh", "traducao_palavra": "oferta queimada" },
+        { "hebraico": "לַיהוָ֗ה", "transliteral": "la-YHWH", "traducao_palavra": "a YHWH" },
+        { "hebraico": "עֹלָ֧ה", "transliteral": "ʿō-lā", "traducao_palavra": "holocausto" },
+        { "hebraico": "וּמִנְחָ֛ה", "transliteral": "ū-min-ḥā", "traducao_palavra": "e oferta de manjares" },
+        { "hebraico": "זֶ֥בַח", "transliteral": "ze-ḇaḥ", "traducao_palavra": "sacrifício" },
+        { "hebraico": "וּנְסָכִ֖ים", "transliteral": "ū-nə-sā-ḵîm", "traducao_palavra": "e libações" },
+        { "hebraico": "דְּבַר־יֹ֥ום", "transliteral": "də-ḇar-yôm", "traducao_palavra": "coisa de dia" },
+        { "hebraico": "בְּיֹומֹֽו׃", "transliteral": "bə-yô-mô", "traducao_palavra": "no seu dia" }
+      ]
+    },
+    "38": {
+      "traducao_completa": "Além dos sábados de YHWH, e além das vossas dádivas, e além de todos os vossos votos, e além de todas as vossas ofertas voluntárias que derdes a YHWH.",
+      "palavras": [
+        { "hebraico": "מִלְּבַ֖ד", "transliteral": "mil-lə-ḇaḏ", "traducao_palavra": "além de" },
+        { "hebraico": "שַׁבְּתֹ֣ת", "transliteral": "šab-bə-ṯōṯ", "traducao_palavra": "sábados de" },
+        { "hebraico": "יְהוָ֑ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" }
+      ]
+    },
+    "39": {
+      "traducao_completa": "Porém aos quinze dias do sétimo mês, quando tiverdes colhido o fruto da terra, celebrareis a festa de YHWH por sete dias; no primeiro dia haverá descanso solene, e no oitavo dia haverá descanso solene.",
+      "palavras": [
+        { "hebraico": "אַ֡ךְ", "transliteral": "ʾaḵ", "traducao_palavra": "porém/certamente" },
+        { "hebraico": "בַּחֲמִשָּׁה", "transliteral": "ba-ḥă-miš-šā", "traducao_palavra": "aos cinco" },
+        { "hebraico": "עָשָׂר", "transliteral": "ʿā-śār", "traducao_palavra": "dez [quinze]" },
+        { "hebraico": "יֹום֙", "transliteral": "yôm", "traducao_palavra": "dia" },
+        { "hebraico": "לַחֹ֣דֶשׁ", "transliteral": "la-ḥō-ḏeš", "traducao_palavra": "do mês" },
+        { "hebraico": "הַשְּׁבִיעִ֔י", "transliteral": "haš-šə-ḇî-ʿî", "traducao_palavra": "sétimo" },
+        { "hebraico": "בְּאָסְפְּכֶ֖ם", "transliteral": "bə-ʾā-sə-pə-ḵem", "traducao_palavra": "quando colherdes" },
+        { "hebraico": "אֶת־תְּבוּאַ֣ת", "transliteral": "ʾeṯ-tə-ḇû-ʾaṯ", "traducao_palavra": "o produto de" },
+        { "hebraico": "הָאָ֑רֶץ", "transliteral": "hā-ʾā-reṣ", "traducao_palavra": "a terra" },
+        { "hebraico": "תָּחֹ֤גּוּ", "transliteral": "tā-ḥōḡ-gû", "traducao_palavra": "celebrareis" },
+        { "hebraico": "אֶת־חַג־יְהוָה֙", "transliteral": "ʾeṯ-ḥaḡ-YHWH", "traducao_palavra": "a festa de YHWH" },
+        { "hebraico": "שִׁבְעַ֣ת", "transliteral": "šib-ʿaṯ", "traducao_palavra": "sete" },
+        { "hebraico": "יָמִ֑ים", "transliteral": "yā-mîm", "traducao_palavra": "dias" },
+        { "hebraico": "בַּיֹּ֤ום", "transliteral": "bay-yôm", "traducao_palavra": "no dia" },
+        { "hebraico": "הָרִאשֹׁון֙", "transliteral": "hā-ri-šôn", "traducao_palavra": "primeiro" },
+        { "hebraico": "שַׁבָּתֹ֔ון", "transliteral": "šab-bā-ṯôn", "traducao_palavra": "descanso solene" },
+        { "hebraico": "וּבַיֹּ֥ום", "transliteral": "ū-ḇay-yôm", "traducao_palavra": "e no dia" },
+        { "hebraico": "הַשְּׁמִינִ֖י", "transliteral": "haš-šə-mî-nî", "traducao_palavra": "oitavo" },
+        { "hebraico": "שַׁבָּתֹֽון׃", "transliteral": "šab-bā-ṯôn", "traducao_palavra": "descanso solene" }
+      ]
+    },
+    "40": {
+      "traducao_completa": "E no primeiro dia tomareis para vós ramos de árvores formosas, palmas de palmeiras, ramos de árvores espessas e salgueiros de ribeiras; e vos alegrareis perante YHWH vosso Deus por sete dias.",
+      "palavras": [
+        { "hebraico": "וּלְקַחְתֶּ֨ם", "transliteral": "ū-lə-qaḥ-tem", "traducao_palavra": "e tomareis" },
+        { "hebraico": "לָכֶ֜ם", "transliteral": "lā-ḵem", "traducao_palavra": "para vós" },
+        { "hebraico": "בַּיֹּ֣ום", "transliteral": "bay-yôm", "traducao_palavra": "no dia" },
+        { "hebraico": "הָרִאשֹׁ֗ון", "transliteral": "hā-ri-šôn", "traducao_palavra": "primeiro" },
+        { "hebraico": "פְּרִ֨י", "transliteral": "pərî", "traducao_palavra": "fruto/produto de" },
+        { "hebraico": "עֵ֤ץ", "transliteral": "ʿēṣ", "traducao_palavra": "árvore" },
+        { "hebraico": "הָדָר֙", "transliteral": "hā-ḏār", "traducao_palavra": "formosa/esplendorosa" },
+        { "hebraico": "כַּפֹּ֣ת", "transliteral": "kap-pōṯ", "traducao_palavra": "palmas de" },
+        { "hebraico": "תְּמָרִ֔ים", "transliteral": "tə-mā-rîm", "traducao_palavra": "palmeiras" },
+        { "hebraico": "וַעֲנַ֥ף", "transliteral": "wa-ʿă-nap̄", "traducao_palavra": "e ramos de" },
+        { "hebraico": "עֵץ־עָבֹ֖ת", "transliteral": "ʿēṣ-ʿā-ḇōṯ", "traducao_palavra": "árvore espessa" },
+        { "hebraico": "וְעַרְבֵי־נָ֑חַל", "transliteral": "wə-ʿar-ḇê-nā-ḥal", "traducao_palavra": "e salgueiros de ribeiro" },
+        { "hebraico": "וּשְׂמַחְתֶּ֗ם", "transliteral": "ū-śə-maḥ-tem", "traducao_palavra": "e vos alegrareis" },
+        { "hebraico": "לִפְנֵ֛י", "transliteral": "lip̄-nê", "traducao_palavra": "perante" },
+        { "hebraico": "יְהוָ֥ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֱלֹהֵיכֶ֖ם", "transliteral": "ʾĕ-lō-hê-ḵem", "traducao_palavra": "vosso Deus" },
+        { "hebraico": "שִׁבְעַ֥ת", "transliteral": "šib-ʿaṯ", "traducao_palavra": "sete" },
+        { "hebraico": "יָמִֽים׃", "transliteral": "yā-mîm", "traducao_palavra": "dias" }
+      ]
+    },
+    "41": {
+      "traducao_completa": "E celebrareis esta festa a YHWH por sete dias cada ano; estatuto perpétuo é pelas vossas gerações; no sétimo mês a celebrareis.",
+      "palavras": [
+        { "hebraico": "וְחַגֹּתֶ֤ם", "transliteral": "wə-ḥaḡ-gō-ṯem", "traducao_palavra": "e celebrareis" },
+        { "hebraico": "אֹתֹו֙", "transliteral": "ʾō-ṯô", "traducao_palavra": "ela [a festa]" },
+        { "hebraico": "חַ֣ג", "transliteral": "ḥaḡ", "traducao_palavra": "festa de" },
+        { "hebraico": "לַיהוָ֔ה", "transliteral": "la-YHWH", "traducao_palavra": "a YHWH" }
+      ]
+    },
+    "42": {
+      "traducao_completa": "Sete dias habitareis em cabanas; todos os naturais em Israel habitarão em cabanas;",
+      "palavras": [
+        { "hebraico": "בַּסֻּכֹּ֥ת", "transliteral": "bas-suk-kōṯ", "traducao_palavra": "em cabanas" },
+        { "hebraico": "תֵּשְׁב֖וּ", "transliteral": "tê-šə-ḇû", "traducao_palavra": "habitareis" },
+        { "hebraico": "שִׁבְעַ֣ת", "transliteral": "šib-ʿaṯ", "traducao_palavra": "sete" },
+        { "hebraico": "יָמִ֑ים", "transliteral": "yā-mîm", "traducao_palavra": "dias" },
+        { "hebraico": "כָּל־הָאֶזְרָח֙", "transliteral": "kāl-hā-ʾez-rāḥ", "traducao_palavra": "todo o natural" },
+        { "hebraico": "בְּיִשְׂרָאֵ֔ל", "transliteral": "bə-yiś-rā-ʾēl", "traducao_palavra": "em Israel" },
+        { "hebraico": "יֵשְׁב֖וּ", "transliteral": "yê-šə-ḇû", "traducao_palavra": "habitarão" },
+        { "hebraico": "בַּסֻּכֹּֽת׃", "transliteral": "bas-suk-kōṯ", "traducao_palavra": "em cabanas" }
+      ]
+    },
+    "43": {
+      "traducao_completa": "Para que as vossas gerações saibam que eu fiz habitar os filhos de Israel em cabanas, quando os tirei da terra do Egito. Eu sou YHWH vosso Deus.",
+      "palavras": [
+        { "hebraico": "לְמַעַן֮", "transliteral": "lə-ma-ʿan", "traducao_palavra": "para que" },
+        { "hebraico": "יֵדְע֣וּ", "transliteral": "yê-ḏə-ʿû", "traducao_palavra": "saibam" },
+        { "hebraico": "דֹרֹתֵיכֶם֒", "transliteral": "ḏō-rō-ṯê-ḵem", "traducao_palavra": "vossas gerações" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "בַסֻּכֹּות֙", "transliteral": "ḇas-suk-kôṯ", "traducao_palavra": "em cabanas" },
+        { "hebraico": "הֹושַׁ֣בְתִּי", "transliteral": "hô-šab-tî", "traducao_palavra": "Eu fiz habitar" },
+        { "hebraico": "אֶת־בְּנֵ֣י", "transliteral": "ʾeṯ bə-nê", "traducao_palavra": "os filhos de" },
+        { "hebraico": "יִשְׂרָאֵ֔ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "בְּהֹוצִיאִ֥י", "transliteral": "bə-hô-ṣî-ʾî", "traducao_palavra": "quando Eu [os] tirei" },
+        { "hebraico": "אוֹתָ֖ם", "transliteral": "ʾô-ṯām", "traducao_palavra": "eles" },
+        { "hebraico": "מֵאֶ֣רֶץ", "transliteral": "mē-ʾe-reṣ", "traducao_palavra": "da terra de" },
+        { "hebraico": "מִצְרָ֑יִם", "transliteral": "miṣ-rā-yim", "traducao_palavra": "Egito" },
+        { "hebraico": "אֲנִ֖י", "transliteral": "ʾă-nî", "traducao_palavra": "Eu [sou]" },
+        { "hebraico": "יְהוָ֥ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֱלֹהֵיכֶֽם׃", "transliteral": "ʾĕ-lō-hê-ḵem", "traducao_palavra": "vosso Deus" }
+      ]
+    },
+    "44": {
+      "traducao_completa": "Assim anunciou Moisés as festas fixas de YHWH aos filhos de Israel.",
+      "palavras": [
+        { "hebraico": "וַיְדַבֵּ֣ר", "transliteral": "way-yə-ḏab-bēr", "traducao_palavra": "e anunciou/falou" },
+        { "hebraico": "מֹשֶׁ֔ה", "transliteral": "mō-šeh", "traducao_palavra": "Moisés" },
+        { "hebraico": "אֶת־מֹעֲדֵ֖י", "transliteral": "ʾeṯ mô-ʿă-ḏê", "traducao_palavra": "as festas fixas de" },
+        { "hebraico": "יְהוָ֑ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־בְּנֵ֖י", "transliteral": "ʾel-bə-nê", "traducao_palavra": "aos filhos de" },
+        { "hebraico": "יִשְׂרָאֵֽל׃", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" }
+      ]
+    }
+  }
+}
