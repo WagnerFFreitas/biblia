@@ -1,0 +1,381 @@
+name: IAs Gratuitas Completo
+version: 1.0.0
+schema: v1
+models:
+  # ============================================
+  # GROQ - Limites diários renovados
+  # Obter chave: https://console.groq.com/keys
+  # Variável: GROQ_API_KEY
+  # ============================================
+  - name: Groq Llama 3.3 70B
+    provider: groq
+    model: llama-3.3-70b-versatile
+    apiKey: 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
+    roles:
+      - chat
+      - edit
+      - apply
+    completionOptions:
+      maxTokens: 2048
+      temperature: 0.7
+  - name: Groq Llama 3.1 8B
+    provider: groq
+    model: llama-3.1-8b-instant
+    apiKey: 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
+    roles:
+      - chat
+      - autocomplete
+    completionOptions:
+      maxTokens: 1024
+      temperature: 0.5
+  - name: Groq Llama 4 Maverick
+    provider: groq
+    model: meta-llama/llama-4-maverick-17b-128e-instruct
+    apiKey: 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
+    roles:
+      - chat
+      - edit
+    completionOptions:
+      maxTokens: 2048
+      temperature: 0.7
+  - name: Groq Llama 4 Scout
+    provider: groq
+    model: meta-llama/llama-4-scout-17b-16e-instruct
+    apiKey: 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
+    roles:
+      - chat
+    completionOptions:
+      maxTokens: 2048
+      temperature: 0.7
+  - name: Groq Qwen 3 32B
+    provider: groq
+    model: qwen/qwen3-32b
+    apiKey: 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
+    roles:
+      - chat
+    completionOptions:
+      maxTokens: 2048
+      temperature: 0.7
+  # ============================================
+  # GEMINI - Créditos renovados diariamente
+  # Obter chave: https://aistudio.google.com/app/apikey
+  # Variável: GEMINI_API_KEY
+  # ============================================
+  - name: Gemini 2.0 Flash
+    provider: gemini
+    model: gemini-2.0-flash
+    apiKey: AIzaSyDRDcDDmB5mmGbL308xLI_aoE_Ic3L0lOg
+    roles:
+      - chat
+      - edit
+    completionOptions:
+      maxTokens: 2048
+      temperature: 0.7
+  - name: Gemini 2.0 Flash-Lite
+    provider: gemini
+    model: gemini-2.0-flash-lite-preview-02-05
+    apiKey: AIzaSyDRDcDDmB5mmGbL308xLI_aoE_Ic3L0lOg
+    roles:
+      - chat
+      - autocomplete
+    completionOptions:
+      maxTokens: 1024
+      temperature: 0.3
+  # ============================================
+  # GITHUB MODELS - Token clássico necessário
+  # Obter token: https://github.com/settings/tokens
+  # Variável: GITHUB_TOKEN
+  # ============================================
+  - name: GitHub GPT-4o Mini
+    provider: openai
+    model: gpt-4o-mini
+    apiBase: https://models.inference.ai.azure.com
+    apiKey: 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
+    roles:
+      - chat
+      - edit
+    completionOptions:
+      maxTokens: 2048
+      temperature: 0.7
+  - name: GitHub Phi-3.5 Mini
+    provider: openai
+    model: Phi-3.5-mini-instruct
+    apiBase: https://models.inference.ai.azure.com
+    apiKey: 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
+    roles:
+      - chat
+      - autocomplete
+    completionOptions:
+      maxTokens: 1024
+      temperature: 0.5
+  - name: GitHub Llama 3.1 70B
+    provider: openai
+    model: Llama-3.1-70B-Instruct
+    apiBase: https://models.inference.ai.azure.com
+    apiKey: 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
+    roles:
+      - chat
+    completionOptions:
+      maxTokens: 2048
+      temperature: 0.7
+  - name: GitHub Mistral Large
+    provider: openai
+    model: Mistral-large
+    apiBase: https://models.inference.ai.azure.com
+    apiKey: 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
+    roles:
+      - chat
+    completionOptions:
+      maxTokens: 2048
+      temperature: 0.7
+  # ============================================
+  # OPENROUTER - Modelos gratuitos
+  # Obter chave: https://openrouter.ai/keys
+  # Variável: OPENROUTER_API_KEY
+  # ============================================
+  - name: OpenRouter DeepSeek R1 Free
+    provider: openai
+    model: deepseek/deepseek-r1:free
+    apiBase: https://openrouter.ai/api/v1
+    apiKey: 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
+    roles:
+      - chat
+      - edit
+    completionOptions:
+      maxTokens: 2048
+      temperature: 0.7
+  - name: OpenRouter DeepSeek V3 Free
+    provider: openai
+    model: deepseek/deepseek-chat:free
+    apiBase: https://openrouter.ai/api/v1
+    apiKey: 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
+    roles:
+      - chat
+    completionOptions:
+      maxTokens: 2048
+      temperature: 0.7
+  - name: OpenRouter Gemma 3 27B Free
+    provider: openai
+    model: google/gemma-3-27b-it:free
+    apiBase: https://openrouter.ai/api/v1
+    apiKey: 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
+    roles:
+      - chat
+    completionOptions:
+      maxTokens: 2048
+      temperature: 0.7
+  - name: OpenRouter Llama 4 Maverick Free
+    provider: openai
+    model: meta-llama/llama-4-maverick:free
+    apiBase: https://openrouter.ai/api/v1
+    apiKey: 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
+    roles:
+      - chat
+      - edit
+    completionOptions:
+      maxTokens: 2048
+      temperature: 0.7
+  - name: OpenRouter Llama 4 Scout Free
+    provider: openai
+    model: meta-llama/llama-4-scout:free
+    apiBase: https://openrouter.ai/api/v1
+    apiKey: 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
+    roles:
+      - chat
+    completionOptions:
+      maxTokens: 2048
+      temperature: 0.7
+  - name: OpenRouter Qwen 3 235B Thinking Free
+    provider: openai
+    model: qwen/qwen3-235b-a22b-thinking-2507:free
+    apiBase: https://openrouter.ai/api/v1
+    apiKey: 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
+    roles:
+      - chat
+    completionOptions:
+      maxTokens: 2048
+      temperature: 0.7
+  - name: OpenRouter Qwen 3 VL 235B Thinking Free
+    provider: openai
+    model: qwen/qwen3-vl-235b-a22b-thinking:free
+    apiBase: https://openrouter.ai/api/v1
+    apiKey: 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
+    roles:
+      - chat
+    completionOptions:
+      maxTokens: 2048
+      temperature: 0.7
+  - name: OpenRouter Qwen 3 VL 30B Thinking Free
+    provider: openai
+    model: qwen/qwen3-vl-30b-a3b-thinking:free
+    apiBase: https://openrouter.ai/api/v1
+    apiKey: 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
+    roles:
+      - chat
+      - autocomplete
+    completionOptions:
+      maxTokens: 1024
+      temperature: 0.5
+  - name: OpenRouter Trinity Large Preview Free
+    provider: openai
+    model: arcee-ai/trinity-large-preview:free
+    apiBase: https://openrouter.ai/api/v1
+    apiKey: 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
+    roles:
+      - chat
+    completionOptions:
+      maxTokens: 2048
+      temperature: 0.7
+  - name: OpenRouter Step 3.5 Flash Free
+    provider: openai
+    model: stepfun/step-3.5-flash:free
+    apiBase: https://openrouter.ai/api/v1
+    apiKey: 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
+    roles:
+      - chat
+    completionOptions:
+      maxTokens: 2048
+      temperature: 0.7
+  - name: OpenRouter Nemotron 3 Nano Free
+    provider: openai
+    model: nvidia/nemotron-3-nano-30b-a3b:free
+    apiBase: https://openrouter.ai/api/v1
+    apiKey: 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
+    roles:
+      - chat
+      - autocomplete
+    completionOptions:
+      maxTokens: 1024
+      temperature: 0.5
+  # ============================================
+  # HUGGING FACE - Inference API gratuita
+  # Obter token: https://huggingface.co/settings/tokens
+  # Variável: HF_API_KEY
+  # ============================================
+  - name: HuggingFace Mistral 7B
+    provider: huggingface
+    model: mistralai/Mistral-7B-Instruct-v0.3
+    apiKey: ${HF_API_KEY}
+    roles:
+      - chat
+    completionOptions:
+      maxTokens: 1024
+      temperature: 0.7
+  - name: HuggingFace Zephyr 7B
+    provider: huggingface
+    model: HuggingFaceH4/zephyr-7b-beta
+    apiKey: ${HF_API_KEY}
+    roles:
+      - chat
+      - edit
+    completionOptions:
+      maxTokens: 1024
+      temperature: 0.7
+  - name: HuggingFace Phi 3.5 Mini
+    provider: huggingface
+    model: microsoft/Phi-3.5-mini-instruct
+    apiKey: ${HF_API_KEY}
+    roles:
+      - chat
+      - autocomplete
+    completionOptions:
+      maxTokens: 1024
+      temperature: 0.5
+  - name: HuggingFace Gemma 2
+    provider: huggingface
+    model: google/gemma-2-9b-it
+    apiKey: ${HF_API_KEY}
+    roles:
+      - chat
+    completionOptions:
+      maxTokens: 1024
+      temperature: 0.7
+  - name: HuggingFace Llama 3.2 3B
+    provider: huggingface
+    model: meta-llama/Llama-3.2-3B-Instruct
+    apiKey: ${HF_API_KEY}
+    roles:
+      - chat
+      - autocomplete
+    completionOptions:
+      maxTokens: 1024
+      temperature: 0.5
+# ============================================
+# MODELO PADRÃO PARA AUTOCOMPLETE
+# ============================================
+tabAutocompleteModel:
+  name: Groq AutoComplete
+  provider: groq
+  model: llama-3.1-8b-instant
+  apiKey: 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
+  completionOptions:
+    maxTokens: 150
+    temperature: 0.2
+# ============================================
+# CONTEXTO
+# ============================================
+context:
+  - provider: code
+    params:
+      path: ./
+      ignore:
+        - node_modules
+        - .git
+        - dist
+        - build
+        - venv
+        - __pycache__
+        - .next
+        - out
+        - .env
+  - provider: problems
+    params:
+      severity: error
+      maxProblems: 10
+  - provider: terminal
+    params:
+      maxLines: 50
+# ============================================
+# COMANDOS RÁPIDOS (SLASH COMMANDS)
+# ============================================
+slashCommands:
+  - name: test
+    description: Gerar testes
+    params:
+      model: Groq Llama 3.3 70B
+      instruction: "Gere testes unitários para este código"
+  - name: explain
+    description: Explicar código
+    params:
+      model: Gemini 2.0 Flash
+      instruction: "Explique este código de forma clara e objetiva"
+  - name: quick
+    description: Resposta rápida
+    params:
+      model: Groq Llama 3.1 8B
+      instruction: "Responda de forma concisa e direta"
+  - name: refactor
+    description: Refatorar código
+    params:
+      model: GitHub GPT-4o Mini
+      instruction: "Refatore este código melhorando legibilidade e performance"
+  - name: review
+    description: Revisar código
+    params:
+      model: Gemini 2.0 Flash
+      instruction: "Revise este código identificando bugs e melhorias"
+  - name: openrouter
+    description: Usar OpenRouter
+    params:
+      model: OpenRouter Llama 4 Maverick Free
+      instruction: "Ajude com esta tarefa"
+  - name: huggingface
+    description: Usar Hugging Face
+    params:
+      model: HuggingFace Mistral 7B
+      instruction: "Ajude com esta tarefa"
+  - name: github
+    description: Usar GitHub Models
+    params:
+      model: GitHub GPT-4o Mini
+      instruction: "Ajude com esta tarefa"
