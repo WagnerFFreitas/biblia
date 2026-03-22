@@ -1,0 +1,622 @@
+{
+  "livro": "Josué - יְהֹושֻׁ֫עַ - Yehoshua",
+  "capitulo": 8,
+  "titulos": {},
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Então disse YHWH a Josué: Não temas, e não te espantes; toma contigo todo o povo de guerra, e levanta-te, sobe a Ai; olha, entreguei na tua mão o rei de Ai, e o seu povo, e a sua cidade, e a sua terra.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "יְהוָ֤ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־יְהֹושֻׁ֙עַ֙", "transliteral": "ʾel-yə-hô-šu-aʿ", "traducao_palavra": "a Josué" },
+        { "hebraico": "אַל־תִּירָ֣א", "transliteral": "ʾal-tî-rā", "traducao_palavra": "não temas" },
+        { "hebraico": "וְאַל־תֵּחָ֔ת", "transliteral": "wə-ʾal-tê-ḥāṯ", "traducao_palavra": "e não te espantes" },
+        { "hebraico": "קַ֣ח", "transliteral": "qaḥ", "traducao_palavra": "toma" },
+        { "hebraico": "עִמְּךָ֗", "transliteral": "ʿim-mə-ḵā", "traducao_palavra": "contigo" },
+        { "hebraico": "אֵ֚ת", "transliteral": "ʾēṯ", "traducao_palavra": "a" },
+        { "hebraico": "כָּל־עַ֣ם", "transliteral": "kāl-ʿam", "traducao_palavra": "todo o povo de" },
+        { "hebraico": "הַמִּלְחָמָ֔ה", "transliteral": "ham-mil-ḥā-mā", "traducao_palavra": "a guerra" },
+        { "hebraico": "וְק֖וּם", "transliteral": "wə-qûm", "traducao_palavra": "e levanta-te" },
+        { "hebraico": "עֲלֵ֣ה", "transliteral": "ʿă-lē", "traducao_palavra": "sobe" },
+        { "hebraico": "הָעָ֑י", "transliteral": "hā-ʿāy", "traducao_palavra": "a Ai" },
+        { "hebraico": "רְאֵ֣ה׀", "transliteral": "rə-ʾē", "traducao_palavra": "olha" },
+        { "hebraico": "נָתַ֣תִּי", "transliteral": "nā-ṯat-tî", "traducao_palavra": "entreguei" },
+        { "hebraico": "בְיָדְךָ֗", "transliteral": "ḇə-yā-ḏe-ḵā", "traducao_palavra": "na tua mão" },
+        { "hebraico": "אֶת־מֶ֧לֶךְ", "transliteral": "ʾeṯ-me-leḵ", "traducao_palavra": "o rei de" },
+        { "hebraico": "הָעַ֛י", "transliteral": "hā-ʿay", "traducao_palavra": "Ai" },
+        { "hebraico": "וְאֶת־עַמֹּ֖ו", "transliteral": "wə-ʾeṯ-ʿam-mô", "traducao_palavra": "e seu povo" },
+        { "hebraico": "וְאֶת־עִירֹ֥ו", "transliteral": "wə-ʾeṯ-ʿî-rô", "traducao_palavra": "e sua cidade" },
+        { "hebraico": "וְאֶת־אַרְצֹֽו׃", "transliteral": "wə-ʾeṯ-ʾar-ṣô", "traducao_palavra": "e sua terra" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "E farás a Ai e ao seu rei como fizeste a Jericó e ao seu rei; salvo que para vós saqueareis os seus despojos e o seu gado; põe à cidade uma emboscada por detrás dela.",
+      "palavras": [
+        { "hebraico": "וְעָשִׂ֨יתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "לָעַ֜י", "transliteral": "lā-ʿay", "traducao_palavra": "a Ai" },
+        { "hebraico": "וּלְמַלְכָּ֗הּ", "transliteral": "ū-lə-mal-kāh", "traducao_palavra": "e ao seu rei" },
+        { "hebraico": "כַּאֲשֶׁ֨ר", "transliteral": "ka-ʾă-šer", "traducao_palavra": "conforme" },
+        { "hebraico": "עָשִׂ֤יתָ", "transliteral": "ʿā-śî-ṯā", "traducao_palavra": "fizeste" },
+        { "hebraico": "לִֽירִיחֹו֙", "transliteral": "lî-rî-ḥô", "traducao_palavra": "a Jericó" },
+        { "hebraico": "וּלְמַלְכָּ֔הּ", "transliteral": "ū-lə-mal-kāh", "traducao_palavra": "e ao seu rei" },
+        { "hebraico": "רַק־שְׁלָלָ֥הּ", "transliteral": "raq-šə-lā-lāh", "traducao_palavra": "somente seu despojo" },
+        { "hebraico": "וּḇְהֶמְתָּ֖הּ", "transliteral": "ū-ḇə-hem-tāh", "traducao_palavra": "e seu gado" },
+        { "hebraico": "תָּבֹ֣זּוּ", "transliteral": "tā-ḇōz-zû", "traducao_palavra": "saqueareis" },
+        { "hebraico": "לָכֶ֑ם", "transliteral": "lā-ḵem", "traducao_palavra": "para vós" },
+        { "hebraico": "שִׂים־לְךָ֥", "transliteral": "śîm-lə-ḵā", "traducao_palavra": "põe para ti" },
+        { "hebraico": "אֹרֵ֛ב", "transliteral": "ʾō-rēḇ", "traducao_palavra": "uma emboscada" },
+        { "hebraico": "לָעִ֖יר", "transliteral": "lā-ʿîr", "traducao_palavra": "à cidade" },
+        { "hebraico": "מֵאַחֲרֶֽיהָ׃", "transliteral": "mē-ʾa-ḥă-re-hā", "traducao_palavra": "atrás dela" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Então Josué levantou-se, e todo o povo de guerra, para subir contra Ai; e escolheu Josué trinta mil homens valorosos, e enviou-os de noite.",
+      "palavras": [
+        { "hebraico": "וַיָּ֧קָם", "transliteral": "way-yā-qām", "traducao_palavra": "e levantou-se" },
+        { "hebraico": "יְהֹושֻׁ֛עַ", "transliteral": "yə-hô-šu-aʿ", "traducao_palavra": "Josué" },
+        { "hebraico": "וְכָל־עַ֥ם", "transliteral": "wə-ḵāl-ʿam", "traducao_palavra": "e todo o povo de" },
+        { "hebraico": "הַמִּלְחָמָ֖ה", "transliteral": "ham-mil-ḥā-mā", "traducao_palavra": "guerra" },
+        { "hebraico": "לַעֲלֹ֣ות", "transliteral": "la-ʿă-lôṯ", "traducao_palavra": "para subir" },
+        { "hebraico": "הָעָ֑י", "transliteral": "hā-ʿāy", "traducao_palavra": "a Ai" },
+        { "hebraico": "וַיִּבְחַ֣ר", "transliteral": "way-yiḇ-ḥar", "traducao_palavra": "e escolheu" },
+        { "hebraico": "יְהֹושֻׁ֡עַ", "transliteral": "yə-hô-šu-aʿ", "traducao_palavra": "Josué" },
+        { "hebraico": "שְׁלֹשִׁ֣ים", "transliteral": "šə-lō-šîm", "traducao_palavra": "trinta" },
+        { "hebraico": "אֶלֶף֩", "transliteral": "ʾe-lep̄", "traducao_palavra": "mil" },
+        { "hebraico": "אִ֨ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homens" },
+        { "hebraico": "גִּבֹּורֵ֥י", "transliteral": "gib-bô-rê", "traducao_palavra": "fortes de" },
+        { "hebraico": "הַחַ֛יִל", "transliteral": "ha-ḥa-yil", "traducao_palavra": "valor" },
+        { "hebraico": "וַיִּשְׁלָחֵ֖ם", "transliteral": "way-yiš-lā-ḥēm", "traducao_palavra": "e enviou-os" },
+        { "hebraico": "לָֽיְלָה׃", "transliteral": "lā-yə-lā", "traducao_palavra": "de noite" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "E deu-lhes ordem, dizendo: Olhai, vós poreis em emboscada à cidade, por detrás dela; não vos afasteis muito da cidade; e todos vós estejais prontos.",
+      "palavras": [
+        { "hebraico": "וַיְצַ֨ו", "transliteral": "way-ṣaw", "traducao_palavra": "e ordenou" },
+        { "hebraico": "אוֹתָ֜ם", "transliteral": "ʾô-ṯām", "traducao_palavra": "eles" },
+        { "hebraico": "לֵאמֹ֗ר", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "רְ֠אוּ", "transliteral": "rə-ʾû", "traducao_palavra": "vede" },
+        { "hebraico": "אַתֶּ֧ם", "transliteral": "ʾat-tem", "traducao_palavra": "vós" },
+        { "hebraico": "אֹרְבִ֛ים", "transliteral": "ʾō-rə-ḇîm", "traducao_palavra": "emboscados" },
+        { "hebraico": "לָעִיר", "transliteral": "lā-ʿîr", "traducao_palavra": "à cidade" },
+        { "hebraico": "מֵאַחֲרֵ֣י", "transliteral": "mē-ʾa-ḥă-rê", "traducao_palavra": "atrás de" },
+        { "hebraico": "הָעִ֑יר", "transliteral": "hā-ʿîr", "traducao_palavra": "a cidade" },
+        { "hebraico": "אַל־תַּרְחִ֥יקוּ", "transliteral": "ʾal-tar-ḥî-qû", "traducao_palavra": "não vos afasteis" },
+        { "hebraico": "מִן־הָעִ֖יר", "transliteral": "min-hā-ʿîr", "traducao_palavra": "da cidade" },
+        { "hebraico": "מְאֹ֑ד", "transliteral": "mə-ʾōḏ", "traducao_palavra": "muito" },
+        { "hebraico": "וִהְיִיתֶ֥ם", "transliteral": "wih-yî-ṯem", "traducao_palavra": "e estai" },
+        { "hebraico": "כֻּלְּכֶ֖ם", "transliteral": "kul-lə-ḵem", "traducao_palavra": "todos vós" },
+        { "hebraico": "נְכֹנִֽים׃", "transliteral": "nə-ḵō-nîm", "traducao_palavra": "preparados" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "E eu e todo o povo que está comigo nos chegaremos à cidade; e será que, quando saírem ao nosso encontro, como dantes, fugiremos diante deles.",
+      "palavras": [
+        { "hebraico": "וַאֲנִ֗י", "transliteral": "wa-ʾă-nî", "traducao_palavra": "e eu" },
+        { "hebraico": "וְכָל־הָעָם֙", "transliteral": "wə-ḵāl-hā-ʿām", "traducao_palavra": "e todo o povo" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "אִתִּ֔י", "transliteral": "ʾit-tî", "traducao_palavra": "comigo" },
+        { "hebraico": "נִקְרַ֖ב", "transliteral": "niq-raḇ", "traducao_palavra": "chegaremos" },
+        { "hebraico": "אֶל־הָעִ֑יר", "transliteral": "ʾel-hā-ʿîr", "traducao_palavra": "à cidade" },
+        { "hebraico": "וְהָיָ֗ה", "transliteral": "wə-hā-yā", "traducao_palavra": "e será" },
+        { "hebraico": "כִּֽי־יֵצְא֤וּ", "transliteral": "kî-yê-ṣə-ʾû", "traducao_palavra": "que saiam" },
+        { "hebraico": "לִקְרָאתֵ֙נוּ֙", "transliteral": "li-qə-rā-ṯê-nū", "traducao_palavra": "ao encontro de nós" },
+        { "hebraico": "כַּאֲשֶׁ֣ר", "transliteral": "ka-ʾă-šer", "traducao_palavra": "como" },
+        { "hebraico": "בָּרִֽאשֹׁנָ֔ה", "transliteral": "bā-ri-šō-nā", "traducao_palavra": "na primeira [vez]" },
+        { "hebraico": "וְנַ֖סְנוּ", "transliteral": "wə-nas-nū", "traducao_palavra": "e fugiremos" },
+        { "hebraico": "לִפְנֵיהֶֽם׃", "transliteral": "lip̄-nê-hem", "traducao_palavra": "diante deles" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "E eles sairão atrás de nós, até que os tenhamos atraído para longe da cidade; porque dirão: Fogem diante de nós, como dantes; assim fugiremos diante deles.",
+      "palavras": [
+        { "hebraico": "וְיָצְא֣וּ", "transliteral": "wə-yā-ṣə-ʾû", "traducao_palavra": "e sairão" },
+        { "hebraico": "אַחֲרֵינוּ", "transliteral": "ʾa-ḥă-rê-nū", "traducao_palavra": "atrás de nós" },
+        { "hebraico": "עַד", "transliteral": "ʿaḏ", "traducao_palavra": "até" },
+        { "hebraico": "הַתִּיקָ֧נוּ", "transliteral": "hat-tî-qā-nū", "traducao_palavra": "os afastemos" },
+        { "hebraico": "אוֹתָם֮", "transliteral": "ʾô-ṯām", "traducao_palavra": "eles" },
+        { "hebraico": "מִן־הָעִיר֒", "transliteral": "min-hā-ʿîr", "traducao_palavra": "da cidade" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "יֹֽאמְר֔וּ", "transliteral": "yō-mə-rû", "traducao_palavra": "dirão" },
+        { "hebraico": "נָסִ֣ים", "transliteral": "nā-sîm", "traducao_palavra": "fogem" },
+        { "hebraico": "לְפָנֵ֔ינוּ", "transliteral": "lə-p̄ā-nê-nū", "traducao_palavra": "diante de nós" },
+        { "hebraico": "כַּאֲשֶׁ֖ר", "transliteral": "ka-ʾă-šer", "traducao_palavra": "como" },
+        { "hebraico": "בָּרִאשֹׁנָ֑ה", "transliteral": "bā-ri-šō-nā", "traducao_palavra": "na primeira" },
+        { "hebraico": "וְנַ֖סְנוּ", "transliteral": "wə-nas-nū", "traducao_palavra": "e fugiremos" },
+        { "hebraico": "לִפְנֵיהֶֽם׃", "transliteral": "lip̄-nê-hem", "traducao_palavra": "diante deles" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Então vós vos levantareis da emboscada, e tomareis a cidade; porque YHWH vosso Deus a entregará na vossa mão.",
+      "palavras": [
+        { "hebraico": "וְאַתֶּם֙", "transliteral": "wə-ʾat-tem", "traducao_palavra": "e vós" },
+        { "hebraico": "תָּקֻ֣מוּ", "transliteral": "tā-qu-mû", "traducao_palavra": "levantareis" },
+        { "hebraico": "מִן־הָאֹורֵ֔ב", "transliteral": "min-hā-ʾô-rēḇ", "traducao_palavra": "da emboscada" },
+        { "hebraico": "וְהֹורַשְׁתֶּ֖ם", "transliteral": "wə-hô-raš-tem", "traducao_palavra": "e tomareis" },
+        { "hebraico": "אֶת־הָעִ֑יר", "transliteral": "ʾeṯ-hā-ʿîr", "traducao_palavra": "a cidade" },
+        { "hebraico": "וּנְתָנָ֛הּ", "transliteral": "ū-nə-ṯā-nāh", "traducao_palavra": "e entregará ela" },
+        { "hebraico": "יְהוָ֥ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֱלֹהֵיכֶ֖ם", "transliteral": "ʾĕ-lō-hê-ḵem", "traducao_palavra": "vosso Deus" },
+        { "hebraico": "בְּיֶדְכֶֽם׃", "transliteral": "bə-yeḏ-ḵem", "traducao_palavra": "na vossa mão" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "E será que, tomando vós a cidade, poreis a cidade a fogo; conforme a palavra de YHWH fareis; olhai que vo-lo tenho ordenado.",
+      "palavras": [
+        { "hebraico": "וְהָיָה֮", "transliteral": "wə-hā-yā", "traducao_palavra": "e será" },
+        { "hebraico": "כְּתָפְשְׂכֶ֣ם", "transliteral": "kə-ṯā-p̄ə-śə-ḵem", "traducao_palavra": "ao tomardes vós" },
+        { "hebraico": "אֶת־הָעִיר֒", "transliteral": "ʾeṯ-hā-ʿîr", "traducao_palavra": "a cidade" },
+        { "hebraico": "תַּצִּיתוּ", "transliteral": "taṣ-ṣî-ṯû", "traducao_palavra": "acendereis [fogo]" },
+        { "hebraico": "אֶת־הָעִ֣יר", "transliteral": "ʾeṯ-hā-ʿîr", "traducao_palavra": "a cidade" },
+        { "hebraico": "בָּאֵ֔שׁ", "transliteral": "bā-ʾēš", "traducao_palavra": "em fogo" },
+        { "hebraico": "כִּדְבַ֥ר", "transliteral": "ki-ḏə-ḇar", "traducao_palavra": "conforme a palavra de" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "תַּעֲשׂ֑וּ", "transliteral": "ta-ʿă-śû", "traducao_palavra": "fareis" },
+        { "hebraico": "רְא֖וּ", "transliteral": "rə-ʾû", "traducao_palavra": "vede" },
+        { "hebraico": "צִוִּ֥יתִי", "transliteral": "ṣiw-wî-ṯî", "traducao_palavra": "ordenei" },
+        { "hebraico": "אֶתְכֶֽם׃", "transliteral": "ʾeṯ-ḵem", "traducao_palavra": "vós" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Assim Josué os enviou, e eles se foram à emboscada; e ficaram entre Bete-El e Ai, ao ocidente de Ai; porém Josué passou aquela noite no meio do povo.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁלָחֵ֣ם", "transliteral": "way-yiš-lā-ḥēm", "traducao_palavra": "e enviou-os" },
+        { "hebraico": "יְהֹושֻׁ֗עַ", "transliteral": "yə-hô-šu-aʿ", "traducao_palavra": "Josué" },
+        { "hebraico": "וַיֵּלְכוּ֙", "transliteral": "way-yê-lə-ḵû", "traducao_palavra": "e foram" },
+        { "hebraico": "אֶל־הַמַּאְרָ֔ב", "transliteral": "ʾel-ham-ma-ʾrāḇ", "traducao_palavra": "à emboscada" },
+        { "hebraico": "וַיֵּשְׁב֗וּ", "transliteral": "way-yê-šə-ḇû", "traducao_palavra": "e ficaram" },
+        { "hebraico": "בֵּ֧ין", "transliteral": "bên", "traducao_palavra": "entre" },
+        { "hebraico": "בֵּֽית־אֵ֛ל", "transliteral": "bêṯ-ʾēl", "traducao_palavra": "Bete-El" },
+        { "hebraico": "וּבֵ֥ין", "transliteral": "ū-ḇên", "traducao_palavra": "e entre" },
+        { "hebraico": "הָעַ֖י", "transliteral": "hā-ʿay", "traducao_palavra": "Ai" },
+        { "hebraico": "מִיָּ֣ם", "transliteral": "mi-yām", "traducao_palavra": "do mar [ocidente]" },
+        { "hebraico": "לָעָ֑י", "transliteral": "lā-ʿāy", "traducao_palavra": "a Ai" },
+        { "hebraico": "וַיָּ֧לֶן", "transliteral": "way-yā-len", "traducao_palavra": "e pernoitou" },
+        { "hebraico": "יְהֹושֻׁ֛עַ", "transliteral": "yə-hô-šu-aʿ", "traducao_palavra": "Josué" },
+        { "hebraico": "בַּלַּ֥יְלָה", "transliteral": "bal-la-yə-lā", "traducao_palavra": "na noite" },
+        { "hebraico": "הַה֖וּא", "transliteral": "ha-hû", "traducao_palavra": "aquela" },
+        { "hebraico": "בְּתֹ֥וךְ", "transliteral": "bə-ṯôḵ", "traducao_palavra": "no meio de" },
+        { "hebraico": "הָעָֽם׃", "transliteral": "hā-ʿām", "traducao_palavra": "o povo" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E levantou-se Josué de madrugada, e contou o povo; e subiram ele e os anciãos de Israel, diante do povo, contra Ai.",
+      "palavras": [
+        { "hebraico": "וַיַּשְׁכֵּ֥ם", "transliteral": "way-yaš-kēm", "traducao_palavra": "e madrugou" },
+        { "hebraico": "יְהֹושֻׁ֖עַ", "transliteral": "yə-hô-šu-aʿ", "traducao_palavra": "Josué" },
+        { "hebraico": "בַּבֹּ֑קֶר", "transliteral": "bab-bō-qer", "traducao_palavra": "de manhã" },
+        { "hebraico": "וַיִּפְקֹד֙", "transliteral": "way-yip-qōḏ", "traducao_palavra": "e contou/visitou" },
+        { "hebraico": "אֶת־הָעָ֔ם", "transliteral": "ʾeṯ-hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "וַיַּ֨עַל", "transliteral": "way-ya-ʿal", "traducao_palavra": "e subiu" },
+        { "hebraico": "ה֧וּא", "transliteral": "hû", "traducao_palavra": "ele" },
+        { "hebraico": "וְזִקְנֵי", "transliteral": "wə-ziq-nê", "traducao_palavra": "e os anciãos de" },
+        { "hebraico": "יִשְׂרָאֵ֛ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "לִפְנֵ֥י", "transliteral": "lip̄-nê", "traducao_palavra": "diante de" },
+        { "hebraico": "הָעָ֖ם", "transliteral": "hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "הָעָֽי׃", "transliteral": "hā-ʿāy", "traducao_palavra": "a Ai" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Subiu também todo o povo de guerra que estava com ele, e chegaram-se, e vieram defronte da cidade, e acamparam-se da banda do norte de Ai; e havia um vale entre ele e Ai.",
+      "palavras": [
+        { "hebraico": "וְכָל־הָעָ֨ם", "transliteral": "wə-kāl-hā-ʿām", "traducao_palavra": "e todo o povo" },
+        { "hebraico": "הַמִּלְחָמָ֜ה", "transliteral": "ham-mil-ḥā-mā", "traducao_palavra": "de guerra" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "אִתֹּ֗ו", "transliteral": "ʾit-tô", "traducao_palavra": "com ele" },
+        { "hebraico": "עָלוּ֙", "transliteral": "ʿā-lû", "traducao_palavra": "subiram" },
+        { "hebraico": "וַיִּגְּשׁ֗וּ", "transliteral": "way-yiḡ-gə-šû", "traducao_palavra": "e aproximaram-se" },
+        { "hebraico": "וַיָּḇֹאוּ֙", "transliteral": "way-yā-ḇō-ʾû", "traducao_palavra": "e vieram" },
+        { "hebraico": "נֶ֣גֶד", "transliteral": "ne-ḡeḏ", "traducao_palavra": "em frente de" },
+        { "hebraico": "הָעִיר", "transliteral": "hā-ʿîr", "traducao_palavra": "a cidade" },
+        { "hebraico": "וַֽיַּחֲנ֖וּ", "transliteral": "way-ya-ḥă-nū", "traducao_palavra": "e acamparam" },
+        { "hebraico": "מִצְּפֹ֣ון", "transliteral": "miṣ-ṣə-p̄ôn", "traducao_palavra": "do norte" },
+        { "hebraico": "לָעָ֑י", "transliteral": "lā-ʿāy", "traducao_palavra": "a Ai" },
+        { "hebraico": "וְהַגַּ֖י", "transliteral": "wə-hag-gay", "traducao_palavra": "e o vale" },
+        { "hebraico": "בֵּינֹ֥ו", "transliteral": "bê-nô", "traducao_palavra": "entre ele" },
+        { "hebraico": "וּבֵין־הָעָֽי׃", "transliteral": "ū-ḇên-hā-ʿāy", "traducao_palavra": "e entre Ai" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Tomou também uns cinco mil homens, e pô-los em emboscada entre Bete-El e Ai, ao ocidente da cidade.",
+      "palavras": [
+        { "hebraico": "וַיִּקַּ֕ח", "transliteral": "way-yiq-qaḥ", "traducao_palavra": "e tomou" },
+        { "hebraico": "כַּחֲמֵ֥שֶׁת", "transliteral": "ka-ḥă-mē-šeṯ", "traducao_palavra": "cerca de cinco" },
+        { "hebraico": "אֲלָפִ֖ים", "transliteral": "ʾă-lā-p̄îm", "traducao_palavra": "mil" },
+        { "hebraico": "אִ֑ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homens" },
+        { "hebraico": "וַיָּ֨שֶׂם", "transliteral": "way-yā-śem", "traducao_palavra": "e pôs" },
+        { "hebraico": "אֹותָ֜ם", "transliteral": "ʾô-ṯām", "traducao_palavra": "eles" },
+        { "hebraico": "אֹרֵ֗ב", "transliteral": "ʾō-rēḇ", "traducao_palavra": "emboscados" },
+        { "hebraico": "בֵּין", "transliteral": "bên", "traducao_palavra": "entre" },
+        { "hebraico": "בֵּֽית־אֵ֛ל", "transliteral": "bêṯ-ʾēl", "traducao_palavra": "Bete-El" },
+        { "hebraico": "וּבֵ֥ין", "transliteral": "ū-ḇên", "traducao_palavra": "e entre" },
+        { "hebraico": "הָעַ֖י", "transliteral": "hā-ʿay", "traducao_palavra": "Ai" },
+        { "hebraico": "מִיָּ֥ם", "transliteral": "mi-yām", "traducao_palavra": "do mar [ocidente]" },
+        { "hebraico": "לָעִֽיר׃", "transliteral": "lā-ʿîr", "traducao_palavra": "à cidade" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "E puseram o povo, todo o arraial que estava ao norte da cidade, e a sua emboscada ao ocidente da cidade; e foi Josué aquela noite no meio do vale.",
+      "palavras": [
+        { "hebraico": "וַיָּשִׂ֨ימוּ", "transliteral": "way-yā-śî-mû", "traducao_palavra": "e puseram" },
+        { "hebraico": "הָעָ֜ם", "transliteral": "hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "אֶת־כָּל־הַֽמַּחֲנֶ֗ה", "transliteral": "ʾeṯ-kāl-ham-ma-ḥă-neh", "traducao_palavra": "todo o arraial" },
+        { "hebraico": "אֲשֶׁר֙", "transliteral": "ʾă-šer", "traducao_palavra": "que [estava]" },
+        { "hebraico": "מִצְּפֹ֣ון", "transliteral": "miṣ-ṣə-p̄ôn", "traducao_palavra": "do norte" },
+        { "hebraico": "לָעִיר", "transliteral": "lā-ʿîr", "traducao_palavra": "à cidade" },
+        { "hebraico": "וְאֶת־עֲקֵבֹ֖ו", "transliteral": "wə-ʾeṯ-ʿă-qê-ḇô", "traducao_palavra": "e sua retaguarda/calcanhar" },
+        { "hebraico": "מִיָּ֣ם", "transliteral": "mi-yām", "traducao_palavra": "do ocidente" },
+        { "hebraico": "לָעִיר", "transliteral": "lā-ʿîr", "traducao_palavra": "à cidade" },
+        { "hebraico": "וַיֵּ֧לֶךְ", "transliteral": "way-yê-leḵ", "traducao_palavra": "e foi" },
+        { "hebraico": "יְהֹושֻׁ֛עַ", "transliteral": "yə-hô-šu-aʿ", "traducao_palavra": "Josué" },
+        { "hebraico": "בַּלַּ֥יְלָה", "transliteral": "bal-la-yə-lā", "traducao_palavra": "na noite" },
+        { "hebraico": "הַה֖וּא", "transliteral": "ha-hû", "traducao_palavra": "aquela" },
+        { "hebraico": "בְּתֹ֥וךְ", "transliteral": "bə-ṯôḵ", "traducao_palavra": "no meio de" },
+        { "hebraico": "הָעֵֽמֶק׃", "transliteral": "hā-ʿē-meq", "traducao_palavra": "o vale" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "E sucedeu que, vendo-o o rei de Ai, apressaram-se, e madrugaram, e os homens da cidade saíram ao encontro de Israel à batalha, ele e todo o seu povo, ao tempo determinado, diante das campinas; porém ele não sabia que se achava emboscada contra ele por detrás da cidade.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֞י", "transliteral": "way-hî", "traducao_palavra": "e foi" },
+        { "hebraico": "כִּרְאֹ֣ות", "transliteral": "kir-ʾôṯ", "traducao_palavra": "ao ver" },
+        { "hebraico": "מֶֽלֶךְ־הָעַ֗י", "transliteral": "me-leḵ-hā-ʿay", "traducao_palavra": "o rei de Ai" },
+        { "hebraico": "וַֽיְמַהֲר֡וּ", "transliteral": "way-ma-hă-rû", "traducao_palavra": "e apressaram-se" },
+        { "hebraico": "וַיַּשְׁכִּימּוּ", "transliteral": "way-yaš-kî-mû", "traducao_palavra": "e madrugaram" },
+        { "hebraico": "וַיֵּצְא֨וּ", "transliteral": "way-yê-ṣə-ʾû", "traducao_palavra": "e saíram" },
+        { "hebraico": "אַנְשֵׁי־הָעִ֥יר", "transliteral": "ʾan-šê-hā-ʿîr", "traducao_palavra": "os homens da cidade" },
+        { "hebraico": "לִקְרַֽאת־יִשְׂרָאֵל֮", "transliteral": "li-qə-rāṯ-yiś-rā-ʾēl", "traducao_palavra": "ao encontro de Israel" },
+        { "hebraico": "לַמִּלְחָמָה", "transliteral": "lam-mil-ḥā-mā", "traducao_palavra": "à batalha" },
+        { "hebraico": "ה֤וּא", "transliteral": "hû", "traducao_palavra": "ele" },
+        { "hebraico": "וְכָל־עַמֹּו", "transliteral": "wə-ḵāl-ʿam-mô", "traducao_palavra": "e todo o seu povo" },
+        { "hebraico": "לַמֹּועָ֔ד", "transliteral": "lam-mô-ʿāḏ", "traducao_palavra": "ao tempo marcado" },
+        { "hebraico": "לִפְנֵ֖י", "transliteral": "lip̄-nê", "traducao_palavra": "diante de" },
+        { "hebraico": "הָעֲרָבָ֑ה", "transliteral": "hā-ʿă-rā-ḇā", "traducao_palavra": "a campina" },
+        { "hebraico": "וְהוּא", "transliteral": "wə-hû", "traducao_palavra": "e ele" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "יָדַ֔ע", "transliteral": "yā-ḏaʿ", "traducao_palavra": "sabia" },
+        { "hebraico": "כִּֽי־אֹרֵ֥ב", "transliteral": "kî-ʾō-rēḇ", "traducao_palavra": "que [havia] emboscada" },
+        { "hebraico": "לֹ֥ו", "transliteral": "lô", "traducao_palavra": "para ele" },
+        { "hebraico": "מֵאַחֲרֵ֥י", "transliteral": "mē-ʾa-ḥă-rê", "traducao_palavra": "por detrás de" },
+        { "hebraico": "הָעִֽיר׃", "transliteral": "hā-ʿîr", "traducao_palavra": "a cidade" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "E Josué e todo o Israel fingiram-se feridos diante deles, e fugiram pelo caminho do deserto.",
+      "palavras": [
+        { "hebraico": "וַיִּנָּגְע֧וּ", "transliteral": "way-yin-nā-ḡə-ʿû", "traducao_palavra": "e foram tocados/fingiram feridos" },
+        { "hebraico": "יְהֹושֻׁ֛עַ", "transliteral": "yə-hô-šu-aʿ", "traducao_palavra": "Josué" },
+        { "hebraico": "וְכָל־יִשְׂרָאֵ֖ל", "transliteral": "wə-ḵāl-yiś-rā-ʾēl", "traducao_palavra": "e todo o Israel" },
+        { "hebraico": "לִפְנֵיהֶ֑ם", "transliteral": "lip̄-nê-hem", "traducao_palavra": "diante deles" },
+        { "hebraico": "וַיָּנֻ֖סוּ", "transliteral": "way-yā-nu-sû", "traducao_palavra": "e fugiram" },
+        { "hebraico": "דֶּ֥רֶךְ", "transliteral": "de-reḵ", "traducao_palavra": "pelo caminho de" },
+        { "hebraico": "הַמִּדְבָּֽר׃", "transliteral": "ham-miḏ-bār", "traducao_palavra": "o deserto" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "E todo o povo que estava na cidade foi convocado para os perseguir; e perseguiram a Josué, e foram atraídos da cidade.",
+      "palavras": [
+        { "hebraico": "וַיִּזָּעֲק֗וּ", "transliteral": "way-yiz-zā-ʿă-qû", "traducao_palavra": "e foram convocados/gritaram" },
+        { "hebraico": "כָּל־הָעָם֙", "transliteral": "kāl-hā-ʿām", "traducao_palavra": "todo o povo" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que [estava]" },
+        { "hebraico": "בָעִיר", "transliteral": "bā-ʿîr", "traducao_palavra": "na cidade" },
+        { "hebraico": "לִרְדֹּ֖ף", "transliteral": "lir-dōp̄", "traducao_palavra": "para perseguir" },
+        { "hebraico": "אַחֲרֵיהֶ֑ם", "transliteral": "ʾa-ḥă-rê-hem", "traducao_palavra": "após eles" },
+        { "hebraico": "וַיִּרְדְּפוּ֙", "transliteral": "way-yir-də-p̄û", "traducao_palavra": "e perseguiram" },
+        { "hebraico": "אַחֲרֵי", "transliteral": "ʾa-ḥă-rê", "traducao_palavra": "após" },
+        { "hebraico": "יְהֹושֻׁ֔עַ", "transliteral": "yə-hô-šu-aʿ", "traducao_palavra": "Josué" },
+        { "hebraico": "וַיִּנָּתְק֖וּ", "transliteral": "way-yin-nā-ṯə-qû", "traducao_palavra": "e foram afastados" },
+        { "hebraico": "מִן־הָעִֽיר׃", "transliteral": "min-hā-ʿîr", "traducao_palavra": "da cidade" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "E nem um só homem ficou em Ai, nem em Bete-El, que não saísse após Israel; e deixaram a cidade aberta, e perseguiram a Israel.",
+      "palavras": [
+        { "hebraico": "וְלֹא־נִשְׁאַ֣ר", "transliteral": "wə-lō-niš-ʾar", "traducao_palavra": "e não ficou" },
+        { "hebraico": "אִ֗ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homem" },
+        { "hebraico": "בָּעַי֙", "transliteral": "bā-ʿay", "traducao_palavra": "em Ai" },
+        { "hebraico": "וּבֵ֣ית", "transliteral": "ū-ḇêṯ", "traducao_palavra": "e em casa de" },
+        { "hebraico": "אֵ֔ל", "transliteral": "ʾēl", "traducao_palavra": "El [Bete-El]" },
+        { "hebraico": "אֲשֶׁ֥ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "לֹא־יָצְא֖וּ", "transliteral": "lō-yā-ṣə-ʾû", "traducao_palavra": "não saísse" },
+        { "hebraico": "אַחֲרֵ֣י", "transliteral": "ʾa-ḥă-rê", "traducao_palavra": "após" },
+        { "hebraico": "יִשְׂרָאֵ֑ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "וַיַּעֲזְב֤וּ", "transliteral": "way-ya-ʿaz-ḇû", "traducao_palavra": "e deixaram" },
+        { "hebraico": "אֶת־הָעִיר֙", "transliteral": "ʾeṯ-hā-ʿîr", "traducao_palavra": "a cidade" },
+        { "hebraico": "פְּתוּחָ֔ה", "transliteral": "pə-ṯû-ḥā", "traducao_palavra": "aberta" },
+        { "hebraico": "וַֽיִּרְדְּפ֖וּ", "transliteral": "way-yir-də-p̄û", "traducao_palavra": "e perseguiram" },
+        { "hebraico": "אַחֲרֵ֥י", "transliteral": "ʾa-ḥă-rê", "traducao_palavra": "após" },
+        { "hebraico": "יִשְׂרָאֵֽל׃", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "Então YHWH disse a Josué: Estende a lança que tens na tua mão para Ai, porque a entregarei na tua mão. E Josué estendeu a lança que tinha na sua mão para a cidade.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "יְהוָ֜ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־יְהֹושֻׁ֗עַ", "transliteral": "ʾel-yə-hô-šu-aʿ", "traducao_palavra": "a Josué" },
+        { "hebraico": "נְטֵ֨ה", "transliteral": "nə-ṭē", "traducao_palavra": "estende" },
+        { "hebraico": "בַּכִּידֹ֤ון", "transliteral": "bak-kî-ḏôn", "traducao_palavra": "com a lança" },
+        { "hebraico": "אֲשֶׁר־בְּיָדְךָ֙", "transliteral": "ʾă-šer-bə-yā-ḏe-ḵā", "traducao_palavra": "que [está] na tua mão" },
+        { "hebraico": "אֶל־הָעַ֔י", "transliteral": "ʾel-hā-ʿay", "traducao_palavra": "para Ai" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "בְיָדְךָ֖", "transliteral": "ḇə-yā-ḏe-ḵā", "traducao_palavra": "na tua mão" },
+        { "hebraico": "אֶתְּנֶ֑נָּה", "transliteral": "ʾet-tə-nen-nā", "traducao_palavra": "darei ela" },
+        { "hebraico": "וַיֵּ֧ט", "transliteral": "way-yêṭ", "traducao_palavra": "e estendeu" },
+        { "hebraico": "יְהֹושֻׁ֛עַ", "transliteral": "yə-hô-šu-aʿ", "traducao_palavra": "Josué" },
+        { "hebraico": "בַּכִּידֹ֥ון", "transliteral": "bak-kî-ḏôn", "traducao_palavra": "com a lança" },
+        { "hebraico": "אֲשֶׁר־בְּיָדֹ֖ו", "transliteral": "ʾă-šer-bə-yā-ḏô", "traducao_palavra": "que [estava] na mão dele" },
+        { "hebraico": "אֶל־הָעִֽיר׃", "transliteral": "ʾel-hā-ʿîr", "traducao_palavra": "para a cidade" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "E a emboscada se levantou apressadamente do seu lugar; e correram, ao estender ele a sua mão, e entraram na cidade, e a tomaram; e apressaram-se e puseram a cidade a fogo.",
+      "palavras": [
+        { "hebraico": "וְהָאֹורֵ֣ב", "transliteral": "wə-hā-ʾô-rēḇ", "traducao_palavra": "e a emboscada" },
+        { "hebraico": "קָם֩", "transliteral": "qām", "traducao_palavra": "levantou-se" },
+        { "hebraico": "מְהֵרָ֨ה", "transliteral": "mə-hē-rā", "traducao_palavra": "depressa" },
+        { "hebraico": "מִמְּקֹומֹ֜ו", "transliteral": "mim-mə-qô-mô", "traducao_palavra": "do seu lugar" },
+        { "hebraico": "וַיָּר֣וּצוּ", "transliteral": "way-yā-ru-ṣû", "traducao_palavra": "e correram" },
+        { "hebraico": "כִּנְטֹ֣ות", "traducao_palavra": "como estendeu", "transliteral": "kin-ṭôṯ" },
+        { "hebraico": "יָדֹו֮", "transliteral": "yā-ḏô", "traducao_palavra": "sua mão" },
+        { "hebraico": "וַיָּḇֹאוּ", "transliteral": "way-yā-ḇō-ʾû", "traducao_palavra": "e vieram" },
+        { "hebraico": "הָעִיר", "transliteral": "hā-ʿîr", "traducao_palavra": "à cidade" },
+        { "hebraico": "וַֽיִּלְכְּד֔וּהָ", "transliteral": "way-yil-kə-ḏû-hā", "traducao_palavra": "e tomaram ela" },
+        { "hebraico": "וַֽיְמַהֲר֔וּ", "transliteral": "way-mə-ha-rû", "traducao_palavra": "e apressaram-se" },
+        { "hebraico": "וַיַּצִּ֥יתוּ", "transliteral": "way-yaṣ-ṣî-ṯû", "traducao_palavra": "e incendiaram" },
+        { "hebraico": "אֶת־הָעִ֖יר", "transliteral": "ʾeṯ-hā-ʿîr", "traducao_palavra": "a cidade" },
+        { "hebraico": "בָּאֵֽשׁ׃", "transliteral": "bā-ʾēš", "traducao_palavra": "com fogo" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "E, virando-se os homens de Ai para trás, olharam, e eis que a fumaça da cidade subia ao céu, e não tiveram lugar para fugir para uma banda nem para outra; porque o povo que fugia para o deserto se tornou contra os que os perseguiam.",
+      "palavras": [
+        { "hebraico": "וַיִּפְנּוּ֩", "transliteral": "way-yip̄-nû", "traducao_palavra": "e viraram-se" },
+        { "hebraico": "אַנְשֵׁי", "transliteral": "ʾan-šê", "traducao_palavra": "homens de" },
+        { "hebraico": "הָעַ֜י", "transliteral": "hā-ʿay", "traducao_palavra": "Ai" },
+        { "hebraico": "אַחֲרֵיהֶ֗ם", "transliteral": "ʾa-ḥă-rê-hem", "traducao_palavra": "atrás deles" },
+        { "hebraico": "וַיִּרְאוּ֮", "transliteral": "way-yir-ʾû", "traducao_palavra": "e viram" },
+        { "hebraico": "וְהִנֵּ֨ה", "transliteral": "wə-hin-nē", "traducao_palavra": "e eis [que]" },
+        { "hebraico": "עָלָ֜ה", "transliteral": "ʿā-lā", "traducao_palavra": "subia" },
+        { "hebraico": "עֲשַׁ֤ן", "transliteral": "ʿă-šan", "traducao_palavra": "a fumaça de" },
+        { "hebraico": "הָעִיר֙", "transliteral": "hā-ʿîr", "traducao_palavra": "a cidade" },
+        { "hebraico": "הַשָּׁמַ֔יְמָה", "transliteral": "haš-šā-may-mā", "traducao_palavra": "ao céu" },
+        { "hebraico": "וְלֹא־הָיָ֨ה", "transliteral": "wə-lō-hā-yā", "traducao_palavra": "e não houve" },
+        { "hebraico": "בָהֶ֥ם", "transliteral": "ḇā-hem", "traducao_palavra": "neles" },
+        { "hebraico": "יָדַ֛יִם", "transliteral": "yā-ḏa-yim", "traducao_palavra": "mãos [força/capacidade]" },
+        { "hebraico": "לָנּוּס", "transliteral": "lā-nûs", "traducao_palavra": "para fugir" },
+        { "hebraico": "הֵ֣נָּה וָהֵ֑נָּה", "transliteral": "hēn-nā wā-hēn-nā", "traducao_palavra": "para cá nem para lá" },
+        { "hebraico": "וְהָעָם֙", "transliteral": "wə-hā-ʿām", "traducao_palavra": "e o povo" },
+        { "hebraico": "הַנָּ֣ס", "transliteral": "han-nās", "traducao_palavra": "o que fugia" },
+        { "hebraico": "הַמִּדְבָּר", "transliteral": "ham-miḏ-bār", "traducao_palavra": "ao deserto" },
+        { "hebraico": "נֶהְפַּ֖ךְ", "transliteral": "neh-paḵ", "traducao_palavra": "voltou-se" },
+        { "hebraico": "אֶל־הָרֹודֵֽף׃", "transliteral": "ʾel-hā-rô-ḏēp̄", "traducao_palavra": "contra o perseguidor" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "Vendo, pois, Josué e todo o Israel que a emboscada tomara a cidade, e que a fumaça da cidade subia, voltaram e feriram os homens de Ai.",
+      "palavras": [
+        { "hebraico": "וִיהֹושֻׁ֨עַ", "transliteral": "wî-hô-šu-aʿ", "traducao_palavra": "e Josué" },
+        { "hebraico": "וְכָל־יִשְׂרָאֵ֜ל", "transliteral": "wə-ḵāl-yiś-rā-ʾēl", "traducao_palavra": "e todo o Israel" },
+        { "hebraico": "רָא֗וּ", "transliteral": "rā-ʾû", "traducao_palavra": "viram" },
+        { "hebraico": "כִּֽי־לָכַ֤ד", "transliteral": "kî-lā-ḵaḏ", "traducao_palavra": "que tomara" },
+        { "hebraico": "הָאֹורֵב֙", "transliteral": "hā-ʾô-rēḇ", "traducao_palavra": "a emboscada" },
+        { "hebraico": "אֶת־הָעִ֔יר", "transliteral": "ʾeṯ-hā-ʿîr", "traducao_palavra": "a cidade" },
+        { "hebraico": "וְכִ֥י", "transliteral": "wə-ḵî", "traducao_palavra": "e que" },
+        { "hebraico": "עָלָ֖ה", "transliteral": "ʿā-lā", "traducao_palavra": "subia" },
+        { "hebraico": "עֲשַׁ֣ן", "transliteral": "ʿă-šan", "traducao_palavra": "fumaça de" },
+        { "hebraico": "הָעִ֑יר", "transliteral": "hā-ʿîr", "traducao_palavra": "a cidade" },
+        { "hebraico": "וַיָּשֻׁ֕בוּ", "transliteral": "way-yā-šu-ḇû", "traducao_palavra": "e voltaram" },
+        { "hebraico": "וַיַּכּ֖וּ", "transliteral": "way-yak-kû", "traducao_palavra": "e feriram" },
+        { "hebraico": "אֶת־אַנְשֵׁ֥י הָעָֽי׃", "transliteral": "ʾeṯ-ʾan-šê hā-ʿāy", "traducao_palavra": "os homens de Ai" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "E os outros saíram da cidade ao seu encontro, e assim ficaram no meio de Israel, uns de uma banda, outros de outra; e feriram-nos, até que nenhum deles ficou de resto, nem quem escapasse.",
+      "palavras": [
+        { "hebraico": "וְאֵ֨לֶּה", "transliteral": "wə-ʾēl-leh", "traducao_palavra": "e estes" },
+        { "hebraico": "יָצְא֤וּ", "transliteral": "yā-ṣə-ʾû", "traducao_palavra": "saíram" },
+        { "hebraico": "מִן־הָעִיר֙", "transliteral": "min-hā-ʿîr", "traducao_palavra": "da cidade" },
+        { "hebraico": "לִקְרָאתָ֔ם", "transliteral": "li-qə-rā-ṯām", "traducao_palavra": "ao encontro deles" },
+        { "hebraico": "וַיִּהְי֤וּ", "transliteral": "way-yih-yû", "traducao_palavra": "e ficaram" },
+        { "hebraico": "לְיִשְׂרָאֵל֙", "transliteral": "lə-yiś-rā-ʾēl", "traducao_palavra": "para Israel" },
+        { "hebraico": "בַּתָּ֔וֶךְ", "transliteral": "bat-tā-weḵ", "traducao_palavra": "no meio" },
+        { "hebraico": "אֵ֥לֶּה מִזֶּ֖ה", "transliteral": "ʾēl-leh miz-zeh", "traducao_palavra": "estes de cá" },
+        { "hebraico": "וְאֵ֣לֶּה מִזֶּ֑ה", "transliteral": "wə-ʾēl-leh miz-zeh", "traducao_palavra": "e estes de lá" },
+        { "hebraico": "וַיַּכּ֣וּ אוֹתָ֔ם", "transliteral": "way-yak-kû ʾô-ṯām", "traducao_palavra": "e feriram-nos" },
+        { "hebraico": "עַד־בִּלְתִּ֥י", "transliteral": "ʿaḏ-bil-tî", "traducao_palavra": "até não" },
+        { "hebraico": "הִשְׁאִיר־לֹ֖ו", "transliteral": "hiš-ʾîr-lô", "traducao_palavra": "restar a ele" },
+        { "hebraico": "שָׂרִ֥יד", "transliteral": "śā-rîḏ", "traducao_palavra": "sobrevivente" },
+        { "hebraico": "וּפָלִֽיט׃", "transliteral": "ū-p̄ā-lîṭ", "traducao_palavra": "nem fugitivo" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "Mas ao rei de Ai tomaram vivo, e o trouxeram a Josué.",
+      "palavras": [
+        { "hebraico": "וְאֶת־מֶ֥לֶךְ הָעַ֖י", "transliteral": "wə-ʾeṯ-me-leḵ hā-ʿay", "traducao_palavra": "e ao rei de Ai" },
+        { "hebraico": "תָּ֣פְשׂוּ", "transliteral": "tā-p̄ə-śû", "traducao_palavra": "tomaram" },
+        { "hebraico": "חָ֑י", "transliteral": "ḥāy", "traducao_palavra": "vivo" },
+        { "hebraico": "וַיַּקְרִ֥בוּ אֹתֹ֖ו", "transliteral": "way-yaq-ri-ḇû ʾō-ṯô", "traducao_palavra": "e trouxeram-no" },
+        { "hebraico": "אֶל־יְהֹושֻֽׁעַ׃", "transliteral": "ʾel-yə-hô-šu-aʿ", "traducao_palavra": "a Josué" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "E sucedeu que, acabando Israel de matar todos os moradores de Ai no campo, no deserto onde os tinham perseguido, e havendo todos caído ao fio da espada até serem consumidos, todo o Israel se tornou a Ai e a feriu ao fio da espada.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֣י", "transliteral": "way-hî", "traducao_palavra": "e foi" },
+        { "hebraico": "כְּכַלֹּ֣ות", "transliteral": "kə-ḵal-lôṯ", "traducao_palavra": "ao acabar" },
+        { "hebraico": "יִשְׂרָאֵ֡ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "לַהֲרֹג֩", "transliteral": "la-hă-rōḡ", "traducao_palavra": "de matar" },
+        { "hebraico": "אֶת־כָּל־יֹשְׁבֵ֨י הָעַ֜י", "transliteral": "ʾeṯ-kāl-yō-šə-ḇê hā-ʿay", "traducao_palavra": "todos os moradores de Ai" },
+        { "hebraico": "בַּשָּׂדֶ֗ה", "transliteral": "baś-śā-ḏeh", "traducao_palavra": "no campo" },
+        { "hebraico": "בַּמִּדְבָּר֙", "transliteral": "bam-miḏ-bār", "traducao_palavra": "no deserto" },
+        { "hebraico": "אֲשֶׁ֣ר רְדָפ֣וּם בֹּ֔ו", "transliteral": "ʾă-šer rə-ḏā-p̄ûm bô", "traducao_palavra": "onde os perseguiram nele" },
+        { "hebraico": "וַיִּפְּל֥וּ כֻלָּ֛ם", "transliteral": "way-yip-pə-lû kul-lām", "traducao_palavra": "e todos caíram" },
+        { "hebraico": "לְפִי־חֶ֖רֶב", "transliteral": "lə-p̄î-ḥe-reḇ", "traducao_palavra": "ao fio da espada" },
+        { "hebraico": "עַד־תֻּמָּ֑ם", "transliteral": "ʿaḏ-tum-mām", "traducao_palavra": "até serem consumidos" },
+        { "hebraico": "וַיָּשֻׁ֤בוּ", "transliteral": "way-yā-šu-ḇû", "traducao_palavra": "e voltou" },
+        { "hebraico": "כָל־יִשְׂרָאֵל֙", "transliteral": "kāl-yiś-rā-ʾēl", "traducao_palavra": "todo o Israel" },
+        { "hebraico": "הָעַ֔י", "transliteral": "hā-ʿay", "traducao_palavra": "a Ai" },
+        { "hebraico": "וַיַּכּ֥וּ אֹתָ֖הּ", "transliteral": "way-yak-kû ʾō-ṯāh", "traducao_palavra": "e feriram ela" },
+        { "hebraico": "לְפִי־חָֽרֶב׃", "transliteral": "lə-p̄î-ḥā-reḇ", "traducao_palavra": "ao fio da espada" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "E todos os que caíram aquele dia, assim homens como mulheres, foram doze mil; todos moradores de Ai.",
+      "palavras": [
+        { "hebraico": "וַיְהִי֩", "transliteral": "way-hî", "traducao_palavra": "e foi" },
+        { "hebraico": "כָל־הַנֹּ֨פְלִ֜ים", "transliteral": "kāl-han-nō-p̄ə-lîm", "traducao_palavra": "todos os que caíram" },
+        { "hebraico": "בַּיֹּ֣ום הַה֗וּא", "transliteral": "bay-yôm ha-hû", "traducao_palavra": "naquele dia" },
+        { "hebraico": "מֵאִ֤ישׁ וְעַד־אִשָּׁה֙", "transliteral": "mē-ʾîš wə-ʿaḏ-ʾiš-šā", "traducao_palavra": "desde homem a mulher" },
+        { "hebraico": "שְׁנֵים־עָשָׂ֥ר אָ֑לֶף", "transliteral": "šə-nêm-ʿā-śār ʾā-lep̄", "traducao_palavra": "doze mil" },
+        { "hebraico": "כֹּ֖ל אַנְשֵׁ֥י הָעָֽי׃", "transliteral": "kōl ʾan-šê hā-ʿāy", "traducao_palavra": "todos os homens de Ai" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "Porque Josué não retirou a sua mão, que estendera com a lança, até que destruiu totalmente todos os moradores de Ai.",
+      "palavras": [
+        { "hebraico": "וִיהֹושֻׁ֜עַ", "transliteral": "wî-hô-šu-aʿ", "traducao_palavra": "e Josué" },
+        { "hebraico": "לֹא־הֵשִׁ֣יב יָדֹ֗ו", "transliteral": "lō-hē-šîḇ yā-ḏô", "traducao_palavra": "não retirou sua mão" },
+        { "hebraico": "אֲשֶׁ֤ר נָטָה֙", "transliteral": "ʾă-šer nā-ṭā", "traducao_palavra": "que estendera" },
+        { "hebraico": "בַּכִּידֹון", "transliteral": "bak-kî-ḏôn", "traducao_palavra": "com a lança" },
+        { "hebraico": "עַ֚ד אֲשֶׁ֣ר הֶחֱרִ֔ים", "transliteral": "ʿaḏ ʾă-šer he-ḥĕ-rîm", "traducao_palavra": "até que destruiu totalmente" },
+        { "hebraico": "אֵ֖ת כָּל־יֹשְׁבֵ֥י הָעָֽי׃", "transliteral": "ʾēṯ kāl-yō-šə-ḇê hā-ʿāy", "traducao_palavra": "todos os moradores de Ai" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "Tão-somente o gado e os despojos daquela cidade saquearam os filhos de Israel para si, conforme a palavra de YHWH, que tinha ordenado a Josué.",
+      "palavras": [
+        { "hebraico": "רַק", "transliteral": "raq", "traducao_palavra": "somente" },
+        { "hebraico": "הַבְּהֵמָ֗ה", "transliteral": "hab-bə-hē-mā", "traducao_palavra": "o gado" },
+        { "hebraico": "וּשְׁלָל", "transliteral": "ū-šə-lāl", "traducao_palavra": "e o despojo de" },
+        { "hebraico": "הָעִ֣יר הַהִ֔יא", "transliteral": "hā-ʿîr ha-hî", "traducao_palavra": "aquela cidade" },
+        { "hebraico": "בָּזְז֥וּ לָהֶ֖ם", "transliteral": "bā-zə-zû lā-hem", "traducao_palavra": "saquearam para si" },
+        { "hebraico": "יִשְׂרָאֵ֑ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "כִּדְבַ֥ר", "transliteral": "ki-ḏə-ḇar", "traducao_palavra": "conforme a palavra de" },
+        { "hebraico": "יְהוָ֔ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֲשֶׁר צִוָּה", "transliteral": "ʾă-šer ṣiw-wā", "traducao_palavra": "que ordenou" },
+        { "hebraico": "אֶת־יְהֹושֻֽׁעַ׃", "transliteral": "ʾeṯ-yə-hô-šu-aʿ", "traducao_palavra": "a Josué" }
+      ]
+    },
+    "28": {
+      "traducao_completa": "Queimou, pois, Josué a Ai, e a tornou num montão perpétuo, em assolação, até ao dia de hoje.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׂרֹ֥ף", "transliteral": "way-yiś-rōp̄", "traducao_palavra": "e queimou" },
+        { "hebraico": "יְהֹושֻׁ֖עַ", "transliteral": "yə-hô-šu-aʿ", "traducao_palavra": "Josué" },
+        { "hebraico": "אֶת־הָעָ֑י", "transliteral": "ʾeṯ-hā-ʿāy", "traducao_palavra": "Ai" },
+        { "hebraico": "וַיְשִׂימֶ֤הָ", "transliteral": "way-śî-me-hā", "traducao_palavra": "e pôs ela" },
+        { "hebraico": "תֵּל־עֹולָם֙", "transliteral": "têl-ʿô-lām", "traducao_palavra": "montão eterno" },
+        { "hebraico": "שְׁמָמָ֔ה", "transliteral": "šə-mā-mā", "traducao_palavra": "assolação" },
+        { "hebraico": "עַד־הַיֹּ֥ום הַזֶּה׃", "transliteral": "ʿaḏ-hay-yôm haz-zeh", "traducao_palavra": "até o dia de hoje" }
+      ]
+    },
+    "29": {
+      "traducao_completa": "E ao rei de Ai enforcou num madeiro até à tarde; e, ao pôr do sol, ordenou Josué que tirassem o seu cadáver do madeiro; e lançaram-no à porta da cidade, e levantaram sobre ele um grande montão de pedras, até ao dia de hoje.",
+      "palavras": [
+        { "hebraico": "וְאֶת־מֶ֥לֶךְ הָעַ֛י", "transliteral": "wə-ʾeṯ-me-leḵ hā-ʿay", "traducao_palavra": "e ao rei de Ai" },
+        { "hebraico": "תָּלָ֥ה", "transliteral": "tā-lā", "traducao_palavra": "enforcou/suspendeu" },
+        { "hebraico": "עַל־הָעֵ֖ץ", "transliteral": "ʿal-hā-ʿēṣ", "traducao_palavra": "sobre o madeiro" },
+        { "hebraico": "עַד־עֵ֣ת הָעָ֑רֶב", "transliteral": "ʿaḏ-ʿêṯ hā-ʿā-reḇ", "traducao_palavra": "até o tempo da tarde" },
+        { "hebraico": "וּכְבֹ֣וא הַשֶּׁמֶשׁ֩", "transliteral": "ū-ḵə-ḇô haš-še-meš", "traducao_palavra": "e ao entrar [pôr] do sol" },
+        { "hebraico": "צִוָּ֨ה יְהֹושֻׁ֜עַ", "transliteral": "ṣiw-wā yə-hô-šu-aʿ", "traducao_palavra": "ordenou Josué" },
+        { "hebraico": "וַיֹּרִ֧ידוּ", "transliteral": "way-yō-rî-ḏû", "traducao_palavra": "e baixaram/tiraram" },
+        { "hebraico": "אֶת־נִבְלָתֹ֣ו", "transliteral": "ʾeṯ-niḇ-lā-ṯô", "traducao_palavra": "seu cadáver" },
+        { "hebraico": "מִן־הָעֵ֗ץ", "transliteral": "min-hā-ʿēṣ", "traducao_palavra": "do madeiro" },
+        { "hebraico": "וַיַּשְׁלִ֤יכוּ אֹותָהּ֙", "transliteral": "way-yaš-lî-ḵû ʾô-ṯāh", "traducao_palavra": "e lançaram ele" },
+        { "hebraico": "אֶל־פֶּ֙תַח֙", "transliteral": "ʾel-pe-ṯaḥ", "traducao_palavra": "à entrada de" },
+        { "hebraico": "שַׁ֣עַר הָעִיר", "transliteral": "ša-ʿar hā-ʿîr", "traducao_palavra": "porta da cidade" },
+        { "hebraico": "וַיָּקִ֤ימוּ עָלָיו֙", "transliteral": "way-yā-qî-mû ʿā-lāyw", "traducao_palavra": "e levantaram sobre ele" },
+        { "hebraico": "גַּל־אֲבָנִ֣ים גָּדֹול", "transliteral": "gal-ʾă-ḇā-nîm gā-ḏôl", "traducao_palavra": "um grande montão de pedras" },
+        { "hebraico": "עַד הַיֹּום הַזֶּה׃", "transliteral": "ʿaḏ hay-yôm haz-zeh", "traducao_palavra": "até o dia de hoje" }
+      ]
+    },
+    "30": {
+      "traducao_completa": "Então Josué edificou um altar a YHWH Deus de Israel, no monte Ebal.",
+      "palavras": [
+        { "hebraico": "אָ֣ז יִבְנֶ֤ה", "transliteral": "ʾāz yiḇ-neh", "traducao_palavra": "então edificou" },
+        { "hebraico": "יְהֹושֻׁ֙עַ֙", "transliteral": "yə-hô-šu-aʿ", "traducao_palavra": "Josué" },
+        { "hebraico": "מִזְבֵּחַ", "transliteral": "miz-bē-aḥ", "traducao_palavra": "um altar" },
+        { "hebraico": "לַֽיהוָה", "transliteral": "LYHWH", "traducao_palavra": "a YHWH" },
+        { "hebraico": "אֱלֹהֵ֣י יִשְׂרָאֵ֑ל", "transliteral": "ʾĕ-lō-hê yiś-rā-ʾēl", "traducao_palavra": "Deus de Israel" },
+        { "hebraico": "בְּהַ֥ר עֵיבָֽל׃", "transliteral": "bə-har ʿê-ḇāl", "traducao_palavra": "no monte Ebal" }
+      ]
+    },
+    "31": {
+      "traducao_completa": "Como Moisés, servo de YHWH, ordenara aos filhos de Israel, conforme o que está escrito no livro da lei de Moisés, a saber: um altar de pedras inteiras, sobre o qual se não tinha levantado ferro; e ofereceram sobre ele holocaustos a YHWH, e sacrificaram sacrifícios pacíficos.",
+      "palavras": [
+        { "hebraico": "כַּאֲשֶׁ֣ר צִוָּה", "transliteral": "ka-ʾă-šer ṣiw-wā", "traducao_palavra": "como ordenou" },
+        { "hebraico": "מֹשֶׁ֨ה", "transliteral": "mō-šeh", "traducao_palavra": "Moisés" },
+        { "hebraico": "עֶֽבֶד־יְהוָ֜ה", "transliteral": "ʿe-ḇeḏ-YHWH", "traducao_palavra": "servo de YHWH" },
+        { "hebraico": "אֶת־בְּנֵ֣י יִשְׂרָאֵ֗ל", "transliteral": "ʾeṯ-bə-nê yiś-rā-ʾēl", "traducao_palavra": "aos filhos de Israel" },
+        { "hebraico": "כַּכָּתּוּב֙", "transliteral": "kak-kā-ṯûḇ", "traducao_palavra": "conforme o escrito" },
+        { "hebraico": "בְּסֵ֙פֶר֙ תֹּורַ֣ת", "transliteral": "bə-sē-p̄er tô-raṯ", "traducao_palavra": "no livro da lei de" },
+        { "hebraico": "מֹשֶׁ֔ה", "transliteral": "mō-šeh", "traducao_palavra": "Moisés" },
+        { "hebraico": "מִזְבַּח אֲבָנִ֣ים שְׁלֵמֹות", "transliteral": "miz-baḥ ʾă-ḇā-nîm šə-lê-môṯ", "traducao_palavra": "altar de pedras inteiras" },
+        { "hebraico": "אֲשֶׁ֤ר לֹֽא־הֵנִ֥יף", "transliteral": "ʾă-šer lō-hē-nîp̄", "traducao_palavra": "que não levantou" },
+        { "hebraico": "עֲלֵיהֶ֖ן", "transliteral": "ʿă-lê-hen", "traducao_palavra": "sobre elas" },
+        { "hebraico": "בַּרְזֶ֑ל", "transliteral": "bar-zel", "traducao_palavra": "ferro" },
+        { "hebraico": "וַיַּעֲל֨וּ עָלָ֤יו", "transliteral": "way-ya-ʿă-lû ʿā-lāyw", "traducao_palavra": "e ofereceram sobre ele" },
+        { "hebraico": "עֹלֹות֙ לַֽיהוָ֔ה", "transliteral": "ʿō-lôṯ LYHWH", "traducao_palavra": "holocaustos a YHWH" },
+        { "hebraico": "וַֽיִּזְבְּח֖וּ שְׁלָמִֽים׃", "transliteral": "way-yiz-bə-ḥû šə-lā-mîm", "traducao_palavra": "e sacrificaram sacrifícios pacíficos" }
+      ]
+    },
+    "32": {
+      "traducao_completa": "Também escreveu ali, em pedras, uma cópia da lei de Moisés, que este tinha escrito diante dos filhos de Israel.",
+      "palavras": [
+        { "hebraico": "וַיִּכְתָּב־שָׁ֖ם", "transliteral": "way-yiḵ-tab-šām", "traducao_palavra": "e escreveu ali" },
+        { "hebraico": "עַל־הָאֲבָנִ֑ים", "transliteral": "ʿal-hā-ʾă-ḇā-nîm", "traducao_palavra": "sobre as pedras" },
+        { "hebraico": "אֵ֚ת מִשְׁנֵה", "transliteral": "ʾēṯ miš-nē", "traducao_palavra": "a cópia/repetição de" },
+        { "hebraico": "תֹּורַ֣ת מֹשֶׁ֔ה", "transliteral": "tô-raṯ mō-šeh", "traducao_palavra": "lei de Moisés" },
+        { "hebraico": "אֲשֶׁ֣ר כָּתַ֔ב", "transliteral": "ʾă-šer kā-ṯaḇ", "traducao_palavra": "que escreveu" },
+        { "hebraico": "לִפְנֵ֖י בְּנֵ֥י יִשְׂרָאֵֽל׃", "transliteral": "lip̄-nê bə-nê yiś-rā-ʾēl", "traducao_palavra": "diante dos filhos de Israel" }
+      ]
+    },
+    "33": {
+      "traducao_completa": "E todo o Israel, com os seus anciãos, e os seus oficiais, e os seus juízes, estava em pé de uma e de outra banda da arca, perante os sacerdotes levitas, que levavam a arca da aliança de YHWH, tanto o estrangeiro como o natural; metade deles defronte do monte Gerizim, e a outra metade defronte do monte Ebal; como Moisés, servo de YHWH, ordenara dantes, para abençoar o povo de Israel.",
+      "palavras": [
+        { "hebraico": "וְכָל־יִשְׂרָאֵ֡ל", "transliteral": "wə-ḵāl-yiś-rā-ʾēl", "traducao_palavra": "e todo o Israel" },
+        { "hebraico": "וּזְקֵנָיו֩", "transliteral": "ū-zə-qê-nāyw", "traducao_palavra": "e seus anciãos" },
+        { "hebraico": "וְשֹׁטְרִ֨ים וְשֹׁפְטָ֜יו", "transliteral": "wə-šō-ṭə-rîm wə-šō-p̄ə-ṭāyw", "traducao_palavra": "oficiais e juízes" },
+        { "hebraico": "עֹמְדִ֣ים", "transliteral": "ʿō-mə-ḏîm", "traducao_palavra": "estavam" },
+        { "hebraico": "מִזֶּה וּמִזֶּה׀ לָאָרֹ֡ון", "transliteral": "miz-zeh ū-miz-zeh lā-ʾā-rôn", "traducao_palavra": "de um lado e outro da arca" },
+        { "hebraico": "נֶגֶד֩ הַכֹּהֲנִ֨ים הַלְוִיִּ֜ם", "transliteral": "ne-ḡeḏ hak-kō-hă-nîm hal-wiy-yim", "traducao_palavra": "diante dos sacerdotes levitas" },
+        { "hebraico": "נֹשְׂאֵ֣י׀ אֲרֹ֣ון בְּרִית־יְהוָ֗ה", "transliteral": "nō-śə-ʾê ʾă-rôn bə-rîṯ-YHWH", "traducao_palavra": "os que levavam a arca da aliança de YHWH" },
+        { "hebraico": "כַּגֵּר כָּאֶזְרָ֔ח", "transliteral": "kag-gēr kā-ʾez-rāḥ", "traducao_palavra": "como o estrangeiro e o natural" },
+        { "hebraico": "חֶצְיֹו֙ אֶל־מ֥וּל הַר־גְּרִזִ֔ים", "transliteral": "ḥeṣ-yô ʾel-mûl har-gə-ri-zîm", "traducao_palavra": "metade frente ao monte Gerizim" },
+        { "hebraico": "וְהַֽחֶצְיֹו֙ אֶל־מ֥וּל הַר־עֵיבָ֑ל", "transliteral": "wə-ha-ḥeṣ-yô ʾel-mûl har-ʿê-ḇāl", "traducao_palavra": "e metade frente ao monte Ebal" },
+        { "hebraico": "כַּאֲשֶׁ֨ר", "transliteral": "ka-ʾă-šer", "traducao_palavra": "como" },
+        { "hebraico": "צִוָּ֜ה", "transliteral": "ṣiw-wā", "traducao_palavra": "ordenou" },
+        { "hebraico": "מֹשֶׁ֣ה", "transliteral": "mō-šeh", "traducao_palavra": "Moisés" },
+        { "hebraico": "עֶֽבֶד־יְהוָ֗ה", "transliteral": "ʿe-ḇeḏ-YHWH", "traducao_palavra": "servo de YHWH" },
+        { "hebraico": "לְבָרֵ֛ךְ אֶת־הָעָ֥ם יִשְׂרָאֵ֖ל", "transliteral": "lə-ḇā-rēḵ ʾeṯ-hā-ʿām yiś-rā-ʾēl", "traducao_palavra": "para abençoar o povo Israel" },
+        { "hebraico": "בָּרִאשֹׁנָֽה׃", "transliteral": "bā-ri-šō-nā", "traducao_palavra": "primeiramente" }
+      ]
+    },
+    "34": {
+      "traducao_completa": "E depois leu todas as palavras da lei, a bênção e a maldição, conforme tudo o que está escrito no livro da lei.",
+      "palavras": [
+        { "hebraico": "וְאַחֲרֵי־כֵ֗ן", "transliteral": "wə-ʾa-ḥă-rê-ḵēn", "traducao_palavra": "e depois disso" },
+        { "hebraico": "קָרָא֙", "transliteral": "qā-rā", "traducao_palavra": "leu" },
+        { "hebraico": "אֶת־כָּל־דִּבְרֵ֣י", "transliteral": "ʾeṯ-kāl-diḇ-rê", "traducao_palavra": "todas as palavras de" },
+        { "hebraico": "הַתֹּורָה", "transliteral": "hat-tô-rā", "traducao_palavra": "a lei" },
+        { "hebraico": "הַבְּרָכָ֖ה", "transliteral": "hab-bə-rā-ḵā", "traducao_palavra": "a bênção" },
+        { "hebraico": "וְהַקְּלָלָ֑ה", "transliteral": "wə-haq-qə-lā-lā", "traducao_palavra": "e a maldição" },
+        { "hebraico": "כְּכָל־הַכָּת֖וּב", "transliteral": "kə-ḵāl-hak-kā-ṯûḇ", "traducao_palavra": "conforme tudo o escrito" },
+        { "hebraico": "בְּסֵ֥פער", "transliteral": "bə-sē-p̄er", "traducao_palavra": "no livro de" },
+        { "hebraico": "הַתֹּורָֽה׃", "transliteral": "hat-tô-rā", "traducao_palavra": "a lei" }
+      ]
+    },
+    "35": {
+      "traducao_completa": "Palavra nenhuma houve, de tudo o que Moisés ordenara, que Josué não lesse defronte de toda a congregação de Israel, e das mulheres, e dos meninos, e dos estrangeiros que andavam no meio deles.",
+      "palavras": [
+        { "hebraico": "לֹֽא־הָיָ֣ה דָבָ֗ר מִכֹּל", "transliteral": "lō-hā-yā ḏā-ḇār mik-kōl", "traducao_palavra": "não houve palavra de tudo" },
+        { "hebraico": "אֲשֶׁר־צִוָּה מֹשֶׁה", "transliteral": "ʾă-šer-ṣiw-wā mō-šeh", "traducao_palavra": "que ordenou Moisés" },
+        { "hebraico": "אֲשֶׁר־לֹֽא־קָרָ֣א", "transliteral": "ʾă-šer-lō-qā-rā", "traducao_palavra": "que não lesse" },
+        { "hebraico": "יְהֹושֻׁ֔עַ", "transliteral": "yə-hô-šu-aʿ", "traducao_palavra": "Josué" },
+        { "hebraico": "נֶ֖גֶד כָּל־קְהַ֣ל יִשְׂרָאֵ֑ל", "transliteral": "ne-ḡeḏ kāl-qə-hal yiś-rā-ʾēl", "traducao_palavra": "diante de toda congregação de Israel" },
+        { "hebraico": "וְהַנָּשִׁים וְהַטַּ֔ף", "transliteral": "wə-han-nā-šîm wə-haṭ-ṭap̄", "traducao_palavra": "e mulheres e crianças" },
+        { "hebraico": "וְהַגֵּר", "transliteral": "wə-hag-gēr", "traducao_palavra": "e o estrangeiro" },
+        { "hebraico": "הַהֹלֵ֥ךְ בְּקִרְבָּֽם׃", "transliteral": "ha-hō-lēḵ bə-qir-bām", "traducao_palavra": "o que andava no meio deles" }
+      ]
+    }
+  }
+}
