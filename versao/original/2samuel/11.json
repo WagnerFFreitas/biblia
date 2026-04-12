@@ -1,0 +1,514 @@
+{
+  "livro": "2 Samuel - שְׁמוּאֵל ב - Shemuel Bet",
+  "capítulo": 11,
+  "titulos": {
+    "1": "O adultério de Davi com Bate-Seba",
+    "14": "Davi ordena a morte de Urias",
+    "26": "Davi toma Bate-Seba por mulher"
+  },
+  "versiculos": {
+    "1": {
+      "traducao_completa": "E aconteceu que, na volta do ano, no tempo em que os reis costumam sair à guerra, enviou Davi a Joabe, e com ele os seus servos, e a todo o Israel; e eles destruíram os filhos de Amom, e sitiaram a Rabá; porém Davi ficou em Jerusalém.",
+      "palavras": [
+        { "hebraico": "וַיְהִי֩", "transliteral": "way-hî", "traducao_palavra": "e aconteceu" },
+        { "hebraico": "לִתְשׁוּבַ֨ת", "transliteral": "li-ṯə-šû-ḇaṯ", "traducao_palavra": "na volta de" },
+        { "hebraico": "הַשָּׁנָ֜ה", "transliteral": "haš-šā-nā", "traducao_palavra": "o ano" },
+        { "hebraico": "לְעֵ֣ת ׀", "transliteral": "lə-ʿēṯ", "traducao_palavra": "ao tempo de" },
+        { "hebraico": "צֵ֣את", "transliteral": "ṣēṯ", "traducao_palavra": "sair" },
+        { "hebraico": "הַמְּלָאכִ֛ים", "transliteral": "ham-məl-ʾā-ḵîm", "traducao_palavra": "os reis [ou mensageiros]" },
+        { "hebraico": "וַיִּשְׁלַח֩", "transliteral": "way-yiš-laḥ", "traducao_palavra": "e enviou" },
+        { "hebraico": "דָּוִ֨id", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "אֶת־יֹואָ֜ב", "transliteral": "ʾeṯ-yô-ʾāḇ", "traducao_palavra": "a Joabe" },
+        { "hebraico": "וְאֶת־עֲבָדָ֤יו", "transliteral": "wə-ʾeṯ-ʿă-ḇā-ḏāyw", "traducao_palavra": "e seus servos" },
+        { "hebraico": "עִמֹּו֙", "transliteral": "ʿim-mô", "traducao_palavra": "com ele" },
+        { "hebraico": "וְאֶת־כָּל־יִשְׂרָאֵ֔ל", "transliteral": "wə-ʾeṯ-kāl-yiś-rā-ʾēl", "traducao_palavra": "e a todo o Israel" },
+        { "hebraico": "וַיַּשְׁחִ֙תוּ֙", "transliteral": "way-yaš-ḥî-ṯû", "traducao_palavra": "e destruíram" },
+        { "hebraico": "אֶת־בְּנֵ֣י", "transliteral": "ʾeṯ-bə-nê", "traducao_palavra": "os filhos de" },
+        { "hebraico": "עַמֹּ֔ון", "transliteral": "ʿam-mô-wn", "traducao_palavra": "Amom" },
+        { "hebraico": "וַיָּצֻ֖רוּ", "transliteral": "way-yā-ṣu-rû", "traducao_palavra": "e sitiaram" },
+        { "hebraico": "עַל־רַבָּ֑ה", "transliteral": "ʿal-rab-bā", "traducao_palavra": "a Rabá" },
+        { "hebraico": "וְדָוִ֖id", "transliteral": "wə-ḏā-wiḏ", "traducao_palavra": "e Davi" },
+        { "hebraico": "יֹושֵׁ֥ב", "transliteral": "yô-šēḇ", "traducao_palavra": "ficou/habitava" },
+        { "hebraico": "בִּירֽוּשָׁלִָֽם׃", "transliteral": "bî-rû-šā-lā-yim", "traducao_palavra": "em Jerusalém" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "E aconteceu que, ao cair da tarde, levantou-se Davi do seu leito, e andava passeando no terraço da casa real, e viu do terraço a uma mulher que se estava lavando; e era a mulher mui formosa à vista.",
+      "palavras": [
+        { "hebraico": "וַיְהִי֙", "transliteral": "way-hî", "traducao_palavra": "e aconteceu" },
+        { "hebraico": "לְעֵ֣ת", "transliteral": "lə-ʿēṯ", "traducao_palavra": "ao tempo de" },
+        { "hebraico": "הָעֶ֔רֶב", "transliteral": "hā-ʿe-reḇ", "traducao_palavra": "a tarde" },
+        { "hebraico": "וַיָּ֨קָם", "transliteral": "way-yā-qām", "traducao_palavra": "e levantou-se" },
+        { "hebraico": "דָּוִ֜id", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "מֵעַ֤ל", "transliteral": "mê-ʿal", "traducao_palavra": "de sobre" },
+        { "hebraico": "מִשְׁכָּבֹו֙", "transliteral": "miš-kā-ḇô", "traducao_palavra": "seu leito" },
+        { "hebraico": "וַיִּתְהַלֵּךְ֙", "transliteral": "way-yiṯ-hal-lēḵ", "traducao_palavra": "e andou/passeou" },
+        { "hebraico": "עַל־גַּ֣ג", "transliteral": "ʿal-gag", "traducao_palavra": "sobre o terraço de" },
+        { "hebraico": "בֵּית־הַמֶּ֔לֶךְ", "transliteral": "bêṯ-ham-me-leḵ", "traducao_palavra": "a casa do rei" },
+        { "hebraico": "וַיַּ֥רְא", "transliteral": "way-yar", "traducao_palavra": "e viu" },
+        { "hebraico": "אִשָּׁ֛ה", "transliteral": "ʾiš-šā", "traducao_palavra": "uma mulher" },
+        { "hebraico": "רֹחֶ֖צֶת", "transliteral": "rō-ḥe-ṣeṯ", "traducao_palavra": "lavando-se" },
+        { "hebraico": "מֵעַ֣ל", "transliteral": "mê-ʿal", "traducao_palavra": "de sobre" },
+        { "hebraico": "הַגָּ֑ג", "transliteral": "hag-gāḡ", "traducao_palavra": "o terraço" },
+        { "hebraico": "וְהָ֣אִשָּׁ֔ה", "transliteral": "wə-hā-ʾiš-šā", "traducao_palavra": "e a mulher" },
+        { "hebraico": "טֹובַ֥ת", "transliteral": "ṭô-ḇaṯ", "traducao_palavra": "boa de" },
+        { "hebraico": "מַרְאֶ֖ה", "transliteral": "mar-ʾeh", "traducao_palavra": "aparência" },
+        { "hebraico": "מְאֹֽד׃", "transliteral": "mə-ʾōḏ", "traducao_palavra": "muito" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "E enviou Davi, e inquiriu sobre aquela mulher; e disseram: Porventura não é esta Bate-Seba, filha de Eliã, mulher de Urias, o heteu?",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁלַ֣ח", "transliteral": "way-yiš-laḥ", "traducao_palavra": "e enviou" },
+        { "hebraico": "דָּוִ֔id", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "וַיִּדְרֹ֖שׁ", "transliteral": "way-yiḏ-rōš", "traducao_palavra": "e inquiriu" },
+        { "hebraico": "לָֽאִשָּׁ֑ה", "transliteral": "lā-ʾiš-šā", "traducao_palavra": "pela mulher" },
+        { "hebraico": "וַיֹּ֗אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse [alguém]" },
+        { "hebraico": "הֲלֹוא־זֹאת֙", "transliteral": "hă-lô-zōṯ", "traducao_palavra": "acaso não [é] esta" },
+        { "hebraico": "בַּת־שֶׁ֣בַע", "transliteral": "baṯ-še-ḇaʿ", "traducao_palavra": "Bate-Seba" },
+        { "hebraico": "בַּת־אֱלִיעָ֔ם", "transliteral": "baṯ-ʾĕ-lî-ʿām", "traducao_palavra": "filha de Eliã" },
+        { "hebraico": "אֵ֖שֶׁת", "transliteral": "ʾê-šeṯ", "traducao_palavra": "mulher de" },
+        { "hebraico": "אֽוּרִיָּ֥ה", "transliteral": "ʾû-rî-yā", "traducao_palavra": "Urias" },
+        { "hebraico": "הַחִתִּֽי׃", "transliteral": "ha-ḥit-tî", "traducao_palavra": "o heteu" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Então enviou Davi mensageiros, e mandou trazê-la; e ela veio a ele, e ele se deitou com ela (pois já estava purificada da sua imundície); então voltou ela para sua casa.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁלַח֩", "transliteral": "way-yiš-laḥ", "traducao_palavra": "e enviou" },
+        { "hebraico": "דָּוִ֨id", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "מַלְאָכִ֜ים", "transliteral": "mal-ʾā-ḵîm", "traducao_palavra": "mensageiros" },
+        { "hebraico": "וַיִּקָּחֶ֗הָ", "transliteral": "way-yiq-qā-ḥe-hā", "traducao_palavra": "e tomou-a" },
+        { "hebraico": "וַתָּבֹ֣וא", "transliteral": "wat-tā-ḇô", "traducao_palavra": "e veio" },
+        { "hebraico": "אֵלָיו֮", "transliteral": "ʾê-lāyw", "traducao_palavra": "a ele" },
+        { "hebraico": "וַיִּשְׁכַּ֣ב", "transliteral": "way-yiš-kaḇ", "traducao_palavra": "e deitou-se" },
+        { "hebraico": "עִמָּהּ֒", "transliteral": "ʿim-māh", "traducao_palavra": "com ela" },
+        { "hebraico": "וְהִ֥יא", "transliteral": "wə-hî", "traducao_palavra": "e ela" },
+        { "hebraico": "מִתְקַדֶּ֖שֶׁת", "transliteral": "miṯ-qad-de-šeṯ", "traducao_palavra": "purificando-se" },
+        { "hebraico": "מִטֻּמְאָתָ֑הּ", "transliteral": "mi-ṭum-ʾā-ṯāh", "traducao_palavra": "de sua impureza" },
+        { "hebraico": "וַתָּ֖שָׁב", "transliteral": "wat-tā-šāḇ", "traducao_palavra": "e voltou" },
+        { "hebraico": "אֶל־בֵּיתָֽהּ׃", "transliteral": "ʾel-bê-ṯāh", "traducao_palavra": "para sua casa" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "E a mulher concebeu; e enviou, e fê-lo saber a Davi, e disse: Pejada estou.",
+      "palavras": [
+        { "hebraico": "וַתַּ֖הַר", "transliteral": "wat-ta-har", "traducao_palavra": "e concebeu" },
+        { "hebraico": "הָאִשָּׁ֑ה", "transliteral": "hā-ʾiš-šā", "traducao_palavra": "a mulher" },
+        { "hebraico": "וַתִּשְׁלַח֙", "transliteral": "wat-tiš-laḥ", "traducao_palavra": "e enviou" },
+        { "hebraico": "וַתַּגֵּ֣ד", "transliteral": "wat-tag-gêḏ", "traducao_palavra": "e anunciou" },
+        { "hebraico": "לְדָוִ֔id", "transliteral": "lə-ḏā-wiḏ", "traducao_palavra": "a Davi" },
+        { "hebraico": "וַתֹּ֖אמֶר", "transliteral": "wat-tō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "הָרָ֥ה", "transliteral": "hā-rā", "traducao_palavra": "grávida" },
+        { "hebraico": "אָנֹֽכִי׃", "transliteral": "ʾā-nō-ḵî", "traducao_palavra": "[estou] eu" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Então enviou Davi a Joabe, dizendo: Envia-me Urias, o heteu. E Joabe enviou Urias a Davi.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁלַ֤ח", "transliteral": "way-yiš-laḥ", "traducao_palavra": "e enviou" },
+        { "hebraico": "דָּוִד֙", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "אֶל־יֹואָ֔ב", "transliteral": "ʾel-yô-ʾāḇ", "traducao_palavra": "a Joabe" },
+        { "hebraico": "שְׁלַ֣ח", "transliteral": "šə-laḥ", "traducao_palavra": "envia" },
+        { "hebraico": "אֵלַ֔י", "transliteral": "ʾê-lay", "traducao_palavra": "a mim" },
+        { "hebraico": "אֶת־אֽוּרִיָּ֖ה", "transliteral": "ʾeṯ-ʾû-rî-yā", "traducao_palavra": "Urias" },
+        { "hebraico": "הַחִתִּ֑י", "transliteral": "ha-ḥit-tî", "traducao_palavra": "o heteu" },
+        { "hebraico": "וַיִּשְׁלַ֥ח", "transliteral": "way-yiš-laḥ", "traducao_palavra": "e enviou" },
+        { "hebraico": "יֹואָ֛ב", "transliteral": "yô-ʾāḇ", "traducao_palavra": "Joabe" },
+        { "hebraico": "אֶת־אֽוּרִיָּ֖ה", "transliteral": "ʾeṯ-ʾû-rî-yā", "traducao_palavra": "Urias" },
+        { "hebraico": "אֶל־דָּוִֽid׃", "transliteral": "ʾel-dā-wiḏ", "traducao_palavra": "a Davi" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Vindo, pois, Urias a ele, perguntou Davi como passava Joabe, e como passava o povo, e como ia a guerra.",
+      "palavras": [
+        { "hebraico": "וַיָּבֹ֥א", "transliteral": "way-yā-ḇō", "traducao_palavra": "e veio" },
+        { "hebraico": "אֽוּרִיָּ֖ה", "transliteral": "ʾû-rî-yā", "traducao_palavra": "Urias" },
+        { "hebraico": "אֵלָ֑יו", "transliteral": "ʾê-lāyw", "traducao_palavra": "a ele" },
+        { "hebraico": "וַיִּשְׁאַ֣ל", "transliteral": "way-yiš-ʾal", "traducao_palavra": "e perguntou" },
+        { "hebraico": "דָּוִ֗id", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "לִשְׁלֹ֤ום", "transliteral": "li-šə-lôm", "traducao_palavra": "pela paz de" },
+        { "hebraico": "יֹואָב֙", "transliteral": "yô-ʾāḇ", "traducao_palavra": "Joabe" },
+        { "hebraico": "וְלִשְׁלֹ֣ום", "transliteral": "wə-li-šə-lôm", "traducao_palavra": "e pela paz de" },
+        { "hebraico": "הָעָ֔ם", "transliteral": "hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "וְלִשְׁלֹ֖ום", "transliteral": "wə-li-šə-lôm", "traducao_palavra": "e pela paz de" },
+        { "hebraico": "הַמִּלְחָמָֽה׃", "transliteral": "ham-mil-ḥā-mā", "traducao_palavra": "a guerra" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Depois disse Davi a Urias: Desce à tua casa, e lava os teus pés. E, saindo Urias da casa real, logo lhe foi mandado um presente do rei.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֤אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "דָּוִid֙", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "לְאֽוּרִיָּ֔ה", "transliteral": "lə-ʾû-rî-yā", "traducao_palavra": "a Urias" },
+        { "hebraico": "רֵ֥ד", "transliteral": "rēḏ", "traducao_palavra": "desce" },
+        { "hebraico": "לְבֵיתְךָ֖", "transliteral": "lə-ḇê-ṯə-ḵā", "traducao_palavra": "à tua casa" },
+        { "hebraico": "וּרְחַ֣ץ", "transliteral": "ūr-ḥaṣ", "traducao_palavra": "e lava" },
+        { "hebraico": "רַגְלֶ֑יךָ", "transliteral": "raḡ-le-ḵā", "traducao_palavra": "teus pés" },
+        { "hebraico": "וַיֵּצֵ֤א", "transliteral": "way-yê-ṣê", "traducao_palavra": "e saiu" },
+        { "hebraico": "אֽוּרִיָּה֙", "transliteral": "ʾû-rî-yā", "traducao_palavra": "Urias" },
+        { "hebraico": "מִבֵּ֣ית", "transliteral": "mib-bêṯ", "traducao_palavra": "da casa de" },
+        { "hebraico": "הַמֶּ֔לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "וַתֵּצֵ֥א", "transliteral": "wat-tê-ṣê", "traducao_palavra": "e saiu" },
+        { "hebraico": "אַחֲרָ֖יו", "transliteral": "ʾa-ḥă-rāyw", "traducao_palavra": "atrás dele" },
+        { "hebraico": "מַשְׂאַ֥ת", "transliteral": "maś-ʾaṯ", "traducao_palavra": "presente/porção de" },
+        { "hebraico": "הַמֶּֽלֶךְ׃", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Porém Urias se deitou à porta da casa real, com todos os servos do seu senhor, e não desceu à sua casa.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁכַּ֣ב", "transliteral": "way-yiš-kaḇ", "traducao_palavra": "e deitou-se" },
+        { "hebraico": "אֽוּרִיָּה֙", "transliteral": "ʾû-rî-yā", "traducao_palavra": "Urias" },
+        { "hebraico": "פֶּ֣תַח", "transliteral": "pe-ṯaḥ", "traducao_palavra": "[à] entrada de" },
+        { "hebraico": "בֵֵּית", "transliteral": "bêṯ", "traducao_palavra": "casa de" },
+        { "hebraico": "הַמֶּ֔לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "אֵ֖ת", "transliteral": "ʾēṯ", "traducao_palavra": "com" },
+        { "hebraico": "כָּל־עַבְדֵ֣י", "transliteral": "kāl-ʿaḇ-ḏê", "traducao_palavra": "todos os servos de" },
+        { "hebraico": "אֲדֹנָ֑יו", "transliteral": "ʾă-ḏō-nāyw", "traducao_palavra": "seu senhor" },
+        { "hebraico": "וְלֹ֥א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "יָרַ֖ד", "transliteral": "yā-raḏ", "traducao_palavra": "desceu" },
+        { "hebraico": "אֶל־בֵּיתֹֽו׃", "transliteral": "ʾel-bê-ṯô", "traducao_palavra": "para sua casa" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E fizeram-no saber a Davi, dizendo: Urias não desceu à sua casa. Então disse Davi a Urias: Não vens tu de caminho? Por que não desceste à tua casa?",
+      "palavras": [
+        { "hebraico": "וַיַּגִּ֤דוּ", "transliteral": "way-yag-gî-ḏû", "traducao_palavra": "e anunciaram" },
+        { "hebraico": "לְדָוִד֙", "transliteral": "lə-ḏā-wiḏ", "traducao_palavra": "a Davi" },
+        { "hebraico": "לֵאמֹ֔ר", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "לֹֽא־יָרַ֥ד", "transliteral": "lō-yā-raḏ", "traducao_palavra": "não desceu" },
+        { "hebraico": "אֽוּרִיָּ֖ה", "transliteral": "ʾû-rî-yā", "traducao_palavra": "Urias" },
+        { "hebraico": "אֶל־בֵּיתֹ֑ו", "transliteral": "ʾel-bê-ṯô", "traducao_palavra": "para sua casa" },
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "דָּוִ֜id", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "אֶל־אֽוּרִיָּ֗ה", "transliteral": "ʾel-ʾû-rî-yā", "traducao_palavra": "a Urias" },
+        { "hebraico": "הֲלֹ֤וא", "transliteral": "hă-lô", "traducao_palavra": "porventura não" },
+        { "hebraico": "מִדֶּ֙רֶךְ֙", "transliteral": "mid-de-reḵ", "traducao_palavra": "de caminho" },
+        { "hebraico": "אַתָּ֣ה", "transliteral": "ʾat-tā", "traducao_palavra": "tu" },
+        { "hebraico": "בָ֔א", "transliteral": "ḇā", "traducao_palavra": "vens" },
+        { "hebraico": "מַדּ֖וּעַ", "transliteral": "mad-dû-aʿ", "traducao_palavra": "por que" },
+        { "hebraico": "לֹא־יָרַ֥דְתָּ", "transliteral": "lō-yā-raḏ-tā", "traducao_palavra": "não desceste" },
+        { "hebraico": "אֶל־בֵּיתֶֽךָ׃", "transliteral": "ʾel-bê-ṯe-ḵā", "traducao_palavra": "para tua casa" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "E disse Urias a Davi: A arca, e Israel, e Judá ficam em tendas; e Joabe, meu senhor, e os servos de meu senhor estão acampados sobre a face do campo; e hei de eu entrar na minha casa, para comer e beber, e para me deitar com minha mulher? Pela tua vida, e pela vida da tua alma, não farei tal coisa.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "אֽוּרִיָּ֜ה", "transliteral": "ʾû-rî-yā", "traducao_palavra": "Urias" },
+        { "hebraico": "אֶל־דָּוִ֗id", "transliteral": "ʾel-dā-wiḏ", "traducao_palavra": "a Davi" },
+        { "hebraico": "הָ֠אָרֹון", "transliteral": "hā-ʾā-rōn", "traducao_palavra": "a arca" },
+        { "hebraico": "וְיִשְׂרָאֵ֨ל", "transliteral": "wə-yiś-rā-ʾēl", "traducao_palavra": "e Israel" },
+        { "hebraico": "וִיהוּדָ֜ה", "transliteral": "wî-hû-ḏā", "traducao_palavra": "e Judá" },
+        { "hebraico": "יֹשְׁבִ֣ים", "transliteral": "yō-šə-ḇîm", "traducao_palavra": "habitando/ficando" },
+        { "hebraico": "בַּסֻּכֹּ֗ות", "transliteral": "bas-suk-kôṯ", "traducao_palavra": "em cabanas/tendas" },
+        { "hebraico": "וַאדֹנִ֨י", "transliteral": "wa-ḏō-nî", "traducao_palavra": "e meu senhor" },
+        { "hebraico": "יֹואָ֜ב", "transliteral": "yô-ʾāḇ", "traducao_palavra": "Joabe" },
+        { "hebraico": "וְעַבְדֵ֤י", "transliteral": "wə-ʿaḇ-ḏê", "traducao_palavra": "e os servos de" },
+        { "hebraico": "אֲדֹנִי֙", "transliteral": "ʾă-ḏō-nî", "traducao_palavra": "meu senhor" },
+        { "hebraico": "עַל־פְּנֵ֥י", "transliteral": "ʿal-pə-nê", "traducao_palavra": "sobre a face de" },
+        { "hebraico": "הַשָּׂדֶה֙", "transliteral": "haś-śā-ḏeh", "traducao_palavra": "o campo" },
+        { "hebraico": "חֹנִ֔ים", "transliteral": "ḥō-nîm", "traducao_palavra": "acampados" },
+        { "hebraico": "וַאֲנִ֞י", "transliteral": "wa-ʾă-nî", "traducao_palavra": "e eu" },
+        { "hebraico": "אָבֹ֧וא", "transliteral": "ʾā-ḇô", "traducao_palavra": "irei/entrarei" },
+        { "hebraico": "אֶל־בֵּיתִ֛י", "transliteral": "ʾel-bê-ṯî", "traducao_palavra": "em minha casa" },
+        { "hebraico": "לֶאֱכֹ֥ל", "transliteral": "le-ʾĕ-ḵōl", "traducao_palavra": "para comer" },
+        { "hebraico": "וְלִשְׁתֹּ֖ות", "transliteral": "wə-liš-tôṯ", "traducao_palavra": "e para beber" },
+        { "hebraico": "וְלִשְׁכַּ֣ב", "transliteral": "wə-liš-kaḇ", "traducao_palavra": "e para deitar" },
+        { "hebraico": "עִם־אִשְׁתִּ֑י", "transliteral": "ʿim-ʾiš-tî", "traducao_palavra": "com minha mulher" },
+        { "hebraico": "חַיֶּ֙ךָ֙", "transliteral": "ḥay-ye-ḵā", "traducao_palavra": "[pela] tua vida" },
+        { "hebraico": "וְחֵ֣י", "transliteral": "wə-ḥê", "traducao_palavra": "e pela vida de" },
+        { "hebraico": "נַפְשֶׁ֔ךָ", "transliteral": "nap̄-še-ḵā", "traducao_palavra": "tua alma" },
+        { "hebraico": "אִֽם־אֶעֱשֶׂ֖ה", "transliteral": "ʾim-ʾe-ʿĕ-śeh", "traducao_palavra": "se farei" },
+        { "hebraico": "אֶת־הַדָּבָ֥ר", "transliteral": "ʾeṯ-had-dā-ḇār", "traducao_palavra": "a coisa" },
+        { "hebraico": "הַזֶּֽה׃", "transliteral": "haz-zeh", "traducao_palavra": "esta" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "E disse Davi a Urias: Demora-te aqui ainda hoje, e amanhã te despedirei. Urias, pois, ficou em Jerusalém aquele dia e o seguinte.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "דָּוִ֜id", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "אֶל־אֽוּרִיָּ֗ה", "transliteral": "ʾel-ʾû-rî-yā", "traducao_palavra": "a Urias" },
+        { "hebraico": "שֵׁ֥ב", "transliteral": "šēḇ", "traducao_palavra": "fica/assenta" },
+        { "hebraico": "בָּזֶ֛ה", "transliteral": "bā-zeh", "traducao_palavra": "nisto/aqui" },
+        { "hebraico": "גַּם־הַיֹּ֖ום", "transliteral": "gam-hay-yôm", "traducao_palavra": "também hoje" },
+        { "hebraico": "וּמָחָ֖ר", "transliteral": "ū-mā-ḥār", "traducao_palavra": "e amanhã" },
+        { "hebraico": "אֲשַׁלְּחֶ֑ךָ", "transliteral": "ʾă-šal-lə-ḥe-ḵā", "traducao_palavra": "despedirei a ti" },
+        { "hebraico": "וַיֵּ֨שֶׁב", "transliteral": "way-yê-šeḇ", "traducao_palavra": "e ficou" },
+        { "hebraico": "אֽוּרִיָּ֧ה", "transliteral": "ʾû-rî-yā", "traducao_palavra": "Urias" },
+        { "hebraico": "בִירוּשָׁלִַ֛ם", "transliteral": "ḇî-rû-šā-la-yim", "traducao_palavra": "em Jerusalém" },
+        { "hebraico": "בַּיֹּ֥ום", "transliteral": "bay-yôm", "traducao_palavra": "no dia" },
+        { "hebraico": "הַה֖וּא", "transliteral": "ha-hû", "traducao_palavra": "aquele" },
+        { "hebraico": "וּמִֽמָּחֳרָֽת׃", "transliteral": "ū-mim-mā-ḥo-rāṯ", "traducao_palavra": "e no seguinte" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "E Davi o convidou, e comeu e bebeu diante dele, e o embebedou; e à tarde saiu a deitar-se na sua cama com os servos de seu senhor; porém não desceu à sua casa.",
+      "palavras": [
+        { "hebraico": "וַיִּקְרָא־לֹ֣ו", "transliteral": "way-yiq-rā-lô", "traducao_palavra": "e chamou a ele" },
+        { "hebraico": "דָוִ֗id", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "וַיֹּ֧אכַל", "transliteral": "way-yō-ḵal", "traducao_palavra": "e comeu" },
+        { "hebraico": "לְפָנָ֛יו", "transliteral": "lə-p̄ā-nāyw", "traducao_palavra": "diante dele" },
+        { "hebraico": "וַיֵּ֑שְׁתְּ", "transliteral": "way-yê-šət", "traducao_palavra": "e bebeu" },
+        { "hebraico": "וַֽיְשַׁכְּרֵ֔הוּ", "transliteral": "way-šak-kə-rê-hû", "traducao_palavra": "e embebedou-o" },
+        { "hebraico": "וַיֵּצֵ֣א", "transliteral": "way-yê-ṣê", "traducao_palavra": "e saiu" },
+        { "hebraico": "בָעֶ֗רֶב", "transliteral": "ḇā-ʿe-reḇ", "traducao_palavra": "pela tarde" },
+        { "hebraico": "לִשְׁכַּ֤ב", "transliteral": "liš-kaḇ", "traducao_palavra": "para deitar" },
+        { "hebraico": "בְּמִשְׁכָּבֹו֙", "transliteral": "bə-miš-kā-ḇô", "traducao_palavra": "no seu leito" },
+        { "hebraico": "עִם־עַבְדֵ֣י", "transliteral": "ʿim-ʿaḇ-ḏê", "traducao_palavra": "com servos de" },
+        { "hebraico": "אֲדֹנָ֔יו", "transliteral": "ʾă-ḏō-nāyw", "traducao_palavra": "seu senhor" },
+        { "hebraico": "וְאֶל־בֵּיתֹ֖ו", "transliteral": "wə-ʾel-bê-ṯô", "traducao_palavra": "e para sua casa" },
+        { "hebraico": "לֹ֥א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "יָרָֽד׃", "transliteral": "yā-rāḏ", "traducao_palavra": "desceu" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "E sucedeu que pela manhã Davi escreveu uma carta a Joabe; e enviou-lha por mão de Urias.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֣י", "transliteral": "way-hî", "traducao_palavra": "e aconteceu" },
+        { "hebraico": "בַבֹּ֔קֶר", "transliteral": "ḇab-bō-qer", "traducao_palavra": "pela manhã" },
+        { "hebraico": "וַיִּכְתֹּ֥ב", "transliteral": "way-yik-tōḇ", "traducao_palavra": "e escreveu" },
+        { "hebraico": "דָּוִ֛id", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "סֵ֖פֶר", "transliteral": "sê-p̄er", "traducao_palavra": "uma carta/documento" },
+        { "hebraico": "אֶל־יֹואָ֑ב", "transliteral": "ʾel-yô-ʾāḇ", "traducao_palavra": "a Joabe" },
+        { "hebraico": "וַיִּשְׁלַ֖ח", "transliteral": "way-yiš-laḥ", "traducao_palavra": "e enviou" },
+        { "hebraico": "בְּיַ֥id", "transliteral": "bə-yaḏ", "traducao_palavra": "pela mão de" },
+        { "hebraico": "אֽוּרִיָּֽה׃", "transliteral": "ʾû-rî-yā", "traducao_palavra": "Urias" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "E escreveu na carta, dizendo: Ponde a Urias na frente da maior força da peleja; e retirai-vos de detrás dele, para que seja ferido e morra.",
+      "palavras": [
+        { "hebraico": "וַיִּכְתֹּ֥ב", "transliteral": "way-yik-tōḇ", "traducao_palavra": "e escreveu" },
+        { "hebraico": "בַּסֵּ֖פֶר", "transliteral": "bas-sê-p̄er", "traducao_palavra": "na carta" },
+        { "hebraico": "לֵאמֹ֑ר", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "הָ֠בּוּ", "transliteral": "hā-bû", "traducao_palavra": "ponde" },
+        { "hebraico": "אֶת־אֽוּרִיָּ֞ה", "transliteral": "ʾeṯ-ʾû-rî-yā", "traducao_palavra": "a Urias" },
+        { "hebraico": "אֶל־מ֧וּל", "transliteral": "ʾel-mûl", "traducao_palavra": "na frente de/face de" },
+        { "hebraico": "פְּנֵי֙", "transliteral": "pə-nê", "traducao_palavra": "a face de" },
+        { "hebraico": "הַמִּלְחָמָ֣ה", "transliteral": "ham-mil-ḥā-mā", "traducao_palavra": "a batalha" },
+        { "hebraico": "הַחֲזָקָ֔ה", "transliteral": "ha-ḥă-zā-qā", "traducao_palavra": "a forte" },
+        { "hebraico": "וְשַׁבְתֶּ֥ם", "transliteral": "wə-šaḇ-tem", "traducao_palavra": "e retirai-vos" },
+        { "hebraico": "מֵאַחֲרָ֖יו", "transliteral": "mê-ʾa-ḥă-rāyw", "traducao_palavra": "de após ele" },
+        { "hebraico": "וְנִכָּ֥ה", "transliteral": "wə-nik-kā", "traducao_palavra": "e ele seja ferido" },
+        { "hebraico": "וָמֵֽת׃", "transliteral": "wā-mēṯ", "traducao_palavra": "e morra" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Aconteceu, pois, que, sitiando Joabe a cidade, pôs a Urias no lugar onde sabia que havia homens valentes.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֕י", "transliteral": "way-hî", "traducao_palavra": "e foi" },
+        { "hebraico": "בִּשְׁמֹ֥ור", "transliteral": "biš-mô-wr", "traducao_palavra": "no guardar/sitiar de" },
+        { "hebraico": "יֹואָ֖ב", "transliteral": "yô-ʾāḇ", "traducao_palavra": "Joabe" },
+        { "hebraico": "אֶל־הָעִ֑יר", "transliteral": "ʾel-hā-ʿîr", "traducao_palavra": "a cidade" },
+        { "hebraico": "וַיִּתֵּן֙", "transliteral": "way-yit-tên", "traducao_palavra": "e pôs" },
+        { "hebraico": "אֶת־אֽוּרִיָּ֔ה", "transliteral": "ʾeṯ-ʾû-rî-yā", "traducao_palavra": "a Urias" },
+        { "hebraico": "אֶל־הַמָּקֹום֙", "transliteral": "ʾel-ham-mā-qô-wm", "traducao_palavra": "no lugar" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "onde" },
+        { "hebraico": "יָדַ֔ע", "transliteral": "yā-ḏaʿ", "traducao_palavra": "sabia" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "אַנְשֵׁי־חַ֖יִל", "transliteral": "ʾan-šê-ḥa-yil", "traducao_palavra": "homens de valor [estavam]" },
+        { "hebraico": "שָֽׁם׃", "transliteral": "šām", "traducao_palavra": "ali" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "E, saindo os homens da cidade, pelejaram com Joabe; e caíram alguns do povo, dos servos de Davi; e morreu também Urias, o heteu.",
+      "palavras": [
+        { "hebraico": "וַיֵּצְא֞וּ", "transliteral": "way-yê-ṣə-ʾû", "traducao_palavra": "e saíram" },
+        { "hebraico": "אַנְשֵׁ֤י", "transliteral": "ʾan-šê", "traducao_palavra": "homens de" },
+        { "hebraico": "הָעִיר֙", "transliteral": "hā-ʿîr", "traducao_palavra": "a cidade" },
+        { "hebraico": "וַיִּלָּחֲמ֣וּ", "transliteral": "way-yil-lā-ḥă-mû", "traducao_palavra": "e pelejaram" },
+        { "hebraico": "אֶת־יֹואָ֔ב", "transliteral": "ʾeṯ-yô-ʾāḇ", "traducao_palavra": "com Joabe" },
+        { "hebraico": "וַיִּפֹּ֥ל", "transliteral": "way-yip-pōl", "traducao_palavra": "e caiu" },
+        { "hebraico": "מִן־הָעָ֖ם", "transliteral": "min-hā-ʿām", "traducao_palavra": "[alguns] do povo" },
+        { "hebraico": "מֵעַבְדֵ֣י", "transliteral": "mê-ʿaḇ-ḏê", "traducao_palavra": "dos servos de" },
+        { "hebraico": "דָּוִ֑id", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "וַיָּ֕מָת", "transliteral": "way-yā-māṯ", "traducao_palavra": "e morreu" },
+        { "hebraico": "גַּ֖ם", "transliteral": "gam", "traducao_palavra": "também" },
+        { "hebraico": "אֽוּרִיָּ֥ה", "transliteral": "ʾû-rî-yā", "traducao_palavra": "Urias" },
+        { "hebraico": "הַחִתִּֽי׃", "transliteral": "ha-ḥit-tî", "traducao_palavra": "o heteu" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "Então enviou Joabe, e fez saber a Davi todo o sucesso da peleja.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁלַ֖ח", "transliteral": "way-yiš-laḥ", "traducao_palavra": "e enviou" },
+        { "hebraico": "יֹואָ֑ב", "transliteral": "yô-ʾāḇ", "traducao_palavra": "Joabe" },
+        { "hebraico": "וַיַּגֵּ֣id", "transliteral": "way-yag-gêḏ", "traducao_palavra": "e anunciou" },
+        { "hebraico": "לְדָוִ֔id", "transliteral": "lə-ḏā-wiḏ", "traducao_palavra": "a Davi" },
+        { "hebraico": "אֶת־כָּל־דִּבְרֵ֖י", "transliteral": "ʾeṯ-kāl-diḇ-rê", "traducao_palavra": "todas as palavras/fatos de" },
+        { "hebraico": "הַמִּלְחָמָֽה׃", "transliteral": "ham-mil-ḥā-mā", "traducao_palavra": "a guerra" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "E deu ordem ao mensageiro, dizendo: Acabando tu de contar ao rei todo o sucesso desta peleja,",
+      "palavras": [
+        { "hebraico": "וַיְצַ֥ו", "transliteral": "way-ṣaw", "traducao_palavra": "e ordenou" },
+        { "hebraico": "אֶת־הַמַּלְאָ֖ךְ", "transliteral": "ʾeṯ-ham-mal-ʾāḵ", "traducao_palavra": "ao mensageiro" },
+        { "hebraico": "לֵאמֹ֑ר", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "כְּכַלֹּותְךָ֗", "transliteral": "kə-ḵal-lô-ṯə-ḵā", "traducao_palavra": "em teu acabar" },
+        { "hebraico": "אֵ֛ת", "transliteral": "ʾêṯ", "traducao_palavra": "[obj]" },
+        { "hebraico": "כָּל־דִּבְרֵ֥י", "transliteral": "kāl-diḇ-rê", "traducao_palavra": "todas as palavras de" },
+        { "hebraico": "הַמִּלְחָמָ֖ה", "transliteral": "ham-mil-ḥā-mā", "traducao_palavra": "a guerra" },
+        { "hebraico": "לְדַבֵּ֥ר", "transliteral": "lə-ḏab-bêr", "traducao_palavra": "para falar" },
+        { "hebraico": "אֶל־הַמֶּֽלֶךְ׃", "transliteral": "ʾel-ham-me-leḵ", "traducao_palavra": "ao rei" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "E suceder que a ira do rei se acenda, e te diga: Por que vos chegastes tão perto da cidade a pelejar? Não sabíeis vós que haviam de atirar do muro?",
+      "palavras": [
+        { "hebraico": "וְהָיָ֗ה", "transliteral": "wə-hā-yā", "traducao_palavra": "e será" },
+        { "hebraico": "אִם־תַּעֲלֶה֙", "transliteral": "ʾim-ta-ʿă-leh", "traducao_palavra": "se subir" },
+        { "hebraico": "חֲמַ֣ת", "transliteral": "ḥă-maṯ", "traducao_palavra": "a ira de" },
+        { "hebraico": "הַמֶּ֔לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "וְאָ֣מַר", "transliteral": "wə-ʾā-mar", "traducao_palavra": "e ele disser" },
+        { "hebraico": "לְךָ֔", "transliteral": "lə-ḵā", "traducao_palavra": "a ti" },
+        { "hebraico": "מַדּ֥וּעַ", "transliteral": "mad-dû-aʿ", "traducao_palavra": "por que" },
+        { "hebraico": "נִגַּשְׁתֶּ֛ם", "transliteral": "nig-gaš-tem", "traducao_palavra": "aproximastes-vos" },
+        { "hebraico": "אֶל־הָעִ֖יר", "transliteral": "ʾel-hā-ʿîr", "traducao_palavra": "à cidade" },
+        { "hebraico": "לְהִלָּחֵ֑ם", "transliteral": "lə-hil-lā-ḥêm", "traducao_palavra": "para pelejar" },
+        { "hebraico": "הֲלֹ֣וא", "transliteral": "hă-lô", "traducao_palavra": "acaso não" },
+        { "hebraico": "יְדַעְתֶּ֔ם", "transliteral": "yə-ḏaʿ-tem", "traducao_palavra": "sabíeis" },
+        { "hebraico": "אֵ֥ת", "transliteral": "ʾêṯ", "traducao_palavra": "[obj]" },
+        { "hebraico": "אֲשֶׁר־יֹור֖וּ", "transliteral": "ʾă-šer-yô-rû", "traducao_palavra": "que atirarão" },
+        { "hebraico": "מֵעַ֥ל", "transliteral": "mê-ʿal", "traducao_palavra": "de sobre" },
+        { "hebraico": "הַחֹומָֽה׃", "transliteral": "ha-ḥô-mā", "traducao_palavra": "o muro" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "Quem feriu a Abimeleque, filho de Jerubesete? Não lançou uma mulher sobre ele um pedaço de uma mó de cima do muro, de modo que morreu em Tebes? Por que vos chegastes ao muro? Então dirás: Também morreu teu servo Urias, o heteu.",
+      "palavras": [
+        { "hebraico": "מִֽי־הִכָּ֞ה", "transliteral": "mî-hik-kā", "traducao_palavra": "quem feriu" },
+        { "hebraico": "אֶת־אֲבִימֶ֣לֶךְ", "transliteral": "ʾeṯ-ʾă-ḇî-me-leḵ", "traducao_palavra": "a Abimeleque" },
+        { "hebraico": "בֶּן־יְרֻבֶּ֗שֶׁת", "transliteral": "ben-yə-rub-be-šeṯ", "traducao_palavra": "filho de Jerubesete" },
+        { "hebraico": "הֲלֹוא־אִשָּׁ֡ה", "transliteral": "hă-lô-ʾiš-šā", "traducao_palavra": "acaso não uma mulher" },
+        { "hebraico": "הִשְׁלִ֣יכָה", "transliteral": "hiš-lî-ḵā", "traducao_palavra": "lançou" },
+        { "hebraico": "עָלָיו֩", "transliteral": "ʿā-lāyw", "traducao_palavra": "sobre ele" },
+        { "hebraico": "פֶּ֨לַח", "transliteral": "pe-laḥ", "traducao_palavra": "um pedaço de" },
+        { "hebraico": "רֶ֜כֶב", "transliteral": "re-ḵeḇ", "traducao_palavra": "pedra de mó superior" },
+        { "hebraico": "מֵעַ֣ל", "transliteral": "mê-ʿal", "traducao_palavra": "de sobre" },
+        { "hebraico": "הַחֹומָה֮", "transliteral": "ha-ḥô-mā", "traducao_palavra": "o muro" },
+        { "hebraico": "וַיָּ֣מָת", "transliteral": "way-yā-māṯ", "traducao_palavra": "e morreu" },
+        { "hebraico": "בְּתֵבֵץ֒", "transliteral": "bə-ṯê-ḇêṣ", "traducao_palavra": "em Tebes" },
+        { "hebraico": "לָ֥מָּה", "transliteral": "lām-mā", "traducao_palavra": "por que" },
+        { "hebraico": "נִגַּשְׁתֶּ֖ם", "transliteral": "nig-gaš-tem", "traducao_palavra": "aproximastes-vos" },
+        { "hebraico": "אֶל־הַחֹומָ֑ה", "transliteral": "ʾel-ha-ḥô-mā", "traducao_palavra": "ao muro?" },
+        { "hebraico": "וְאָ֣מַרְתָּ֔", "transliteral": "wə-ʾā-mar-tā", "traducao_palavra": "e dirás" },
+        { "hebraico": "גַּ֥ם", "transliteral": "gam", "traducao_palavra": "também" },
+        { "hebraico": "עַבְדְּךָ֛", "transliteral": "ʿaḇ-də-ḵā", "traducao_palavra": "teu servo" },
+        { "hebraico": "אֽוּרִיָּ֥ה", "transliteral": "ʾû-rî-yā", "traducao_palavra": "Urias" },
+        { "hebraico": "הַחִתִּ֖י", "transliteral": "ha-ḥit-tî", "traducao_palavra": "o heteu" },
+        { "hebraico": "מֵֽת׃", "transliteral": "mēṯ", "traducao_palavra": "morreu" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "E foi o mensageiro, e chegou, e fez saber a Davi tudo o que Joabe lhe mandara.",
+      "palavras": [
+        { "hebraico": "וַיֵּ֖לֶךְ", "transliteral": "way-yê-leḵ", "traducao_palavra": "e foi" },
+        { "hebraico": "הַמַּלְאָ֑ךְ", "transliteral": "ham-mal-ʾāḵ", "traducao_palavra": "o mensageiro" },
+        { "hebraico": "וַיָּבֹ֕א", "transliteral": "way-yā-ḇō", "traducao_palavra": "e veio" },
+        { "hebraico": "וַיַּגֵּ֣id", "transliteral": "way-yag-gêḏ", "traducao_palavra": "e anunciou" },
+        { "hebraico": "לְדָוִ֔id", "transliteral": "lə-ḏā-wiḏ", "traducao_palavra": "a Davi" },
+        { "hebraico": "אֵ֥ת", "transliteral": "ʾēṯ", "traducao_palavra": "[obj]" },
+        { "hebraico": "כָּל־אֲשֶׁ֥ר", "transliteral": "kāl-ʾă-šer", "traducao_palavra": "tudo o que" },
+        { "hebraico": "שְׁלָחֹ֖ו", "transliteral": "šə-lā-ḥô", "traducao_palavra": "enviou-o" },
+        { "hebraico": "יֹואָֽב׃", "transliteral": "yô-ʾāḇ", "traducao_palavra": "Joabe" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "E disse o mensageiro a Davi: Na verdade que os homens foram mais fortes do que nós, e saíram a nós ao campo; porém nós fomos contra eles até à entrada da porta.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֤אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "הַמַּלְאָךְ֙", "transliteral": "ham-mal-ʾāḵ", "traducao_palavra": "o mensageiro" },
+        { "hebraico": "אֶל־דָּוִ֔id", "transliteral": "ʾel-dā-wiḏ", "traducao_palavra": "a Davi" },
+        { "hebraico": "כִּֽי־גָבְר֤וּ", "transliteral": "kî-ḡā-ḇə-rû", "traducao_palavra": "que prevaleceram" },
+        { "hebraico": "עָלֵ֙ינוּ֙", "transliteral": "ʿā-lê-nû", "traducao_palavra": "sobre nós" },
+        { "hebraico": "הָאֲנָשִׁ֔ים", "transliteral": "hā-ʾă-nā-šîm", "traducao_palavra": "os homens" },
+        { "hebraico": "וַיֵּצְא֥וּ", "transliteral": "way-yê-ṣə-ʾû", "traducao_palavra": "e saíram" },
+        { "hebraico": "אֵלֵ֖ינוּ", "transliteral": "ʾê-lê-nû", "traducao_palavra": "a nós" },
+        { "hebraico": "הַשָּׂדֶ֑ה", "transliteral": "haś-śā-ḏeh", "traducao_palavra": "ao campo" },
+        { "hebraico": "וַנִּהְיֶ֥ה", "transliteral": "wan-nih-yeh", "traducao_palavra": "e fomos/estivemos" },
+        { "hebraico": "עֲלֵיהֶ֖ם", "transliteral": "ʿă-lê-hem", "traducao_palavra": "sobre/contra eles" },
+        { "hebraico": "עַד־פֶּ֥תַח", "transliteral": "ʿaḏ-pe-ṯaḥ", "traducao_palavra": "até a entrada de" },
+        { "hebraico": "הַשָּֽׁעַר׃", "transliteral": "haš-šā-ʿar", "traducao_palavra": "a porta" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "Então os flecheiros atiraram contra os teus servos desde o muro, e morreram alguns dos servos do rei; e também morreu o teu servo Urias, o heteu.",
+      "palavras": [
+        { "hebraico": "וַיֹּורֻּ֨ו", "transliteral": "way-yôr-rû", "traducao_palavra": "e atiraram" },
+        { "hebraico": "הַיֹּורִ֤ים", "transliteral": "hay-yô-rîm", "traducao_palavra": "os flecheiros" },
+        { "hebraico": "אֶל־עֲבָדֶ֙יךָ֙", "transliteral": "ʾel-ʿă-ḇā-ḏe-ḵā", "traducao_palavra": "contra teus servos" },
+        { "hebraico": "מֵעַ֣ל", "transliteral": "mê-ʿal", "traducao_palavra": "de sobre" },
+        { "hebraico": "הַחֹומָ֔ה", "transliteral": "ha-ḥô-mā", "traducao_palavra": "o muro" },
+        { "hebraico": "וַיָּמ֕וּתוּ", "transliteral": "way-yā-mû-ṯû", "traducao_palavra": "e morreram" },
+        { "hebraico": "מֵעַבְדֵ֖י", "transliteral": "mê-ʿaḇ-ḏê", "traducao_palavra": "dos servos de" },
+        { "hebraico": "הַמֶּ֑לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "וְגַ֗ם", "transliteral": "wə-ḡam", "traducao_palavra": "e também" },
+        { "hebraico": "עַבְדְּךָ֛", "transliteral": "ʿaḇ-də-ḵā", "traducao_palavra": "teu servo" },
+        { "hebraico": "אֽוּרִיָּ֥ה", "transliteral": "ʾû-rî-yā", "traducao_palavra": "Urias" },
+        { "hebraico": "הַחִתִּ֖י", "transliteral": "ha-ḥit-tî", "traducao_palavra": "o heteu" },
+        { "hebraico": "מֵֽת׃", "transliteral": "mēṯ", "traducao_palavra": "morreu" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "E disse Davi ao mensageiro: Assim dirás a Joabe: Não te pareça mal aos teus olhos isto, pois a espada tanto consome a este como àquele; esforça a tua peleja contra a cidade, e a transtorna; e tu o esforça.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "דָּוִ֜id", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "אֶל־הַמַּלְאָ֗ךְ", "transliteral": "ʾel-ham-mal-ʾāḵ", "traducao_palavra": "ao mensageiro" },
+        { "hebraico": "כֹּה־תֹאמַ֣ר", "transliteral": "kōh-ṯō-mar", "traducao_palavra": "assim dirás" },
+        { "hebraico": "אֶל־יֹואָב֮", "transliteral": "ʾel-yô-ʾāḇ", "traducao_palavra": "a Joabe" },
+        { "hebraico": "אַל־יֵרַ֤ע", "transliteral": "ʾal-yê-raʿ", "traducao_palavra": "não seja mau" },
+        { "hebraico": "בְּעֵינֶ֙יךָ֙", "transliteral": "bə-ʿê-ne-ḵā", "traducao_palavra": "aos teus olhos" },
+        { "hebraico": "אֶת־הַדָּבָ֣ר", "transliteral": "ʾeṯ-had-dā-ḇār", "traducao_palavra": "a coisa" },
+        { "hebraico": "הַזֶּ֔ה", "transliteral": "haz-zeh", "traducao_palavra": "esta" },
+        { "hebraico": "כִּי־כָזֹ֥ה", "transliteral": "kî-ḵā-zōh", "traducao_palavra": "pois ora assim" },
+        { "hebraico": "וְכָזֶ֖ה", "transliteral": "wə-ḵā-zeh", "traducao_palavra": "e ora assado/de outra forma" },
+        { "hebraico": "תֹּאכַ֣ל", "transliteral": "tō-ḵal", "traducao_palavra": "consome/come" },
+        { "hebraico": "הֶחָ֑רֶב", "transliteral": "he-ḥā-reḇ", "traducao_palavra": "a espada" },
+        { "hebraico": "הַחֲזֵ֨ק", "transliteral": "ha-ḥă-zēq", "traducao_palavra": "reforça" },
+        { "hebraico": "מִלְחַמְתְּךָ֧", "transliteral": "mil-ḥam-tə-ḵā", "traducao_palavra": "tua peleja" },
+        { "hebraico": "אֶל־הָעִ֛יר", "transliteral": "ʾel-hā-ʿîr", "traducao_palavra": "contra a cidade" },
+        { "hebraico": "וְהָרְסָ֖הּ", "transliteral": "wə-hā-rə-sāh", "traducao_palavra": "e destrói-a" },
+        { "hebraico": "וְחַזְּקֵֽהוּ׃", "transliteral": "wə-ḥaz-zə-qê-hû", "traducao_palavra": "e anima-o" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "Ouvindo, pois, a mulher de Urias que seu marido era morto, lamentou a seu senhor.",
+      "palavras": [
+        { "hebraico": "וַתִּשְׁמַע֙", "transliteral": "wat-tiš-maʿ", "traducao_palavra": "e ouviu" },
+        { "hebraico": "אֵ֣שֶׁת", "transliteral": "ʾê-šeṯ", "traducao_palavra": "a mulher de" },
+        { "hebraico": "אֽוּרִיָּ֔ה", "transliteral": "ʾû-rî-yā", "traducao_palavra": "Urias" },
+        { "hebraico": "כִּי־מֵ֖ת", "transliteral": "kî-mēṯ", "traducao_palavra": "que morreu" },
+        { "hebraico": "אֽוּרִיָּ֣ה", "transliteral": "ʾû-rî-yā", "traducao_palavra": "Urias" },
+        { "hebraico": "אִישָׁ֑הּ", "transliteral": "ʾî-šāh", "traducao_palavra": "marido dela" },
+        { "hebraico": "וַתִּסְפֹּ֖ד", "transliteral": "wat-tis-pōḏ", "traducao_palavra": "e lamentou" },
+        { "hebraico": "עַל־בַּעְלָֽהּ׃", "transliteral": "ʿal-ba-ʿlāh", "traducao_palavra": "sobre seu senhor/marido" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "E, passado o luto, enviou Davi, e a recolheu em sua casa, e ela lhe foi por mulher, e deu-lhe um filho. Porém esta coisa que Davi fez pareceu mal aos olhos de YHWH.",
+      "palavras": [
+        { "hebraico": "וַיַּעֲבֹ֣ר", "transliteral": "way-ya-ʿă-ḇōr", "traducao_palavra": "e passou" },
+        { "hebraico": "הָאֵ֗בֶל", "transliteral": "hā-ʾê-ḇel", "traducao_palavra": "o luto" },
+        { "hebraico": "וַיִּשְׁלַ֨ח", "transliteral": "way-yiš-laḥ", "traducao_palavra": "e enviou" },
+        { "hebraico": "דָּוִid", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "וַיַּאַסְפָ֧הּ", "transliteral": "way-ya-ʾas-p̄āh", "traducao_palavra": "e recolheu-a" },
+        { "hebraico": "אֶל־בֵּיתֹ֛ו", "transliteral": "ʾel-bê-ṯô", "traducao_palavra": "para sua casa" },
+        { "hebraico": "וַתְּהִי־לֹ֥ו", "transliteral": "wat-tə-hî-lô", "traducao_palavra": "e ela foi para ele" },
+        { "hebraico": "לְאִשָּׁ֖ה", "transliteral": "lə-ʾiš-šā", "traducao_palavra": "por mulher" },
+        { "hebraico": "וַתֵּֽלֶד־לֹ֥ו", "transliteral": "wat-tê-leḏ-lô", "traducao_palavra": "e deu à luz para ele" },
+        { "hebraico": "בֵּ֑ן", "transliteral": "bên", "traducao_palavra": "um filho" },
+        { "hebraico": "וַיֵּ֧רַע", "transliteral": "way-yê-raʿ", "traducao_palavra": "e pareceu mal" },
+        { "hebraico": "הַדָּבָ֛ר", "transliteral": "had-dā-ḇār", "traducao_palavra": "a coisa" },
+        { "hebraico": "אֲשֶׁר־עָשָׂ֥ה", "transliteral": "ʾă-šer-ʿā-śā", "traducao_palavra": "que fez" },
+        { "hebraico": "דָוִ֖id", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "בְּעֵינֵ֥י", "transliteral": "bə-ʿê-nê", "traducao_palavra": "aos olhos de" },
+        { "hebraico": "יְהוָֽה׃", "transliteral": "YHWH", "traducao_palavra": "YHWH" }
+      ]
+    }
+  }
+}

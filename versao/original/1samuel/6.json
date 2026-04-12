@@ -1,0 +1,463 @@
+{
+  "livro": "1 Samuel - שְׁמוּאֵל א - Shemu'el Alef",
+  "capítulo": 6,
+  "titulos": {
+    "1": "Os filisteus deliberam sobre a devolução da Arca",
+    "10": "A Arca é levada para Bete-Semes",
+    "19": "O castigo dos homens de Bete-Semes"
+  },
+  "versiculos": {
+    "1": {
+      "traducao_completa": "E esteve a arca de YHWH na terra dos filisteus sete meses.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֧י", "transliteral": "way-hî", "traducao_palavra": "e foi/esteve" },
+        { "hebraico": "אֲרֹון־יְהוָ֛ה", "transliteral": "ʾă-rôn-YHWH", "traducao_palavra": "a arca de YHWH" },
+        { "hebraico": "בִּשְׂדֵ֥ה", "transliteral": "biś-ḏēh", "traducao_palavra": "no campo/território de" },
+        { "hebraico": "פְלִשְׁתִּ֖ים", "transliteral": "p̄ə-liš-tîm", "traducao_palavra": "filisteus" },
+        { "hebraico": "שִׁבְעָ֥ה", "transliteral": "šiḇ-ʿā", "traducao_palavra": "sete" },
+        { "hebraico": "חֳדָשִֽׁים׃", "transliteral": "ḥo-ḏā-šîm", "traducao_palavra": "meses" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "E os filisteus chamaram os sacerdotes e os adivinhos, dizendo: Que faremos nós da arca de YHWH? Fazei-nos saber com que a enviaremos ao seu lugar.",
+      "palavras": [
+        { "hebraico": "וַיִּקְרְא֣וּ", "transliteral": "way-yiq-rə-ʾû", "traducao_palavra": "e chamaram" },
+        { "hebraico": "פְלִשְׁתִּ֗ים", "transliteral": "p̄ə-liš-tîm", "traducao_palavra": "os filisteus" },
+        { "hebraico": "לַכֹּהֲנִים֙", "transliteral": "lak-kō-hă-nîm", "traducao_palavra": "aos sacerdotes" },
+        { "hebraico": "וְלַקֹּ֣סְמִים", "transliteral": "wə-laq-qō-śə-mîm", "traducao_palavra": "e aos adivinhos" },
+        { "hebraico": "לֵאמֹ֔ר", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "מַה־נַּעֲשֶׂ֖ה", "transliteral": "mah-na-ʿă-śeh", "traducao_palavra": "que faremos" },
+        { "hebraico": "לַאֲרֹ֣ון", "transliteral": "la-ʾă-rôn", "traducao_palavra": "com a arca de" },
+        { "hebraico": "יְהוָ֑ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "הֹודִעֻ֕נוּ", "transliteral": "hô-ḏi-ʿu-nû", "traducao_palavra": "fazei-nos saber" },
+        { "hebraico": "בַּמֶּ֖ה", "transliteral": "bam-meh", "traducao_palavra": "com que" },
+        { "hebraico": "נְשַׁלְּחֶ֥נּוּ", "transliteral": "nə-šal-lə-ḥen-nû", "traducao_palavra": "a enviaremos" },
+        { "hebraico": "לִמְקֹומֹֽו׃", "transliteral": "lim-qō-mô", "traducao_palavra": "ao seu lugar" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "E disseram: Se enviardes a arca do Deus de Israel, não a envieis vazia, mas sem falta lhe pagareis uma oferta pela culpa; então sereis curados, e se vos fará saber por que a sua mão se não retira de vós.",
+      "palavras": [
+        { "hebraico": "וַיֹּאמְר֗וּ", "transliteral": "way-yō-mə-rû", "traducao_palavra": "e disseram" },
+        { "hebraico": "אִם־מְשַׁלְּחִ֞ים", "transliteral": "ʾim-mə-šal-lə-ḥîm", "traducao_palavra": "se enviardes" },
+        { "hebraico": "אֶת־אֲרֹ֨ון", "transliteral": "ʾeṯ-ʾă-rôn", "traducao_palavra": "a arca de" },
+        { "hebraico": "אֱלֹהֵ֤י", "transliteral": "ʾĕ-lō-hê", "traducao_palavra": "Deus de" },
+        { "hebraico": "יִשְׂרָאֵל֙", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "אַל־תְּשַׁלְּח֥וּ", "transliteral": "ʾal-tə-šal-lə-ḥû", "traducao_palavra": "não envieis" },
+        { "hebraico": "אֹתֹ֖ו", "transliteral": "ʾō-ṯô", "traducao_palavra": "ela" },
+        { "hebraico": "רֵיקָ֑ם", "transliteral": "rê-qām", "traducao_palavra": "vazia" },
+        { "hebraico": "כִּֽי־הָשֵׁ֤ב", "transliteral": "kî-hā-šēḇ", "traducao_palavra": "porque certamente" },
+        { "hebraico": "תָּשִׁ֤יבוּ", "transliteral": "tā-šî-ḇû", "traducao_palavra": "pagareis/devolvereis" },
+        { "hebraico": "לֹו֙", "transliteral": "lô", "traducao_palavra": "a ele" },
+        { "hebraico": "אָשָׁ֔ם", "transliteral": "ʾā-šām", "traducao_palavra": "oferta pela culpa" },
+        { "hebraico": "אָז֙", "transliteral": "ʾāz", "traducao_palavra": "então" },
+        { "hebraico": "תֵּרָ֣פְאוּ", "transliteral": "tê-rā-p̄ə-ʾû", "traducao_palavra": "sereis curados" },
+        { "hebraico": "וְנֹודַ֣ע", "transliteral": "wə-nô-ḏaʿ", "traducao_palavra": "e se fará saber" },
+        { "hebraico": "לָכֶ֔ם", "transliteral": "lā-ḵem", "traducao_palavra": "a vós" },
+        { "hebraico": "לָ֥מָּה", "transliteral": "lām-mā", "traducao_palavra": "por que" },
+        { "hebraico": "לֹא־תָס֥וּר", "transliteral": "lō-ṯā-sûr", "traducao_palavra": "não se retira" },
+        { "hebraico": "יָדֹ֖ו", "transliteral": "yā-ḏô", "traducao_palavra": "a mão dele" },
+        { "hebraico": "מִכֶּֽם׃", "transliteral": "mik-kem", "traducao_palavra": "de vós" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Então disseram: Qual é a oferta pela culpa que lhe pagaremos? E disseram: Cinco tumores de ouro e cinco ratos de ouro, segundo o número dos príncipes dos filisteus; porquanto a praga é uma mesma sobre todos vós e sobre os vossos príncipes.",
+      "palavras": [
+        { "hebraico": "וַיֹּאמְר֗וּ", "transliteral": "way-yō-mə-rû", "traducao_palavra": "e disseram" },
+        { "hebraico": "מָ֣ה", "transliteral": "mā", "traducao_palavra": "qual [é]" },
+        { "hebraico": "הָאָשָׁם֙", "transliteral": "hā-ʾā-šām", "traducao_palavra": "a oferta pela culpa" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "נָשִׁ֣יב", "transliteral": "nā-šîḇ", "traducao_palavra": "pagaremos/devolveremos" },
+        { "hebraico": "לֹ֔ו", "transliteral": "lô", "traducao_palavra": "a ele" },
+        { "hebraico": "וַיֹּאמְר֗וּ", "transliteral": "way-yō-mə-rû", "traducao_palavra": "e disseram" },
+        { "hebraico": "מִסְפַּ֞ר", "transliteral": "mis-par", "traducao_palavra": "[segundo o] número de" },
+        { "hebraico": "סַרְנֵ֣י", "transliteral": "sar-nê", "traducao_palavra": "príncipes de" },
+        { "hebraico": "פְלִשְׁתִּים֮", "transliteral": "p̄ə-liš-tîm", "traducao_palavra": "filisteus" },
+        { "hebraico": "חֲמִשָּׁ֣ה", "transliteral": "ḥă-miš-šā", "traducao_palavra": "cinco" },
+        { "hebraico": "עֳפָלֵ֣י", "transliteral": "ʿo-p̄ā-lê", "traducao_palavra": "tumores de" },
+        { "hebraico": "זָהָב֒", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "וַחֲמִשָּׁ֖ה", "transliteral": "wa-ḥă-miš-šā", "traducao_palavra": "e cinco" },
+        { "hebraico": "עַכְבְּרֵ֣י", "transliteral": "ʿaḵ-bə-rê", "traducao_palavra": "ratos de" },
+        { "hebraico": "זָהָ֑ב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "כִּֽי־מַגֵּפָ֥ה", "transliteral": "kî-mag-gē-p̄ā", "traducao_palavra": "porque praga" },
+        { "hebraico": "אַחַ֛ת", "transliteral": "ʾa-ḥaṯ", "traducao_palavra": "uma" },
+        { "hebraico": "לְכֻלָּ֖ם", "transliteral": "lə-ḵul-lām", "traducao_palavra": "sobre todos vós" },
+        { "hebraico": "וּלְסַרְנֵיכֶֽם׃", "transliteral": "ū-lə-sar-nê-ḵem", "traducao_palavra": "e sobre vossos príncipes" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Fareis, pois, umas imagens dos vossos tumores e umas imagens dos vossos ratos, que destroem a terra, e dareis glória ao Deus de Israel; porventura aliviará a sua mão de cima de vós, e de cima do vosso deus, e de cima da vossa terra.",
+      "palavras": [
+        { "hebraico": "וַעֲשִׂיתֶם֩", "transliteral": "wa-ʿă-śî-ṯem", "traducao_palavra": "e fareis" },
+        { "hebraico": "צַלְמֵ֨י", "transliteral": "ṣal-mê", "traducao_palavra": "imagens de" },
+        { "hebraico": "עֳפָלֵיכֶ֜ם", "transliteral": "ʿo-p̄ā-lê-ḵem", "traducao_palavra": "vossos tumores" },
+        { "hebraico": "וְצַלְמֵ֣י", "transliteral": "wə-ṣal-mê", "traducao_palavra": "e imagens de" },
+        { "hebraico": "עַכְבְּרֵיכֶ֗ם", "transliteral": "ʿaḵ-bə-rê-ḵem", "traducao_palavra": "vossos ratos" },
+        { "hebraico": "הַמַּשְׁחִיתִים֙", "transliteral": "ham-maš-ḥî-ṯîm", "traducao_palavra": "os que destroem" },
+        { "hebraico": "אֶת־הָאָ֔רֶץ", "transliteral": "ʾeṯ-hā-ʾā-reṣ", "traducao_palavra": "a terra" },
+        { "hebraico": "וּנְתַתֶּ֥ם", "transliteral": "ū-nə-ṯat-tem", "traducao_palavra": "e dareis" },
+        { "hebraico": "לֵאלֹהֵ֥י", "transliteral": "lê-lō-hê", "traducao_palavra": "ao Deus de" },
+        { "hebraico": "יִשְׂרָאֵ֖ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "כָּבֹ֑וד", "transliteral": "kā-ḇôḏ", "traducao_palavra": "glória" },
+        { "hebraico": "אוּלַ֗י", "transliteral": "ʾû-lay", "traducao_palavra": "talvez" },
+        { "hebraico": "יָקֵ֤ל", "transliteral": "yā-qêl", "traducao_palavra": "aliviará" },
+        { "hebraico": "אֶת־יָדֹו֙", "transliteral": "ʾeṯ-yā-ḏô", "traducao_palavra": "a mão dele" },
+        { "hebraico": "מֵעֲלֵיכֶ֔ם", "transliteral": "mê-ʿă-lê-ḵem", "traducao_palavra": "de cima de vós" },
+        { "hebraico": "וּמֵעַ֥ל", "transliteral": "ū-mê-ʿal", "traducao_palavra": "e de sobre" },
+        { "hebraico": "אֱלֹהֵיכֶ֖ם", "transliteral": "ʾĕ-lō-hê-ḵem", "traducao_palavra": "vosso deus" },
+        { "hebraico": "וּמֵעַ֥ל", "transliteral": "ū-mê-ʿal", "traducao_palavra": "e de sobre" },
+        { "hebraico": "אַרְצְכֶֽם׃", "transliteral": "ʾar-ṣə-ḵem", "traducao_palavra": "vossa terra" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Por que, pois, endureceríeis o vosso coração, como os egípcios e Faraó endureceram o seu coração? Porventura, depois de ele ter operado maravilhosamente entre eles, não os deixaram ir, e eles não se foram?",
+      "palavras": [
+        { "hebraico": "וְלָ֤מָּה", "transliteral": "wə-lām-mā", "traducao_palavra": "e por que" },
+        { "hebraico": "תְכַבְּדוּ֙", "transliteral": "ṯə-ḵab-bə-ḏû", "traducao_palavra": "endureceríeis/pesariais" },
+        { "hebraico": "אֶת־לְבַבְכֶ֔ם", "transliteral": "ʾeṯ-lə-ḇaḇ-ḵem", "traducao_palavra": "o vosso coração" },
+        { "hebraico": "כַּאֲשֶׁ֧ר", "transliteral": "ka-ʾă-šer", "traducao_palavra": "conforme" },
+        { "hebraico": "כִּבְּד֥וּ", "transliteral": "kib-bə-ḏû", "traducao_palavra": "endureceram" },
+        { "hebraico": "מִצְרַ֖יִם", "transliteral": "miṣ-ra-yim", "traducao_palavra": "Egito" },
+        { "hebraico": "וּפַרְעֹ֑ה", "transliteral": "ū-p̄ar-ʿōh", "traducao_palavra": "e Faraó" },
+        { "hebraico": "אֶת־לִבָּ֑ם", "transliteral": "ʾeṯ-lib-bām", "traducao_palavra": "o coração deles" },
+        { "hebraico": "הֲלֹ֗וא", "transliteral": "hă-lô", "traducao_palavra": "acaso não" },
+        { "hebraico": "כַּאֲשֶׁר֙", "transliteral": "ka-ʾă-šer", "traducao_palavra": "quando" },
+        { "hebraico": "הִתְעַלֵּ֣ל", "transliteral": "hiṯ-ʿal-lêl", "traducao_palavra": "operou maravilhosamente" },
+        { "hebraico": "בָּהֶ֔ם", "transliteral": "bā-hem", "traducao_palavra": "neles" },
+        { "hebraico": "וַֽיְשַׁלְּח֖וּם", "transliteral": "way-šal-lə-ḥûm", "traducao_palavra": "e deixaram-nos ir" },
+        { "hebraico": "וַיֵּלֵֽכוּ׃", "transliteral": "way-yê-lê-ḵû", "traducao_palavra": "e eles se foram" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Agora, pois, fazei um carro novo, e tomai duas vacas que criem, sobre as quais não tenha subido jugo, e atai as vacas ao carro, e levai os seus bezerros de após elas para casa.",
+      "palavras": [
+        { "hebraico": "וְעַתָּ֗ה", "transliteral": "wə-ʿat-tā", "traducao_palavra": "e agora" },
+        { "hebraico": "קְח֨וּ", "transliteral": "qə-ḥû", "traducao_palavra": "tomai" },
+        { "hebraico": "וַעֲשׂ֜וּ", "transliteral": "wa-ʿă-śû", "traducao_palavra": "e fazei" },
+        { "hebraico": "עֲגָלָ֤ה", "transliteral": "ʿă-ḡā-lā", "traducao_palavra": "carro" },
+        { "hebraico": "חֲדָשָׁה֙", "transliteral": "ḥă-ḏā-šā", "traducao_palavra": "novo" },
+        { "hebraico": "אַחַ֔ת", "transliteral": "ʾa-ḥaṯ", "traducao_palavra": "um" },
+        { "hebraico": "וּשְׁתֵּ֨י", "transliteral": "ū-šət-tê", "traducao_palavra": "e duas" },
+        { "hebraico": "פָרֹ֤ות", "transliteral": "p̄ā-rôṯ", "traducao_palavra": "vacas" },
+        { "hebraico": "עָלֹות֙", "transliteral": "ʿā-lôṯ", "traducao_palavra": "que criam/dão leite" },
+        { "hebraico": "אֲשֶׁ֨ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "לֹא־עָלָ֥ה", "transliteral": "lō-ʿā-lā", "traducao_palavra": "não subiu" },
+        { "hebraico": "עֲלֵיהֶ֖ן", "transliteral": "ʿă-lê-hen", "traducao_palavra": "sobre elas" },
+        { "hebraico": "עֹ֑ל", "transliteral": "ʿōl", "traducao_palavra": "jugo" },
+        { "hebraico": "וַאֲסַרְתֶּ֤ם", "transliteral": "wa-ʾă-sar-tem", "traducao_palavra": "e atareis" },
+        { "hebraico": "אֶת־הַפָּרֹות֙", "transliteral": "ʾeṯ-hap-pā-rôṯ", "traducao_palavra": "as vacas" },
+        { "hebraico": "בָּעֲגָלָ֔ה", "transliteral": "bā-ʿă-ḡā-lā", "traducao_palavra": "no carro" },
+        { "hebraico": "וַהֲשֵׁיבֹתֶ֧ם", "transliteral": "wa-hă-šê-ḇō-ṯem", "traducao_palavra": "e fareis retornar" },
+        { "hebraico": "בְּנֵיהֶ֛ם", "transliteral": "bə-nê-hem", "traducao_palavra": "bezerros delas" },
+        { "hebraico": "מֵאַחֲרֵיהֶ֖ן", "transliteral": "mê-ʾa-ḥă-rê-hen", "traducao_palavra": "de após elas" },
+        { "hebraico": "הַבָּֽיְתָה׃", "transliteral": "hab-bā-yə-ṯā", "traducao_palavra": "para casa" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Então tomai a arca de YHWH, e ponde-a sobre o carro, e metei num cofre, ao seu lado, as figuras de ouro que lhe haveis de pagar em oferta pela culpa; e deixai-a ir, para que se vá.",
+      "palavras": [
+        { "hebraico": "וּלְקַחְתֶּם֮", "transliteral": "ū-lə-qaḥ-tem", "traducao_palavra": "e tomareis" },
+        { "hebraico": "אֶת־אֲרֹ֣ון", "transliteral": "ʾeṯ-ʾă-rôn", "traducao_palavra": "a arca de" },
+        { "hebraico": "יְהוָה֒", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וּנְתַתֶּ֣ם", "transliteral": "ū-nə-ṯat-tem", "traducao_palavra": "e poreis" },
+        { "hebraico": "אֹתֹו֮", "transliteral": "ʾō-ṯô", "traducao_palavra": "ela" },
+        { "hebraico": "אֶל־הָעֲגָלָה֒", "transliteral": "ʾel-hā-ʿă-ḡā-lā", "traducao_palavra": "sobre o carro" },
+        { "hebraico": "וְאֵ֣ת׀", "transliteral": "wə-ʾêṯ", "traducao_palavra": "e" },
+        { "hebraico": "כְּלֵ֣י", "transliteral": "kə-lê", "traducao_palavra": "as figuras/objetos de" },
+        { "hebraico": "הַזָּהָ֗ב", "transliteral": "haz-zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "אֲשֶׁ֨ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "הֲשֵׁבֹתֶ֥ם", "transliteral": "hă-šē-ḇō-ṯem", "traducao_palavra": "pagareis/devolvereis" },
+        { "hebraico": "לֹו֙", "transliteral": "lô", "traducao_palavra": "a ele" },
+        { "hebraico": "אָשָׁ֔ם", "transliteral": "ʾā-šām", "traducao_palavra": "[como] oferta pela culpa" },
+        { "hebraico": "תָּשִׂ֥ימוּ", "transliteral": "tā-śî-mû", "traducao_palavra": "metereis" },
+        { "hebraico": "בָאַרְגַּ֖ז", "transliteral": "ḇā-ʾar-gaz", "traducao_palavra": "num cofre/caixa" },
+        { "hebraico": "מִצִּדֹּ֑ו", "transliteral": "miṣ-ṣid-dô", "traducao_palavra": "ao lado dele" },
+        { "hebraico": "וְשִׁלַּחְתֶּ֥ם", "transliteral": "wə-šil-laḥ-tem", "traducao_palavra": "e enviareis" },
+        { "hebraico": "אֹתֹ֖ו", "transliteral": "ʾō-ṯô", "traducao_palavra": "ela" },
+        { "hebraico": "וְהָלָֽךְ׃", "transliteral": "wə-hā-lāḵ", "traducao_palavra": "e se irá" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "E vede: se subir pelo caminho do seu termo a Bete-Semes, foi ele que nos fez este grande mal; e, se não, saberemos que não nos feriu a sua mão, e que isto nos sucedeu por acaso.",
+      "palavras": [
+        { "hebraico": "וּרְאִיתֶ֗ם", "transliteral": "ū-rə-ʾî-ṯem", "traducao_palavra": "e vede" },
+        { "hebraico": "אִם־דֶּ֨רֶךְ", "transliteral": "ʾim-de-reḵ", "traducao_palavra": "se [pelo] caminho de" },
+        { "hebraico": "גְּבוּלֹ֤ו", "transliteral": "gə-ḇû-lô", "traducao_palavra": "termo dele" },
+        { "hebraico": "יַעֲלֶה֙", "transliteral": "ya-ʿă-leh", "traducao_palavra": "subir" },
+        { "hebraico": "בֵּ֣ית", "transliteral": "bêṯ", "traducao_palavra": "[a] Bete-" },
+        { "hebraico": "שֶׁ֔מֶשׁ", "transliteral": "še-meš", "traducao_palavra": "Semes" },
+        { "hebraico": "ה֚וּא", "transliteral": "hû", "traducao_palavra": "ele" },
+        { "hebraico": "עָ֣שָׂה", "transliteral": "ʿā-śā", "traducao_palavra": "fez" },
+        { "hebraico": "לָ֔נוּ", "transliteral": "lā-nû", "traducao_palavra": "a nós" },
+        { "hebraico": "אֶת־הָרָעָ֥ה", "transliteral": "ʾeṯ-hā-rā-ʿā", "traducao_palavra": "o mal" },
+        { "hebraico": "הַגְּדֹולָ֖ה", "transliteral": "hag-gə-ḏô-lā", "traducao_palavra": "o grande" },
+        { "hebraico": "הַזֹּ֑את", "transliteral": "haz-zōṯ", "traducao_palavra": "este" },
+        { "hebraico": "וְאִם־לֹ֗א", "transliteral": "wə-ʾim-lō", "traducao_palavra": "e se não" },
+        { "hebraico": "וְיָדַ֙עְנוּ֙", "transliteral": "wə-yā-ḏaʿ-nû", "traducao_palavra": "saberemos" },
+        { "hebraico": "כִּי֩", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "לֹ֨א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "יָדֹ֜ו", "transliteral": "yā-ḏô", "traducao_palavra": "a mão dele" },
+        { "hebraico": "נָ֣גְעָה", "transliteral": "nā-ḡə-ʿā", "traducao_palavra": "feriu" },
+        { "hebraico": "בָּ֔נוּ", "transliteral": "bā-nû", "traducao_palavra": "a nós" },
+        { "hebraico": "מִקְרֶ֥ה", "transliteral": "miq-reh", "traducao_palavra": "acaso" },
+        { "hebraico": "ה֖וּא", "transliteral": "hû", "traducao_palavra": "ele [é]" },
+        { "hebraico": "הָ֥יָה", "transliteral": "hā-yā", "traducao_palavra": "foi" },
+        { "hebraico": "לָֽנוּ׃", "transliteral": "lā-nû", "traducao_palavra": "para nós" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E assim fizeram aqueles homens; e tomaram duas vacas que criavam, e as ataram ao carro, e encerraram os seus bezerros em casa.",
+      "palavras": [
+        { "hebraico": "וַיַּעֲשׂ֨וּ", "transliteral": "way-ya-ʿă-śû", "traducao_palavra": "e fizeram" },
+        { "hebraico": "הָאֲנָשִׁ֜ים", "transliteral": "hā-ʾă-nā-šîm", "traducao_palavra": "os homens" },
+        { "hebraico": "כֵּ֗ן", "transliteral": "kēn", "traducao_palavra": "assim" },
+        { "hebraico": "וַיִּקְח֞וּ", "transliteral": "way-yiq-ḥû", "traducao_palavra": "e tomaram" },
+        { "hebraico": "שְׁתֵּ֤י", "transliteral": "šət-tê", "traducao_palavra": "duas" },
+        { "hebraico": "פָרֹות֙", "transliteral": "p̄ā-rôṯ", "traducao_palavra": "vacas" },
+        { "hebraico": "עָלֹ֔ות", "transliteral": "ʿā-lôṯ", "traducao_palavra": "que criavam" },
+        { "hebraico": "וַיַּאַסְר֖וּם", "transliteral": "way-ya-ʾas-rûm", "traducao_palavra": "e as ataram" },
+        { "hebraico": "בָּעֲגָלָ֑ה", "transliteral": "bā-ʿă-ḡā-lā", "traducao_palavra": "no carro" },
+        { "hebraico": "וְאֶת־בְּנֵיהֶ֖ם", "transliteral": "wə-ʾeṯ-bə-nê-hem", "traducao_palavra": "e os bezerros delas" },
+        { "hebraico": "כָּל֥וּ", "transliteral": "kā-lû", "traducao_palavra": "encerraram/prenderam" },
+        { "hebraico": "בַבָּֽיִת׃", "transliteral": "ḇab-bā-yit", "traducao_palavra": "em casa" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "E puseram a arca de YHWH sobre o carro, como também o cofre com os ratos de ouro e com as imagens dos seus tumores.",
+      "palavras": [
+        { "hebraico": "וַיָּשִׂ֛מוּ", "transliteral": "way-yā-śi-mû", "traducao_palavra": "e puseram" },
+        { "hebraico": "אֶת־אֲרֹ֥on", "transliteral": "ʾeṯ-ʾă-rôn", "traducao_palavra": "a arca de" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־הָעֲגָלָ֑ה", "transliteral": "ʾel-hā-ʿă-ḡā-lā", "traducao_palavra": "no carro" },
+        { "hebraico": "וְאֵ֣ת", "transliteral": "wə-ʾêṯ", "traducao_palavra": "e" },
+        { "hebraico": "הָאַרְגַּ֗ז", "transliteral": "hā-ʾar-gaz", "traducao_palavra": "o cofre" },
+        { "hebraico": "וְאֵת֙", "transliteral": "wə-ʾêṯ", "traducao_palavra": "e" },
+        { "hebraico": "עַכְבְּרֵ֣י", "transliteral": "ʿaḵ-bə-rê", "traducao_palavra": "ratos de" },
+        { "hebraico": "הַזָּהָ֔ב", "transliteral": "haz-zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "וְאֵ֖ת", "transliteral": "wə-ʾêṯ", "traducao_palavra": "e" },
+        { "hebraico": "צַלְמֵ֥י", "transliteral": "ṣal-mê", "traducao_palavra": "imagens de" },
+        { "hebraico": "טְחֹרֵיהֶֽם׃", "transliteral": "ṭə-ḥō-rê-hem", "traducao_palavra": "tumores deles" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "E as vacas se encaminharam diretamente pelo caminho de Bete-Semes, e iam por uma mesma estrada, andando e berrando, sem se desviarem nem para a direita nem para a esquerda; e os príncipes dos filisteus foram após elas até ao termo de Bete-Semes.",
+      "palavras": [
+        { "hebraico": "וַיִּשַּׁ֨רְנָה", "transliteral": "way-yiš-šar-nā", "traducao_palavra": "e endireitaram-se" },
+        { "hebraico": "הַפָּרֹ֜ות", "transliteral": "hap-pā-rôṯ", "traducao_palavra": "as vacas" },
+        { "hebraico": "בַּדֶּ֗רֶךְ", "transliteral": "bad-de-reḵ", "traducao_palavra": "no caminho" },
+        { "hebraico": "עַל־דֶּ֙רֶךְ֙", "transliteral": "ʿal-de-reḵ", "traducao_palavra": "pelo caminho de" },
+        { "hebraico": "בֵּ֣ית", "transliteral": "bêṯ", "traducao_palavra": "Bete-" },
+        { "hebraico": "שֶׁ֔מֶשׁ", "transliteral": "še-meš", "traducao_palavra": "Semes" },
+        { "hebraico": "בִּמְסִלָּ֣ה", "transliteral": "bim-sil-lā", "traducao_palavra": "numa estrada" },
+        { "hebraico": "אַחַת֮", "transliteral": "ʾa-ḥaṯ", "traducao_palavra": "uma/mesma" },
+        { "hebraico": "הָלְכ֣וּ", "transliteral": "hā-lə-ḵû", "traducao_palavra": "iam" },
+        { "hebraico": "הָלֹ֣ךְ", "transliteral": "hā-lōḵ", "traducao_palavra": "andando" },
+        { "hebraico": "וְגָעֹו֒", "transliteral": "wə-ḡā-ʿô", "traducao_palavra": "e berrando" },
+        { "hebraico": "וְלֹא־סָ֥רוּ", "transliteral": "wə-lō-sā-rû", "traducao_palavra": "e não se desviaram" },
+        { "hebraico": "יָמִ֖ין", "transliteral": "yā-mîn", "traducao_palavra": "[para] direita" },
+        { "hebraico": "וּשְׂמֹ֑אול", "transliteral": "ū-śə-mō-wl", "traducao_palavra": "e esquerda" },
+        { "hebraico": "וְסַרְנֵ֤י", "transliteral": "wə-sar-nê", "traducao_palavra": "e os príncipes de" },
+        { "hebraico": "פְלִשְׁתִּים֙", "transliteral": "p̄ə-liš-tîm", "traducao_palavra": "filisteus" },
+        { "hebraico": "הֹלְכִ֣ים", "transliteral": "hō-lə-ḵîm", "traducao_palavra": "iam" },
+        { "hebraico": "אַחֲרֵיהֶ֔ן", "transliteral": "ʾa-ḥă-rê-hen", "traducao_palavra": "após elas" },
+        { "hebraico": "עַד־גְּב֖וּל", "transliteral": "ʿaḏ-gə-ḇûl", "traducao_palavra": "até o termo de" },
+        { "hebraico": "בֵּ֥ית", "transliteral": "bêṯ", "traducao_palavra": "Bete-" },
+        { "hebraico": "שָֽׁמֶשׁ׃", "transliteral": "šā-meš", "traducao_palavra": "Semes" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "E os de Bete-Semes andavam fazendo a sega do trigo no vale; e, levantando os seus olhos, viram a arca, e alegraram-se ao vê-la.",
+      "palavras": [
+        { "hebraico": "וּבֵ֣ית", "transliteral": "ū-ḇêṯ", "traducao_palavra": "e [os de] Bete-" },
+        { "hebraico": "שֶׁ֔מֶשׁ", "transliteral": "še-meš", "traducao_palavra": "Semes" },
+        { "hebraico": "קֹצְרִ֥ים", "transliteral": "qō-ṣə-rîm", "traducao_palavra": "ceifavam" },
+        { "hebraico": "קְצִיר־חִטִּ֖ים", "transliteral": "qə-ṣîr-ḥiṭ-ṭîm", "traducao_palavra": "a sega do trigo" },
+        { "hebraico": "בָּעֵ֑מֶק", "transliteral": "bā-ʿē-meq", "traducao_palavra": "no vale" },
+        { "hebraico": "וַיִּשְׂא֣וּ", "transliteral": "way-yiś-ʾû", "traducao_palavra": "e levantaram" },
+        { "hebraico": "אֶת־עֵינֵיהֶ֗ם", "transliteral": "ʾeṯ-ʿê-nê-hem", "traducao_palavra": "seus olhos" },
+        { "hebraico": "וַיִּרְאוּ֙", "transliteral": "way-yir-ʾû", "traducao_palavra": "e viram" },
+        { "hebraico": "אֶת־הָאָרֹ֔ון", "transliteral": "ʾeṯ-hā-ʾā-rôn", "traducao_palavra": "a arca" },
+        { "hebraico": "וַֽיִּשְׂמְח֖וּ", "transliteral": "way-yiś-mə-ḥû", "traducao_palavra": "e alegraram-se" },
+        { "hebraico": "לִרְאֹֽות׃", "transliteral": "lir-ʾôṯ", "traducao_palavra": "ao ver" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "E o carro veio ao campo de Josué, o bete-semita, e parou ali, onde havia uma grande pedra; e fenderam a madeira do carro, e ofereceram as vacas a YHWH em holocausto.",
+      "palavras": [
+        { "hebraico": "וְהָעֲגָלָ֡ה", "transliteral": "wə-hā-ʿă-ḡā-lā", "traducao_palavra": "e o carro" },
+        { "hebraico": "בָּ֠אָה", "transliteral": "bā-ʾā", "traducao_palavra": "veio" },
+        { "hebraico": "אֶל־שְׂדֵ֨ה", "transliteral": "ʾel-śə-ḏēh", "traducao_palavra": "ao campo de" },
+        { "hebraico": "יְהֹושֻׁ֤עַ", "transliteral": "yə-hō-wō-šu-aʿ", "traducao_palavra": "Josué" },
+        { "hebraico": "בֵּית־הַשִּׁמְשִׁי֙", "transliteral": "bêṯ-haš-šim-šî", "traducao_palavra": "o bete-semita" },
+        { "hebraico": "וַתַּעֲמֹ֣ד", "transliteral": "wat-ta-ʿă-mōḏ", "traducao_palavra": "e parou" },
+        { "hebraico": "שָׁ֔ם", "transliteral": "šām", "traducao_palavra": "ali" },
+        { "hebraico": "וְשָׁ֖ם", "transliteral": "wə-šām", "traducao_palavra": "e lá [havia]" },
+        { "hebraico": "אֶ֣בֶן", "transliteral": "ʾe-ḇen", "traducao_palavra": "pedra" },
+        { "hebraico": "גְּדֹולָ֑ה", "transliteral": "gə-ḏô-lā", "traducao_palavra": "grande" },
+        { "hebraico": "וַֽיְבַקְּעוּ֙", "transliteral": "way-ḇaq-qə-ʿû", "traducao_palavra": "e fenderam" },
+        { "hebraico": "אֶת־עֲצֵ֣י", "transliteral": "ʾeṯ-ʿă-ṣê", "traducao_palavra": "as madeiras de" },
+        { "hebraico": "הָעֲגָלָ֔ה", "transliteral": "hā-ʿă-ḡā-lā", "traducao_palavra": "o carro" },
+        { "hebraico": "וְאֶת־הַפָּרֹ֖ות", "transliteral": "wə-ʾeṯ-hap-pā-rôṯ", "traducao_palavra": "e as vacas" },
+        { "hebraico": "הֶעֱל֥וּ", "transliteral": "he-ʿĕ-lû", "traducao_palavra": "ofereceram/fizeram subir" },
+        { "hebraico": "עֹלָ֖ה", "transliteral": "ʿō-lā", "traducao_palavra": "[como] holocausto" },
+        { "hebraico": "לַיהוָֽה׃", "transliteral": "lay-hwāh", "traducao_palavra": "a YHWH" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "E os levitas desceram a arca de YHWH, como também o cofre que estava junto a ela, em que estavam os objetos de ouro, e puseram-nos sobre aquela grande pedra; e os homens de Bete-Semes ofereceram holocaustos e sacrificaram sacrifícios a YHWH no mesmo dia.",
+      "palavras": [
+        { "hebraico": "וְהַלְוִיִּ֞ם", "transliteral": "wə-hal-wiy-yim", "traducao_palavra": "e os levitas" },
+        { "hebraico": "הֹורִ֣ידוּ", "transliteral": "hô-rî-ḏû", "traducao_palavra": "desceram" },
+        { "hebraico": "אֶת־אֲרֹ֣ון", "transliteral": "ʾeṯ-ʾă-rôn", "traducao_palavra": "a arca de" },
+        { "hebraico": "יְהוָה֮", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וְאֶת־הָאַרְגַּ֣ז", "transliteral": "wə-ʾeṯ-hā-ʾar-gaz", "traducao_palavra": "e o cofre" },
+        { "hebraico": "אֲשֶׁר־אִתֹּו֒", "transliteral": "ʾă-šer-ʾit-tô", "traducao_palavra": "que [estava] com ela" },
+        { "hebraico": "אֲשֶׁר־בֹּ֣ו", "transliteral": "ʾă-šer-bô", "traducao_palavra": "que nele [estavam]" },
+        { "hebraico": "כְלֵי־זָהָ֗ב", "transliteral": "ḵə-lê-zā-hāḇ", "traducao_palavra": "objetos de ouro" },
+        { "hebraico": "וַיָּשִׂ֖ימוּ", "transliteral": "way-yā-śî-mû", "traducao_palavra": "e puseram" },
+        { "hebraico": "אֶל־הָאֶ֣בֶן", "transliteral": "ʾel-hā-ʾe-ḇen", "traducao_palavra": "sobre a pedra" },
+        { "hebraico": "הַגְּדֹולָ֑ה", "transliteral": "hag-gə-ḏô-lā", "traducao_palavra": "grande" },
+        { "hebraico": "וְאַנְשֵׁ֣י", "transliteral": "wə-ʾan-šê", "traducao_palavra": "e os homens de" },
+        { "hebraico": "בֵית־שֶׁ֗מֶשׁ", "transliteral": "bêṯ-še-meš", "traducao_palavra": "Bete-Semes" },
+        { "hebraico": "הֶעֱל֨וּ", "transliteral": "he-ʿĕ-lû", "traducao_palavra": "ofereceram" },
+        { "hebraico": "עֹלֹ֜ות", "transliteral": "ʿō-lôṯ", "traducao_palavra": "holocaustos" },
+        { "hebraico": "וַֽיִּזְבְּח֧וּ", "transliteral": "way-yiz-bə-ḥû", "traducao_palavra": "e sacrificaram" },
+        { "hebraico": "זְבָחִ֛ים", "transliteral": "zə-ḇā-ḥîm", "traducao_palavra": "sacrifícios" },
+        { "hebraico": "לַיהוָ֖ה", "transliteral": "lay-hwāh", "traducao_palavra": "a YHWH" },
+        { "hebraico": "בַּיֹּ֥ום", "transliteral": "bay-yôm", "traducao_palavra": "no dia" },
+        { "hebraico": "הַהֽוּא׃", "transliteral": "ha-hû", "traducao_palavra": "aquele" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "E vendo aquilo os cinco príncipes dos filisteus, voltaram para Ecrom no mesmo dia.",
+      "palavras": [
+        { "hebraico": "וַחֲמִשָּׁ֥ה", "transliteral": "wa-ḥă-miš-šā", "traducao_palavra": "e os cinco" },
+        { "hebraico": "סַרְנֵֽי־פְלִשְׁתִּ֖ים", "transliteral": "sar-nê-p̄ə-liš-tîm", "traducao_palavra": "príncipes de filisteus" },
+        { "hebraico": "רָא֑וּ", "transliteral": "rā-ʾû", "traducao_palavra": "viram" },
+        { "hebraico": "וַיָּשֻׁ֥בוּ", "transliteral": "way-yā-šu-ḇû", "traducao_palavra": "e voltaram" },
+        { "hebraico": "עֶקְרֹ֖ון", "transliteral": "ʿeq-rôn", "traducao_palavra": "[a] Ecrom" },
+        { "hebraico": "בַּיֹּ֥ום", "transliteral": "bay-yôm", "traducao_palavra": "no dia" },
+        { "hebraico": "הַהֽוּא׃", "transliteral": "ha-hû", "traducao_palavra": "aquele" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "Estes, pois, são os tumores de ouro que os filisteus pagaram a YHWH em oferta pela culpa: por Asdode um, por Gaza um, por Ascalom um, por Gate um, por Ecrom um.",
+      "palavras": [
+        { "hebraico": "וְאֵ֨לֶּה", "transliteral": "wə-ʾēl-leh", "traducao_palavra": "e estes [são]" },
+        { "hebraico": "טְחֹרֵ֣י", "transliteral": "ṭə-ḥō-rê", "traducao_palavra": "os tumores de" },
+        { "hebraico": "הַזָּהָב֮", "transliteral": "haz-zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "אֲשֶׁ֨ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "הֵשִׁ֤יבוּ", "transliteral": "hê-šî-ḇû", "traducao_palavra": "pagaram/devolveram" },
+        { "hebraico": "פְלִשְׁתִּים֙", "transliteral": "p̄ə-liš-tîm", "traducao_palavra": "os filisteus" },
+        { "hebraico": "אָשָׁ֣ם", "transliteral": "ʾā-šām", "traducao_palavra": "[como] oferta pela culpa" },
+        { "hebraico": "לַֽיהוָ֔ה", "transliteral": "lay-hwāh", "traducao_palavra": "a YHWH" },
+        { "hebraico": "לְאַשְׁדֹּ֥וד", "transliteral": "lə-ʾaš-dôḏ", "traducao_palavra": "por Asdode" },
+        { "hebraico": "אֶחָ֖ד", "transliteral": "ʾe-ḥāḏ", "traducao_palavra": "um" },
+        { "hebraico": "לְעַזָּה֙", "transliteral": "lə-ʿaz-zā", "traducao_palavra": "por Gaza" },
+        { "hebraico": "אֶחָ֔ד", "transliteral": "ʾe-ḥāḏ", "traducao_palavra": "um" },
+        { "hebraico": "לְאַשְׁקְלֹון֙", "transliteral": "lə-ʾaš-qə-lôn", "traducao_palavra": "por Ascalom" },
+        { "hebraico": "אֶחָ֔ד", "transliteral": "ʾe-ḥāḏ", "traducao_palavra": "um" },
+        { "hebraico": "לְגַת֙", "transliteral": "lə-ḡaṯ", "traducao_palavra": "por Gate" },
+        { "hebraico": "אֶחָ֔ד", "transliteral": "ʾe-ḥāḏ", "traducao_palavra": "um" },
+        { "hebraico": "לְעֶקְרֹ֖ון", "transliteral": "lə-ʿeq-rôn", "traducao_palavra": "por Ecrom" },
+        { "hebraico": "אֶחָֽד׃", "transliteral": "ʾe-ḥāḏ", "traducao_palavra": "um" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "Como também os ratos de ouro, segundo o número de todas as cidades dos filisteus, pertencentes aos cinco príncipes, desde as cidades fortificadas até às aldeias campestres, e até à grande pedra, sobre a qual puseram a arca de YHWH, e que ainda está até hoje no campo de Josué, o bete-semita.",
+      "palavras": [
+        { "hebraico": "וְעַכְבְּרֵ֣י", "transliteral": "wə-ʿaḵ-bə-rê", "traducao_palavra": "e os ratos de" },
+        { "hebraico": "הַזָּהָ֗ב", "transliteral": "haz-zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "מִסְפַּ֞ר", "transliteral": "mis-par", "traducao_palavra": "[segundo] o número de" },
+        { "hebraico": "כָּל־עָרֵ֣י", "transliteral": "kāl-ʿā-rê", "traducao_palavra": "todas as cidades de" },
+        { "hebraico": "פְלִשְׁתִּים֮", "transliteral": "p̄ə-liš-tîm", "traducao_palavra": "filisteus" },
+        { "hebraico": "לַחֲמֵשֶׁ֣ת", "transliteral": "la-ḥă-mê-šeṯ", "traducao_palavra": "aos cinco" },
+        { "hebraico": "הַסְּרָנִים֒", "transliteral": "has-sə-rā-nîm", "traducao_palavra": "os príncipes" },
+        { "hebraico": "מֵעִ֣יר", "transliteral": "mê-ʿîr", "traducao_palavra": "desde a cidade" },
+        { "hebraico": "מִבְצָ֔ר", "transliteral": "miḇ-ṣār", "traducao_palavra": "fortificada" },
+        { "hebraico": "וְעַ֖ד", "transliteral": "wə-ʿaḏ", "traducao_palavra": "e até" },
+        { "hebraico": "כֹּ֣פֶר", "transliteral": "kō-p̄er", "traducao_palavra": "aldeia de" },
+        { "hebraico": "הַפְּרָזִ֑י", "transliteral": "hap-pə-rā-zî", "traducao_palavra": "campo/sem muros" },
+        { "hebraico": "וְעַ֣ד׀", "transliteral": "wə-ʿaḏ", "traducao_palavra": "e até" },
+        { "hebraico": "אָבֵ֣ל", "transliteral": "ʾā-ḇêl", "traducao_palavra": "Abel/grande [pedra]" },
+        { "hebraico": "הַגְּדֹולָ֗ה", "transliteral": "hag-gə-ḏô-lā", "traducao_palavra": "a grande" },
+        { "hebraico": "אֲשֶׁ֨ר", "transliteral": "ʾă-šer", "traducao_palavra": "sobre a qual" },
+        { "hebraico": "הִנִּ֤יחוּ", "transliteral": "hin-nî-ḥû", "traducao_palavra": "puseram/deixaram" },
+        { "hebraico": "עָלֶ֙יהָ֙", "transliteral": "ʿā-le-hā", "traducao_palavra": "sobre ela" },
+        { "hebraico": "אֵ֚ת", "transliteral": "ʾêṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "אֲרֹ֣ון", "transliteral": "ʾă-rôn", "traducao_palavra": "arca de" },
+        { "hebraico": "יְהוָ֔ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "עַ֚ד", "transliteral": "ʿaḏ", "traducao_palavra": "até" },
+        { "hebraico": "הַיֹּ֣ום", "transliteral": "hay-yôm", "traducao_palavra": "o dia" },
+        { "hebraico": "הַזֶּ֔ה", "transliteral": "haz-zeh", "traducao_palavra": "este" },
+        { "hebraico": "בִּשְׂדֵ֥ה", "transliteral": "biś-ḏēh", "traducao_palavra": "no campo de" },
+        { "hebraico": "יְהֹושֻׁ֖עַ", "transliteral": "yə-hō-wō-šu-aʿ", "traducao_palavra": "Josué" },
+        { "hebraico": "בֵּ֥ית", "transliteral": "bêṯ", "traducao_palavra": "Bete-" },
+        { "hebraico": "הַשִּׁמְשִֽׁי׃", "transliteral": "haš-šim-šî", "traducao_palavra": "o semita" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "E feriu os homens de Bete-Semes, porquanto olharam para dentro da arca de YHWH; feriu do povo setenta homens e cinquenta mil homens; então o povo se entristeceu, porquanto YHWH fizera tão grande matança entre o povo.",
+      "palavras": [
+        { "hebraico": "וַיַּ֞ךְ", "transliteral": "way-yaḵ", "traducao_palavra": "e feriu" },
+        { "hebraico": "בְּאַנְשֵׁ֣י", "transliteral": "bə-ʾan-šê", "traducao_palavra": "nos homens de" },
+        { "hebraico": "בֵית־שֶׁ֗מֶשׁ", "transliteral": "bêṯ-še-meš", "traducao_palavra": "Bete-Semes" },
+        { "hebraico": "כִּ֤י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "רָאוּ֙", "transliteral": "rā-ʾû", "traducao_palavra": "olharam" },
+        { "hebraico": "בַּאֲרֹ֣ון", "transliteral": "ba-ʾă-rôn", "traducao_palavra": "na/para dentro da arca de" },
+        { "hebraico": "יְהוָ֔ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וַיַּ֤ךְ", "transliteral": "way-yaḵ", "traducao_palavra": "e feriu" },
+        { "hebraico": "בָּעָם֙", "transliteral": "bā-ʿām", "traducao_palavra": "no povo" },
+        { "hebraico": "שִׁבְעִ֣ים", "transliteral": "šiḇ-ʿîm", "traducao_palavra": "setenta" },
+        { "hebraico": "אִ֔ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homens" },
+        { "hebraico": "חֲמִשִּׁ֥ים", "transliteral": "ḥă-miš-šîm", "traducao_palavra": "cinquenta" },
+        { "hebraico": "אֶ֖לֶף", "transliteral": "ʾe-lep̄", "traducao_palavra": "mil" },
+        { "hebraico": "אִ֑ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homens" },
+        { "hebraico": "וַיִּֽתְאַבְּל֣וּ", "transliteral": "way-yiṯ-ʾab-bə-lû", "traducao_palavra": "e entristeceram-se" },
+        { "hebraico": "הָעָ֔ם", "transliteral": "hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "כִּֽי־הִכָּ֧ה", "transliteral": "kî-hik-kā", "traducao_palavra": "porque feriu" },
+        { "hebraico": "יְהוָ֛ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "בָּעָ֖ם", "transliteral": "bā-ʿām", "traducao_palavra": "no povo" },
+        { "hebraico": "מַכָּ֥ה", "transliteral": "mak-kā", "traducao_palavra": "[com] matança" },
+        { "hebraico": "גְדֹולָֽה׃", "transliteral": "ḡə-ḏô-lā", "traducao_palavra": "grande" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "E disseram os homens de Bete-Semes: Quem poderia subsistir perante este santo YHWH Deus? E a quem subirá desde nós?",
+      "palavras": [
+        { "hebraico": "וַיֹּֽאמְרוּ֙", "transliteral": "way-yō-mə-rû", "traducao_palavra": "e disseram" },
+        { "hebraico": "אַנְשֵׁ֣י", "transliteral": "ʾan-šê", "traducao_palavra": "os homens de" },
+        { "hebraico": "בֵית־שֶׁ֔מֶשׁ", "transliteral": "bêṯ-še-meš", "traducao_palavra": "Bete-Semes" },
+        { "hebraico": "מִ֣י", "transliteral": "mî", "traducao_palavra": "quem" },
+        { "hebraico": "יוּכַ֣ל", "transliteral": "yû-ḵal", "traducao_palavra": "poderá" },
+        { "hebraico": "לַעֲמֹ֔ד", "transliteral": "la-ʿă-mōḏ", "traducao_palavra": "estar em pé/subsistir" },
+        { "hebraico": "לִפְנֵי֙", "transliteral": "lip̄-nê", "traducao_palavra": "perante" },
+        { "hebraico": "יְהוָ֣ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "הָאֱלֹהִ֥ים", "transliteral": "hā-ʾĕ-lō-hîm", "traducao_palavra": "o Deus" },
+        { "hebraico": "הַקָּדֹ֖ושׁ", "transliteral": "haq-qā-ḏôš", "traducao_palavra": "o santo" },
+        { "hebraico": "הַזֶּ֑ה", "transliteral": "haz-zeh", "traducao_palavra": "este" },
+        { "hebraico": "וְאֶל־מִ֖י", "transliteral": "wə-ʾel-mî", "traducao_palavra": "e para quem" },
+        { "hebraico": "יַעֲלֶ֥ה", "transliteral": "ya-ʿă-leh", "traducao_palavra": "subirá" },
+        { "hebraico": "מֵעָלֵֽינוּ׃", "transliteral": "mê-ʿā-lê-nû", "traducao_palavra": "desde nós" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "Enviaram, pois, mensageiros aos habitantes de Quiriate-Jearim, dizendo: Os filisteus devolveram a arca de YHWH; descei, pois, e fazei-a subir para vós.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁלְח֧וּ", "transliteral": "way-yiš-lə-ḥû", "traducao_palavra": "e enviaram" },
+        { "hebraico": "מַלְאָכִ֛ים", "transliteral": "mal-ʾā-ḵîm", "traducao_palavra": "mensageiros" },
+        { "hebraico": "אֶל־יֹושְׁבֵ֥י", "transliteral": "ʾel-yô-šə-ḇê", "traducao_palavra": "aos habitantes de" },
+        { "hebraico": "קִרְיַת־יְעָרִ֖ים", "transliteral": "qir-yaṯ-yə-ʿā-rîm", "traducao_palavra": "Quiriate-Jearim" },
+        { "hebraico": "לֵאמֹ֑ר", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "הֵשִׁ֤יבוּ", "transliteral": "hê-šî-ḇû", "traducao_palavra": "devolveram" },
+        { "hebraico": "פְלִשְׁתִּים֙", "transliteral": "p̄ə-liš-tîm", "traducao_palavra": "os filisteus" },
+        { "hebraico": "אֶת־אֲרֹ֣ון", "transliteral": "ʾeṯ-ʾă-rôn", "traducao_palavra": "a arca de" },
+        { "hebraico": "יְהוָ֔ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "רְד֕וּ", "transliteral": "rə-ḏû", "traducao_palavra": "descei" },
+        { "hebraico": "הַעֲל֥וּ", "transliteral": "ha-ʿă-lû", "traducao_palavra": "fazei subir" },
+        { "hebraico": "אֹתָ֖הּ", "transliteral": "ʾō-ṯāh", "traducao_palavra": "ela" },
+        { "hebraico": "אֲלֵיכֶֽם׃", "transliteral": "ʾă-lê-ḵem", "traducao_palavra": "para vós" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,994 @@
+{
+  "livro": "1 Samuel - שְׁמוּאֵל א - Shemu'el Alef",
+  "capítulo": 14,
+  "titulos": { },
+  "versiculos": {
+    "1": {
+      "traducao_completa": "E sucedeu um dia que Jônatas, filho de Saul, disse ao moço que lhe levava as armas: Vem, e passemos à guarnição dos filisteus, que está do outro lado. Porém não o fez saber a seu pai.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֣י", "transliteral": "way-hî", "traducao_palavra": "e sucedeu" },
+        { "hebraico": "הַיֹּ֗ום", "transliteral": "hay-yôm", "traducao_palavra": "um dia" },
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "יֹונָתָ֤ן", "transliteral": "yô-nā-ṯān", "traducao_palavra": "Jônatas" },
+        { "hebraico": "בֶּן־שָׁאוּל֙", "transliteral": "ben-šā-ʾûl", "traducao_palavra": "filho de Saul" },
+        { "hebraico": "אֶל־הַנַּ֣יַר", "transliteral": "ʾel-han-na-ʿar", "traducao_palavra": "ao moço" },
+        { "hebraico": "נֹשֵׂ֣א", "transliteral": "nō-śē", "traducao_palavra": "carregador de" },
+        { "hebraico": "כֵלָ֔יו", "transliteral": "ḵē-lāw", "traducao_palavra": "armas dele" },
+        { "hebraico": "לְכָ֣ה", "transliteral": "lə-ḵā", "traducao_palavra": "vem" },
+        { "hebraico": "וְנַעְבְּרָ֣ה", "transliteral": "wə-na-ʿaḇ-rā", "traducao_palavra": "e passemos" },
+        { "hebraico": "אֶל־מַצַּ֣ב", "transliteral": "ʾel-maṣ-ṣaḇ", "traducao_palavra": "à guarnição de" },
+        { "hebraico": "פְּלִשְׁתִּ֔ים", "transliteral": "p̄ə-liš-tîm", "traducao_palavra": "filisteus" },
+        { "hebraico": "אֲשֶׁ֖ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "מֵעֵ֣בֶר", "transliteral": "mê-ʿê-ḇer", "traducao_palavra": "do lado de" },
+        { "hebraico": "הַלָּ֑ז", "transliteral": "hal-lāz", "traducao_palavra": "acolá/outro" },
+        { "hebraico": "וּלְאָבִ֖יו", "transliteral": "ū-lə-ʾā-ḇîw", "traducao_palavra": "e ao pai dele" },
+        { "hebraico": "לֹ֥א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "הִגִּֽיד׃", "transliteral": "hig-gîḏ", "traducao_palavra": "contou/declarou" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "E Saul estava na extremidade de Gibeá, debaixo de uma romeira que estava em Migrom; e o povo que estava com ele era uns seiscentos homens.",
+      "palavras": [
+        { "hebraico": "וְשָׁא֗וּל", "transliteral": "wə-šā-ʾûl", "traducao_palavra": "e Saul" },
+        { "hebraico": "יֹושֵׁב֙", "transliteral": "yô-šêḇ", "traducao_palavra": "[estava] sentado/parado" },
+        { "hebraico": "בִּקְצֵ֣ה", "transliteral": "biq-ṣēh", "traducao_palavra": "na extremidade de" },
+        { "hebraico": "הַגִּבְעָ֔ה", "transliteral": "hag-giḇ-ʿā", "traducao_palavra": "Gibeá" },
+        { "hebraico": "תַּ֥חַת", "transliteral": "ta-ḥaṯ", "traducao_palavra": "debaixo de" },
+        { "hebraico": "הָרִמֹּ֖ון", "transliteral": "hā-rim-môn", "traducao_palavra": "a romeira" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "בְּמִגְרֹ֑ון", "transliteral": "bə-miḡ-rôn", "traducao_palavra": "em Migrom" },
+        { "hebraico": "וְהָעָם֙", "transliteral": "wə-hā-ʿām", "traducao_palavra": "e o povo" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "עִמֹּ֔ו", "transliteral": "ʿim-mô", "traducao_palavra": "com ele" },
+        { "hebraico": "כְּשֵׁ֥שׁ", "transliteral": "kə-šēš", "traducao_palavra": "como seis" },
+        { "hebraico": "מֵאֹ֖ות", "transliteral": "mê-ʾôṯ", "traducao_palavra": "centenas [de]" },
+        { "hebraico": "אִֽישׁ׃", "transliteral": "ʾîš", "traducao_palavra": "homem" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "E Aías, filho de Aitube, irmão de Icabode, filho de Fineias, filho de Eli, sacerdote de YHWH em Siló, trazia o éfode; e o povo não sabia que Jônatas tinha ido.",
+      "palavras": [
+        { "hebraico": "וַאֲחִיָּ֣ה", "transliteral": "wa-ʾă-ḥiy-yā", "traducao_palavra": "e Aías" },
+        { "hebraico": "בֶן־אֲחִיט֨וּב", "transliteral": "ben-ʾă-ḥî-ṭûḇ", "traducao_palavra": "filho de Aitube" },
+        { "hebraico": "אֲחִ֧י", "transliteral": "ʾă-ḥî", "traducao_palavra": "irmão de" },
+        { "hebraico": "אִֽיכָבֹ֣וד", "transliteral": "ʾî-ḵā-ḇôḏ", "traducao_palavra": "Icabode" },
+        { "hebraico": "בֶּן־פִּֽינְחָ֗ס", "transliteral": "ben-pî-nə-ḥās", "traducao_palavra": "filho de Fineias" },
+        { "hebraico": "בֶּן־עֵלִי֙", "transliteral": "ben-ʿē-lî", "traducao_palavra": "filho de Eli" },
+        { "hebraico": "כֹּהֵ֣ן", "transliteral": "kō-hên", "traducao_palavra": "sacerdote de" },
+        { "hebraico": "יְהוָ֔ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "בְּשִׁלֹ֖ו", "transliteral": "bə-ši-lō", "traducao_palavra": "em Siló" },
+        { "hebraico": "נֹשֵׂ֣א", "transliteral": "nō-śê", "traducao_palavra": "levando" },
+        { "hebraico": "אֵפֹ֑וד", "transliteral": "ʾē-p̄ôḏ", "traducao_palavra": "éfode" },
+        { "hebraico": "וְהָעָם֙", "transliteral": "wə-hā-ʿām", "traducao_palavra": "e o povo" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "יָדַ֔ע", "transliteral": "yā-ḏaʿ", "traducao_palavra": "sabia" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "הָלַ֖ךְ", "transliteral": "hā-laḵ", "traducao_palavra": "foi" },
+        { "hebraico": "יֹונָתָֽן׃", "transliteral": "yô-nā-ṯān", "traducao_palavra": "Jônatas" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "E entre os desfiladeiros pelos quais Jônatas procurava passar à guarnição dos filisteus, havia um penhasco de um lado e um penhasco do outro lado; o nome de um era Bozez, e o nome do outro Sené.",
+      "palavras": [
+        { "hebraico": "וּבֵ֨ין", "transliteral": "ū-ḇên", "traducao_palavra": "e entre" },
+        { "hebraico": "הַֽמַּעְבְּרֹ֗ות", "transliteral": "ham-maʿ-bə-rôṯ", "traducao_palavra": "os desfiladeiros" },
+        { "hebraico": "אֲשֶׁ֨ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "בִּקֵּ֤שׁ", "transliteral": "biq-qēš", "traducao_palavra": "procurava" },
+        { "hebraico": "יֹונָתָן֙", "transliteral": "yô-nā-ṯān", "traducao_palavra": "Jônatas" },
+        { "hebraico": "לַעֲבֹר֙", "transliteral": "la-ʿă-ḇōr", "traducao_palavra": "passar" },
+        { "hebraico": "עַל־מַצַּ֣ב", "transliteral": "ʿal-maṣ-ṣaḇ", "traducao_palavra": "sobre/à guarnição de" },
+        { "hebraico": "פְּלִשְׁתִּ֔ים", "transliteral": "p̄ə-liš-tîm", "traducao_palavra": "filisteus" },
+        { "hebraico": "שֵׁן־הַסֶּ֤לַע", "transliteral": "šēn-has-se-laʿ", "traducao_palavra": "dente da rocha/penhasco" },
+        { "hebraico": "מֵהָעֵ֣בֶר", "transliteral": "mê-hā-ʿê-ḇer", "traducao_palavra": "do lado" },
+        { "hebraico": "מִזֶּ֔ה", "transliteral": "mi-zeh", "traducao_palavra": "deste" },
+        { "hebraico": "וְשֵׁן־הַסֶּ֥לַע", "transliteral": "wə-šēn-has-se-laʿ", "traducao_palavra": "e dente da rocha" },
+        { "hebraico": "מֵהָעֵ֖בֶר", "transliteral": "mê-hā-ʿê-ḇer", "traducao_palavra": "do lado" },
+        { "hebraico": "מִזֶּ֑ה", "transliteral": "mi-zeh", "traducao_palavra": "daquele/deste" },
+        { "hebraico": "וְשֵׁ֤ם", "transliteral": "wə-šēm", "traducao_palavra": "e o nome de" },
+        { "hebraico": "הָאֶחָד֙", "transliteral": "hā-ʾe-ḥāḏ", "traducao_palavra": "o um" },
+        { "hebraico": "בֹּוצֵ֔ץ", "transliteral": "bô-ṣêṣ", "traducao_palavra": "Bozez" },
+        { "hebraico": "וְשֵׁ֥ם", "transliteral": "wə-šēm", "traducao_palavra": "e o nome de" },
+        { "hebraico": "הָאֶחָ֖ד", "transliteral": "hā-ʾe-ḥāḏ", "traducao_palavra": "o outro" },
+        { "hebraico": "סֶֽנֶּה׃", "transliteral": "sen-neh", "traducao_palavra": "Sené" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Um penhasco estava ao norte, defronte de Micmás, e o outro ao sul, defronte de Geba.",
+      "palavras": [
+        { "hebraico": "הַשֵּׁ֧ן", "transliteral": "haš-šēn", "traducao_palavra": "o dente/penhasco" },
+        { "hebraico": "הָאֶחָ֛ד", "transliteral": "hā-ʾe-ḥāḏ", "traducao_palavra": "o um" },
+        { "hebraico": "מָצ֥וּק", "transliteral": "mā-ṣûq", "traducao_palavra": "como coluna/erguido" },
+        { "hebraico": "מִצָּפֹ֖ון", "transliteral": "miṣ-ṣā-p̄ôn", "traducao_palavra": "do norte" },
+        { "hebraico": "מ֧וּל", "transliteral": "mûl", "traducao_palavra": "defronte de" },
+        { "hebraico": "מִכְמָ֑שׂ", "transliteral": "miḵ-māś", "traducao_palavra": "Micmás" },
+        { "hebraico": "וְהָאֶחָ֥ד", "transliteral": "wə-hā-ʾe-ḥāḏ", "traducao_palavra": "e o outro" },
+        { "hebraico": "מִנֶּ֖גֶב", "transliteral": "min-ne-ḡeḇ", "traducao_palavra": "do sul/Neguebe" },
+        { "hebraico": "מ֥וּל", "transliteral": "mûl", "traducao_palavra": "defronte de" },
+        { "hebraico": "גָּֽבַע׃", "transliteral": "gā-ḇaʿ", "traducao_palavra": "Geba" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Disse, pois, Jônatas ao moço que lhe levava as armas: Vem, passemos à guarnição destes incircuncisos; porventura operará YHWH por nós, porque para YHWH nenhum impedimento há de livrar com muitos ou com poucos.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "יְהֹונָתָ֜ן", "transliteral": "yə-hō-w-nā-ṯān", "traducao_palavra": "Jônatas" },
+        { "hebraico": "אֶל־הַנַּ֣יַר", "transliteral": "ʾel-han-na-ʿar", "traducao_palavra": "ao moço" },
+        { "hebraico": "נֹשֵׂ֣א", "transliteral": "nō-śê", "traducao_palavra": "carregador de" },
+        { "hebraico": "כֵלָ֗יו", "transliteral": "ḵê-lāw", "traducao_palavra": "armas dele" },
+        { "hebraico": "לְכָה֙", "transliteral": "lə-ḵā", "traducao_palavra": "vem" },
+        { "hebraico": "וְנַעְבְּרָה֙", "transliteral": "wə-na-ʿaḇ-rā", "traducao_palavra": "e passemos" },
+        { "hebraico": "אֶל־מַצַּב֙", "transliteral": "ʾel-maṣ-ṣaḇ", "traducao_palavra": "à guarnição de" },
+        { "hebraico": "הָעֲרֵלִ֣ים", "transliteral": "hā-ʿă-rê-lîm", "traducao_palavra": "os incircuncisos" },
+        { "hebraico": "הָאֵ֔לֶּה", "transliteral": "hā-ʾēl-leh", "traducao_palavra": "estes" },
+        { "hebraico": "אוּלַ֛י", "transliteral": "ʾû-lay", "traducao_palavra": "talvez" },
+        { "hebraico": "יַעֲשֶׂ֥ה", "transliteral": "ya-ʿă-śeh", "traducao_palavra": "operará/fará" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "לָ֑נוּ", "transliteral": "lā-nû", "traducao_palavra": "por nós" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "אֵ֤ין", "transliteral": "ʾên", "traducao_palavra": "não há" },
+        { "hebraico": "לַֽיהוָה֙", "transliteral": "lay-hwāh", "traducao_palavra": "para YHWH" },
+        { "hebraico": "מַעְצֹ֔ור", "transliteral": "maʿ-ṣôr", "traducao_palavra": "impedimento/restrição" },
+        { "hebraico": "לְהֹושִׁ֥יעַ", "transliteral": "lə-hō-šî-aʿ", "traducao_palavra": "para salvar" },
+        { "hebraico": "בְּרַ֖ב", "transliteral": "bə-raḇ", "traducao_palavra": "com muitos" },
+        { "hebraico": "אֹ֥ו", "transliteral": "ʾô", "traducao_palavra": "ou" },
+        { "hebraico": "בְמִעָֽט׃", "transliteral": "ḇə-mi-ʿāṭ", "traducao_palavra": "com poucos" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Então o seu escudeiro lhe disse: Faze tudo o que está no teu coração; volta-te, eis-me aqui contigo, conforme o teu coração.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֤אמער", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "לֹו֙", "transliteral": "lô", "traducao_palavra": "a ele" },
+        { "hebraico": "נֹשֵׂ֣א", "transliteral": "nō-śê", "traducao_palavra": "o carregador de" },
+        { "hebraico": "כֵלָ֔יו", "transliteral": "ḵē-lāw", "traducao_palavra": "armas dele" },
+        { "hebraico": "עֲשֵׂ֖ה", "transliteral": "ʿă-śē", "traducao_palavra": "faze" },
+        { "hebraico": "כָּל־אֲשֶׁ֣ר", "transliteral": "kāl-ʾă-šer", "traducao_palavra": "tudo o que" },
+        { "hebraico": "בִּלְבָבֶ֑ךָ", "transliteral": "bil-ḇā-ḇe-ḵā", "traducao_palavra": "em teu coração" },
+        { "hebraico": "נְטֵ֣ה", "transliteral": "nə-ṭē", "traducao_palavra": "volta-te/estende" },
+        { "hebraico": "לָ֔ךְ", "transliteral": "lāḵ", "traducao_palavra": "para ti" },
+        { "hebraico": "הִנְנִ֥י", "transliteral": "hin-nî", "traducao_palavra": "eis-me aqui" },
+        { "hebraico": "עִמְּךָ֖", "transliteral": "ʿim-mə-ḵā", "traducao_palavra": "contigo" },
+        { "hebraico": "כִּלְבָבֶֽךָ׃", "transliteral": "kil-ḇā-ḇe-ḵā", "traducao_palavra": "como teu coração" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Disse, pois, Jônatas: Eis que passaremos àqueles homens, e nos descobriremos a eles.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֣אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "יְהֹונָתָ֔ן", "transliteral": "yə-hō-w-nā-ṯān", "traducao_palavra": "Jônatas" },
+        { "hebraico": "הִנֵּה֙", "transliteral": "hin-nēh", "traducao_palavra": "eis que" },
+        { "hebraico": "אֲנַ֣חְנוּ", "transliteral": "ʾă-naḥ-nû", "traducao_palavra": "nós" },
+        { "hebraico": "עֹבְרִ֖ים", "transliteral": "ʿō-ḇə-rîm", "traducao_palavra": "passando" },
+        { "hebraico": "אֶל־הָאֲנָשִׁ֑ים", "transliteral": "ʾel-hā-ʾă-nā-šîm", "traducao_palavra": "aos homens" },
+        { "hebraico": "וְנִגְלִ֖ינוּ", "transliteral": "wə-niḡ-lî-nû", "traducao_palavra": "e nos descobriremos" },
+        { "hebraico": "אֲלֵיהֶֽם׃", "transliteral": "ʾă-lê-hem", "traducao_palavra": "a eles" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Se nos disserem assim: Esperai até que cheguemos a vós; então ficaremos no nosso lugar, e não subiremos a eles.",
+      "palavras": [
+        { "hebraico": "אִם־כֹּ֤ה", "transliteral": "ʾim-kō", "traducao_palavra": "se assim" },
+        { "hebraico": "יֹאמְר֨וּ", "transliteral": "yō-mə-rû", "traducao_palavra": "disserem" },
+        { "hebraico": "אֵלֵ֔ינוּ", "transliteral": "ʾē-lê-nû", "traducao_palavra": "a nós" },
+        { "hebraico": "דֹּ֕מּוּ", "transliteral": "dōm-mû", "traducao_palavra": "parai/esperai" },
+        { "hebraico": "עַד־הַגִּיעֵ֖נוּ", "transliteral": "ʿaḏ-hag-gî-ʿê-nû", "traducao_palavra": "até chegarmos nós" },
+        { "hebraico": "אֲלֵיכֶ֑ם", "transliteral": "ʾă-lê-ḵem", "traducao_palavra": "a vós" },
+        { "hebraico": "וְעָמַ֣דְנוּ", "transliteral": "wə-ʿā-maḏ-nû", "traducao_palavra": "e ficaremos" },
+        { "hebraico": "תַחְתֵּ֔ינוּ", "transliteral": "ṯaḥ-tê-nû", "traducao_palavra": "em nosso lugar" },
+        { "hebraico": "וְלֹ֥א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "נַעֲלֶ֖ה", "transliteral": "na-ʿă-leh", "traducao_palavra": "subiremos" },
+        { "hebraico": "אֲלֵיהֶֽם׃", "transliteral": "ʾă-lê-hem", "traducao_palavra": "a eles" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Porém, se disserem assim: Subi a nós; então subiremos, pois YHWH os tem entregue na nossa mão; e isto nos será por sinal.",
+      "palavras": [
+        { "hebraico": "וְאִם־כֹּ֨ה", "transliteral": "wə-ʾim-kō", "traducao_palavra": "e se assim" },
+        { "hebraico": "יֹאמְר֜וּ", "transliteral": "yō-mə-rû", "traducao_palavra": "disserem" },
+        { "hebraico": "עֲל֣וּ", "transliteral": "ʿă-lû", "traducao_palavra": "subi" },
+        { "hebraico": "עָלֵ֗ינוּ", "transliteral": "ʿā-lê-nû", "traducao_palavra": "sobre nós" },
+        { "hebraico": "וְעָלִ֕ינוּ", "transliteral": "wə-ʿā-lî-nû", "traducao_palavra": "então subiremos" },
+        { "hebraico": "כִּֽי־נְתָנָ֥ם", "transliteral": "kî-nə-ṯā-nām", "traducao_palavra": "porque entregou eles" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "בְּיָדֵ֑נוּ", "transliteral": "bə-yā-ḏê-nû", "traducao_palavra": "em nossa mão" },
+        { "hebraico": "וְזֶה־לָּ֖נוּ", "transliteral": "wə-zeh-lā-nû", "traducao_palavra": "e este para nós" },
+        { "hebraico": "הָאֹֽות׃", "transliteral": "hā-ʾôṯ", "traducao_palavra": "[será] o sinal" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Descobrindo-se ambos à guarnição dos filisteus, disseram os filisteus: Eis que já os hebreus saem das cavernas em que se tinham escondido.",
+      "palavras": [
+        { "hebraico": "וַיִּגָּל֣וּ", "transliteral": "way-yig-gā-lû", "traducao_palavra": "e descobriram-se" },
+        { "hebraico": "שְׁנֵיהֶ֔ם", "transliteral": "šə-nê-hem", "traducao_palavra": "ambos" },
+        { "hebraico": "אֶל־מַצַּ֖ב", "transliteral": "ʾel-maṣ-ṣaḇ", "traducao_palavra": "à guarnição de" },
+        { "hebraico": "פְּלִשְׁתִּ֑ים", "transliteral": "p̄ə-liš-tîm", "traducao_palavra": "filisteus" },
+        { "hebraico": "וַיֹּאמְר֣וּ", "transliteral": "way-yō-mə-rû", "traducao_palavra": "e disseram" },
+        { "hebraico": "פְלִשְׁתִּים", "transliteral": "p̄ə-liš-tîm", "traducao_palavra": "os filisteus" },
+        { "hebraico": "הִנֵּ֤ה", "transliteral": "hin-nēh", "traducao_palavra": "eis" },
+        { "hebraico": "עִבְרִים֙", "transliteral": "ʿiḇ-rîm", "traducao_palavra": "hebreus" },
+        { "hebraico": "יֹֽצְאִ֔ים", "transliteral": "yō-ṣə-ʾîm", "traducao_palavra": "saindo" },
+        { "hebraico": "מִן־הַחֹרִ֖ים", "transliteral": "min-ha-ḥō-rîm", "traducao_palavra": "das covas/buracos" },
+        { "hebraico": "אֲשֶׁ֥ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "הִתְחַבְּאוּ־שָֽׁם׃", "transliteral": "hiṯ-ḥab-bə-ʾû-šām", "traducao_palavra": "esconderam-se lá" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "E os homens da guarnição responderam a Jônatas e ao seu escudeiro, e disseram: Subi a nós, e nós vos ensinaremos uma coisa. E disse Jônatas ao seu escudeiro: Sobe atrás de mim, porque YHWH os entregou na mão de Israel.",
+      "palavras": [
+        { "hebraico": "וַיַּעֲנ֨וּ", "transliteral": "way-ya-ʿă-nû", "traducao_palavra": "e responderam" },
+        { "hebraico": "אַנְשֵׁ֧י", "transliteral": "ʾan-šê", "traducao_palavra": "homens de" },
+        { "hebraico": "הַמַּצָּ֣ב", "transliteral": "ham-maṣ-ṣāḇ", "traducao_palavra": "a guarnição" },
+        { "hebraico": "אֶת־יֹונָתָן֮", "transliteral": "ʾeṯ-yô-nā-ṯān", "traducao_palavra": "a Jônatas" },
+        { "hebraico": "וְאֶת־נֹשֵׂ֣א", "transliteral": "wə-ʾeṯ-nō-śê", "traducao_palavra": "e ao carregador de" },
+        { "hebraico": "כֵלָיו֒", "transliteral": "ḵē-lāw", "traducao_palavra": "armas dele" },
+        { "hebraico": "וַיֹּאמְר֗וּ", "transliteral": "way-yō-mə-rû", "traducao_palavra": "e disseram" },
+        { "hebraico": "עֲל֧וּ", "transliteral": "ʿă-lû", "traducao_palavra": "subi" },
+        { "hebraico": "אֵלֵ֛ינוּ", "transliteral": "ʾē-lê-nû", "traducao_palavra": "a nós" },
+        { "hebraico": "וְנֹודִ֥יעָה", "transliteral": "wə-nô-ḏî-ʿā", "traducao_palavra": "e faremos saber" },
+        { "hebraico": "אֶתְכֶ֖ם", "transliteral": "ʾeṯ-ḵem", "traducao_palavra": "a vós" },
+        { "hebraico": "דָּבָ֑ר", "transliteral": "ḏā-ḇār", "traducao_palavra": "uma coisa" },
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "יֹונָתָ֜ן", "transliteral": "yô-nā-ṯān", "traducao_palavra": "Jônatas" },
+        { "hebraico": "אֶל־נֹשֵׂ֣א", "transliteral": "ʾel-nō-śê", "traducao_palavra": "ao moço carregador de" },
+        { "hebraico": "כֵלָ֗יו", "transliteral": "ḵē-lāw", "traducao_palavra": "armas dele" },
+        { "hebraico": "עֲלֵ֣ה", "transliteral": "ʿă-lē", "traducao_palavra": "sobe" },
+        { "hebraico": "אַחֲרַ֔י", "transliteral": "ʾa-ḥă-ray", "traducao_palavra": "atrás de mim" },
+        { "hebraico": "כִּֽי־נְתָנָ֥ם", "transliteral": "kî-nə-ṯā-nām", "traducao_palavra": "porque entregou eles" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "בְּיַ֥ד", "transliteral": "bə-yaḏ", "traducao_palavra": "na mão de" },
+        { "hebraico": "יִשְׂרָאֵֽל׃", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "E subiu Jônatas com as suas mãos e com os seus pés, e o seu escudeiro atrás dele; e os filisteus caíam diante de Jônatas, e o seu escudeiro os matava atrás dele.",
+      "palavras": [
+        { "hebraico": "וַיַּ֣עַל", "transliteral": "way-ya-ʿal", "traducao_palavra": "e subiu" },
+        { "hebraico": "יֹונָתָ֗ן", "transliteral": "yô-nā-ṯān", "traducao_palavra": "Jônatas" },
+        { "hebraico": "עַל־יָדָיו֙", "transliteral": "ʿal-yā-ḏāw", "traducao_palavra": "sobre suas mãos" },
+        { "hebraico": "וְעַל־רַגְלָ֔יו", "transliteral": "wə-ʿal-raḡ-lāw", "traducao_palavra": "e sobre seus pés" },
+        { "hebraico": "וְנֹשֵׂ֥א", "transliteral": "wə-nō-śê", "traducao_palavra": "e o carregador de" },
+        { "hebraico": "כֵלָ֖יו", "transliteral": "ḵē-lāw", "traducao_palavra": "armas dele" },
+        { "hebraico": "אַחֲרָ֑יו", "transliteral": "ʾa-ḥă-rāw", "traducao_palavra": "atrás dele" },
+        { "hebraico": "וַֽיִּפְּלוּ֙", "transliteral": "way-yip-pə-lû", "traducao_palavra": "e caíam" },
+        { "hebraico": "לִפְנֵ֣י", "transliteral": "lip̄-nê", "traducao_palavra": "diante de" },
+        { "hebraico": "יֹונָתָ֔ן", "transliteral": "yô-nā-ṯān", "traducao_palavra": "Jônatas" },
+        { "hebraico": "וְנֹשֵׂ֥א", "transliteral": "wə-nō-śê", "traducao_palavra": "e o carregador de" },
+        { "hebraico": "כֵלָ֖יו", "transliteral": "ḵē-lāw", "traducao_palavra": "armas dele" },
+        { "hebraico": "מְמֹותֵ֥ת", "transliteral": "mə-mô-ṯêṯ", "traducao_palavra": "matava/acabava" },
+        { "hebraico": "אַחֲרָֽיו׃", "transliteral": "ʾa-ḥă-rāw", "traducao_palavra": "atrás dele" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "E sucedeu esta primeira derrota, em que Jônatas e o seu escudeiro mataram uns vinte homens, em quase metade de uma geira de terra que uma junta de bois podia lavrar.",
+      "palavras": [
+        { "hebraico": "וַתְּהִ֣י", "transliteral": "wat-tə-hî", "traducao_palavra": "e foi" },
+        { "hebraico": "הַמַּכָּ֣ה", "transliteral": "ham-mak-kā", "traducao_palavra": "a derrota/matança" },
+        { "hebraico": "הָרִאשֹׁנָ֗ה", "transliteral": "hā-ri-šō-nā", "traducao_palavra": "primeira" },
+        { "hebraico": "אֲשֶׁ֨ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "הִכָּ֧ה", "transliteral": "hik-kā", "traducao_palavra": "feriu" },
+        { "hebraico": "יֹונָתָ֛ן", "transliteral": "yô-nā-ṯān", "traducao_palavra": "Jônatas" },
+        { "hebraico": "וְנֹשֵׂ֥א", "transliteral": "wə-nō-śê", "traducao_palavra": "e o carregador de" },
+        { "hebraico": "כֵלָ֖יו", "transliteral": "ḵē-lāw", "traducao_palavra": "armas dele" },
+        { "hebraico": "כְּעֶשְׂרִ֣ים", "transliteral": "kə-ʿeś-rîm", "traducao_palavra": "como vinte" },
+        { "hebraico": "אִ֑ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homens" },
+        { "hebraico": "כְּבַחֲצִ֥י", "transliteral": "kə-ḇa-ḥă-ṣî", "traducao_palavra": "como em metade de" },
+        { "hebraico": "מַעֲנָ֖ה", "transliteral": "ma-ʿă-nā", "traducao_palavra": "sulco/área de" },
+        { "hebraico": "צֶ֥מֶד", "transliteral": "ṣe-meḏ", "traducao_palavra": "uma junta [de bois]" },
+        { "hebraico": "שָׂדֶֽה׃", "transliteral": "śā-ḏeh", "traducao_palavra": "[num] campo" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "E houve tremor no arraial, no campo e em todo o povo; também a guarnição e os saqueadores tremeram, e a terra se estremeceu; porquanto era tremor de Deus.",
+      "palavras": [
+        { "hebraico": "וַתְּהִ֨י", "transliteral": "wat-tə-hî", "traducao_palavra": "e houve" },
+        { "hebraico": "חֲרָדָ֤ה", "transliteral": "ḥă-rā-ḏā", "traducao_palavra": "tremor/terror" },
+        { "hebraico": "בַֽמַּחֲנֶה֙", "transliteral": "ḇam-ma-ḥă-neh", "traducao_palavra": "no arraial" },
+        { "hebraico": "בַשָּׂדֶה֙", "transliteral": "ḇaś-śā-ḏeh", "traducao_palavra": "[e] no campo" },
+        { "hebraico": "וּבְכָל־הָעָ֔ם", "transliteral": "ū-ḇə-ḵāl-hā-ʿām", "traducao_palavra": "e em todo o povo" },
+        { "hebraico": "הַמַּצָּ֥ב", "transliteral": "ham-maṣ-ṣāḇ", "traducao_palavra": "a guarnição" },
+        { "hebraico": "וְהַמַּשְׁחִ֖ית", "transliteral": "wə-ham-maš-ḥîṯ", "traducao_palavra": "e o destruidor/saqueadores" },
+        { "hebraico": "חָרְד֣וּ", "transliteral": "ḥā-rə-ḏû", "traducao_palavra": "tremeram" },
+        { "hebraico": "גַם־הֵ֑מָּה", "transliteral": "gam-hêm-mā", "traducao_palavra": "também eles" },
+        { "hebraico": "וַתִּרְגַּ֣ז", "transliteral": "wat-tir-gaz", "traducao_palavra": "e estremeceu" },
+        { "hebraico": "הָאָ֔רֶץ", "transliteral": "hā-ʾā-reṣ", "traducao_palavra": "a terra" },
+        { "hebraico": "וַתְּהִ֖י", "transliteral": "wat-tə-hî", "traducao_palavra": "e foi" },
+        { "hebraico": "לְחֶרְדַּ֥ת", "transliteral": "lə-ḥer-daṯ", "traducao_palavra": "por tremor de" },
+        { "hebraico": "אֱלֹהִֽים׃", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "Deus" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "E olharam as sentinelas de Saul em Gibeá de Benjamim, e eis que a multidão se derretia, e fugia de um lado para outro.",
+      "palavras": [
+        { "hebraico": "וַיִּרְא֧וּ", "transliteral": "way-yir-ʾû", "traducao_palavra": "e viram" },
+        { "hebraico": "הַצֹּפִים֙", "transliteral": "haṣ-ṣō-p̄îm", "traducao_palavra": "as sentinelas" },
+        { "hebraico": "לְשָׁא֔וּל", "transliteral": "lə-šā-ʾûl", "traducao_palavra": "de Saul" },
+        { "hebraico": "בְּגִבְעַ֖ת", "transliteral": "bə-giḇ-ʿaṯ", "traducao_palavra": "em Gibeá de" },
+        { "hebraico": "בִּנְיָמִ֑ן", "transliteral": "bin-yā-min", "traducao_palavra": "Benjamim" },
+        { "hebraico": "וְהִנֵּ֧ה", "transliteral": "wə-hin-nēh", "traducao_palavra": "e eis que" },
+        { "hebraico": "הֶהָמֹ֛ון", "transliteral": "he-hā-môn", "traducao_palavra": "a multidão" },
+        { "hebraico": "נָמֹ֖וג", "transliteral": "nā-môḡ", "traducao_palavra": "derretia-se/agitava-se" },
+        { "hebraico": "וַיֵּ֥לֶךְ", "transliteral": "way-yê-leḵ", "traducao_palavra": "e ia/corria" },
+        { "hebraico": "וַהֲלֹֽם׃", "transliteral": "wa-hă-lōm", "traducao_palavra": "para lá e para cá" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "Disse então Saul ao povo que estava com ele: Contai agora, e vede quem é que saiu de nós. E contaram, e eis que nem Jônatas nem o seu escudeiro estavam ali.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "שָׁא֜וּל", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "לָעָ֣ם", "transliteral": "lā-ʿām", "traducao_palavra": "ao povo" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "אִתֹּ֔ו", "transliteral": "ʾit-tô", "traducao_palavra": "com ele" },
+        { "hebraico": "פִּקְדוּ־נָ֣א", "transliteral": "piq-ḏû-nā", "traducao_palavra": "contai agora" },
+        { "hebraico": "וּרְא֔וּ", "transliteral": "ū-rə-ʾû", "traducao_palavra": "e vede" },
+        { "hebraico": "מִ֖י", "transliteral": "mî", "traducao_palavra": "quem" },
+        { "hebraico": "הָלַ֣ךְ", "transliteral": "hā-laḵ", "traducao_palavra": "foi/saiu" },
+        { "hebraico": "מֵעִמָּ֑נוּ", "transliteral": "mê-ʿim-mā-nû", "traducao_palavra": "de conosco" },
+        { "hebraico": "וַֽיִּפְקְד֔וּ", "transliteral": "way-yip̄-qə-ḏû", "traducao_palavra": "e contaram" },
+        { "hebraico": "וְהִנֵּ֧ה", "transliteral": "wə-hin-nēh", "traducao_palavra": "e eis que" },
+        { "hebraico": "אֵין", "transliteral": "ʾên", "traducao_palavra": "não [estava]" },
+        { "hebraico": "יֹונָתָ֖ן", "transliteral": "yô-nā-ṯān", "traducao_palavra": "Jônatas" },
+        { "hebraico": "וְנֹשֵׂ֥א", "transliteral": "wə-nō-śê", "traducao_palavra": "e o carregador de" },
+        { "hebraico": "כֵלָֽיו׃", "transliteral": "ḵē-lāw", "traducao_palavra": "armas dele" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "Então Saul disse a Aías: Traze aqui a arca de Deus (porque naquele dia estava a arca de Deus com os filhos de Israel).",
+      "palavras": [
+        { "hebraico": "וַיֹּ֤אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "שָׁאוּל֙", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "לַאֲחִיָּ֔ה", "transliteral": "la-ʾă-ḥiy-yā", "traducao_palavra": "a Aías" },
+        { "hebraico": "הַגִּ֖ישָׁה", "transliteral": "hag-gî-šā", "traducao_palavra": "faze chegar/traze" },
+        { "hebraico": "אֲרֹ֣ון", "transliteral": "ʾă-rôn", "traducao_palavra": "[a] arca de" },
+        { "hebraico": "הָאֱלֹהִ֑ים", "transliteral": "hā-ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "כִּֽי־הָיָ֨ה", "transliteral": "kî-hā-yā", "traducao_palavra": "porque estava" },
+        { "hebraico": "אֲרֹ֧ון", "transliteral": "ʾă-rôn", "traducao_palavra": "arca de" },
+        { "hebraico": "הָאֱלֹהִ֛ים", "transliteral": "hā-ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "בַּיֹּ֥ום", "transliteral": "bay-yôm", "traducao_palavra": "no dia" },
+        { "hebraico": "הַה֖וּא", "transliteral": "ha-hû", "traducao_palavra": "aquele" },
+        { "hebraico": "וּבְנֵ֥י", "transliteral": "ū-ḇə-nê", "traducao_palavra": "com os filhos de" },
+        { "hebraico": "יִשְׂרָאֵֽל׃", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "E sucedeu que, estando Saul falando com o sacerdote, o alvoroço que havia no arraial dos filisteus ia crescendo e se multiplicando; pelo que disse Saul ao sacerdote: Retira a tua mão.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֗י", "transliteral": "way-hî", "traducao_palavra": "e sucedeu" },
+        { "hebraico": "עַ֣ד", "transliteral": "ʿaḏ", "traducao_palavra": "enquanto" },
+        { "hebraico": "דִּבֶּ֤ר", "transliteral": "dib-ber", "traducao_palavra": "falava" },
+        { "hebraico": "שָׁאוּל֙", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "אֶל־הַכֹּהֵ֔ן", "transliteral": "ʾel-hak-kō-hên", "traducao_palavra": "ao sacerdote" },
+        { "hebraico": "וְהֶהָמֹ֗ון", "transliteral": "wə-he-hā-môn", "traducao_palavra": "e o alvoroço" },
+        { "hebraico": "אֲשֶׁר֙", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "בְּמַחֲנֵ֣ה", "transliteral": "bə-ma-ḥă-nēh", "traducao_palavra": "no arraial de" },
+        { "hebraico": "פְלִשְׁתִּ֔ים", "transliteral": "p̄ə-liš-tîm", "traducao_palavra": "filisteus" },
+        { "hebraico": "וַיֵּ֥לֶךְ", "transliteral": "way-yê-leḵ", "traducao_palavra": "ia/prosseguia" },
+        { "hebraico": "הָלֹ֖וךְ", "transliteral": "hā-lôḵ", "traducao_palavra": "andando/continuamente" },
+        { "hebraico": "וָרָ֑ב", "transliteral": "wā-rāḇ", "traducao_palavra": "e aumentando" },
+        { "hebraico": "וַיֹּ֧אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "שָׁא֛וּל", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "אֶל־הַכֹּהֵ֖ן", "transliteral": "ʾel-hak-kō-hên", "traducao_palavra": "ao sacerdote" },
+        { "hebraico": "אֱסֹ֥ף", "transliteral": "ʾĕ-sōp̄", "traducao_palavra": "recolhe/retira" },
+        { "hebraico": "יָדֶֽךָ׃", "transliteral": "yā-ḏe-ḵā", "traducao_palavra": "tua mão" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "Então Saul e todo o povo que estava com ele se congregaram, e vieram à peleja; e eis que a espada de um era contra o outro, e havia mui grande alvoroço.",
+      "palavras": [
+        { "hebraico": "וַיִּזָּעֵ֣ק", "transliteral": "way-yiz-zā-ʿêq", "traducao_palavra": "e foi convocado/gritou" },
+        { "hebraico": "שָׁא֗וּל", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "וְכָל־הָעָם֙", "transliteral": "wə-kāl-hā-ʿām", "traducao_palavra": "e todo o povo" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "אִתֹּ֔ו", "transliteral": "ʾit-tô", "traducao_palavra": "com ele" },
+        { "hebraico": "וַיָּבֹ֖אוּ", "transliteral": "way-yā-ḇō-ʾû", "traducao_palavra": "e vieram" },
+        { "hebraico": "עַד־הַמִּלְחָמָ֑ה", "transliteral": "ʿaḏ-ham-mil-ḥā-mā", "traducao_palavra": "até a batalha" },
+        { "hebraico": "וְהִנֵּ֨ה", "transliteral": "wə-hin-nēh", "traducao_palavra": "e eis que" },
+        { "hebraico": "הָיְתָה֙", "transliteral": "hā-yə-ṯā", "traducao_palavra": "estava" },
+        { "hebraico": "חֶ֣רֶב", "transliteral": "ḥe-reḇ", "traducao_palavra": "a espada de" },
+        { "hebraico": "אִ֣ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homem" },
+        { "hebraico": "בְּרֵעֵ֔הוּ", "transliteral": "bə-rê-ʿē-hû", "traducao_palavra": "contra seu companheiro" },
+        { "hebraico": "מְהוּמָ֥ה", "transliteral": "mə-hû-mā", "traducao_palavra": "[com] alvoroço" },
+        { "hebraico": "גְּדֹולָ֖ה", "transliteral": "gə-ḏô-lā", "traducao_palavra": "grande" },
+        { "hebraico": "מְאֹֽד׃", "transliteral": "mə-ʾōḏ", "traducao_palavra": "muito" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "E os hebreus que antes estavam com os filisteus, e que tinham subido com eles ao arraial em redor, também eles se voltaram para estarem com os israelitas que estavam com Saul e Jônatas.",
+      "palavras": [
+        { "hebraico": "וְהָעִבְרִ֗ים", "transliteral": "wə-hā-ʿiḇ-rîm", "traducao_palavra": "e os hebreus" },
+        { "hebraico": "הָי֨וּ", "transliteral": "hā-yû", "traducao_palavra": "estavam" },
+        { "hebraico": "לַפְּלִשְׁתִּים֙", "transliteral": "lap-pə-liš-tîm", "traducao_palavra": "com os filisteus" },
+        { "hebraico": "כְּאֶתְמֹ֣ול", "transliteral": "kə-ʾeṯ-môl", "traducao_palavra": "como antes/ontem" },
+        { "hebraico": "שִׁלְשֹׁ֔ום", "transliteral": "šil-šôm", "traducao_palavra": "[e] anteontem" },
+        { "hebraico": "אֲשֶׁ֨ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "עָל֥וּ", "transliteral": "ʿā-lû", "traducao_palavra": "subiram" },
+        { "hebraico": "עִמָּ֛ם", "transliteral": "ʿim-mām", "traducao_palavra": "com eles" },
+        { "hebraico": "בַּֽמַּחֲנֶ֖ה", "transliteral": "bam-ma-ḥă-neh", "traducao_palavra": "no arraial" },
+        { "hebraico": "סָבִ֑יב", "transliteral": "sā-ḇîḇ", "traducao_palavra": "em redor" },
+        { "hebraico": "וְסָבְב֣וּ", "transliteral": "wə-sā-ḇə-ḇû", "traducao_palavra": "e voltaram" },
+        { "hebraico": "גַם־הֵ֔מָּה", "transliteral": "gam-hêm-mā", "traducao_palavra": "também eles" },
+        { "hebraico": "לִֽהְיֹות֙", "transliteral": "li-hə-yôṯ", "traducao_palavra": "para estarem" },
+        { "hebraico": "עִם־יִשְׂרָאֵ֔ל", "transliteral": "ʿim-yiś-rā-ʾēl", "traducao_palavra": "com Israel" },
+        { "hebraico": "אֲשֶׁ֥ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "עִם־שָׁא֖וּל", "transliteral": "ʿim-šā-ʾûl", "traducao_palavra": "com Saul" },
+        { "hebraico": "וְיֹונָתָֽן׃", "transliteral": "wə-yô-nā-ṯān", "traducao_palavra": "e Jônatas" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "E ouvindo todos os homens de Israel que se tinham escondido na montanha de Efraim que os filisteus fugiam, também eles os perseguiram de perto na peleja.",
+      "palavras": [
+        { "hebraico": "וְכֹל֩", "transliteral": "wə-ḵōl", "traducao_palavra": "e todos" },
+        { "hebraico": "אִ֨ישׁ", "transliteral": "ʾîš", "traducao_palavra": "[os] homens de" },
+        { "hebraico": "יִשְׂרָאֵ֜ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "הַמִּֽתְחַבְּאִ֤ים", "transliteral": "ham-miṯ-ḥab-bə-ʾîm", "traducao_palavra": "os que se escondiam" },
+        { "hebraico": "בְּהַר־אֶפְרַ֙יִם֙", "transliteral": "bə-har-ʾep̄-ra-yim", "traducao_palavra": "na montanha de Efraim" },
+        { "hebraico": "שָׁמְע֔וּ", "transliteral": "šā-mə-ʿû", "traducao_palavra": "ouviram" },
+        { "hebraico": "כִּֽי־נָ֖סוּ", "transliteral": "kî-nā-śû", "traducao_palavra": "que fugiam" },
+        { "hebraico": "פְּלִשְׁתִּ֑ים", "transliteral": "p̄ə-liš-tîm", "traducao_palavra": "filisteus" },
+        { "hebraico": "וַֽיַּדְבְּק֥וּ", "transliteral": "way-yaḏ-bə-qû", "traducao_palavra": "e apegaram-se/perseguiram de perto" },
+        { "hebraico": "גַם־הֵ֛מָּה", "transliteral": "gam-hêm-mā", "traducao_palavra": "também eles" },
+        { "hebraico": "אַחֲרֵיהֶ֖ם", "transliteral": "ʾa-ḥă-rê-hem", "traducao_palavra": "atrás deles" },
+        { "hebraico": "בַּמִּלְחָמָֽה׃", "transliteral": "bam-mil-ḥā-mā", "traducao_palavra": "na batalha" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "Assim livrou YHWH a Israel naquele dia; e a peleja passou a Bete-Áven.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֧ושַׁע", "transliteral": "way-yô-šaʿ", "traducao_palavra": "e salvou/livrou" },
+        { "hebraico": "יְהוָ֛ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "בַּיֹּ֥ום", "transliteral": "bay-yôm", "traducao_palavra": "no dia" },
+        { "hebraico": "הַה֖וּא", "transliteral": "ha-hû", "traducao_palavra": "aquele" },
+        { "hebraico": "אֶת־יִשְׂרָאֵ֑ל", "transliteral": "ʾeṯ-yiś-rā-ʾēl", "traducao_palavra": "a Israel" },
+        { "hebraico": "וְהַמִּלְחָמָ֖ה", "transliteral": "wə-ham-mil-ḥā-mā", "traducao_palavra": "e a batalha" },
+        { "hebraico": "עָבְרָ֥ה", "transliteral": "ʿā-ḇə-rā", "traducao_palavra": "passou" },
+        { "hebraico": "אֶת־בֵּ֥ית אָֽוֶן׃", "transliteral": "ʾeṯ-bêṯ ʾā-wen", "traducao_palavra": "[a] Bete-Áven" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "E os homens de Israel estavam exaustos naquele dia; porquanto Saul adjurara o povo, dizendo: Maldito o homem que comer pão até à tarde, para que me vingue de meus inimigos. Pelo que todo o povo não provou pão.",
+      "palavras": [
+        { "hebraico": "וְאִֽישׁ־יִשְׂרָאֵ֥ל", "transliteral": "wə-ʾîš-yiś-rā-ʾēl", "traducao_palavra": "e o homem de Israel" },
+        { "hebraico": "נִגַּ֖שׂ", "transliteral": "nig-gaś", "traducao_palavra": "estava exausto/pressionado" },
+        { "hebraico": "בַּיֹּ֣ום", "transliteral": "bay-yôm", "traducao_palavra": "no dia" },
+        { "hebraico": "הַה֑וּא", "transliteral": "ha-hû", "traducao_palavra": "aquele" },
+        { "hebraico": "וַיֹּ֨אֶל", "transliteral": "way-yō-ʾel", "traducao_palavra": "e adjurara/fez jurar" },
+        { "hebraico": "שָׁאּ֜וּל", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "אֶת־הָעָ֣ם", "transliteral": "ʾeṯ-hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "לֵאמֹ֗ר", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "אָר֣וּר", "transliteral": "ʾā-rûr", "traducao_palavra": "maldito" },
+        { "hebraico": "הָ֠אִ֠ישׁ", "transliteral": "hā-ʾîš", "traducao_palavra": "o homem" },
+        { "hebraico": "אֲשֶׁר־יֹ֨אכַל", "transliteral": "ʾă-šer-yō-ḵal", "traducao_palavra": "que comer" },
+        { "hebraico": "לֶ֜חֶם", "transliteral": "le-ḥem", "traducao_palavra": "pão" },
+        { "hebraico": "עַד־הָעֶ֗רֶב", "transliteral": "ʿaḏ-hā-ʿe-reḇ", "traducao_palavra": "até a tarde" },
+        { "hebraico": "וְנִקַּמְתִּי֙", "transliteral": "wə-niq-qam-tî", "traducao_palavra": "e me vingue" },
+        { "hebraico": "מֵאֹ֣יְבַ֔י", "transliteral": "mê-ʾō-yə-ḇay", "traducao_palavra": "de meus inimigos" },
+        { "hebraico": "וְלֹ֥א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "טָעַ֥ם", "transliteral": "ṭā-ʿam", "traducao_palavra": "provou" },
+        { "hebraico": "כָּל־הָעָ֖ם", "transliteral": "kāl-hā-ʿām", "traducao_palavra": "todo o povo" },
+        { "hebraico": "לָֽחֶם׃", "transliteral": "lā-ḥem", "traducao_palavra": "pão" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "E todo o povo chegou a um bosque; e havia mel na superfície do campo.",
+      "palavras": [
+        { "hebraico": "וְכָל־הָאָ֖רֶץ", "transliteral": "wə-ḵāl-hā-ʾā-reṣ", "traducao_palavra": "e toda a terra/povo" },
+        { "hebraico": "בָּ֣אוּ", "transliteral": "bā-ʾû", "traducao_palavra": "vieram" },
+        { "hebraico": "בַיָּ֑עַר", "transliteral": "ḇay-yā-ʿar", "traducao_palavra": "ao bosque" },
+        { "hebraico": "וַיְהִ֥י", "transliteral": "way-hî", "traducao_palavra": "e havia" },
+        { "hebraico": "דְבַשׁ", "transliteral": "ḏə-ḇaš", "traducao_palavra": "mel" },
+        { "hebraico": "עַל־פְּנֵ֥י", "transliteral": "ʿal-pə-nê", "traducao_palavra": "sobre a face de" },
+        { "hebraico": "הַשָּׂדֶֽה׃", "transliteral": "haś-śā-ḏeh", "traducao_palavra": "o campo" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "E entrando o povo no bosque, eis que corria mel; porém ninguém chegou a mão à boca, porque o povo temia o juramento.",
+      "palavras": [
+        { "hebraico": "וַיָּבֹ֤א", "transliteral": "way-yā-ḇō", "traducao_palavra": "e veio/entrou" },
+        { "hebraico": "הָעָם֙", "transliteral": "hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "אֶל־הַיַּ֔עַר", "transliteral": "ʾel-hay-ya-ʿar", "traducao_palavra": "ao bosque" },
+        { "hebraico": "וְהִנֵּ֖ה", "transliteral": "wə-hin-nēh", "traducao_palavra": "e eis que" },
+        { "hebraico": "הֵ֣לֶךְ", "transliteral": "hē-leḵ", "traducao_palavra": "fluxo/corria" },
+        { "hebraico": "דְּבָ֑שׁ", "transliteral": "də-ḇāš", "traducao_palavra": "mel" },
+        { "hebraico": "וְאֵין־מַשִּׂ֤יג", "transliteral": "wə-ʾên-maś-śîḡ", "traducao_palavra": "e ninguém levou/chegou" },
+        { "hebraico": "יָדֹו֙", "transliteral": "yā-ḏô", "traducao_palavra": "sua mão" },
+        { "hebraico": "אֶל־פִּ֔יו", "transliteral": "ʾel-pîw", "traducao_palavra": "à sua boca" },
+        { "hebraico": "כִּֽי־יָרֵ֥א", "transliteral": "kî-yā-rē", "traducao_palavra": "porque temia" },
+        { "hebraico": "הָעָ֖ם", "transliteral": "hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "אֶת־הַשְּׁבֻעָֽה׃", "transliteral": "ʾeṯ-haš-šə-ḇû-ʿā", "traducao_palavra": "o juramento" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "Jônatas, porém, não ouvira quando seu pai adjurara o povo, e estendeu a ponta da vara que tinha na mão, e a molhou no favo de mel; e, tornando a mão à boca, aclararam-se os seus olhos.",
+      "palavras": [
+        { "hebraico": "וְיֹונָתָ֣ן", "transliteral": "wə-yô-nā-ṯān", "traducao_palavra": "e Jônatas" },
+        { "hebraico": "לֹא־שָׁמַ֗ע", "transliteral": "lō-šā-maʿ", "traducao_palavra": "não ouvira" },
+        { "hebraico": "בְּהַשְׁבִּ֣יעַ", "transliteral": "bə-haš-bî-aʿ", "traducao_palavra": "no fazer jurar" },
+        { "hebraico": "אָבִיו֮", "transliteral": "ʾā-ḇîw", "traducao_palavra": "pai dele" },
+        { "hebraico": "אֶת־הָעָם֒", "transliteral": "ʾeṯ-hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "וַיִּשְׁלַח֙", "transliteral": "way-yiš-laḥ", "traducao_palavra": "e estendeu" },
+        { "hebraico": "אֶת־קְצֵ֣ה", "transliteral": "ʾeṯ-qə-ṣēh", "traducao_palavra": "a ponta de" },
+        { "hebraico": "הַמַּטֶּה֮", "transliteral": "ham-maṭ-ṭeh", "traducao_palavra": "a vara" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "בְּיָדֹו֒", "transliteral": "bə-yā-ḏô", "traducao_palavra": "[estava] em sua mão" },
+        { "hebraico": "וַיִּטְבֹּ֥ל", "transliteral": "way-yiṭ-bōl", "traducao_palavra": "e molhou" },
+        { "hebraico": "אֹותָ֖הּ", "transliteral": "ʾô-ṯāh", "traducao_palavra": "ela" },
+        { "hebraico": "בְּיַעְרַ֣ת", "transliteral": "bə-ya-ʿă-raṯ", "traducao_palavra": "no favo de" },
+        { "hebraico": "הַדְּבָ֑שׁ", "transliteral": "had-də-ḇāš", "traducao_palavra": "mel" },
+        { "hebraico": "וַיָּ֤שֶׁב", "transliteral": "way-yā-šeḇ", "traducao_palavra": "e tornou" },
+        { "hebraico": "יָדֹו֙", "transliteral": "yā-ḏô", "traducao_palavra": "sua mão" },
+        { "hebraico": "אֶל־פִּ֔יו", "transliteral": "ʾel-pîw", "traducao_palavra": "à sua boca" },
+        { "hebraico": "וַתָּרֹ֖אנָה", "transliteral": "wat-tā-rō-nā", "traducao_palavra": "e viram/aclararam-se" },
+        { "hebraico": "עֵינָֽיו׃", "transliteral": "ʿê-nāw", "traducao_palavra": "os olhos dele" }
+      ]
+    },
+    "28": {
+      "traducao_completa": "Então respondeu um do povo, e disse: Solenemente adjurou teu pai o povo, dizendo: Maldito o homem que comer hoje pão. Pelo que o povo estava exausto.",
+      "palavras": [
+        { "hebraico": "וַיַּעַן֩", "transliteral": "way-ya-ʿan", "traducao_palavra": "e respondeu" },
+        { "hebraico": "אִ֨ישׁ", "transliteral": "ʾîš", "traducao_palavra": "um homem" },
+        { "hebraico": "מֵהָעָ֜ם", "transliteral": "mê-hā-ʿām", "traducao_palavra": "do povo" },
+        { "hebraico": "וַיֹּ֗אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "הַשְׁבֵּעַ֩", "transliteral": "haš-bê-aʿ", "traducao_palavra": "certamente" },
+        { "hebraico": "הִשְׁבִּ֨יעַ", "transliteral": "hiš-bî-aʿ", "traducao_palavra": "adjurou/fez jurar" },
+        { "hebraico": "אָבִ֤יךָ", "transliteral": "ʾā-ḇî-ḵā", "traducao_palavra": "teu pai" },
+        { "hebraico": "אֶת־הָעָם֙", "transliteral": "ʾeṯ-hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "לֵאמֹ֔ר", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "אָר֣וּר", "transliteral": "ʾā-rûr", "traducao_palavra": "maldito" },
+        { "hebraico": "הָאִ֔ישׁ", "transliteral": "hā-ʾîš", "traducao_palavra": "o homem" },
+        { "hebraico": "אֲשֶׁר־יֹ֥אכַל", "transliteral": "ʾă-šer-yō-ḵal", "traducao_palavra": "que comer" },
+        { "hebraico": "לֶ֖חֶם", "transliteral": "le-ḥem", "traducao_palavra": "pão" },
+        { "hebraico": "הַיֹּ֑ום", "transliteral": "hay-yôm", "traducao_palavra": "hoje" },
+        { "hebraico": "וַיָּ֥עַף", "transliteral": "way-yā-ʿap̄", "traducao_palavra": "e cansou-se/desfaleceu" },
+        { "hebraico": "הָעָֽם׃", "transliteral": "hā-ʿām", "traducao_palavra": "o povo" }
+      ]
+    },
+    "29": {
+      "traducao_completa": "Então disse Jônatas: Meu pai turbou a terra; vede agora como se aclararam os meus olhos por ter provado um pouco deste mel.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֙אמֶר֙", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "יְהֹונָתָ֔ן", "transliteral": "yə-hō-w-nā-ṯān", "traducao_palavra": "Jônatas" },
+        { "hebraico": "עָכַ֥ר", "transliteral": "ʿā-ḵar", "traducao_palavra": "turbou/perturbou" },
+        { "hebraico": "אָבִ֖י", "transliteral": "ʾā-ḇî", "traducao_palavra": "meu pai" },
+        { "hebraico": "אֶת־הָאָ֑רֶץ", "transliteral": "ʾeṯ-hā-ʾā-reṣ", "traducao_palavra": "a terra" },
+        { "hebraico": "רְאוּ־נָא֙", "transliteral": "rə-ʾû-nā", "traducao_palavra": "vede agora" },
+        { "hebraico": "כִּי־אֹ֣ורוּ", "transliteral": "kî-ʾô-rû", "traducao_palavra": "como brilharam" },
+        { "hebraico": "עֵינַ֔י", "transliteral": "ʿê-nay", "traducao_palavra": "meus olhos" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "טָעַ֔מְתִּי", "transliteral": "ṭā-ʿam-tî", "traducao_palavra": "provei" },
+        { "hebraico": "מְעַ֖ט", "transliteral": "mə-ʿaṭ", "traducao_palavra": "um pouco de" },
+        { "hebraico": "דְּבַ֥שׁ", "transliteral": "də-ḇaš", "traducao_palavra": "mel" },
+        { "hebraico": "הַזֶּֽה׃", "transliteral": "haz-zeh", "traducao_palavra": "este" }
+      ]
+    },
+    "30": {
+      "traducao_completa": "Quanto mais se o povo hoje tivesse comido livremente do despojo de seus inimigos que achou? Pois não seria agora maior a derrota dos filisteus?",
+      "palavras": [
+        { "hebraico": "אַף֮", "transliteral": "ʾap̄", "traducao_palavra": "quanto mais" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "se" },
+        { "hebraico": "אָכֹ֤ל", "transliteral": "ʾā-ḵōl", "traducao_palavra": "certamente" },
+        { "hebraico": "אָכַל֙", "transliteral": "ʾā-ḵal", "traducao_palavra": "tivesse comido" },
+        { "hebraico": "הַיֹּ֔ום", "transliteral": "hay-yôm", "traducao_palavra": "hoje" },
+        { "hebraico": "הָעָ֕ם", "transliteral": "hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "מִשְּׁלַ֥ל", "transliteral": "miš-šə-lal", "traducao_palavra": "do despojo de" },
+        { "hebraico": "אֹיְבָיו֙", "transliteral": "ʾō-yə-ḇāw", "traducao_palavra": "inimigos dele" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "מָצָ֑א", "transliteral": "mā-ṣā", "traducao_palavra": "achou" },
+        { "hebraico": "כִּ֧י", "transliteral": "kî", "traducao_palavra": "pois" },
+        { "hebraico": "עַתָּ֛ה", "transliteral": "ʿat-tā", "traducao_palavra": "agora" },
+        { "hebraico": "לֹא־רָבְתָ֥ה", "transliteral": "lō-rā-ḇə-ṯā", "traducao_palavra": "não teria sido maior" },
+        { "hebraico": "מַכָּ֖ה", "transliteral": "mak-kā", "traducao_palavra": "a derrota" },
+        { "hebraico": "בַּפְּלִשְׁתִּֽים׃", "transliteral": "bap-pə-liš-tîm", "traducao_palavra": "entre os filisteus" }
+      ]
+    },
+    "31": {
+      "traducao_completa": "Feriram, porém, naquele dia os filisteus, desde Micmás até Aijalom; e o povo estava mui exausto.",
+      "palavras": [
+        { "hebraico": "וַיַּכּ֞וּ", "transliteral": "way-yak-kû", "traducao_palavra": "e feriram" },
+        { "hebraico": "בַּיֹּ֣ום", "transliteral": "bay-yôm", "traducao_palavra": "no dia" },
+        { "hebraico": "הַה֗וּא", "transliteral": "ha-hû", "traducao_palavra": "aquele" },
+        { "hebraico": "בַּפְּלִשְׁתִּים֙", "transliteral": "bap-pə-liš-tîm", "traducao_palavra": "entre os filisteus" },
+        { "hebraico": "מִמּِכְמָ֖שׂ", "transliteral": "mim-miḵ-māś", "traducao_palavra": "desde Micmás" },
+        { "hebraico": "אַיָּלֹ֑נָה", "transliteral": "ʾay-yā-lō-nā", "traducao_palavra": "[até] Aijalom" },
+        { "hebraico": "וַיָּ֥עַף", "transliteral": "way-yā-ʿap̄", "traducao_palavra": "e cansou-se/exausto estava" },
+        { "hebraico": "הָעָ֖ם", "transliteral": "hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "מְאֹֽד׃", "transliteral": "mə-ʾōḏ", "traducao_palavra": "muito" }
+      ]
+    },
+    "32": {
+      "traducao_completa": "E o povo lançou-se ao despojo, e tomaram ovelhas, e bois, e bezerros, e os degolaram no chão; e o povo os comeu com sangue.",
+      "palavras": [
+        { "hebraico": "וַיַּ֥עַט", "transliteral": "way-ya-ʿaṭ", "traducao_palavra": "e lançou-se/voou" },
+        { "hebraico": "הָעָ֖ם", "transliteral": "hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "אֶל־הַשָּׁלָ֑ל", "transliteral": "ʾel-haš-šā-lāl", "traducao_palavra": "ao despojo" },
+        { "hebraico": "וַיִּקְח֨וּ", "transliteral": "way-yiq-ḥû", "traducao_palavra": "e tomaram" },
+        { "hebraico": "צֹ֧אן", "transliteral": "ṣōn", "traducao_palavra": "ovelhas" },
+        { "hebraico": "וּבָקָ֣ר", "transliteral": "ū-ḇā-qār", "traducao_palavra": "e gado" },
+        { "hebraico": "וּבְנֵ֣י", "transliteral": "ū-ḇə-nê", "traducao_palavra": "e filhos de" },
+        { "hebraico": "בָקָ֗ר", "transliteral": "ḇā-qār", "traducao_palavra": "gado/bezerros" },
+        { "hebraico": "וַיִּשְׁחֲטוּ־אָ֔רְצָה", "transliteral": "way-yiš-ḥă-ṭû-ʾā-rə-ṣā", "traducao_palavra": "e degolaram em terra" },
+        { "hebraico": "וַיֹּ֥אכַל", "transliteral": "way-yō-ḵal", "traducao_palavra": "e comeu" },
+        { "hebraico": "הָעָ֖ם", "transliteral": "hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "עַל־הַדָּֽם׃", "transliteral": "ʿal-had-dām", "traducao_palavra": "com o sangue" }
+      ]
+    },
+    "33": {
+      "traducao_completa": "E o anunciaram a Saul, dizendo: Eis que o povo peca contra YHWH, comendo com sangue. E disse ele: Agistes aleivosamente; revolvei-me hoje uma grande pedra.",
+      "palavras": [
+        { "hebraico": "וַיַּגִּ֤ידוּ", "transliteral": "way-yag-gî-ḏû", "traducao_palavra": "e anunciaram" },
+        { "hebraico": "לְשָׁאּוּל", "transliteral": "lə-šā-ʾûl", "traducao_palavra": "a Saul" },
+        { "hebraico": "לֵאמֹ֔ר", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "הִנֵּ֥ה", "transliteral": "hin-nēh", "traducao_palavra": "eis" },
+        { "hebraico": "הָעָ֛ם", "transliteral": "hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "חֹטִאִ֥ים", "transliteral": "ḥō-ṭi-ʾîm", "traducao_palavra": "pecando" },
+        { "hebraico": "לַֽיהוָ֖ה", "transliteral": "lay-hwāh", "traducao_palavra": "contra YHWH" },
+        { "hebraico": "לֶאֱכֹ֣ל", "transliteral": "le-ʾĕ-ḵōl", "traducao_palavra": "ao comer" },
+        { "hebraico": "עַל־הַדָּ֑ם", "transliteral": "ʿal-had-dām", "traducao_palavra": "com o sangue" },
+        { "hebraico": "וַיֹּ֣אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "בְּגַדְתֶּ֔ם", "transliteral": "bə-ḡaḏ-tem", "traducao_palavra": "fostes infiéis/agistes aleivosamente" },
+        { "hebraico": "גֹּלּוּ־אֵלַ֥י", "transliteral": "gōl-lû-ʾê-lay", "traducao_palavra": "revolvei a mim" },
+        { "hebraico": "הַיֹּ֖ום", "transliteral": "hay-yôm", "traducao_palavra": "hoje" },
+        { "hebraico": "אֶ֥בֶן", "transliteral": "ʾe-ḇen", "traducao_palavra": "pedra" },
+        { "hebraico": "גְּדֹולָֽה׃", "transliteral": "gə-ḏô-lā", "traducao_palavra": "grande" }
+      ]
+    },
+    "34": {
+      "traducao_completa": "Disse mais Saul: Espalhai-vos pelo povo, e dizei-lhes: Trazei-me cada um o seu boi, e cada um a sua ovelha, e degolai-os aqui, e comei, e não pequeis contra YHWH, comendo com sangue. E todo o povo trouxe de noite, cada um com a sua mão, o seu boi, e os degolaram ali.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֣אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "שָׁא֗וּל", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "פֻּ֣צוּ", "transliteral": "pu-ṣû", "traducao_palavra": "espalhai-vos" },
+        { "hebraico": "בָעָם֮", "transliteral": "ḇā-ʿām", "traducao_palavra": "pelo povo" },
+        { "hebraico": "וַאֲמַרְתֶּ֣ם", "transliteral": "wa-ʾă-mar-tem", "traducao_palavra": "e dizei" },
+        { "hebraico": "לָהֶם֒", "transliteral": "lā-hem", "traducao_palavra": "a eles" },
+        { "hebraico": "הַגִּ֨ישׁוּ", "transliteral": "hag-gî-šû", "traducao_palavra": "fazei chegar/trazei" },
+        { "hebraico": "אֵלַ֜י", "transliteral": "ʾê-lay", "traducao_palavra": "a mim" },
+        { "hebraico": "אִ֣ישׁ", "transliteral": "ʾîš", "traducao_palavra": "cada um" },
+        { "hebraico": "שֹׁורֹו֗", "transliteral": "šô-rô", "traducao_palavra": "seu boi" },
+        { "hebraico": "וְאִ֣ישׁ", "transliteral": "wə-ʾîš", "traducao_palavra": "e cada um" },
+        { "hebraico": "שְׂיֵהוּ֮", "transliteral": "śə-yē-hû", "traducao_palavra": "sua ovelha" },
+        { "hebraico": "וּשְׁחַטְתֶּ֣ם", "transliteral": "ū-šə-ḥaṭ-tem", "traducao_palavra": "e degolai" },
+        { "hebraico": "בָזֶה֮", "transliteral": "bā-zeh", "traducao_palavra": "aqui" },
+        { "hebraico": "וַאֲכַלְתֶּם֒", "transliteral": "wa-ʾă-ḵal-tem", "traducao_palavra": "e comei" },
+        { "hebraico": "וְלֹֽא־תֶחֶטְא֤וּ", "transliteral": "wə-lō-ṯe-ḥeṭ-ʾû", "traducao_palavra": "e não pequeis" },
+        { "hebraico": "לַֽיהוָה֙", "transliteral": "lay-hwāh", "traducao_palavra": "contra YHWH" },
+        { "hebraico": "לֶאֱכֹ֣ל", "transliteral": "le-ʾĕ-ḵōl", "traducao_palavra": "ao comer" },
+        { "hebraico": "אֶל־הַדָּ֑ם", "transliteral": "ʾel-had-dām", "traducao_palavra": "com o sangue" },
+        { "hebraico": "וַיַּגִּ֨שׁוּ", "transliteral": "way-yag-gî-šû", "traducao_palavra": "e trouxeram" },
+        { "hebraico": "כָל־הָעָ֜ם", "transliteral": "ḵāl-hā-ʿām", "traducao_palavra": "todo o povo" },
+        { "hebraico": "אִ֣ישׁ", "transliteral": "ʾîš", "traducao_palavra": "cada um" },
+        { "hebraico": "שֹׁורֹ֧ו", "transliteral": "šô-rô", "traducao_palavra": "seu boi" },
+        { "hebraico": "בְיָדֹ֛ו", "transliteral": "ḇə-yā-ḏô", "traducao_palavra": "em sua mão" },
+        { "hebraico": "בַּלַּ֖יְלָה", "transliteral": "bal-lay-lā", "traducao_palavra": "de noite" },
+        { "hebraico": "וַיִּשְׁחֲטוּ־שָֽׁם׃", "transliteral": "way-yiš-ḥă-ṭû-šām", "traducao_palavra": "e degolaram ali" }
+      ]
+    },
+    "35": {
+      "traducao_completa": "E edificou Saul um altar a YHWH; este foi o primeiro altar que edificou a YHWH.",
+      "palavras": [
+        { "hebraico": "וַיִּ֧בֶן", "transliteral": "way-yi-ḇen", "traducao_palavra": "e edificou" },
+        { "hebraico": "שָׁא֛וּל", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "מִזְבֵּ֖חַ", "transliteral": "miz-bê-aḥ", "traducao_palavra": "um altar" },
+        { "hebraico": "לַיהוָ֑ה", "transliteral": "lay-hwāh", "traducao_palavra": "a YHWH" },
+        { "hebraico": "אֹתֹ֣ו", "transliteral": "ʾō-ṯô", "traducao_palavra": "este" },
+        { "hebraico": "הֵחֵ֔ל", "transliteral": "hê-ḥêl", "traducao_palavra": "começou/primeiro" },
+        { "hebraico": "לִבְנֹ֥ות", "transliteral": "liḇ-nôṯ", "traducao_palavra": "em edificar" },
+        { "hebraico": "מִזְבֵּ֖חַ", "transliteral": "miz-bê-aḥ", "traducao_palavra": "um altar" },
+        { "hebraico": "לַיהוָֽה׃", "transliteral": "lay-hwāh", "traducao_palavra": "a YHWH" }
+      ]
+    },
+    "36": {
+      "traducao_completa": "Depois disse Saul: Desçamos de noite atrás dos filisteus, e saqueemo-los até ao amanhecer, e não deixemos deles homem algum. E disseram: Faze tudo o que bem parecer aos teus olhos. Disse, porém, o sacerdote: Cheguemo-nos aqui a Deus.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֣אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "שָׁא֡וּל", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "נֵרְדָ֣ה", "transliteral": "nê-rə-ḏā", "traducao_palavra": "desçamos" },
+        { "hebraico": "אַחֲרֵי־פְלִשְׁתִּ֣ים׀", "transliteral": "ʾa-ḥă-rê-p̄ə-liš-tîm", "traducao_palavra": "atrás dos filisteus" },
+        { "hebraico": "לַיְלָה", "transliteral": "lay-lā", "traducao_palavra": "[de] noite" },
+        { "hebraico": "וְנָבֹ֥זָה", "transliteral": "wə-nā-ḇō-zā", "traducao_palavra": "e saqueemos eles" },
+        { "hebraico": "בָהֶם֮", "transliteral": "ḇā-hem", "traducao_palavra": "neles" },
+        { "hebraico": "עַד־אֹ֣ור", "transliteral": "ʿaḏ-ʾôr", "traducao_palavra": "até a luz de" },
+        { "hebraico": "הַבֹּקֶר", "transliteral": "hab-bō-qer", "traducao_palavra": "a manhã" },
+        { "hebraico": "וְלֹא־נַשְׁאֵ֥ר", "transliteral": "wə-lō-naš-ʾēr", "traducao_palavra": "e não deixemos" },
+        { "hebraico": "בָּהֶ֖ם", "transliteral": "bā-hem", "traducao_palavra": "neles" },
+        { "hebraico": "אִ֑ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homem" },
+        { "hebraico": "וַיֹּאמְר֕וּ", "transliteral": "way-yō-mə-rû", "traducao_palavra": "e disseram" },
+        { "hebraico": "כָּל־הַטֹּ֥וב", "transliteral": "kāl-ha-ṭṭôḇ", "traducao_palavra": "todo o que bom" },
+        { "hebraico": "בְּעֵינֶ֖יךָ", "transliteral": "bə-ʿê-ne-ḵā", "traducao_palavra": "em teus olhos" },
+        { "hebraico": "עֲשֵׂ֑ה", "transliteral": "ʿă-śē", "traducao_palavra": "faze" },
+        { "hebraico": "וַיֹּ֙אמֶר֙", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "הַכֹּהֵ֔ן", "transliteral": "hak-kō-hên", "traducao_palavra": "o sacerdote" },
+        { "hebraico": "נִקְרְבָ֥ה", "transliteral": "niq-rə-ḇā", "traducao_palavra": "cheguemo-nos" },
+        { "hebraico": "הֲלֹ֖ם", "transliteral": "hă-lōm", "traducao_palavra": "aqui" },
+        { "hebraico": "אֶל־הָאֱלֹהִֽים׃", "transliteral": "ʾel-hā-ʾĕ-lō-hîm", "traducao_palavra": "a Deus" }
+      ]
+    },
+    "37": {
+      "traducao_completa": "Então consultou Saul a Deus, dizendo: Descerei atrás dos filisteus? Entregá-los-ás na mão de Israel? Mas aquele dia lhe não respondeu.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁאַ֤ל", "transliteral": "way-yiš-ʾal", "traducao_palavra": "e perguntou/consultou" },
+        { "hebraico": "שָׁאּוּל֙", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "בֵּֽאלֹהִ֔ים", "transliteral": "bê-lō-hîm", "traducao_palavra": "a Deus" },
+        { "hebraico": "הַאֵרֵד֙", "transliteral": "ha-ʾê-rēḏ", "traducao_palavra": "descerei" },
+        { "hebraico": "אַחֲרֵ֣י", "transliteral": "ʾa-ḥă-rê", "traducao_palavra": "atrás de" },
+        { "hebraico": "פְלִשְׁתִּ֔ים", "transliteral": "p̄ə-liš-tîm", "traducao_palavra": "filisteus" },
+        { "hebraico": "הֲתִתְּנֵ֖ם", "transliteral": "hă-ṯit-tə-nêm", "traducao_palavra": "entregarás eles" },
+        { "hebraico": "בְּיַ֣ד", "transliteral": "bə-yaḏ", "traducao_palavra": "na mão de" },
+        { "hebraico": "יִשְׂרָאֵ֑ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "וְלֹ֥א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "עָנָ֖הוּ", "transliteral": "ʿā-nā-hû", "traducao_palavra": "respondeu a ele" },
+        { "hebraico": "בַּיֹּ֥ום", "transliteral": "bay-yôm", "traducao_palavra": "no dia" },
+        { "hebraico": "הַהֽוּא׃", "transliteral": "ha-hû", "traducao_palavra": "aquele" }
+      ]
+    },
+    "38": {
+      "traducao_completa": "Então disse Saul: Chegai-vos para cá, todos os cantos do povo, e sabei e vede em que se deu hoje este pecado.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֣אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "שָׁאּ֔וּל", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "גֹּ֕שׁוּ", "transliteral": "gō-šû", "traducao_palavra": "chegai-vos" },
+        { "hebraico": "הֲלֹ֖ם", "transliteral": "hă-lōm", "traducao_palavra": "aqui" },
+        { "hebraico": "כֹּ֖ל", "transliteral": "kōl", "traducao_palavra": "todos" },
+        { "hebraico": "פִּנֹּ֣ות", "transliteral": "pin-nôṯ", "traducao_palavra": "os cantos/chefes de" },
+        { "hebraico": "הָעָ֑ם", "transliteral": "hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "וּדְע֣וּ", "transliteral": "ū-ḏə-ʿû", "traducao_palavra": "e sabei" },
+        { "hebraico": "וּרְא֗וּ", "transliteral": "ū-rə-ʾû", "traducao_palavra": "e vede" },
+        { "hebraico": "בַּמָּה֙", "transliteral": "bam-mā", "traducao_palavra": "em que/como" },
+        { "hebraico": "הָיְתָ֛ה", "transliteral": "hā-yə-ṯā", "traducao_palavra": "foi/esteve" },
+        { "hebraico": "הַחַטָּ֥את", "transliteral": "ha-ḥaṭ-ṭā-ʾṯ", "traducao_palavra": "o pecado" },
+        { "hebraico": "הַזֹּ֖את", "transliteral": "haz-zōṯ", "traducao_palavra": "este" },
+        { "hebraico": "הַיֹּֽום׃", "transliteral": "hay-yôm", "traducao_palavra": "hoje" }
+      ]
+    },
+    "39": {
+      "traducao_completa": "Porque vive YHWH, que salva a Israel, que, ainda que seja no meu filho Jônatas, ele morrerá. E nenhum de todo o povo lhe respondeu.",
+      "palavras": [
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "חַי־יְהוָה֙", "transliteral": "ḥay-YHWH", "traducao_palavra": "vive YHWH" },
+        { "hebraico": "הַמֹּושִׁ֣יעַ", "transliteral": "ham-mô-šî-aʿ", "traducao_palavra": "o salvador de" },
+        { "hebraico": "אֶת־יִשְׂרָאֵ֔ל", "transliteral": "ʾeṯ-yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "כִּ֧י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "אִם־יֶשְׁנֹ֛ו", "transliteral": "ʾim-yeš-nô", "traducao_palavra": "ainda que esteja ele" },
+        { "hebraico": "בְּיֹונָתָ֥ן", "transliteral": "bə-yô-nā-ṯān", "traducao_palavra": "em Jônatas" },
+        { "hebraico": "בְּנִ֖י", "transliteral": "bə-nî", "traducao_palavra": "meu filho" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "מֹ֣ות", "transliteral": "môṯ", "traducao_palavra": "certamente" },
+        { "hebraico": "יָמ֑וּת", "transliteral": "yā-mûṯ", "traducao_palavra": "morrerá" },
+        { "hebraico": "וְאֵ֥ין", "transliteral": "wə-ʾên", "traducao_palavra": "e não houve" },
+        { "hebraico": "עֹנֵ֖הוּ", "transliteral": "ʿō-nê-hû", "traducao_palavra": "quem respondesse a ele" },
+        { "hebraico": "מִכָּל־הָעָֽם׃", "transliteral": "mik-kāl-hā-ʿām", "traducao_palavra": "de todo o povo" }
+      ]
+    },
+    "40": {
+      "traducao_completa": "Disse mais a todo o Israel: Vós estareis de um lado, e eu e meu filho Jônatas estaremos do outro lado. E disse o povo a Saul: Faze o que bem parecer aos teus olhos.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֙אמֶר֙", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "אֶל־כָּל־יִשְׂרָאֵ֔ל", "transliteral": "ʾel-kāl-yiś-rā-ʾēl", "traducao_palavra": "a todo Israel" },
+        { "hebraico": "אַתֶּם֙", "transliteral": "ʾat-tem", "traducao_palavra": "vós" },
+        { "hebraico": "תִּהְי֣וּ", "transliteral": "tih-yû", "traducao_palavra": "estareis" },
+        { "hebraico": "לְעֵ֣בֶר", "transliteral": "lə-ʿê-ḇer", "traducao_palavra": "de um lado" },
+        { "hebraico": "אֶחָ֔ד", "transliteral": "ʾe-ḥāḏ", "traducao_palavra": "um" },
+        { "hebraico": "וַאֲנִ֛י", "transliteral": "wa-ʾă-nî", "traducao_palavra": "e eu" },
+        { "hebraico": "וְיֹונָתָ֥ן", "transliteral": "wə-yô-nā-ṯān", "traducao_palavra": "e Jônatas" },
+        { "hebraico": "בְּנִ֖י", "transliteral": "bə-nî", "traducao_palavra": "meu filho" },
+        { "hebraico": "נִהְיֶ֖ה", "transliteral": "nih-yeh", "traducao_palavra": "estaremos" },
+        { "hebraico": "לְעֵ֣בֶר", "transliteral": "lə-ʿê-ḇer", "traducao_palavra": "do lado" },
+        { "hebraico": "אֶחָ֑ד", "transliteral": "ʾe-ḥāḏ", "traducao_palavra": "outro" },
+        { "hebraico": "וַיֹּאמְר֤וּ", "transliteral": "way-yō-mə-rû", "traducao_palavra": "e disseram" },
+        { "hebraico": "הָעָם֙", "transliteral": "hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "אֶל־שָׁא֔וּל", "transliteral": "ʾel-šā-ʾûl", "traducao_palavra": "a Saul" },
+        { "hebraico": "הַטֹּ֥וב", "transliteral": "ha-ṭṭôḇ", "traducao_palavra": "o que é bom" },
+        { "hebraico": "בְּעֵינֶ֖יךָ", "transliteral": "bə-ʿê-ne-ḵā", "traducao_palavra": "em teus olhos" },
+        { "hebraico": "עֲשֵֽׂה׃", "transliteral": "ʿă-śē", "traducao_palavra": "faze" }
+      ]
+    },
+    "41": {
+      "traducao_completa": "Falou, pois, Saul a YHWH Deus de Israel: Mostra o inocente. Então Jônatas e Saul foram tomados por sorte, e o povo saiu livre.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֣אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "שָׁא֗וּל", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "אֶל־יְהוָה֙", "transliteral": "ʾel-YHWH", "traducao_palavra": "a YHWH" },
+        { "hebraico": "אֱלֹהֵ֣י", "transliteral": "ʾĕ-lō-hê", "traducao_palavra": "Deus de" },
+        { "hebraico": "יִשְׂרָאֵ֔ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "הָ֥בָה", "transliteral": "hā-ḇā", "traducao_palavra": "dá/mostra" },
+        { "hebraico": "תָמִ֑ים", "transliteral": "ṯā-mîm", "traducao_palavra": "o perfeito/sorte certa" },
+        { "hebraico": "וַיִּלָּכֵ֧ד", "transliteral": "way-yil-lā-ḵêḏ", "traducao_palavra": "e foram tomados" },
+        { "hebraico": "יֹונָתָ֛ן", "transliteral": "yô-nā-ṯān", "traducao_palavra": "Jônatas" },
+        { "hebraico": "וְשָׁא֖וּל", "transliteral": "wə-šā-ʾûl", "traducao_palavra": "e Saul" },
+        { "hebraico": "וְהָעָ֥ם", "transliteral": "wə-hā-ʿām", "traducao_palavra": "e o povo" },
+        { "hebraico": "יָצָֽאוּ׃", "transliteral": "yā-ṣā-ʾû", "traducao_palavra": "saiu [livre]" }
+      ]
+    },
+    "42": {
+      "traducao_completa": "Então disse Saul: Lançai a sorte entre mim e Jônatas, meu filho. E foi tomado Jônatas.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֣אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "שָׁא֔וּל", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "הַפִּ֕ילוּ", "transliteral": "hap-pî-lû", "traducao_palavra": "lançai" },
+        { "hebraico": "בֵּינִ֕י", "transliteral": "bê-nî", "traducao_palavra": "entre mim" },
+        { "hebraico": "וּבֵ֖ין", "transliteral": "ū-ḇên", "traducao_palavra": "e entre" },
+        { "hebraico": "יֹונָתָ֣ן", "transliteral": "yô-nā-ṯān", "traducao_palavra": "Jônatas" },
+        { "hebraico": "בְּנִ֑י", "transliteral": "bə-nî", "traducao_palavra": "meu filho" },
+        { "hebraico": "וַיִּלָּכֵ֖ד", "transliteral": "way-yil-lā-ḵêḏ", "traducao_palavra": "e foi tomado" },
+        { "hebraico": "יֹונָתָֽן׃", "transliteral": "yô-nā-ṯān", "traducao_palavra": "Jônatas" }
+      ]
+    },
+    "43": {
+      "traducao_completa": "Disse então Saul a Jônatas: Declara-me o que fizeste. E Jônatas lho declarou, e disse: Tão somente provei um pouco de mel com a ponta da vara que tinha na mão; eis que devo morrer?",
+      "palavras": [
+        { "hebraico": "וַיֹּ֤אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "שָׁאוּל֙", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "אֶל־יֹונָתָ֔ן", "transliteral": "ʾel-yô-nā-ṯān", "traducao_palavra": "a Jônatas" },
+        { "hebraico": "הַגִּ֥ידָה", "transliteral": "hag-gî-ḏā", "traducao_palavra": "declara" },
+        { "hebraico": "לִּ֖י", "transliteral": "lî", "traducao_palavra": "a mim" },
+        { "hebraico": "מֶ֣ה", "transliteral": "meh", "traducao_palavra": "o que" },
+        { "hebraico": "עָשִׂ֑יתָ", "transliteral": "ʿā-śî-ṯā", "traducao_palavra": "fizeste" },
+        { "hebraico": "וַיַּגֶּד־לֹ֣ו", "transliteral": "way-yag-geḏ-lô", "traducao_palavra": "e contou a ele" },
+        { "hebraico": "יֹונָתָ֗ן", "transliteral": "yô-nā-ṯān", "traducao_palavra": "Jônatas" },
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "טָעֹ֣ם", "transliteral": "ṭā-ʿōm", "traducao_palavra": "certamente provei" },
+        { "hebraico": "טָעַמְתִּי֮", "transliteral": "ṭā-ʿam-tî", "traducao_palavra": "provei" },
+        { "hebraico": "בִּקְצֵ֨ה", "transliteral": "biq-ṣēh", "traducao_palavra": "com a ponta de" },
+        { "hebraico": "הַמַּטֶּ֧ה", "transliteral": "ham-maṭ-ṭeh", "traducao_palavra": "a vara" },
+        { "hebraico": "אֲשֶׁר־בְּיָדִ֛י", "transliteral": "ʾă-šer-bə-yā-ḏî", "traducao_palavra": "que em minha mão" },
+        { "hebraico": "מְעַ֥ט", "transliteral": "mə-ʿaṭ", "traducao_palavra": "um pouco de" },
+        { "hebraico": "דְּבַ֖שׁ", "transliteral": "də-ḇaš", "traducao_palavra": "mel" },
+        { "hebraico": "הִנְנִ֥י", "transliteral": "hin-nî", "traducao_palavra": "eis-me aqui" },
+        { "hebraico": "אָמֽוּת׃", "transliteral": "ʾā-mûṯ", "traducao_palavra": "morrerei" }
+      ]
+    },
+    "44": {
+      "traducao_completa": "E disse Saul: Assim Deus me faça, e outro tanto, que com certeza morrerás, Jônatas.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֣אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "שָׁאּ֔וּל", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "כֹּה־יַעֲשֶׂ֥ה", "transliteral": "kō-ya-ʿă-śeh", "traducao_palavra": "assim faça" },
+        { "hebraico": "אֱלֹהִ֖ים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "וְכֹ֣ה", "transliteral": "wə-ḵō", "traducao_palavra": "e assim" },
+        { "hebraico": "יֹוסִ֑יף", "transliteral": "yô-sîp̄", "traducao_palavra": "acrescente" },
+        { "hebraico": "כִּֽי־מֹ֥ות", "transliteral": "kî-môṯ", "traducao_palavra": "que certamente" },
+        { "hebraico": "תָּמ֖וּת", "transliteral": "tā-mûṯ", "traducao_palavra": "morrerás" },
+        { "hebraico": "יֹונָתָֽן׃", "transliteral": "yô-nā-ṯān", "traducao_palavra": "Jônatas" }
+      ]
+    },
+    "45": {
+      "traducao_completa": "Porém o povo disse a Saul: Morreria Jônatas, que efetuou tão grande salvação em Israel? Nunca tal suceda! Vive YHWH, que não há de cair no chão um só cabelo da sua cabeça; porque com Deus operou hoje. Assim o povo livrou a Jônatas, para que não morresse.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "הָעָ֜ם", "transliteral": "hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "אֶל־שָׁא֗וּל", "transliteral": "ʾel-šā-ʾûl", "traducao_palavra": "a Saul" },
+        { "hebraico": "הֲיֹונָתָ֣ן׀", "transliteral": "hă-yô-nā-ṯān", "traducao_palavra": "acaso Jônatas" },
+        { "hebraico": "יָמ֗וּת", "transliteral": "yā-mûṯ", "traducao_palavra": "morrerá" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "עָ֠שָׂה", "transliteral": "ʿā-śā", "traducao_palavra": "fez/operou" },
+        { "hebraico": "הַתְּשׁוּעָ֨ה", "transliteral": "hat-tə-šû-ʿā", "traducao_palavra": "a salvação" },
+        { "hebraico": "הַגְּדֹולָ֥ה", "transliteral": "hag-gə-ḏô-lā", "traducao_palavra": "grande" },
+        { "hebraico": "הַזֹּאת֙", "transliteral": "haz-zōṯ", "traducao_palavra": "esta" },
+        { "hebraico": "בְּיִשְׂרָאֵ֔ל", "transliteral": "bə-yiś-rā-ʾēl", "traducao_palavra": "em Israel" },
+        { "hebraico": "חָלִ֕ילָה", "transliteral": "ḥā-lî-lā", "traducao_palavra": "longe [tal coisa]" },
+        { "hebraico": "חַי־יְהוָ֗ה", "transliteral": "ḥay-YHWH", "traducao_palavra": "vive YHWH" },
+        { "hebraico": "אִם־יִפֹּ֞ל", "transliteral": "ʾim-yip-pōl", "traducao_palavra": "que não cairá" },
+        { "hebraico": "מִשַּׂעֲרַ֤ת", "transliteral": "miś-śa-ʿă-raṯ", "traducao_palavra": "do cabelo de" },
+        { "hebraico": "רֹאשֹׁו֙", "transliteral": "rō-šô", "traducao_palavra": "sua cabeça" },
+        { "hebraico": "אָ֔רְצָה", "transliteral": "ʾā-rə-ṣā", "traducao_palavra": "em terra" },
+        { "hebraico": "כִּֽי־עִם־אֱלֹהִ֥ים", "transliteral": "kî-ʿim-ʾĕ-lō-hîm", "traducao_palavra": "porque com Deus" },
+        { "hebraico": "עָשָׂ֖ה", "transliteral": "ʿā-śā", "traducao_palavra": "operou" },
+        { "hebraico": "הַיֹּ֣ום", "transliteral": "hay-yôm", "traducao_palavra": "hoje" },
+        { "hebraico": "הַזֶּ֑ה", "transliteral": "haz-zeh", "traducao_palavra": "este" },
+        { "hebraico": "וַיִּפְדּ֥וּ", "transliteral": "way-yip̄-dû", "traducao_palavra": "e resgatou/livrou" },
+        { "hebraico": "הָעָ֛ם", "transliteral": "hā-ʿām", "traducao_palavra": "o povo" },
+        { "hebraico": "אֶת־יֹונָתָ֖ן", "transliteral": "ʾeṯ-yô-nā-ṯān", "traducao_palavra": "a Jônatas" },
+        { "hebraico": "וְלֹא־מֵֽת׃", "transliteral": "wə-lō-mêṯ", "traducao_palavra": "e não morreu" }
+      ]
+    },
+    "46": {
+      "traducao_completa": "E Saul subiu de seguir os filisteus; e os filisteus se foram para o seu lugar.",
+      "palavras": [
+        { "hebraico": "וַיַּ֣עַל", "transliteral": "way-ya-ʿal", "traducao_palavra": "e subiu" },
+        { "hebraico": "שָׁאּ֔וּל", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "מֵאַחֲרֵ֖י", "transliteral": "mê-ʾa-ḥă-rê", "traducao_palavra": "de após" },
+        { "hebraico": "פְּלִשְׁתִּ֑ים", "transliteral": "p̄ə-liš-tîm", "traducao_palavra": "os filisteus" },
+        { "hebraico": "וּפְלִשְׁתִּ֖ים", "transliteral": "ū-p̄ə-liš-tîm", "traducao_palavra": "e os filisteus" },
+        { "hebraico": "הָלְכ֥וּ", "transliteral": "hā-lə-ḵû", "traducao_palavra": "foram" },
+        { "hebraico": "לִמְקֹומָֽם׃", "transliteral": "lim-qô-mām", "traducao_palavra": "ao lugar deles" }
+      ]
+    },
+    "47": {
+      "traducao_completa": "E Saul tomou o reino sobre Israel; e pelejou contra todos os seus inimigos em redor: contra Moabe, e contra os filhos de Amom, e contra Edom, e contra os reis de Zobá, e contra os filisteus; e para onde quer que se voltava, os castigava.",
+      "palavras": [
+        { "hebraico": "וְשָׁא֨וּל", "transliteral": "wə-šā-ʾûl", "traducao_palavra": "e Saul" },
+        { "hebraico": "לָכַ֧ד", "transliteral": "lā-ḵaḏ", "traducao_palavra": "tomou" },
+        { "hebraico": "הַמְּלוּכָה֙", "transliteral": "ham-mə-lû-ḵā", "traducao_palavra": "o reino" },
+        { "hebraico": "עַל־יִשְׂרָאֵ֔ל", "transliteral": "ʿal-yiś-rā-ʾēl", "traducao_palavra": "sobre Israel" },
+        { "hebraico": "וַיִּלָּ֣חֶם", "transliteral": "way-yil-lā-ḥem", "traducao_palavra": "e lutou" },
+        { "hebraico": "סָבִ֣יב׀", "transliteral": "śā-ḇîḇ", "traducao_palavra": "em redor" },
+        { "hebraico": "בְּכָל־אֹיְבָ֗יו", "transliteral": "bə-ḵāl-ʾō-yə-ḇāw", "traducao_palavra": "contra todos os inimigos dele" },
+        { "hebraico": "בְּמֹואָ֣ב", "transliteral": "bə-mô-ʾāḇ", "traducao_palavra": "contra Moabe" },
+        { "hebraico": "וּבִבְנֵי־עַמֹּון֮", "transliteral": "ū-ḇiḇ-nê-ʿam-môn", "traducao_palavra": "e contra os filhos de Amom" },
+        { "hebraico": "וּבֶאֱדֹום֮", "transliteral": "ū-ḇe-ʾĕ-ḏôm", "traducao_palavra": "e contra Edom" },
+        { "hebraico": "וּבְמַלְכֵ֣י", "transliteral": "ū-ḇə-mal-ḵê", "traducao_palavra": "e contra reis de" },
+        { "hebraico": "צֹובָה֮", "transliteral": "ṣô-ḇā", "traducao_palavra": "Zobá" },
+        { "hebraico": "וּבַפְּלִשְׁתִּים֒", "transliteral": "ū-ḇap-pə-liš-tîm", "traducao_palavra": "e contra os filisteus" },
+        { "hebraico": "וּבְכֹ֥ל", "transliteral": "ū-ḇə-ḵōl", "traducao_palavra": "e em tudo" },
+        { "hebraico": "אֲשֶׁר־יִפְנֶ֖ה", "transliteral": "ʾă-šer-yip̄-neh", "traducao_palavra": "[onde] que se voltava" },
+        { "hebraico": "יַרְשִֽׁיעַ׃", "transliteral": "yar-šî-aʿ", "traducao_palavra": "triunfava/castigava" }
+      ]
+    },
+    "48": {
+      "traducao_completa": "E houve-se valorosamente, e feriu os amalequitas, e livrou a Israel da mão dos que o saqueavam.",
+      "palavras": [
+        { "hebraico": "וַיַּ֣עַשׂ", "transliteral": "way-ya-ʿaś", "traducao_palavra": "e fez/agiu" },
+        { "hebraico": "חַ֔יִל", "transliteral": "ḥa-yil", "traducao_palavra": "[com] valor/força" },
+        { "hebraico": "וַיַּ֖ךְ", "transliteral": "way-yaḵ", "traducao_palavra": "e feriu" },
+        { "hebraico": "אֶת־עֲמָלֵ֑ק", "transliteral": "ʾeṯ-ʿă-mā-lêq", "traducao_palavra": "a Amaleque" },
+        { "hebraico": "וַיַּצֵּ֥ל", "transliteral": "way-yaṣ-ṣēl", "traducao_palavra": "e livrou" },
+        { "hebraico": "אֶת־יִשְׂרָאֵ֖ל", "transliteral": "ʾeṯ-yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "מִיַּ֥ד", "transliteral": "miy-yaḏ", "traducao_palavra": "da mão de" },
+        { "hebraico": "שֹׁוסֵֽהוּ׃", "transliteral": "šô-śē-hû", "traducao_palavra": "seus saqueadores" }
+      ]
+    },
+    "49": {
+      "traducao_completa": "E os filhos de Saul eram Jônatas, Isvi e Malquisua; e os nomes de suas duas filhas eram estes: o da primogênita, Merabe, e o da menor, Mical.",
+      "palavras": [
+        { "hebraico": "וַיִּהְי֧וּ", "transliteral": "way-yih-yû", "traducao_palavra": "e foram" },
+        { "hebraico": "בְנֵי־שָׁאּ֗וּל", "transliteral": "ḇə-nê-šā-ʾûl", "traducao_palavra": "filhos de Saul" },
+        { "hebraico": "יְהֹונָתָ֧ן", "transliteral": "yə-hō-w-nā-ṯān", "traducao_palavra": "Jônatas" },
+        { "hebraico": "וְיִשְׁוִ֛י", "transliteral": "wə-yiš-wî", "traducao_palavra": "e Isvi" },
+        { "hebraico": "וּמַלְכִּי־שׁ֖וּעַ", "transliteral": "ū-mal-kî-šû-aʿ", "traducao_palavra": "e Malquisua" },
+        { "hebraico": "וְשֵׁם֙", "transliteral": "wə-šēm", "traducao_palavra": "e o nome de" },
+        { "hebraico": "שְׁתֵּ֣י", "transliteral": "šət-tê", "traducao_palavra": "as duas" },
+        { "hebraico": "בְנֹתָ֔יו", "transliteral": "ḇə-nō-ṯāw", "traducao_palavra": "filhas dele" },
+        { "hebraico": "שֵׁ֤ם", "transliteral": "šēm", "traducao_palavra": "o nome de" },
+        { "hebraico": "הַבְּכִירָה֙", "transliteral": "hab-bə-ḵî-rā", "traducao_palavra": "a primogênita" },
+        { "hebraico": "מֵרַ֔ב", "transliteral": "mê-raḇ", "traducao_palavra": "Merabe" },
+        { "hebraico": "וְשֵׁ֥ם", "transliteral": "wə-šēm", "traducao_palavra": "e o nome de" },
+        { "hebraico": "הַקְּטַנָּ֖ה", "transliteral": "haq-qə-ṭan-nā", "traducao_palavra": "a menor" },
+        { "hebraico": "מִיכַֽל׃", "transliteral": "mî-ḵal", "traducao_palavra": "Mical" }
+      ]
+    },
+    "50": {
+      "traducao_completa": "E o nome da mulher de Saul, Ainoã, filha de Aímaas; e o nome do capitão do seu exército, Abner, filho de Ner, tio de Saul.",
+      "palavras": [
+        { "hebraico": "וְשֵׁם֙", "transliteral": "wə-šēm", "traducao_palavra": "e o nome de" },
+        { "hebraico": "אֵ֣שֶׁת", "transliteral": "ʾē-šeṯ", "traducao_palavra": "mulher de" },
+        { "hebraico": "שָׁאּ֔וּל", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "אֲחִינֹ֖עַם", "transliteral": "ʾă-ḥî-nō-ʿam", "traducao_palavra": "Ainoã" },
+        { "hebraico": "בַּת־אֲחִימָ֑עַץ", "transliteral": "baṯ-ʾă-ḥî-mā-ʿaṣ", "traducao_palavra": "filha de Aímaas" },
+        { "hebraico": "וְשֵׁ֤ם", "transliteral": "wə-šēm", "traducao_palavra": "e o nome de" },
+        { "hebraico": "שַׂר־צְבָאֹו֙", "transliteral": "śar-ṣə-ḇā-ʾô", "traducao_palavra": "capitão do exército dele" },
+        { "hebraico": "אֲבִינֵ֔ר", "transliteral": "ʾă-ḇî-nêr", "traducao_palavra": "Abner" },
+        { "hebraico": "בֶּן־נֵ֖ר", "transliteral": "ben-nêr", "traducao_palavra": "filho de Ner" },
+        { "hebraico": "דֹּ֥וד", "transliteral": "dôḏ", "traducao_palavra": "tio de" },
+        { "hebraico": "שָׁאּֽוּל׃", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" }
+      ]
+    },
+    "51": {
+      "traducao_completa": "E Quis, pai de Saul, e Ner, pai de Abner, eram filhos de Abiel.",
+      "palavras": [
+        { "hebraico": "וְקִ֥ישׁ", "transliteral": "wə-qîš", "traducao_palavra": "e Quis" },
+        { "hebraico": "אֲבִֽי־שָׁאּ֔וּל", "transliteral": "ʾă-ḇî-šā-ʾûl", "traducao_palavra": "pai de Saul" },
+        { "hebraico": "וְנֵ֥ר", "transliteral": "wə-nêr", "traducao_palavra": "e Ner" },
+        { "hebraico": "אֲבִֽי־אַבְנֵ֖ר", "transliteral": "ʾă-ḇî-ʾaḇ-nêr", "traducao_palavra": "pai de Abner" },
+        { "hebraico": "בֶּן־אֲבִיאֵֽל׃", "transliteral": "ben-ʾă-ḇî-ʾēl", "traducao_palavra": "filho de Abiel" }
+      ]
+    },
+    "52": {
+      "traducao_completa": "E houve forte guerra contra os filisteus todos os dias de Saul; e a todo o homem valente e a todo o homem valoroso, Saul os congregava a si.",
+      "palavras": [
+        { "hebraico": "וַתְּהִ֤י", "transliteral": "wat-tə-hî", "traducao_palavra": "e houve" },
+        { "hebraico": "מִלְחָמָה֙", "transliteral": "mil-ḥā-mā", "traducao_palavra": "guerra" },
+        { "hebraico": "חֲזָקָ֣ה", "transliteral": "ḥă-zā-qā", "traducao_palavra": "forte" },
+        { "hebraico": "עַל־פְּלִשְׁתִּ֔ים", "transliteral": "ʿal-pə-liš-tîm", "traducao_palavra": "contra os filisteus" },
+        { "hebraico": "כֹּ֖ל", "transliteral": "kōl", "traducao_palavra": "todos" },
+        { "hebraico": "יְמֵ֣י", "transliteral": "yə-mê", "traducao_palavra": "os dias de" },
+        { "hebraico": "שָׁאּ֑וּל", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "וְרָאָ֨ה", "transliteral": "wə-rā-ʾā", "traducao_palavra": "e via" },
+        { "hebraico": "שָׁאּ֜וּל", "transliteral": "šā-ʾûl", "traducao_palavra": "Saul" },
+        { "hebraico": "כָּל־אִ֤ישׁ", "transliteral": "kāl-ʾîš", "traducao_palavra": "qualquer homem" },
+        { "hebraico": "גִּבֹּור֙", "transliteral": "gib-bôr", "traducao_palavra": "valente" },
+        { "hebraico": "וְכָל־בֶּן־חַ֔יִל", "transliteral": "wə-ḵāl-ben-ḥa-yil", "traducao_palavra": "e qualquer filho de valor" },
+        { "hebraico": "וַיַּאַסְפֵ֖הוּ", "transliteral": "way-ya-ʾas-p̄ê-hû", "traducao_palavra": "e o congregava" },
+        { "hebraico": "אֵלָֽיו׃", "transliteral": "ʾê-lāw", "traducao_palavra": "a si" }
+      ]
+    }
+  }
+}
