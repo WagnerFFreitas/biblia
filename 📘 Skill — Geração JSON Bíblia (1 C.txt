@@ -1,5 +1,25 @@
-Crie o arquivo 10.json de 1 Samuel em partes ser for necessário, Siga o exemplo abaixo. 
-O conteúdo deve segue rigorosamente o Texto Massorético (BHS), o padrão de transliteração SBL e a estrutura JSON RFC 8259. Não cometer erro de agrupar múltiplas palavras em um único campo comprometendo a utilidade do arquivo para estudos detalhados. Sempre deve informar qual e a próxima parte ou capitulo ao terminar cada arquivo ou parte.
+📘 Skill — Geração JSON Bíblia (2 Crônicas) - v2.1
+🎯 Objetivo
+Gerar os arquivos JSON do livro de 1 Reis, capítulo por capítulo, com foco em equivalência formal absoluta e precisão filológica para estudos acadêmicos.
+📁 Caminho de Saída
+E:\biblia\versao\original\2cronicas
+📌 Regras de Execução e Continuidade
+Unicidade: Gerar apenas UM capítulo por vez.
+Sequência: Ordem rigorosa (1.json → 31.json). Nunca pular capítulos.
+Nomenclatura: <capitulo>.json.
+Divisão de Arquivos: Se o capítulo for muito extenso, dividir em parte1, parte2, etc., mas manter o objetivo final de compor o arquivo único <capitulo>.json.
+📚 Padrões Acadêmicos e Filológicos
+Texto Hebraico: Base na Biblia Hebraica Stuttgartensia (BHS). Seguir o Texto Massorético sem alterações.
+Transliteração: Padrão da Society of Biblical Literature (SBL) (ex: ʾ, ḇ, ḡ, ḏ, ḥ, ṭ).
+Tradução (Equivalência Formal):
+O campo traducao_palavra deve ser o ajuste literal palavra por palavra.
+Respeitar prefixos (ו, ה, ב, ל) traduzindo-os junto à palavra ou separando por barra se necessário.
+Proibido: Adaptações teológicas, paráfrases ou uso de linguajar moderno (NVI/NTLH).
+🧾 Formato e Estrutura do JSON (RFC 8259)
+Campos Proibidos: ❌ strong, ❌ morfologia.
+Estrutura Obrigatória:
+code
+JSON
 
 Modelo a ser seguido de divisão caso seja necessário:
 
@@ -722,3 +742,15 @@ Parte 4 (Versículos 46 ao 56), finalizando o capítulo 33 de Números.
     }
   }
 }
+
+⚠️ Regras Críticas (NÃO VIOLAR)
+Cada palavra = 1 objeto: Não agrupar palavras diferentes em um único objeto de tradução.
+Partículas: Não omitir o significado das partículas hebraicas.
+Pontuação: Manter a pontuação massorética (Silluq, Sof Pasuq) representada visualmente no hebraico se possível.
+Consistência: A transliteração deve bater exatamente com os sinais massoréticos de vocalização (Nequdot).
+✅ Checklist de Qualidade antes do Output
+O JSON é válido segundo o RFC 8259?
+A transliteração segue o padrão SBL estrito?
+Os campos strong e morfologia foram removidos?
+A tradução palavra por palavra reflete o hebraico e não uma tradução pronta?
+A ordem dos versículos está completa e sem omissões?

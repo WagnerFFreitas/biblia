@@ -1,0 +1,919 @@
+{
+  "livro": "1 Reis - מְלָכִים א - Melakhim Alef",
+  "capítulo": 2,
+  "titulos": { },
+  "versiculos": {
+    "1": {
+      "traducao_completa": "E aproximaram-se os dias de Davi, para que morresse; e deu ordem a Salomão, seu filho, dizendo:",
+      "palavras": [
+        { "hebraico": "וַיִּקְרְב֥וּ", "transliteral": "way-yiq-rə-ḇû", "traducao_palavra": "e aproximaram-se" },
+        { "hebraico": "יְמֵי־דָוִ֖ד", "transliteral": "yə-mê-ḏā-wiḏ", "traducao_palavra": "os dias de Davi" },
+        { "hebraico": "לָמ֑וּת", "transliteral": "lā-mûṯ", "traducao_palavra": "para morrer" },
+        { "hebraico": "וַיְצַ֛ו", "transliteral": "way-ṣaw", "traducao_palavra": "e ordenou" },
+        { "hebraico": "אֶת־שְׁלֹמֹ֥ה", "transliteral": "ʾeṯ-šə-lō-mō", "traducao_palavra": "a Salomão" },
+        { "hebraico": "בְנֹ֖ו", "transliteral": "ḇə-nô", "traducao_palavra": "filho dele" },
+        { "hebraico": "לֵאמֹֽר׃", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Eu vou pelo caminho de toda a terra; esforça-te, pois, e sê homem.",
+      "palavras": [
+        { "hebraico": "אָנֹכִ֣י", "transliteral": "ʾā-nō-ḵî", "traducao_palavra": "eu" },
+        { "hebraico": "הֹלֵ֔ךְ", "transliteral": "hō-lêḵ", "traducao_palavra": "vou/caminho" },
+        { "hebraico": "בְּדֶ֖רֶךְ", "transliteral": "bə-ḏe-reḵ", "traducao_palavra": "pelo caminho de" },
+        { "hebraico": "כָּל־הָאָ֑רֶץ", "transliteral": "kāl-hā-ʾā-reṣ", "traducao_palavra": "toda a terra" },
+        { "hebraico": "וְחָזַקְתָּ֖", "transliteral": "wə-ḥā-zaq-tā", "traducao_palavra": "e esforça-te" },
+        { "hebraico": "וְהָיִ֥יתָ", "transliteral": "wə-hā-yî-ṯā", "traducao_palavra": "e sê" },
+        { "hebraico": "לְאִֽישׁ׃", "transliteral": "lə-ʾîš", "traducao_palavra": "por homem" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "E guarda a ordenança de YHWH teu Deus, para andares nos seus caminhos, e para guardares os seus estatutos, e os seus mandamentos, e os seus juízos, e os seus testemunhos, como está escrito na lei de Moisés; para que prosperes em tudo quanto fizeres, e para onde quer que te voltares.",
+      "palavras": [
+        { "hebraico": "וְשָׁמַרְתָּ֞", "transliteral": "wə-šā-mar-tā", "traducao_palavra": "e guarda" },
+        { "hebraico": "אֶת־מִשְׁמֶ֣רֶת׀", "transliteral": "ʾeṯ-miš-me-reṯ", "traducao_palavra": "a ordenança de" },
+        { "hebraico": "יְהוָ֣ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֱלֹהֶ֗יךָ", "transliteral": "ʾĕ-lō-he-ḵā", "traducao_palavra": "teu Deus" },
+        { "hebraico": "לָלֶ֤כֶת", "transliteral": "lā-le-ḵeṯ", "traducao_palavra": "para andar" },
+        { "hebraico": "בִּדְרָכָיו֙", "transliteral": "biḏ-rā-ḵāyw", "traducao_palavra": "nos caminhos dele" },
+        { "hebraico": "לִ֠שְׁמֹר", "transliteral": "liš-mōr", "traducao_palavra": "para guardar" },
+        { "hebraico": "חֻקֹּתָ֧יו", "transliteral": "ḥuq-qō-ṯāyw", "traducao_palavra": "os estatutos dele" },
+        { "hebraico": "מִצְוֹתָ֛יו", "transliteral": "miṣ-wō-ṯāyw", "traducao_palavra": "os mandamentos dele" },
+        { "hebraico": "וּמִשְׁפָּטָ֥יו", "transliteral": "ū-miš-pā-ṭāyw", "traducao_palavra": "e os juízos dele" },
+        { "hebraico": "וְעֵדְוֹתָ֖יו", "transliteral": "wə-ʿê-ḏə-wō-ṯāyw", "traducao_palavra": "e os testemunhos dele" },
+        { "hebraico": "כַּכָּת֥וּב", "transliteral": "kak-kā-ṯûḇ", "traducao_palavra": "conforme o escrito" },
+        { "hebraico": "בְּתֹורַ֣ת", "transliteral": "bə-ṯô-raṯ", "traducao_palavra": "na lei de" },
+        { "hebraico": "מֹשֶׁ֑ה", "transliteral": "mō-šeh", "traducao_palavra": "Moisés" },
+        { "hebraico": "לְמַ֣עַן", "transliteral": "lə-ma-ʿan", "traducao_palavra": "para que" },
+        { "hebraico": "תַּשְׂכִּ֗יל", "transliteral": "taś-kîl", "traducao_palavra": "prosperas/ajes prudentemente" },
+        { "hebraico": "אֵ֚ת", "transliteral": "ʾêṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "כָּל־אֲשֶׁ֣ר", "transliteral": "kāl-ʾă-šer", "traducao_palavra": "tudo o que" },
+        { "hebraico": "תַּעֲשֶׂ֔ה", "transliteral": "ta-ʿă-śeh", "traducao_palavra": "fizeres" },
+        { "hebraico": "וְאֵ֛ת", "transliteral": "wə-ʾêṯ", "traducao_palavra": "e" },
+        { "hebraico": "כָּל־אֲשֶׁ֥ר", "transliteral": "kāl-ʾă-šer", "traducao_palavra": "tudo o que" },
+        { "hebraico": "תִּפְנֶ֥ה", "transliteral": "tip̄-neh", "traducao_palavra": "te voltares" },
+        { "hebraico": "שָּֽׁם׃", "transliteral": "šām", "traducao_palavra": "ali" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Para que YHWH confirme a sua palavra, que falou de mim, dizendo: Se teus filhos guardarem o seu caminho, para andarem perante a minha face fielmente, com todo o seu coração e com toda a sua alma, nunca, disse ele, te faltará sucessor no trono de Israel.",
+      "palavras": [
+        { "hebraico": "לְמַ֣עַן", "transliteral": "lə-ma-ʿan", "traducao_palavra": "para que" },
+        { "hebraico": "יָקִ֨ים", "transliteral": "yā-qîm", "traducao_palavra": "estabeleça/confirme" },
+        { "hebraico": "יְהוָ֜ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶת־דְּבָרֹ֗ו", "transliteral": "ʾeṯ-də-ḇā-rô", "traducao_palavra": "a palavra dele" },
+        { "hebraico": "אֲשֶׁ֨ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "דִּבֶּ֣ר", "transliteral": "dib-ber", "traducao_palavra": "falou" },
+        { "hebraico": "עָלַי֮", "transliteral": "ʿā-lay", "traducao_palavra": "sobre mim" },
+        { "hebraico": "לֵאמֹר֒", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "אִם־יִשְׁמְר֨וּ", "transliteral": "ʾim-yiš-mə-rû", "traducao_palavra": "se guardarem" },
+        { "hebraico": "בָנֶ֜יךָ", "transliteral": "ḇā-ne-ḵā", "traducao_palavra": "teus filhos" },
+        { "hebraico": "אֶת־דַּרְכָּ֗ם", "transliteral": "ʾeṯ-dar-kām", "traducao_palavra": "o caminho deles" },
+        { "hebraico": "לָלֶ֤כֶת", "transliteral": "lā-le-ḵeṯ", "traducao_palavra": "para andar" },
+        { "hebraico": "לְפָנַי֙", "transliteral": "lə-p̄ā-nay", "traducao_palavra": "perante minha face" },
+        { "hebraico": "בֶּאֱמֶ֔ת", "transliteral": "be-ʾĕ-meṯ", "traducao_palavra": "em verdade" },
+        { "hebraico": "בְּכָל־לְבָבָ֖ם", "transliteral": "bə-ḵāl-lə-ḇā-ḇām", "traducao_palavra": "com todo o seu coração" },
+        { "hebraico": "וּבְכָל־נַפְשָׁ֑ם", "transliteral": "ū-ḇə-ḵāl-nap̄-šām", "traducao_palavra": "e com toda a sua alma" },
+        { "hebraico": "לֵאמֹ֕ר", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "לֹא־יִכָּרֵ֤ת", "transliteral": "lō-yik-kā-rêṯ", "traducao_palavra": "não será cortado" },
+        { "hebraico": "לְךָ֙", "transliteral": "lə-ḵā", "traducao_palavra": "para ti" },
+        { "hebraico": "אִ֔ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homem/sucessor" },
+        { "hebraico": "מֵעַ֖ל", "transliteral": "mê-ʿal", "traducao_palavra": "de sobre" },
+        { "hebraico": "כִּסֵּ֥א", "transliteral": "kis-sê", "traducao_palavra": "[o] trono de" },
+        { "hebraico": "יִשְׂרָאֵֽל׃", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "E também tu sabes o que me fez Joabe, filho de Zeruia, e o que fez aos dois capitães dos exércitos de Israel, a Abner, filho de Ner, e a Amasa, filho de Jeter, os quais ele matou, e em tempo de paz derramou o sangue de guerra, e pôs o sangue de guerra no seu cinto que tinha nos lombos e nos seus sapatos que tinha nos pés.",
+      "palavras": [
+        { "hebraico": "וְגַ֣ם", "transliteral": "wə-ḡam", "traducao_palavra": "e também" },
+        { "hebraico": "אַתָּ֣ה", "transliteral": "ʾat-tā", "traducao_palavra": "tu" },
+        { "hebraico": "יָדַ֡עְתָּ", "transliteral": "yā-ḏa-ʿtā", "traducao_palavra": "sabes" },
+        { "hebraico": "אֵת֩", "transliteral": "ʾêṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "אֲשֶׁר־עָ֨שָׂה", "transliteral": "ʾă-šer-ʿā-śā", "traducao_palavra": "o que fez" },
+        { "hebraico": "לִּ֜י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "יֹואָ֣ב", "transliteral": "yô-ʾāḇ", "traducao_palavra": "Joabe" },
+        { "hebraico": "בֶּן־צְרוּיָ֗ה", "transliteral": "ben-ṣə-rû-yā", "traducao_palavra": "filho de Zeruia" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "עָשָׂ֣ה", "transliteral": "ʿā-śā", "traducao_palavra": "fez" },
+        { "hebraico": "לִשְׁנֵֽי־שָׂרֵ֨י", "transliteral": "liš-nê-śā-rê", "traducao_palavra": "aos dois capitães de" },
+        { "hebraico": "צִבְאֹ֥ות", "transliteral": "ṣiḇ-ʾôṯ", "traducao_palavra": "exércitos de" },
+        { "hebraico": "יִשְׂרָאֵ֜ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "לְאַבְנֵ֥ר", "transliteral": "lə-ʾaḇ-nêr", "traducao_palavra": "a Abner" },
+        { "hebraico": "בֶּן־נֵר֙", "transliteral": "ben-nêr", "traducao_palavra": "filho de Ner" },
+        { "hebraico": "וּלַעֲמָשָׂ֣א", "transliteral": "ū-la-ʿă-mā-śā", "traducao_palavra": "e a Amasa" },
+        { "hebraico": "בֶן־יֶ֔תֶר", "transliteral": "ben-ye-ṯer", "traducao_palavra": "filho de Jeter" },
+        { "hebraico": "וַיַּ֨הַרְגֵ֔ם", "transliteral": "way-ya-har-ḡêm", "traducao_palavra": "e matou eles" },
+        { "hebraico": "וַיָּ֥שֶׂם", "transliteral": "way-yā-śem", "traducao_palavra": "e pôs" },
+        { "hebraico": "דְּמֵי־מִלְחָמָ֖ה", "transliteral": "də-mê-mil-ḥā-mā", "traducao_palavra": "sangue de guerra" },
+        { "hebraico": "בְּשָׁלֹ֑ם", "transliteral": "bə-šā-lōm", "traducao_palavra": "em paz" },
+        { "hebraico": "וַיִּתֵּ֣ן", "transliteral": "way-yit-tên", "traducao_palavra": "e pôs" },
+        { "hebraico": "דְּמֵ֣י", "transliteral": "də-mê", "traducao_palavra": "sangue de" },
+        { "hebraico": "מִלְחָמָ֗ה", "transliteral": "mil-ḥā-mā", "traducao_palavra": "guerra" },
+        { "hebraico": "בַּחֲגֹֽרָתֹו֙", "transliteral": "ba-ḥă-ḡō-rā-ṯô", "traducao_palavra": "no cinto dele" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "בְּמָתְנָ֔יו", "transliteral": "bə-mā-ṯə-nāyw", "traducao_palavra": "nos lombos dele" },
+        { "hebraico": "וּבְנַעֲלֹ֖ו", "transliteral": "ū-ḇə-na-ʿă-lô", "traducao_palavra": "e no sapato dele" },
+        { "hebraico": "אֲשֶׁ֥ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "בְּרַגְלָֽיו׃", "transliteral": "bə-raḡ-lāyw", "traducao_palavra": "nos pés dele" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Faze, pois, conforme a tua sabedoria, e não deixes descer as suas cãs em paz à sepultura.",
+      "palavras": [
+        { "hebraico": "וְעָשִׂ֖יתָ", "transliteral": "wə-ʿā-śî-ṯā", "traducao_palavra": "e farás" },
+        { "hebraico": "כְּחָכְמָתֶ֑ךָ", "transliteral": "kə-ḥā-ḵə-mā-ṯe-ḵā", "traducao_palavra": "conforme a tua sabedoria" },
+        { "hebraico": "וְלֹֽא־תֹורֵ֧ד", "transliteral": "wə-lō-ṯô-rēḏ", "traducao_palavra": "e não farás descer" },
+        { "hebraico": "שֵׂיבָתֹ֛ו", "transliteral": "śê-ḇā-ṯô", "traducao_palavra": "as cãs dele" },
+        { "hebraico": "בְּשָׁלֹ֖ם", "transliteral": "bə-šā-lōm", "traducao_palavra": "em paz" },
+        { "hebraico": "שְׁאֹֽל׃", "transliteral": "šə-ʾōl", "traducao_palavra": "[à] sepultura/sheol" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Porém com os filhos de Barzilai, o gileadita, usarás de misericórdia, e estarão entre os que comem à tua mesa; porque assim se chegaram eles a mim, quando fugia diante de teu irmão Absalão.",
+      "palavras": [
+        { "hebraico": "וְלִבְנֵ֨י", "transliteral": "wə-liḇ-nê", "traducao_palavra": "e aos filhos de" },
+        { "hebraico": "בַרְזִלַּ֤י", "transliteral": "ḇar-zil-lay", "traducao_palavra": "Barzilai" },
+        { "hebraico": "הַגִּלְעָדִי֙", "transliteral": "hag-gil-ʿā-ḏî", "traducao_palavra": "o gileadita" },
+        { "hebraico": "תַּֽעֲשֶׂה־חֶ֔סֶד", "transliteral": "ta-ʿă-śeh-ḥe-seḏ", "traducao_palavra": "farás misericórdia" },
+        { "hebraico": "וְהָי֖וּ", "transliteral": "wə-hā-yû", "traducao_palavra": "e estarão eles" },
+        { "hebraico": "בְּאֹכְלֵ֣י", "transliteral": "bə-ʾō-ḵə-lê", "traducao_palavra": "entre os que comem" },
+        { "hebraico": "שֻׁלְחָנֶ֑ךָ", "transliteral": "šul-ḥā-ne-ḵā", "traducao_palavra": "[à] tua mesa" },
+        { "hebraico": "כִּי־כֵן֙", "transliteral": "kî-ḵên", "traducao_palavra": "porque assim" },
+        { "hebraico": "קָרְב֣וּ", "transliteral": "qā-rə-ḇû", "traducao_palavra": "aproximaram-se" },
+        { "hebraico": "אֵלַ֔י", "transliteral": "ʾê-lay", "traducao_palavra": "a mim" },
+        { "hebraico": "בְּבָרְחִ֕י", "transliteral": "bə-ḇā-rə-ḥî", "traducao_palavra": "no meu fugir" },
+        { "hebraico": "מִפְּנֵ֖י", "transliteral": "mip-pə-nê", "traducao_palavra": "de diante de" },
+        { "hebraico": "אַבְשָׁלֹ֥ום", "transliteral": "ʾaḇ-šā-lôm", "traducao_palavra": "Absalão" },
+        { "hebraico": "אָחִֽיךָ׃", "transliteral": "ʾā-ḥî-ḵā", "traducao_palavra": "teu irmão" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "E eis que também tens contigo a Simei, filho de Gera, benjamita, de Baurim, que me amaldiçoou com maldição cruel, no dia em que eu ia a Maanaim; porém ele desceu a encontrar-se comigo ao Jordão, e eu lhe jurei por YHWH, dizendo: Não te matarei à espada.",
+      "palavras": [
+        { "hebraico": "וְהִנֵּה־עִ֠מְּךָ", "transliteral": "wə-hin-nēh-ʿim-mə-ḵā", "traducao_palavra": "e eis contigo" },
+        { "hebraico": "שִֽׁמְעִ֨י", "transliteral": "šim-ʿî", "traducao_palavra": "Simei" },
+        { "hebraico": "בֶן־גֵּרָ֥א", "transliteral": "ben-gê-rā", "traducao_palavra": "filho de Gera" },
+        { "hebraico": "בֶן־הַיְמִינִי֮", "transliteral": "ben-hay-mî-nî", "traducao_palavra": "benjamita" },
+        { "hebraico": "מִבַּחֻרִים֒", "transliteral": "mib-ba-ḥu-rîm", "traducao_palavra": "de Baurim" },
+        { "hebraico": "וְה֤וּא", "transliteral": "wə-hû", "traducao_palavra": "e ele" },
+        { "hebraico": "קִֽלְלַ֙נִי֙", "transliteral": "qil-la-nî", "traducao_palavra": "amaldiçoou a mim" },
+        { "hebraico": "קְלָלָ֣ה", "transliteral": "qə-lā-lā", "traducao_palavra": "[com] maldição" },
+        { "hebraico": "נִמְרֶ֔צֶת", "transliteral": "nim-re-ṣeṯ", "traducao_palavra": "cruel/forte" },
+        { "hebraico": "בְּיֹום", "transliteral": "bə-yôm", "traducao_palavra": "no dia" },
+        { "hebraico": "לֶכְתִּ֖י", "transliteral": "leḵ-tî", "traducao_palavra": "de meu ir" },
+        { "hebraico": "מַחֲנָ֑יִם", "transliteral": "ma-ḥă-nā-yim", "traducao_palavra": "[a] Maanaim" },
+        { "hebraico": "וְהֽוּא־יָרַ֤ד", "transliteral": "wə-hû-yā-raḏ", "traducao_palavra": "e ele desceu" },
+        { "hebraico": "לִקְרָאתִי֙", "transliteral": "liq-rā-ṯî", "traducao_palavra": "ao encontro de mim" },
+        { "hebraico": "הַיַּרְדֵּ֔ן", "transliteral": "hay-yar-dên", "traducao_palavra": "[ao] Jordão" },
+        { "hebraico": "וָאֶשָּׁ֨בַע", "transliteral": "wā-ʾeš-šā-ḇaʿ", "traducao_palavra": "e eu jurei" },
+        { "hebraico": "לֹ֥ו", "transliteral": "lô", "traducao_palavra": "a ele" },
+        { "hebraico": "בַֽיהוָה֙", "transliteral": "bay-hwāh", "traducao_palavra": "por YHWH" },
+        { "hebraico": "לֵאמֹ֔ר", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "אִם־אֲמִיתְךָ֖", "transliteral": "ʾim-ʾă-mî-ṯə-ḵā", "traducao_palavra": "que não matarei a ti" },
+        { "hebraico": "בֶּחָֽרֶב׃", "transliteral": "be-ḥā-reḇ", "traducao_palavra": "com a espada" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Mas agora não o tenhas por inocente, pois és homem sábio, e bem saberás o que lhe hás de fazer para que faças descer as suas cãs com sangue à sepultura.",
+      "palavras": [
+        { "hebraico": "וְעַתָּה֙", "transliteral": "wə-ʿat-tā", "traducao_palavra": "e agora" },
+        { "hebraico": "אַל־תְּנַקֵּהוּ", "transliteral": "ʾal-tə-naq-qê-hû", "traducao_palavra": "não o consideres limpo/inocente" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "pois" },
+        { "hebraico": "אִ֤ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homem" },
+        { "hebraico": "חָכָם֙", "transliteral": "ḥā-ḵām", "traducao_palavra": "sábio" },
+        { "hebraico": "אָ֔תָּה", "transliteral": "ʾāt-tā", "traducao_palavra": "[és] tu" },
+        { "hebraico": "וְיָדַ֕עְתָּ", "transliteral": "wə-yā-ḏa-ʿtā", "traducao_palavra": "e saberás" },
+        { "hebraico": "אֵ֥ת", "transliteral": "ʾêṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "אֲשֶׁ֥ר", "transliteral": "ʾă-šer", "traducao_palavra": "o que" },
+        { "hebraico": "תַּעֲשֶׂה־לֹּ֑ו", "transliteral": "ta-ʿă-śeh-lô", "traducao_palavra": "farás a ele" },
+        { "hebraico": "וְהֹורַדְתָּ֧", "transliteral": "wə-hô-raḏ-tā", "traducao_palavra": "e farás descer" },
+        { "hebraico": "אֶת־שֵׂיבָתֹ֛ו", "transliteral": "ʾeṯ-śê-ḇā-ṯô", "traducao_palavra": "as cãs dele" },
+        { "hebraico": "בְּדָ֖ם", "transliteral": "bə-ḏām", "traducao_palavra": "com sangue" },
+        { "hebraico": "שְׁאֹֽול׃", "transliteral": "šə-ʾōl", "traducao_palavra": "[à] sepultura" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E Davi dormiu com seus pais, e foi sepultado na cidade de Davi.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁכַּ֥ב", "transliteral": "way-yiš-kaḇ", "traducao_palavra": "e deitou-se/dormiu" },
+        { "hebraico": "דָּוִ֖ד", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "עִם־אֲבֹתָ֑יו", "transliteral": "ʿim-ʾă-ḇō-ṯāyw", "traducao_palavra": "com os pais dele" },
+        { "hebraico": "וַיִּקָּבֵ֖ר", "transliteral": "way-yiq-qā-ḇêr", "traducao_palavra": "e foi sepultado" },
+        { "hebraico": "בְּעִ֥יר", "transliteral": "bə-ʿîr", "traducao_palavra": "na cidade de" },
+        { "hebraico": "דָּוִֽד׃", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "E foram os dias que Davi reinou sobre Israel quarenta anos: sete anos reinou em Hebrom, e trinta e três anos reinou em Jerusalém.",
+      "palavras": [
+        { "hebraico": "וְהַיָּמִ֗ים", "transliteral": "wə-hay-yā-mîm", "traducao_palavra": "e os dias" },
+        { "hebraico": "אֲשֶׁ֨ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "מָלַ֤ךְ", "transliteral": "mā-laḵ", "traducao_palavra": "reinou" },
+        { "hebraico": "דָּוִד֙", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "עַל־יִשְׂרָאֵ֔ל", "transliteral": "ʿal-yiś-rā-ʾēl", "traducao_palavra": "sobre Israel" },
+        { "hebraico": "אַרְבָּעִ֖ים", "transliteral": "ʾar-bā-ʿîm", "traducao_palavra": "quarenta" },
+        { "hebraico": "שָׁנָ֑ה", "transliteral": "šā-nā", "traducao_palavra": "anos" },
+        { "hebraico": "בְּחֶבְרֹ֤ון", "transliteral": "bə-ḥeḇ-rôn", "traducao_palavra": "em Hebrom" },
+        { "hebraico": "מָלַךְ֙", "transliteral": "mā-laḵ", "traducao_palavra": "reinou ele" },
+        { "hebraico": "שֶׁ֣בַע", "transliteral": "še-ḇaʿ", "traducao_palavra": "sete" },
+        { "hebraico": "שָׁנִ֔ים", "transliteral": "šā-nîm", "traducao_palavra": "anos" },
+        { "hebraico": "וּבִירוּשָׁלִַ֣ם", "transliteral": "ū-ḇî-rû-šā-la-yim", "traducao_palavra": "e em Jerusalém" },
+        { "hebraico": "מָלַ֔ךְ", "transliteral": "mā-laḵ", "traducao_palavra": "reinou" },
+        { "hebraico": "שְׁלֹשִׁ֥ים", "transliteral": "šə-lō-šîm", "traducao_palavra": "trinta" },
+        { "hebraico": "וְשָׁלֹ֖שׁ", "transliteral": "wə-šā-lōš", "traducao_palavra": "e três" },
+        { "hebraico": "שָׁנִֽים׃", "transliteral": "šā-nîm", "traducao_palavra": "anos" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "E Salomão assentou-se no trono de Davi, seu pai, e o seu reino se fortificou sobremaneira.",
+      "palavras": [
+        { "hebraico": "וּשְׁלֹמֹ֕ה", "transliteral": "ū-šə-lō-mō", "traducao_palavra": "e Salomão" },
+        { "hebraico": "יָשַׁ֕ב", "transliteral": "yā-šaḇ", "traducao_palavra": "assentou-se" },
+        { "hebraico": "עַל־כִּסֵּ֖א", "transliteral": "ʿal-kis-sê", "traducao_palavra": "sobre o trono de" },
+        { "hebraico": "דָּוִ֣ד", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "אָבִ֑יו", "transliteral": "ʾā-ḇîw", "traducao_palavra": "pai dele" },
+        { "hebraico": "וַתִּכֹּ֥ן", "transliteral": "wat-tik-kōn", "traducao_palavra": "e foi estabelecido" },
+        { "hebraico": "מַלְכֻתֹ֖ו", "transliteral": "mal-ḵu-ṯô", "traducao_palavra": "o reino dele" },
+        { "hebraico": "מְאֹֽד׃", "transliteral": "mə-ʾōḏ", "traducao_palavra": "muito/sobremaneira" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Então veio Adonias, filho de Hagite, a Bate-Seba, mãe de Salomão; e disse ela: É de paz a tua vinda? E ele disse: É de paz.",
+      "palavras": [
+        { "hebraico": "וַיָּבֹ֞א", "transliteral": "way-yā-ḇō", "traducao_palavra": "e veio" },
+        { "hebraico": "אֲדֹנִיָּ֣הוּ", "transliteral": "ă-ḏō-niy-yā-hû", "traducao_palavra": "Adonias" },
+        { "hebraico": "בֶן־חַגִּית֮", "transliteral": "ben-ḥag-gîṯ", "traducao_palavra": "filho de Hagite" },
+        { "hebraico": "אֶל־בַּת־שֶׁ֣בַע", "transliteral": "ʾel-baṯ-še-ḇaʿ", "traducao_palavra": "a Bate-Seba" },
+        { "hebraico": "אֵם־שְׁלֹמֹה֒", "transliteral": "ʾêm-šə-lō-mō", "traducao_palavra": "mãe de Salomão" },
+        { "hebraico": "וַתֹּ֥אמֶר", "transliteral": "wat-tō-mer", "traducao_palavra": "e disse ela" },
+        { "hebraico": "הֲשָׁלֹ֥ום", "transliteral": "hă-šā-lôm", "traducao_palavra": "acaso paz [é]" },
+        { "hebraico": "בֹּואֶ֑ךָ", "transliteral": "bô-ʾe-ḵā", "traducao_palavra": "tua vinda" },
+        { "hebraico": "וַיֹּ֖אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse ele" },
+        { "hebraico": "שָׁלֹֽום׃", "transliteral": "šā-lôm", "traducao_palavra": "paz" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Disse ele mais: Tenho uma palavra para te dizer. E ela disse: Fala.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֕אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "דָּבָ֥ר", "transliteral": "ḏā-ḇār", "traducao_palavra": "uma palavra" },
+        { "hebraico": "לִ֖י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "אֵלָ֑יִךְ", "transliteral": "ʾē-la-yiḵ", "traducao_palavra": "para ti" },
+        { "hebraico": "וַתֹּ֖אמֶר", "transliteral": "wat-tō-mer", "traducao_palavra": "e disse ela" },
+        { "hebraico": "דַּבֵּֽר׃", "transliteral": "dab-bêr", "traducao_palavra": "fala" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "Disse, pois, ele: Tu sabes que o reino era meu, e que todo o Israel tinha posto a vista em mim para que eu reinasse; porém o reino se transferiu e veio a ser de meu irmão, porque de YHWH ele era.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֗אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "אַתָּ֤ה", "transliteral": "ʾat-tā", "traducao_palavra": "tu" },
+        { "hebraico": "יָדַ֙עְתָּ֙", "transliteral": "yā-ḏa-ʿtā", "traducao_palavra": "sabes" },
+        { "hebraico": "כִּי־לִ֚י", "transliteral": "kî-lî", "traducao_palavra": "que para mim" },
+        { "hebraico": "הָיְתָ֣ה", "transliteral": "hā-yə-ṯā", "traducao_palavra": "era" },
+        { "hebraico": "הַמְּלוּכָה", "transliteral": "ham-mə-lû-ḵā", "traducao_palavra": "o reino" },
+        { "hebraico": "וְעָלַ֞י", "transliteral": "wə-ʿā-lay", "traducao_palavra": "e sobre mim" },
+        { "hebraico": "שָׂ֧מוּ", "transliteral": "śā-mû", "traducao_palavra": "puseram" },
+        { "hebraico": "כָל־יִשְׂרָאֵ֛ל", "transliteral": "ḵāl-yiś-rā-ʾēl", "traducao_palavra": "todo Israel" },
+        { "hebraico": "פְּנֵיהֶ֖ם", "transliteral": "pə-nê-hem", "traducao_palavra": "as faces deles" },
+        { "hebraico": "לִמְלֹ֑ךְ", "transliteral": "lim-lōḵ", "traducao_palavra": "para reinar" },
+        { "hebraico": "וַתִּסֹּ֤ב", "transliteral": "wat-tis-sōḇ", "traducao_palavra": "mas virou-se/transferiu-se" },
+        { "hebraico": "הַמְּלוּכָה֙", "transliteral": "ham-mə-lû-ḵā", "traducao_palavra": "o reino" },
+        { "hebraico": "וַתְּהִ֣י", "transliteral": "wat-tə-hî", "traducao_palavra": "e foi" },
+        { "hebraico": "לְאָחִ֔י", "transliteral": "lə-ʾā-ḥî", "traducao_palavra": "para meu irmão" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "מֵיְהוָ֖ה", "transliteral": "mê-YHWH", "traducao_palavra": "de YHWH" },
+        { "hebraico": "הָ֥יְתָה", "transliteral": "hā-yə-ṯā", "traducao_palavra": "foi" },
+        { "hebraico": "לֹּֽו׃", "transliteral": "lô", "traducao_palavra": "para ele" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Agora, pois, uma só petição te peço; não ma rejeites. E ela lhe disse: Fala.",
+      "palavras": [
+        { "hebraico": "וְעַתָּ֕ה", "transliteral": "wə-ʿat-tā", "traducao_palavra": "e agora" },
+        { "hebraico": "שְׁאֵלָ֨ה", "transliteral": "šə-ʾê-lā", "traducao_palavra": "petição" },
+        { "hebraico": "אַחַ֤ת", "transliteral": "ʾa-ḥaṯ", "traducao_palavra": "uma" },
+        { "hebraico": "אָנֹכִי֙", "transliteral": "ʾā-nō-ḵî", "traducao_palavra": "eu" },
+        { "hebraico": "שֹׁאֵ֣ל", "transliteral": "šō-ʾēl", "traducao_palavra": "estou pedindo" },
+        { "hebraico": "מֵֽאִתָּ֔ךְ", "transliteral": "mê-ʾit-tāḵ", "traducao_palavra": "de ti" },
+        { "hebraico": "אַל־תָּשִׁ֖יבִי", "transliteral": "ʾal-tā-šî-ḇî", "traducao_palavra": "não faças voltar/rejeites" },
+        { "hebraico": "אֶת־פָּנָ֑י", "transliteral": "ʾeṯ-pā-nāy", "traducao_palavra": "minha face" },
+        { "hebraico": "וַתֹּ֥אמֶר", "transliteral": "wat-tō-mer", "traducao_palavra": "e disse ela" },
+        { "hebraico": "אֵלָ֖יו", "transliteral": "ʾē-lāyw", "traducao_palavra": "a ele" },
+        { "hebraico": "דַּבֵּֽר׃", "transliteral": "dab-bêr", "traducao_palavra": "fala" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "E ele disse: Peço-te que fales ao rei Salomão (porque ele não te rejeitará), que me dê por mulher a Abisague, a sunamita.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֗אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "אִמְרִי־נָא֙", "transliteral": "ʾim-rî-nā", "traducao_palavra": "fale agora/peço-te" },
+        { "hebraico": "לִשְׁלֹמֹ֣ה", "transliteral": "liš-lō-mō", "traducao_palavra": "a Salomão" },
+        { "hebraico": "הַמֶּ֔לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "לֹא־יָשִׁ֖יב", "transliteral": "lō-yā-šîḇ", "traducao_palavra": "não fará voltar/rejeitará" },
+        { "hebraico": "אֶת־פָּנָ֑יִךְ", "transliteral": "ʾeṯ-pā-nā-yiḵ", "traducao_palavra": "tua face" },
+        { "hebraico": "וְיִתֶּן־לִ֛י", "transliteral": "wə-yit-ten-lî", "traducao_palavra": "e dê a mim" },
+        { "hebraico": "אֶת־אֲבִישַׁ֥ג", "transliteral": "ʾeṯ-ʾă-ḇî-šaḡ", "traducao_palavra": "a Abisague" },
+        { "hebraico": "הַשּׁוּנַמִּ֖ית", "transliteral": "haš-šû-nam-mîṯ", "traducao_palavra": "a sunamita" },
+        { "hebraico": "לְאִשָּֽׁה׃", "transliteral": "lə-ʾiš-šā", "traducao_palavra": "por mulher" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "E disse Bate-Seba: Bem, eu falarei por ti ao rei.",
+      "palavras": [
+        { "hebraico": "וַתֹּ֥אמֶר", "transliteral": "wat-tō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "בַּת־שֶׁ֖בַע", "transliteral": "baṯ-še-ḇaʿ", "traducao_palavra": "Bate-Seba" },
+        { "hebraico": "טֹ֑וב", "transliteral": "ṭôḇ", "traducao_palavra": "bem" },
+        { "hebraico": "אָנֹכִ֕י", "transliteral": "ʾā-nō-ḵî", "traducao_palavra": "eu" },
+        { "hebraico": "אֲדַבֵּ֥ר", "transliteral": "ʾă-ḏab-bêr", "traducao_palavra": "falarei" },
+        { "hebraico": "עָלֶ֖יךָ", "transliteral": "ʿā-le-ḵā", "traducao_palavra": "por ti" },
+        { "hebraico": "אֶל־הַמֶּֽלֶךְ׃", "transliteral": "ʾel-ham-me-leḵ", "traducao_palavra": "ao rei" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "Assim veio Bate-Seba ao rei Salomão, para falar-lhe por Adonias; e o rei se levantou a encontrar-se com ela, e se inclinou diante dela; então se assentou no seu trono, e fez pôr uma cadeira para a mãe do rei, a qual se assentou à sua mão direita.",
+      "palavras": [
+        { "hebraico": "וַתָּבֹ֤א", "transliteral": "wat-tā-ḇō", "traducao_palavra": "e veio" },
+        { "hebraico": "בַת־שֶׁ֙בַע֙", "transliteral": "baṯ-še-ḇaʿ", "traducao_palavra": "Bate-Seba" },
+        { "hebraico": "אֶל־הַמֶּ֣לֶךְ", "transliteral": "ʾel-ham-me-leḵ", "traducao_palavra": "ao rei" },
+        { "hebraico": "שְׁלֹמֹ֔ה", "transliteral": "šə-lō-mō", "traducao_palavra": "Salomão" },
+        { "hebraico": "לְדַבֶּר־לֹ֖ו", "transliteral": "lə-ḏab-ber-lô", "traducao_palavra": "para falar a ele" },
+        { "hebraico": "עַל־אֲדֹנִיָּ֑הוּ", "transliteral": "ʿal-ʾă-ḏō-niy-yā-hû", "traducao_palavra": "sobre Adonias" },
+        { "hebraico": "וַיָּ֨קָם", "transliteral": "way-yā-qām", "traducao_palavra": "e levantou-se" },
+        { "hebraico": "הַמֶּ֜לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "לִקְרָאתָ֗הּ", "transliteral": "liq-rā-ṯāh", "traducao_palavra": "ao encontro dela" },
+        { "hebraico": "וַיִּשְׁתַּ֙חוּ֙", "transliteral": "way-yiš-ta-ḥû", "traducao_palavra": "e prostrou-se" },
+        { "hebraico": "לָ֔הּ", "transliteral": "lāh", "traducao_palavra": "perante ela" },
+        { "hebraico": "וַיֵּ֙שֶׁב֙", "transliteral": "way-yê-šeḇ", "traducao_palavra": "e sentou-se" },
+        { "hebraico": "עַל־כִּסְאֹ֔ו", "transliteral": "ʿal-kis-ʾô", "traducao_palavra": "sobre o trono dele" },
+        { "hebraico": "וַיָּ֤שֶׂם", "transliteral": "way-yā-śem", "traducao_palavra": "e fez pôr/colocar" },
+        { "hebraico": "כִּסֵּא֙", "transliteral": "kis-sê", "traducao_palavra": "uma cadeira/trono" },
+        { "hebraico": "לְאֵ֣ם", "transliteral": "lə-ʾêm", "traducao_palavra": "para a mãe de" },
+        { "hebraico": "הַמֶּ֔לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "וַתֵּ֖שֶׁב", "transliteral": "wat-tê-šeḇ", "traducao_palavra": "e sentou-se ela" },
+        { "hebraico": "לִימִינֹֽו׃", "transliteral": "lî-mî-nô", "traducao_palavra": "à direita dele" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "E disse ela: Uma pequena petição te faço; não ma rejeites. E disse-lhe o rei: Pede, minha mãe, porque não te rejeitarei.",
+      "palavras": [
+        { "hebraico": "וַתֹּ֗אמֶר", "transliteral": "wat-tō-mer", "traducao_palavra": "e disse ela" },
+        { "hebraico": "שְׁאֵלָ֨ה", "transliteral": "šə-ʾê-lā", "traducao_palavra": "petição" },
+        { "hebraico": "אַחַ֤ת", "transliteral": "ʾa-ḥaṯ", "traducao_palavra": "uma" },
+        { "hebraico": "קְטַנָּה֙", "transliteral": "qə-ṭan-nā", "traducao_palavra": "pequena" },
+        { "hebraico": "אָנֹכִ֣י", "transliteral": "ʾā-nō-ḵî", "traducao_palavra": "eu" },
+        { "hebraico": "שֹׁאֶ֣לֶת", "transliteral": "šō-ʾe-leṯ", "traducao_palavra": "estou pedindo" },
+        { "hebraico": "מֵֽאִתָּ֔ךְ", "transliteral": "mê-ʾit-tāḵ", "traducao_palavra": "de ti" },
+        { "hebraico": "אַל־תָּ֕שֶׁב", "transliteral": "ʾal-tā-šeḇ", "traducao_palavra": "não faças voltar" },
+        { "hebraico": "אֶת־פָּנָ֑י", "transliteral": "ʾeṯ-pā-nāy", "traducao_palavra": "minha face" },
+        { "hebraico": "וַיֹּֽאמער־לָ֤הּ", "transliteral": "way-yō-mer-lāh", "traducao_palavra": "e disse a ela" },
+        { "hebraico": "הַמֶּ֙לֶךְ֙", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "שַׁאֲלִ֣י", "transliteral": "ša-ʾă-lî", "traducao_palavra": "pede" },
+        { "hebraico": "אִמִּ֔י", "transliteral": "ʾim-mî", "traducao_palavra": "minha mãe" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "לֹא־אָשִׁ֖יב", "transliteral": "lō-ʾā-šîḇ", "traducao_palavra": "não farei voltar" },
+        { "hebraico": "אֶת־פָּנָֽיִךְ׃", "transliteral": "ʾeṯ-pā-nā-yiḵ", "traducao_palavra": "tua face" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "E ela disse: Dê-se Abisague, a sunamita, a Adonias, teu irmão, por mulher.",
+      "palavras": [
+        { "hebraico": "וַתֹּ֕אמֶר", "transliteral": "wat-tō-mer", "traducao_palavra": "e disse ela" },
+        { "hebraico": "יֻתַּ֖ן", "transliteral": "yut-tan", "traducao_palavra": "seja dada" },
+        { "hebraico": "אֶת־אֲבִישַׁ֥ג", "transliteral": "ʾeṯ-ʾă-ḇî-šaḡ", "traducao_palavra": "a Abisague" },
+        { "hebraico": "הַשּׁוּנַמִּ֑ית", "transliteral": "haš-šû-nam-mîṯ", "traducao_palavra": "a sunamita" },
+        { "hebraico": "לַאֲדֹנִיָּ֥הוּ", "transliteral": "la-ʾă-ḏō-niy-yā-hû", "traducao_palavra": "a Adonias" },
+        { "hebraico": "אָחִ֖יךָ", "transliteral": "ʾā-ḥî-ḵā", "traducao_palavra": "teu irmão" },
+        { "hebraico": "לְאִשָּֽׁה׃", "transliteral": "lə-ʾiš-šā", "traducao_palavra": "por mulher" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "Então respondeu o rei Salomão, e disse a sua mãe: E por que pedes a Abisague, a sunamita, para Adonias? Pede também para ele o reino (porque é meu irmão mais velho); sim, para ele, e para Abiatar, o sacerdote, e para Joabe, filho de Zeruia.",
+      "palavras": [
+        { "hebraico": "וַיַּעַן֩", "transliteral": "way-ya-ʿan", "traducao_palavra": "e respondeu" },
+        { "hebraico": "הַמֶּ֨לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "שְׁלֹמֹ֜ה", "transliteral": "šə-lō-mō", "traducao_palavra": "Salomão" },
+        { "hebraico": "וַיֹּ֣אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "לְאִמֹּ֗ו", "transliteral": "lə-ʾim-mô", "traducao_palavra": "a mãe dele" },
+        { "hebraico": "וְלָמָה֩", "transliteral": "wə-lā-mā", "traducao_palavra": "e por que" },
+        { "hebraico": "אַ֨תְּ", "transliteral": "ʾate", "traducao_palavra": "tu" },
+        { "hebraico": "שֹׁאֶ֜לֶת", "transliteral": "šō-ʾe-leṯ", "traducao_palavra": "pedes" },
+        { "hebraico": "אֶת־אֲבִישַׁ֤ג", "transliteral": "ʾeṯ-ʾă-ḇî-šaḡ", "traducao_palavra": "a Abisague" },
+        { "hebraico": "הַשּׁוּנַמִּית֙", "transliteral": "haš-šû-nam-mîṯ", "traducao_palavra": "a sunamita" },
+        { "hebraico": "לַאֲדֹנִיָּ֔הוּ", "transliteral": "la-ʾă-ḏō-niy-yā-hû", "traducao_palavra": "para Adonias" },
+        { "hebraico": "וְשַֽׁאֲלִי־לֹו֙", "transliteral": "wə-ša-ʾă-lî-lô", "traducao_palavra": "e pede para ele" },
+        { "hebraico": "אֶת־הַמְּלוּכָ֔ה", "transliteral": "ʾeṯ-ham-mə-lû-ḵā", "traducao_palavra": "o reino" },
+        { "hebraico": "כִּ֛י", "transliteral": "kî", "traducao_palavra": "pois" },
+        { "hebraico": "ה֥וּא", "transliteral": "hû", "traducao_palavra": "ele" },
+        { "hebraico": "אָחִ֖י", "transliteral": "ʾā-ḥî", "traducao_palavra": "irmão meu" },
+        { "hebraico": "הַגָּדֹ֣ול", "transliteral": "hag-gā-ḏôl", "traducao_palavra": "o grande/mais velho" },
+        { "hebraico": "מִמֶּ֑נִּי", "transliteral": "mim-men-nî", "traducao_palavra": "do que eu" },
+        { "hebraico": "וְלֹו֙", "transliteral": "wə-lô", "traducao_palavra": "e para ele" },
+        { "hebraico": "וּלְאֶבְיָתָ֣ר", "transliteral": "ū-lə-ʾeḇ-yā-ṯār", "traducao_palavra": "e para Abiatar" },
+        { "hebraico": "הַכֹּהֵ֔ן", "transliteral": "hak-kō-hên", "traducao_palavra": "o sacerdote" },
+        { "hebraico": "וּלְיֹאָ֖ב", "transliteral": "ū-lə-yô-ʾāḇ", "traducao_palavra": "e para Joabe" },
+        { "hebraico": "בֶּן־צְרוּיָֽה׃", "transliteral": "ben-ṣə-rû-yā", "traducao_palavra": "filho de Zeruia" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "E jurou o rei Salomão por YHWH, dizendo: Assim Deus me faça, e outro tanto, se Adonias não falou esta palavra contra a sua vida.",
+      "palavras": [
+        { "hebraico": "וַיִּשָּׁבַע֙", "transliteral": "way-yiš-šā-ḇaʿ", "traducao_palavra": "e jurou" },
+        { "hebraico": "הַמֶּ֣לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "שְׁלֹמֹ֔ה", "transliteral": "šə-lō-mō", "traducao_palavra": "Salomão" },
+        { "hebraico": "בַּיהוָ֖ה", "transliteral": "bay-hwāh", "traducao_palavra": "por YHWH" },
+        { "hebraico": "לֵאמֹ֑ר", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "כֹּ֣ה", "transliteral": "kō", "traducao_palavra": "assim" },
+        { "hebraico": "יַעֲשֶׂה־לִּ֤י", "transliteral": "ya-ʿă-śeh-lî", "traducao_palavra": "faça para mim" },
+        { "hebraico": "אֱלֹהִים֙", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "וְכֹ֣ה", "transliteral": "wə-ḵō", "traducao_palavra": "e assim" },
+        { "hebraico": "יֹוסִ֔יף", "transliteral": "yô-sîp̄", "traducao_palavra": "acrescente" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "בְנַפְשֹׁו֙", "transliteral": "ḇə-nap̄-šô", "traducao_palavra": "contra alma/vida dele" },
+        { "hebraico": "דִּבֶּ֣ר", "transliteral": "dib-ber", "traducao_palavra": "falou" },
+        { "hebraico": "אֲדֹנִיָּ֔הוּ", "transliteral": "ă-ḏō-niy-yā-hû", "traducao_palavra": "Adonias" },
+        { "hebraico": "אֶת־הַדָּבָ֥ר", "transliteral": "ʾeṯ-had-dā-ḇār", "traducao_palavra": "a palavra" },
+        { "hebraico": "הַזֶּֽה׃", "transliteral": "haz-zeh", "traducao_palavra": "esta" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "Agora, pois, vive YHWH, que me confirmou e me fez assentar no trono de Davi, meu pai, e que me fez casa, como tinha falado, que hoje morrerá Adonias.",
+      "palavras": [
+        { "hebraico": "וְעַתָּ֗ה", "transliteral": "wə-ʿat-tā", "traducao_palavra": "e agora" },
+        { "hebraico": "חַי־יְהוָה֙", "transliteral": "ḥay-YHWH", "traducao_palavra": "vive YHWH" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "הֱכִינַ֗נִי", "transliteral": "hĕ-ḵî-na-nî", "traducao_palavra": "confirmou a mim" },
+        { "hebraico": "וַיֹּושִׁיבַ֨נִי֙", "transliteral": "way-yô-šî-ḇa-nî", "traducao_palavra": "e fez sentar a mim" },
+        { "hebraico": "עַל־כִּסֵּא֙", "transliteral": "ʿal-kis-sê", "traducao_palavra": "sobre o trono de" },
+        { "hebraico": "דָּוִ֣ד", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "אָבִ֔י", "transliteral": "ʾā-ḇî", "traducao_palavra": "meu pai" },
+        { "hebraico": "וַאֲשֶׁ֧ר", "transliteral": "wa-ʾă-šer", "traducao_palavra": "e que" },
+        { "hebraico": "עָֽשָׂה־לִ֛י", "transliteral": "ʿā-śā-lî", "traducao_palavra": "fez para mim" },
+        { "hebraico": "בַּ֖יִת", "transliteral": "ba-yit", "traducao_palavra": "uma casa" },
+        { "hebraico": "כַּאֲשֶׁ֣ר", "transliteral": "ka-ʾă-šer", "traducao_palavra": "conforme" },
+        { "hebraico": "דִּבֵּ֑ר", "transliteral": "dib-bêr", "traducao_palavra": "falou" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "הַיֹּ֔ום", "transliteral": "hay-yôm", "traducao_palavra": "hoje" },
+        { "hebraico": "יוּמַ֖ת", "transliteral": "yû-maṯ", "traducao_palavra": "será morto" },
+        { "hebraico": "אֲדֹנִיָּֽהוּ׃", "transliteral": "ă-ḏō-niy-yā-hû", "traducao_palavra": "Adonias" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "E enviou o rei Salomão pela mão de Benaia, filho de Joiada, o qual deu sobre ele, e morreu.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁלַח֙", "transliteral": "way-yiš-laḥ", "traducao_palavra": "e enviou" },
+        { "hebraico": "הַמֶּ֣לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "שְׁלֹמֹ֔ה", "transliteral": "šə-lō-mō", "traducao_palavra": "Salomão" },
+        { "hebraico": "בְּיַ֖ד", "transliteral": "bə-yaḏ", "traducao_palavra": "pela mão de" },
+        { "hebraico": "בְּנָיָ֣הוּ", "transliteral": "bə-nā-yā-hû", "traducao_palavra": "Benaia" },
+        { "hebraico": "בֶן־יְהֹויָדָ֑ע", "transliteral": "ben-yə-hō-w-yā-ḏāʿ", "traducao_palavra": "filho de Joiada" },
+        { "hebraico": "וַיִּפְגַּע־בֹּ֖ו", "transliteral": "way-yip̄-gaʿ-bô", "traducao_palavra": "e deu sobre ele/atacou-o" },
+        { "hebraico": "וַיָּמֹֽת׃", "transliteral": "way-yā-mōṯ", "traducao_palavra": "e morreu" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "E a Abiatar, o sacerdote, disse o rei: Vai para Anatote, para os teus campos, porque és homem digno de morte; porém hoje não te matarei, porquanto carregaste a arca do Senhor YHWH diante de Davi, meu pai, e porquanto foste afligido em tudo quanto meu pai foi afligido.",
+      "palavras": [
+        { "hebraico": "וּלְאֶבְיָתָ֨ר", "transliteral": "ū-lə-ʾeḇ-yā-ṯār", "traducao_palavra": "e a Abiatar" },
+        { "hebraico": "הַכֹּהֵ֜ן", "transliteral": "hak-kō-hên", "traducao_palavra": "o sacerdote" },
+        { "hebraico": "אָמַ֣ר", "transliteral": "ʾā-mar", "traducao_palavra": "disse" },
+        { "hebraico": "הַמֶּ֗לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "עֲנָתֹת֙", "transliteral": "ʿă-nā-ṯōṯ", "traducao_palavra": "[a] Anatote" },
+        { "hebraico": "לֵ֣ךְ", "transliteral": "lēḵ", "traducao_palavra": "vai" },
+        { "hebraico": "עַל־שָׂדֶ֔יךָ", "transliteral": "ʿal-śā-ḏe-ḵā", "traducao_palavra": "para teus campos" },
+        { "hebraico": "כִּ֛י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "אִ֥ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homem [de]" },
+        { "hebraico": "מָ֤וֶת", "transliteral": "mā-weṯ", "traducao_palavra": "morte" },
+        { "hebraico": "אָ֑תָּה", "transliteral": "ʾāt-tā", "traducao_palavra": "[és] tu" },
+        { "hebraico": "וּבַיֹּ֨ום", "transliteral": "ū-ḇay-yôm", "traducao_palavra": "mas no dia" },
+        { "hebraico": "הַזֶּ֜ה", "transliteral": "haz-zeh", "traducao_palavra": "este" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "אֲמִיתֶ֗ךָ", "transliteral": "ʾă-mî-ṯe-ḵā", "traducao_palavra": "matarei a ti" },
+        { "hebraico": "כִּֽי־נָשָׂ֜אתָ", "transliteral": "kî-nā-śā-ṯā", "traducao_palavra": "porque carregaste" },
+        { "hebraico": "אֶת־אֲרֹ֨ון", "transliteral": "ʾeṯ-ʾă-rôn", "traducao_palavra": "a arca de" },
+        { "hebraico": "אֲדֹנָ֤י", "transliteral": "ʾă-ḏō-nāy", "traducao_palavra": "Senhor" },
+        { "hebraico": "יְהוִה֙", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "לִפְנֵי֙", "transliteral": "lip̄-nê", "traducao_palavra": "perante" },
+        { "hebraico": "דָּוִ֣ד", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "אָבִ֔י", "transliteral": "ʾā-ḇî", "traducao_palavra": "meu pai" },
+        { "hebraico": "וְכִ֣י", "transliteral": "wə-ḵî", "traducao_palavra": "e porque" },
+        { "hebraico": "הִתְעַנִּ֔יתָ", "transliteral": "hiṯ-ʿan-nî-ṯā", "traducao_palavra": "foste afligido" },
+        { "hebraico": "בְּכֹ֥ל", "transliteral": "bə-ḵōl", "traducao_palavra": "em tudo" },
+        { "hebraico": "אֲשֶׁר־הִתְעַנָּ֥ה", "transliteral": "ʾă-šer-hiṯ-ʿan-nā", "traducao_palavra": "que foi afligido" },
+        { "hebraico": "אָבִֽי׃", "transliteral": "ʾā-ḇî", "traducao_palavra": "meu pai" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "Assim expulsou Salomão a Abiatar, para que não fosse sacerdote de YHWH, para cumprir a palavra de YHWH, que tinha falado sobre a casa de Eli em Siló.",
+      "palavras": [
+        { "hebraico": "וַיְגָ֤רֶשׁ", "transliteral": "way-ḡā-reš", "traducao_palavra": "e expulsou" },
+        { "hebraico": "שְׁלֹמֹה֙", "transliteral": "šə-lō-mō", "traducao_palavra": "Salomão" },
+        { "hebraico": "אֶת־אֶבְyָתָ֔ר", "transliteral": "ʾeṯ-ʾeḇ-yā-ṯār", "traducao_palavra": "a Abiatar" },
+        { "hebraico": "מִהְיֹ֥ות", "transliteral": "mi-hə-yôṯ", "traducao_palavra": "de ser/haver" },
+        { "hebraico": "כֹּהֵ֖ן", "transliteral": "kō-hên", "traducao_palavra": "sacerdote" },
+        { "hebraico": "לַיהוָ֑ה", "transliteral": "lay-hwāh", "traducao_palavra": "para YHWH" },
+        { "hebraico": "לְמַלֵּא֙", "transliteral": "lə-mal-lē", "traducao_palavra": "para cumprir/encher" },
+        { "hebraico": "אֶת־דְּבַ֣ר", "transliteral": "ʾeṯ-də-ḇar", "traducao_palavra": "a palavra de" },
+        { "hebraico": "יְהוָ֔ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֲשֶׁ֥ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "דִּבֶּ֛ר", "transliteral": "dib-ber", "traducao_palavra": "falara" },
+        { "hebraico": "עַל־בֵּ֥ית", "transliteral": "ʿal-bêṯ", "traducao_palavra": "sobre a casa de" },
+        { "hebraico": "עֵלִ֖י", "transliteral": "ʿē-lî", "traducao_palavra": "Eli" },
+        { "hebraico": "בְּשִׁלֹֽה׃", "transliteral": "bə-ši-lō", "traducao_palavra": "em Siló" }
+      ]
+    },
+    "28": {
+      "traducao_completa": "E chegou a notícia a Joabe (porque Joabe se tinha desviado após Adonias, embora não se tivesse desviado após Absalão); e Joabe fugiu para a tenda de YHWH, e pegou das pontas do altar.",
+      "palavras": [
+        { "hebraico": "וְהַשְּׁמֻעָה֙", "transliteral": "wə-haš-šə-mu-ʿā", "traducao_palavra": "e a notícia" },
+        { "hebraico": "בָּ֣אָה", "transliteral": "bā-ʾā", "traducao_palavra": "veio" },
+        { "hebraico": "עַד־יֹואָ֔ב", "transliteral": "ʿaḏ-yô-ʾāḇ", "traducao_palavra": "até Joabe" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "יֹואָב֙", "transliteral": "yô-ʾāḇ", "traducao_palavra": "Joabe" },
+        { "hebraico": "נָטָה֙", "transliteral": "nā-ṭā", "traducao_palavra": "desviara-se/inclinara-se" },
+        { "hebraico": "אַחֲרֵ֣י", "transliteral": "ʾa-ḥă-rê", "traducao_palavra": "após" },
+        { "hebraico": "אֲדֹנִיָּ֔ה", "transliteral": "ă-ḏō-niy-yā", "traducao_palavra": "Adonias" },
+        { "hebraico": "וְאַחֲרֵ֥י", "transliteral": "wə-ʾa-ḥă-rê", "traducao_palavra": "embora após" },
+        { "hebraico": "אַבְשָׁלֹ֖ום", "transliteral": "ʾaḇ-šā-lôm", "traducao_palavra": "Absalão" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "נָטָ֑ה", "transliteral": "nā-ṭā", "traducao_palavra": "se desviara" },
+        { "hebraico": "וַיָּ֤נָס", "transliteral": "way-yā-nās", "traducao_palavra": "e fugiu" },
+        { "hebraico": "יֹואָב֙", "transliteral": "yô-ʾāḇ", "traducao_palavra": "Joabe" },
+        { "hebraico": "אֶל־אֹ֣הֶל", "transliteral": "ʾel-ʾō-hel", "traducao_palavra": "à tenda de" },
+        { "hebraico": "יְהוָ֔ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וַֽיַּחֲזֵ֖ק", "transliteral": "way-ya-ḥă-zēq", "traducao_palavra": "e segurou" },
+        { "hebraico": "בְּקַרְנֹ֥ות", "transliteral": "bə-qar-nôṯ", "traducao_palavra": "nas pontas de" },
+        { "hebraico": "הַמִּזְבֵֽّחַ׃", "transliteral": "ham-miz-bē-aḥ", "traducao_palavra": "o altar" }
+      ]
+    },
+    "29": {
+      "traducao_completa": "E disseram ao rei Salomão que Joabe tinha fugido para a tenda de YHWH; e eis que está junto ao altar. Então enviou Salomão a Benaia, filho de Joiada, dizendo: Vai, dá sobre ele.",
+      "palavras": [
+        { "hebraico": "וַיֻּגַּ֞ד", "transliteral": "way-yug-gaḏ", "traducao_palavra": "e foi anunciado" },
+        { "hebraico": "לַמֶּ֣לֶךְ", "transliteral": "lam-me-leḵ", "traducao_palavra": "ao rei" },
+        { "hebraico": "שְׁלֹמֹ֗ה", "transliteral": "šə-lō-mō", "traducao_palavra": "Salomão" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "נָ֤ס", "transliteral": "nās", "traducao_palavra": "fugiu" },
+        { "hebraico": "יֹואָב֙", "transliteral": "yô-ʾāḇ", "traducao_palavra": "Joabe" },
+        { "hebraico": "אֶל־אֹ֣הֶל", "transliteral": "ʾel-ʾō-hel", "traducao_palavra": "à tenda de" },
+        { "hebraico": "יְהוָ֔ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וְהִנֵּ֖ה", "transliteral": "wə-hin-nēh", "traducao_palavra": "e eis" },
+        { "hebraico": "אֵ֣צֶל", "transliteral": "ʾê-ṣel", "traducao_palavra": "ao lado de" },
+        { "hebraico": "הַמִּזְבֵּ֑חַ", "transliteral": "ham-miz-bē-aḥ", "traducao_palavra": "o altar" },
+        { "hebraico": "וַיִּשְׁלַ֨ח", "transliteral": "way-yiš-laḥ", "traducao_palavra": "e enviou" },
+        { "hebraico": "שְׁלֹמֹ֜ה", "transliteral": "šə-lō-mō", "traducao_palavra": "Salomão" },
+        { "hebraico": "אֶת־בְּנָיָ֧הוּ", "transliteral": "ʾeṯ-bə-nā-yā-hû", "traducao_palavra": "a Benaia" },
+        { "hebraico": "בֶן־יְהֹויָדָ֛ע", "transliteral": "ben-yə-hō-w-yā-ḏāʿ", "traducao_palavra": "filho de Joiada" },
+        { "hebraico": "לֵאמֹ֖ר", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "לֵ֥ךְ", "transliteral": "lēḵ", "traducao_palavra": "vai" },
+        { "hebraico": "פְּגַע־בֹּֽו׃", "transliteral": "pə-ḡaʿ-bô", "traducao_palavra": "ataca ele/dá sobre ele" }
+      ]
+    },
+    "30": {
+      "traducao_completa": "E veio Benaia à tenda de YHWH, e lhe disse: Assim diz o rei: Sai daí. E disse ele: Não, mas aqui morrerei. E Benaia tornou com a resposta ao rei, dizendo: Assim falou Joabe, e assim me respondeu.",
+      "palavras": [
+        { "hebraico": "וַיָּבֹ֨א", "transliteral": "way-yā-ḇō", "traducao_palavra": "e veio" },
+        { "hebraico": "בְנָיָ֜הוּ", "transliteral": "ḇə-nā-yā-hû", "traducao_palavra": "Benaia" },
+        { "hebraico": "אֶל־אֹ֣הֶל", "transliteral": "ʾel-ʾō-hel", "traducao_palavra": "à tenda de" },
+        { "hebraico": "יְהוָ֗ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "אֵלָ֜יו", "transliteral": "ʾē-lāyw", "traducao_palavra": "a ele" },
+        { "hebraico": "כֹּה־אָמַ֤ר", "transliteral": "kō-ʾā-mar", "traducao_palavra": "assim disse" },
+        { "hebraico": "הַמֶּ֙לֶךְ֙", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "צֵ֔א", "transliteral": "ṣē", "traducao_palavra": "sai" },
+        { "hebraico": "וַיֹּ֣אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse ele" },
+        { "hebraico": "לֹ֔א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "mas" },
+        { "hebraico": "פֹ֖ה", "transliteral": "p̄ōh", "traducao_palavra": "aqui" },
+        { "hebraico": "אָמ֑וּת", "transliteral": "ʾā-mûṯ", "traducao_palavra": "morrerei" },
+        { "hebraico": "וַיָּ֨שֶׁב", "transliteral": "way-yā-šeb", "traducao_palavra": "e trouxe de volta" },
+        { "hebraico": "בְּנָיָ֤הוּ", "transliteral": "bə-nā-yā-hû", "traducao_palavra": "Benaia" },
+        { "hebraico": "אֶת־הַמֶּ֙לֶךְ֙", "transliteral": "ʾeṯ-ham-me-leḵ", "traducao_palavra": "ao rei" },
+        { "hebraico": "דָּבָ֣ר", "transliteral": "ḏā-ḇār", "traducao_palavra": "[a] palavra/resposta" },
+        { "hebraico": "לֵאמֹ֔ר", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "כֹּה־דִבֶּ֥ר", "transliteral": "kō-ḏib-ber", "traducao_palavra": "assim falou" },
+        { "hebraico": "יֹואָ֖ב", "transliteral": "yô-ʾāḇ", "traducao_palavra": "Joabe" },
+        { "hebraico": "וְכֹ֥ה", "transliteral": "wə-ḵō", "traducao_palavra": "e assim" },
+        { "hebraico": "עָנָֽנִי׃", "transliteral": "ʿā-nā-nî", "traducao_palavra": "respondeu a mim" }
+      ]
+    },
+    "31": {
+      "traducao_completa": "E disse-lhe o rei: Faze como ele disse; e dá sobre ele, e sepulta-o, para que tires de mim e da casa de meu pai o sangue que Joabe derramou sem causa.",
+      "palavras": [
+        { "hebraico": "וַיֹֹּ֠אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "לֹ֣ו", "transliteral": "lô", "traducao_palavra": "a ele" },
+        { "hebraico": "הַמֶּלֶךְ֒", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "עֲשֵׂה֙", "transliteral": "ʿă-śē", "traducao_palavra": "faze" },
+        { "hebraico": "כַּאֲשֶׁ֣ר", "transliteral": "ka-ʾă-šer", "traducao_palavra": "conforme" },
+        { "hebraico": "דִּבֶּ֔ר", "transliteral": "dib-ber", "traducao_palavra": "falou ele" },
+        { "hebraico": "וּפְגַע־בֹּ֖ו", "transliteral": "ū-p̄ə-ḡaʿ-bô", "traducao_palavra": "e ataca ele" },
+        { "hebraico": "וּקְבַרְתֹּ֑ו", "transliteral": "ū-qə-ḇar-tô", "traducao_palavra": "e sepulta ele" },
+        { "hebraico": "וַהֲסִירֹ֣תָ", "transliteral": "wa-hă-śî-rō-ṯā", "traducao_palavra": "para que removas" },
+        { "hebraico": "דְּמֵ֣י", "transliteral": "də-mê", "traducao_palavra": "sangue" },
+        { "hebraico": "חִנָּ֗ם", "transliteral": "ḥin-nām", "traducao_palavra": "sem causa" },
+        { "hebraico": "אֲשֶׁר֙", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "שָׁפַ֣ךְ", "transliteral": "šā-p̄aḵ", "traducao_palavra": "derramou" },
+        { "hebraico": "יֹואָ֔ב", "transliteral": "yô-ʾāḇ", "traducao_palavra": "Joabe" },
+        { "hebraico": "מֵעָלַ֕י", "transliteral": "mê-ʿā-lay", "traducao_palavra": "de sobre mim" },
+        { "hebraico": "וּמֵעַ֖ל", "transliteral": "ū-mê-ʿal", "traducao_palavra": "e de sobre" },
+        { "hebraico": "בֵּ֥ית", "transliteral": "bêṯ", "traducao_palavra": "casa de" },
+        { "hebraico": "אָבִֽי׃", "transliteral": "ʾā-ḇî", "traducao_palavra": "meu pai" }
+      ]
+    },
+    "32": {
+      "traducao_completa": "Assim YHWH fará recair o sangue dele sobre a sua cabeça, porque deu sobre dois homens mais justos e melhores do que ele, e os matou à espada, sem que meu pai Davi o soubesse, a saber: a Abner, filho de Ner, capitão do exército de Israel, e a Amasa, filho de Jeter, capitão do exército de Judá.",
+      "palavras": [
+        { "hebraico": "וְהֵשִׁ֩יב֩", "transliteral": "wə-hê-šîḇ", "traducao_palavra": "e fará voltar" },
+        { "hebraico": "יְהוָ֨ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶת־דָּמֹ֜ו", "transliteral": "ʾeṯ-dā-mô", "traducao_palavra": "o sangue dele" },
+        { "hebraico": "עַל־רֹאשֹׁ֗ו", "transliteral": "ʿal-rō-šô", "traducao_palavra": "sobre a cabeça dele" },
+        { "hebraico": "אֲשֶׁ֣ר׀", "transliteral": "ʾă-šer", "traducao_palavra": "porque" },
+        { "hebraico": "פָּגַ֣ע", "transliteral": "pā-ḡaʿ", "traducao_palavra": "atacou" },
+        { "hebraico": "בִּשְׁנֵֽי־אֲנָשִׁ֣ים", "transliteral": "biš-nê-ʾă-nā-šîm", "traducao_palavra": "dois homens" },
+        { "hebraico": "צַדִּקִים֮", "transliteral": "ṣad-di-qîm", "traducao_palavra": "justos" },
+        { "hebraico": "וְטֹבִ֣ים", "transliteral": "wə-ṭō-ḇîm", "traducao_palavra": "e melhores" },
+        { "hebraico": "מִמֶּנּוּ֒", "transliteral": "mim-men-nû", "traducao_palavra": "do que ele" },
+        { "hebraico": "וַיַּהַרְגֵ֣ם", "transliteral": "way-ya-har-ḡêm", "traducao_palavra": "e os matou" },
+        { "hebraico": "בַּחֶ֔רֶב", "transliteral": "ba-ḥe-reḇ", "traducao_palavra": "com a espada" },
+        { "hebraico": "וְאָבִ֥י", "transliteral": "wə-ʾā-ḇî", "traducao_palavra": "e meu pai" },
+        { "hebraico": "דָוִ֖ד", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "יָדָ֑ע", "transliteral": "yā-ḏāʿ", "traducao_palavra": "soube" },
+        { "hebraico": "אֶת־אַבְנֵ֤ר", "transliteral": "ʾeṯ-ʾaḇ-nêr", "traducao_palavra": "a Abner" },
+        { "hebraico": "בֶּן־נֵר֙", "transliteral": "ben-nêr", "traducao_palavra": "filho de Ner" },
+        { "hebraico": "שַׂר־צְבָ֣א", "transliteral": "śar-ṣə-ḇā", "traducao_palavra": "capitão do exército de" },
+        { "hebraico": "יִשְׂרָאֵ֔ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "וְאֶת־עֲמָשָׂ֥א", "transliteral": "wə-ʾeṯ-ʿă-mā-śā", "traducao_palavra": "e a Amasa" },
+        { "hebraico": "בֶן־יֶ֖תֶר", "transliteral": "ben-ye-ṯer", "traducao_palavra": "filho de Jeter" },
+        { "hebraico": "שַׂר־צְבָ֥א", "transliteral": "śar-ṣə-ḇā", "traducao_palavra": "capitão do exército de" },
+        { "hebraico": "יְהוּדָֽה׃", "transliteral": "yə-hû-ḏā", "traducao_palavra": "Judá" }
+      ]
+    },
+    "33": {
+      "traducao_completa": "Assim recairá o sangue deles sobre a cabeça de Joabe e sobre a cabeça da sua descendência para sempre; mas a Davi, e à sua descendência, e à sua casa, e ao seu trono, dará YHWH paz para todo o sempre.",
+      "palavras": [
+        { "hebraico": "וְשָׁ֤בוּ", "transliteral": "wə-šā-ḇû", "traducao_palavra": "e voltará/recairá" },
+        { "hebraico": "דְמֵיהֶם֙", "transliteral": "ḏə-mê-hem", "traducao_palavra": "o sangue deles" },
+        { "hebraico": "בְּרֹ֣אשׁ", "transliteral": "bə-rōš", "traducao_palavra": "na cabeça de" },
+        { "hebraico": "יֹואָ֔ב", "transliteral": "yô-ʾāḇ", "traducao_palavra": "Joabe" },
+        { "hebraico": "וּבְרֹ֥אשׁ", "transliteral": "ū-ḇə-rōš", "traducao_palavra": "e na cabeça de" },
+        { "hebraico": "זַרְעֹ֖ו", "transliteral": "zar-ʿô", "traducao_palavra": "sua descendência" },
+        { "hebraico": "לְעֹלָ֑ם", "transliteral": "lə-ʿō-lām", "traducao_palavra": "para sempre" },
+        { "hebraico": "וּלְדָוִ֡ד", "transliteral": "ū-lə-ḏā-wiḏ", "traducao_palavra": "mas para Davi" },
+        { "hebraico": "וּלְזַרְעֹו֩", "transliteral": "ū-lə-zar-ʿô", "traducao_palavra": "e para sua descendência" },
+        { "hebraico": "וּלְבֵיתֹ֨ו", "transliteral": "ū-lə-ḇê-ṯô", "traducao_palavra": "e para sua casa" },
+        { "hebraico": "וּלְכִסְאֹ֜ו", "transliteral": "ū-lə-ḵis-ʾô", "traducao_palavra": "e para o seu trono" },
+        { "hebraico": "יִהְיֶ֧ה", "transliteral": "yih-yeh", "traducao_palavra": "haverá" },
+        { "hebraico": "שָׁלֹ֛ום", "transliteral": "šā-lôm", "traducao_palavra": "paz" },
+        { "hebraico": "עַד־עֹולָ֖ם", "transliteral": "ʿaḏ-ʿô-lām", "traducao_palavra": "até a eternidade" },
+        { "hebraico": "מֵאֵ֥ת", "transliteral": "mê-ʾêṯ", "traducao_palavra": "da parte de" },
+        { "hebraico": "יְהוָֽה׃", "transliteral": "YHWH", "traducao_palavra": "YHWH" }
+      ]
+    },
+    "34": {
+      "traducao_completa": "E subiu Benaia, filho de Joiada, e deu sobre ele, e o matou; e foi sepultado em sua casa, no deserto.",
+      "palavras": [
+        { "hebraico": "וַיַּ֨עַל", "transliteral": "way-ya-ʿal", "traducao_palavra": "e subiu" },
+        { "hebraico": "בְּנָיָ֙הוּ֙", "transliteral": "bə-nā-yā-hû", "traducao_palavra": "Benaia" },
+        { "hebraico": "בֶּן־יְהֹויָדָ֔ע", "transliteral": "ben-yə-hō-w-yā-ḏāʿ", "traducao_palavra": "filho de Joiada" },
+        { "hebraico": "וַיִּפְגַּע־בֹּ֖ו", "transliteral": "way-yip̄-gaʿ-bô", "traducao_palavra": "e atacou ele" },
+        { "hebraico": "וַיְמִיתֵ֑הוּ", "transliteral": "way-mî-ṯê-hû", "traducao_palavra": "e matou ele" },
+        { "hebraico": "וַיִּקָּבֵ֥ר", "transliteral": "way-yiq-qā-ḇêr", "traducao_palavra": "e foi sepultado" },
+        { "hebraico": "בְּבֵיתֹ֖ו", "transliteral": "bə-ḇê-ṯô", "traducao_palavra": "na casa dele" },
+        { "hebraico": "בַּמִּדְבָּֽר׃", "transliteral": "bam-miḏ-bār", "traducao_palavra": "no deserto" }
+      ]
+    },
+    "35": {
+      "traducao_completa": "E o rei pôs a Benaia, filho de Joiada, em seu lugar sobre o exército; e a Zadoque, o sacerdote, pôs o rei em lugar de Abiatar.",
+      "palavras": [
+        { "hebraico": "וַיִּתֵּ֨ן", "transliteral": "way-yit-tên", "traducao_palavra": "e pôs" },
+        { "hebraico": "הַמֶּ֜לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "אֶת־בְּנָיָ֧הוּ", "transliteral": "ʾeṯ-bə-nā-yā-hû", "traducao_palavra": "a Benaia" },
+        { "hebraico": "בֶן־יְהֹויָדָ֛ע", "transliteral": "ben-yə-hō-w-yā-ḏāʿ", "traducao_palavra": "filho de Joiada" },
+        { "hebraico": "תַּחְתָּ֖יו", "transliteral": "taḥ-tāyw", "traducao_palavra": "em lugar dele [de Joabe]" },
+        { "hebraico": "עַל־הַצָּבָ֑א", "transliteral": "ʿal-ha-ṣā-ḇā", "traducao_palavra": "sobre o exército" },
+        { "hebraico": "וְאֶת־צָדֹ֤וק", "transliteral": "wə-ʾeṯ-ṣā-ḏôq", "traducao_palavra": "e a Zadoque" },
+        { "hebraico": "הַכֹּהֵן֙", "transliteral": "hak-kō-hên", "traducao_palavra": "o sacerdote" },
+        { "hebraico": "נָתַ֣ן", "transliteral": "nā-ṯan", "traducao_palavra": "pôs" },
+        { "hebraico": "הַמֶּ֔לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "תַּ֖חַת", "transliteral": "ta-ḥaṯ", "traducao_palavra": "em lugar de" },
+        { "hebraico": "אֶבְיָתָֽר׃", "transliteral": "ʾeḇ-yā-ṯār", "traducao_palavra": "Abiatar" }
+      ]
+    },
+    "36": {
+      "traducao_completa": "Depois enviou o rei, e chamou a Simei, e disse-lhe: Edifica-te uma casa em Jerusalém, e habita ali, e daí não saias para nenhuma outra parte.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁלַ֣ח", "transliteral": "way-yiš-laḥ", "traducao_palavra": "e enviou" },
+        { "hebraico": "הַמֶּ֗לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "וַיִּקְרָא֙", "transliteral": "way-yiq-rā", "traducao_palavra": "e chamou" },
+        { "hebraico": "לְשִׁמְעִ֔י", "transliteral": "lə-šim-ʿî", "traducao_palavra": "a Simei" },
+        { "hebraico": "וַיֹּ֣אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "לֹ֗ו", "transliteral": "lô", "traducao_palavra": "a ele" },
+        { "hebraico": "בְּנֵֽה־לְךָ֥", "transliteral": "bə-nē-lə-ḵā", "traducao_palavra": "edifica para ti" },
+        { "hebraico": "בַ֙יִת֙", "transliteral": "ba-yit", "traducao_palavra": "uma casa" },
+        { "hebraico": "בִּירוּשָׁלִַ֔ם", "transliteral": "bî-rû-šā-la-yim", "traducao_palavra": "em Jerusalém" },
+        { "hebraico": "וְיָשַׁבְתָּ֖", "transliteral": "wə-yā-šaḇ-tā", "traducao_palavra": "e habita" },
+        { "hebraico": "שָׁ֑ם", "transliteral": "šām", "traducao_palavra": "lá" },
+        { "hebraico": "וְלֹֽא־תֵצֵ֥א", "transliteral": "wə-lō-ṯê-ṣē", "traducao_palavra": "e não saias" },
+        { "hebraico": "מִשָּׁ֖ם", "transliteral": "miš-šām", "traducao_palavra": "de lá" },
+        { "hebraico": "אָ֥נֶה", "transliteral": "ʾā-neh", "traducao_palavra": "para lugar" },
+        { "hebraico": "וָאָֽנָה׃", "transliteral": "wā-ʾā-nā", "traducao_palavra": "qualquer" }
+      ]
+    },
+    "37": {
+      "traducao_completa": "Porque há de ser que, no dia em que saíres e passares o ribeiro de Cedrom, sabe decerto que morrerás; o teu sangue será sobre a tua cabeça.",
+      "palavras": [
+        { "hebraico": "וְהָיָ֣ה׀", "transliteral": "wə-hā-yā", "traducao_palavra": "e será" },
+        { "hebraico": "בְּיֹ֣ום", "transliteral": "bə-yôm", "traducao_palavra": "no dia de" },
+        { "hebraico": "צֵאתְךָ֗", "transliteral": "ṣê-ṯə-ḵā", "traducao_palavra": "teu sair" },
+        { "hebraico": "וְעָבַרְתָּ֙", "transliteral": "wə-ʿā-ḇar-tā", "traducao_palavra": "e passares" },
+        { "hebraico": "אֶת־נַ֣חַל", "transliteral": "ʾeṯ-na-ḥal", "traducao_palavra": "o ribeiro de" },
+        { "hebraico": "קִדְרֹ֔ון", "transliteral": "qiḏ-rôn", "traducao_palavra": "Cedrom" },
+        { "hebraico": "יָדֹ֥עַ", "transliteral": "yā-ḏō-aʿ", "traducao_palavra": "sabendo" },
+        { "hebraico": "תֵּדַ֖ע", "transliteral": "tê-ḏaʿ", "traducao_palavra": "saberás" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "מֹ֣ות", "transliteral": "môṯ", "traducao_palavra": "certamente" },
+        { "hebraico": "תָּמ֑וּת", "transliteral": "תָּמ֑וּת", "traducao_palavra": "morrerás" },
+        { "hebraico": "דָּמְךָ֖", "transliteral": "dā-mə-ḵā", "traducao_palavra": "teu sangue" },
+        { "hebraico": "יִהְיֶ֥ה", "transliteral": "yih-yeh", "traducao_palavra": "será" },
+        { "hebraico": "בְרֹאשֶֽׁךָ׃", "transliteral": "ḇə-rō-še-ḵā", "traducao_palavra": "na tua cabeça" }
+      ]
+    },
+    "38": {
+      "traducao_completa": "E Simei disse ao rei: Boa é essa palavra; como falou o rei meu senhor, assim fará o teu servo. E Simei habitou em Jerusalém muitos dias.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "שִׁמְעִ֜י", "transliteral": "šim-ʿî", "traducao_palavra": "Simei" },
+        { "hebraico": "לַמֶּ֗לֶךְ", "transliteral": "lam-me-leḵ", "traducao_palavra": "ao rei" },
+        { "hebraico": "טֹ֤וב", "transliteral": "ṭôḇ", "traducao_palavra": "boa [é]" },
+        { "hebraico": "הַדָּבָר֙", "transliteral": "had-dā-ḇār", "traducao_palavra": "a palavra" },
+        { "hebraico": "כַּאֲשֶׁ֣ר", "transliteral": "ka-ʾă-šer", "traducao_palavra": "conforme" },
+        { "hebraico": "דִּבֶּר֩", "transliteral": "dib-ber", "traducao_palavra": "falou" },
+        { "hebraico": "אֲדֹנִ֨י", "transliteral": "ʾă-ḏō-nî", "traducao_palavra": "senhor meu" },
+        { "hebraico": "הַמֶּ֜לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "כֵּ֣ן", "transliteral": "kên", "traducao_palavra": "assim" },
+        { "hebraico": "יַעֲשֶׂ֣ה", "transliteral": "ya-ʿă-śeh", "traducao_palavra": "fará" },
+        { "hebraico": "עַבְדֶּ֑ךָ", "transliteral": "ʿaḇ-de-ḵā", "traducao_palavra": "teu servo" },
+        { "hebraico": "וַיֵּ֧שֶׁב", "transliteral": "way-yê-šeḇ", "traducao_palavra": "e habitou" },
+        { "hebraico": "שִׁמְעִ֛י", "transliteral": "šim-ʿî", "traducao_palavra": "Simei" },
+        { "hebraico": "בִּירוּשָׁלִַ֖ם", "transliteral": "bî-rû-šā-la-yim", "traducao_palavra": "em Jerusalém" },
+        { "hebraico": "יָמִ֥ים", "transliteral": "yā-mîm", "traducao_palavra": "dias" },
+        { "hebraico": "רַבִּֽים׃", "transliteral": "rab-bîm", "traducao_palavra": "muitos" }
+      ]
+    },
+    "39": {
+      "traducao_completa": "E sucedeu que, ao fim de três anos, dois servos de Simei fugiram para Áquis, filho de Maaca, rei de Gate; e deram parte a Simei, dizendo: Eis que teus servos estão em Gate.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֗י", "transliteral": "way-hî", "traducao_palavra": "e sucedeu" },
+        { "hebraico": "מִקֵּץ֮", "transliteral": "miq-qêṣ", "traducao_palavra": "ao fim de" },
+        { "hebraico": "שָׁלֹ֣שׁ", "transliteral": "šā-lōš", "traducao_palavra": "três" },
+        { "hebraico": "שָׁנִים֒", "transliteral": "šā-nîm", "traducao_palavra": "anos" },
+        { "hebraico": "וַיִּבְרְח֤וּ", "transliteral": "way-yiḇ-rə-ḥû", "traducao_palavra": "e fugiram" },
+        { "hebraico": "שְׁנֵֽי־עֲבָדִים֙", "transliteral": "šə-nê-ʿă-ḇā-ḏîm", "traducao_palavra": "dois servos" },
+        { "hebraico": "לְשִׁמְעִ֔י", "transliteral": "lə-šim-ʿî", "traducao_palavra": "de Simei" },
+        { "hebraico": "אֶל־אָכִ֥ישׁ", "transliteral": "ʾel-ʾā-ḵîš", "traducao_palavra": "para Áquis" },
+        { "hebraico": "בֶּן־מַעֲכָ֖ה", "transliteral": "ben-ma-ʿă-ḵā", "traducao_palavra": "filho de Maaca" },
+        { "hebraico": "מֶ֣לֶךְ", "transliteral": "me-leḵ", "traducao_palavra": "rei de" },
+        { "hebraico": "גַּ֑ת", "transliteral": "gaṯ", "traducao_palavra": "Gate" },
+        { "hebraico": "וַיַּגִּ֤ידוּ", "transliteral": "way-yag-gî-ḏû", "traducao_palavra": "e anunciaram" },
+        { "hebraico": "לְשִׁמְעִי֙", "transliteral": "lə-šim-ʿî", "traducao_palavra": "a Simei" },
+        { "hebraico": "לֵאמֹ֔ר", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "הִנֵּ֥ה", "transliteral": "hin-nēh", "traducao_palavra": "eis" },
+        { "hebraico": "עֲבָדֶ֖יךָ", "transliteral": "ʿă-ḇā-ḏe-ḵā", "traducao_palavra": "teus servos" },
+        { "hebraico": "בְּגַֽת׃", "transliteral": "bə-ḡaṯ", "traducao_palavra": "[estão] em Gate" }
+      ]
+    },
+    "40": {
+      "traducao_completa": "Então Simei se levantou, e albardou o seu jumento, e foi a Gate, a Áquis, a buscar os seus servos; assim foi Simei, e trouxe os seus servos de Gate.",
+      "palavras": [
+        { "hebraico": "וַיָּ֣קָם", "transliteral": "way-yā-qām", "traducao_palavra": "e levantou-se" },
+        { "hebraico": "שִׁמְעִ֗י", "transliteral": "šim-ʿî", "traducao_palavra": "Simei" },
+        { "hebraico": "וַֽיַּחֲבֹשׁ֙", "transliteral": "way-ya-ḥă-ḇōš", "traducao_palavra": "e albardou" },
+        { "hebraico": "אֶת־חֲמֹרֹ֔ו", "transliteral": "ʾeṯ-ḥă-mō-rô", "traducao_palavra": "o jumento dele" },
+        { "hebraico": "וַיֵּ֤לֶךְ", "transliteral": "way-yê-leḵ", "traducao_palavra": "e foi" },
+        { "hebraico": "גַּתָּה֙", "transliteral": "gat-tā", "traducao_palavra": "a Gate" },
+        { "hebraico": "אֶל־אָכִ֔ישׁ", "transliteral": "ʾel-ʾā-ḵîš", "traducao_palavra": "a Áquis" },
+        { "hebraico": "לְבַקֵּ֖שׁ", "transliteral": "lə-ḇaq-qêš", "traducao_palavra": "para buscar" },
+        { "hebraico": "אֶת־עֲבָדָ֑יו", "transliteral": "ʾeṯ-ʿă-ḇā-ḏāyw", "traducao_palavra": "os seus servos" },
+        { "hebraico": "וַיֵּ֣לֶךְ", "transliteral": "way-yê-leḵ", "traducao_palavra": "e foi" },
+        { "hebraico": "שִׁמְעִ֔י", "transliteral": "šim-ʿî", "traducao_palavra": "Simei" },
+        { "hebraico": "וַיָּבֵ֥א", "transliteral": "way-yā-ḇē", "traducao_palavra": "e trouxe" },
+        { "hebraico": "אֶת־עֲבָדָ֖יו", "transliteral": "ʾeṯ-ʿă-ḇā-ḏāyw", "traducao_palavra": "os seus servos" },
+        { "hebraico": "מִגַּֽת׃", "transliteral": "mig-gaṯ", "traducao_palavra": "de Gate" }
+      ]
+    },
+    "41": {
+      "traducao_completa": "E anunciaram a Salomão que Simei fora de Jerusalém a Gate, e que já tinha voltado.",
+      "palavras": [
+        { "hebraico": "וַיֻגַּ֖ד", "transliteral": "way-yug-gaḏ", "traducao_palavra": "e foi anunciado" },
+        { "hebraico": "לִשְׁלֹמֹ֑ה", "transliteral": "liš-lō-mō", "traducao_palavra": "a Salomão" },
+        { "hebraico": "כִּי־הָלַ֨ךְ", "transliteral": "kî-hā-laḵ", "traducao_palavra": "que fora" },
+        { "hebraico": "שִׁמְעִ֧י", "transliteral": "šim-ʿî", "traducao_palavra": "Simei" },
+        { "hebraico": "מִירוּשָׁלִַַ֛ם", "transliteral": "mî-rû-šā-la-yim", "traducao_palavra": "de Jerusalém" },
+        { "hebraico": "גַּ֖ת", "transliteral": "gaṯ", "traducao_palavra": "[a] Gate" },
+        { "hebraico": "וַיָּשֹֽׁב׃", "transliteral": "way-yā-šōḇ", "traducao_palavra": "e voltara" }
+      ]
+    },
+    "42": {
+      "traducao_completa": "Então enviou o rei, e chamou a Simei, e disse-lhe: Não te jurei eu por YHWH e não te protestei, dizendo: No dia em que saíres para qualquer parte, sabe decerto que morrerás? E tu me disseste: Boa é a palavra que ouvi.",
+      "palavras": [
+        { "hebraico": "וַיִּשְׁלַ֤ח", "transliteral": "way-yiš-laḥ", "traducao_palavra": "e enviou" },
+        { "hebraico": "הַמֶּ֙לֶךְ֙", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "וַיִּקְרָ֣א", "transliteral": "way-yiq-rā", "traducao_palavra": "e chamou" },
+        { "hebraico": "לְשִׁמְעִ֔י", "transliteral": "lə-šim-ʿî", "traducao_palavra": "a Simei" },
+        { "hebraico": "וַיֹּ֣אמער", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "אֵלָ֗יו", "transliteral": "ʾē-lāyw", "traducao_palavra": "a ele" },
+        { "hebraico": "הֲלֹ֨וא", "transliteral": "hă-lô", "traducao_palavra": "acaso não" },
+        { "hebraico": "הִשְׁבַּעְתִּ֣יךָ", "transliteral": "hiš-baʿ-tî-ḵā", "traducao_palavra": "fiz jurar a ti" },
+        { "hebraico": "בַיהוָה֮", "transliteral": "bay-hwāh", "traducao_palavra": "por YHWH" },
+        { "hebraico": "וָאָעִ֣ד", "transliteral": "wā-ʾā-ʿîḏ", "traducao_palavra": "e protestei" },
+        { "hebraico": "בְּךָ֣", "transliteral": "bə-ḵā", "traducao_palavra": "contra ti" },
+        { "hebraico": "לֵאמֹר֒", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "בְּיֹ֨ום", "transliteral": "bə-yôm", "traducao_palavra": "no dia" },
+        { "hebraico": "צֵאתְךָ֗", "transliteral": "ṣê-ṯə-ḵā", "traducao_palavra": "de teu sair" },
+        { "hebraico": "וְהָלַכְתָּ֙", "transliteral": "wə-hā-laḵ-tā", "traducao_palavra": "e ires" },
+        { "hebraico": "אָ֥נֶה", "transliteral": "ʾā-neh", "traducao_palavra": "para lugar" },
+        { "hebraico": "וָאָ֖נָה", "transliteral": "wā-ʾā-nā", "traducao_palavra": "qualquer" },
+        { "hebraico": "יָדֹ֤עַ", "transliteral": "yā-ḏō-aʿ", "traducao_palavra": "certamente" },
+        { "hebraico": "תֵּדַע֙", "transliteral": "tê-ḏaʿ", "traducao_palavra": "saberás" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "מֹ֣ות", "transliteral": "môṯ", "traducao_palavra": "certamente" },
+        { "hebraico": "תָּמ֑וּת", "transliteral": "תָּמ֑וּת", "traducao_palavra": "morrerás" },
+        { "hebraico": "וַתֹּ֧אמֶר", "transliteral": "wat-tō-mer", "traducao_palavra": "e disseste" },
+        { "hebraico": "אֵלַ֛י", "transliteral": "ʾê-lay", "traducao_palavra": "a mim" },
+        { "hebraico": "טֹ֥וב", "transliteral": "ṭôḇ", "traducao_palavra": "boa [é]" },
+        { "hebraico": "הַדָּבָ֖ר", "transliteral": "had-dā-ḇār", "traducao_palavra": "a palavra" },
+        { "hebraico": "שָׁמָֽעְתִּי׃", "transliteral": "šā-mā-ʿat-tî", "traducao_palavra": "[que] ouvi" }
+      ]
+    },
+    "43": {
+      "traducao_completa": "Por que, pois, não guardaste o juramento de YHWH, e o mandamento que te ordenei?",
+      "palavras": [
+        { "hebraico": "וּמַדּ֕וּעַ", "transliteral": "ū-mad-dû-aʿ", "traducao_palavra": "e por que" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "שָׁמַ֔רְתָּ", "transliteral": "šā-mar-tā", "traducao_palavra": "guardaste" },
+        { "hebraico": "אֵ֖ת", "transliteral": "ʾeṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "שְׁבֻעַ֣ת", "transliteral": "šə-ḇu-ʿaṯ", "traducao_palavra": "o juramento de" },
+        { "hebraico": "יְהוָ֑ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וְאֶת־הַמִּצְוָ֖ה", "transliteral": "wə-ʾeṯ-ham-miṣ-wā", "traducao_palavra": "e o mandamento" },
+        { "hebraico": "אֲשֶׁר־צִוִּ֥יתִי", "transliteral": "ʾă-šer-ṣiw-wî-ṯî", "traducao_palavra": "que ordenei" },
+        { "hebraico": "עָלֶֽיךָ׃", "transliteral": "ʿā-le-ḵā", "traducao_palavra": "sobre ti" }
+      ]
+    },
+    "44": {
+      "traducao_completa": "Disse mais o rei a Simei: Tu sabes toda a maldade que o teu coração bem conhece, que fizeste a Davi, meu pai; pelo que YHWH fará recair a tua maldade sobre a tua cabeça.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "הַמֶּ֜לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "אֶל־שִׁמְעִ֗י", "transliteral": "ʾel-šim-ʿî", "traducao_palavra": "a Simei" },
+        { "hebraico": "אַתָּ֤ה", "transliteral": "ʾat-tā", "traducao_palavra": "tu" },
+        { "hebraico": "יָדַ֙עְתָּ֙", "transliteral": "yā-ḏa-ʿtā", "traducao_palavra": "sabes" },
+        { "hebraico": "אֵ֣ת", "transliteral": "ʾeṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "כָּל־הָרָעָה֮", "transliteral": "kāl-hā-rā-ʿā", "traducao_palavra": "toda a maldade" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "יָדַ֣ע", "transliteral": "yā-ḏaʿ", "traducao_palavra": "conhece" },
+        { "hebraico": "לְבָבֶךָ֒", "transliteral": "lə-ḇā-ḇe-ḵā", "traducao_palavra": "teu coração" },
+        { "hebraico": "אֲשֶׁ֥ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "עָשִׂ֖יתָ", "transliteral": "ʿā-śî-ṯā", "traducao_palavra": "fizeste" },
+        { "hebraico": "לְדָוִ֣ד", "transliteral": "lə-ḏā-wiḏ", "traducao_palavra": "a Davi" },
+        { "hebraico": "אָבִ֑י", "transliteral": "ʾā-ḇî", "traducao_palavra": "meu pai" },
+        { "hebraico": "וְהֵשִׁ֧יב", "transliteral": "wə-hê-šîḇ", "traducao_palavra": "e fará voltar" },
+        { "hebraico": "יְהוָ֛ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶת־רָעָתְךָ֖", "transliteral": "ʾeṯ-rā-ʿā-ṯə-ḵā", "traducao_palavra": "a tua maldade" },
+        { "hebraico": "בְּرֹאשֶֽׁךָ׃", "transliteral": "bə-rō-še-ḵā", "traducao_palavra": "na tua cabeça" }
+      ]
+    },
+    "45": {
+      "traducao_completa": "Mas o rei Salomão será abençoado, e o trono de Davi será confirmado perante YHWH para sempre.",
+      "palavras": [
+        { "hebraico": "וְהַמֶּ֥לֶךְ", "transliteral": "wə-ham-me-leḵ", "traducao_palavra": "mas o rei" },
+        { "hebraico": "שְׁלֹמֹ֖ה", "transliteral": "šə-lō-mō", "traducao_palavra": "Salomão" },
+        { "hebraico": "בָּר֑וּךְ", "transliteral": "bā-rûḵ", "traducao_palavra": "[será] abençoado" },
+        { "hebraico": "וְכִסֵּ֣א", "transliteral": "wə-ḵis-sê", "traducao_palavra": "e o trono de" },
+        { "hebraico": "דָוִ֗ד", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "יִהְיֶ֥ה", "transliteral": "yih-yeh", "traducao_palavra": "será" },
+        { "hebraico": "נָכֹ֛ון", "transliteral": "nā-ḵôn", "traducao_palavra": "firme/confirmado" },
+        { "hebraico": "לִפְנֵ֥י", "transliteral": "lip̄-nê", "traducao_palavra": "perante" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "עַד־עֹולָֽם׃", "transliteral": "ʿaḏ-ʿô-lām", "traducao_palavra": "até a eternidade" }
+      ]
+    },
+    "46": {
+      "traducao_completa": "E o rei deu ordem a Benaia, filho de Joiada, o qual saiu, e deu sobre ele, e morreu; assim o reino foi confirmado na mão de Salomão.",
+      "palavras": [
+        { "hebraico": "וַיְצַ֣ו", "transliteral": "way-ṣaw", "traducao_palavra": "e ordenou" },
+        { "hebraico": "הַמֶּ֗לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei" },
+        { "hebraico": "אֶת־בְּנָיָ֙הוּ֙", "transliteral": "ʾeṯ-bə-nā-yā-hû", "traducao_palavra": "a Benaia" },
+        { "hebraico": "בֶּן־יְהֹויָדָ֔ע", "transliteral": "ben-yə-hō-w-yā-ḏāʿ", "traducao_palavra": "filho de Joiada" },
+        { "hebraico": "וַיֵּצֵ֕א", "transliteral": "way-yê-ṣē", "traducao_palavra": "e saiu" },
+        { "hebraico": "וַיִּפְגַּע־בֹּ֖ו", "transliteral": "way-yip̄-gaʿ-bô", "traducao_palavra": "e deu sobre ele" },
+        { "hebraico": "וַיָּמֹ֑ת", "transliteral": "way-yā-mōṯ", "traducao_palavra": "e morreu" },
+        { "hebraico": "וְהַמַּמְלָכָ֥ה", "transliteral": "wə-ham-mam-lā-ḵā", "traducao_palavra": "e o reino" },
+        { "hebraico": "נָכֹ֖ונָה", "transliteral": "nā-ḵô-nā", "traducao_palavra": "foi estabelecido" },
+        { "hebraico": "בְּיַד־שְׁלֹמֹֽה׃", "transliteral": "bə-yaḏ-šə-lō-mō", "traducao_palavra": "na mão de Salomão" }
+      ]
+    }
+  }
+}
