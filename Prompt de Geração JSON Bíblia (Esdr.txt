@@ -1,0 +1,43 @@
+Prompt de Geração JSON Bíblia (Esdras) - v2.2
+🎯 Objetivo
+Gerar os arquivos JSON do livro de Esdras (עֶזְרָא - ʿEzrāʾ), capítulo por capítulo, com foco em equivalência formal absoluta e precisão filológica para estudos acadêmicos.
+📁 Caminho de Saída
+E:\biblia\versao\original\esdras
+📌 Regras de Execução e Continuidade
+Unicidade: Gerar apenas UM capítulo por vez.
+Sequência: Ordem rigorosa (1.json → 10.json). Nunca pular capítulos.
+Nomenclatura: <capitulo>.json.
+Divisão de Arquivos: Se o capítulo for muito extenso, dividir em parte1, parte2, etc., visando compor o arquivo único final.
+📚 Padrões Acadêmicos e Filológicos
+Texto Base: Biblia Hebraica Stuttgartensia (BHS). Seguir rigorosamente o Texto Massorético.
+Transliteração: Padrão SBL Estrito (ex: ʾ, ḇ, ḡ, ḏ, ḥ, ṭ, y, k, l, m, n, s, ʿ, p, ṣ, q, r, ś, š, t).
+Tradução (Equivalência Formal):
+O campo traducao_palavra deve ser a tradução literal, termo por termo.
+Prefixos: Traduzir prefixos (ו, ה, ב, ל, כ) junto à palavra ou indicar a partícula explicitamente.
+Nomes Próprios: Manter a grafia bíblica clássica (ex: Cores em vez de Ciro, se o foco for a fonética, mas aceita-se a forma padrão de tradução se mantida a precisão).
+Proibido: Parafrasear ou usar termos teológicos modernos que fujam do léxico hebraico/aramaico original.
+🧾 Formato e Estrutura do JSON (RFC 8259)
+Campos Proibidos: ❌ strong, ❌ morfologia.
+Estrutura Obrigatória:
+code
+JSON
+{
+  "livro": "Esdras - עֶזְרָא - ʿEzrāʾ",
+  "capítulo": 1,
+  "titulos": {},
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Texto integral da tradução formal...",
+      "palavras": [
+        { "hebraico": "כֹּ֥ה", "transliteral": "kōh", "traducao_palavra": "assim" },
+        { "hebraico": "אָמַ֛ר", "transliteral": "ʾā-mar", "traducao_palavra": "disse" }
+      ]
+    }
+  }
+}
+⚠️ Regras Críticas (NÃO VIOLAR)
+Cada palavra = 1 objeto: Nunca agrupar palavras do texto hebraico em um único objeto de tradução.
+Partículas: Não omitir o significado de preposições, conjunções ou artigos acoplados.
+Pontuação: Manter a pontuação massorética (Silluq, Sof Pasuq ׃) no campo hebraico.
+Consistência: A transliteração deve representar fielmente as vogais (Nequdot) e daguesh.
+Aramaico: Note que partes de Esdras estão em Aramaico Bíblico (4:8–6:18; 7:12–26). Manter o mesmo critério de equivalência formal para esses trechos.

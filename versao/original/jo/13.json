@@ -1,6 +1,349 @@
 {
-  "livro": "Jó - אִיּוֹב - Iyyov",
+  "livro": "Jó - אִיּוֹב - ʾIy-yōḇ",
   "capítulo": 13,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Eis que os meus olhos viram tudo isto, e os meus ouvidos o ouviram e entenderam.",
+      "palavras": [
+        { "hebraico": "הֶן־", "transliteral": "hen-", "traducao_palavra": "Eis que" },
+        { "hebraico": "כֹּ֭ל", "transliteral": "kōl", "traducao_palavra": "tudo" },
+        { "hebraico": "רָאֲתָ֣ה", "transliteral": "rā-ʾă-ṯā", "traducao_palavra": "viu" },
+        { "hebraico": "עֵינִ֑י", "transliteral": "ʿê-nî", "traducao_palavra": "meu olho" },
+        { "hebraico": "שָֽׁמְעָ֥ה", "transliteral": "šā-mə-ʿā", "traducao_palavra": "ouviu" },
+        { "hebraico": "אָ֝זְנִ֗י", "transliteral": "ʾāz-nî", "traducao_palavra": "meu ouvido" },
+        { "hebraico": "וַתָּ֥בֶן", "transliteral": "wat-tā-ḇen", "traducao_palavra": "e entendeu" },
+        { "hebraico": "לָֽהּ׃", "transliteral": "lāh", "traducao_palavra": "[isso]" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Como vós o sabeis, também eu o sei; não vos sou inferior.",
+      "palavras": [
+        { "hebraico": "כְּדַעְתְּכֶ֗ם", "transliteral": "kə-ḏa-ʿtə-ḵem", "traducao_palavra": "Conforme o vosso saber" },
+        { "hebraico": "יָדַ֥עְתִּי", "transliteral": "yā-ḏaʿ-tî", "traducao_palavra": "sei" },
+        { "hebraico": "גַם־", "transliteral": "gam-", "traducao_palavra": "também" },
+        { "hebraico": "אָ֑נִי", "transliteral": "ʾā-nî", "traducao_palavra": "eu" },
+        { "hebraico": "לֹא־", "transliteral": "lō-", "traducao_palavra": "não" },
+        { "hebraico": "נֹפֵ֖ל", "transliteral": "nō-p̄êl", "traducao_palavra": "sou inferior" },
+        { "hebraico": "אָנֹכִ֣י", "transliteral": "ʾā-nō-ḵî", "traducao_palavra": "eu" },
+        { "hebraico": "מִכֶּֽם׃", "transliteral": "mik-kem", "traducao_palavra": "em relação a vós" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Mas eu falaria ao Todo-Poderoso, e quereria arrazoar com Deus.",
+      "palavras": [
+        { "hebraico": "אוּלָ֗ם", "transliteral": "ʾû-lām", "traducao_palavra": "No entanto" },
+        { "hebraico": "אֲנִ֭י", "transliteral": "ʾă-nî", "traducao_palavra": "eu" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "ao" },
+        { "hebraico": "שַׁדַּ֣י", "transliteral": "šad-day", "traducao_palavra": "Todo-Poderoso" },
+        { "hebraico": "אֲדַבֵּ֑ר", "transliteral": "ʾă-ḏab-bêr", "traducao_palavra": "falaria" },
+        { "hebraico": "וְהֹוכֵ֖חַ", "transliteral": "wə-hô-w-ḵê-aḥ", "traducao_palavra": "e argumentar/arrazoar" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "com" },
+        { "hebraico": "אֵ֣ל", "transliteral": "ʾêl", "traducao_palavra": "Deus" },
+        { "hebraico": "אֶחְפָּֽץ׃", "transliteral": "ʾeḥ-pāṣ", "traducao_palavra": "desejaria" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Vós, porém, sois forjadores de mentiras, e todos vós médicos que não valem nada.",
+      "palavras": [
+        { "hebraico": "וְאוּלָ֗ם", "transliteral": "wə-ʾû-lām", "traducao_palavra": "Mas" },
+        { "hebraico": "אַתֶּ֥ם", "transliteral": "ʾat-tem", "traducao_palavra": "vós [sois]" },
+        { "hebraico": "טֹֽפְלֵי־", "transliteral": "ṭō-p̄ə-lê-", "traducao_palavra": "forjadores de/besuntadores de" },
+        { "hebraico": "שָׁ֑קֶר", "transliteral": "šā-qer", "traducao_palavra": "mentira" },
+        { "hebraico": "רֹפְאֵ֖i", "transliteral": "rō-p̄ə-ʾê", "traducao_palavra": "médicos de" },
+        { "hebraico": "אֱלִ֣ל", "transliteral": "ʾĕ-lil", "traducao_palavra": "nada/idolatria" },
+        { "hebraico": "כֻּלְּכֶֽם׃", "transliteral": "kul-lə-ḵem", "traducao_palavra": "todos vós" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Oxalá que vos calásseis de todo, que isso vos seria por sabedoria!",
+      "palavras": [
+        { "hebraico": "מִֽי־", "transliteral": "mî-", "traducao_palavra": "Quem" },
+        { "hebraico": "יִתֵּ֥ן", "transliteral": "yit-tên", "traducao_palavra": "dera [Oxalá]" },
+        { "hebraico": "הַחֲרֵ֣שׁ", "transliteral": "ha-ḥă-rêš", "traducao_palavra": "calando" },
+        { "hebraico": "תַּחֲרִישׁ֑וּן", "transliteral": "ta-ḥă-rî-šûn", "traducao_palavra": "vos calásseis" },
+        { "hebraico": "וּתְהִ֥י", "transliteral": "ū-ṯə-hî", "traducao_palavra": "e seria" },
+        { "hebraico": "לָכֶ֝֗ם", "transliteral": "lā-ḵem", "traducao_palavra": "para vós" },
+        { "hebraico": "לְחָכְמָֽה׃", "transliteral": "lə-ḥā-ḵə-mā", "traducao_palavra": "por sabedoria" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Ouvi agora a minha argumentação, e atendei aos argumentos dos meus lábios.",
+      "palavras": [
+        { "hebraico": "שִׁמְעוּ־", "transliteral": "šim-ʿû-", "traducao_palavra": "Ouvi" },
+        { "hebraico": "נָ֥א", "transliteral": "nā", "traducao_palavra": "agora/rogo" },
+        { "hebraico": "תֹוכַחְתִּ֑י", "transliteral": "ṯō-w-ḵaḥ-tî", "traducao_palavra": "minha defesa/repreensão" },
+        { "hebraico": "וְרִבֹ֖ות", "transliteral": "wə-ri-ḇō-wṯ", "traducao_palavra": "e aos argumentos de" },
+        { "hebraico": "שְׂפָתַ֣י", "transliteral": "śə-p̄ā-ṯay", "traducao_palavra": "meus lábios" },
+        { "hebraico": "הַקְשִֽׁיבוּ׃", "transliteral": "haq-šî-ḇū", "traducao_palavra": "atendei" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Porventura por Deus falareis perversidade, e por ele falareis engano?",
+      "palavras": [
+        { "hebraico": "הַלְאֵ֥ל", "transliteral": "ha-lə-ʾêl", "traducao_palavra": "Acaso por Deus" },
+        { "hebraico": "תְּדַבְּר֧וּ", "transliteral": "tə-ḏab-bə-rû", "traducao_palavra": "falareis" },
+        { "hebraico": "עַוְלָה֑", "transliteral": "ʿaw-lā", "traducao_palavra": "injustiça/perversidade" },
+        { "hebraico": "וְלֹ֝ו", "transliteral": "wə-lô", "traducao_palavra": "e por Ele" },
+        { "hebraico": "תְּדַבְּר֥וּ", "transliteral": "tə-ḏab-bə-rû", "traducao_palavra": "falareis" },
+        { "hebraico": "רְמִיָּֽה׃", "transliteral": "rə-mî-yā", "traducao_palavra": "engano/fraude" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Fareis acepção da sua pessoa? Contendereis por Deus?",
+      "palavras": [
+        { "hebraico": "הֲפָנָ֥יו", "transliteral": "hă-p̄ā-nāyw", "traducao_palavra": "Acaso a face d'Ele" },
+        { "hebraico": "תִּשָּׂא֑וּן", "transliteral": "tiś-śā-ʾûn", "traducao_palavra": "favorecereis/fareis acepção?" },
+        { "hebraico": "אִם־", "transliteral": "ʾim-", "traducao_palavra": "ou" },
+        { "hebraico": "לָ֝אֵ֗ל", "transliteral": "lā-ʾêl", "traducao_palavra": "por Deus" },
+        { "hebraico": "תְּרִיבֽוּן׃", "transliteral": "tə-rî-ḇūn", "traducao_palavra": "contendereis?" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Ser-vos-ia bom, se ele vos esquadrinhasse? Ou zombareis dele, como se zomba de um homem?",
+      "palavras": [
+        { "hebraico": "הֲטֹ֣וב", "transliteral": "hă-ṭôḇ", "traducao_palavra": "Seria bom" },
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "que" },
+        { "hebraico": "יַחְקֹ֣ר", "transliteral": "yaḥ-qōr", "traducao_palavra": "Ele esquadrinhasse" },
+        { "hebraico": "אֶתְכֶ֑ם", "transliteral": "ʾeṯ-ḵem", "traducao_palavra": "a vós?" },
+        { "hebraico": "אִם־", "transliteral": "ʾim-", "traducao_palavra": "Ou" },
+        { "hebraico": "כְּהָתֵ֥ל", "transliteral": "kə-hā-ṯêl", "traducao_palavra": "como quem engana" },
+        { "hebraico": "בֶּאֱנֹ֗ושׁ", "transliteral": "be-ʾĕ-nō-wš", "traducao_palavra": "a um homem" },
+        { "hebraico": "תָּהֵ֥לּוּ", "transliteral": "tā-hêl-lû", "traducao_palavra": "enganareis/zombareis" },
+        { "hebraico": "בֹֽו׃", "transliteral": "bô", "traducao_palavra": "d'Ele?" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Certamente vos repreenderá, se em secreto fizerdes acepção de pessoas.",
+      "palavras": [
+        { "hebraico": "הֹוכֵ֣חַ", "transliteral": "hô-w-ḵê-aḥ", "traducao_palavra": "Repreender" },
+        { "hebraico": "יֹוכִ֣יחַ", "transliteral": "yô-w-ḵî-aḥ", "traducao_palavra": "certamente repreenderá" },
+        { "hebraico": "אֶתְכֶ֑ם", "transliteral": "ʾeṯ-ḵem", "traducao_palavra": "a vós" },
+        { "hebraico": "אִם־", "transliteral": "ʾim-", "traducao_palavra": "se" },
+        { "hebraico": "בַּ֝סֵּ֗תֶר", "transliteral": "bas-śê-ṯer", "traducao_palavra": "em segredo" },
+        { "hebraico": "פָּנִ֥ים", "transliteral": "pā-nîm", "traducao_palavra": "faces/pessoas" },
+        { "hebraico": "תִּשָּׂאֽוּן׃", "transliteral": "tiś-śā-ʾûn", "traducao_palavra": "favorecerdes" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Porventura não vos espantará a sua excelência, e não cairá sobre vós o seu terror?",
+      "palavras": [
+        { "hebraico": "הֲלֹ֣א", "transliteral": "hă-lō", "traducao_palavra": "Acaso não" },
+        { "hebraico": "שְׂ֭אֵתֹו", "transliteral": "śə-ʾê-ṯô", "traducao_palavra": "Sua majestade/excelência" },
+        { "hebraico": "תְּבַעֵ֣ת", "transliteral": "tə-ḇa-ʿêṯ", "traducao_palavra": "vos aterrorizará?" },
+        { "hebraico": "אֶתְכֶ֑ם", "transliteral": "ʾeṯ-ḵem", "traducao_palavra": "[unidades]" },
+        { "hebraico": "וּ֝פַחְדֹּ֗ו", "transliteral": "ū-p̄aḥ-dô", "traducao_palavra": "e o temor d'Ele" },
+        { "hebraico": "יִפֹּ֥ל", "transliteral": "yip-pōl", "traducao_palavra": "cairá" },
+        { "hebraico": "עֲלֵיכֶֽם׃", "transliteral": "ʿă-lê-ḵem", "traducao_palavra": "sobre vós" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "As vossas memórias são como provérbios de cinza; os vossos baluartes como baluartes de lodo.",
+      "palavras": [
+        { "hebraico": "זִֽכְרֹנֵיכֶ֗ם", "transliteral": "ziḵ-rō-nê-ḵem", "traducao_palavra": "Vossas sentenças/memórias" },
+        { "hebraico": "מִשְׁלֵי־", "transliteral": "miš-lê-", "traducao_palavra": "[são] provérbios de" },
+        { "hebraico": "אֵ֥פֶר", "transliteral": "ʾê-p̄er", "traducao_palavra": "cinza" },
+        { "hebraico": "לְגַבֵּי־", "transliteral": "lə-ḡab-bê-", "traducao_palavra": "como baluartes de" },
+        { "hebraico": "חֹ֝֗מֶר", "transliteral": "ḥō-mer", "traducao_palavra": "barro" },
+        { "hebraico": "גַּבֵּיכֶֽם׃", "transliteral": "gab-bê-ḵem", "traducao_palavra": "vossas defesas" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Calai-vos perante mim, e falarei eu, e venha sobre mim o que vier.",
+      "palavras": [
+        { "hebraico": "הַחֲרִ֣ישׁוּ", "transliteral": "ha-ḥă-rî-šū", "traducao_palavra": "Calai-vos" },
+        { "hebraico": "מִמֶּ֣נִּי", "transliteral": "mim-men-nî", "traducao_palavra": "perante mim" },
+        { "hebraico": "וַאֲדַבְּרָה־", "transliteral": "wa-ʾă-ḏab-bə-rā-", "traducao_palavra": "e falarei" },
+        { "hebraico": "אָ֑נִי", "transliteral": "ʾā-nî", "traducao_palavra": "eu" },
+        { "hebraico": "וְיַעֲבֹ֖ר", "transliteral": "wə-ya-ʿă-ḇōr", "traducao_palavra": "e passe/venha" },
+        { "hebraico": "עָלַ֣י", "transliteral": "ʿā-lay", "traducao_palavra": "sobre mim" },
+        { "hebraico": "מָֽה׃", "transliteral": "mā", "traducao_palavra": "o que [vier]" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Por que razão tomaria eu a minha carne com os dentes, e poria a minha vida na minha mão?",
+      "palavras": [
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "Por" },
+        { "hebraico": "מָ֭ה", "transliteral": "mā", "traducao_palavra": "que [razão]" },
+        { "hebraico": "אֶשָּׂ֣א", "transliteral": "ʾeś-śā", "traducao_palavra": "levaria eu" },
+        { "hebraico": "בְשָׂרִ֣י", "transliteral": "ḇə-śā-rî", "traducao_palavra": "minha carne" },
+        { "hebraico": "בְשִׁנָּ֑י", "transliteral": "ḇə-šin-nāy", "traducao_palavra": "em meus dentes" },
+        { "hebraico": "וְנַפְשִׁ֝֗י", "transliteral": "wə-nap̄-šî", "traducao_palavra": "e minha vida/alma" },
+        { "hebraico": "אָשִׂ֥ים", "transliteral": "ʾā-śîm", "traducao_palavra": "poria" },
+        { "hebraico": "בְּכַפִּֽי׃", "transliteral": "bə-ḵap-pî", "traducao_palavra": "em minha palma/mão?" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "Ainda que ele me mate, nele esperarei; contudo os meus caminhos defenderei diante dele.",
+      "palavras": [
+        { "hebraico": "הֵ֣ן", "transliteral": "hên", "traducao_palavra": "Eis que" },
+        { "hebraico": "יִ֭קְטְלֵנִי", "transliteral": "yiq-ṭə-lê-nî", "traducao_palavra": "Ele me matará" },
+        { "hebraico": "לו", "transliteral": "lô", "traducao_palavra": "n'Ele" },
+        { "hebraico": "אֲיַחֵ֑ל", "transliteral": "ʾă-ya-ḥêl", "traducao_palavra": "esperarei" },
+        { "hebraico": "אַךְ־", "transliteral": "ʾaḵ-", "traducao_palavra": "contudo" },
+        { "hebraico": "דְּרָכַ֗י", "transliteral": "də-rā-ḵay", "traducao_palavra": "meus caminhos" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "perante" },
+        { "hebraico": "פָּנָ֥יו", "transliteral": "pā-nāyw", "traducao_palavra": "Sua face" },
+        { "hebraico": "אֹוכִֽיחַ׃", "transliteral": "ʾô-w-ḵî-aḥ", "traducao_palavra": "defenderei/justificarei" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Também isto me será por salvação, pois o hipócrita não virá perante ele.",
+      "palavras": [
+        { "hebraico": "הוּא־", "transliteral": "hû-", "traducao_palavra": "Ele" },
+        { "hebraico": "לִ֥י", "transliteral": "lî", "traducao_palavra": "[será] para mim" },
+        { "hebraico": "לִֽישׁוּעָ֑ה", "transliteral": "lî-šû-ʿā", "traducao_palavra": "por salvação" },
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "pois" },
+        { "hebraico": "לֹ֥א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "לְפָנָ֖יו", "transliteral": "lə-p̄ā-nāyw", "traducao_palavra": "perante Ele" },
+        { "hebraico": "חָנֵ֥ף", "transliteral": "ḥā-nêp̄", "traducao_palavra": "um ímpio/hipócrita" },
+        { "hebraico": "יָבֹֽוא׃", "transliteral": "yā-ḇô-w", "traducao_palavra": "virá" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "Ouvi atentamente a minha palavra, e com os vossos ouvidos a minha declaração.",
+      "palavras": [
+        { "hebraico": "שִׁמְע֤וּ", "transliteral": "šim-ʿû", "traducao_palavra": "Ouvi" },
+        { "hebraico": "שָׁמֹ֨ועַ֙", "transliteral": "šā-mô-aʿ", "traducao_palavra": "atentamente" },
+        { "hebraico": "מִלָּתִ֔י", "transliteral": "mil-lā-ṯî", "traducao_palavra": "minha palavra" },
+        { "hebraico": "וְאַחֲוָתִ֖י", "transliteral": "wə-ʾa-ḥă-wā-ṯî", "traducao_palavra": "e minha declaração" },
+        { "hebraico": "בְּאָזְנֵיכֶֽם׃", "transliteral": "bə-ʾāz-nê-ḵem", "traducao_palavra": "em vossos ouvidos" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "Eis que já tenho ordenado a minha causa, e sei que serei justificado.",
+      "palavras": [
+        { "hebraico": "הִנֵּה־", "transliteral": "hin-nê-", "traducao_palavra": "Eis" },
+        { "hebraico": "נָ֭א", "transliteral": "nā", "traducao_palavra": "agora" },
+        { "hebraico": "עָרַ֣כְתִּי", "transliteral": "ʿā-raḵ-tî", "traducao_palavra": "tenho ordenado" },
+        { "hebraico": "מִשְׁפָּ֑ט", "transliteral": "miš-pāṭ", "traducao_palavra": "[minha] causa" },
+        { "hebraico": "יָ֝דַ֗עְתִּי", "transliteral": "yā-ḏaʿ-tî", "traducao_palavra": "sei" },
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "que" },
+        { "hebraico": "אֲנִ֥י", "transliteral": "ʾă-nî", "traducao_palavra": "eu" },
+        { "hebraico": "אֶצְדָּֽק׃", "transliteral": "ʾeṣ-dāq", "traducao_palavra": "serei declarado justo" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "Quem é o que contenderá comigo? Se eu agora me calasse, morreria.",
+      "palavras": [
+        { "hebraico": "מִֽי־", "transliteral": "mî-", "traducao_palavra": "Quem" },
+        { "hebraico": "ה֭וּא", "transliteral": "hû", "traducao_palavra": "[é] ele" },
+        { "hebraico": "יָרִ֣יב", "transliteral": "yā-rîḇ", "traducao_palavra": "[que] contenderá" },
+        { "hebraico": "עִמָּדִ֑י", "transliteral": "ʿim-mā-ḏî", "traducao_palavra": "comigo?" },
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "עַתָּ֖ה", "transliteral": "ʿat-tā", "traducao_palavra": "agora" },
+        { "hebraico": "אַחֲרִ֣ישׁ", "transliteral": "ʾa-ḥă-rîš", "traducao_palavra": "[se] eu me calar" },
+        { "hebraico": "וְאֶגְוָֽע׃", "transliteral": "wə-ʾeḡ-wāʿ", "traducao_palavra": "então morrerei/expirarei" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "Apenas duas coisas não faças para comigo; então não me esconderei do teu rosto:",
+      "palavras": [
+        { "hebraico": "אַךְ־", "transliteral": "ʾaḵ-", "traducao_palavra": "Somente" },
+        { "hebraico": "שְׁ֭תַּיִם", "transliteral": "šə-ta-yim", "traducao_palavra": "duas [coisas]" },
+        { "hebraico": "אַל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "תַּ֣עַשׂ", "transliteral": "ta-ʿaś", "traducao_palavra": "faças" },
+        { "hebraico": "עִמָּדִ֑י", "transliteral": "ʿim-mā-ḏî", "traducao_palavra": "comigo" },
+        { "hebraico": "אָ֥ז", "transliteral": "ʾāz", "traducao_palavra": "então" },
+        { "hebraico": "מִ֝פָּנֶ֗יךָ", "transliteral": "mip-pā-ney-ḵā", "traducao_palavra": "de Tua face" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "אֶסָּתֵֽר׃", "transliteral": "ʾes-śā-ṯêr", "traducao_palavra": "me esconderei" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "Desvia a tua mão de cima de mim, e não me amedronte o teu terror.",
+      "palavras": [
+        { "hebraico": "כַּ֭פְּךָ", "transliteral": "kap-pə-ḵā", "traducao_palavra": "Tua palma/mão" },
+        { "hebraico": "מֵעָלַ֣י", "transliteral": "mê-ʿā-lay", "traducao_palavra": "de sobre mim" },
+        { "hebraico": "הַרְחַ֑ק", "transliteral": "har-ḥaq", "traducao_palavra": "afasta" },
+        { "hebraico": "וְ֝אֵ֥ימָתְךָ", "transliteral": "wə-ʾê-mā-ṯə-ḵā", "traducao_palavra": "e Teu terror/pavor" },
+        { "hebraico": "אַל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "תְּבַעֲתַֽנִי׃", "transliteral": "tə-ḇa-ʿă-ṯā-nî", "traducao_palavra": "me amedronte" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "Depois chama tu, e eu responderei; ou fale eu, e responde-me tu.",
+      "palavras": [
+        { "hebraico": "וּקְרָ֥א", "transliteral": "ū-qə-rā", "traducao_palavra": "E chama" },
+        { "hebraico": "וְאָנֹכִ֥י", "transliteral": "wə-ʾā-nō-ḵî", "traducao_palavra": "e eu" },
+        { "hebraico": "אֶעֱנֶ֑ה", "transliteral": "ʾe-ʿĕ-neh", "traducao_palavra": "responderei" },
+        { "hebraico": "אֹֽו־", "transliteral": "ʾô-", "traducao_palavra": "ou" },
+        { "hebraico": "אֲדַבֵּ֥ר", "transliteral": "ʾă-ḏab-bêr", "traducao_palavra": "falarei" },
+        { "hebraico": "וַהֲשִׁיבֵֽנִי׃", "transliteral": "wa-hă-šî-ḇê-nî", "traducao_palavra": "e responde-me Tu" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "Quantas culpas e pecados tenho eu? Faze-me saber a minha transgressão e o meu pecado.",
+      "palavras": [
+        { "hebraico": "כַּמָּ֣ה", "transliteral": "kam-mā", "traducao_palavra": "Quantas" },
+        { "hebraico": "לִ֭י", "transliteral": "lî", "traducao_palavra": "[tenho] eu" },
+        { "hebraico": "עֲוֹנֹ֣ות", "transliteral": "ʿă-wō-nō-wṯ", "traducao_palavra": "iniquidades" },
+        { "hebraico": "וְחַטָּאֹ֑ות", "transliteral": "wə-ḥaṭ-ṭā-ʾō-wṯ", "traducao_palavra": "e pecados" },
+        { "hebraico": "פִּשְׁעִ֥י", "transliteral": "p̄iš-ʿî", "traducao_palavra": "minha transgressão" },
+        { "hebraico": "וְ֝חַטָּאתִ֗י", "transliteral": "wə-ḥaṭ-ṭā-ṯî", "traducao_palavra": "e meu pecado" },
+        { "hebraico": "הֳֹדִיעֵֽנִי׃", "transliteral": "hō-ḏî-ʿê-nî", "traducao_palavra": "faze-me saber" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "Por que escondes o teu rosto, e me tens por teu inimigo?",
+      "palavras": [
+        { "hebraico": "לָ֤מָּה־", "transliteral": "lām-mā-", "traducao_palavra": "Por que" },
+        { "hebraico": "פָנֶ֣יךָ", "transliteral": "p̄ā-ne-ḵā", "traducao_palavra": "Tua face" },
+        { "hebraico": "תַסְתִּ֑יר", "transliteral": "ṯas-tîr", "traducao_palavra": "escondes?" },
+        { "hebraico": "וְתַחְשְׁבֵ֖נִי", "transliteral": "wə-ṯaḥ-šə-ḇê-nî", "traducao_palavra": "e me consideras" },
+        { "hebraico": "לְאֹויֵ֣i", "transliteral": "lə-ʾô-w-yêḇ", "traducao_palavra": "por inimigo" },
+        { "hebraico": "לָֽךְ׃", "transliteral": "lāḵ", "traducao_palavra": "Teu" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "Acaso quebrantarias uma folha arrebatada pelo vento? E perseguirias a palha seca?",
+      "palavras": [
+        { "hebraico": "הֶעָלֶ֣ה", "transliteral": "he-ʿā-leh", "traducao_palavra": "Acaso uma folha" },
+        { "hebraico": "נִדָּ֣ף", "transliteral": "nid-dāp̄", "traducao_palavra": "arrebatada/impelida" },
+        { "hebraico": "תֳַּעֲרֹ֑וץ", "transliteral": "ta-ʿă-rô-wṣ", "traducao_palavra": "quebrantarias/aterrorizarias?" },
+        { "hebraico": "וְאֶת־", "transliteral": "wə-ʾeṯ-", "traducao_palavra": "e [objeto]" },
+        { "hebraico": "קַ֖שׁ", "transliteral": "qaš", "traducao_palavra": "palha" },
+        { "hebraico": "יָבֵ֣שׁ", "transliteral": "yā-ḇêš", "traducao_palavra": "seca" },
+        { "hebraico": "תִּרְדֹּֽף׃", "transliteral": "tir-dōp̄", "traducao_palavra": "perseguirias?" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "Porque escreves contra mim amarguras, e me fazes herdar as culpas da minha mocidade.",
+      "palavras": [
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "Porque" },
+        { "hebraico": "תִכְתֹּ֣ב", "transliteral": "tiḵ-tōḇ", "traducao_palavra": "escreves" },
+        { "hebraico": "עָלַ֣י", "transliteral": "ʿā-lay", "traducao_palavra": "contra mim" },
+        { "hebraico": "מְרֹרֹ֑ות", "transliteral": "mə-rō-rō-wṯ", "traducao_palavra": "amarguras" },
+        { "hebraico": "וְ֝תֹורִישֵׁ֗נִי", "transliteral": "wə-ṯô-w-rî-šê-nî", "traducao_palavra": "e me fazes herdar" },
+        { "hebraico": "עֲוֹנֹ֥ות", "transliteral": "ʿă-wō-nō-wṯ", "traducao_palavra": "iniquidades de" },
+        { "hebraico": "נְעוּרָֽי׃", "transliteral": "nə-ʿū-rāy", "traducao_palavra": "minha juventude" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "Também pões os meus pés no tronco, e observas todos os meus caminhos, e marcas os limites dos meus pés.",
+      "palavras": [
+        { "hebraico": "וְתָ֘שֵׂ֤ם", "transliteral": "wə-ṯā-śêm", "traducao_palavra": "E pões" },
+        { "hebraico": "בַּסַּ֨ד ׀", "transliteral": "bas-saḏ", "traducao_palavra": "no tronco" },
+        { "hebraico": "רַגְלַ֗י", "transliteral": "raḡ-lay", "traducao_palavra": "meus pés" },
+        { "hebraico": "וְתִשְׁמֹ֥ור", "transliteral": "wə-ṯiš-môr", "traducao_palavra": "e observas" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todas" },
+        { "hebraico": "אָרְחֹותָ֑י", "transliteral": "ʾā-rə-ḥô-w-ṯāy", "traducao_palavra": "minhas veredas" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre" },
+        { "hebraico": "שָׁרְשֵׁ֥i", "transliteral": "šā-rə-šê", "traducao_palavra": "as solas de" },
+        { "hebraico": "רַגְלַ֗י", "transliteral": "raḡ-lay", "traducao_palavra": "meus pés" },
+        { "hebraico": "תִּתְחַקֶּֽה׃", "transliteral": "tiṯ-ḥaq-qeh", "traducao_palavra": "marcas/fazes limite" }
+      ]
+    },
+    "28": {
+      "traducao_completa": "E o homem se consome como a coisa podre, e como a roupa que a traça come.",
+      "palavras": [
+        { "hebraico": "וְ֝הוּא", "transliteral": "wə-hû", "traducao_palavra": "E ele [o homem]" },
+        { "hebraico": "כְּרָקָ֣ב", "transliteral": "kə-rā-qāḇ", "traducao_palavra": "como podridão" },
+        { "hebraico": "יִבְלֶ֑ה", "transliteral": "yib-leh", "traducao_palavra": "se consome/desgasta" },
+        { "hebraico": "כְּ֝בֶ֗גֶד", "transliteral": "kə-ḇe-ḡeḏ", "traducao_palavra": "como veste [que]" },
+        { "hebraico": "אֲכָ֥לֹו", "transliteral": "ʾă-ḵā-lô", "traducao_palavra": "comeu ele" },
+        { "hebraico": "עָֽשׁ׃", "transliteral": "ʿāš", "traducao_palavra": "a traça" }
+      ]
+    }
+  }
 }

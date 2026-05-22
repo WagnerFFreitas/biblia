@@ -1,6 +1,462 @@
 {
-  "livro": "Jó - אִיּוֹב - Iyyov",
+  "livro": "Jó - אִיּוֹב - ʾIy-yōḇ",
   "capítulo": 1,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Havia um homem na terra de Uz, cujo nome era Jó; e era este homem íntegro, reto, temente a Deus e desviava-se do mal.",
+      "palavras": [
+        { "hebraico": "אִ֥ישׁ", "transliteral": "ʾîš", "traducao_palavra": "Um homem" },
+        { "hebraico": "הָיָ֧ה", "transliteral": "hā-yā", "traducao_palavra": "havia" },
+        { "hebraico": "בְאֶֽרֶץ־", "transliteral": "ḇə-ʾe-reṣ-", "traducao_palavra": "na terra de" },
+        { "hebraico": "ע֥וּץ", "transliteral": "ʿûṣ", "traducao_palavra": "Uz" },
+        { "hebraico": "אִיֹּ֣וב", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" },
+        { "hebraico": "שְׁמֹ֑ו", "transliteral": "šə-mô", "traducao_palavra": "[era] seu nome" },
+        { "hebraico": "וְהָיָ֨ה", "transliteral": "wə-hā-yā", "traducao_palavra": "e era" },
+        { "hebraico": "הָאִ֣ישׁ", "transliteral": "hā-ʾîš", "traducao_palavra": "o homem" },
+        { "hebraico": "הַה֡וּא", "transliteral": "ha-hû", "traducao_palavra": "aquele" },
+        { "hebraico": "תָּ֧ם", "transliteral": "tām", "traducao_palavra": "íntegro" },
+        { "hebraico": "וְיָשָׁ֛ר", "transliteral": "wə-yā-šār", "traducao_palavra": "e reto" },
+        { "hebraico": "וִירֵ֥א", "transliteral": "wî-rê", "traducao_palavra": "e temente a" },
+        { "hebraico": "אֱלֹהִ֖ים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "וְסָ֥ר", "transliteral": "wə-sār", "traducao_palavra": "e desviava-se" },
+        { "hebraico": "מֵרָֽע׃", "transliteral": "mê-rāʿ", "traducao_palavra": "do mal" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "E nasceram-lhe sete filhos e três filhas.",
+      "palavras": [
+        { "hebraico": "וַיִּוָּ֥לְדוּ", "transliteral": "way-yiw-wā-lə-ḏû", "traducao_palavra": "E nasceram" },
+        { "hebraico": "לֹ֛ו", "transliteral": "lô", "traducao_palavra": "para ele" },
+        { "hebraico": "שִׁבְעָ֥ה", "transliteral": "šiḇ-ʿā", "traducao_palavra": "sete" },
+        { "hebraico": "בָנִ֖ים", "transliteral": "ḇā-nîm", "traducao_palavra": "filhos" },
+        { "hebraico": "וְשָׁלֹ֥ושׁ", "transliteral": "wə-šā-lō-wš", "traducao_palavra": "e três" },
+        { "hebraico": "בָּנֹֽות׃", "transliteral": "bā-nō-wṯ", "traducao_palavra": "filhas" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "E o seu gado era de sete mil ovelhas, três mil camelos, quinhentas juntas de bois e quinhentas jumentas; e era este homem maior do que todos os do oriente.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֣י", "transliteral": "way-hî", "traducao_palavra": "E foi" },
+        { "hebraico": "מִקְנֵ֡הוּ", "transliteral": "miq-nê-hū", "traducao_palavra": "o seu gado" },
+        { "hebraico": "שִׁבְעַ֣ת", "transliteral": "šiḇ-ʿaṯ", "traducao_palavra": "sete" },
+        { "hebraico": "אַלְפֵי־", "transliteral": "ʾal-p̄ê-", "traducao_palavra": "milhares de" },
+        { "hebraico": "צֹאן֩", "transliteral": "ṣō-wn", "traducao_palavra": "ovelhas" },
+        { "hebraico": "וּשְׁלֹ֨שֶׁת", "transliteral": "ū-šə-lō-šeṯ", "traducao_palavra": "e três" },
+        { "hebraico": "אַלְפֵי֮", "transliteral": "ʾal-p̄ê", "traducao_palavra": "milhares de" },
+        { "hebraico": "גְמַלִּים֒", "transliteral": "ḡə-mal-lîm", "traducao_palavra": "camelos" },
+        { "hebraico": "וַחֲמֵ֨שׁ", "transliteral": "wa-ḥă-mêš", "traducao_palavra": "e quinhentas" },
+        { "hebraico": "מֵאֹ֜ות", "transliteral": "mē-ʾō-wṯ", "traducao_palavra": "[unidades]" },
+        { "hebraico": "צֶמֶד־", "transliteral": "ṣe-meḏ-", "traducao_palavra": "juntas de" },
+        { "hebraico": "בָּקָ֗ר", "transliteral": "bā-qār", "traducao_palavra": "bois" },
+        { "hebraico": "וַחֲמֵ֨שׁ", "transliteral": "wa-ḥă-mêš", "traducao_palavra": "e quinhentas" },
+        { "hebraico": "מֵאֹות֙", "transliteral": "mē-ʾō-wṯ", "traducao_palavra": "[unidades]" },
+        { "hebraico": "אֲתֹונֹ֔ות", "transliteral": "ʾă-ṯō-nō-wṯ", "traducao_palavra": "jumentas" },
+        { "hebraico": "וַעֲבֻדָּ֖ה", "transliteral": "wa-ʿă-ḇud-dā", "traducao_palavra": "e serviço/servidumbre" },
+        { "hebraico": "רַבָּ֣ה", "transliteral": "rab-bā", "traducao_palavra": "muito grande" },
+        { "hebraico": "מְאֹ֑ד", "transliteral": "mə-ʾōḏ", "traducao_palavra": "mesmo" },
+        { "hebraico": "וַיְהִי֙", "transliteral": "way-hî", "traducao_palavra": "e foi" },
+        { "hebraico": "הָאִ֣ישׁ", "transliteral": "hā-ʾîš", "traducao_palavra": "o homem" },
+        { "hebraico": "הַה֔וּא", "transliteral": "ha-hū", "traducao_palavra": "aquele" },
+        { "hebraico": "גָּדֹ֖ול", "transliteral": "gā-ḏō-wl", "traducao_palavra": "maior/grande" },
+        { "hebraico": "מִכָּל־", "transliteral": "mik-kāl-", "traducao_palavra": "do que todos" },
+        { "hebraico": "בְּנֵי־", "transliteral": "bə-nê-", "traducao_palavra": "os filhos do" },
+        { "hebraico": "קֶֽדֶם׃", "transliteral": "qe-ḏem", "traducao_palavra": "oriente" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "E iam seus filhos e faziam banquetes em casa de cada um no seu dia; e enviavam e convidavam as suas três irmãs a comerem e beberem com eles.",
+      "palavras": [
+        { "hebraico": "וְהָלְכ֧וּ", "transliteral": "wə-hā-lə-ḵû", "traducao_palavra": "E iam" },
+        { "hebraico": "בָנָ֛יו", "transliteral": "ḇā-nāyw", "traducao_palavra": "seus filhos" },
+        { "hebraico": "וְעָשׂ֥וּ", "transliteral": "wə-ʿā-śû", "traducao_palavra": "e faziam" },
+        { "hebraico": "מִשְׁתֶּ֖ה", "transliteral": "miš-teh", "traducao_palavra": "banquete" },
+        { "hebraico": "בֵּ֣ית", "transliteral": "bêṯ", "traducao_palavra": "[na] casa de" },
+        { "hebraico": "אִ֣ישׁ", "transliteral": "ʾîš", "traducao_palavra": "cada um" },
+        { "hebraico": "יֹומֹ֑ו", "transliteral": "yō-wmô", "traducao_palavra": "[no] seu dia" },
+        { "hebraico": "וְשָׁלְח֗וּ", "transliteral": "wə-šā-lə-ḥû", "traducao_palavra": "e enviavam" },
+        { "hebraico": "וְקָרְא֚וּ", "transliteral": "wə-qā-rə-ʾû", "traducao_palavra": "e convidavam" },
+        { "hebraico": "לִשְׁלֹ֣שֶׁת", "transliteral": "liš-lō-šeṯ", "traducao_palavra": "as suas três" },
+        { "hebraico": "אַחְיֹתֵיהֶ֔ם", "transliteral": "ʾaḥ-yō-ṯê-hem", "traducao_palavra": "irmãs" },
+        { "hebraico": "לֶאֱכֹ֥ל", "transliteral": "le-ʾĕ-ḵōl", "traducao_palavra": "para comer" },
+        { "hebraico": "וְלִשְׁתֹּ֖ות", "transliteral": "wə-liš-tō-wṯ", "traducao_palavra": "e para beber" },
+        { "hebraico": "עִמָּהֶֽם׃", "transliteral": "ʿim-mā-hem", "traducao_palavra": "com eles" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Sucedeu, pois, que, tendo decorrido o turno de dias de seus banquetes, enviava Jó, e os santificava, e se levantava de madrugada, e oferecia holocaustos segundo o número de todos eles; porque dizia Jó: Porventura pecaram meus filhos, e amaldiçoaram a Deus no seu coração. Assim fazia Jó todos os dias.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֡י", "transliteral": "way-hî", "traducao_palavra": "E aconteceu" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "הִקִּ֩יפוּ֩", "transliteral": "hiq-qî-p̄û", "traducao_palavra": "completavam o ciclo" },
+        { "hebraico": "יְמֵ֨i", "transliteral": "yə-mê", "traducao_palavra": "os dias de" },
+        { "hebraico": "הַמִּשְׁתֶּ֜ה", "transliteral": "ham-miš-teh", "traducao_palavra": "banquete" },
+        { "hebraico": "וַיִּשְׁלַ֧ח", "transliteral": "way-yiš-laḥ", "traducao_palavra": "e enviava" },
+        { "hebraico": "אִיֹּ֣וב", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" },
+        { "hebraico": "וַֽיְקַדְּשֵׁ֗ם", "transliteral": "way-qad-də-šêm", "traducao_palavra": "e santificava-os" },
+        { "hebraico": "וְהִשְׁכִּ֣ים", "transliteral": "wə-hiš-kîm", "traducao_palavra": "e levantava-se cedo" },
+        { "hebraico": "בַּבֹּקֶר֮", "transliteral": "bab-bō-qer", "traducao_palavra": "de manhã" },
+        { "hebraico": "וְהֶעֱלָ֣ה", "transliteral": "wə-he-ʿĕ-lā", "traducao_palavra": "e oferecia" },
+        { "hebraico": "עֹלֹות֮", "transliteral": "ʿō-lō-wṯ", "traducao_palavra": "holocaustos" },
+        { "hebraico": "מִסְפַּ֣ר", "transliteral": "mis-par", "traducao_palavra": "[segundo] o número de" },
+        { "hebraico": "כֻּלָּם֒", "transliteral": "kul-lām", "traducao_palavra": "todos eles" },
+        { "hebraico": "כִּ֚י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "אָמַ֣ר", "transliteral": "ʾā-mar", "traducao_palavra": "dizia" },
+        { "hebraico": "אִיֹּ֔וב", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" },
+        { "hebraico": "אוּלַי֙", "transliteral": "ʾû-lay", "traducao_palavra": "talvez" },
+        { "hebraico": "חָטְא֣וּ", "transliteral": "ḥā-ṭə-ʾû", "traducao_palavra": "pecaram" },
+        { "hebraico": "בָנַ֔י", "transliteral": "ḇā-nay", "traducao_palavra": "meus filhos" },
+        { "hebraico": "וּבֵרֲכ֥וּ", "transliteral": "ū-ḇê-ră-ḵû", "traducao_palavra": "e amaldiçoaram [abençoaram ironicamente]" },
+        { "hebraico": "אֱלֹהִ֖ים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "a Deus" },
+        { "hebraico": "בִּלְבָבָ֑ם", "transliteral": "bil-ḇā-ḇām", "traducao_palavra": "no seu coração" },
+        { "hebraico": "כָּ֛כָה", "transliteral": "kā-ḵā", "traducao_palavra": "assim" },
+        { "hebraico": "יַעֲשֶׂ֥ה", "transliteral": "ya-ʿă-śeh", "traducao_palavra": "fazia" },
+        { "hebraico": "אִיֹּ֖וב", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todos" },
+        { "hebraico": "הַיָּמִֽים׃", "transliteral": "hay-yā-mîm", "traducao_palavra": "os dias" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "E vindo um dia em que os filhos de Deus vieram apresentar-se perante YHWH, veio também Satanás entre eles.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֣י", "transliteral": "way-hî", "traducao_palavra": "E foi" },
+        { "hebraico": "הַיֹּ֔ום", "transliteral": "hay-yō-wm", "traducao_palavra": "o dia" },
+        { "hebraico": "וַיָּבֹ֨אוּ֙", "transliteral": "way-yā-ḇō-ʾū", "traducao_palavra": "e vieram" },
+        { "hebraico": "בְּנֵ֣i", "transliteral": "bə-nê", "traducao_palavra": "os filhos de" },
+        { "hebraico": "הָאֱלֹהִ֔ים", "transliteral": "hā-ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "לְהִתְיַצֵּ֖ב", "transliteral": "lə-hiṯ-yaṣ-ṣêḇ", "traducao_palavra": "para apresentarem-se" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "perante" },
+        { "hebraico": "יְהוָ֑ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וַיָּבֹ֥וא", "transliteral": "way-yā-ḇô-w", "traducao_palavra": "e veio" },
+        { "hebraico": "גַֽם־", "transliteral": "ḡam-", "traducao_palavra": "também" },
+        { "hebraico": "הַשָּׂטָ֖ן", "transliteral": "haś-śā-ṭān", "traducao_palavra": "Satanás" },
+        { "hebraico": "בְּתֹוכָֽם׃", "transliteral": "bə-ṯō-w-ḵām", "traducao_palavra": "no meio deles" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Então YHWH disse a Satanás: De onde vens? E Satanás respondeu a YHWH, e disse: De rodear a terra, e passear por ela.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֧אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "E disse" },
+        { "hebraico": "יְהוָ֛ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "para" },
+        { "hebraico": "הַשָּׂטָ֖ן", "transliteral": "haś-śā-ṭān", "traducao_palavra": "Satanás" },
+        { "hebraico": "מֵאַ֣יִן", "transliteral": "mê-ʾa-yin", "traducao_palavra": "de onde" },
+        { "hebraico": "תָּבֹ֑א", "transliteral": "tā-ḇō", "traducao_palavra": "vens" },
+        { "hebraico": "וַיַּ֨עַן", "transliteral": "way-ya-ʿan", "traducao_palavra": "e respondeu" },
+        { "hebraico": "הַשָּׂטָ֧ן", "transliteral": "haś-śā-ṭān", "traducao_palavra": "Satanás" },
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "[objeto]" },
+        { "hebraico": "יְהוָ֛ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וַיֹּאמַ֕ר", "transliteral": "way-yō-mar", "traducao_palavra": "e disse" },
+        { "hebraico": "מִשּׁ֣וּט", "transliteral": "miš-šû-ṭ", "traducao_palavra": "de rodear" },
+        { "hebraico": "בָּאָ֔רֶץ", "transliteral": "bā-ʾā-reṣ", "traducao_palavra": "na terra" },
+        { "hebraico": "וּמֵהִתְהַלֵּ֖ךְ", "transliteral": "ū-mê-hiṯ-hal-lêḵ", "traducao_palavra": "e de passear" },
+        { "hebraico": "בָּֽהּ׃", "transliteral": "bāh", "traducao_palavra": "nela" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "E disse YHWH a Satanás: Observaste tu a meu servo Jó? Porque ninguém há na terra semelhante a ele, homem íntegro e reto, temente a Deus, e que se desvia do mal.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֤אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "E disse" },
+        { "hebraico": "יְהוָה֙", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "para" },
+        { "hebraico": "הַשָּׂטָ֔ן", "transliteral": "haś-śā-ṭān", "traducao_palavra": "Satanás" },
+        { "hebraico": "הֲשַׂ֥מְתָּ", "transliteral": "hă-śam-tā", "traducao_palavra": "Acaso puseste [atentaste]" },
+        { "hebraico": "לִבְּךָ֖", "transliteral": "lib-bə-ḵā", "traducao_palavra": "teu coração" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre" },
+        { "hebraico": "עַבְדִּ֣י", "transliteral": "ʿaḇ-dî", "traducao_palavra": "meu servo" },
+        { "hebraico": "אִיֹּ֑וב", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "אֵ֤ין", "transliteral": "ʾên", "traducao_palavra": "não há" },
+        { "hebraico": "כָּמֹ֙הוּ֙", "transliteral": "kā-mō-hū", "traducao_palavra": "como ele" },
+        { "hebraico": "בָּאָ֔רֶץ", "transliteral": "bā-ʾā-reṣ", "traducao_palavra": "na terra" },
+        { "hebraico": "אִ֣ישׁ", "transliteral": "ʾîš", "traducao_palavra": "um homem" },
+        { "hebraico": "תָּ֧ם", "transliteral": "tām", "traducao_palavra": "íntegro" },
+        { "hebraico": "וְיָשָׁ֛ר", "transliteral": "wə-yā-šār", "traducao_palavra": "e reto" },
+        { "hebraico": "יְרֵ֥א", "transliteral": "yə-rê", "traducao_palavra": "temente a" },
+        { "hebraico": "אֱלֹהִ֖ים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "וְסָ֥ר", "transliteral": "wə-sār", "traducao_palavra": "e desviava-se" },
+        { "hebraico": "מֵרָֽע׃", "transliteral": "mê-rāʿ", "traducao_palavra": "do mal" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Então respondeu Satanás a YHWH, e disse: Porventura teme Jó a Deus debalde?",
+      "palavras": [
+        { "hebraico": "וַיַּ֧עַן", "transliteral": "way-ya-ʿan", "traducao_palavra": "E respondeu" },
+        { "hebraico": "הַשָּׂטָ֛ן", "transliteral": "haś-śā-ṭān", "traducao_palavra": "Satanás" },
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "[objeto]" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וַיֹּאמַ֑ר", "transliteral": "way-yō-mar", "traducao_palavra": "e disse" },
+        { "hebraico": "הַֽחִנָּ֔ם", "transliteral": "ha-ḥin-nām", "traducao_palavra": "Acaso debalde [por nada]" },
+        { "hebraico": "יָרֵ֥א", "transliteral": "yā-rê", "traducao_palavra": "teme" },
+        { "hebraico": "אִיֹּ֖וב", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" },
+        { "hebraico": "אֱלֹהִֽים׃", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "a Deus" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Porventura não cercaste tu de bens a ele, e a sua casa, e a tudo quanto tem? A obra de suas mãos abençoaste e o seu gado se tem multiplicado na terra.",
+      "palavras": [
+        { "hebraico": "הֲלֹא־", "transliteral": "hă-lō-", "traducao_palavra": "Porventura não" },
+        { "hebraico": "אַ֠תָּה", "transliteral": "ʾat-tā", "traducao_palavra": "Tu" },
+        { "hebraico": "שַׂ֣כְתָּ", "transliteral": "śa-ḵtā", "traducao_palavra": "cercaste" },
+        { "hebraico": "בַעֲדֹ֧ו", "transliteral": "ḇa-ʿă-ḏô", "traducao_palavra": "ao redor dele" },
+        { "hebraico": "וּבְעַד־", "transliteral": "ū-ḇə-ʿaḏ-", "traducao_palavra": "e ao redor de" },
+        { "hebraico": "בֵּיתֹ֛ו", "transliteral": "bê-ṯô", "traducao_palavra": "sua casa" },
+        { "hebraico": "וּבְעַ֥ד", "transliteral": "ū-ḇə-ʿaḏ", "traducao_palavra": "e ao redor de" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "tudo" },
+        { "hebraico": "אֲשֶׁר־", "transliteral": "ʾă-šer-", "traducao_palavra": "que" },
+        { "hebraico": "לֹ֖ו", "transliteral": "lô", "traducao_palavra": "[pertence] a ele" },
+        { "hebraico": "מִסָּבִ֑יב", "transliteral": "mis-śā-ḇîḇ", "traducao_palavra": "em redor" },
+        { "hebraico": "מַעֲשֵׂ֤ה", "transliteral": "ma-ʿă-śê", "traducao_palavra": "a obra de" },
+        { "hebraico": "יָדָיו֙", "transliteral": "yā-ḏāyw", "traducao_palavra": "suas mãos" },
+        { "hebraico": "בֵּרַ֔כְתָּ", "transliteral": "bê-raḵ-tā", "traducao_palavra": "abençoaste" },
+        { "hebraico": "וּמִקְנֵ֖הוּ", "transliteral": "ū-miq-nê-hū", "traducao_palavra": "e o seu gado" },
+        { "hebraico": "פָּרַ֥ץ", "transliteral": "pā-raṣ", "traducao_palavra": "transbordou/multiplicou" },
+        { "hebraico": "בָּאָֽרֶץ׃", "transliteral": "bā-ʾā-reṣ", "traducao_palavra": "na terra" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Mas estende agora a tua mão, e toca-lhe em tudo quanto tem, e verás se não blasfema de ti na tua face!",
+      "palavras": [
+        { "hebraico": "וְאוּלָם֙", "transliteral": "wə-ʾū-lām", "traducao_palavra": "No entanto" },
+        { "hebraico": "שְׁלַֽח־", "transliteral": "šə-laḥ-", "traducao_palavra": "estende" },
+        { "hebraico": "נָ֣א", "transliteral": "nā", "traducao_palavra": "rogo-te" },
+        { "hebraico": "יָֽדְךָ֔", "transliteral": "yā-ḏə-ḵā", "traducao_palavra": "Tua mão" },
+        { "hebraico": "וְגַ֖ע", "transliteral": "wə-ḡaʿ", "traducao_palavra": "e toca" },
+        { "hebraico": "בְּכָל־", "transliteral": "bə-ḵāl-", "traducao_palavra": "em tudo" },
+        { "hebraico": "אֲשֶׁר־", "transliteral": "ʾă-šer-", "traducao_palavra": "que [é]" },
+        { "hebraico": "לֹ֑ו", "transliteral": "lô", "traducao_palavra": "dele" },
+        { "hebraico": "אִם־", "transliteral": "ʾim-", "traducao_palavra": "se" },
+        { "hebraico": "לֹ֥א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre/na" },
+        { "hebraico": "פָּנֶ֖יךָ", "transliteral": "pā-ne-ḵā", "traducao_palavra": "Tua face" },
+        { "hebraico": "יְבָרֲכֶֽךָּ׃", "transliteral": "yə-ḇā-ră-ḵek-kā", "traducao_palavra": "te amaldiçoará [abençoará ironicamente]" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "E disse YHWH a Satanás: Eis que tudo quanto ele tem está na tua mão; somente contra ele não estendas a tua mão. E Satanás saiu da presença de YHWH.",
+      "palavras": [
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "E disse" },
+        { "hebraico": "יְהוָ֜ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "para" },
+        { "hebraico": "הַשָּׂטָ֗ן", "transliteral": "haś-śā-ṭān", "traducao_palavra": "Satanás" },
+        { "hebraico": "הִנֵּ֤ה", "transliteral": "hin-nê", "traducao_palavra": "Eis" },
+        { "hebraico": "כָל־", "transliteral": "ḵāl-", "traducao_palavra": "tudo" },
+        { "hebraico": "אֲשֶׁר־", "transliteral": "ʾă-šer-", "traducao_palavra": "o que [é]" },
+        { "hebraico": "לֹו֙", "transliteral": "lô", "traducao_palavra": "dele" },
+        { "hebraico": "בְּיָדֶ֔ךָ", "transliteral": "bə-yā-ḏe-ḵā", "traducao_palavra": "[está] na tua mão" },
+        { "hebraico": "רַ֣ק", "transliteral": "raq", "traducao_palavra": "somente" },
+        { "hebraico": "אֵלָ֔יו", "transliteral": "ʾê-lāyw", "traducao_palavra": "contra ele [pessoa]" },
+        { "hebraico": "אַל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "תִּשְׁלַ֖ח", "transliteral": "tiš-laḥ", "traducao_palavra": "estendas" },
+        { "hebraico": "יָדֶ֑ךָ", "transliteral": "yā-ḏe-ḵā", "traducao_palavra": "tua mão" },
+        { "hebraico": "וַיֵּצֵא֙", "transliteral": "way-yê-ṣê", "traducao_palavra": "e saiu" },
+        { "hebraico": "הַשָּׂטָ֔ן", "transliteral": "haś-śā-ṭān", "traducao_palavra": "Satanás" },
+        { "hebraico": "מֵעִ֖ם", "transliteral": "mê-ʿim", "traducao_palavra": "de diante de" },
+        { "hebraico": "פְּנֵ֥i", "transliteral": "pə-nê", "traducao_palavra": "a face de" },
+        { "hebraico": "יְהוָֽה׃", "transliteral": "YHWH", "traducao_palavra": "YHWH" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "E sucedeu um dia, em que seus filhos e suas filhas comiam e bebiam vinho, na casa do seu irmão primogênito,",
+      "palavras": [
+        { "hebraico": "וַיְהִ֖י", "transliteral": "way-hî", "traducao_palavra": "E foi" },
+        { "hebraico": "הַיֹּ֑ום", "transliteral": "hay-yō-wm", "traducao_palavra": "o dia" },
+        { "hebraico": "וּבָנָ֨יו", "transliteral": "ū-ḇā-nāyw", "traducao_palavra": "e seus filhos" },
+        { "hebraico": "וּבְנֹתָ֜יו", "transliteral": "ū-ḇə-nō-ṯāyw", "traducao_palavra": "e suas filhas" },
+        { "hebraico": "אֹכְלִ֨ים", "transliteral": "ʾō-ḵə-lîm", "traducao_palavra": "[estavam] comendo" },
+        { "hebraico": "וְשֹׁתִ֥ים", "transliteral": "wə-šō-ṯîm", "traducao_palavra": "e bebendo" },
+        { "hebraico": "יַ֙יִן֙", "transliteral": "ya-yin", "traducao_palavra": "vinho" },
+        { "hebraico": "בְּבֵ֥ית", "transliteral": "bə-ḇêṯ", "traducao_palavra": "na casa de" },
+        { "hebraico": "אֲחִיהֶ֥ם", "transliteral": "ʾă-ḥî-hem", "traducao_palavra": "seu irmão" },
+        { "hebraico": "הַבְּכֹֽור׃", "transliteral": "hab-bə-ḵō-wr", "traducao_palavra": "o primogênito" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Que veio um mensageiro a Jó, e lhe disse: Os bois lavravam, e as jumentas pasciam junto a eles;",
+      "palavras": [
+        { "hebraico": "וּמַלְאָ֛ךְ", "transliteral": "ū-mal-ʾāḵ", "traducao_palavra": "E um mensageiro" },
+        { "hebraico": "בָּ֥א", "transliteral": "bā", "traducao_palavra": "veio" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "para" },
+        { "hebraico": "אִיֹּ֖וב", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" },
+        { "hebraico": "וַיֹּאמַ֑ר", "transliteral": "way-yō-mar", "traducao_palavra": "e disse" },
+        { "hebraico": "הַבָּקָר֙", "transliteral": "hab-bā-qār", "traducao_palavra": "Os bois" },
+        { "hebraico": "הָי֣וּ", "transliteral": "hā-yû", "traducao_palavra": "estavam" },
+        { "hebraico": "חֹרְשֹׁ֔ות", "transliteral": "ḥō-rə-šō-wṯ", "traducao_palavra": "arando" },
+        { "hebraico": "וְהָאֲתֹנֹ֖ות", "transliteral": "wə-hā-ʾă-ṯō-nō-wṯ", "traducao_palavra": "e as jumentas" },
+        { "hebraico": "רֹעֹ֥ות", "transliteral": "rō-ʿō-wṯ", "traducao_palavra": "[estavam] pastando" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "junto a" },
+        { "hebraico": "יְדֵיהֶֽם׃", "transliteral": "yə-ḏê-hem", "traducao_palavra": "eles" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "E deram sobre eles os sabeus, e os tomaram, e aos moços feriram ao fio da espada; e eu somente escapei para te trazer a nova.",
+      "palavras": [
+        { "hebraico": "וַתִּפֹּ֤ל", "transliteral": "wat-tip-pōl", "traducao_palavra": "E caíram [atacaram]" },
+        { "hebraico": "שְׁבָא֙", "transliteral": "šə-ḇā", "traducao_palavra": "Sabá/sabeus" },
+        { "hebraico": "וַתִּקָּחֵ֔ם", "transliteral": "wat-tiq-qā-ḥêm", "traducao_palavra": "e tomaram-nos" },
+        { "hebraico": "וְאֶת־", "transliteral": "wə-ʾeṯ-", "traducao_palavra": "e [objeto]" },
+        { "hebraico": "הַנְּעָרִ֖ים", "transliteral": "han-nə-ʿā-rîm", "traducao_palavra": "os moços" },
+        { "hebraico": "הִכּ֣וּ", "transliteral": "hik-kû", "traducao_palavra": "feriram" },
+        { "hebraico": "לְפִי־", "transliteral": "lə-p̄î-", "traducao_palavra": "ao fio de" },
+        { "hebraico": "חָ֑רֶב", "transliteral": "ḥā-reḇ", "traducao_palavra": "espada" },
+        { "hebraico": "וָאִמָּלְטָ֧ה", "transliteral": "wā-ʾim-mā-lə-ṭā", "traducao_palavra": "e escapei" },
+        { "hebraico": "רַק־", "transliteral": "raq-", "traducao_palavra": "apenas" },
+        { "hebraico": "אֲנִ֛י", "transliteral": "ʾă-nî", "traducao_palavra": "eu" },
+        { "hebraico": "לְבַדִּ֖י", "transliteral": "lə-ḇad-dî", "traducao_palavra": "sozinho" },
+        { "hebraico": "לְהַגִּ֥יד", "transliteral": "lə-hag-gîḏ", "traducao_palavra": "para contar" },
+        { "hebraico": "לָֽךְ׃", "transliteral": "lāḵ", "traducao_palavra": "a ti" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Estando este ainda falando, veio outro e disse: Fogo de Deus caiu do céu, e queimou as ovelhas e os moços, e os consumiu; e eu somente escapei para te trazer a nova.",
+      "palavras": [
+        { "hebraico": "עֹ֣וד", "transliteral": "ʿô-wḏ", "traducao_palavra": "Ainda" },
+        { "hebraico": "זֶ֣ה", "transliteral": "zeh", "traducao_palavra": "este" },
+        { "hebraico": "מְדַבֵּ֗ר", "transliteral": "mə-ḏab-bêr", "traducao_palavra": "[estava] falando" },
+        { "hebraico": "וְזֶ֨ה", "transliteral": "wə-zeh", "traducao_palavra": "e este" },
+        { "hebraico": "בָּא֙", "transliteral": "bā", "traducao_palavra": "veio" },
+        { "hebraico": "וַיֹּאמַ֔ר", "transliteral": "way-yō-mar", "traducao_palavra": "e disse" },
+        { "hebraico": "אֵ֣שׁ", "transliteral": "ʾêš", "traducao_palavra": "fogo de" },
+        { "hebraico": "אֱלֹהִים֮", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "נָפְלָ֣ה", "transliteral": "nā-p̄ə-lā", "traducao_palavra": "caiu" },
+        { "hebraico": "מִן־", "transliteral": "min-", "traducao_palavra": "desde" },
+        { "hebraico": "הַשָּׁמַיִם֮", "transliteral": "haš-šā-ma-yim", "traducao_palavra": "os céus" },
+        { "hebraico": "וַתִּבְעַ֧ר", "transliteral": "wat-tiḇ-ʿar", "traducao_palavra": "e ardeu" },
+        { "hebraico": "בַּצֹּ֣אן", "transliteral": "baṣ-ṣō-wn", "traducao_palavra": "nas ovelhas" },
+        { "hebraico": "וּבַנְּעָרִ֖ים", "transliteral": "ū-ḇan-nə-ʿā-rîm", "traducao_palavra": "e nos moços" },
+        { "hebraico": "וַתֹּאכְלֵ֑ם", "transliteral": "wat-tō-ḵə-lêm", "traducao_palavra": "e consumiu-os" },
+        { "hebraico": "וָאִמָּלְטָ֧ה", "transliteral": "wā-ʾim-mā-lə-ṭā", "traducao_palavra": "e escapei" },
+        { "hebraico": "רַק־", "transliteral": "raq-", "traducao_palavra": "apenas" },
+        { "hebraico": "אֲנִ֛י", "transliteral": "ʾă-nî", "traducao_palavra": "eu" },
+        { "hebraico": "לְבַדִּ֖י", "transliteral": "lə-ḇad-dî", "traducao_palavra": "sozinho" },
+        { "hebraico": "לְהַגִּ֥יד", "transliteral": "lə-hag-gîḏ", "traducao_palavra": "para contar" },
+        { "hebraico": "לָֽךְ׃", "transliteral": "lāḵ", "traducao_palavra": "a ti" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "Estando este ainda falando, veio outro e disse: Ordenando os caldeus três bandos, deram sobre os camelos, e os tomaram, e aos moços feriram ao fio da espada; e eu somente escapei para te trazer a nova.",
+      "palavras": [
+        { "hebraico": "עֹ֣וד", "transliteral": "ʿô-wḏ", "traducao_palavra": "Ainda" },
+        { "hebraico": "זֶ֣ה", "transliteral": "zeh", "traducao_palavra": "este" },
+        { "hebraico": "מְדַבֵּ֗ר", "transliteral": "mə-ḏab-bêr", "traducao_palavra": "[estava] falando" },
+        { "hebraico": "וְזֶ֨ה", "transliteral": "wə-zeh", "traducao_palavra": "e este" },
+        { "hebraico": "בָּא֙", "transliteral": "bā", "traducao_palavra": "veio" },
+        { "hebraico": "וַיֹּאמַ֔ר", "transliteral": "way-yō-mar", "traducao_palavra": "e disse" },
+        { "hebraico": "כַּשְׂדִּ֞ים", "transliteral": "kaś-dîm", "traducao_palavra": "Os caldeus" },
+        { "hebraico": "שָׂ֣מוּ", "transliteral": "śā-mû", "traducao_palavra": "formaram" },
+        { "hebraico": "שְׁלֹשָׁ֣ה", "transliteral": "šə-lō-šā", "traducao_palavra": "três" },
+        { "hebraico": "רָאשִׁ֗ים", "transliteral": "rā-šîm", "traducao_palavra": "bandos/cabeças" },
+        { "hebraico": "וַֽיִּפְשְׁט֤וּ", "transliteral": "way-yip̄-šə-ṭû", "traducao_palavra": "e atacaram" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre" },
+        { "hebraico": "הַגְּמַלִּים֙", "transliteral": "ha-ḡə-mal-lîm", "traducao_palavra": "os camelos" },
+        { "hebraico": "וַיִּקָּח֔וּם", "transliteral": "way-yiq-qā-ḥûm", "traducao_palavra": "e tomaram-nos" },
+        { "hebraico": "וְאֶת־", "transliteral": "wə-ʾeṯ-", "traducao_palavra": "e [objeto]" },
+        { "hebraico": "הַנְּעָרִ֖ים", "transliteral": "han-nə-ʿā-rîm", "traducao_palavra": "os moços" },
+        { "hebraico": "הִכּ֣וּ", "transliteral": "hik-kû", "traducao_palavra": "feriram" },
+        { "hebraico": "לְפִי־", "transliteral": "lə-p̄î-", "traducao_palavra": "ao fio de" },
+        { "hebraico": "חָ֑רֶב", "transliteral": "ḥā-reḇ", "traducao_palavra": "espada" },
+        { "hebraico": "וָאִמָּלְטָ֧ה", "transliteral": "wā-ʾim-mā-lə-ṭā", "traducao_palavra": "e escapei" },
+        { "hebraico": "רַק־", "transliteral": "raq-", "traducao_palavra": "apenas" },
+        { "hebraico": "אֲנִ֛י", "transliteral": "ʾă-nî", "traducao_palavra": "eu" },
+        { "hebraico": "לְבַדִּ֖י", "transliteral": "lə-ḇad-dî", "traducao_palavra": "sozinho" },
+        { "hebraico": "לְהַגִּ֥יד", "transliteral": "lə-hag-gîḏ", "traducao_palavra": "para contar" },
+        { "hebraico": "לָֽךְ׃", "transliteral": "lāḵ", "traducao_palavra": "a ti" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "Ainda este falando, veio outro e disse: Estando teus filhos e tuas filhas comendo e bebendo vinho, em casa de seu irmão primogênito,",
+      "palavras": [
+        { "hebraico": "עַ֚ד", "transliteral": "ʿaḏ", "traducao_palavra": "Enquanto" },
+        { "hebraico": "זֶ֣ה", "transliteral": "zeh", "traducao_palavra": "este" },
+        { "hebraico": "מְדַבֵּ֗ר", "transliteral": "mə-ḏab-bêr", "traducao_palavra": "[estava] falando" },
+        { "hebraico": "וְזֶ֨ה", "transliteral": "wə-zeh", "traducao_palavra": "e este" },
+        { "hebraico": "בָּא֙", "transliteral": "bā", "traducao_palavra": "veio" },
+        { "hebraico": "וַיֹּאמַ֑ר", "transliteral": "way-yō-mar", "traducao_palavra": "e disse" },
+        { "hebraico": "בָּנֶ֨יךָ", "transliteral": "bā-ne-ḵā", "traducao_palavra": "teus filhos" },
+        { "hebraico": "וּבְנֹותֶ֜יךָ", "transliteral": "ū-ḇə-nō-ṯe-ḵā", "traducao_palavra": "e tuas filhas" },
+        { "hebraico": "אֹכְלִ֨ים", "transliteral": "ʾō-ḵə-lîm", "traducao_palavra": "[estavam] comendo" },
+        { "hebraico": "וְשֹׁתִ֥ים", "transliteral": "wə-šō-ṯîm", "traducao_palavra": "e bebendo" },
+        { "hebraico": "יַ֙יִן֙", "transliteral": "ya-yin", "traducao_palavra": "vinho" },
+        { "hebraico": "בְּבֵ֥ית", "transliteral": "bə-ḇêṯ", "traducao_palavra": "na casa de" },
+        { "hebraico": "אֲחִיהֶ֖ם", "transliteral": "ʾă-ḥî-hem", "traducao_palavra": "seu irmão" },
+        { "hebraico": "הַבְּכֹֽור׃", "transliteral": "hab-bə-ḵō-wr", "traducao_palavra": "o primogênito" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "Eis que um grande vento sobreveio do além do deserto, e deu nos quatro cantos da casa, a qual caiu sobre os jovens, e morreram; e eu somente escapei para te trazer a nova.",
+      "palavras": [
+        { "hebraico": "וְהִנֵּ֨ה", "transliteral": "wə-hin-nê", "traducao_palavra": "E eis que" },
+        { "hebraico": "ר֨וּחַ", "transliteral": "rû-aḥ", "traducao_palavra": "um vento" },
+        { "hebraico": "גְּדֹולָ֜ה", "transliteral": "ḡə-ḏō-lā", "traducao_palavra": "grande" },
+        { "hebraico": "בָּ֣אָה", "transliteral": "bā-ʾā", "traducao_palavra": "veio" },
+        { "hebraico": "מֵעֵ֣בֶר", "transliteral": "mê-ʿê-ḇer", "traducao_palavra": "de além de" },
+        { "hebraico": "הַמִּדְבָּ֗ר", "transliteral": "ham-miḏ-bār", "traducao_palavra": "o deserto" },
+        { "hebraico": "וַיִּגַּע֮", "transliteral": "way-yig-gaʿ", "traducao_palavra": "e atingiu" },
+        { "hebraico": "בְּאַרְבַּ֣ע", "transliteral": "bə-ʾar-baʿ", "traducao_palavra": "os quatro" },
+        { "hebraico": "פִּנֹּ֣ות", "transliteral": "pin-nō-wṯ", "traducao_palavra": "cantos de" },
+        { "hebraico": "הַבַּיִת֒", "transliteral": "hab-ba-yit", "traducao_palavra": "a casa" },
+        { "hebraico": "וַיִּפֹּ֤ל", "transliteral": "way-yip-pōl", "traducao_palavra": "e ela caiu" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre" },
+        { "hebraico": "הַנְּעָרִים֙", "transliteral": "han-nə-ʿā-rîm", "traducao_palavra": "os jovens" },
+        { "hebraico": "וַיָּמ֔וּתוּ", "transliteral": "way-yā-mû-ṯû", "traducao_palavra": "e morreram" },
+        { "hebraico": "וָאִמָּלְטָ֧ה", "transliteral": "wā-ʾim-mā-lə-ṭā", "traducao_palavra": "e escapei" },
+        { "hebraico": "רַק־", "transliteral": "raq-", "traducao_palavra": "apenas" },
+        { "hebraico": "אֲנִ֛י", "transliteral": "ʾă-nî", "traducao_palavra": "eu" },
+        { "hebraico": "לְבַדִּ֖י", "transliteral": "lə-ḇad-dî", "traducao_palavra": "sozinho" },
+        { "hebraico": "לְהַגִּ֥יד", "transliteral": "lə-hag-gîḏ", "traducao_palavra": "para contar" },
+        { "hebraico": "לָֽךְ׃", "transliteral": "lāḵ", "traducao_palavra": "a ti" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "Então Jó se levantou, e rasgou o seu manto, e rapou a sua cabeça, e se lançou em terra, e adorou,",
+      "palavras": [
+        { "hebraico": "וַיָּ֨קָם", "transliteral": "way-yā-qām", "traducao_palavra": "E levantou-se" },
+        { "hebraico": "אִיֹּ֜וב", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" },
+        { "hebraico": "וַיִּקְרַ֣ע", "transliteral": "way-yiq-raʿ", "traducao_palavra": "e rasgou" },
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "[objeto]" },
+        { "hebraico": "מְעִלֹ֗ו", "transliteral": "mə-ʿi-lô", "traducao_palavra": "seu manto" },
+        { "hebraico": "וַיָּ֙גָז֙", "transliteral": "way-yā-ḡāz", "traducao_palavra": "e rapou" },
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "[objeto]" },
+        { "hebraico": "רֹאשֹׁ֔ו", "transliteral": "rō-šô", "traducao_palavra": "sua cabeça" },
+        { "hebraico": "וַיִּפֹּ֥ל", "transliteral": "way-yip-pōl", "traducao_palavra": "e prostrou-se" },
+        { "hebraico": "אַ֖רְצָה", "transliteral": "ʾar-ṣā", "traducao_palavra": "[em] terra" },
+        { "hebraico": "וַיִּשְׁתָּֽחוּ׃", "transliteral": "way-yiš-tā-ḥû", "traducao_palavra": "e adorou" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "E disse: Nu saí do ventre de minha mãe e nu tornarei para lá; YHWH o deu, e YHWH o tomou: bendito seja o nome de YHWH.",
+      "palavras": [
+        { "hebraico": "וַיֹּאמֶר֩", "transliteral": "way-yō-mer", "traducao_palavra": "E disse" },
+        { "hebraico": "עָרֹ֨ם", "transliteral": "ʿā-rōm", "traducao_palavra": "Nu" },
+        { "hebraico": "יָצָ֜תִי", "transliteral": "yā-ṣā-ṯî", "traducao_palavra": "saí" },
+        { "hebraico": "מִבֶּ֣טֶן", "transliteral": "mib-be-ṭen", "traducao_palavra": "do ventre de" },
+        { "hebraico": "אִמִּ֗י", "transliteral": "ʾim-mî", "traducao_palavra": "minha mãe" },
+        { "hebraico": "וְעָרֹם֙", "transliteral": "wə-ʿā-rōm", "traducao_palavra": "e nu" },
+        { "hebraico": "אָשׁ֣וּב", "transliteral": "ʾā-šūḇ", "traducao_palavra": "voltarei" },
+        { "hebraico": "שָׁ֔מָּה", "transliteral": "šām-mā", "traducao_palavra": "para lá" },
+        { "hebraico": "יְהוָ֣ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "נָתַ֔ן", "transliteral": "nā-ṯan", "traducao_palavra": "deu" },
+        { "hebraico": "וִיהוָ֖ה", "transliteral": "wî-hwā", "traducao_palavra": "e YHWH" },
+        { "hebraico": "לָקָ֑ח", "transliteral": "lā-qāḥ", "traducao_palavra": "tomou" },
+        { "hebraico": "יְהִ֛י", "transliteral": "yə-hî", "traducao_palavra": "seja" },
+        { "hebraico": "שֵׁ֥ם", "transliteral": "šêm", "traducao_palavra": "o nome de" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "מְבֹרָֽךְ׃", "transliteral": "mə-ḇō-rāḵ", "traducao_palavra": "bendito" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "Em tudo isto Jó não pecou, nem atribuiu a Deus falta alguma.",
+      "palavras": [
+        { "hebraico": "בְּכָל־", "transliteral": "bə-ḵāl-", "traducao_palavra": "Em toda" },
+        { "hebraico": "זֹ֖את", "transliteral": "zō-wṯ", "traducao_palavra": "esta [coisa]" },
+        { "hebraico": "לֹא־", "transliteral": "lō-", "traducao_palavra": "não" },
+        { "hebraico": "חָטָ֣א", "transliteral": "ḥā-ṭā", "traducao_palavra": "pecou" },
+        { "hebraico": "אִיֹּ֑וב", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" },
+        { "hebraico": "וְלֹא־", "transliteral": "wə-lō-", "traducao_palavra": "e não" },
+        { "hebraico": "נָתַ֥ן", "transliteral": "nā-ṯan", "traducao_palavra": "atribuiu/deu" },
+        { "hebraico": "תִּפְלָ֖ה", "transliteral": "tip̄-lā", "traducao_palavra": "insensatez/falta" },
+        { "hebraico": "לֵאלֹהִֽים׃", "transliteral": "lê-lō-hîm", "traducao_palavra": "a Deus" }
+      ]
+    }
+  }
 }
