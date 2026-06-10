@@ -1,6 +1,203 @@
 {
-  "livro": "Jó - אִיּוֹב - Iyyov",
+  "livro": "Jó - אִיּוֹב - ʾIy-yōḇ",
   "capítulo": 35,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Respondeu mais Eliú, dizendo:",
+      "palavras": [
+        { "hebraico": "וַיַּ֥עַן", "transliteral": "way-ya-ʿan", "traducao_palavra": "E respondeu" },
+        { "hebraico": "אֱלִיה֗וּ", "transliteral": "ʾĕ-lî-hû", "traducao_palavra": "Eliú" },
+        { "hebraico": "וַיֹּאמַֽר׃", "transliteral": "way-yō-mar", "traducao_palavra": "e disse" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Tens por direito dizeres: Maior é a minha justiça do que a de Deus?",
+      "palavras": [
+        { "hebraico": "הֲזֹ֣את", "transliteral": "hă-zōṯ", "traducao_palavra": "Acaso isto" },
+        { "hebraico": "חָשַׁ֣בְתָּ", "transliteral": "ḥā-šaḇ-tā", "traducao_palavra": "consideraste" },
+        { "hebraico": "לְמִשְׁפָּ֑ט", "transliteral": "lə-miš-pāṭ", "traducao_palavra": "por direito/justo?" },
+        { "hebraico": "אָ֝מַ֗רְתָּ", "transliteral": "ʾā-mar-tā", "traducao_palavra": "disseste" },
+        { "hebraico": "צִדְקִ֥י", "transliteral": "ṣiḏ-qî", "traducao_palavra": "[é] minha justiça" },
+        { "hebraico": "מֵאֵֽל׃", "transliteral": "mê-ʾêl", "traducao_palavra": "mais do que a de Deus" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Porque dizes: Que me aproveitaria? Que lucro teria eu mais do que se eu pecara?",
+      "palavras": [
+        { "hebraico": "כִּ֭י", "transliteral": "kî", "traducao_palavra": "Porque" },
+        { "hebraico": "תֹאמַ֥ר", "transliteral": "ṯō-mar", "traducao_palavra": "dizes" },
+        { "hebraico": "מַה־", "transliteral": "mah-", "traducao_palavra": "o que" },
+        { "hebraico": "יִּסְכָּן־", "transliteral": "yis-kān-", "traducao_palavra": "aproveitaria" },
+        { "hebraico": "לָ֑ךְ", "transliteral": "lāḵ", "traducao_palavra": "a ti?" },
+        { "hebraico": "מָה־", "transliteral": "mā-", "traducao_palavra": "o que" },
+        { "hebraico": "אֹ֝ועִיל", "transliteral": "ʾô-w-ʿîl", "traducao_palavra": "lucraria eu" },
+        { "hebraico": "מֵחַטָּאתִֽי׃", "transliteral": "mê-ḥaṭ-ṭā-ṯî", "traducao_palavra": "mais que do meu pecado?" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Eu te darei resposta, a ti e aos teus amigos contigo.",
+      "palavras": [
+        { "hebraico": "אֲנִ֭י", "transliteral": "ʾă-nî", "traducao_palavra": "Eu" },
+        { "hebraico": "אֲשִֽׁיבְךָ֣", "transliteral": "ʾă-šî-ḇə-ḵā", "traducao_palavra": "te responderei" },
+        { "hebraico": "מִלִּ֑ין", "transliteral": "mil-lîn", "traducao_palavra": "com palavras" },
+        { "hebraico": "וְאֶת־", "transliteral": "wə-ʾeṯ-", "traducao_palavra": "e [objeto]" },
+        { "hebraico": "רֵעֶ֥יךָ", "transliteral": "rê-ʿey-ḵā", "traducao_palavra": "[aos] teus amigos" },
+        { "hebraico": "עִמָּֽךְ׃", "transliteral": "ʿim-māḵ", "traducao_palavra": "contigo" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Olha para os céus, e vê; e contempla as nuvens, que são mais altas do que tu.",
+      "palavras": [
+        { "hebraico": "הַבֵּ֣ט", "transliteral": "hab-bêṭ", "traducao_palavra": "Olha" },
+        { "hebraico": "שָׁמַ֣יִם", "transliteral": "šā-ma-yim", "traducao_palavra": "[para os] céus" },
+        { "hebraico": "וּרְאֵ֑ה", "transliteral": "ū-rə-ʾêh", "traducao_palavra": "e vê" },
+        { "hebraico": "וְ֝שׁ֤וּר", "transliteral": "wə-šûr", "traducao_palavra": "e contempla" },
+        { "hebraico": "שְׁחָקִ֗ים", "transliteral": "šə-ḥā-qîm", "traducao_palavra": "as nuvens" },
+        { "hebraico": "גָּבְה֥וּ", "transliteral": "gā-ḇə-hû", "traducao_palavra": "[que] são mais altas" },
+        { "hebraico": "מִמֶּֽךָּ׃", "transliteral": "mim-me-kā", "traducao_palavra": "do que tu" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Se pecares, que efetuarás contra ele? Se as tuas transgressões se multiplicarem, que lhe farás?",
+      "palavras": [
+        { "hebraico": "אִם־", "transliteral": "ʾim-", "traducao_palavra": "Se" },
+        { "hebraico": "חָ֭טָאתָ", "transliteral": "ḥā-ṭā-ṯā", "traducao_palavra": "pecares" },
+        { "hebraico": "מַה־", "transliteral": "mah-", "traducao_palavra": "o que" },
+        { "hebraico": "תִּפְעָל־", "transliteral": "tip̄-ʿāl-", "traducao_palavra": "efetuarás" },
+        { "hebraico": "בֹּ֑ו", "transliteral": "bô", "traducao_palavra": "contra Ele?" },
+        { "hebraico": "וְרַבּ֥וּ", "transliteral": "wə-rab-bû", "traducao_palavra": "e se multiplicarem" },
+        { "hebraico": "פְ֝שָׁעֶ֗יךָ", "transliteral": "p̄ə-šā-ʿey-ḵā", "traducao_palavra": "as tuas transgressões" },
+        { "hebraico": "מַה־", "transliteral": "mah-", "traducao_palavra": "o que" },
+        { "hebraico": "תַּעֲשֶׂה־", "transliteral": "ta-ʿă-śeh-", "traducao_palavra": "farás" },
+        { "hebraico": "לֹּֽו׃", "transliteral": "lô", "traducao_palavra": "a Ele?" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Se fores justo, que lhe darás, ou que receberá ele da tua mão?",
+      "palavras": [
+        { "hebraico": "אִם־", "transliteral": "ʾim-", "traducao_palavra": "Se" },
+        { "hebraico": "צָ֭דַקְתָּ", "transliteral": "ṣā-ḏaq-tā", "traducao_palavra": "fores justo" },
+        { "hebraico": "מַה־", "transliteral": "mah-", "traducao_palavra": "o que" },
+        { "hebraico": "תִּתֶּן־", "transliteral": "tit-ten-", "traducao_palavra": "darás" },
+        { "hebraico": "לֹ֑ו", "transliteral": "lô", "traducao_palavra": "a Ele?" },
+        { "hebraico": "אֹ֥ו", "transliteral": "ʾô", "traducao_palavra": "ou" },
+        { "hebraico": "מַה־", "transliteral": "mah-", "traducao_palavra": "o que" },
+        { "hebraico": "מִּיָּדְךָ֥", "transliteral": "miy-yā-ḏə-ḵā", "traducao_palavra": "da tua mão" },
+        { "hebraico": "יִקָּֽח׃", "transliteral": "yiq-qāḥ", "traducao_palavra": "receberá [Ele]?" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "A tua impiedade pode fazer mal a um homem como tu, e a tua justiça pode aproveitar ao filho do homem.",
+      "palavras": [
+        { "hebraico": "לְאִֽישׁ־", "transliteral": "lə-ʾîš-", "traducao_palavra": "Para um homem" },
+        { "hebraico": "כָּמֹ֥וךָ", "transliteral": "kā-mô-w-ḵā", "traducao_palavra": "como tu" },
+        { "hebraico": "רִשְׁעֶ֑ךָ", "transliteral": "riš-ʿe-ḵā", "traducao_palavra": "[afeta] tua impiedade" },
+        { "hebraico": "וּלְבֶן־", "transliteral": "ū-lə-ḇen-", "traducao_palavra": "e para o filho de" },
+        { "hebraico": "אָ֝דָ֗ם", "transliteral": "ʾā-ḏām", "traducao_palavra": "homem" },
+        { "hebraico": "צִדְקָתֶֽךָ׃", "transliteral": "ṣiḏ-qā-ṯe-ḵā", "traducao_palavra": "[afeta] tua justiça" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Por causa da multidão das opressões eles clamam; gritam por causa do braço dos poderosos.",
+      "palavras": [
+        { "hebraico": "מֵרֹ֣ב", "transliteral": "mê-rōḇ", "traducao_palavra": "Pela multidão de" },
+        { "hebraico": "עֲ֭שׁוּקִים", "transliteral": "ʿă-šû-qîm", "traducao_palavra": "opressões" },
+        { "hebraico": "יַזְעִ֑יקוּ", "transliteral": "yaz-ʿî-qū", "traducao_palavra": "eles clamam" },
+        { "hebraico": "יְ֝שַׁוְּע֗וּ", "transliteral": "yə-šaw-wə-ʿû", "traducao_palavra": "gritam por socorro" },
+        { "hebraico": "מִזְּרֹ֥ועַ", "transliteral": "miz-zə-rô-aʿ", "traducao_palavra": "devido ao braço de" },
+        { "hebraico": "רַבִּֽים׃", "transliteral": "rab-bîm", "traducao_palavra": "muitos/poderosos" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E ninguém diz: Onde está Deus, o meu Criador, que dá canções de louvor na noite?",
+      "palavras": [
+        { "hebraico": "וְלֹֽא־", "transliteral": "wə-lō-", "traducao_palavra": "E não" },
+        { "hebraico": "אָמַ֗ר", "transliteral": "ʾā-mar", "traducao_palavra": "diz [ninguém]" },
+        { "hebraico": "אַ֭יֵּה", "transliteral": "ʾay-yêh", "traducao_palavra": "Onde está" },
+        { "hebraico": "אֱלֹ֣והַּ", "transliteral": "ʾĕ-lō-hwah", "traducao_palavra": "Deus" },
+        { "hebraico": "עֹשָׂ֑י", "transliteral": "ʿō-śāy", "traducao_palavra": "meu Criador" },
+        { "hebraico": "נֹתֵ֥ן", "transliteral": "nō-ṯên", "traducao_palavra": "[que] dá" },
+        { "hebraico": "זְ֝מִרֹ֗ות", "transliteral": "zə-mi-rō-wṯ", "traducao_palavra": "cânticos" },
+        { "hebraico": "בַּלָּֽיְלָה׃", "transliteral": "bal-lā-yə-lā", "traducao_palavra": "na noite" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Que nos ensina mais do que aos animais da terra e nos faz mais sábios do que as aves dos céus?",
+      "palavras": [
+        { "hebraico": "מַ֭לְּפֵנוּ", "transliteral": "mal-lə-p̄ê-nû", "traducao_palavra": "Que nos ensina" },
+        { "hebraico": "מִבַּהֲמֹ֣ות", "transliteral": "mib-ba-hă-mô-wṯ", "traducao_palavra": "mais que aos animais de" },
+        { "hebraico": "אָ֑רֶץ", "transliteral": "ʾā-reṣ", "traducao_palavra": "terra" },
+        { "hebraico": "וּמֵעֹ֖וף", "transliteral": "ū-mê-ʿô-wp̄", "traducao_palavra": "e que das aves de" },
+        { "hebraico": "הַשָּׁמַ֣יִם", "transliteral": "haš-šā-ma-yim", "traducao_palavra": "os céus" },
+        { "hebraico": "יְחַכְּמֵֽנוּ׃", "transliteral": "yə-ḥak-kə-mê-nû", "traducao_palavra": "nos faz sábios" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Ali clamam, porém ele não responde, por causa da soberba dos maus.",
+      "palavras": [
+        { "hebraico": "שָׁ֣ם", "transliteral": "šām", "traducao_palavra": "Ali" },
+        { "hebraico": "יִ֭צְעֲקוּ", "transliteral": "yiṣ-ʿă-qû", "traducao_palavra": "clamam" },
+        { "hebraico": "וְלֹ֣א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "יַעֲנֶ֑ה", "transliteral": "ya-ʿă-neh", "traducao_palavra": "responde [Ele]" },
+        { "hebraico": "מִ֝פְּנֵ֗i", "transliteral": "mip-pə-nê", "traducao_palavra": "por causa de" },
+        { "hebraico": "גְּאֹ֣ון", "transliteral": "gə-ʾô-wn", "traducao_palavra": "a soberba de" },
+        { "hebraico": "רָעִֽים׃", "transliteral": "rā-ʿîm", "traducao_palavra": "maus" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Certamente Deus não ouvirá a vaidade, nem o Todo-Poderoso atentará para ela.",
+      "palavras": [
+        { "hebraico": "אַךְ־", "transliteral": "ʾaḵ-", "traducao_palavra": "Certamente" },
+        { "hebraico": "שָׁ֭וְא", "transliteral": "šā-wə", "traducao_palavra": "[a] falsidade/vaidade" },
+        { "hebraico": "לֹא־", "transliteral": "lō-", "traducao_palavra": "não" },
+        { "hebraico": "יִשְׁמַ֣ע", "transliteral": "yiš-maʿ", "traducao_palavra": "ouvirá" },
+        { "hebraico": "אֵ֑ל", "transliteral": "ʾêl", "traducao_palavra": "Deus" },
+        { "hebraico": "וְ֝שַׁדַּ֗י", "transliteral": "wə-šad-day", "traducao_palavra": "e o Todo-Poderoso" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "יְשׁוּרֶֽנָּה׃", "transliteral": "yə-šû-ren-nā", "traducao_palavra": "atentará para ela" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Quanto menos quando tu dizes que o não vês! A causa está diante dele; por isso espera nele.",
+      "palavras": [
+        { "hebraico": "אַ֬ף", "transliteral": "ʾap̄", "traducao_palavra": "Quanto mais" },
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "quando" },
+        { "hebraico": "תֹאמַ֨ר", "transliteral": "ṯō-mar", "traducao_palavra": "dizes" },
+        { "hebraico": "לֹ֧א", "transliteral": "lō", "traducao_palavra": "[que] não" },
+        { "hebraico": "תְשׁוּרֶ֗נּוּ", "transliteral": "ṯə-šû-ren-nû", "traducao_palavra": "vês a Ele" },
+        { "hebraico": "דִּ֘ין", "transliteral": "dîn", "traducao_palavra": "[a] causa" },
+        { "hebraico": "לְפָנָ֥יו", "transliteral": "lə-p̄ā-nāyw", "traducao_palavra": "[está] diante d'Ele" },
+        { "hebraico": "וּתְחֹ֥ולֵל", "transliteral": "ū-ṯə-ḥô-w-lêl", "traducao_palavra": "e deves esperar" },
+        { "hebraico": "לֹֽו׃", "transliteral": "lô", "traducao_palavra": "por Ele" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "Mas agora, porque a sua ira ainda não puniu, nem ele faz muito caso das transgressões,",
+      "palavras": [
+        { "hebraico": "וְעַתָּה֮", "transliteral": "wə-ʿat-tā", "traducao_palavra": "E agora" },
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "אַ֪יִן֮", "transliteral": "ʾa-yin", "traducao_palavra": "não [há nada/ainda não]" },
+        { "hebraico": "פָּקַ֪ד", "transliteral": "p̄ā-qaḏ", "traducao_palavra": "puniu" },
+        { "hebraico": "אַפֹּ֥ו", "transliteral": "ʾap-pô", "traducao_palavra": "Sua ira" },
+        { "hebraico": "וְלֹא־", "transliteral": "wə-lō-", "traducao_palavra": "e não" },
+        { "hebraico": "יָדַ֖ע", "transliteral": "yā-ḏaʿ", "traducao_palavra": "conheceu/considerou" },
+        { "hebraico": "בַּפַּ֣שׁ", "transliteral": "bap-paš", "traducao_palavra": "na arrogância/transgressão" },
+        { "hebraico": "מְאֹֽד׃", "transliteral": "mə-ʾōḏ", "traducao_palavra": "muito" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Por isso Jó abre a sua boca em vão, e amontoa palavras sem conhecimento.",
+      "palavras": [
+        { "hebraico": "וְ֭אִיֹּוב", "transliteral": "wə-ʾiy-yō-wḇ", "traducao_palavra": "E Jó" },
+        { "hebraico": "הֶ֣בֶל", "transliteral": "he-ḇel", "traducao_palavra": "[em] vaidade" },
+        { "hebraico": "יִפְצֶה־", "transliteral": "yip̄-ṣeh-", "traducao_palavra": "abre" },
+        { "hebraico": "פִּ֑יהוּ", "transliteral": "pî-hū", "traducao_palavra": "sua boca" },
+        { "hebraico": "בִּבְלִי־", "transliteral": "bi-ḇə-lî-", "traducao_palavra": "sem" },
+        { "hebraico": "דַ֝֗עַת", "transliteral": "ḏa-ʿaṯ", "traducao_palavra": "conhecimento" },
+        { "hebraico": "מִלִּ֥ין", "transliteral": "mil-lîn", "traducao_palavra": "palavras" },
+        { "hebraico": "יַכְבִּֽיר׃", "transliteral": "yak-bîr", "traducao_palavra": "multiplica" }
+      ]
+    }
+  }
 }

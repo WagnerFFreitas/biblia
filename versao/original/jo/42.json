@@ -1,6 +1,333 @@
 {
-  "livro": "Jó - אִיּוֹב - Iyyov",
+  "livro": "Jó - אִיּוֹב - ʾIy-yōḇ",
   "capítulo": 42,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Então respondeu Jó a YHWH, e disse:",
+      "palavras": [
+        { "hebraico": "וַיַּ֥עַן", "transliteral": "way-ya-ʿan", "traducao_palavra": "Então respondeu" },
+        { "hebraico": "אִיֹּ֥וב", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" },
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "[a]" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וַיֹּאמַֽר׃", "transliteral": "way-yō-mar", "traducao_palavra": "e disse" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Bem sei eu que tudo podes, e que nenhum dos teus pensamentos pode ser impedido.",
+      "palavras": [
+        { "hebraico": "יָדַ֪עְתִּי", "transliteral": "yā-ḏaʿ-tî", "traducao_palavra": "Sei eu" },
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "que" },
+        { "hebraico": "כֹ֣ל", "transliteral": "ḵōl", "traducao_palavra": "tudo" },
+        { "hebraico": "תּוּכָ֑ל", "transliteral": "tū-ḵāl", "traducao_palavra": "podes" },
+        { "hebraico": "וְלֹא־", "transliteral": "wə-lō-", "traducao_palavra": "e não" },
+        { "hebraico": "יִבָּצֵ֥ר", "transliteral": "yib-bā-ṣêr", "traducao_palavra": "pode ser impedido" },
+        { "hebraico": "מִמְּךָ֖", "transliteral": "mim-mə-ḵā", "traducao_palavra": "de Ti" },
+        { "hebraico": "מְזִמָּֽה׃", "transliteral": "mə-zim-mā", "traducao_palavra": "propósito/plano" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Quem é aquele que sem conhecimento encobre o conselho? Por isso falei do que não entendia; coisas que para mim eram maravilhosas demais, e que eu não compreendia.",
+      "palavras": [
+        { "hebraico": "מִ֤י", "transliteral": "mî", "traducao_palavra": "Quem" },
+        { "hebraico": "זֶ֨ה", "transliteral": "zeh", "traducao_palavra": "[é] este [que]" },
+        { "hebraico": "מַעְלִ֧ים", "transliteral": "ma-ʿəlîm", "traducao_palavra": "encobre" },
+        { "hebraico": "עֵצָ֛ה", "transliteral": "ʿê-ṣā", "traducao_palavra": "[o] conselho" },
+        { "hebraico": "בְּבְלִי־", "transliteral": "bə-ḇə-lî-", "traducao_palavra": "sem" },
+        { "hebraico": "דָ֑עַת", "transliteral": "ḏā-ʿaṯ", "traducao_palavra": "conhecimento" },
+        { "hebraico": "לָכֵ֣ן", "transliteral": "lā-ḵên", "traducao_palavra": "Portanto" },
+        { "hebraico": "הִגַּ֭דְתִּי", "transliteral": "hig-gaḏ-tî", "traducao_palavra": "falei/declarei" },
+        { "hebraico": "וְלֹ֣א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "אָבִ֑ין", "transliteral": "ʾā-ḇîn", "traducao_palavra": "entendia" },
+        { "hebraico": "נִפְלָאֹ֥ות", "transliteral": "nip̄-lā-ʾô-wṯ", "traducao_palavra": "maravilhas" },
+        { "hebraico": "מִמֶּ֗נִּי", "transliteral": "mim-men-nî", "traducao_palavra": "para mim" },
+        { "hebraico": "וְלֹ֣א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "אֵדָֽע׃", "transliteral": "ʾê-ḏāʿ", "traducao_palavra": "compreendia" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Ouve, rogo-te, e eu falarei; eu te perguntarei, e tu ensina-me.",
+      "palavras": [
+        { "hebraico": "שְׁמַֽע־", "transliteral": "šə-maʿ-", "traducao_palavra": "Ouve" },
+        { "hebraico": "נָ֭א", "transliteral": "nā", "traducao_palavra": "rogo-te/agora" },
+        { "hebraico": "וְאָנֹכִ֣י", "transliteral": "wə-ʾā-nō-ḵî", "traducao_palavra": "e eu" },
+        { "hebraico": "אֲדַבֵּ֑ר", "transliteral": "ʾă-ḏab-bêr", "traducao_palavra": "falarei" },
+        { "hebraico": "אֶ֝שְׁאָלְךָ֗", "transliteral": "ʾeš-ʾā-lə-ḵā", "traducao_palavra": "perguntar-te-ei" },
+        { "hebraico": "וְהֹודִיעֵֽנִי׃", "transliteral": "wə-hō-w-ḏî-ʿê-nî", "traducao_palavra": "e ensina-me/declara-me" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Com o ouvir dos meus ouvidos ouvi, mas agora te veem os meus olhos.",
+      "palavras": [
+        { "hebraico": "לְשֵֽׁמַע־", "transliteral": "lə-šê-maʿ-", "traducao_palavra": "Pelo ouvir de" },
+        { "hebraico": "אֹ֥זֶן", "transliteral": "ʾō-zen", "traducao_palavra": "ouvido" },
+        { "hebraico": "שְׁמַעְתִּ֑יךָ", "transliteral": "šə-maʿ-tî-ḵā", "traducao_palavra": "ouvi a Ti" },
+        { "hebraico": "וְ֝עַתָּ֗ה", "transliteral": "wə-ʿat-tā", "traducao_palavra": "e agora" },
+        { "hebraico": "עֵינִ֥י", "transliteral": "ʿê-nî", "traducao_palavra": "meu olho" },
+        { "hebraico": "רָאָֽתְךָ׃", "transliteral": "rā-ʾā-ṯə-ḵā", "traducao_palavra": "vê a Ti" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Por isso me abomino e me arrependo no pó e na cinza.",
+      "palavras": [
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "Por" },
+        { "hebraico": "כֵּ֭ן", "transliteral": "kên", "traducao_palavra": "isso" },
+        { "hebraico": "אֶמְאַ֣ס", "transliteral": "ʾem-ʾas", "traducao_palavra": "me abomino/rejeito" },
+        { "hebraico": "וְנִחַ֖מְתִּי", "transliteral": "wə-ni-ḥam-tî", "traducao_palavra": "e arrependo-me" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre" },
+        { "hebraico": "עָפָ֥ר", "transliteral": "ʿā-p̄ār", "traducao_palavra": "pó" },
+        { "hebraico": "וָאֵֽפֶר׃", "transliteral": "wā-ʾê-p̄er", "traducao_palavra": "e cinza" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Sucedeu que, acabando YHWH de falar a Jó aquelas palavras, YHWH disse a Elifaz, o temanita: A minha ira se acendeu contra ti, e contra os teus dois amigos, porque não falastes de mim o que era reto, como o meu servo Jó.",
+      "palavras": [
+        { "hebraico": "וַיְהִ֗י", "transliteral": "way-hî", "traducao_palavra": "E foi" },
+        { "hebraico": "אַחַ֨ר", "transliteral": "ʾa-ḥar", "traducao_palavra": "depois" },
+        { "hebraico": "דִּבֶּ֧ר", "transliteral": "dib-ber", "traducao_palavra": "[de] falar" },
+        { "hebraico": "יְהוָ֛ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "[objeto]" },
+        { "hebraico": "הַדְּבָרִ֥ים", "transliteral": "had-də-ḇā-rîm", "traducao_palavra": "as palavras" },
+        { "hebraico": "הָאֵ֖לֶּה", "transliteral": "hā-ʾêl-leh", "traducao_palavra": "estas" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "a" },
+        { "hebraico": "אִיֹּ֑וב", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" },
+        { "hebraico": "וַיֹּ֨אמֶר", "transliteral": "way-yō-mer", "traducao_palavra": "e disse" },
+        { "hebraico": "יְהוָ֜ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "a" },
+        { "hebraico": "אֱלִיפַ֣ז", "transliteral": "ʾĕ-lî-p̄az", "traducao_palavra": "Elifaz" },
+        { "hebraico": "הַתֵּימָנִ֗י", "transliteral": "hat-tê-mā-nî", "traducao_palavra": "o temanita" },
+        { "hebraico": "חָרָ֨ה", "transliteral": "ḥā-rā", "traducao_palavra": "acendeu-se" },
+        { "hebraico": "אַפִּ֣י", "transliteral": "ʾap-pî", "traducao_palavra": "minha ira" },
+        { "hebraico": "בְךָ֮", "transliteral": "ḇə-ḵā", "traducao_palavra": "em ti" },
+        { "hebraico": "וּבִשְׁנֵ֣i", "transliteral": "ū-ḇiš-nê", "traducao_palavra": "e em teus dois" },
+        { "hebraico": "רֵעֶיךָ֒", "transliteral": "rê-ʿey-ḵā", "traducao_palavra": "amigos" },
+        { "hebraico": "כִּ֧י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "דִבַּרְתֶּ֧ם", "transliteral": "dib-bar-tem", "traducao_palavra": "falastes" },
+        { "hebraico": "אֵלַ֛י", "transliteral": "ʾê-lay", "traducao_palavra": "de Mim" },
+        { "hebraico": "נְכֹונָ֖ה", "transliteral": "nə-ḵô-w-nā", "traducao_palavra": "corretamente" },
+        { "hebraico": "כְּעַבְדִּ֥י", "transliteral": "kə-ʿaḇ-dî", "traducao_palavra": "como o meu servo" },
+        { "hebraico": "אִיֹּֽוב׃", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Agora, pois, tomai sete novilhos e sete carneiros, e ide ao meu servo Jó, e oferecei holocaustos por vós, e o meu servo Jó orará por vós; porque deveras a ele aceitarei, para que eu não vos trate conforme a vossa loucura; porque não falastes de mim o que era reto, como o meu servo Jó.",
+      "palavras": [
+        { "hebraico": "וְעַתָּ֡ה", "transliteral": "wə-ʿat-tā", "traducao_palavra": "E agora" },
+        { "hebraico": "קְחֽוּ־", "transliteral": "qə-ḥû-", "traducao_palavra": "tomai" },
+        { "hebraico": "לָכֶ֣ם", "transliteral": "lā-ḵem", "traducao_palavra": "vós" },
+        { "hebraico": "שִׁבְעָֽה־", "transliteral": "šiḇ-ʿā-", "traducao_palavra": "sete" },
+        { "hebraico": "פָרִים֩", "transliteral": "p̄ā-rîm", "traducao_palavra": "novilhos" },
+        { "hebraico": "וְשִׁבְעָ֨ה", "transliteral": "wə-šiḇ-ʿā", "traducao_palavra": "e sete" },
+        { "hebraico": "אֵילִ֜ים", "transliteral": "ʾê-lîm", "traducao_palavra": "carneiros" },
+        { "hebraico": "וּלְכ֣וּ ׀", "transliteral": "ū-lə-ḵû", "traducao_palavra": "e ide" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "para" },
+        { "hebraico": "עַבְדִּ֣י", "transliteral": "ʿaḇ-dî", "traducao_palavra": "meu servo" },
+        { "hebraico": "אִיֹּ֗וב", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" },
+        { "hebraico": "וְהַעֲלִיתֶ֤ם", "transliteral": "wə-ha-ʿă-lî-ṯem", "traducao_palavra": "e oferecei" },
+        { "hebraico": "עֹולָה֙", "transliteral": "ʿô-lā", "traducao_palavra": "holocausto" },
+        { "hebraico": "בַּֽעַדְכֶ֔ם", "transliteral": "ba-ʿaḏ-ḵem", "traducao_palavra": "por vós" },
+        { "hebraico": "וְאִיֹּ֣וב", "transliteral": "wə-ʾiy-yō-wḇ", "traducao_palavra": "e Jó" },
+        { "hebraico": "עַבְדִּ֔י", "transliteral": "ʿaḇ-dî", "traducao_palavra": "meu servo" },
+        { "hebraico": "יִתְפַּלֵּ֖ל", "transliteral": "yiṯ-pal-lêl", "traducao_palavra": "orará" },
+        { "hebraico": "עֲלֵיכֶ֑ם", "transliteral": "ʿă-lê-ḵem", "traducao_palavra": "sobre/por vós" },
+        { "hebraico": "כִּ֧י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "אִם־", "transliteral": "ʾim-", "traducao_palavra": "somente" },
+        { "hebraico": "פָּנָ֣יו", "transliteral": "pā-nāyw", "traducao_palavra": "face dele" },
+        { "hebraico": "אֶשָּׂ֗א", "transliteral": "ʾeś-śā", "traducao_palavra": "aceitarei" },
+        { "hebraico": "לְבִלְתִּ֞י", "transliteral": "lə-ḇil-tî", "traducao_palavra": "para não" },
+        { "hebraico": "עֲשֹׂ֤ות", "transliteral": "ʿă-śô-wṯ", "traducao_palavra": "fazer" },
+        { "hebraico": "עִמָּכֶם֙", "transliteral": "ʿim-mā-ḵem", "traducao_palavra": "com vós" },
+        { "hebraico": "נְבָלָ֔ה", "transliteral": "nə-ḇā-lā", "traducao_palavra": "[conforme a vossa] loucura" },
+        { "hebraico": "כִּ֠י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "דִבַּرְתֶּ֧ם", "transliteral": "dib-bar-tem", "traducao_palavra": "falastes" },
+        { "hebraico": "אֵלַ֛י", "transliteral": "ʾê-lay", "traducao_palavra": "de Mim" },
+        { "hebraico": "נְכֹונָ֖ה", "transliteral": "nə-ḵô-w-nā", "traducao_palavra": "corretamente" },
+        { "hebraico": "כְּעַבְדִּ֥י", "transliteral": "kə-ʿaḇ-dî", "traducao_palavra": "como o meu servo" },
+        { "hebraico": "אִיֹּֽוב׃", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Então foram Elifaz, o temanita, e Bildade, o suíta, e Zofar, o naamatita, e fizeram como YHWH lhes dissera; e YHWH aceitou a face de Jó.",
+      "palavras": [
+        { "hebraico": "וַיֵּלְכ֡וּ", "transliteral": "way-yê-lə-ḵû", "traducao_palavra": "E foram" },
+        { "hebraico": "אֱלִיפַ֣ז", "transliteral": "ʾĕ-lî-p̄az", "traducao_palavra": "Elifaz" },
+        { "hebraico": "הַתֵּימָנִ֨י", "transliteral": "hat-tê-mā-nî", "traducao_palavra": "o temanita" },
+        { "hebraico": "וּבִלְדַּ֥ד", "transliteral": "ū-ḇil-daḏ", "traducao_palavra": "e Bildade" },
+        { "hebraico": "הַשּׁוּחִ֘י", "transliteral": "haš-šû-ḥî", "traducao_palavra": "o suíta" },
+        { "hebraico": "צֹופַ֪ר", "transliteral": "ṣō-wp̄ar", "traducao_palavra": "[e] Zofar" },
+        { "hebraico": "הַנַּֽעֲמָתִ֫י", "transliteral": "han-na-ʿă-mā-ṯî", "traducao_palavra": "o naamatita" },
+        { "hebraico": "וַיַּֽעֲשּׂוּ֮", "transliteral": "way-ya-ʿă-śû", "traducao_palavra": "e fizeram" },
+        { "hebraico": "כַּאֲשֶׁ֨ר", "transliteral": "ka-ʾă-šer", "traducao_palavra": "conforme" },
+        { "hebraico": "דִּבֶּ֧ר", "transliteral": "dib-ber", "traducao_palavra": "dissera" },
+        { "hebraico": "אֲלֵיהֶ֛ם", "transliteral": "ʾă-lê-hem", "traducao_palavra": "a eles" },
+        { "hebraico": "יְהוָ֑ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וַיִּשָּׂ֥א", "transliteral": "way-yiś-śā", "traducao_palavra": "e aceitou" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "[objeto]" },
+        { "hebraico": "פְּנֵ֥i", "transliteral": "pə-nê", "traducao_palavra": "a face de" },
+        { "hebraico": "אִיֹּֽוב׃", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E YHWH mudou a sorte de Jó, quando orava pelos seus amigos; e YHWH deu a Jó o dobro de tudo quanto antes possuía.",
+      "palavras": [
+        { "hebraico": "וַֽיהוָ֗ה", "transliteral": "way-hwā", "traducao_palavra": "E YHWH" },
+        { "hebraico": "שָׁ֚ב", "transliteral": "šāḇ", "traducao_palavra": "mudou/restaurou" },
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "[objeto]" },
+        { "hebraico": "שְׁבִ֣ית", "transliteral": "šə-ḇîṯ", "traducao_palavra": "a sorte/catividade de" },
+        { "hebraico": "אִיֹּ֔וב", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" },
+        { "hebraico": "בְּהִֽתְפַּלְלֹ֖ו", "transliteral": "bə-hiṯ-pal-lô", "traducao_palavra": "ao orar ele" },
+        { "hebraico": "בְּעַ֣ד", "transliteral": "bə-ʿaḏ", "traducao_palavra": "por" },
+        { "hebraico": "רֵעֵ֑הוּ", "transliteral": "rê-ʿê-hū", "traducao_palavra": "seus amigos" },
+        { "hebraico": "וַיֹּ֧סֶף", "transliteral": "way-yô-sep̄", "traducao_palavra": "e acrescentou" },
+        { "hebraico": "יְהוָ֛ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "[objeto]" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "tudo" },
+        { "hebraico": "אֲשֶׁ֥ר", "transliteral": "ʾă-šer", "traducao_palavra": "o que" },
+        { "hebraico": "לְאִיֹּ֖וב", "transliteral": "lə-ʾiy-yō-wḇ", "traducao_palavra": "[era] de Jó" },
+        { "hebraico": "לְמִשְׁנֶֽה׃", "traducao_palavra": "em dobro", "transliteral": "lə-miš-neh" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Então vieram a ele todos os seus irmãos, e todas as suas irmãs, e todos quantos dantes o conheceram, e comeram com ele pão em sua casa, e se condoeram dele, e o consolaram de todo o mal que YHWH lhe havia enviado; e cada um lhe deu uma peça de dinheiro, e cada um um pendente de ouro.",
+      "palavras": [
+        { "hebraico": "וַיָּבֹ֨אוּ", "transliteral": "way-yā-ḇō-ʾū", "traducao_palavra": "E vieram" },
+        { "hebraico": "אֵלָ֜יו", "transliteral": "ʾê-lāyw", "traducao_palavra": "a ele" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todos" },
+        { "hebraico": "אֶחָ֣יו", "transliteral": "ʾe-ḥāyw", "traducao_palavra": "os seus irmãos" },
+        { "hebraico": "וְכָל־", "transliteral": "wə-ḵāl-", "traducao_palavra": "e todas" },
+        { "hebraico": "אַחְיֹתָיו֮", "transliteral": "ʾaḥ-yō-ṯāyw", "traducao_palavra": "as suas irmãs" },
+        { "hebraico": "וְכָל־", "transliteral": "wə-ḵāl-", "traducao_palavra": "e todos" },
+        { "hebraico": "יֹדְעָ֣יו", "transliteral": "yō-ḏə-ʿāyw", "traducao_palavra": "os seus conhecidos" },
+        { "hebraico": "לְפָנִים֮", "transliteral": "lə-p̄ā-nîm", "traducao_palavra": "de antes" },
+        { "hebraico": "וַיֹּאכְל֨וּ", "transliteral": "way-yō-ḵə-lû", "traducao_palavra": "e comeram" },
+        { "hebraico": "עִמֹּ֥ו", "transliteral": "ʿim-mô", "traducao_palavra": "com ele" },
+        { "hebraico": "לֶחֶם֮", "transliteral": "le-ḥem", "traducao_palavra": "pão" },
+        { "hebraico": "בְּבֵיתֹו֒", "transliteral": "bə-ḇê-ṯô", "traducao_palavra": "em sua casa" },
+        { "hebraico": "וַיָּנֻ֤דוּ", "transliteral": "way-yā-nu-ḏû", "traducao_palavra": "e condoeram-se" },
+        { "hebraico": "לֹו֙", "transliteral": "lô", "traducao_palavra": "dele" },
+        { "hebraico": "וַיְנַחֲמ֣וּ", "transliteral": "way-na-ḥă-mû", "traducao_palavra": "e consolaram-no" },
+        { "hebraico": "אֹתֹ֔ו", "transliteral": "ʾō-ṯô", "traducao_palavra": "[unidades]" },
+        { "hebraico": "עַ֚ל", "transliteral": "ʿal", "traducao_palavra": "sobre" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todo" },
+        { "hebraico": "הָרָעָ֔ה", "transliteral": "hā-rā-ʿā", "traducao_palavra": "o mal" },
+        { "hebraico": "אֲשֶׁר־", "transliteral": "ʾă-šer-", "traducao_palavra": "que" },
+        { "hebraico": "הֵבִ֥יא", "transliteral": "hê-ḇî", "traducao_palavra": "trouxe" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "עָלָ֑יו", "transliteral": "ʿā-lāyw", "traducao_palavra": "sobre ele" },
+        { "hebraico": "וַיִּתְּנוּ־", "transliteral": "way-yit-nû-", "traducao_palavra": "e deram" },
+        { "hebraico": "לֹו֙", "transliteral": "lô", "traducao_palavra": "a ele" },
+        { "hebraico": "אִ֚ישׁ", "transliteral": "ʾîš", "traducao_palavra": "cada um" },
+        { "hebraico": "קְשִׂיטָ֣ה", "transliteral": "qə-śî-ṭā", "traducao_palavra": "uma moeda/peça" },
+        { "hebraico": "אֶחָ֔ת", "transliteral": "ʾe-ḥāṯ", "traducao_palavra": "uma" },
+        { "hebraico": "וְאִ֕ישׁ", "transliteral": "wə-ʾîš", "traducao_palavra": "e cada um" },
+        { "hebraico": "נֶ֥זֶם", "transliteral": "ne-zem", "traducao_palavra": "um pendente de" },
+        { "hebraico": "זָהָ֖ב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "אֶחָֽד׃", "transliteral": "ʾe-ḥāḏ", "traducao_palavra": "um" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "E assim abençoou YHWH o último estado de Jó, mais do que o primeiro; pois teve catorze mil ovelhas, seis mil camelos, mil juntas de bois e mil jumentas.",
+      "palavras": [
+        { "hebraico": "וַֽיהוָ֗ה", "transliteral": "way-hwā", "traducao_palavra": "E YHWH" },
+        { "hebraico": "בֵּרַ֛ךְ", "transliteral": "bê-raḵ", "traducao_palavra": "abençoou" },
+        { "hebraico": "אֶت־", "transliteral": "ʾeṯ-", "traducao_palavra": "[objeto]" },
+        { "hebraico": "אַחֲרִ֥ית", "transliteral": "ʾa-ḥă-rîṯ", "traducao_palavra": "o fim de" },
+        { "hebraico": "אִיֹּ֖וב", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" },
+        { "hebraico": "מֵרֵאשִׁיתֹ֑ו", "transliteral": "mê-rê-šî-ṯô", "traducao_palavra": "mais que o seu princípio" },
+        { "hebraico": "וַיְהִי־", "transliteral": "way-hî-", "traducao_palavra": "e teve" },
+        { "hebraico": "לֹו֩", "transliteral": "lô", "traducao_palavra": "ele" },
+        { "hebraico": "אַרְבָּעָ֨ה", "transliteral": "ʾar-bā-ʿā", "traducao_palavra": "catorze" },
+        { "hebraico": "עָשָׂ֥ר", "transliteral": "ʿā-śār", "traducao_palavra": "[unidades]" },
+        { "hebraico": "אֶ֛לֶף", "transliteral": "ʾe-lep̄", "traducao_palavra": "mil" },
+        { "hebraico": "צֹאן֮", "transliteral": "ṣō-wn", "traducao_palavra": "ovelhas" },
+        { "hebraico": "וְשֵׁ֣שֶׁת", "transliteral": "wə-šê-šeṯ", "traducao_palavra": "e seis" },
+        { "hebraico": "אֲלָפִ֣ים", "transliteral": "ʾă-lā-p̄îm", "traducao_palavra": "mil" },
+        { "hebraico": "גְּמַלִּים֒", "transliteral": "ḡə-mal-lîm", "traducao_palavra": "camelos" },
+        { "hebraico": "וְאֶֽלֶף־", "transliteral": "wə-ʾe-lep̄-", "traducao_palavra": "e mil" },
+        { "hebraico": "צֶ֣מֶד", "transliteral": "ṣe-meḏ", "traducao_palavra": "juntas de" },
+        { "hebraico": "בָּקָ֔ר", "transliteral": "bā-qār", "traducao_palavra": "bois" },
+        { "hebraico": "וְאֶ֖לֶף", "transliteral": "wə-ʾe-lep̄", "traducao_palavra": "e mil" },
+        { "hebraico": "אֲתֹונֹֽות׃", "transliteral": "ʾă-ṯō-nō-wṯ", "traducao_palavra": "jumentas" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Também teve sete filhos e três filhas.",
+      "palavras": [
+        { "hebraico": "וַיְהִי־", "transliteral": "way-hî-", "traducao_palavra": "E houve" },
+        { "hebraico": "לֹ֥ו", "transliteral": "lô", "traducao_palavra": "para ele" },
+        { "hebraico": "שִׁבְעָ֥נָה", "transliteral": "šiḇ-ʿā-nā", "traducao_palavra": "sete" },
+        { "hebraico": "בָנִ֖ים", "transliteral": "ḇā-nîm", "traducao_palavra": "filhos" },
+        { "hebraico": "וְשָׁלֹ֥ושׁ", "transliteral": "wə-šā-lō-wš", "traducao_palavra": "e três" },
+        { "hebraico": "בָּנֹֽות׃", "transliteral": "bā-nō-wṯ", "traducao_palavra": "filhas" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "E chamou o nome da primeira Jemima, e o nome da segunda, Quézia, e o nome da terceira, Quéren-Hapuque.",
+      "palavras": [
+        { "hebraico": "וַיִּקְרָ֤א", "transliteral": "way-yiq-rā", "traducao_palavra": "E chamou" },
+        { "hebraico": "שֵׁם־", "transliteral": "šêm-", "traducao_palavra": "o nome de" },
+        { "hebraico": "הָאַחַת֙", "transliteral": "hā-ʾa-ḥaṯ", "traducao_palavra": "a primeira" },
+        { "hebraico": "יְמִימָ֔ה", "transliteral": "yə-mî-mā", "traducao_palavra": "Jemima" },
+        { "hebraico": "וְשֵׁ֥ם", "transliteral": "wə-šêm", "traducao_palavra": "e o nome de" },
+        { "hebraico": "הַשֵּׁנִ֖ית", "transliteral": "haš-šê-nîṯ", "traducao_palavra": "a segunda" },
+        { "hebraico": "קְצִיעָ֑ה", "transliteral": "qə-ṣî-ʿā", "traducao_palavra": "Quézia" },
+        { "hebraico": "וְשֵׁ֥ם", "transliteral": "wə-šêm", "traducao_palavra": "e o nome de" },
+        { "hebraico": "הַשְּׁלִישִׁ֖ית", "transliteral": "haš-šə-lî-šîṯ", "traducao_palavra": "a terceira" },
+        { "hebraico": "קֶ֥רֶן", "transliteral": "qe-ren", "traducao_palavra": "Quéren-" },
+        { "hebraico": "הַפּֽוּךְ׃", "transliteral": "hap-pūḵ", "traducao_palavra": "Hapuque" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "E em toda a terra não se acharam mulheres tão formosas como as filhas de Jó; e seu pai lhes deu herança entre seus irmãos.",
+      "palavras": [
+        { "hebraico": "וְלֹ֨א", "transliteral": "wə-lō", "traducao_palavra": "E não" },
+        { "hebraico": "נִמְצָ֜א", "transliteral": "nim-ṣā", "traducao_palavra": "foram achadas" },
+        { "hebraico": "נָשִׁ֥ים", "transliteral": "nā-šîm", "traducao_palavra": "mulheres" },
+        { "hebraico": "יָפֹ֛ות", "transliteral": "yā-p̄ô-wṯ", "traducao_palavra": "formosas" },
+        { "hebraico": "כִּבְנֹ֥ות", "transliteral": "ki-ḇə-nô-wṯ", "traducao_palavra": "como as filhas de" },
+        { "hebraico": "אִיֹּ֖וב", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" },
+        { "hebraico": "בְּכָλ־", "transliteral": "bə-ḵāl-", "traducao_palavra": "em toda" },
+        { "hebraico": "הָאָ֑רֶץ", "transliteral": "hā-ʾā-reṣ", "traducao_palavra": "a terra" },
+        { "hebraico": "וַיִּתֵּ֨ן", "transliteral": "way-yit-tên", "traducao_palavra": "e deu" },
+        { "hebraico": "לָהֶ֧ם", "transliteral": "lā-hem", "traducao_palavra": "a elas" },
+        { "hebraico": "אֲבִיהֶ֛ם", "transliteral": "ʾă-ḇî-hem", "traducao_palavra": "o pai delas" },
+        { "hebraico": "נַחֲלָ֖ה", "transliteral": "na-ḥă-lā", "traducao_palavra": "herança" },
+        { "hebraico": "בְּתֹ֥וךְ", "transliteral": "bə-ṯô-wḵ", "traducao_palavra": "no meio de" },
+        { "hebraico": "אֲחֵיהֶֽם׃", "transliteral": "ʾă-ḥê-hem", "traducao_palavra": "seus irmãos" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "E depois disto viveu Jó cento e quarenta anos; e viu a seus filhos, e aos filhos de seus filhos, até à quarta geração.",
+      "palavras": [
+        { "hebraico": "וַיְחִ֤י", "transliteral": "way-ḥî", "traducao_palavra": "E viveu" },
+        { "hebraico": "אִיֹּוב֙", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" },
+        { "hebraico": "אַֽחֲרֵי־", "transliteral": "ʾa-ḥă-rê-", "traducao_palavra": "depois de" },
+        { "hebraico": "זֹ֔at", "transliteral": "zōṯ", "traducao_palavra": "isto" },
+        { "hebraico": "מֵאָ֥ה", "transliteral": "mē-ʾā", "traducao_palavra": "cento" },
+        { "hebraico": "וְאַרְבָּעִ֖ים", "transliteral": "wə-ar-bā-ʿîm", "traducao_palavra": "e quarenta" },
+        { "hebraico": "שָׁנָ֑ה", "transliteral": "šā-nā", "traducao_palavra": "anos" },
+        { "hebraico": "וַיַּ֗רְא", "transliteral": "way-yar", "traducao_palavra": "e viu" },
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "[objeto]" },
+        { "hebraico": "בָּנָיו֙", "transliteral": "bā-nāyw", "traducao_palavra": "seus filhos" },
+        { "hebraico": "וְאֶת־", "transliteral": "wə-ʾeṯ-", "traducao_palavra": "e [objeto]" },
+        { "hebraico": "בְּנֵ֣i", "transliteral": "bə-nê", "traducao_palavra": "os filhos de" },
+        { "hebraico": "בָנָ֔יו", "transliteral": "bā-nāyw", "traducao_palavra": "seus filhos" },
+        { "hebraico": "אַרְבָּעָ֖ה", "transliteral": "ʾar-bā-ʿā", "traducao_palavra": "quatro" },
+        { "hebraico": "דֹּורֹֽות׃", "transliteral": "dô-rô-wṯ", "traducao_palavra": "gerações" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "Então morreu Jó, velho e farto de dias.",
+      "palavras": [
+        { "hebraico": "וַיָּ֣מָת", "transliteral": "way-yā-māṯ", "traducao_palavra": "E morreu" },
+        { "hebraico": "אִיֹּ֔וב", "transliteral": "ʾiy-yō-wḇ", "traducao_palavra": "Jó" },
+        { "hebraico": "זָקֵ֖ן", "transliteral": "zā-qên", "traducao_palavra": "velho" },
+        { "hebraico": "וּשְׂבַ֥ע", "transliteral": "ū-śə-ḇaʿ", "traducao_palavra": "e saciado/farto de" },
+        { "hebraico": "יָמִֽים׃", "transliteral": "yā-mîm", "traducao_palavra": "dias" }
+      ]
+    }
+  }
 }

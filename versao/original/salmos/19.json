@@ -1,6 +1,195 @@
-{
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+{   
+  "livro": "Salmos - תְּהִלִּים - Tehillim",
   "capítulo": 19,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Ao mestre de canto. Salmo de Davi.",
+      "palavras": [
+        { "hebraico": "לַמְנַצֵּ֗חַ", "transliteral": "lam-naṣ-ṣē-aḥ", "traducao_palavra": "ao mestre de canto" },
+        { "hebraico": "מִזְמֹ֥ור", "transliteral": "miz-môr", "traducao_palavra": "salmo" },
+        { "hebraico": "לְדָוִֽד׃", "transliteral": "lə-ḏā-wiḏ", "traducao_palavra": "de Davi" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Os céus proclamam a glória de Deus e o firmamento anuncia a obra das suas mãos.",
+      "palavras": [
+        { "hebraico": "הַשָּׁמַ֗יִם", "transliteral": "ha-šā-ma-yim", "traducao_palavra": "os céus" },
+        { "hebraico": "מְסַפְּרִ֥ים", "transliteral": "mə-sap-pə-rîm", "traducao_palavra": "proclamam/contam" },
+        { "hebraico": "כְּבֹוד־אֵ֑ל", "transliteral": "kə-ḇôḏ-ʾēl", "traducao_palavra": "a glória de Deus" },
+        { "hebraico": "וּמַעֲשֵׂ֥ה", "transliteral": "ū-ma-ʿă-śēh", "traducao_palavra": "e a obra de" },
+        { "hebraico": "יָ֝דָ֗יו", "transliteral": "yā-ḏāw", "traducao_palavra": "suas mãos" },
+        { "hebraico": "מַגִּ֥יד", "transliteral": "mag-gîḏ", "traducao_palavra": "anuncia/relata" },
+        { "hebraico": "הָרָקִֽיעַ׃", "transliteral": "hā-rā-qî-aʿ", "traducao_palavra": "o firmamento/expansão" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Um dia profere palavras a outro dia, e uma noite revela conhecimento a outra noite.",
+      "palavras": [
+        { "hebraico": "יֹ֣ום", "transliteral": "yôm", "traducao_palavra": "dia" },
+        { "hebraico": "לְ֭יֹום", "transliteral": "lə-yôm", "traducao_palavra": "a dia" },
+        { "hebraico": "יַבִּ֣יעַ", "transliteral": "yab-bî-aʿ", "traducao_palavra": "jorra/profere" },
+        { "hebraico": "אֹ֑מֶר", "transliteral": "ʾō-mer", "traducao_palavra": "fala/palavra" },
+        { "hebraico": "וְלַ֥יְלָה", "transliteral": "wə-lay-lā", "traducao_palavra": "e noite" },
+        { "hebraico": "לְּ֝לַ֗יְלָה", "transliteral": "lə-lay-lā", "traducao_palavra": "a noite" },
+        { "hebraico": "יְחַוֶּה־דָּֽעַת׃", "transliteral": "yə-ḥaw-weh-dā-ʿaṯ", "traducao_palavra": "revela/declara conhecimento" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Não há fala, nem há palavras; não se ouve a sua voz.",
+      "palavras": [
+        { "hebraico": "אֵֽין־אֹ֭מֶר", "transliteral": "ʾên-ʾō-mer", "traducao_palavra": "não há fala" },
+        { "hebraico": "וְאֵ֣ין", "transliteral": "wə-ʾên", "traducao_palavra": "e não há" },
+        { "hebraico": "דְּבָרִ֑ים", "transliteral": "də-ḇā-rîm", "traducao_palavra": "palavras" },
+        { "hebraico": "בְּ֝לִ֗י", "transliteral": "bə-lî", "traducao_palavra": "sem [que]" },
+        { "hebraico": "נִשְׁמָ֥ע", "transliteral": "niš-māʿ", "traducao_palavra": "seja ouvido" },
+        { "hebraico": "קֹולָֽם׃", "transliteral": "qô-lām", "traducao_palavra": "a voz deles" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "A sua linha de medir estendeu-se por toda a terra, e as suas palavras até ao fim do mundo. Neles pôs uma tenda para o sol,",
+      "palavras": [
+        { "hebraico": "בְּכָל־הָאָ֨רֶץ ׀", "transliteral": "bə-ḵāl-hā-ʾā-reṣ", "traducao_palavra": "por toda a terra" },
+        { "hebraico": "יָ֘צָ֤א", "transliteral": "yā-ṣā", "traducao_palavra": "saiu" },
+        { "hebraico": "קַוָּ֗ם", "transliteral": "qaw-wām", "traducao_palavra": "a linha deles" },
+        { "hebraico": "וּבִקְצֵ֣ה", "transliteral": "ū-ḇiq-ṣēh", "traducao_palavra": "e na extremidade de" },
+        { "hebraico": "תֵ֭בֵל", "transliteral": "tē-ḇēl", "traducao_palavra": "mundo" },
+        { "hebraico": "מִלֵּיהֶ֑ם", "transliteral": "mil-lê-hem", "traducao_palavra": "as palavras deles" },
+        { "hebraico": "לַ֝שֶּׁ֗מֶשׁ", "transliteral": "laš-še-meš", "traducao_palavra": "para o sol" },
+        { "hebraico": "שָֽׂם־אֹ֥הֶל", "transliteral": "śām-ʾō-hel", "traducao_palavra": "pôs tenda" },
+        { "hebraico": "בָּהֶֽם׃", "transliteral": "bā-hem", "traducao_palavra": "neles" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "O qual é como um noivo que sai do seu tálamo, e se alegra como um herói a correr o seu caminho.",
+      "palavras": [
+        { "hebraico": "וְה֗וּא", "transliteral": "wə-hû", "traducao_palavra": "e ele" },
+        { "hebraico": "כְּ֭חָתָן", "transliteral": "kə-ḥā-ṯān", "traducao_palavra": "como noivo" },
+        { "hebraico": "יֹצֵ֣א", "transliteral": "yō-ṣē", "traducao_palavra": "[que] sai" },
+        { "hebraico": "מֵחֻפָּתֹ֑ו", "transliteral": "mē-ḥup-pā-ṯô", "traducao_palavra": "da sua câmara/núpcias" },
+        { "hebraico": "יָשִׂ֥ישׂ", "transliteral": "yā-śîś", "traducao_palavra": "se alegra" },
+        { "hebraico": "כְּ֝גִבֹּ֗ור", "transliteral": "kə-ḡib-bôr", "traducao_palavra": "como um valente/herói" },
+        { "hebraico": "לָר֥וּץ", "transliteral": "lā-rûṣ", "traducao_palavra": "para correr" },
+        { "hebraico": "אֹֽרַח׃", "transliteral": "ʾō-raḥ", "traducao_palavra": "[o] caminho" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "A sua saída é desde uma extremidade dos céus, e o seu giro até à outra extremidade deles; e nada se esconde do seu calor.",
+      "palavras": [
+        { "hebraico": "מִקְצֵ֤ה", "transliteral": "miq-ṣēh", "traducao_palavra": "da extremidade de" },
+        { "hebraico": "הַשָּׁמַ֨יִם ׀", "transliteral": "ha-šā-ma-yim", "traducao_palavra": "os céus" },
+        { "hebraico": "מֹוצָאֹ֗ו", "transliteral": "mô-ṣā-ʾô", "traducao_palavra": "[é] a sua saída" },
+        { "hebraico": "וּתְקוּפָתֹ֥ו", "transliteral": "ū-ṯə-qû-p̄ā-ṯô", "traducao_palavra": "e o seu circuito/giro" },
+        { "hebraico": "עַל־קְצֹותָ֑ם", "transliteral": "ʿal-qə-ṣô-ṯām", "traducao_palavra": "até às extremidades deles" },
+        { "hebraico": "וְאֵ֥ין", "transliteral": "wə-ʾên", "traducao_palavra": "e não há" },
+        { "hebraico": "נִ֝סְתָּ֗ר", "transliteral": "nis-tār", "traducao_palavra": "[nada] escondido" },
+        { "hebraico": "מֵחַמָּתֹֽו׃", "transliteral": "mē-ḥam-mā-ṯô", "traducao_palavra": "do seu calor" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "A lei de YHWH é perfeita e restaura a alma; o testemunho de YHWH é fiel e dá sabedoria aos simples.",
+      "palavras": [
+        { "hebraico": "תֹּורַ֤ת", "transliteral": "tô-raṯ", "traducao_palavra": "a lei de" },
+        { "hebraico": "יְהוָ֣ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "תְּ֭מִימָה", "transliteral": "tə-mî-mā", "traducao_palavra": "perfeita" },
+        { "hebraico": "מְשִׁ֣יבַת", "transliteral": "mə-šî-ḇaṯ", "traducao_palavra": "[que] faz retornar/restaura" },
+        { "hebraico": "נָ֑פֶשׁ", "transliteral": "nā-p̄eš", "traducao_palavra": "[a] alma" },
+        { "hebraico": "עֵד֥וּת", "transliteral": "ʿē-ḏûṯ", "traducao_palavra": "[o] testemunho de" },
+        { "hebraico": "יְהוָ֥ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "נֶ֝אֱמָנָ֗ה", "transliteral": "ne-ʾĕ-mā-nā", "traducao_palavra": "fiel/confiável" },
+        { "hebraico": "מַחְכִּ֥ימַת", "transliteral": "maḥ-kî-maṯ", "traducao_palavra": "[que] dá sabedoria a" },
+        { "hebraico": "פֶּֽתִי׃", "transliteral": "pe-ṯî", "traducao_palavra": "[o] simples/ingênuo" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Os preceitos de YHWH são retos e alegram o coração; o mandamento de YHWH é puro e ilumina os olhos.",
+      "palavras": [
+        { "hebraico": "פִּקּ֘וּדֵ֤י", "transliteral": "piq-qû-ḏê", "traducao_palavra": "os preceitos de" },
+        { "hebraico": "יְהוָ֣ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "יְ֭שָׁרִים", "transliteral": "yə-šā-rîm", "traducao_palavra": "retos" },
+        { "hebraico": "מְשַׂמְּחֵי־לֵ֑ב", "transliteral": "mə-śam-mə-ḥê-lēḇ", "traducao_palavra": "alegradores de coração" },
+        { "hebraico": "מִצְוַ֨ת", "transliteral": "miṣ-waṯ", "traducao_palavra": "o mandamento de" },
+        { "hebraico": "יְהוָ֥ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "בָּ֝רָ֗ה", "transliteral": "bā-rā", "traducao_palavra": "brilhante/puro" },
+        { "hebraico": "מְאִירַ֥ת", "transliteral": "mə-ʾî-raṯ", "traducao_palavra": "iluminador de" },
+        { "hebraico": "עֵינָֽיִם׃", "transliteral": "ʿê-nā-yim", "traducao_palavra": "olhos" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "O temor de YHWH é limpo e permanece para sempre; os juízos de YHWH são verdadeiros e todos igualmente justos.",
+      "palavras": [
+        { "hebraico": "יִרְאַ֤ת", "transliteral": "yir-ʾaṯ", "traducao_palavra": "o temor de" },
+        { "hebraico": "יְהוָ֨ה ׀", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "ṭְהֹורָה֮", "transliteral": "ṭə-hô-rā", "traducao_palavra": "limpo/puro" },
+        { "hebraico": "עֹומֶ֪דֶת", "transliteral": "ʿô-me-ḏeṯ", "traducao_palavra": "permanente" },
+        { "hebraico": "לָ֫עַ֥ד", "transliteral": "lā-ʿaḏ", "traducao_palavra": "para sempre" },
+        { "hebraico": "מִשְׁפְּטֵי־יְהוָ֥ה", "transliteral": "miš-pə-ṭê-YHWH", "traducao_palavra": "os juízos de YHWH" },
+        { "hebraico": "אֱמֶ֑ת", "transliteral": "ʾĕ-meṯ", "traducao_palavra": "verdade" },
+        { "hebraico": "צָֽדְק֥וּ", "transliteral": "ṣā-ḏə-qû", "traducao_palavra": "são justos" },
+        { "hebraico": "יַחְדָּֽו׃", "transliteral": "yaḥ-dāw", "traducao_palavra": "juntamente" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Mais desejáveis são do que o ouro, sim, do que muito ouro fino; e mais doces do que o mel e o destilar dos favos.",
+      "palavras": [
+        { "hebraico": "הַֽנֶּחֱמָדִ֗ים", "transliteral": "han-ne-ḥĕ-mā-ḏîm", "traducao_palavra": "[os que são] desejáveis" },
+        { "hebraico": "מִ֭זָּהָב", "transliteral": "miz-zā-hāḇ", "traducao_palavra": "mais que ouro" },
+        { "hebraico": "וּמִפַּ֥ז", "transliteral": "ū-mip-paz", "traducao_palavra": "e que ouro fino" },
+        { "hebraico": "rָ֑ב", "transliteral": "rāḇ", "traducao_palavra": "muito" },
+        { "hebraico": "וּמְתוּקִ֥ים", "transliteral": "ū-mə-ṯû-qîm", "traducao_palavra": "e mais doces" },
+        { "hebraico": "מִ֝דְּבַ֗שׁ", "transliteral": "mid-də-ḇaš", "traducao_palavra": "que mel" },
+        { "hebraico": "וְנֹ֥פֶת", "transliteral": "wə-nō-p̄eṯ", "traducao_palavra": "e o gotejar de" },
+        { "hebraico": "צוּפִֽים׃", "transliteral": "ṣû-p̄îm", "traducao_palavra": "favos" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Além disso, por eles o teu servo é advertido; em os guardar há grande recompensa.",
+      "palavras": [
+        { "hebraico": "גַּם־עַבְדְּךָ֥", "transliteral": "gam-ʿaḇ-də-ḵā", "traducao_palavra": "também teu servo" },
+        { "hebraico": "נִזְהָ֣ר", "transliteral": "niz-hār", "traducao_palavra": "é advertido/iluminado" },
+        { "hebraico": "בָּהֶ֑ם", "transliteral": "bā-hem", "traducao_palavra": "por eles" },
+        { "hebraico": "בְּשָׁמְרָ֥ם", "transliteral": "bə-šā-mə-rām", "traducao_palavra": "em guardá-los" },
+        { "hebraico": "עֵ֥קֶב", "transliteral": "ʿē-qeḇ", "traducao_palavra": "recompensa/resultado" },
+        { "hebraico": "רָֽב׃", "transliteral": "rāḇ", "traducao_palavra": "grande" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Quem pode entender os seus próprios erros? Purifica-me dos que me são ocultos.",
+      "palavras": [
+        { "hebraico": "שְׁגִיאֹ֥ות", "transliteral": "šə-ḡî-ʾôṯ", "traducao_palavra": "erros/faltas" },
+        { "hebraico": "מִֽי־יָבִ֑ין", "transliteral": "mî-yā-ḇîn", "traducao_palavra": "quem discernirá/entenderá?" },
+        { "hebraico": "מִֽנִּסְתָּרֹ֥ות", "transliteral": "min-nis-tā-rôṯ", "traducao_palavra": "das [coisas] ocultas" },
+        { "hebraico": "נַקֵּֽנִי׃", "transliteral": "naq-qē-nî", "traducao_palavra": "purifica-me/inocenta-me" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Também da soberba guarda o teu servo, para que ela não se assenhoreie de mim; então serei íntegro e estarei limpo de grande transgressão.",
+      "palavras": [
+        { "hebraico": "גַּ֤ם", "transliteral": "gam", "traducao_palavra": "também" },
+        { "hebraico": "מִזֵּ֘דִ֤ים ׀", "transliteral": "miz-zē-ḏîm", "traducao_palavra": "de soberbos/presunçosos" },
+        { "hebraico": "חֲשֹׂ֬ךְ", "transliteral": "ḥă-śōḵ", "traducao_palavra": "detém/guarda" },
+        { "hebraico": "עַבְדֶּ֗ךָ", "transliteral": "ʿaḇ-de-ḵā", "traducao_palavra": "teu servo" },
+        { "hebraico": "אַל־יִמְשְׁלוּ־בִ֣י", "transliteral": "ʾal-yim-šə-lû-ḇî", "traducao_palavra": "não dominem sobre mim" },
+        { "hebraico": "אָ֣ז", "transliteral": "ʾāz", "traducao_palavra": "então" },
+        { "hebraico": "אֵיתָ֑ם", "transliteral": "ʾê-ṯām", "traducao_palavra": "serei perfeito/íntegro" },
+        { "hebraico": "וְ֝נִקֵּ֗יתִי", "transliteral": "wə-niq-qê-ṯî", "traducao_palavra": "e serei limpo" },
+        { "hebraico": "מִפֶּ֥שַׁע", "transliteral": "mip-pe-šaʿ", "traducao_palavra": "de transgressão" },
+        { "hebraico": "רָֽב׃", "transliteral": "rāḇ", "traducao_palavra": "grande" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "Sejam agradáveis as palavras da minha boca e a meditação do meu coração perante a tua face, YHWH, minha rocha e meu redentor.",
+      "palavras": [
+        { "hebraico": "יִֽהְי֥וּ", "transliteral": "yih-yû", "traducao_palavra": "sejam" },
+        { "hebraico": "לְרָצֹ֨ון ׀", "transliteral": "lə-rā-ṣôn", "traducao_palavra": "para aceitação/agradáveis" },
+        { "hebraico": "אִמְרֵי־פִ֡י", "transliteral": "ʾim-rê-p̄î", "traducao_palavra": "palavras da minha boca" },
+        { "hebraico": "וְהֶגְיֹ֣ון", "transliteral": "wə-heḡ-yôn", "traducao_palavra": "e a meditação de" },
+        { "hebraico": "לִבִּ֣י", "transliteral": "lib-bî", "traducao_palavra": "meu coração" },
+        { "hebraico": "לְפָנֶ֑יךָ", "transliteral": "lə-p̄ā-ne-ḵā", "traducao_palavra": "perante ti" },
+        { "hebraico": "יְ֝הוָ֗ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "צוּרִ֥י", "transliteral": "ṣû-rî", "traducao_palavra": "minha rocha" },
+        { "hebraico": "וְגֹאֲלִֽי׃", "transliteral": "wə-ḡō-ʾă-lî", "traducao_palavra": "e meu redentor" }
+      ]
+    }
+  }
 }

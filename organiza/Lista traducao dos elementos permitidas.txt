@@ -1,0 +1,172 @@
+✅ Lista de Traduções Permitidas (Seletores, Variáveis, Funções, Classes)
+📌 1. Seletores CSS e HTML
+Table
+Copy
+Nome Original	Nome Traduzido	Tipo	Arquivo(s) Afetado(s)
+#search-overlay-content	#conteudo-overlay-busca	ID	biblia_realizabusca.css
+.search-overlay-resultado-item	.item-resultado-overlay-busca	Classe	biblia_realizabusca.css
+.palavra-section	.selecao-palavra	Classe	concordancia.css
+.palavra-header	.palavra-cabecalho	Classe	concordancia.css
+.expand-indicator	.indicador-expansao	Classe	concordancia.css
+.menu-button	.botao-menu	Classe	cantor_cristao.css
+.hino-container	.conteiner-hino	Classe	cantor_cristao.css
+.reading-mode-header	.cabecalho-modo-leitura	Classe	modo_leitura.css
+.chapter-verses	.capitulo-versiculos	Classe	modo_leitura.css
+#voltar-botao, #proximo-botao	#botao-voltar, #botao-proximo	IDs	slide_biblia.css
+.container	.conteiner	Classe	vários arquivos
+.container-titulo	.conteiner-titulo	Classe	versoes.css etc.
+.btn-letra	.botao-letra	Classe	menu_dicionarioconcordancia.css
+.custom-select	.selecao-personalizada	Classe	concordancia.css
+#btn-buscar	#botao-buscar	ID	concordancia.css
+#btn-carregar-mais	#botao-carregar-mais	ID	concordancia.css
+.btn-paginacao	.botao-paginacao	Classe	concordancia.css
+.dicionario-btn	.botao-dicionario	Classe	dicionario.css
+📌 2. Variáveis e Constantes JavaScript
+Table
+Copy
+Nome Original	Nome Traduzido
+content	areaConteudo
+response	resposta
+data	dados
+searchTerm	termoBusca
+isLoading	estaCarregando
+currentLetter	letraAtual
+currentPage	paginaAtual
+itemsPerPage	itensPorPagina
+allTermos	todosTermosLetra
+listaLetras	indiceLetras
+carregarIndiceLetras	carregarIndicePorLetras
+📌 3. Funções JavaScript
+Table
+Copy
+Nome Original	Nome Traduzido
+loadSpecificVerse	carregarVersiculoEspecifico
+toggleReadingMode	alternarModoLeitura
+loadBook	carregarLivro
+createCapitulosButtons	criarBotoesCapitulos
+performGlobalSearch	executarBuscaGlobal
+updateResultsCounter	atualizarContadorResultados
+showLoading	mostrarCarregamento
+getLivroDisplayName	obterNomeExibicaoLivro
+📌 4. Classes JavaScript
+Table
+Copy
+Nome Original	Nome Traduzido
+DataManager	GerenciadorDados
+ConcordanciaOptimized	ConcordanciaOtimizada
+MainApp	AppPrincipal
+InterfaceManager	GerenciadorInterface
+VersiculosManager	GerenciadorVersiculos
+✅ O que aconteceu com a lista?
+Ela continua válida. A única ressalva é que as traduções de classes, IDs e variáveis só devem ser aplicadas nos comentários, não no código-fonte, conforme a regra 1 (código não alterado).
+Se desejar, posso reaplicar corretamente as traduções nos comentários dos arquivos CSS com base nessa lista oficial. Desejo prosseguir?
+Copy
+Share
+Você poderia reproduzir toda regra criada e me fornecer para guarda-la caso seja necessário usa-la?
+Edit
+Copy
+📋 GUIA COMPLETO DE PADRONIZAÇÃO E TRADUÇÃO DO PROJETO
+(versão de referência única – salve este texto)
+📌 1. ESCOPO E LIMITES
+Table
+Copy
+Item	O que NÃO pode ser alterado	Motivo
+Tags HTML	<body>, <header>, <nav>, <div>…	Palavras-chave da linguagem
+Atributos HTML	id, class, href, src, alt, for, disabled…	Definidos pela especificação
+Atributos data-*	data-livro, data-capitulo, data-letra	Padrão HTML5 – quebra se alterado
+Palavras-chave JS	class, function, async, await, let, const, if, else	Sintaxe fixa
+APIs do navegador	document, window, localStorage, console, fetch, URLSearchParams	Globais fixas
+Métodos e propriedades	.getElementById(), .querySelector(), .addEventListener(), .textContent…	Comandos fixos
+Eventos	click, change, input, DOMContentLoaded	Nomes de eventos padrão
+Propriedades CSS	background-color, font-size, margin-left, display, position	Sintaxe da linguagem
+Pseudo-classes / elementos	:hover, :disabled, ::before, ::after, ::-webkit-scrollbar	Seletores fixos
+Nomes de arquivos	versoes.js, concordancia.css, index.html	Referência em scripts/links
+📌 2. O QUE PODE E DEVE SER TRADUZIDO
+Apenas comentários (linha ou bloco) e nomes simbólicos listados abaixo quando mencionados dentro de comentários.
+📌 3. PADRÕES DE NOMENCLATURA
+Table
+Copy
+Tipo	Padrão	Exemplo antigo → novo
+Classes / IDs CSS	kebab-case	.btn-buscar → .botao-buscar
+Variáveis JS	camelCase	searchTerm → termoBusca
+Funções JS	camelCase	loadBook → carregarLivro
+Classes JS	PascalCase	DataManager → GerenciadorDados
+📌 4. LISTA DE TRADUÇÕES AUTORIZADAS
+Table
+Copy
+Original	Traduzido
+Seletores CSS/ID
+#search-overlay-content	#conteudo-overlay-busca
+.search-overlay-resultado-item	.item-resultado-overlay-busca
+.palavra-section	.selecao-palavra
+.palavra-header	.palavra-cabecalho
+.expand-indicator	.indicador-expansao
+.menu-button	.botao-menu
+.hino-container	.conteiner-hino
+.reading-mode-header	.cabecalho-modo-leitura
+.chapter-verses	.capitulo-versiculos
+#voltar-botao, #proximo-botao	#botao-voltar, #botao-proximo
+.container	.conteiner
+.container-titulo	.conteiner-titulo
+.btn-letra	.botao-letra
+.custom-select	.selecao-personalizada
+#btn-buscar	#botao-buscar
+#btn-carregar-mais	#botao-carregar-mais
+.btn-paginacao	.botao-paginacao
+.dicionario-btn	.botao-dicionario
+| Variáveis/Funções JS |
+| content | areaConteudo |
+| response | resposta |
+| data | dados |
+| searchTerm | termoBusca |
+| isLoading | estaCarregando |
+| currentLetter | letraAtual |
+| currentPage | paginaAtual |
+| itemsPerPage | itensPorPagina |
+| allTermos | todosTermosLetra |
+| listaLetras | indiceLetras |
+| carregarIndiceLetras | carregarIndicePorLetras |
+| loadBook | carregarLivro |
+| loadSpecificVerse | carregarVersiculoEspecifico |
+| toggleReadingMode | alternarModoLeitura |
+| performGlobalSearch | executarBuscaGlobal |
+| updateResultsCounter | atualizarContadorResultados |
+| showLoading | mostrarCarregamento |
+| getLivroDisplayName | obterNomeExibicaoLivro |
+| Classes JS |
+| DataManager | GerenciadorDados |
+| ConcordanciaOptimized | ConcordanciaOtimizada |
+| MainApp | AppPrincipal |
+| InterfaceManager | GerenciadorInterface |
+| VersiculosManager | GerenciadorVersiculos |
+📌 5. FORMATO PADRÃO DE COMENTÁRIOS
+CSS
+css
+Copy
+/*====================================================================*/
+/*================== NOME DA SEÇÃO EM MAIÚSCULAS =====================*/
+/* Descrição curta do que o bloco faz                                */
+/*====================================================================*/
+
+/* [Bloco] Descrição concisa do propósito do bloco */
+.seletor {
+    propriedade: valor; /* Explicação do porquê desta linha */
+}
+JavaScript
+JavaScript
+Copy
+/*===============================================================================*/
+/*               NOME DO MÓDULO EM MAIÚSCULAS                                */
+/*===============================================================================*/
+/* [Bloco] Descrição do que o bloco faz */
+const exemplo = valor; // Explicação da linha
+📌 6. ORDEM DE BLOCOS CSS
+Reset / normalização
+Estrutura básica (body, html, tipografia, cores globais)
+Layouts principais (header, main, footer, sidebar)
+Componentes (cards, botões, formulários)
+Utilitários / media queries
+📌 7. REGRA FINAL
+Traduzir apenas comentários.
+Não alterar código-fonte.
+Manter referências originais intactas.

@@ -1,0 +1,701 @@
+Atualize os arquivos em anexo, mas relembrando que não deve remover os comentários, apenas atualizar caso seja necessário para Padronização, não deve alterar o código; fazer a tradução das palavras que estão na lista. carregarIndiceLetras => mudar para carregarIndicePorLetras
+
+
+Não alterar nada do código → só os comentários.
+1.	Padronizar os comentários de linha no formato ..., igual ao versoes.css.
+2.	Organizar os blocos de comentários seguindo boas práticas, ou seja:
+Reset/normalização
+Estrutura básica (body, html, tipografia, cores globais)
+Layouts principais (header, main, footer, sidebar)
+Componentes (cards, botões, formulários, etc.)
+Utilitários/mídia queries
+ 
+Relação Completa de Traduções e Interligações
+1. Seletores CSS e HTML
+Padrão de tradução: kebab-case
+Nome Antigo	Novo Nome Traduzido	Arquivos Afetados	Interligações
+#search-overlay-content	#overlay-busca-conteudo	biblia_realizabusca.css, biblia_realizabusca.js	JS cria dinamicamente o HTML com este ID.
+.search-overlay-resultado-item	.item-resultado-overlay-busca	biblia_realizabusca.css, biblia_realizabusca.js	Estiliza cada resultado de busca na janela pop-up.
+.palavra-section	.selecao-palavra	concordancia.css, concordancia-optimizada.js	(JS) Cria dinamicamente o card principal para uma palavra.
+.palavra-header	.palavra-cabecalho	concordancia.css, concordancia-optimizada.js	(JS) Cria dinamicamente o cabeçalho azul do card.
+.expand-indicator	.indicador-expansao	concordancia.css, concordancia-optimizada.js	(JS) Manipula a rotação do ícone de expandir/recolher.
+.menu-button	.botao-menu	cantor_cristao.css, harpa_cantor.html	Estiliza os botões "Harpa Cristã" e "Cantor Cristão".
+.hino-container	.conteiner-hino	cantor_cristao.css, harpa_cantor.js	(JS) Cria o card para exibir a letra do hino.
+.reading-mode-header	.cabecalho-modo-leitura	modo_leitura.css, versoes_modoleitura.js	(JS) O JS cria este elemento dinamicamente (não está no HTML).
+.chapter-verses	.capitulo-versiculos	modo_leitura.css, versoes_modoleitura.js	(JS) Contêiner principal para todos os versículos no modo leitura.
+#voltar-botao, #proximo-botao	#botao-voltar, #botao-proximo	slide_biblia.css, slide_biblia_interface.js	(JS) Botões de navegação dentro da janela de slide.
+.container	.conteiner	menu_dicionarioconcordancia.css, versoes.css, menu_dicionarioconcordancia.html, versoes.html	Classe de layout principal em várias páginas.
+.container-titulo	.conteiner-titulo	versoes.css, menu_dicionarioconcordancia.css, versoes.html, menu_dicionarioconcordancia.html	Div que envolve o título principal.
+.btn-letra	.botao-letra	menu_dicionarioconcordancia.css, menu_dicionarioconcordancia.html	Botões de letra no menu alfabético.
+.custom-select	.selecao-personalizada	concordancia.css, menu_dicionarioconcordancia.html	Div que envolve os dropdowns customizados.
+livro-select (id)	selecao-livro	concordancia.css, menu_dicionarioconcordancia.html	for do label e id do dropdown de livros.
+btn-buscar	botao-buscar	concordancia.css, menu_dicionarioconcordancia.html	Botão principal de busca da concordância.
+loading-indicator	indicador-carregamento	concordancia.css, menu_dicionarioconcordancia.html, concordancia-optimizada.js	(JS) Manipula a visibilidade do loader.
+spinner-carregamento	icone-carregamento	concordancia.css, menu_dicionarioconcordancia.html	Elemento visual do loader.
+container-contador	conteiner-contador	concordancia.css, menu_dicionarioconcordancia.html	Barra que exibe o contador de resultados.
+btn-carregar-mais	botao-carregar-mais	concordancia.css, menu_dicionarioconcordancia.html	Botão para carregar mais resultados.
+container-resultados	conteiner-resultados	concordancia.css, menu_dicionarioconcordancia.html, concordancia-optimizada.js	(JS) Div onde os resultados são injetados.
+wrapper-conteudo-dicionario	agrupador-conteudo-dicionario	dicionario.css, menu_dicionarioconcordancia.html	Div que agrupa elementos do layout do dicionário.
+baixar-list, utilidades-list	baixar-lista, utilidades-lista	versoes.css, versoes.html, dropdown.js	(JS) IDs das <ul> dos menus dropdown.
+.opcoes-menu	.menu-opcoes	versoes.css, menu_dicionarioconcordancia.css, versoes.html, menu_dicionarioconcordancia.html	<ul> da barra de navegação principal.
+2. Variáveis, Funções e Classes JavaScript
+Padrão de tradução: camelCase para variáveis/funções, PascalCase para classes.
+Nome Antigo	Novo Nome Traduzido	Arquivo(s) Afetados	Interligações
+content (variável)	areaConteudo	Todos os JS	Representa o elemento .conteudo do DOM.
+response (variável)	resposta	Todos os JS	Armazena o resultado de uma chamada fetch.
+data (variável)	dados	Todos os JS	Armazena o resultado de resposta.json().
+livroKey (variável)	chaveLivro	biblia-navegacao.js	Representa o nome do livro em formato de chave (ex: "genesis").
+existingVersiculoDiv	divVersiculoExistente	acf.js, ara.js, etc.	Armazena a referência ao <div> de um versículo já exibido para poder removê-lo.
+versiculoElementDiv	divElementoVersiculo	acf.js, ara.js, etc.	Armazena o novo <div> criado para exibir um versículo.
+searchTerm (variável)	termoBusca	concordancia-optimizada.js	Armazena o termo digitado pelo usuário na busca.
+isLoading (variável)	estaCarregando	concordancia-optimizada.js	Flag booleana para controlar o estado de carregamento.
+toggleReadingMode	alternarModoLeitura	versoes.js, versoes_modoleitura.js	Função global para entrar/sair do modo leitura.
+inicializarDropdowns	inicializarMenusSuspensos	versoes.js, dropdown.js	Função que configura os menus suspensos.
+carregaScriptAssincrono	carregarScriptAssincrono	versoes.js	Utilitário para carregar scripts dinamicamente.
+loadBook	carregarLivro	biblia-navegacao.js	Função principal para carregar um livro bíblico na interface.
+createCapitulosButtons	criarBotoesCapitulos	biblia-navegacao.js	Cria a grade de botões de capítulos.
+toggleVersiculos	alternarVersiculos	biblia-navegacao.js	Mostra/esconde a grade de botões de versículos.
+performGlobalSearch	executarBuscaGlobal	concordancia-optimizada.js	Inicia a busca global na concordância.
+updateResultsCounter	atualizarContadorResultados	concordancia-optimizada.js	Atualiza o texto "Mostrando X de Y resultados".
+showLoading	mostrarCarregamento	concordancia-optimizada.js	Mostra/esconde o ícone de carregamento.
+VersiculosManager (classe)	GerenciadorVersiculos	versoes_versiculos.js	Classe que gerencia a exibição de versículos.
+ 
+
+ 
+Guia de Estilo e Padronização do Projeto
+1. Itens Intencionalmente Não Traduzidos
+Para garantir a funcionalidade do código e seguir as convenções universais de desenvolvimento web, os seguintes tipos de termos não devem ser traduzidos:
+Categoria	Exemplos	Motivo
+Tags HTML	<body>, <header>, <nav>, <div>, <h1>, <a>	São palavras-chave fixas da linguagem HTML. O navegador não reconheceria uma tag como <cabecalho>.
+Atributos HTML Padrão	id, class, href, src, alt, for, disabled	São nomes de atributos definidos pela especificação do HTML.
+Padrão data-*	data-livro, data-capitulo, data-letra	O prefixo data- é um padrão do HTML5 para atributos de dados customizados. Traduzi-lo (ex: dados-livro) quebraria o acesso via element.dataset e fugiria da convenção.
+Palavras-Chave JavaScript	class, constructor, function, async, await, let, const, if, else, try, catch, return	São parte da sintaxe fundamental da linguagem JavaScript e não podem ser alteradas.
+APIs do Navegador (DOM)	document, window, localStorage, console, fetch, URLSearchParams, DOMParser	São objetos e interfaces globais fornecidos pelo ambiente do navegador para interagir com a página e a rede.
+Métodos e Propriedades de APIs	.getElementById(), .querySelector(), .addEventListener(), .remove(), .textContent, .innerHTML, .classList, .style, .ok, .json(), .text()	São os nomes dos "comandos" que usamos para manipular os elementos e dados. Eles são fixos e definidos pelas APIs.
+Nomes de Eventos	DOMContentLoaded, click, change, input, keydown, keypress, mouseenter, mouseleave	São nomes de eventos padrão do navegador. Traduzi-los faria com que os event listeners deixassem de funcionar.
+Propriedades CSS	background-color, font-size, margin-left, display, position, z-index, transition	São as propriedades da própria linguagem CSS.
+Pseudo-classes/elementos CSS	:hover, :disabled, :not(), ::before, ::after, ::-webkit-scrollbar	São seletores especiais fixos da linguagem CSS.
+Nomes de Arquivos	versoes.js, concordancia.css	Os nomes dos arquivos devem ser mantidos consistentes com as referências nos HTMLs (<script src="...">, <link href="...">) e nas chamadas fetch().
+ 
+2. Procedimento para Padronização de Comentários
+Para garantir que todos os comentários, em todos os arquivos, sigam um padrão único e claro, adote o seguinte procedimento:
+Todos os comentários devem ser escritos em português, ser objetivos e explicar o "porquê" do código, não apenas o "o quê".
+1.	Cabeçalho do Arquivo:
+o	Todo arquivo CSS deve começar com um cabeçalho de bloco padronizado que identifica o propósito do arquivo.
+o	Formato:
+code Css
+downloadcontent_copyexpand_less
+    /*====================================================================*/
+/*================== NOME DA SEÇÃO EM MAIÚSCULAS =====================*/
+/*      Descrição curta do que o arquivo estiliza.                    */
+/*====================================================================*/
+  
+2.	Comentários de Bloco (/* [Bloco] ... */)
+o	Uso: Use para agrupar e descrever um conjunto de regras CSS relacionadas que definem um componente ou uma seção de layout.
+o	Posicionamento: Deve vir imediatamente antes do primeiro seletor do bloco que ele descreve.
+o	Formato:
+code Css
+downloadcontent_copyexpand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+    /* [Bloco] Descrição concisa do propósito do bloco de código. */
+.seletor-1 {
+    /* ... */
+}
+.seletor-2 {
+    /* ... */
+}
+  
+o	Exemplo Prático:
+code Css
+downloadcontent_copyexpand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+    /* [Bloco] Configura a barra de paginação e o contador de resultados. */
+.conteiner-contador {
+    position: fixed;
+    /* ... */
+}
+.btn-paginacao {
+    /* ... */
+}
+  
+3.	Comentários de Linha (Simples /* ... */)
+o	Uso: Use para explicar uma única declaração CSS (propriedade e valor) que possa não ser óbvia ou que tenha uma razão específica para existir.
+o	Posicionamento: Na mesma linha, à direita da declaração, alinhado com os outros comentários de linha do mesmo bloco para melhor legibilidade.
+o	Formato:
+code Css
+downloadcontent_copyexpand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+    .seletor {
+    propriedade: valor;      /* Explicação do porquê desta linha. */
+    outra-propriedade: valor; /* Outra explicação. */
+}
+  
+o	Exemplo Prático:
+code Css
+downloadcontent_copyexpand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+    #marcadagua {
+    position: fixed;            /* Garante que a marca d'água não role com a página. */
+    z-index: -1;                /* Coloca a imagem atrás de todo o conteúdo. */
+    pointer-events: none;       /* Permite que o usuário clique "através" da imagem. */
+}
+  
+O mesmo princípio se aplica, mas adaptado à sintaxe e estrutura do JS.
+1.	Cabeçalho do Arquivo:
+o	Formato:
+code JavaScript
+downloadcontent_copyexpand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+    /*===============================================================================*/
+/*              NOME DO MÓDULO EM MAIÚSCULAS                                     */
+/*===============================================================================*/
+/*  [Arquivo] Contém:                                                            */
+/*                    - Breve descrição do ponto 1.                              */
+/*                    - Breve descrição do ponto 2.                              */
+/*===============================================================================*/
+  
+2.	Comentários de Bloco (/* [Bloco] ... */)
+o	Uso: Para descrever o propósito de uma classe inteira, uma função, ou um agrupamento lógico de código (como a inicialização de variáveis de estado ou a vinculação de eventos).
+o	Posicionamento: Imediatamente antes da declaração da classe, função ou do bloco de código.
+o	Exemplo Prático (Função):
+code JavaScript
+downloadcontent_copyexpand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+    /* [Bloco] Carrega e exibe um versículo específico da Bíblia a partir de um arquivo. */
+window.carregarVersiculoEspecifico = async function(livro, capitulo, versiculo) {
+    // ... código da função
+}
+  
+o	Exemplo Prático (Agrupamento):
+code JavaScript
+downloadcontent_copyexpand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+    /* [Bloco] Variáveis de estado globais para controle da navegação. */
+window.titulo = null;
+window.livroAtivo = null;
+  
+3.	Comentários de Linha (// ...)
+o	Uso: Para explicar uma única linha ou um pequeno trecho de código que seja complexo ou cuja intenção não seja imediatamente óbvia.
+o	Posicionamento: Imediatamente antes da linha que está sendo explicada, ou na mesma linha, à direita. A consistência dentro de um mesmo arquivo é fundamental.
+o	Formato:
+code JavaScript
+downloadcontent_copyexpand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+    // Explicação do que a próxima linha faz.
+const algumaVariavel = algumCalculoComplexo();
+
+outraVariavel = 10; // Explicação na mesma linha.
+  
+o	Exemplo Prático:
+code JavaScript
+downloadcontent_copyexpand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+    // Converte a string JSON em um objeto para podermos acessar seus dados.
+const dados = await resposta.json();
+
+if (!areaConteudo) return; // Interrompe a função se o elemento principal não for encontrado.
+  
+
+
+Com certeza. Sem problemas.
+A seguir está o relatório consolidado para todos os arquivos HTML e CSS, documentando todas as traduções de classes e IDs que foram aplicadas com base nas nossas regras.
+ 
+Relatório Final de Traduções HTML e CSS
+Este documento detalha todos os nomes de id e class que foram padronizados para o português nos arquivos .html e .css do projeto.
+1. Padrões de Nomenclatura Aplicados
+•	Padrão Principal: kebab-case (ex: nome-do-componente).
+•	Regra de Concordância: Nomes compostos seguem a ordem gramatical do português [parte]-[componente] (ex: .conteudo-concordancia).
+•	Regra btn -> botao: Todas as ocorrências da abreviação btn foram substituídas por botao.
+2. Tabela de Traduções de Seletores (IDs e Classes)
+Esta é a lista definitiva de todas as traduções realizadas nos arquivos.
+Nome Original	Nome Final (Traduzido)	Tipo	Arquivo(s) Onde Aparece (Exemplos)
+.container	.conteiner	Classe	versoes.css, menu_dicionarioconcordancia.css, versoes.html, menu_dicionarioconcordancia.html
+.content	.conteudo	Classe	cursos.css, versoes.css, cursos.html, versoes.html
+.wrapper	.agrupador	Classe	dicionario.css (dicionario-conteudo-wrapper -> agrupador-conteudo-dicionario)
+.watermark	.marcadagua	Classe	cursos.css, versoes.css, biblia_realizabusca.css
+.dropdown / .menu-suspenso	.menu-suspenso	Classe	versoes.css, versoes.html
+#slide-container	#conteiner-slide	ID	slide_harpacantor.css, slide_biblia.css
+.livro-header	.cabecalho-livro	Classe	concordancia.css
+.concordancias-content	.conteudo-concordancia	Classe	concordancia.css
+.sobre-content	.conteudo-sobre	Classe	versoes.css
+#search-overlay-content	#conteudo-overlay-busca	ID	biblia_realizabusca.css
+.search-overlay-resultado-item	.item-resultado-busca	Classe	biblia_realizabusca.css
+.reading-mode-header	.cabecalho-modo-leitura	Classe	modo_leitura.css
+.chapter-verses	.capitulo-versiculos	Classe	modo_leitura.css
+#voltar-botao, #proximo-botao	#botao-voltar, #botao-proximo	IDs	slide_biblia.css
+.container-titulo	.conteiner-titulo	Classe	versoes.css, menu_dicionarioconcordancia.css
+.custom-select	.selecao-personalizada	Classe	concordancia.css, menu_dicionarioconcordancia.html
+livro-select (id)	selecao-livro	ID	concordancia.css, menu_dicionarioconcordancia.html
+loading-indicator	indicador-carregamento	ID	concordancia.css, menu_dicionarioconcordancia.html
+spinner-carregamento	icone-carregamento	Classe	concordancia.css, menu_dicionarioconcordancia.html
+container-contador	conteiner-contador	Classe/ID	concordancia.css, menu_dicionarioconcordancia.html
+container-resultados	conteiner-resultados	ID	concordancia.css, menu_dicionarioconcordancia.html
+baixar-list, utilidades-list	baixar-lista, utilidades-lista	IDs	versoes.html, versoes.css
+.opcoes-menu	.menu-opcoes	Classe	versoes.css, menu_dicionarioconcordancia.css
+.palavra-section	.selecao-palavra	Classe	concordancia.css
+.palavra-header	.palavra-cabecalho	Classe	concordancia.css
+.expand-indicator	.indicador-expansao	Classe	concordancia.css
+.menu-button	.botao-menu	Classe	cantor_cristao.css, harpa_cantor.html
+.hino-container	.conteiner-hino	Classe	cantor_cristao.css, harpa_cantor.css
+3. Aplicação da Regra btn -> botao
+Esta regra foi aplicada de forma sistemática a todas as classes e IDs, resultando nas seguintes traduções:
+Nome Original	Nome Final (Traduzido)	Arquivo(s) Onde Aparece (Exemplos)
+.letra-btn	.botao-letra	menu_dicionarioconcordancia.css, menu_dicionarioconcordancia.html
+#btn-buscar	#botao-buscar	concordancia.css, menu_dicionarioconcordancia.html
+.search-btn	.botao-busca	concordancia.css
+#btn-carregar-mais	#botao-carregar-mais	concordancia.css, menu_dicionarioconcordancia.html
+.btn-paginacao	.botao-paginacao	concordancia.css
+.dicionario-btn	.botao-dicionario	dicionario.css, menu_dicionarioconcordancia.html
+#btnHarpa, #btnCantor, #btnSlide	#botaoHarpa, #botaoCantor, #botaoSlide	harpa_cantor.html
+ 
+Este relatório consolida todas as decisões de nomenclatura que tomamos para a parte de estilização e estrutura do seu projeto.
+
+
+
+
+Compreendido. Peço desculpas pela omissão. Você quer o relatório completo, mas com a adição da coluna "Arquivo(s) Onde Aparece" para cada item, de modo que você saiba exatamente onde cada tradução foi (ou deveria ser) aplicada.
+Fiz a revisão completa e detalhada. A seguir está o relatório final, agora com a informação de localização de cada identificador.
+ 
+Relatório Final de Traduções JavaScript (com Localização)
+Este documento detalha todos os nomes de variáveis, constantes, funções e classes que foram padronizados para o português, indicando os arquivos onde essas alterações são relevantes.
+1. Nomes de Variáveis e Constantes
+Padrão de Nomenclatura: camelCase
+Nome Original	Nome Traduzido	Arquivo(s) Onde Aparece
+content	areaConteudo	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js, sobre.js
+response	resposta	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+data	dados	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+searchTerm	termoBusca	gerenciador_concordancia.js, concordancia-optimizada.js
+isLoading	estaCarregando	concordancia-optimizada.js
+existingVersiculoDiv	divVersiculoExistente	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+versiculoElementDiv	divElementoVersiculo	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+currentLetter	letraAtual	gerenciador_concordancia.js, dicionario.js, concordancia-optimizada.js
+currentPage	paginaAtual	gerenciador_concordancia.js, dicionario.js, concordancia-optimizada.js
+itemsPerPage	itensPorPagina	gerenciador_concordancia.js, dicionario.js
+allTermos / allData	todosTermosLetra	gerenciador_concordancia.js, dicionario.js
+allGlobalTermos	todosTermosGlobais	dicionario.js
+listaLetras	indiceLetras	gerenciador_concordancia.js, dicionario.js
+hasMore	temMaisResultados	concordancia-optimizada.js, gerenciador_concordancia.js
+activeHinario	hinarioAtivo	harpa_cantor.js
+activeHinoData	dadosHinoAtivo	harpa_cantor.js
+livroKey	chaveLivro	biblia-navegacao.js
+BIBLE_VERSION	VERSAO_BIBLIA	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+NOME_VERSAO_COMPLETA_BIBLIA	NOME_COMPLETO_VERSAO_BIBLIA	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js, versoes.js
+activeLivro	livroAtivo	biblia-navegacao.js, versoes.js, versoes_modoleitura.js
+activeCapitulo	capituloAtivo	biblia-navegacao.js, versoes.js, versoes_modoleitura.js
+activeVersiculoButton	botaoVersiculoAtivo	biblia-navegacao.js, versoes.js
+2. Nomes de Funções
+Padrão de Nomenclatura: camelCase
+Nome Original	Nome Traduzido	Arquivo(s) Onde Aparece
+loadSpecificVerse	carregarVersiculoEspecifico	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+getSpecificVerseCount	obterContagemVersiculosEspecifica	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+getSpecificChapterTitle	obterTituloCapituloEspecifico	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+toggleReadingMode	alternarModoLeitura	versoes.js, versoes_modoleitura.js
+initializeDropdowns	inicializarMenusSuspensos	dropdown.js
+loadBook	carregarLivro	biblia-navegacao.js
+createCapitulosButtons	criarBotoesCapitulos	biblia-navegacao.js
+toggleVersiculos	alternarVersiculos	biblia-navegacao.js
+performGlobalSearch	executarBuscaGlobal	concordancia-optimizada.js
+updateResultsCounter	atualizarContadorResultados	concordancia.js, concordancia-optimizada.js
+showLoading	mostrarCarregamento	concordancia.js, concordancia-optimizada.js
+loadLetterList	carregarIndiceLetras	gerenciador_concordancia.js
+loadLetterData	carregarDadosPorLetra	gerenciador_concordancia.js
+handleSearch	manipularBusca	dicionario.js
+getLivroDisplayName	obterNomeExibicaoLivro	biblia-navegacao.js, acf.js, ara.js, arc.js, etc.
+abrirJanelaDeBusca	abrirJanelaDeBusca	biblia_realizabusca.js (Mantido)
+carregaScriptAssincrono	carregarScriptAssincrono	versoes.js (Mantido, pequeno ajuste)
+3. Nomes de Classes
+Padrão de Nomenclatura: PascalCase
+Nome Original	Nome Traduzido	Arquivo(s) Onde Aparece
+DataManager	GerenciadorDados	gerenciador_concordancia.js
+ConcordanciaOptimized	ConcordanciaOtimizada	concordancia-optimizada.js
+Dicionario	Dicionario	dicionario.js (Mantido)
+MainApp	AppPrincipal	menu_dicionarioconcordancia.js
+InterfaceManager	GerenciadorInterface	versoes_interface.js
+VersiculosManager	GerenciadorVersiculos	versoes_versiculos.js
+--------x---------
+
+
+
+Com certeza! Para organizar o texto, preciso de algumas informações adicionais:
+1.	Qual o objetivo final deste texto? Ele será um guia, um relatório técnico, uma documentação interna?
+2.	Qual o público-alvo? Desenvolvedores, gerentes de projeto, designers?
+3.	Há alguma seção específica que você gostaria de destacar ou priorizar?
+Com base no que você me forneceu, que é um conjunto de procedimentos, regras e relatórios de tradução para um projeto de desenvolvimento (aparentemente um aplicativo de Bíblia/Harpa Cristã/Dicionário), posso organizar o texto da seguinte forma geral:
+ 
+Guia de Padronização e Tradução do Projeto
+Este documento serve como um guia abrangente para a padronização de código, documentação e nomenclatura de elementos no projeto, garantindo consistência, clareza e manutenibilidade.
+ 
+1. Procedimentos e Regras Gerais
+Esta seção detalha as diretrizes para padronização de comentários e organização de código.
+1.1 Padronização de Comentários
+Todos os comentários devem ser escritos em português, ser objetivos e explicar o "porquê" do código, não apenas o "o quê".
+•	Cabeçalho do Arquivo:
+code Css
+downloadcontent_copy
+expand_less
+    /*====================================================================*/
+/*================== NOME DA SEÇÃO EM MAIÚSCULAS =====================*/
+/*     Descrição curta do que o arquivo estiliza.                     */
+/*====================================================================*/
+  
+•	Comentários de Bloco (/* [Bloco] ... */)
+o	Uso: Agrupar e descrever um conjunto de regras CSS relacionadas.
+o	Posicionamento: Imediatamente antes do primeiro seletor do bloco.
+o	Formato:
+code Css
+downloadcontent_copy
+expand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+    /* [Bloco] Descrição concisa do propósito do bloco de código. */
+.seletor-1 { /* ... */ }
+.seletor-2 { /* ... */ }
+  
+o	Exemplo:
+code Css
+downloadcontent_copy
+expand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+    /* [Bloco] Configura a barra de paginação e o contador de resultados. */
+.conteiner-contador {
+    position: fixed; /* ... */
+}
+.btn-paginacao { /* ... */ }
+  
+•	Comentários de Linha (/* ... */)
+o	Uso: Explicar uma única declaração CSS que possa não ser óbvia.
+o	Posicionamento: Na mesma linha, à direita da declaração, alinhado.
+o	Formato:
+code Css
+downloadcontent_copy
+expand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+    .seletor {
+    propriedade: valor;     /* Explicação do porquê desta linha. */
+    outra-propriedade: valor; /* Outra explicação. */
+}
+  
+o	Exemplo:
+code Css
+downloadcontent_copy
+expand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+    #marcadagua {
+    position: fixed;          /* Garante que a marca d'água não role com a página. */
+    z-index: -1;              /* Coloca a imagem atrás de todo o conteúdo. */
+    pointer-events: none;     /* Permite que o usuário clique "através" da imagem. */
+}
+  
+•	Cabeçalho do Arquivo:
+code JavaScript
+downloadcontent_copy
+expand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+    /*===============================================================================*/
+/*               NOME DO MÓDULO EM MAIÚSCULAS                                */
+/*===============================================================================*/
+/*  [Arquivo] Contém:                                                          */
+/*                   - Breve descrição do ponto 1.                             */
+/*                   - Breve descrição do ponto 2.                             */
+/*===============================================================================*/
+  
+•	Comentários de Bloco (/* [Bloco] ... */)
+o	Uso: Descrever o propósito de uma classe, função ou agrupamento lógico de código.
+o	Posicionamento: Imediatamente antes da declaração.
+o	Exemplos:
+code JavaScript
+downloadcontent_copy
+expand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+    /* [Bloco] Carrega e exibe um versículo específico da Bíblia a partir de um arquivo. */
+window.carregarVersiculoEspecifico = async function(livro, capitulo, versiculo) {
+    // ... código da função
+}
+
+/* [Bloco] Variáveis de estado globais para controle da navegação. */
+window.titulo = null;
+window.livroAtivo = null;
+  
+•	Comentários de Linha (// ...)
+o	Uso: Explicar uma única linha ou pequeno trecho complexo.
+o	Posicionamento: Imediatamente antes da linha ou na mesma linha, à direita.
+o	Formato:
+code JavaScript
+downloadcontent_copy
+expand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+    // Explicação do que a próxima linha faz.
+const algumaVariavel = algumCalculoComplexo();
+
+outraVariavel = 10; // Explicação na mesma linha.
+  
+o	Exemplo:
+code JavaScript
+downloadcontent_copy
+expand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+    // Converte a string JSON em um objeto para podermos acessar seus dados.
+const dados = await resposta.json();
+
+if (!areaConteudo) return; // Interrompe a função se o elemento principal não for encontrado.
+  
+1.2 Organização dos Blocos de Comentários CSS
+Siga as seguintes boas práticas para organizar os blocos de comentários e regras CSS:
+1.	Reset/normalização
+2.	Estrutura básica (body, html, tipografia, cores globais)
+3.	Layouts principais (header, main, footer, sidebar)
+4.	Componentes (cards, botões, formulários, etc.)
+5.	Utilitários/media queries
+ 
+2. Guia de Estilo e Padronização de Nomenclatura
+Esta seção define as convenções de nomenclatura para seletores CSS/HTML e elementos JavaScript, bem como termos que não devem ser traduzidos.
+2.1 Itens Intencionalmente Não Traduzidos
+Para garantir a funcionalidade do código e seguir convenções universais, os seguintes tipos de termos não devem ser traduzidos:
+Categoria	Exemplos	Motivo
+Tags HTML	<body>, <header>, <nav>, <div>, <h1>, <a>	Palavras-chave fixas da linguagem HTML.
+Atributos HTML Padrão	id, class, href, src, alt, for, disabled	Nomes de atributos definidos pela especificação do HTML.
+Padrão data-*	data-livro, data-capitulo, data-letra	Prefixo padrão do HTML5. Traduzi-lo quebraria o acesso via element.dataset.
+Palavras-Chave JavaScript	class, constructor, function, async, await, let, const, if	Sintaxe fundamental da linguagem JavaScript.
+APIs do Navegador (DOM)	document, window, localStorage, console, fetch	Objetos e interfaces globais fornecidos pelo ambiente do navegador.
+Métodos e Propriedades de APIs	.getElementById(), .querySelector(), .addEventListener()	Nomes fixos de "comandos" para manipular elementos e dados.
+Nomes de Eventos	DOMContentLoaded, click, change, input	Nomes de eventos padrão do navegador.
+Propriedades CSS	background-color, font-size, margin-left, display	Propriedades da própria linguagem CSS.
+Pseudo-classes/elementos CSS	:hover, :disabled, ::before, ::after	Seletores especiais fixos da linguagem CSS.
+Nomes de Arquivos	versoes.js, concordancia.css	Devem ser consistentes com as referências nos HTMLs e nas chamadas fetch().
+2.2 Padrões de Nomenclatura Aplicados
+•	Padrão Principal: kebab-case (ex: nome-do-componente) para seletores CSS e HTML.
+•	Padrão Principal: camelCase para variáveis e funções JavaScript, e PascalCase para classes JavaScript.
+•	Regra de Concordância: Nomes compostos seguem a ordem gramatical do português [parte]-[componente] (ex: .conteudo-concordancia).
+•	Regra btn -> botao: Todas as ocorrências da abreviação btn foram substituídas por botao.
+ 
+3. Relatório Final de Traduções (HTML, CSS e JavaScript)
+Este relatório detalha todas as traduções aplicadas aos seletores CSS/HTML e elementos JavaScript, indicando os arquivos afetados.
+3.1 Seletores CSS e HTML
+Padrão de Tradução: kebab-case
+Nome Original	Nome Final (Traduzido)	Tipo	Arquivo(s) Afetado(s) (Exemplos)	Interligações
+#search-overlay-content	#overlay-busca-conteudo	ID	biblia_realizabusca.css, biblia_realizabusca.js	JS cria dinamicamente o HTML.
+.search-overlay-resultado-item	.item-resultado-overlay-busca	Classe	biblia_realizabusca.css, biblia_realizabusca.js	Estiliza resultados na busca pop-up.
+.palavra-section	.selecao-palavra	Classe	concordancia.css, concordancia-optimizada.js	(JS) Cria dinamicamente o card principal.
+.palavra-header	.palavra-cabecalho	Classe	concordancia.css, concordancia-optimizada.js	(JS) Cria dinamicamente o cabeçalho do card.
+.expand-indicator	.indicador-expansao	Classe	concordancia.css, concordancia-optimizada.js	(JS) Manipula rotação do ícone.
+.menu-button	.botao-menu	Classe	cantor_cristao.css, harpa_cantor.html	Estiliza botões "Harpa Cristã" e "Cantor Cristão".
+.hino-container	.conteiner-hino	Classe	cantor_cristao.css, harpa_cantor.js	(JS) Cria o card para exibir a letra do hino.
+.reading-mode-header	.cabecalho-modo-leitura	Classe	modo_leitura.css, versoes_modoleitura.js	(JS) Criado dinamicamente.
+.chapter-verses	.capitulo-versiculos	Classe	modo_leitura.css, versoes_modoleitura.js	(JS) Contêiner principal para versículos.
+#voltar-botao, #proximo-botao	#botao-voltar, #botao-proximo	IDs	slide_biblia.css, slide_biblia_interface.js	(JS) Botões de navegação.
+.container	.conteiner	Classe	menu_dicionarioconcordancia.css, versoes.css, menu_dicionarioconcordancia.html, versoes.html	Classe de layout principal em várias páginas.
+.container-titulo	.conteiner-titulo	Classe	versoes.css, menu_dicionarioconcordancia.css, versoes.html, menu_dicionarioconcordancia.html	Div que envolve o título principal.
+.btn-letra	.botao-letra	Classe	menu_dicionarioconcordancia.css, menu_dicionarioconcordancia.html	Botões de letra no menu alfabético.
+.custom-select	.selecao-personalizada	Classe	concordancia.css, menu_dicionarioconcordancia.html	Div que envolve os dropdowns customizados.
+livro-select (id)	selecao-livro	ID	concordancia.css, menu_dicionarioconcordancia.html	For do label e id do dropdown de livros.
+btn-buscar	botao-buscar	ID	concordancia.css, menu_dicionarioconcordancia.html	Botão principal de busca.
+loading-indicator	indicador-carregamento	ID	concordancia.css, menu_dicionarioconcordancia.html, concordancia-optimizada.js	(JS) Manipula visibilidade do loader.
+spinner-carregamento	icone-carregamento	Classe	concordancia.css, menu_dicionarioconcordancia.html	Elemento visual do loader.
+container-contador	conteiner-contador	Classe/ID	concordancia.css, menu_dicionarioconcordancia.html	Barra que exibe o contador de resultados.
+btn-carregar-mais	botao-carregar-mais	ID	concordancia.css, menu_dicionarioconcordancia.html	Botão para carregar mais resultados.
+container-resultados	conteiner-resultados	ID	concordancia.css, menu_dicionarioconcordancia.html, concordancia-optimizada.js	(JS) Div onde os resultados são injetados.
+wrapper-conteudo-dicionario	agrupador-conteudo-dicionario	Classe	dicionario.css, menu_dicionarioconcordancia.html	Div que agrupa elementos do layout do dicionário.
+baixar-list, utilidades-list	baixar-lista, utilidades-lista	IDs	versoes.css, versoes.html, dropdown.js	(JS) IDs das <ul> dos menus dropdown.
+.opcoes-menu	.menu-opcoes	Classe	versoes.css, menu_dicionarioconcordancia.css, versoes.html, menu_dicionarioconcordancia.html	<ul> da barra de navegação principal.
+3.2 Aplicação da Regra btn -> botao (CSS/HTML)
+Nome Original	Nome Final (Traduzido)	Arquivo(s) Onde Aparece (Exemplos)
+.letra-btn	.botao-letra	menu_dicionarioconcordancia.css, menu_dicionarioconcordancia.html
+#btn-buscar	#botao-buscar	concordancia.css, menu_dicionarioconcordancia.html
+.search-btn	.botao-busca	concordancia.css
+#btn-carregar-mais	#botao-carregar-mais	concordancia.css, menu_dicionarioconcordancia.html
+.btn-paginacao	.botao-paginacao	concordancia.css
+.dicionario-btn	.botao-dicionario	dicionario.css, menu_dicionarioconcordancia.html
+#btnHarpa, #btnCantor, #btnSlide	#botaoHarpa, #botaoCantor, #botaoSlide	harpa_cantor.html
+3.3 Variáveis e Constantes JavaScript
+Padrão de Nomenclatura: camelCase
+Nome Original	Nome Traduzido	Arquivo(s) Onde Aparece
+content	areaConteudo	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js, sobre.js
+response	resposta	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+data	dados	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+searchTerm	termoBusca	gerenciador_concordancia.js, concordancia-optimizada.js
+isLoading	estaCarregando	concordancia-optimizada.js
+existingVersiculoDiv	divVersiculoExistente	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+versiculoElementDiv	divElementoVersiculo	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+currentLetter	letraAtual	gerenciador_concordancia.js, dicionario.js, concordancia-optimizada.js
+currentPage	paginaAtual	gerenciador_concordancia.js, dicionario.js, concordancia-optimizada.js
+itemsPerPage	itensPorPagina	gerenciador_concordancia.js, dicionario.js
+allTermos / allData	todosTermosLetra	gerenciador_concordancia.js, dicionario.js
+allGlobalTermos	todosTermosGlobais	dicionario.js
+listaLetras	indiceLetras	gerenciador_concordancia.js, dicionario.js
+hasMore	temMaisResultados	concordancia-optimizada.js, gerenciador_concordancia.js
+activeHinario	hinarioAtivo	harpa_cantor.js
+activeHinoData	dadosHinoAtivo	harpa_cantor.js
+livroKey	chaveLivro	biblia-navegacao.js
+BIBLE_VERSION	VERSAO_BIBLIA	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+NOME_VERSAO_COMPLETA_BIBLIA	NOME_COMPLETO_VERSAO_BIBLIA	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js, versoes.js
+activeLivro	livroAtivo	biblia-navegacao.js, versoes.js, versoes_modoleitura.js
+activeCapitulo	capituloAtivo	biblia-navegacao.js, versoes.js, versoes_modoleitura.js
+activeVersiculoButton	botaoVersiculoAtivo	biblia-navegacao.js, versoes.js
+3.4 Funções JavaScript
+Padrão de Nomenclatura: camelCase
+Nome Original	Nome Traduzido	Arquivo(s) Onde Aparece
+loadSpecificVerse	carregarVersiculoEspecifico	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+getSpecificVerseCount	obterContagemVersiculosEspecifica	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+getSpecificChapterTitle	obterTituloCapituloEspecifico	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+toggleReadingMode	alternarModoLeitura	versoes.js, versoes_modoleitura.js
+initializeDropdowns	inicializarMenusSuspensos	dropdown.js
+loadBook	carregarLivro	biblia-navegacao.js
+createCapitulosButtons	criarBotoesCapitulos	biblia-navegacao.js
+toggleVersiculos	alternarVersiculos	biblia-navegacao.js
+performGlobalSearch	executarBuscaGlobal	concordancia-optimizada.js
+updateResultsCounter	atualizarContadorResultados	concordancia.js, concordancia-optimizada.js
+showLoading	mostrarCarregamento	concordancia.js, concordancia-optimizada.js
+loadLetterList	carregarIndiceLetras	gerenciador_concordancia.js
+loadLetterData	carregarDadosPorLetra	gerenciador_concordancia.js
+handleSearch	manipularBusca	dicionario.js
+getLivroDisplayName	obterNomeExibicaoLivro	biblia-navegacao.js, acf.js, ara.js, arc.js, etc.
+abrirJanelaDeBusca	abrirJanelaDeBusca	biblia_realizabusca.js (Mantido)
+carregaScriptAssincrono	carregarScriptAssincrono	versoes.js (Mantido, pequeno ajuste)
+3.5 Classes JavaScript
+Padrão de Nomenclatura: PascalCase
+Nome Original	Nome Traduzido	Arquivo(s) Onde Aparece
+DataManager	GerenciadorDados	gerenciador_concordancia.js
+ConcordanciaOptimized	ConcordanciaOtimizada	concordancia-optimizada.js
+Dicionario	Dicionario	dicionario.js (Mantido)
+MainApp	AppPrincipal	menu_dicionarioconcordancia.js
+InterfaceManager	GerenciadorInterface	versoes_interface.js
+VersiculosManager	GerenciadorVersiculos	versoes_versiculos.js
+ 
+Este guia e relatório fornecem uma visão completa das regras de padronização e das traduções implementadas, facilitando a compreensão e manutenção do código.
+ 
+Este formato deve ser mais claro e fácil de navegar. Me diga se você precisa de alguma alteração ou se há algo mais que eu possa fazer!
+
+
+Compreendido. A alteração para lista-utilidades será feita.
+Aqui está a seção atualizada do relatório de traduções HTML e CSS com a correção:
+ 
+3. Relatório Final de Traduções (HTML, CSS e JavaScript)
+[...]
+3.1 Seletores CSS e HTML
+Padrão de Tradução: kebab-case
+Nome Original	Nome Final (Traduzido)	Tipo	Arquivo(s) Afetado(s) (Exemplos)	Interligações
+#search-overlay-content	#overlay-busca-conteudo	ID	biblia_realizabusca.css, biblia_realizabusca.js	JS cria dinamicamente o HTML.
+.search-overlay-resultado-item	.item-resultado-overlay-busca	Classe	biblia_realizabusca.css, biblia_realizabusca.js	Estiliza resultados na busca pop-up.
+.palavra-section	.selecao-palavra	Classe	concordancia.css, concordancia-optimizada.js	(JS) Cria dinamicamente o card principal.
+.palavra-header	.palavra-cabecalho	Classe	concordancia.css, concordancia-optimizada.js	(JS) Cria dinamicamente o cabeçalho do card.
+.expand-indicator	.indicador-expansao	Classe	concordancia.css, concordancia-optimizada.js	(JS) Manipula rotação do ícone.
+.menu-button	.botao-menu	Classe	cantor_cristao.css, harpa_cantor.html	Estiliza botões "Harpa Cristã" e "Cantor Cristão".
+.hino-container	.conteiner-hino	Classe	cantor_cristao.css, harpa_cantor.js	(JS) Cria o card para exibir a letra do hino.
+.reading-mode-header	.cabecalho-modo-leitura	Classe	modo_leitura.css, versoes_modoleitura.js	(JS) Criado dinamicamente.
+.chapter-verses	.capitulo-versiculos	Classe	modo_leitura.css, versoes_modoleitura.js	(JS) Contêiner principal para versículos.
+#voltar-botao, #proximo-botao	#botao-voltar, #botao-proximo	IDs	slide_biblia.css, slide_biblia_interface.js	(JS) Botões de navegação.
+.container	.conteiner	Classe	menu_dicionarioconcordancia.css, versoes.css, menu_dicionarioconcordancia.html, versoes.html	Classe de layout principal em várias páginas.
+.container-titulo	.conteiner-titulo	Classe	versoes.css, menu_dicionarioconcordancia.css, versoes.html, menu_dicionarioconcordancia.html	Div que envolve o título principal.
+.btn-letra	.botao-letra	Classe	menu_dicionarioconcordancia.css, menu_dicionarioconcordancia.html	Botões de
+minha resposta foi cortada, peço desculpas. A correção será aplicada e continuarei a tabela de onde parei.
+ 
+3. Relatório Final de Traduções (HTML, CSS e JavaScript)
+[...]
+3.1 Seletores CSS e HTML
+Padrão de Tradução: kebab-case
+Nome Original	Nome Final (Traduzido)	Tipo	Arquivo(s) Afetado(s) (Exemplos)	Interligações
+#search-overlay-content	#overlay-busca-conteudo	ID	biblia_realizabusca.css, biblia_realizabusca.js	JS cria dinamicamente o HTML.
+.search-overlay-resultado-item	.item-resultado-overlay-busca	Classe	biblia_realizabusca.css, biblia_realizabusca.js	Estiliza resultados na busca pop-up.
+.palavra-section	.selecao-palavra	Classe	concordancia.css, concordancia-optimizada.js	(JS) Cria dinamicamente o card principal.
+.palavra-header	.palavra-cabecalho	Classe	concordancia.css, concordancia-optimizada.js	(JS) Cria dinamicamente o cabeçalho do card.
+.expand-indicator	.indicador-expansao	Classe	concordancia.css, concordancia-optimizada.js	(JS) Manipula rotação do ícone.
+.menu-button	.botao-menu	Classe	cantor_cristao.css, harpa_cantor.html	Estiliza botões "Harpa Cristã" e "Cantor Cristão".
+.hino-container	.conteiner-hino	Classe	cantor_cristao.css, harpa_cantor.js	(JS) Cria o card para exibir a letra do hino.
+.reading-mode-header	.cabecalho-modo-leitura	Classe	modo_leitura.css, versoes_modoleitura.js	(JS) Criado dinamicamente.
+.chapter-verses	.capitulo-versiculos	Classe	modo_leitura.css, versoes_modoleitura.js	(JS) Contêiner principal para versículos.
+#voltar-botao, #proximo-botao	#botao-voltar, #botao-proximo	IDs	slide_biblia.css, slide_biblia_interface.js	(JS) Botões de navegação.
+.container	.conteiner	Classe	menu_dicionarioconcordancia.css, versoes.css, menu_dicionarioconcordancia.html, versoes.html	Classe de layout principal em várias páginas.
+.container-titulo	.conteiner-titulo	Classe	versoes.css, menu_dicionarioconcordancia.css, versoes.html, menu_dicionarioconcordancia.html	Div que envolve o título principal.
+.btn-letra	.botao-letra	Classe	menu_dicionarioconcordancia.css, menu_dicionarioconcordancia.html	Botões de letra no menu alfabético.
+.custom-select	.selecao-personalizada	Classe	concordancia.css, menu_dicionarioconcordancia.html	Div que envolve os dropdowns customizados.
+livro-select (id)	selecao-livro	ID	concordancia.css, menu_dicionarioconcordancia.html	For do label e id do dropdown de livros.
+btn-buscar	botao-buscar	ID	concordancia.css, menu_dicionarioconcordancia.html	Botão principal de busca.
+loading-indicator	indicador-carregamento	ID	concordancia.css, menu_dicionarioconcordancia.html, concordancia-optimizada.js	(JS) Manipula visibilidade do loader.
+spinner-carregamento	icone-carregamento	Classe	concordancia.css, menu_dicionarioconcordancia.html	Elemento visual do loader.
+container-contador	conteiner-contador	Classe/ID	concordancia.css, menu_dicionarioconcordancia.html	Barra que exibe o contador de resultados.
+btn-carregar-mais	botao-carregar-mais	ID	concordancia.css, menu_dicionarioconcordancia.html	Botão para carregar mais resultados.
+container-resultados	conteiner-resultados	ID	concordancia.css, menu_dicionarioconcordancia.html, concordancia-optimizada.js	(JS) Div onde os resultados são injetados.
+wrapper-conteudo-dicionario	agrupador-conteudo-dicionario	Classe	dicionario.css, menu_dicionarioconcordancia.html	Div que agrupa elementos do layout do dicionário.
+baixar-list, utilidades-list	baixar-lista, lista-utilidades	IDs	versoes.css, versoes.html, dropdown.js	(JS) IDs das <ul> dos menus dropdown. (CORRIGIDO)
+.opcoes-menu	.menu-opcoes	Classe	versoes.css, menu_dicionarioconcordancia.css, versoes.html, menu_dicionarioconcordancia.html	<ul> da barra de navegação principal.
+3.2 Aplicação da Regra btn -> botao (CSS/HTML)
+Nome Original	Nome Final (Traduzido)	Arquivo(s) Onde Aparece (Exemplos)
+.letra-btn	.botao-letra	menu_dicionarioconcordancia.css, menu_dicionarioconcordancia.html
+#btn-buscar	#botao-buscar	concordancia.css, menu_dicionarioconcordancia.html
+.search-btn	.botao-busca	concordancia.css
+#btn-carregar-mais	#botao-carregar-mais	concordancia.css, menu_dicionarioconcordancia.html
+.btn-paginacao	.botao-paginacao	concordancia.css
+.dicionario-btn	.botao-dicionario	dicionario.css, menu_dicionarioconcordancia.html
+#btnHarpa, #btnCantor, #btnSlide	#botaoHarpa, #botaoCantor, #botaoSlide	harpa_cantor.html
+3.3 Variáveis e Constantes JavaScript
+Padrão de Nomenclatura: camelCase
+Nome Original	Nome Traduzido	Arquivo(s) Onde Aparece
+content	areaConteudo	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js, sobre.js
+response	resposta	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+data	dados	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+searchTerm	termoBusca	gerenciador_concordancia.js, concordancia-optimizada.js
+isLoading	estaCarregando	concordancia-optimizada.js
+existingVersiculoDiv	divVersiculoExistente	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+versiculoElementDiv	divElementoVersiculo	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+currentLetter	letraAtual	gerenciador_concordancia.js, dicionario.js, concordancia-optimizada.js
+currentPage	paginaAtual	gerenciador_concordancia.js, dicionario.js, concordancia-optimizada.js
+itemsPerPage	itensPorPagina	gerenciador_concordancia.js, dicionario.js
+allTermos / allData	todosTermosLetra	gerenciador_concordancia.js, dicionario.js
+allGlobalTermos	todosTermosGlobais	dicionario.js
+listaLetras	indiceLetras	gerenciador_concordancia.js, dicionario.js
+hasMore	temMaisResultados	concordancia-optimizada.js, gerenciador_concordancia.js
+activeHinario	hinarioAtivo	harpa_cantor.js
+activeHinoData	dadosHinoAtivo	harpa_cantor.js
+livroKey	chaveLivro	biblia-navegacao.js
+BIBLE_VERSION	VERSAO_BIBLIA	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+NOME_VERSAO_COMPLETA_BIBLIA	NOME_COMPLETO_VERSAO_BIBLIA	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js, versoes.js
+activeLivro	livroAtivo	biblia-navegacao.js, versoes.js, versoes_modoleitura.js
+activeCapitulo	capituloAtivo	biblia-navegacao.js, versoes.js, versoes_modoleitura.js
+activeVersiculoButton	botaoVersiculoAtivo	biblia-navegacao.js, versoes.js
+3.4 Funções JavaScript
+Padrão de Nomenclatura: camelCase
+Nome Original	Nome Traduzido	Arquivo(s) Onde Aparece
+loadSpecificVerse	carregarVersiculoEspecifico	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+getSpecificVerseCount	obterContagemVersiculosEspecifica	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+getSpecificChapterTitle	obterTituloCapituloEspecifico	acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+toggleReadingMode	alternarModoLeitura	versoes.js, versoes_modoleitura.js
+initializeDropdowns	inicializarMenusSuspensos	dropdown.js
+loadBook	carregarLivro	biblia-navegacao.js
+createCapitulosButtons	criarBotoesCapitulos	biblia-navegacao.js
+toggleVersiculos	alternarVersiculos	biblia-navegacao.js
+performGlobalSearch	executarBuscaGlobal	concordancia-optimizada.js
+updateResultsCounter	atualizarContadorResultados	concordancia.js, concordancia-optimizada.js
+showLoading	mostrarCarregamento	concordancia.js, concordancia-optimizada.js
+loadLetterList	carregarIndiceLetras	gerenciador_concordancia.js
+loadLetterData	carregarDadosPorLetra	gerenciador_concordancia.js
+handleSearch	manipularBusca	dicionario.js
+getLivroDisplayName	obterNomeExibicaoLivro	biblia-navegacao.js, acf.js, ara.js, arc.js, etc.
+abrirJanelaDeBusca	abrirJanelaDeBusca	biblia_realizabusca.js (Mantido)
+carregaScriptAssincrono	carregarScriptAssincrono	versoes.js (Mantido, pequeno ajuste)
+3.5 Classes JavaScript
+Padrão de Nomenclatura: PascalCase
+Nome Original	Nome Traduzido	Arquivo(s) Onde Aparece
+DataManager	GerenciadorDados	gerenciador_concordancia.js
+ConcordanciaOptimized	ConcordanciaOtimizada	concordancia-optimizada.js
+Dicionario	Dicionario	dicionario.js (Mantido)
+MainApp	AppPrincipal	menu_dicionarioconcordancia.js
+InterfaceManager	GerenciadorInterface	versoes_interface.js
+VersiculosManager	GerenciadorVersiculos	versoes_versiculos.js
+ 
+Este guia e relatório fornecem uma visão completa das regras de padronização e das traduções implementadas, facilitando a compreensão e manutenção do código.

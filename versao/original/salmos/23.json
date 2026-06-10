@@ -1,6 +1,87 @@
 {
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+  "livro": "Salmos - תְּהִלִּים - Tehillim",
   "capítulo": 23,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Salmo de Davi. YHWH é o meu pastor; nada me faltará.",
+      "palavras": [
+        { "hebraico": "מִזְמֹ֥ור", "transliteral": "miz-môr", "traducao_palavra": "salmo" },
+        { "hebraico": "לְדָוִ֑ד", "transliteral": "lə-ḏā-wiḏ", "traducao_palavra": "de Davi" },
+        { "hebraico": "יְהוָ֥ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "רֹ֝עִ֗י", "transliteral": "rō-ʿî", "traducao_palavra": "[é] meu pastor" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "אֶחְסָֽר׃", "transliteral": "ʾeḥ-sār", "traducao_palavra": "falte/sentirei falta" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Em pastos de relva macia me faz repousar; conduz-me mansamente a águas tranquilas.",
+      "palavras": [
+        { "hebraico": "בִּנְאֹ֣ות", "transliteral": "bin-ʾôṯ", "traducao_palavra": "em pastos de" },
+        { "hebraico": "דֶּ֭שֶׁא", "transliteral": "de-še", "traducao_palavra": "relva/grama verde" },
+        { "hebraico": "יַרְבִּיצֵ֑נִי", "transliteral": "yar-bî-ṣê-nî", "traducao_palavra": "ele me faz repousar" },
+        { "hebraico": "עַל־מֵ֖י", "transliteral": "ʿal-mê", "traducao_palavra": "junto a águas de" },
+        { "hebraico": "מְנֻחֹ֣ות", "transliteral": "mə-nu-ḥôṯ", "traducao_palavra": "descansos/tranquilas" },
+        { "hebraico": "יְנַהֲלֵֽנִי׃", "transliteral": "yə-na-hă-lê-nî", "traducao_palavra": "ele me guia/conduz" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Restaura a minha alma; guia-me pelas veredas da justiça por amor do seu nome.",
+      "palavras": [
+        { "hebraico": "נַפְשִׁ֥י", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma" },
+        { "hebraico": "יְשֹׁובֵ֑ב", "transliteral": "yə-šô-ḇēḇ", "traducao_palavra": "restaura/faz retornar" },
+        { "hebraico": "יַנְחֵ֥נִי", "transliteral": "yan-ḥê-nî", "traducao_palavra": "guia-me" },
+        { "hebraico": "בְמַעְגְּלֵי־צֶ֝֗דֶק", "transliteral": "ḇə-ma-ʿgə-lê-ṣe-ḏeq", "traducao_palavra": "em veredas de justiça" },
+        { "hebraico": "לְמַ֥עַן", "transliteral": "lə-ma-ʿan", "traducao_palavra": "por causa de/amor de" },
+        { "hebraico": "שְׁמֹֽו׃", "transliteral": "šə-mô", "traducao_palavra": "seu nome" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Ainda que eu ande pelo vale da sombra da morte, não temerei mal algum, porque tu estás comigo; a tua vara e o teu cajado me consolam.",
+      "palavras": [
+        { "hebraico": "גַּ֤ם", "transliteral": "gam", "traducao_palavra": "ainda/também" },
+        { "hebraico": "כִּֽי־אֵלֵ֨ךְ", "transliteral": "kî-ʾē-lēḵ", "traducao_palavra": "que/quando eu andar" },
+        { "hebraico": "בְּגֵ֪יא", "transliteral": "bə-ḡê", "traducao_palavra": "em vale de" },
+        { "hebraico": "צַלְמָ֡וֶת", "transliteral": "ṣal-mā-weṯ", "traducao_palavra": "sombra da morte" },
+        { "hebraico": "לֹא־אִ֘ירָ֤א", "transliteral": "lō-ʾî-rā", "traducao_palavra": "não temerei" },
+        { "hebraico": "רָ֗ע", "transliteral": "rāʿ", "traducao_palavra": "mal" },
+        { "hebraico": "כִּי־אַתָּ֥ה", "transliteral": "kî-ʾat-tā", "traducao_palavra": "porque tu" },
+        { "hebraico": "עִמָּדִ֑י", "transliteral": "ʿim-mā-ḏî", "traducao_palavra": "[estás] comigo" },
+        { "hebraico": "שִׁבְטְךָ֥", "transliteral": "šiḇ-ṭə-ḵā", "traducao_palavra": "tua vara" },
+        { "hebraico": "וּ֝מִשְׁעַנְתֶּ֗ca", "transliteral": "ū-miś-ʿan-te-ḵā", "traducao_palavra": "e teu cajado" },
+        { "hebraico": "הֵ֣מָּה", "transliteral": "hēm-mā", "traducao_palavra": "eles" },
+        { "hebraico": "יְנַחֲמֻֽנִי׃", "transliteral": "yə-na-ḥă-mu-nî", "traducao_palavra": "me consolam" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Preparas uma mesa perante mim na presença dos meus inimigos, unges a minha cabeça com óleo, o meu cálice transborda.",
+      "palavras": [
+        { "hebraico": "תַּעֲרֹ֬ךְ", "transliteral": "ta-ʿă-rōḵ", "traducao_palavra": "tu preparas/dispões" },
+        { "hebraico": "לְפָנַ֨י", "transliteral": "lə-p̄ā-nay", "traducao_palavra": "diante de mim" },
+        { "hebraico": "שֻׁלְחָ֗ן", "transliteral": "šul-ḥān", "traducao_palavra": "mesa" },
+        { "hebraico": "נֶ֥גֶד", "transliteral": "ne-ḡeḏ", "traducao_palavra": "na presença de" },
+        { "hebraico": "צֹרְרָ֑י", "transliteral": "ṣō-rə-rāy", "traducao_palavra": "meus adversários" },
+        { "hebraico": "דִּשַּׁ֭נְתָּ", "transliteral": "diš-šan-tā", "traducao_palavra": "ungiste/tornaste gordo" },
+        { "hebraico": "בַשֶּׁ֥מֶen", "transliteral": "baš-še-men", "traducao_palavra": "com o óleo" },
+        { "hebraico": "רֹ֝אשִׁ֗י", "transliteral": "rō-šî", "traducao_palavra": "minha cabeça" },
+        { "hebraico": "כֹּוסִ֥י", "transliteral": "kô-śî", "traducao_palavra": "meu cálice" },
+        { "hebraico": "רְוָיָֽה׃", "transliteral": "rə-wā-yā", "traducao_palavra": "fartura/transbordante" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Certamente que a bondade e a misericórdia me seguirão todos os dias da minha vida; e habitarei na casa de YHWH por longos dias.",
+      "palavras": [
+        { "hebraico": "אַ֤ךְ", "transliteral": "ʾaḵ", "traducao_palavra": "certamente/apenas" },
+        { "hebraico": "טֹ֣וב", "transliteral": "ṭôḇ", "traducao_palavra": "bondade" },
+        { "hebraico": "וָחֶ֣סֶד", "transliteral": "wā-ḥe-seḏ", "traducao_palavra": "e misericórdia" },
+        { "hebraico": "יִרְדְּפ֣וּנִי", "transliteral": "yîr-də-p̄û-nî", "traducao_palavra": "me seguirão/perseguirão" },
+        { "hebraico": "כָּλ־יְמֵ֣י", "transliteral": "kāl-yə-mê", "traducao_palavra": "todos os dias de" },
+        { "hebraico": "חַיָּ֑י", "transliteral": "ḥay-yāy", "traducao_palavra": "minha vida" },
+        { "hebraico": "וְשַׁבְתִּ֥י", "transliteral": "wə-šaḇ-tî", "traducao_palavra": "e habitarei/retornarei" },
+        { "hebraico": "בְּבֵית־יְ֝הוָ֗ה", "transliteral": "bə-ḇêṯ-YHWH", "traducao_palavra": "na casa de YHWH" },
+        { "hebraico": "לְאֹ֣רֶךְ", "transliteral": "lə-ʾō-reḵ", "traducao_palavra": "pelo comprimento de" },
+        { "hebraico": "יָמִֽים׃", "transliteral": "yā-mîm", "traducao_palavra": "dias" }
+      ]
+    }
+  }
 }

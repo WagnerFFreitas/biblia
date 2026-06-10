@@ -1,0 +1,91 @@
+Faça uma lista de seletores, classes, IDs, variáveis e funções que podem ser traduzidos, sem infringir as convenções de nomenclatura kebab-case, camelCase e PascalCase, seguindo as regras globais do projeto.
+
+NÃO PODEM SER TRADUZIDOS (devem permanecer em inglês):
+
+- active (classe CSS, usada como literal no JS)
+- aria-pressed (atributo ARIA padrão)
+- cache (termo técnico em computação)
+- CamelCase (padrão de nomenclatura)
+- data (variável de contexto genérico)
+- data-letra (atributo personalizado HTML5)
+- data-livro (atributo personalizado HTML5)
+- data-value (atributo personalizado HTML5)
+- div (elemento HTML)
+- e (parâmetro de evento - convenção para "event")
+- error (padrão em tratamento de exceções)
+- error-message (classe padrão de frameworks)
+- index (termo matemático/estrutural padrão)
+- Kebab-case (padrão de nomenclatura)
+- PascalCase (padrão de nomenclatura)
+- regex (abreviatura universal para "expressão regular")
+- response (termo padrão em comunicação HTTP/APIs)
+- span (elemento HTML)
+- value (variável de contexto genérico)
+
+PODEM SER TRADUZIDOS (com cautela e padronização):
+
+Todos os demais termos da lista podem ser traduzidos, mas é recomendável:
+1. Manter consistência em todo o projeto
+2. Documentar as decisões de nomenclatura
+3. Considerar a equipe de desenvolvimento
+4. Avaliar o impacto em bibliotecas externas
+
+RECOMENDAÇÕES GERAIS:
+- Termos técnicos universais devem permanecer em inglês
+- Atributos de acessibilidade (ARIA) devem permanecer em inglês
+- Convenções de nomenclatura (CamelCase, etc.) devem permanecer em inglês
+- Nomes de arquivos de bibliotecas/APIs devem permanecer em inglês
+- Elementos HTML devem permanecer em inglês
+- Variáveis de contexto muito amplo podem permanecer em inglês
+- Termos de domínio específico da aplicação podem ser traduzidos
+
+Nomes de Arquivos:
+
+acf.js => acf.js
+ara.js => ara.js
+arc.js => arc.js
+biblia_realizabusca.js => biblia-realizabusca.js
+biblia-navegacao.js => biblia-navegacao.js
+concordancia.js => concordancia.js
+concordancia-optimizada.js => concordancia-otimizada.js
+dicionario.js => dicionario.js
+dicionario_concordancia.js => dicionario-concordancia.js
+dropdown.js => menu-suspenso.js
+dropdown_concordancia.js => menu-suspenso-concordancia.js
+gerenciador_concordancia.js => gerenciador-concordancia.js
+harpa_cantor.js => harpa-cantor.js
+kjv.js => kjv.js
+livros_capitulos.js => livros-capitulos.js
+marcadagua.js => marca-dagua.js
+menu_dicionarioconcordancia.js => menu-dicionarioconcordancia.js
+naa.js => naa.js
+ntlh.js => ntlh.js
+nvi.js => nvi.js
+nvt.js => nvt.js
+original.js => original.js
+slide_biblia.js => slide-biblia.js
+slide_biblia_concordancia.js => slide-biblia-concordancia.js
+slide_biblia_dados.js => slide-biblia-dados.js
+slide_biblia_interface.js => slide-biblia-interface.js
+slide_biblia_janela.js => slide-biblia-janela.js
+slide_biblia_utils.js => slide-biblia-utils.js
+slide_harpacantor.js => slide-harpacantor.js
+slide_harpacantor_coordenador.js => slide-harpacantor-coordenador.js
+slide_harpacantor_dados.js => slide-harpacantor-dados.js
+slide_harpacantor_interface.js => slide-harpacantor-interface.js
+slide_harpacantor_janela.js => slide-harpacantor-janela.js
+slide_harpacantor_utils.js => slide-harpacantor-utils.js
+sobre.js => sobre.js
+versoes.js => versoes.js
+versoes_cache.js => versoes-cache.js
+versoes_capitulos.js => versoes-capitulos.js
+versoes_interface.js => versoes-interface.js
+versoes_modoleitura.js => versoes-modoleitura.js
+versoes_navegacao.js => versoes-navegacao.js
+versoes_navegacao_modoleitura.js => versoes-navegacao-modoleitura.js
+versoes_realizabusca.js => versoes-realizabusca.js
+versoes_versiculos.js => versoes-versiculos.js
+
+LISTA COMPLETA DE TRADUÇÕES:
+
+*baseLivros => baseLivros => script/slide-biblia-dados.js

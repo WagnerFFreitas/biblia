@@ -1,0 +1,736 @@
+Ola! minha amiga, poderia organiza este texto e melhorar o texto e depois a lista de tradução coloca em ordem alfabetica e da um espaço de uma linha para outra, de o nome ao arquivo de Lista completa 4.txt
+
+Texto a ser melhorado:
+Faz uma lista dos seletores/classrs/IDs/variaveis/funçoes que pode ser traduzido e não infrija as normas kebab-case, camelcase e pascalcase de modo das regras globais.
+
+NÃO PODEM SER TRADUZIDOS (devem permanecer em inglês):
+
+- active (classe CSS, usada como literal no JS)
+- aria-pressed (atributo ARIA padrão)
+- cache (termo técnico em computação)
+- CamelCase (padrão de nomenclatura)
+- data (variável de contexto genérico)
+- data-letra (atributo personalizado HTML5)
+- data-livro (atributo personalizado HTML5)
+- data-value (atributo personalizado HTML5)
+- div (elemento HTML)
+- e (parâmetro de evento - convenção para "event")
+- error (padrão em tratamento de exceções)
+- error-message (classe padrão de frameworks)
+- index (termo matemático/estrutural padrão)
+- Kebab-case (padrão de nomenclatura)
+- PascalCase (padrão de nomenclatura)
+- regex (abreviatura universal para "expressão regular")
+- response (termo padrão em comunicação HTTP/APIs)
+- span (elemento HTML)
+- value (variável de contexto genérico)
+
+PODEM SER TRADUZIDOS (com cautela e padronização):
+
+Todos os demais termos da lista podem ser traduzidos, mas é recomendável:
+1. Manter consistência em todo o projeto
+2. Documentar as decisões de nomenclatura
+3. Considerar a equipe de desenvolvimento
+4. Avaliar o impacto em bibliotecas externas
+
+RECOMENDAÇÕES GERAIS:
+- Termos técnicos universais devem permanecer em inglês
+- Atributos de acessibilidade (ARIA) devem permanecer em inglês
+- Convenções de nomenclatura (CamelCase, etc.) devem permanecer em inglês
+- Nomes de arquivos de bibliotecas/APIs devem permanecer em inglês
+- Elementos HTML devem permanecer em inglês
+- Variáveis de contexto muito amplo podem permanecer em inglês
+- Termos de domínio específico da aplicação podem ser traduzidos
+
+Não atere esta relação:
+Nomes de Arquivos:
+
+acf.js => acf.js
+ara.js => ara.js
+arc.js => arc.js
+biblia_realizabusca.js => biblia-realizabusca.js
+biblia-navegacao.js => biblia-navegacao.js
+concordancia.js => concordancia.js
+concordancia-optimizada.js => concordancia-otimizada.js
+dicionario.js => dicionario.js
+dicionario_concordancia.js => dicionario-concordancia.js
+dropdown.js => menu-suspenso.js
+dropdown_concordancia.js => menu-suspenso-concordancia.js
+gerenciador_concordancia.js => gerenciador-concordancia.js
+harpa_cantor.js => harpa-cantor.js
+kjv.js => kjv.js
+livros_capitulos.js => livros-capitulos.js
+marcadagua.js => marca-dagua.js
+menu_dicionarioconcordancia.js => menu-dicionarioconcordancia.js
+naa.js => naa.js
+ntlh.js => ntlh.js
+nvi.js => nvi.js
+nvt.js => nvt.js
+original.js => original.js
+slide_biblia.js => slide-biblia.js
+slide_biblia_concordancia.js => slide-biblia-concordancia.js
+slide_biblia_dados.js => slide-biblia-dados.js
+slide_biblia_interface.js => slide-biblia-interface.js
+slide_biblia_janela.js => slide-biblia-janela.js
+slide_biblia_utils.js => slide-biblia-utils.js
+slide_harpacantor.js => slide-harpacantor.js
+slide_harpacantor_coordenador.js => slide-harpacantor-coordenador.js
+slide_harpacantor_dados.js => slide-harpacantor-dados.js
+slide_harpacantor_interface.js => slide-harpacantor-interface.js
+slide_harpacantor_janela.js => slide-harpacantor-janela.js
+slide_harpacantor_utils.js => slide-harpacantor-utils.js
+sobre.js => sobre.js
+versoes.js => versoes.js
+versoes_cache.js => versoes-cache.js
+versoes_capitulos.js => versoes-capitulos.js
+versoes_interface.js => versoes-interface.js
+versoes_modoleitura.js => versoes-modoleitura.js
+versoes_navegacao.js => versoes-navegacao.js
+versoes_navegacao_modoleitura.js => versoes-navegacao-modoleitura.js
+versoes_realizabusca.js => versoes-realizabusca.js
+versoes_versiculos.js => versoes-versiculos.js
+
+
+Lista para organizar em ordem alfabetica e dar um espaço entre uma linha a outraLISTA COMPLETA DE TRADUÇÕES:
+
+_aplicarFiltrosERenderizar => _aplicarFiltrosRenderizar => script/concordancia.js
+
+_closeAllSelects => _fecharTodasSelecoes => script/dropdown_concordancia.js
+
+_handleLivroClick => _manipularCliqueLivro => script/versoes-interface.js
+
+_makeCustomSelect => _criarSelecaoCustomizada => script/dropdown_concordancia.js
+
+_populateLivrosDropdown => _popularMenuSuspensoLivros => script/dropdown_concordancia.js
+
+_renderizarResultados => _renderizarResultados => script/concordancia.js
+
+abrirJanelaSlide => abrirJanelaSlide => script/slide-biblia-janela.js, script/slide-biblia-coordenador.js
+
+abrirJanelaSlideHino => abrirJanelaSlideHino => script/slide-harpacantor-janela.js, script/slide-harpacantor-coordenador.js
+
+activeHinario => hinarioAtivo => script/harpa-cantor.js, script/slide-harpacantor-coordenador.js, script/slide-harpacantor-janela.js
+
+activeHinoData => dadosHinoAtivo => script/harpa-cantor.js, script/slide-harpacantor-coordenador.js, script/slide-harpacantor-janela.js
+
+alfabeto-container (CSS Classe) => conteiner-alfabeto => css/menu-dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+
+areaConteudoLeitura => areaConteudoLeitura => script/versoes-modoleitura.js
+
+arrNo => indicesVariedade => script/gerenciador-concordancia.js
+
+ativar => ativar => script/versoes-modoleitura.js
+
+atualizaBotoesCapitulos => atualizaBotoesCapitulos => script/versoes-capitulos.js, script/biblia-navegacao.js, script/versoes.js, script/versoes-modoleitura.js
+
+atualizarContadorResultados => atualizarContadorResultados => script/gerenciador-concordancia.js
+
+atualizarFiltroLivro => atualizarFiltroLivro => script/concordancia.js, script/dicionario-concordancia.js
+
+atualizarFiltroPalavra => atualizarFiltroPalavra => script/concordancia.js, script/dicionario-concordancia.js
+
+atualizarFiltroTestamento => atualizarFiltroTestamento => script/concordancia.js, script/dicionario-concordancia.js
+
+atualizarTitulo => atualizarTitulo => script/versoes-interface.js
+
+background-video (ID) => video-fundo => css/harpa-cantor.css, html/harpa_cantor.html
+
+baixar (ID) => baixar => css/versoes.css, html/versoes.html
+
+baixar-list (ID) => lista-baixar => css/versoes.css, html/versoes.html
+
+barraPesquisa (CSS Classe) => barra-pesquisa => css/versoes-busca.css, css/versoes.css, css/versoes-responsivo.css, html/versoes.html
+
+*baseLivros => baseLivros => script/slide-biblia-dados.js
+
+bem-vindo => bem-vindo => css/harpa-cantor.css, html/harpa_cantor.html
+
+BIBLE_VERSION => VERSAO_BIBLIA => script/acf.js, script/arc.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js
+
+BIBLE_VERSION_FULL_NAME => NOME_VERSAO_COMPLETA_BIBLIA => script/ntlh.js
+
+bindEvents => vincularEventos => script/menu-dicionarioconcordancia.js
+
+book-content => conteudoLivro => (classe CSS, usada como literal no JS)
+
+botao => botao => script/versoes-modoleitura.js
+
+botao-capitulo => botao-capitulo => css/versoes-botoescapitulosversiculos.css, css/harpa-cantor.css, css/harpa-crista.css, css/cantor-cristao.css
+
+botao-container (ID) => conteiner-botoes => css/slide-biblia.css
+
+botao-faixa => botao-faixa => css/harpa-cantor.css
+
+botaoModoLeitura => botaoModoLeitura => script/versoes-interface.js
+
+botao-versiculo => botao-versiculo => css/versoes-botoescapitulosversiculos.css
+
+botoes-faixa-hinos (ID) => botoes-faixa-hinos => css/harpa-cantor.css, html/harpa-cantor.html
+
+botoes-hinos (ID) => botoes-hinos => css/harpa-cantor.css, css/harpa-crista.css, html/harpa_cantor.html
+
+btn (variable) => botao => script/harpa-cantor.js
+
+btn-anterior (ID) => botao-voltar => css/slide-harpacantor.css
+
+btn-anterior-dicionario (ID) => botao-voltar-dicionario => css/dicionario.css
+
+btn-buscar (CSS Classe) => botao-buscar => css/menu-dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+
+btnBuscar => botaoBuscar => script/gerenciador-concordancia.js
+
+btnCantor (ID) => botao-cantor => html/harpa_cantor.html
+
+btnCantor (variable) => botaoCantor => script/harpa-cantor.js
+
+btn-carregar-mais (CSS Classe) => botao-carregar-mais => css/concordancia.css, css/menu-dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+
+btnCarregarMais => botaoCarregarMais => script/gerenciador-concordancia.js
+
+btnFaixa => botaoFaixa => script/harpa-cantor.js
+
+btnHarpa (ID) => botao-harpa => html/harpa_cantor.html
+
+btnHarpa (variable) => botaoHarpa => script/harpa-cantor.js
+
+btn-paginacao => botao-paginacao => css/concordancia.css
+
+btn-proximo (ID) => botao-proximo => css/concordancia.css, css/slide-harpacantor.css
+
+btn-proximo-dicionario (ID) => botao-proximo-dicionario => css/dicionario.css
+
+btnSlide (global variable) => botaoSlide => script/slide-harpacantor-coordenador.js
+
+btnSlide (ID) => botao-slide => html/harpa_cantor.html
+
+btnSlide (variable) => botaoSlide => script/slide-harpacantor.js, script/slide-harpacantor-coordenador.js
+
+busca-global (ID) => busca-global => css/concordancia.css, html/menu_dicionarioconcordancia.html
+
+buscaGlobalInput => entradaBuscaGlobal => script/gerenciador-concordancia.js
+
+buscaGlobalTermo => buscaGlobalTermo => script/gerenciador-concordancia.js
+
+cabeçalho-inferior => cabecalho-inferior => css/versoes.css, html/versoes.html
+
+cabecalho-superior => cabecalho-superior => css/menu-dicionarioconcordancia.css, css/versoes.css, html/menu-dicionarioconcordancia.html, html/versoes.html
+
+cacheCapítulo => cacheCapitulo => script/versoes-cache.js
+
+cacheNumeroCapitulos => cacheNumeroCapitulos => script/versoes-navegacao.js
+
+capitulo => capitulo => script/acf.js, script/arc.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js
+
+capituloClicado => capituloClicado => script/versoes-capitulos.js
+
+capituloExistentes => capituloExistentes => script/versoes-navegacao.js
+
+capitulos => capitulos => css/versoes-botoescapitulosversiculos.css
+
+capitulos-container (CSS) => conteiner-capitulos => css/versoes-botoescapitulosversiculos.css
+
+carregarCapituloModoLeitura => carregarCapituloModoLeitura => script/versoes-modoleitura.js, script/biblia-navegacao.js, script/versoes-capitulos.js
+
+carregarConteudoEWatermark => carregarConteudoEMarcaDagua => script/versoes-capitulos.js
+
+carregarDadosBaseConcordancia => carregarDadosBaseConcordancia => script/concordancia.js, script/dicionario-concordancia.js
+
+carregarDadosConcordancia => carregarDadosConcordancia => script/gerenciador-concordancia.js
+
+carregarEDisplayConcordanciaPorLetra => carregaExibeConcordanciaLetra => script/concordancia.js, script/dicionario-concordancia.js
+
+carregar-mais (ID) => carregar-mais => html/menu_dicionarioconcordancia.html
+
+carregarPreferencias => carregarPreferencias => script/versoes-cache.js
+
+chapter-main-title => titulo-principal-capitulo => (classe CSS, usada como literal no JS)
+
+chapter-title => titulo-capitulo => css/modo-leitura.css
+
+chapter-verses => capitulo-versiculos => css/modo-leitura.css
+
+chave => chave => script/versoes-modoleitura.js
+
+Chave_Cache_Versao => CHAVE_CACHE_VERSAO => script/versoes-cache.js
+
+CHAVES_LOCAL_STORAGE => CHAVES_ARMAZENAMENTO_LOCAL => script/versoes-cache.js
+
+cleanParagraph => paragrafoLimpo => script/harpa-cantor.js
+
+clone => clone => script/versoes-modoleitura.js
+
+closeAllSelect => fecharTodasSelecoes => script/gerenciador-concordancia.js
+
+concordancia (ID) => concordancia => html/menu_dicionarioconcordancia.html
+
+CONCORDANCIA_DATA_BASE_PATH_LOCAL => CAMINHO_BASE_DADOS_CONCORDANCIA_LOCAL => script/concordancia.js
+
+concordanciaBtn => botaoConcordancia => script/menu-dicionarioconcordancia.js
+
+concordancia-item => item-concordancia => css/concordancia.css
+
+ConcordanciaOptimized (class) => ConcordanciaOtimizada => script/concordancia-otimizada.js, script/menu-dicionarioconcordancia.js
+
+concordancias-content => conteudo-concordancias => css/concordancia.css
+
+configurarEventos => configurarEventos => script/versoes-interface.js
+
+contador => contador-geral => css/concordancia.css
+
+contador-container (CSS Classe) => conteiner-contador => css/concordancia.css, html/menu_dicionarioconcordancia.html
+
+contador-dicionario (CSS Classe) => contador-dicionario => css/dicionario.css, css/menu-dicionarioconcordancia.css, script/gerenciador-concordancia.js
+
+contadorOcorrencias => contadorOcorrencias => script/gerenciador-concordancia.js
+
+contador-resultados (ID) => contador-resultados => html/menu_dicionarioconcordancia.html
+
+contagemVersiculosPorVersao => contagemVersiculosVersao => script/slide-biblia-dados.js, script/slide-biblia.js, script/slide-biblia-utils.js, script/slide-biblia-janela.js
+
+container (CSS container de css/menu_dicionarioconcordancia.css) => conteiner => css/menu-dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html, html/versoes.html
+
+containerCapitulos (variable) => conteinerCapitulos => script/versoes-capitulos.js
+
+containerLeitura => conteinerLeitura => script/versoes-modoleitura.js
+
+containersBotoesCapitulosExistentes => conteineresBotoesCapitulosExistentes => script/versoes-capitulos.js
+
+conteinerContador => conteinerContador => script/gerenciador-concordancia.js
+
+conteinerResultados => conteinerResultados => script/gerenciador-concordancia.js
+
+content (CSS Classe) => area-conteudo => css/cursos.css, html/cursos.html
+
+content (variable) => areaConteudo => script/acf.js, script/arc.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js
+
+contentDiv => divConteudo => script/gerenciador-concordancia.js
+
+conteudo (CSS Classe conteudo de css/versoes.css) => conteudo-principal-biblia => css/versoes.css, html/versoes.html
+
+conteudo-dropdown (CSS Classe) => conteudo-menu-suspenso => css/versoes.css, html/versoes.html
+
+conteudoEl => elementoConteudo => script/slide-harpacantor-interface.js
+
+conteudo-principal (ID) => conteudo-principal => css/menu-dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+
+conteudo-versiculos (CSS) => conteudo-versiculos => css/versoes-botoescapitulosversiculos.css
+
+controles => controles => css/slide-harpacantor.css
+
+coro => coro => css/harpa-cantor.css
+
+criarBotoesFaixa => criarBotoesFaixa => script/harpa-cantor.js
+
+criarJanela => criarJanela => script/slide-biblia-janela.js
+
+criarListaVersoes => criarListaVersoes => script/versoes-interface.js
+
+criarSecaoLivro => criarSecaoLivro => script/concordancia.js
+
+currentSection => secaoAtual => script/menu-dicionarioconcordancia.js
+
+currentSelect => selecaoAtual => script/gerenciador-concordancia.js
+
+custom-livro-select (ID) => selecao-customizada-livro => html/menu_dicionarioconcordancia.html
+
+custom-select => selecao-customizada => css/concordancia.css, html/menu_dicionarioconcordancia.html
+
+customSelectElement => elementoSelecaoCustomizada => script/dropdown_concordancia.js
+
+custom-testamento-select (ID) => selecao-customizada-testamento => html/menu_dicionarioconcordancia.html
+
+dadosCapitulo => dadosCapitulo => script/versoes-modoleitura.js
+
+dadosCarregadosPorLetraOuBusca => dadosCarregadosLetraBusca => script/concordancia.js
+
+dadosConcordancia => dadosConcordancia => script/gerenciador-concordancia.js
+
+dadosFiltrados => dadosFiltrados => script/gerenciador-concordancia.js
+
+data => dados => script/acf.js, script/arc.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js
+
+data => dados => script/harpa-cantor.js
+
+debugApp => depuracaoApp => script/menu-dicionarioconcordancia.js
+
+definicao-content => definicao-conteudo => css/dicionario.css
+
+definicao-header => cabecalho-definicao => css/dicionario.css
+
+definicao-item => item-definicao => css/dicionario.css, css/menu-dicionarioconcordancia.css
+
+definicao-texto => definicao-texto => css/dicionario.css
+
+destacarPalavra => destacarPalavra => script/concordancia.js
+
+destacarTermoBuscaGlobal => destacarTermoBuscaGlobal => script/gerenciador-concordancia.js
+
+detail => detalhe => script/dropdown_concordancia.js
+
+dicionario (class) => Dicionario => script/dicionario.js, script/menu-dicionarioconcordancia.js
+
+dicionario (ID) => dicionario => html/menu_dicionarioconcordancia.html
+dicionario-acoes => acoes-dicionario => css/menu-dicionarioconcordancia.css
+dicionario-btn (CSS Classe) => botao-dicionario => css/dicionario.css, html/menu_dicionarioconcordancia.html
+dicionarioBtn => botaoDicionario => script/menu-dicionarioconcordancia.js
+dicionario-busca (CSS Classe) => busca-dicionario => css/dicionario.css, css/menu-dicionarioconcordancia.css, html/menu-dicionarioconcordancia.html
+dicionario-busca-grupo (CSS Classe) => grupo-busca-dicionario => css/dicionario.css, html/menu-dicionarioconcordancia.html
+dicionario-container (CSS Classe) => conteiner-dicionario => css/dicionario.css, css/menu-dicionarioconcordancia.css
+dicionario-conteudo-wrapper (CSS Classe) => empacotador-conteudo-dicionario => css/dicionario.css, html/menu_dicionarioconcordancia.html
+dicionario-linha (CSS Classe) => linha-dicionario => css/dicionario.css, html/menu-dicionarioconcordancia.html
+dicionario-opcoes-laterais (CSS Classe) => opcoes-laterais-dicionario => css/dicionario.css, html/menu-dicionarioconcordancia.html
+dicionario-paginacao-grupo (CSS Classe) => grupo-paginacao-dicionario => css/dicionario.css
+dicionario-resultados (ID) => resultados-dicionario => css/dicionario.css, html/menu_dicionarioconcordancia.html
+div => divElemento => script/gerenciador-concordancia.js
+doc => documento => script/versoes-modoleitura.js
+dropdown (CSS Classe) => menu-suspenso => css/versoes.css, html/versoes.html
+ehVersaoHtml => ehVersaoHtml => script/versoes-modoleitura.js
+elementoReferencia => elementoReferencia => script/versoes-modoleitura.js
+elements => elementos => script/menu-dicionarioconcordancia.js
+elm => elemento => script/gerenciador-concordancia.js
+erro-carregamento => erro-carregamento => css/harpa-cantor.css
+esconderLoading => esconderCarregamento => script/gerenciador-concordancia.js
+escreverHtmlNaJanela => escreverHtmlNaJanela => script/slide-biblia-interface.js, script/slide-biblia-janela.js
+escreverHtmlNaJanela => escreverHtmlNaJanela => script/slide-harpacantor.js, script/slide-harpacantor-interface.js, script/slide-biblia-interface.js, script/slide-biblia-janela.js
+escreverHtmlNaJanela => escreverHtmlNaJanela => script/slide-harpacantor-janela.js, script/slide-harpacantor-interface.js, script/slide-biblia-interface.js, script/slide-biblia-janela.js
+estrofeAnterior => estrofeAnterior => script/slide-harpacantor-interface.js
+estrofesArray => estrofesArray => script/slide-harpacantor-interface.js
+estrofeTexto => estrofeTexto => script/slide-harpacantor-interface.js
+estrofe-texto => texto-estrofe => css/slide-harpacantor.css
+etimologia => etimologia => css/dicionario.css
+exceptThisSelectedDisplay => excetoEstaExibicaoSelecionada => script/dropdown_concordancia.js
+executarBuscaGlobalConcordancia => executarBuscaGlobalConcordancia => script/concordancia.js, script/dicionario-concordancia.js
+exibirGradeDeHinos => exibirGradeDeHinos => script/harpa-cantor.js
+exibirHino => exibirHino => script/harpa-cantor.js
+exibirResultados => exibirResultados => script/gerenciador-concordancia.js
+existingVersiculoDiv => versiculoExistenteDiv => script/acf.js, script/arc.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js
+expand-indicator => indicador-expansao => css/concordancia.css
+extrairNomeLivroDaReferencia => extrairNomeLivroDaReferencia => script/concordancia.js
+fecharJanelaSlide => fecharJanelaSlide => script/slide-biblia-janela.js
+filtrarDados => filtrarDados => script/gerenciador-concordancia.js
+filtro-grupo => grupo-filtro => css/concordancia.css, html/menu_dicionarioconcordancia.html
+filtroLivroAtual => filtroLivroAtual => script/concordancia.js
+filtroPalavraAtual => filtroPalavraAtual => script/concordancia.js
+filtro-palavra-input (ID) => filtro-entrada-palavra => html/menu_dicionarioconcordancia.html
+filtroPalavraInput => filtroEntradaPalavra => script/gerenciador-concordancia.js
+filtros-container => conteiner-filtros => css/concordancia.css, html/menu_dicionarioconcordancia.html
+filtros-linha => linha-filtros => css/concordancia.css, html/menu_dicionarioconcordancia.html
+filtroTestamentoAtual => filtroTestamentoAtual => script/concordancia.js
+fim => fim => script/harpa-cantor.js
+fim => indiceFim => script/gerenciador-concordancia.js
+findLivroByIdConfig => findLivroByIdConfig => script/concordancia.js
+fonte-info => info-fonte => css/concordancia.css
+formatarNomeLivro => formatarNomeLivro => script/concordancia.js
+formatarReferencia => formatarReferencia => script/concordancia.js
+gerarHtmlJanelaHino => gerarHtmlJanelaHino => script/slide-harpacantor.js, script/slide-harpacantor-interface.js
+gerarHtmlJanelaHino => gerarHtmlJanelaHino => script/slide-harpacantor-janela.js, script/slide-harpacantor-interface.js
+gerarHtmlJanelaSlide => gerarHtmlJanelaSlide => script/slide-biblia-interface.js, script/slide-biblia-janela.js
+gerenciadorInterface => gerenciadorInterface => script/versoes-interface.js
+getLivroDisplayName => getLivroDisplayName => script/acf.js, script/arc.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js, script/biblia-navegacao.js, script/versoes.js, script/versoes-capitulos.js
+getOrdemDosLivrosConfig => getOrdemDosLivrosConfig => script/concordancia.js
+getSpecificChapterTitle => getSpecificChapterTitle => script/acf.js, script/arc.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js
+getSpecificVerseCount => getSpecificVerseCount => script/acf.js, script/arc.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js
+getStats => obterEstatisticas => script/menu-dicionarioconcordancia.js
+getTestamentoDoLivroConfig => getTestamentoDoLivroConfig => script/concordancia.js
+getVerseCount => getVerseCount => script/acf.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js, script/livros-capitulos.js
+getVerseCount => getVerseCount => script/livros-capitulos.js
+headerDiv => divCabecalho => script/gerenciador-concordancia.js
+hideSobre => esconderSobre => script/sobre.js
+HINARIOS => HINARIOS => script/harpa-cantor.js
+HINARIOS_CONFIG => CONFIGURACAO_HINARIOS => script/slide-harpacantor-dados.js, script/slide-harpacantor-utils.js
+hino => hino => script/harpa-cantor.js
+hino-container (CSS Classe) => conteiner-hino => css/harpa-cantor.css, css/cantor-cristao.css
+hinoData => dadosHino => script/slide-harpacantor.js, script/slide-harpacantor-interface.js, script/slide-harpacantor-janela.js
+hinoData => dadosHino => script/slide-harpacantor-janela.js, script/slide-harpacantor-interface.js, script/slide-harpacantor-coordenador.js
+hino-exibido (ID) => hino-exibido => css/harpa-cantor.css, html/harpa-cantor.html
+hino-letra (CSS Classe) => letra-hino => css/harpa-cantor.css
+hinosFaixa => hinosFaixa => script/harpa-cantor.js
+hino-titulo (CSS Classe) => titulo-hino => css/harpa-cantor.css
+htmlBotoesNavegacao => htmlBotoesNavegacao => script/versoes-modoleitura.js
+htmlConstruido => htmlConstruido => script/versoes-modoleitura.js
+htmlConteudo => conteudoHtml => script/gerenciador-concordancia.js
+htmlConteudo => conteudoHtml => script/slide-harpacantor.js, script/slide-harpacantor-interface.js
+htmlConteudo => conteudoHtml => script/slide-harpacantor-janela.js, script/slide-harpacantor-interface.js
+htmlParaExibir => htmlParaExibir => script/versoes-modoleitura.js
+htmlVersiculos => htmlVersiculos => script/versoes-modoleitura.js
+indicator => indicador => script/gerenciador-concordancia.js
+indiceAtual => indiceAtual => script/gerenciador-concordancia.js
+inicializarMenuLivros => inicializarMenuLivros => script/gerenciador-concordancia.js
+inicializarQuandoPronto => inicializarQuandoPronto => script/slide-biblia-coordenador.js
+inicializarSlide => inicializarSlide => script/slide-biblia-coordenador.js, script/versoes.js
+inicializarSlideHino => inicializarSlideHino => script/slide-harpacantor.js, script/slide-harpacantor-coordenador.js
+inicio => inicio => script/harpa-cantor.js
+inicio => indiceInicio => script/gerenciador-concordancia.js
+initConcordanciaDropdowns => initConcordanciaDropdowns => script/dropdown_concordancia.js
+initializeApp => inicializarAplicacao => script/menu-dicionarioconcordancia.js
+initializeElements => inicializarElementos => script/menu-dicionarioconcordancia.js
+initialTestamentoValue => valorTestamentoInicial => script/dropdown_concordancia.js
+instrucao => instrucao => css/harpa-cantor.css, html/harpa-cantor.html
+InterfaceManager (class) => GerenciadorInterface => script/versoes-interface.js
+isCoro => ehCoro => script/harpa-cantor.js
+isCoro => ehCoro => script/slide-harpacantor-interface.js
+item => item => script/gerenciador-concordancia.js
+itemsContainer => conteinerItens => script/dropdown_concordancia.js
+itensPorPagina => itensPorPagina => script/gerenciador-concordancia.js
+janela => janela => script/slide-harpacantor.js, script/slide-harpacantor-janela.js, script/slide-biblia-janela.js
+janelaSlide => janelaSlide => script/slide-harpacantor-janela.js, script/slide-biblia-janela.js
+letra-btn (CSS Classe) => botao-letra => css/menu-dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+letraHtml => htmlLetra => script/harpa-cantor.js
+limparCacheCapítulos => limparCacheCapitulos => script/versoes-cache.js
+link-slide (ID) => link-slide => html/versoes.html
+linkSlideEncontrado => linkSlideEncontrado => script/slide-biblia-coordenador.js
+listaLivrosBiblia => listaLivrosBiblia => script/versoes-navegacao.js
+livro => livro => script/acf.js, script/arc.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js
+livro => livro => script/gerenciador-concordancia.js
+livroAcentuadosParaSemAcentos => livroAcentuadosParaSemAcentos => script/slide-biblia-dados.js, script/slide-biblia.js, script/slide-biblia-utils.js, script/slide-biblia-janela.js
+livroClicado => livroClicado => script/versoes-capitulos.js
+livroExistente => livroExistente => script/dropdown_concordancia.js
+livro-grupo => grupo-livro => css/concordancia.css
+livro-header => cabecalho-livro => css/concordancia.css
+livros (global object) => livros => script/biblia-navegacao.js
+livrosBiblicos => livrosBiblicos => script/gerenciador-concordancia.js
+livroSelecionado => livroSelecionado => script/gerenciador-concordancia.js
+livro-select (HTML for attribute) => selecao-livro => html/menu_dicionarioconcordancia.html
+livroSelectElement (variable) => selecaoElementoLivro => script/dropdown_concordancia.js
+livroSelectElement => selecaoElementoSLivro => script/gerenciador-concordancia.js
+livrosOrdem => livrosOrdem => script/slide-biblia-dados.js, script/slide-biblia.js, script/slide-biblia-utils.js, script/slide-biblia-janela.js
+livrosParaExibir => livrosParaExibir => script/dropdown_concordancia.js
+loader (CSS Classe) => carregador => css/concordancia.css
+loader-global-busca => carregador-busca-global => css/concordancia.css
+loading-container (CSS Classe) => conteiner-carregamento => css/menu-dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+loading-indicator (ID) => indicador-carregamento => html/menu_dicionarioconcordancia.html
+loadingIndicator => indicadorCarregamento => script/gerenciador-concordancia.js
+loading-spinner => spinner-carregamento => css/menu-dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+loadSobre => carregarSobre => script/sobre.js
+loadSpecificVerse => loadSpecificVerse => script/acf.js, script/arc.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js
+loadTime => tempoCarregamento => script/menu-dicionarioconcordancia.js
+MainApp (class) => MainApp => script/menu-dicionarioconcordancia.js
+marcadagua (ID) => marca-dagua => css/slide-harpacantor.css, css/slide-biblia.css, css/biblia-realizabusca.css
+marcadagua-image (CSS Classe) => marca-dagua-imagem => css/menu-dicionarioconcordancia.css, css/versoes.css
+match => correspondencia => script/versoes-modoleitura.js
+matchBuscaGlobal => correspondenciaBuscaGlobal => script/gerenciador-concordancia.js
+matchLivro => correspondenciaLivro => script/gerenciador-concordancia.js
+matchTestamento => correspondenciaTestamento => script/gerenciador-concordancia.js
+memoryInfo => informacaoMemoria => script/menu-dicionarioconcordancia.js
+mensagem-inicial (ID) => mensagem-inicial => css/menu-dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+mensagemInicial => mensagemInicial => script/menu-dicionarioconcordancia.js
+menu-alfabetico => menu-alfabetico => css/menu-dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+menuAlfabetico => menuAlfabetico => script/gerenciador-concordancia.js
+menuAlfabetico => menuAlfabetico => script/menu-dicionarioconcordancia.js
+menu-button (CSS Classe) => botao-menu => css/harpa-cantor.css, css/cantor-cristao.css, html/harpa-cantor.html
+menuButton (variable in sobre.js) => botaoMenu => script/sobre.js
+menu-harpa-cantor => menu-harpa-cantor => css/harpa-cantor.css, html/harpa-cantor.html
+menu-link (CSS Classe) => menu-link => css/harpa-cantor.css, html/harpa-cantor.html
+menu-livros => menu-livros => css/versoes-responsivo.css, css/versoes.css, html/versoes.html
+menuLivrosItems => itensMenuLivros => script/sobre.js
+menu-opcoes (CSS Classe) => opcoes-menu => css/menu-dicionarioconcordancia.css, css/versoes.css, css/versoes-responsivo.css, html/menu_dicionarioconcordancia.html, html/versoes.html
+menuOpcoes => opcoesMenu => script/menu-dicionarioconcordancia.js
+menu-principal (ID) => menu-principal => html/menu_dicionarioconcordancia.html
+menuPrincipal => menuPrincipal => script/menu-dicionarioconcordancia.js
+menu-title (CSS Classe) => titulo-menu => css/versoes-responsivo.css, css/versoes.css
+modo-leitura (ID) => modo-leitura => css/modo-leitura.css, html/versoes.html
+modoLeituraAtivo => MODO_LEITURA => script/versoes-cache.js
+modoLeituraAtivo => modoLeituraAtivo => script/versoes-modoleitura.js, script/biblia-naveg
+
+modo-leitura (ID) => modo-leitura => css/modo-leitura.css, html/versoes.html
+modoLeituraAtivo => MODO_LEITURA => script/versoes-cache.js
+modoLeituraAtivo => modoLeituraAtivo => script/versoes-modoleitura.js, script/biblia-navegacao.js, script/versoes.js
+modoLeitura-capitulo-anterior (ID) => modo-leitura-capitulo-anterior => css/modo-leitura.css
+modoLeitura-capitulo-proximo (ID) => modo-leitura-capitulo-proximo => css/modo-leitura.css
+modo-leitura-conteudo (CSS Classe) => conteudo-modo-leitura => css/modo-leitura.css
+modulosCarregados => modulosCarregados => script/slide-biblia-coordenador.js
+modulosNecessarios => modulosNecessarios => script/slide-biblia-coordenador.js
+monitorPerformance => monitorarDesempenho => script/menu-dicionarioconcordancia.js
+mostrarLoading => exibirCarregamento => script/gerenciador-concordancia.js
+nav => nav => script/menu-dicionarioconcordancia.js
+NOME_VERSAO_COMPLETA_BIBLIA => NOME_VERSAO_COMPLETA_BIBLIA => script/acf.js, script/arc.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js, script/versoes.js
+nome-extenso-versao (CSS Classe) => nome-extenso-versao => html/versoes.html
+normalizarNomeLivro => normalizarNomeLivro => script/slide-biblia-dados.js, script/slide-biblia.js, script/slide-biblia-utils.js, script/slide-biblia-janela.js, script/slide-biblia-coordenador.js
+normalizarNomeLivro => normalizarNomeLivro => script/slide-biblia-utils.js, script/slide-biblia.js, script/slide-biblia-janela.js, script/slide-biblia-coordenador.js
+numero => numero => script/harpa-cantor.js
+numero => numero => script/versoes-modoleitura.js
+obterCapítuloDoCache => obterCapituloDoCache => script/versoes-cache.js
+obterContagemCapitulosLivro => obterContagemCapitulosLivro => script/versoes-navegacao.js, script/versoes-capitulos.js
+obterContagemVersiculos => obterContagemVersiculos => script/slide-biblia-utils.js
+obterLivroAnterior => obterLivroAnterior => script/slide-biblia-utils.js
+obterLivroCapituloAnterior => obterLivroCapituloAnterior => script/versoes-navegacao.js, script/versoes-navegacao-modoleitura.js
+obterNomeAcentuado => obterNomeAcentuado => script/slide-biblia-dados.js, script/slide-biblia.js, script/slide-biblia-utils.js, script/slide-biblia-janela.js
+obterNomeAcentuado => obterNomeAcentuado => script/slide-biblia-utils.js, script/slide-biblia.js, script/slide-biblia-janela.js
+obterPreferencia => obterPreferencia => script/versoes-cache.js, script/acf.js, script/arc.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js, script/versoes.js, script/versoes-navegacao.js
+obterProximoLivro => obterProximoLivro => script/slide-biblia-utils.js
+obterProximoLivroECapitulo => obterProximoLivroECapitulo => script/versoes-navegacao.js, script/versoes-navegacao-modoleitura.js
+obterTotalCapitulos => obterTotalCapitulos => script/slide-biblia-utils.js
+obterTotalHinos => obterTotalHinos => script/slide-harpacantor-utils.js, script/harpa-cantor.js
+ocorr => ocorrenciaAtual => script/gerenciador-concordancia.js
+ocorrencia => ocorrencia => css/concordancia.css
+ocorrenciaFormatada => formatarOcorrencia => script/gerenciador-concordancia.js
+ocorrencias => ocorrencias => script/gerenciador-concordancia.js
+ocorrencias-count => contagem-ocorrencias => css/concordancia.css
+ocorrenciasFiltradas => ocorrenciasFiltradas => script/gerenciador-concordancia.js
+ocorrenciasPorLivro => ocorrenciasPorLivro => script/gerenciador-concordancia.js
+onChangeCallback => callbackAoMudar => script/dropdown_concordancia.js
+onConcordanciaViewReady => onConcordanciaViewReady => script/concordancia.js, script/dicionario-concordancia.js
+onLivroChangeGlobalCallback => onLivroChangeGlobalCallback => script/dropdown_concordancia.js
+onTestamentoChangeGlobalCallback => onTestamentoChangeGlobalCallback => script/dropdown_concordancia.js
+opt => opcao => script/dropdown_concordancia.js
+optionItem => itemOpcao => script/dropdown_concordancia.js
+overlay (CSS Classe) => sobreposicao => css/harpa-cantor.css, html/harpa_cantor.html
+p (variable) => paragrafo => script/harpa-cantor.js
+palavra-destacada => palavra-destacada => css/concordancia.css
+palavraDiv => divPalavra => script/gerenciador-concordancia.js
+palavra-fonte-info => info-palavra-fonte => css/concordancia.css
+palavra-header => cabecalho-palavra => css/concordancia.css
+palavra-item => item-palavra => css/concordancia.css
+palavraObj => objetoPalavra => script/gerenciador-concordancia.js
+palavraPrincipal => palavraPrincipal => script/gerenciador-concordancia.js
+palavrasComOcorrenciasFiltradas => palavrasOcorrenciasFiltradas => script/gerenciador-concordancia.js
+palavra-section => secao-palavra => css/concordancia.css
+palavra-titulo => titulo-palavra => css/concordancia.css
+palavra-veja-tambem-info => veja-tambem-info-palavra => css/concordancia.css
+pasta => pasta => script/harpa-cantor.js
+prepararDadosParaJanela => prepararDadosParaJanela => script/slide-biblia-janela.js
+progressoEl => elementoProgresso => script/slide-harpacantor-interface.js
+proximaEstrofe => proximaEstrofe => script/slide-harpacantor-interface.js
+proximo-botao (ID) => botao-proximo => css/slide-biblia.css
+reading-mode-header => cabecalho-modo-leitura => css/modo-leitura.css
+readingModeMessage => mensagemModoLeitura => script/versoes-modoleitura.js
+reading-mode-navigation => navegacao-modo-leitura => css/modo-leitura.css
+recarregaMarcaDagua => recarregaMarcaDagua => script/versoes-capitulos.js
+recriarMarcaDagua => recriarMarcaDagua => script/sobre.js
+referencia => referencia => css/concordancia.css
+referencia-citacao => referencia-citacao => css/dicionario.css
+referenciaConcordancia => referencia-concordancia => css/concordancia.css
+referencia-item => item-referencia => css/dicionario.css, css/menu-dicionarioconcordancia.css
+referencias-section => secao-referencias => css/dicionario.css, css/menu-dicionarioconcordancia.css
+referencias-titulo => titulo-referencias => css/dicionario.css, css/menu-dicionarioconcordancia.css
+referencia-texto => texto-referencia => css/dicionario.css
+resetIndice => reiniciarIndice => script/gerenciador-concordancia.js
+restaurarEstadoInicial => restaurarEstadoInicial => script/sobre.js
+resultados-container (ID) => conteiner-resultados => css/concordancia.css, html/menu_dicionarioconcordancia.html
+resultadosPagina => resultadosPagina => script/gerenciador-concordancia.js
+resultadosTemp => resultadosTemporarios => script/gerenciador-concordancia.js
+resultados-visiveis (ID) => resultados-visiveis => html/menu_dicionarioconcordancia.html
+rodape (CSS Classe) => rodape => css/harpa-cantor.css, html/harpa-cantor.html, css/menu-dicionarioconcordancia.css, html/menu-dicionarioconcordancia.html, css/versoes.css, html/versoes.html
+salvarPreferencia => salvarPreferencia => script/versoes-cache.js, script/versoes.js
+same-as-selected => igual-selecionado => css/concordancia.css
+search-btn (CSS Classe) => botao-pesquisar => css/concordancia.css, html/menu_dicionarioconcordancia.html
+search-overlay-botao-fechar => botao-fechar-sobreposicao-busca => css/biblia-realizabusca.css
+search-overlay-content (ID) => conteudo-sobreposicao-busca => css/biblia-realizabusca.css
+search-overlay-progress-bar-inner (ID) => barra-progresso-interna-sobreposicao-busca => css/biblia-realizabusca.css
+search-overlay-progress-bar-outer (ID) => barra-progresso-externa-sobreposicao-busca => css/biblia-realizabusca.css
+search-overlay-progress-container (ID) => conteiner-progresso-sobreposicao-busca => css/biblia-realizabusca.css
+search-overlay-progress-text (ID) => texto-progresso-sobreposicao-busca => css/biblia-realizabusca.css
+search-overlay-resultado-item => item-resultado-sobreposicao-busca => css/biblia-realizabusca.css
+search-overlay-resultados-container (ID) => conteiner-resultados-sobreposicao-busca => css/biblia-realizabusca.css
+secao-ativa => secao-ativa => css/menu-dicionarioconcordancia.css
+secao-concordancia (ID) => secao-concordancia => html/menu_dicionarioconcordancia.html
+secaoConcordancia => secaoConcordancia => script/gerenciador-concordancia.js
+secaoConcordancia => secaoConcordancia => script/menu-dicionarioconcordancia.js
+secao-dicionario (ID) => secao-dicionario => html/menu_dicionarioconcordancia.html
+secaoDicionario => secaoDicionario => script/menu-dicionarioconcordancia.js
+secao-inativa => secao-inativa => css/menu-dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+secao-sobre (ID) => secao-sobre => html/menu_dicionarioconcordancia.html
+secaoSobre => secaoSobre => script/menu-dicionarioconcordancia.js
+section-title => titulo-de-secao => (classe CSS, usada como literal no JS)
+selecionarHinario => selecionarHinario => script/harpa-cantor.js
+selectElement => selecaoElemento => script/gerenciador-concordancia.js
+select-hide => esconder-selecao => css/concordancia.css, html/menu_dicionarioconcordancia.html
+select-items (CSS Classe) => selecao-itens => css/concordancia.css, html/menu_dicionarioconcordancia.html
+selectItemsDiv => divItensSelecao => script/gerenciador-concordancia.js
+select-selected (CSS Classe) => opcao-selecionada => css/concordancia.css, html/menu_dicionarioconcordancia.html
+selectSelectedDisplay => exibicaoSelecao => script/dropdown_concordancia.js
+seletorVersao => seletorVersao => script/versoes-interface.js
+seletor-versao-principal (ID) => seletor-versao-principal => css/versoes.css, html/versoes.html
+sem-resultados => sem-resultados => css/concordancia.css
+setupCustomSelect => configurarSelecaoCustomizada => script/gerenciador-concordancia.js
+showSection => mostrarSecao => script/menu-dicionarioconcordancia.js
+slide-container (ID) => conteiner-slide => css/slide-harpacantor.css
+slide-conteudo (ID) => conteudo-slide => css/slide-harpacantor.css
+slide-header (ID) => cabecalho-slide => css/slide-harpacantor.css
+slide-progresso (ID) => progresso-slide => css/slide-harpacantor.css
+slide-titulo (ID) => titulo-slide => css/slide-harpacantor.css
+sobre (CSS Classe de seção) => secao-sobre => css/versoes.css
+sobre (ID de menu) => menu-item-sobre => html/menu-dicionarioconcordancia.html, html/versoes.html
+sobreBtn => botaoSobre => script/menu-dicionarioconcordancia.js
+sobre-container => conteiner-sobre => css/dicionario.css, html/menu-dicionarioconcordancia.html
+sobre-content (CSS Classe) => conteudo-sobre => css/versoes.css
+sobreLink => linkSobre => script/sobre.js
+spanResultadosVisiveis => resultadosVisiveis => script/gerenciador-concordancia.js
+spanTotalResultados => resultadosTotais => script/gerenciador-concordancia.js
+subtitulo => subtitulo => css/harpa-cantor.css, html/harpa-cantor.html
+subtitulo-versao-extenso (ID) => subtitulo-versao-extenso => css/versoes-responsivo.css, css/versoes.css, html/versoes.html
+sugestao-item => item-sugestao => css/dicionario.css
+sugestoes-container (ID) => conteiner-sugestoes => css/dicionario.css
+TAMANHO_FAIXA => TAMANHO_FAIXA => script/harpa-cantor.js
+tela-inicial (ID) => tela-inicial => css/harpa-cantor.css, html/harpa-cantor.html
+termoBusca => buscaTermo => script/gerenciador-concordancia.js
+termoBuscaGlobalAtual => termoBuscaGlobalAtual => script/concordancia.js
+termo-relacionado => termo-relacionado => css/dicionario.css
+termo-titulo => titulo-termo => css/dicionario.css
+testamento => testamento => script/gerenciador-concordancia.js
+testamentoSelecionado => testamentoSelecionado => script/gerenciador-concordancia.js
+testamento-select (HTML for attribute) => selecao-testamento => html/menu_dicionarioconcordancia.html
+testamentoSelectElement (variable) => selecaoElementoTestamento => script/dropdown_concordancia.js
+testamentoSelectElement => selecaoElementoTestamento => script/gerenciador-concordancia.js
+texto => texto => css/concordancia.css
+texto => texto => script/versoes-modoleitura.js
+textoFormatado => textoFormatado => script/gerenciador-concordancia.js
+textoFormatado => textoFormatado => script/slide-harpacantor-interface.js
+textoLimpo => textoLimpo => script/slide-harpacantor-interface.js
+textoP => paragrafoTexto => script/acf.js, script/arc.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js
+textoTitulo => textoTitulo => script/versoes-capitulos.js
+texto-versiculo => texto-versiculo => css/concordancia.css, css/slide-biblia.css, css/modo-leitura.css, script/gerenciador-concordancia.js
+textoVersiculo => textoVersiculo => script/gerenciador-concordancia.js
+theme-style (ID) => estilo-tema => html/harpa_cantor.html
+titulo (global variable) => titulo => script/acf.js, script/arc.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js, script/biblia-navegacao.js, script/sobre.js, script/versoes.js, script/versoes-capitulos.js
+titulo (ID) => titulo => css/slide-biblia.css
+titulo (variable) => tituloElemento => script/versoes-modoleitura.js
+titulo-container (CSS Classe) => conteiner-titulo => css/menu-dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html, html/versoes.html
+tituloEl => elementoTitulo => script/slide-harpacantor-interface.js
+tituloH2 => tituloH2 => script/versoes-modoleitura.js
+tituloH2Atual => tituloH2Atual => script/versoes-capitulos.js
+tituloInternoH3 => tituloInternoH3 => script/acf.js, script/arc.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js
+titulo-menu (CSS Classe) => titulo-menu => css/menu-dicionarioconcordancia.css, css/versoes.css, css/versoes-responsivo.css, html/menu_dicionarioconcordancia.html, html/versoes.html
+tituloMenu => tituloMenu => script/menu-dicionarioconcordancia.js
+tituloPalavra => tituloPalavra => script/gerenciador-concordancia.js
+titulo-principal => titulo-principal => css/harpa-cantor.css, html/harpa_cantor.html
+titulo-principal-versao (ID) => titulo-principal-versao => css/versoes-responsivo.css, css/versoes.css, html/versoes.html
+TodosOption => opcaoTodos => script/dropdown_concordancia.js
+toggleExpandirPalavra => alternarExpandirPalavra => script/gerenciador-concordancia.js
+toggleReadingMode => toggleReadingMode => script/versoes-modoleitura.js, script/biblia-navegacao.js, script/versoes.js, script/versoes-capitulos.js
+topNavItems => itensNavSuperior => script/sobre.js
+totalCapitulos => totalCapitulos => script/versoes-capitulos.js
+total-resultados (ID) => total-resultados => html/menu_dicionarioconcordancia.html
+ultimoCapituloSelecionado => ULTIMO_CAPITULO => script/versoes-cache.js
+ultimoCapituloSelecionado => ultimoCapituloSelecionado => script/versoes-modoleitura.js, script/versoes.js, script/versoes-capitulos.js
+ultimoLivroSelecionado => ULTIMO_LIVRO => script/versoes-cache.js
+ultimoLivroSelecionado => ultimoLivroSelecionado => script/versoes-modoleitura.js, script/versoes.js, script/versoes-capitulos.js
+ultimoVersiculoSelecionado => ULTIMO_VERSICULO => script/versoes-cache.js
+ultimoVersiculoSelecionado => ultimoVersiculoSelecionado => script/versoes-modoleitura.js, script/versoes.js
+updatePageTitle => atualizarTituloPagina => script/menu-dicionarioconcordancia.js
+utilidades (ID) => utilidades => css/versoes.css, html/versoes.html
+utilidades-list (ID) => lista-utilidades => css/versoes.css, html/versoes.html
+validarDadosBasicos => validarDadosBasicos => script/slide-biblia-janela.js
+validarDadosBiblicos => validarDadosBiblicos => script/slide-biblia-janela.js
+validarLivro => validarLivro => script/slide-biblia-utils.js
+valorPadrao => valorPadrao => script/versoes-cache.js
+valorParseado => valorParseado => script/versoes-cache.js
+valorSelecionado => valorSelecionado => script/dropdown_concordancia.js
+veja-tambem => veja-tambem => css/concordancia.css
+veja-tambem-dicionario => veja-tambem-dicionario => css/dicionario.css
+versaoAtual => versaoAtual => script/versoes-modoleitura.js
+versaoBiblicaSelecionada => VERSAO_BIBLICA => script/versoes-cache.js
+verse-container (CSS Classe) => conteiner-versiculo-individual => css/modo-leitura.css
+verse-number => numero-versiculo => css/modo-leitura.css
+verse-section-title => secao-titulo-versiculo => css/modo-leitura.css
+verse-text => texto-versiculo-simples => css/modo-leitura.css
+versiculo => versiculo => script/acf.js, script/arc.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js
+versiculo-container (ID) => conteiner-versiculo => css/slide-biblia.css
+versiculoElementDiv => versiculoElementoDiv => script/acf.js, script/arc.js, script/kjv.js, script/naa.js, script/ntlh.js, script/original.js
+versiculoParaCarregar => versiculoParaCarregar => script/versoes-modoleitura.js
+versiculos => versiculos => css/versoes-botoescapitulosversiculos.css
+versiculosPorCapitulo => versiculosPorCapitulo => script/livros-capitulos.js, script/original.js
+versoesQueUsamHtml => versoesQueUsamHtml => script/versoes-modoleitura.js
+versos => versos => script/harpa-cantor.js
+voltar-botao (ID) => botao-voltar => css/slide-biblia.css
+watermark (CSS Classe) => marca-dagua => css/cursos.css, html/cursos.html

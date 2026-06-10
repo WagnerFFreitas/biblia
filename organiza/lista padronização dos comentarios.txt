@@ -1,0 +1,121 @@
+📋 Plano de Padronização de Comentários CSS
+✅ Objetivo
+Manter o código intacto e apenas reformatar/criar comentários seguindo o padrão definido no versoes.css.
+🔧 Padrão de Comentários Adotado
+Table
+Copy
+Tipo	Formato	Exemplo
+Cabeçalho	/*=====================================================*/
+
+
+/*=====================================================*/
+
+
+Bloco	/* [Bloco] Descrição do conjunto de regras */	/* [Bloco] Estilos do cabeçalho principal */
+Linha	propriedade: valor; /* Explicação curta */	margin: 0; /* Remove margens padrão */
+📁 Arquivos a Revisar
+Table
+Copy
+Arquivo CSS	Status	Ações
+versoes_botoeacapitulosversiculo.css	❌ Não padronizado	Adicionar cabeçalho + comentários de bloco/linha
+versoes_responsivo.css	❌ Não padronizado	Adicionar cabeçalho + comentários de bloco/linha
+versoes_busca.css	❌ Não padronizado	Adicionar cabeçalho + comentários de bloco/linha
+slide_harpacantor.css	❌ Não padronizado	Adicionar cabeçalho + comentários de bloco/linha
+slide_biblia.css	❌ Não padronizado	Adicionar cabeçalho + comentários de bloco/linha
+modo_leitura.css	❌ Não padronizado	Adicionar cabeçalho + comentários de bloco/linha
+menu_dicionarioconcordancia.css	❌ Não padronizado	Adicionar cabeçalho + comentários de bloco/linha
+harpa_crista.css	❌ Não padronizado	Adicionar cabeçalho + comentários de bloco/linha
+harpa_cantor.css	❌ Não padronizado	Adicionar cabeçalho + comentários de bloco/linha
+dicionario.css	❌ Não padronizado	Adicionar cabeçalho + comentários de bloco/linha
+cursos.css	❌ Não padronizado	Adicionar cabeçalho + comentários de bloco/linha
+concordancia.css	❌ Não padronizado	Adicionar cabeçalho + comentários de bloco/linha
+cantor_cristao.css	❌ Não padronizado	Adicionar cabeçalho + comentários de bloco/linha
+biblia_realizabusca.css	❌ Não padronizado	Adicionar cabeçalho + comentários de bloco/linha
+🧩 Organização por Seções (Exemplo para versoes_botoeacapitulosversiculo.css)
+css
+Copy
+/*=====================================================*/
+/* RESET E NORMALIZAÇÃO */
+/* Remove estilos padrão do navegador */
+/*=====================================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*=====================================================*/
+/* VARIÁVEIS GLOBAIS */
+/* Definição de cores e espaçamentos */
+/*=====================================================*/
+:root {
+    --cor-primaria: #3f51b5;
+    --cor-hover: #45a049;
+    --espacamento-grid: 10px;
+}
+
+/*=====================================================*/
+/* LAYOUTS PRINCIPAIS */
+/* Grid de capítulos e versículos */
+/*=====================================================*/
+/* [Bloco] Container principal dos botões de capítulos */
+.capitulos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    gap: var(--espacamento-grid);
+    padding: 20px;
+    margin-left: 250px; /* Espaço para menu lateral */
+}
+
+/* [Bloco] Botões individuais de capítulo */
+.capitulos button {
+    background-color: var(--cor-primaria);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/*=====================================================*/
+/* COMPONENTES */
+/* Botões e estados interativos */
+/*=====================================================*/
+.capitulos button:hover {
+    background-color: var(--cor-hover);
+}
+
+/*=====================================================*/
+/* UTILITÁRIOS E RESPONSIVIDADE */
+/* Ajustes para telas pequenas */
+/*=====================================================*/
+@media (max-width: 768px) {
+    .capitulos {
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        margin-left: 20px;
+    }
+}
+🔄 Relação de Renomeações (Manter no Markdown para referência)
+🎯 Seletores CSS e HTML
+Table
+Copy
+Nome Antigo	Novo Nome Traduzido	Arquivos Afetados
+#search-overlay-content	#overlay-busca-conteudo	biblia_realizabusca.css
+.search-overlay-resultado-item	.item-resultado-overlay-busca	biblia_realizabusca.css
+.palavra-section	.selecao-palavra	concordancia.css
+.palavra-header	.palavra-cabecalho	concordancia.css
+.expand-indicator	.indicador-expansao	concordancia.css
+.menu-button	.botao-menu	cantor_cristao.css
+.hino-container	.conteiner-hino	cantor_cristao.css
+.reading-mode-header	.cabecalho-modo-leitura	modo_leitura.css
+.chapter-verses	.capitulo-versiculos	modo_leitura.css
+#voltar-botao	#botao-voltar	slide_biblia.css
+#proximo-botao	#botao-proximo	slide_biblia.css
+.container	.conteiner	versoes.css
+.custom-select	.selecao-personalizada	concordancia.css
+#btn-buscar	#botao-buscar	concordancia.css
+✅ Próximos Passos
+Replicar o padrão em todos os arquivos listados.
+Verificar consistência dos comentários com o versoes.css.
+Manter nomes originais dos seletores (não renomear durante a padronização de comentários).
+⚠️ Importante: Nenhum código será alterado, apenas a formatação e clareza dos comentários.

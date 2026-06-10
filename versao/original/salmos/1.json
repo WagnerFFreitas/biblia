@@ -1,6 +1,104 @@
 {
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+  "livro": "Salmos - תְּהִלִּים - Tə-hil-lîm",
   "capítulo": 1,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Bem-aventurado o homem que não anda segundo o conselho dos ímpios, nem se detém no caminho dos pecadores, nem se assenta na roda dos escarnecedores.",
+      "palavras": [
+        { "hebraico": "אַ֥שְֽׁרֵי־", "transliteral": "ʾaš-rê-", "traducao_palavra": "Bem-aventurado" },
+        { "hebraico": "הָאִ֗ישׁ", "transliteral": "hā-ʾîš", "traducao_palavra": "o homem" },
+        { "hebraico": "אֲשֶׁ֤ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "לֹ֥א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "הָלַךְ֮", "transliteral": "hā-laḵ", "traducao_palavra": "anda/andou" },
+        { "hebraico": "בַּעֲצַ֪ת", "transliteral": "ba-ʿă-ṣaṯ", "traducao_palavra": "no conselho de" },
+        { "hebraico": "רְשָׁ֫עִ֥ים", "transliteral": "rə-šā-ʿîm", "traducao_palavra": "ímpios" },
+        { "hebraico": "וּבְדֶ֣רֶךְ", "transliteral": "ū-ḇə-ḏe-reḵ", "traducao_palavra": "e no caminho de" },
+        { "hebraico": "חַ֭טָּאִים", "transliteral": "ḥaṭ-ṭā-ʾîm", "traducao_palavra": "pecadores" },
+        { "hebraico": "לֹ֥א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "עָמָ֑ד", "transliteral": "ʿā-māḏ", "traducao_palavra": "parou/deteve-se" },
+        { "hebraico": "וּבְמֹושַׁ֥ב", "transliteral": "ū-ḇə-mô-šaḇ", "traducao_palavra": "e no assento de" },
+        { "hebraico": "לֵ֝צִים", "transliteral": "lê-ṣîm", "traducao_palavra": "escarnecedores" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "יָשָֽׁב׃", "transliteral": "yā-šāḇ", "traducao_palavra": "sentou-se" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Antes tem o seu prazer na lei de YHWH, e na sua lei medita de dia e de noite.",
+      "palavras": [
+        { "hebraico": "כִּ֤י", "transliteral": "kî", "traducao_palavra": "Mas" },
+        { "hebraico": "אִ֥ם", "transliteral": "ʾim", "traducao_palavra": "antes" },
+        { "hebraico": "בְּתֹורַ֥ת", "transliteral": "bə-ṯô-raṯ", "traducao_palavra": "na lei de" },
+        { "hebraico": "יְהוָ֗ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "חֶ֫פְצֹ֥ו", "transliteral": "ḥep̄-ṣô", "traducao_palavra": "[está] o prazer dele" },
+        { "hebraico": "וּֽבְתֹורָתֹ֥ו", "transliteral": "ū-ḇə-ṯô-rā-ṯô", "traducao_palavra": "e na lei d'Ele" },
+        { "hebraico": "יֶהְגֶּ֗ה", "transliteral": "yeh-geh", "traducao_palavra": "medita" },
+        { "hebraico": "יֹומָ֥ם", "transliteral": "yô-w-mām", "traducao_palavra": "de dia" },
+        { "hebraico": "וָלָֽיְלָה׃", "transliteral": "wā-lā-yə-lā", "traducao_palavra": "e de noite" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Pois será como a árvore plantada junto a ribeiros de águas, a qual dá o seu fruto no seu tempo; as suas folhas não cairão, e tudo quanto fizer prosperará.",
+      "palavras": [
+        { "hebraico": "וְֽהָיָ֗ה", "transliteral": "wə-hā-yā", "traducao_palavra": "E será" },
+        { "hebraico": "כְּעֵץ֮", "transliteral": "kə-ʿêṣ", "traducao_palavra": "como árvore" },
+        { "hebraico": "שָׁ֭תוּל", "transliteral": "šā-ṯûl", "traducao_palavra": "plantada" },
+        { "hebraico": "עַֽל־", "transliteral": "ʿal-", "traducao_palavra": "junto a" },
+        { "hebraico": "פַּלְגֵ֫י", "transliteral": "pal-ḡê", "traducao_palavra": "ribeiros de" },
+        { "hebraico": "מָ֥יִם", "transliteral": "ma-yim", "traducao_palavra": "águas" },
+        { "hebraico": "אֲשֶׁ֤ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "פִּרְיֹ֨ו", "transliteral": "pir-yô", "traducao_palavra": "o seu fruto" },
+        { "hebraico": "יִתֵּ֬ן", "transliteral": "yit-tên", "traducao_palavra": "dará" },
+        { "hebraico": "בְּעִתֹּ֗ו", "transliteral": "bə-ʿit-tô", "traducao_palavra": "no seu tempo" },
+        { "hebraico": "וְעָלֵ֥הוּ", "transliteral": "wə-ʿā-lê-hū", "traducao_palavra": "e sua folha" },
+        { "hebraico": "לֹֽא־", "transliteral": "lō-", "traducao_palavra": "não" },
+        { "hebraico": "יִבֹּ֑ול", "transliteral": "yib-bôl", "traducao_palavra": "murchará" },
+        { "hebraico": "וְכֹ֖ל", "transliteral": "wə-ḵōl", "traducao_palavra": "e tudo" },
+        { "hebraico": "אֲשֶׁר־", "transliteral": "ʾă-šer-", "traducao_palavra": "que" },
+        { "hebraico": "יַעֲשֶׂ֥ה", "transliteral": "ya-ʿă-śeh", "traducao_palavra": "fizer" },
+        { "hebraico": "יַצְלִֽיחַ׃", "transliteral": "yaṣ-lî-aḥ", "traducao_palavra": "prosperará" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Não são assim os ímpios; mas são como a moinha que o vento espalha.",
+      "palavras": [
+        { "hebraico": "לֹא־", "transliteral": "lō-", "traducao_palavra": "Não" },
+        { "hebraico": "כֵ֥ן", "transliteral": "ḵên", "traducao_palavra": "assim [são]" },
+        { "hebraico": "הָרְשָׁעִ֑ים", "transliteral": "ha-rə-šā-ʿîm", "traducao_palavra": "os ímpios" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "pois [são]" },
+        { "hebraico": "אִם־", "transliteral": "ʾim-", "traducao_palavra": "senão/como" },
+        { "hebraico": "כַּ֝מֹּ֗ץ", "transliteral": "kam-mōṣ", "traducao_palavra": "como a moinha" },
+        { "hebraico": "אֲשֶׁר־", "transliteral": "ʾă-šer-", "traducao_palavra": "que" },
+        { "hebraico": "תִּדְּפֶ֥נּוּ", "transliteral": "tid-də-p̄en-nū", "traducao_palavra": "dispersa ela" },
+        { "hebraico": "רֽוּחַ׃", "transliteral": "rû-aḥ", "traducao_palavra": "[o] vento" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Pelo que os ímpios não subsistirão no juízo, nem os pecadores na congregação dos justos.",
+      "palavras": [
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "Por" },
+        { "hebraico": "כֵּ֤ן", "transliteral": "kên", "traducao_palavra": "isso" },
+        { "hebraico": "לֹא־", "transliteral": "lō-", "traducao_palavra": "não" },
+        { "hebraico": "יָקֻ֣מוּ", "transliteral": "yā-qu-mû", "traducao_palavra": "se levantarão/subsistirão" },
+        { "hebraico": "רְ֭שָׁעִים", "transliteral": "rə-šā-ʿîm", "traducao_palavra": "ímpios" },
+        { "hebraico": "בַּמִּשְׁפָּ֑ט", "transliteral": "bam-miš-pāṭ", "traducao_palavra": "no juízo" },
+        { "hebraico": "וְ֝חַטָּאִ֗ים", "transliteral": "wə-ḥaṭ-ṭā-ʾîm", "traducao_palavra": "nem pecadores" },
+        { "hebraico": "בַּעֲדַ֥ת", "transliteral": "ba-ʿă-ḏaṯ", "traducao_palavra": "na congregação de" },
+        { "hebraico": "צַדִּיקִֽים׃", "transliteral": "ṣad-dî-qîm", "traducao_palavra": "justos" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Porque YHWH conhece o caminho dos justos; mas o caminho dos ímpios perecerá.",
+      "palavras": [
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "Porque" },
+        { "hebraico": "יֹודֵ֣עַ", "transliteral": "yô-ḏê-aʿ", "traducao_palavra": "conhece" },
+        { "hebraico": "יְ֭הוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "דֶּ֣רֶךְ", "transliteral": "de-reḵ", "traducao_palavra": "[o] caminho de" },
+        { "hebraico": "צַדִּיקִ֑ים", "transliteral": "ṣad-dî-qîm", "traducao_palavra": "justos" },
+        { "hebraico": "וְדֶ֖רֶךְ", "transliteral": "wə-ḏe-reḵ", "traducao_palavra": "mas o caminho de" },
+        { "hebraico": "רְשָׁעִ֣ים", "transliteral": "rə-šā-ʿîm", "traducao_palavra": "ímpios" },
+        { "hebraico": "תֹּאבֵֽד׃", "transliteral": "tō-ʾḇêḏ", "traducao_palavra": "perecerá" }
+      ]
+    }
+  }
 }

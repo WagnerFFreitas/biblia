@@ -1,0 +1,584 @@
+capitulos => capitulos => css/Versoes_botoeacapitulosversiculo.css
+
+botao-capitulo => botao-capitulo => css/Versoes_botoeacapitulosversiculo.css, css/harpa_cantor.css, css/harpa_crista.css, css/cantor_cristao.css
+
+versiculos => versiculos => css/Versoes_botoeacapitulosversiculo.css
+
+botao-versiculo => botao-versiculo => css/Versoes_botoeacapitulosversiculo.css
+
+capitulos-container => conteiner-capitulos => css/Versoes_botoeacapitulosversiculo.css
+
+conteudo-versiculos => conteudo-versiculos => css/Versoes_botoeacapitulosversiculo.css
+
+background-video => video-fundo => css/harpa_cantor.css, html/harpa_cantor.html
+
+overlay => overlay => css/harpa_cantor.css, html/harpa_cantor.html
+
+titulo-principal => titulo-principal => css/harpa_cantor.css, html/harpa_cantor.html
+
+subtitulo => subtitulo => css/harpa_cantor.css, html/harpa_cantor.html
+
+menu-harpa-cantor => menu-harpa-cantor => css/harpa_cantor.css, html/harpa_cantor.html
+
+menu-button => botao-menu => css/harpa_cantor.css, css/cantor_cristao.css, html/harpa_cantor.html
+
+menu-link => menu-link => css/harpa_cantor.css, html/harpa_cantor.html
+
+tela-inicial => tela-inicial => css/harpa_cantor.css, html/harpa_cantor.html
+
+bem-vindo => bem-vindo => css/harpa_cantor.css, html/harpa_cantor.html
+
+instrucao => instrucao => css/harpa_cantor.css, html/harpa_cantor.html
+
+botoes-faixa-hinos => botoes-faixa-hinos => css/harpa_cantor.css, html/harpa_cantor.html
+
+botao-faixa => botao-faixa => css/harpa_cantor.css
+
+hino-exibido => hino-exibido => css/harpa_cantor.css, html/harpa_cantor.html
+
+hino-container => conteiner-hino => css/harpa_cantor.css, css/cantor_cristao.css
+
+hino-titulo => titulo-hino => css/harpa_cantor.css
+
+hino-letra => letra-hino => css/harpa_cantor.css
+
+coro => coro => css/harpa_cantor.css
+
+rodape => rodape => css/harpa_cantor.css, html/harpa_cantor.html, css/menu_dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html, css/versoes.css, html/versoes.html
+
+erro-carregamento => erro-carregamento => css/harpa_cantor.css
+
+botoes-hinos => botoes-hinos => css/harpa_cantor.css, css/harpa_crista.css, html/harpa_cantor.html
+
+dicionario-busca => busca-dicionario => css/dicionario.css, css/menu_dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+
+dicionario-container => conteiner-dicionario => css/dicionario.css, css/menu_dicionarioconcordancia.css
+
+dicionario-linha => linha-dicionario => css/dicionario.css, html/menu_dicionarioconcordancia.html
+
+dicionario-busca-grupo => grupo-busca-dicionario => css/dicionario.css, html/menu_dicionarioconcordancia.html
+
+dicionario-paginacao-grupo => grupo-paginacao-dicionario => css/dicionario.css
+
+btn-anterior-dicionario => botao-anterior-dicionario => css/dicionario.css
+
+btn-proximo-dicionario => botao-proximo-dicionario => css/dicionario.css
+
+contador-dicionario => contador-dicionario => css/dicionario.css, css/menu_dicionarioconcordancia.css, script/gerenciador_concordancia.js 
+
+(ref HTML class)dicionario-conteudo-wrapper => empacotador-conteudo-dicionario => css/dicionario.css, html/menu_dicionarioconcordancia.html
+
+dicionario-opcoes-laterais => opcoes-laterais-dicionario => css/dicionario.css, html/menu_dicionarioconcordancia.html
+
+dicionario-btn => botao-dicionario => css/dicionario.css, html/menu_dicionarioconcordancia.html
+
+sugestoes-container => conteiner-sugestoes => css/dicionario.css
+
+sugestao-item => item-sugestao => css/dicionario.css
+
+dicionario-resultados => resultados-dicionario => css/dicionario.css, html/menu_dicionarioconcordancia.html
+
+definicao-item => item-definicao => css/dicionario.css, css/menu_dicionarioconcordancia.css
+
+definicao-header => cabecalho-definicao => css/dicionario.csstermo-titulo => titulo-termo => css/dicionario.css
+
+etimologia => etimologia => css/dicionario.cssveja-tambem-dicionario => veja-tambem-dicionario => css/dicionario.css
+
+termo-relacionado => termo-relacionado => css/dicionario.css
+
+definicao-content => definicao-conteudo => css/dicionario.css
+
+definicao-texto => definicao-texto => css/dicionario.css
+
+referencias-section => secao-referencias => css/dicionario.css, css/menu_dicionarioconcordancia.css
+
+referencias-titulo => titulo-referencias => css/dicionario.css, css/menu_dicionarioconcordancia.css
+
+referencia-item => item-referencia => css/dicionario.css, css/menu_dicionarioconcordancia.css
+
+referencia-citacao => referencia-citacao => css/dicionario.css
+
+referencia-texto => referencia-texto => css/dicionario.css
+
+sobre-container => conteiner-sobre => css/dicionario.css, html/menu_dicionarioconcordancia.html
+
+watermark => marca-dagua => css/cursos.css, html/cursos.html
+
+content => area-conteudo => css/cursos.css, html/cursos.html
+
+filtros-container => conteiner-filtros => css/concordancia.css, html/menu_dicionarioconcordancia.html
+
+filtros-linha => filtros-linha => css/concordancia.css, html/menu_dicionarioconcordancia.html
+
+filtro-grupo => grupo-filtro => css/concordancia.css, html/menu_dicionarioconcordancia.html
+
+custom-select => selecao-customizada => css/concordancia.css, html/menu_dicionarioconcordancia.html
+
+select-selected => opcao-selecionada => css/concordancia.css, html/menu_dicionarioconcordancia.html
+
+select-items => selecao-itens => css/concordancia.css, html/menu_dicionarioconcordancia.html
+
+select-hide => esconder-selecao => css/concordancia.css, html/menu_dicionarioconcordancia.html
+
+same-as-selected => igual-selecionado => css/concordancia.css
+
+search-btn => botao-pesquisar => css/concordancia.css, html/menu_dicionarioconcordancia.html
+
+resultados-container => conteiner-resultados => css/concordancia.css, html/menu_dicionarioconcordancia.html
+
+palavra-section => secao-palavra => css/concordancia.css
+
+palavra-item => item-palavra => css/concordancia.css
+
+palavra-header => cabecalho-palavra => css/concordancia.css
+
+palavra-titulo => titulo-palavra => css/concordancia.css
+
+expand-indicator => indicador-expansao => css/concordancia.css
+
+contador => contador-geral => css/concordancia.css
+
+ocorrencias-count => contagem-ocorrencias => css/concordancia.css
+
+palavra-fonte-info => info-palavra-fonte => css/concordancia.css
+
+fonte-info => info-fonte => css/concordancia.css
+
+palavra-veja-tambem-info => veja-tambem-info-palavra => css/concordancia.css
+
+veja-tambem => veja-tambem => css/concordancia.css
+
+concordancias-content => conteudo-concordancias => css/concordancia.css
+
+livro-grupo => grupo-livro => css/concordancia.csslivro-header => cabecalho-livro => css/concordancia.css
+
+ocorrencia => ocorrencia => css/concordancia.css
+
+concordancia-item => item-concordancia => css/concordancia.css
+
+referenciaConcordancia => referencia-concordancia => css/concordancia.css
+
+referencia => referencia => css/concordancia.css
+
+texto => texto => css/concordancia.css
+
+texto-versiculo => texto-versiculo => css/concordancia.css, css/slide_biblia.css, css/modo_leitura.css
+
+palavra-destacada => palavra-destacada => css/concordancia.css
+
+contador-container => conteiner-contador => css/concordancia.css, html/menu_dicionarioconcordancia.html
+
+btn-paginacao => botao-paginacao => css/concordancia.css
+
+btn-proximo => botao-proximo => css/concordancia.css, css/slide_harpacantor.css
+
+btn-carregar-mais => botao-carregar-mais => css/concordancia.css, css/menu_dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+
+sem-resultados => sem-resultados => css/concordancia.css
+
+loader => carregador => css/concordancia.css
+
+loader-global-busca => carregador-busca-global => css/concordancia.css
+
+slide-container => conteiner-slide => css/slide_harpacantor.css
+
+slide-header => cabecalho-slide => css/slide_harpacantor.css
+
+slide-titulo => titulo-slide => css/slide_harpacantor.css
+
+slide-progresso => progresso-slide => css/slide_harpacantor.css
+
+slide-conteudo => conteudo-slide => css/slide_harpacantor.css
+
+estrofe-texto => texto-estrofe => css/slide_harpacantor.css
+
+controles => controles => css/slide_harpacantor.css
+
+btn-anterior => botao-anterior => css/slide_harpacantor.css
+
+marcadagua => marca-dagua => css/slide_harpacantor.css, css/slide_biblia.css, css/biblia_realizabusca.css
+
+versiculo-container => conteiner-versiculo => css/slide_biblia.css
+
+titulo => titulo => css/slide_biblia.css
+
+botao-container => conteiner-botoes => css/slide_biblia.css
+
+voltar-botao => botao-voltar => css/slide_biblia.css
+
+proximo-botao => botao-proximo => css/slide_biblia.css
+
+modo-leitura-conteudo => conteudo-modo-leitura => css/modo_leitura.css
+
+reading-mode-header => cabecalho-modo-leitura => css/modo_leitura.css
+
+reading-mode-navigation => navegacao-modo-leitura => css/modo_leitura.css
+
+modoLeitura-capitulo-anterior => modo-leitura-capitulo-anterior => css/modo_leitura.css
+
+modoLeitura-capitulo-proximo => modo-leitura-capitulo-proximo => css/modo_leitura.css
+
+chapter-verses => capitulo-versiculos => css/modo_leitura.css
+
+verse-container => conteiner-versiculo => css/modo_leitura.css
+
+verse-number => numero-versiculo => css/modo_leitura.css
+
+verse-text => texto-versiculo => css/modo_leitura.css
+
+verse-section-title => secao-titulo-versiculo => css/modo_leitura.css
+
+chapter-title => titulo-capitulo => css/modo_leitura.css
+
+modo-leitura => modo-leitura => css/modo_leitura.css, html/versoes.html
+
+barraPesquisa => barra-pesquisa => css/versoes_busca.css, css/versoes.css, css/versoes_responsivo.css, html/versoes.html
+
+search-overlay-content => conteudo-overlay-busca => css/biblia_realizabusca.css
+
+search-overlay-resultado-item => item-resultado-overlay-busca => css/biblia_realizabusca.css
+
+search-overlay-botao-fechar => botao-fechar-overlay-busca => css/biblia_realizabusca.css
+
+search-overlay-resultados-container => conteiner-resultados-overlay-busca => css/biblia_realizabusca.css
+
+search-overlay-progress-container => conteiner-progresso-overlay-busca => css/biblia_realizabusca.css
+
+search-overlay-progress-bar-outer => barra-progresso-externa-overlay-busca => css/biblia_realizabusca.css
+
+search-overlay-progress-bar-inner => barra-progresso-interna-overlay-busca => css/biblia_realizabusca.css
+
+search-overlay-progress-text => texto-progresso-overlay-busca => css/biblia_realizabusca.css
+
+cabecalho-superior => cabecalho-superior => css/menu_dicionarioconcordancia.css, css/versoes.css, html/menu_dicionarioconcordancia.html, html/versoes.html
+
+titulo-container => conteiner-titulo => css/menu_dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html, html/versoes.html
+
+menu-opcoes => opcoes-menu => css/menu_dicionarioconcordancia.css, css/versoes.css, css/versoes_responsivo.css, html/menu_dicionarioconcordancia.html, html/versoes.html
+
+container (CSS container) => conteiner => css/menu_dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html, html/versoes.html
+
+menu-alfabetico => menu-alfabetico => css/menu_dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+
+alfabeto-container => conteiner-alfabeto => css/menu_dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+
+letra-btn => botao-letra => css/menu_dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+
+conteudo-principal => conteudo-principal => css/menu_dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+
+secao-ativa => secao-ativa => css/menu_dicionarioconcordancia.css
+
+secao-inativa => secao-inativa => css/menu_dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+
+mensagem-inicial => mensagem-inicial => css/menu_dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+
+loading-container => conteiner-carregamento => css/menu_dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+
+loading-spinner => spinner-carregamento => css/menu_dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+
+dicionario-acoes => acoes-dicionario => css/menu_dicionarioconcordancia.css
+
+btn-buscar => botao-buscar => css/menu_dicionarioconcordancia.css, html/menu_dicionarioconcordancia.html
+
+marcadagua-image => marca-dagua-imagem => css/menu_dicionarioconcordancia.css, css/versoes.css
+
+menu-title => titulo-menu => css/versoes_responsivo.css, css/versoes.css
+
+titulo-principal-versao => titulo-principal-versao => css/versoes_responsivo.css, css/versoes.css, html/versoes.html
+
+subtitulo-versao-extenso => subtitulo-versao-extenso => css/versoes_responsivo.css, css/versoes.css, html/versoes.html
+
+nome-extenso-versao => nome-extenso-versao => html/versoes.html
+
+seletor-versao-principal => seletor-versao-principal => css/versoes.css, html/versoes.html
+
+cabeçalho-inferior => cabecalho-inferior => css/versoes.css, html/versoes.html
+
+dropdown => menu-suspenso => css/versoes.css, html/versoes.html
+
+conteudo-dropdown => conteudo-menu-suspenso => css/versoes.css, html/versoes.html
+
+baixar => baixar => css/versoes.css, html/versoes.html
+
+baixar-list => lista-baixar => css/versoes.css, html/versoes.html
+
+utilidades => utilidades => css/versoes.css, html/versoes.html
+
+utilidades-list => lista-utilidades => css/versoes.css, html/versoes.html
+
+menu-livros => menu-livros => css/versoes_responsivo.css, css/versoes.css, html/versoes.html
+
+sobre-content => conteudo-sobre => css/versoes.css
+
+sobre (ID do menu) => menu-item-sobre => html/menu_dicionarioconcordancia.html, html/versoes.html
+
+sobre (classe da seção) => secao-sobre => css/versoes.css
+
+link-slide => link-slide => html/versoes.html
+
+testamento-select => selecao-testamento => html/menu_dicionarioconcordancia.html
+
+livro-select => selecao-livro => html/menu_dicionarioconcordancia.html
+
+busca-global => busca-global => css/concordancia.css, html/menu_dicionarioconcordancia.html
+
+filtro-palavra-input => filtro-entrada-palavra => html/menu_dicionarioconcordancia.html
+
+custom-testamento-select => selecao-customizada-testamento => html/menu_dicionarioconcordancia.html
+
+custom-livro-select => selecao-customizada-livro => html/menu_dicionarioconcordancia.html
+
+loading-indicator => indicador-carregamento => html/menu_dicionarioconcordancia.html
+
+contador-resultados => contador-resultados => html/menu_dicionarioconcordancia.html
+
+carregar-mais => carregar-mais => html/menu_dicionarioconcordancia.html
+
+resultados-visiveis => resultados-visiveis => html/menu_dicionarioconcordancia.html
+
+total-resultados => total-resultados => html/menu_dicionarioconcordancia.html
+
+secao-concordancia => secao-concordancia => html/menu_dicionarioconcordancia.html
+
+secao-dicionario => secao-dicionario => html/menu_dicionarioconcordancia.html
+
+secao-sobre => secao-sobre => html/menu_dicionarioconcordancia.html
+
+menu-principal => menu-principal => html/menu_dicionarioconcordancia.html
+
+concordancia => concordancia => html/menu_dicionarioconcordancia.html
+
+dicionario => dicionario => html/menu_dicionarioconcordancia.htmlbtnHarpa => botao-harpa => html/harpa_cantor.htmlbtnCantor => botao-cantor => html/harpa_cantor.html
+
+btnSlide => botao-slide => html/harpa_cantor.html
+
+data-letra => data-letra => html/menu_dicionarioconcordancia.html
+
+data-value => data-valor => html/menu_dicionarioconcordancia.html
+
+data-livro => data-livro => html/versoes.htmlaria-pressed => aria-pressionado => html/versoes.html
+
+theme-style => estilo-tema => html/harpa_cantor.html
+
+titulo-menu => titulo-menu => css/menu_dicionarioconcordancia.css, css/versoes.css, css/versoes_responsivo.css, html/menu_dicionarioconcordancia.html, html/versoes.html
+
+conteudo => conteudo-principal-biblia => css/versoes.css, html/versoes.html
+
+secaoConcordancia => secaoConcordancia => script/gerenciador_concordancia.js
+
+menuAlfabetico => menuAlfabetico => script/gerenciador_concordancia.js
+
+conteinerResultados => conteinerResultados => script/gerenciador_concordancia.js
+
+conteinerContador => conteinerContador => script/gerenciador_concordancia.js
+
+spanResultadosVisiveis => resultadosVisiveis => script/gerenciador_concordancia.js
+
+spanTotalResultados => resultadosTotais => script/gerenciador_concordancia.js
+
+loadingIndicator => indicadorCarregamento => script/gerenciador_concordancia.js
+
+filtroPalavraInput => filtroEntradaPalavra => script/gerenciador_concordancia.js
+
+testamentoSelectElement => selecaoElementoTestamento => script/gerenciador_concordancia.js
+
+livroSelectElement => selecaoElementoSLivro => script/gerenciador_concordancia.js
+
+buscaGlobalInput => entradaBuscaGlobal => script/gerenciador_concordancia.js
+
+btnBuscar => botaoBuscar => script/gerenciador_concordancia.js
+
+btnCarregarMais => botaoCarregarMais => script/gerenciador_concordancia.js
+
+dadosConcordancia => dadosConcordancia => script/gerenciador_concordancia.js
+
+dadosFiltrados => dadosFiltrados => script/gerenciador_concordancia.js
+
+indiceAtual => indiceAtual => script/gerenciador_concordancia.js
+
+itensPorPagina => itensPorPagina => script/gerenciador_concordancia.js
+
+mostrarLoading => exibirCarregamento => script/gerenciador_concordancia.js
+
+esconderLoading => esconderCarregamento => script/gerenciador_concordancia.js
+
+inicializarMenuLivros => inicializarMenuLivros => script/gerenciador_concordancia.js
+
+livrosBiblicos => livrosBiblicos => script/gerenciador_concordancia.js
+
+selectItemsDiv => divItensSelecao => script/gerenciador_concordancia.js
+
+livro => livro => script/gerenciador_concordancia.js
+
+div => divElemento => script/gerenciador_concordancia.js
+
+setupCustomSelect => configurarSelecaoCustomizada => script/gerenciador_concordancia.js
+
+selectElement => selecaoElemento => script/gerenciador_concordancia.js
+
+carregarDadosConcordancia => carregarDadosConcordancia => script/gerenciador_concordancia.js
+
+response => resposta => script/gerenciador_concordancia.js
+
+error => erro => script/gerenciador_concordancia.js
+
+filtrarDados => filtrarDados => script/gerenciador_concordancia.js
+
+resetIndice => reiniciarIndice => script/gerenciador_concordancia.js
+
+resultadosTemp => resultadosTemporarios => script/gerenciador_concordancia.js
+
+termoBusca => buscaTermo => script/gerenciador_concordancia.js
+
+testamentoSelecionado => testamentoSelecionado => script/gerenciador_concordancia.js
+
+livroSelecionado => livroSelecionado => script/gerenciador_concordancia.js
+
+buscaGlobalTermo => buscaGlobalTermo => script/gerenciador_concordancia.js
+
+palavrasComOcorrenciasFiltradas => palavrasOcorrenciasFiltradas => script/gerenciador_concordancia.js
+
+palavraObj => objetoPalavra => script/gerenciador_concordancia.js
+
+ocorrenciasFiltradas => ocorrenciasFiltradas => script/gerenciador_concordancia.js
+
+textoVersiculo => textoVersiculo => script/gerenciador_concordancia.js
+
+testamento => testamento => script/gerenciador_concordancia.js
+
+matchTestamento => correspondenciaTestamento => script/gerenciador_concordancia.js
+
+matchLivro => correspondenciaLivro => script/gerenciador_concordancia.js
+
+matchBuscaGlobal => correspondenciaBuscaGlobal => script/gerenciador_concordancia.js
+
+ocorrencias => ocorrencias => script/gerenciador_concordancia.js
+
+atualizarContadorResultados => atualizarContadorResultados => script/gerenciador_concordancia.js
+
+exibirResultados => exibirResultados => script/gerenciador_concordancia.js
+
+toggleExpandirPalavra => alternarExpandirPalavra => script/gerenciador_concordancia.js
+
+contentDiv => divConteudo => script/gerenciador_concordancia.js
+
+indicator => indicador => script/gerenciador_concordancia.js
+
+htmlConteudo => conteudoHtml => script/gerenciador_concordancia.js
+
+ocorrenciasPorLivro => ocorrenciasPorLivro => script/gerenciador_concordancia.js
+
+ocorr => ocorrenciaAtual => script/gerenciador_concordancia.js
+
+textoFormatado => textoFormatado => script/gerenciador_concordancia.js
+
+ocorrenciaFormatada => formatarOcorrencia => script/gerenciador_concordancia.js
+
+palavraPrincipal => palavraPrincipal => script/gerenciador_concordancia.js
+
+regex => expressaoRegular => script/gerenciador_concordancia.js
+
+destacarTermoBuscaGlobal => destacarTermoBuscaGlobal => script/gerenciador_concordancia.js
+
+inicio => indiceInicio => script/gerenciador_concordancia.js
+
+fim => indiceFim => script/gerenciador_concordancia.js
+
+resultadosPagina => resultadosPagina => script/gerenciador_concordancia.js
+
+palavraDiv => divPalavra => script/gerenciador_concordancia.js
+
+headerDiv => divCabecalho => script/gerenciador_concordancia.js
+
+tituloPalavra => tituloPalavra => script/gerenciador_concordancia.js
+
+contadorOcorrencias => contadorOcorrencias => script/gerenciador_concordancia.js
+
+e => evento => script/gerenciador_concordancia.js
+
+currentSelect => selecaoAtual => script/gerenciador_concordancia.js
+
+elm => elemento => script/gerenciador_concordancia.js
+
+arrNo => indicesVariedade => script/gerenciador_concordancia.js
+
+item => item => script/gerenciador_concordancia.js
+
+index => indice => script/gerenciador_concordancia.js
+
+closeAllSelect => fecharTodasSelecoes => script/gerenciador_concordancia.js
+
+secao-concordancia => secao-concordancia => script/gerenciador_concordancia.js
+
+menu-alfabetico => menu-alfabetico => script/gerenciador_concordancia.js
+
+resultados-container => conteiner-resultados => script/gerenciador_concordancia.js
+
+contador-resultados => conteiner-contador => script/gerenciador_concordancia.js
+
+resultados-visiveis => resultados-visiveis => script/gerenciador_concordancia.js
+
+total-resultados => total-resultados => script/gerenciador_concordancia.js
+
+loading-indicator => indicador-carregamento => script/gerenciador_concordancia.js
+
+filtro-palavra-input => filtro-entrada-palavra => script/gerenciador_concordancia.js
+
+custom-testamento-select => selecao-customizada-testamento => script/gerenciador_concordancia.js
+
+custom-livro-select => selecao-customizada-livro => script/gerenciador_concordancia.js
+
+busca-global => busca-global => script/gerenciador_concordancia.js
+
+btn-buscar => botao-buscar => script/gerenciador_concordancia.js
+
+carregar-mais => botao-carregar-mais => script/gerenciador_concordancia.js
+
+select-items => selecao-itens => script/gerenciador_concordancia.js
+
+select-selected => opcao-selecionada => script/gerenciador_concordancia.js
+
+select-hide => esconder-selecao => script/gerenciador_concordancia.js
+
+select-arrow-active => selecao-seta-ativa => script/gerenciador_concordancia.js
+
+same-as-selected => igual-selecionado => script/gerenciador_concordancia.js
+
+erro-carregamento => erro-carregamento => script/gerenciador_concordancia.js
+
+expanded => expandido => script/gerenciador_concordancia.js
+
+carregador-local => carregador-local => script/gerenciador_concordancia.js
+
+grupo-livro => grupo-livro => script/gerenciador_concordancia.js
+
+cabecalho-livro => cabecalho-livro => script/gerenciador_concordancia.js
+
+ocorrencia => ocorrencia => script/gerenciador_concordancia.js
+
+referencia => referencia => script/gerenciador_concordancia.js
+
+texto => texto => script/gerenciador_concordancia.js
+
+info-fonte => info-fonte => script/gerenciador_concordancia.js
+
+veja-tambem => veja-tambem => script/gerenciador_concordancia.js
+
+palavra-destacada => palavra-destacada => script/gerenciador_concordancia.js
+
+destaque-temp => destaque-temp => script/gerenciador_concordancia.js
+
+sem-resultados => sem-resultados => script/gerenciador_concordancia.js
+
+secao-palavra => secao-palavra => script/gerenciador_concordancia.js
+
+cabecalho-palavra => cabecalho-palavra => script/gerenciador_concordancia.js
+
+indicador-expansao => indicador-expansao => script/gerenciador_concordancia.js
+
+titulo-palavra => titulo-palavra => script/gerenciador_concordancia.js
+
+contagem-ocorrencias => contagem-ocorrencias => script/gerenciador_concordancia.js
+
+conteudo-concordancias => conteudo-concordancias => script/gerenciador_concordancia.js 
+

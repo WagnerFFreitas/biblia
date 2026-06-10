@@ -1,6 +1,370 @@
 {
-  "livro": "Jó - אִיּוֹב - Iyyov",
+  "livro": "Jó - אִיּוֹב - ʾIy-yōḇ",
   "capítulo": 39,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Sabes tu o tempo em que as cabras monteses têm os filhos, ou observaste as cervas quando dão à luz?",
+      "palavras": [
+        { "hebraico": "הֲיָדַ֥עְתָּ", "transliteral": "hă-yā-ḏaʿ-tā", "traducao_palavra": "Acaso sabes tu" },
+        { "hebraico": "עֵ֭ת", "transliteral": "ʿêṯ", "traducao_palavra": "[o] tempo de" },
+        { "hebraico": "לֶ֣דֶת", "transliteral": "le-ḏeṯ", "traducao_palavra": "parir" },
+        { "hebraico": "יַעֲלֵי־", "transliteral": "ya-ʿă-lê-", "traducao_palavra": "[as] cabras de" },
+        { "hebraico": "סָ֑לַע", "transliteral": "śā-laʿ", "traducao_palavra": "rocha/montês" },
+        { "hebraico": "חֹלֵ֖ל", "transliteral": "ḥō-lêl", "traducao_palavra": "[o] dar à luz de" },
+        { "hebraico": "אַיָּלֹ֣ות", "transliteral": "ʾay-yā-lō-wṯ", "traducao_palavra": "cervas" },
+        { "hebraico": "תִּשְׁמֹֽר׃", "transliteral": "tiš-mōr", "traducao_palavra": "observaste?" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Contarás os meses que cumprem, ou sabes o tempo do seu parto?",
+      "palavras": [
+        { "hebraico": "תִּסְפֹּ֣ר", "transliteral": "tis-pōr", "traducao_palavra": "Contarás" },
+        { "hebraico": "יְרָחִ֣ים", "transliteral": "yə-rā-ḥîm", "traducao_palavra": "meses [que]" },
+        { "hebraico": "תְּמַלֶּ֑אנָה", "transliteral": "tə-mal-le-nā", "traducao_palavra": "elas cumprem" },
+        { "hebraico": "וְ֝יָדַ֗עְתָּ", "transliteral": "wə-yā-ḏa-ʿtā", "traducao_palavra": "e sabes tu" },
+        { "hebraico": "עֵ֣ת", "transliteral": "ʿêṯ", "traducao_palavra": "[o] tempo de" },
+        { "hebraico": "לִדְתָּֽן׃", "transliteral": "liḏ-tān", "traducao_palavra": "parirem elas?" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Abaixam-se, dão à luz os seus filhos, e lançam de si as suas dores.",
+      "palavras": [
+        { "hebraico": "תִּ֭כְרַעְנָה", "transliteral": "tiḵ-raʿ-nā", "traducao_palavra": "Abaixam-se" },
+        { "hebraico": "יַלְדֵיהֶ֣ן", "transliteral": "yal-ḏê-hen", "traducao_palavra": "[para seus] filhos" },
+        { "hebraico": "תְּפַלַּ֑חְנָה", "transliteral": "tə-p̄al-laḥ-nā", "traducao_palavra": "parirem/fenderem" },
+        { "hebraico": "חֶבְלֵיהֶ֥ם", "transliteral": "ḥeḇ-lê-hem", "traducao_palavra": "as dores delas" },
+        { "hebraico": "תְּשַׁלַּֽחְנָה׃", "transliteral": "tə-šal-laḥ-nā", "traducao_palavra": "lançam fora" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Seus filhos enrijecem, crescem com o trigo; saem, e não tornam para elas.",
+      "palavras": [
+        { "hebraico": "יַחְלְמ֣וּ", "transliteral": "yaḥ-lə-mû", "traducao_palavra": "Tornam-se fortes" },
+        { "hebraico": "בְנֵיהֶ֓ם ׀", "transliteral": "ḇə-nê-hem", "traducao_palavra": "os filhos delas" },
+        { "hebraico": "יִרְבּ֥וּ", "transliteral": "yir-bû", "traducao_palavra": "crescem" },
+        { "hebraico": "בַבָּ֑ר", "transliteral": "ḇab-bār", "traducao_palavra": "no campo aberto" },
+        { "hebraico": "יָ֝צְא֗וּ", "transliteral": "yā-ṣə-ʾû", "traducao_palavra": "saem" },
+        { "hebraico": "וְלֹא־", "transliteral": "wə-lō-", "traducao_palavra": "e não" },
+        { "hebraico": "שָׁ֥בוּ", "transliteral": "šā-ḇû", "traducao_palavra": "voltam" },
+        { "hebraico": "לָֽמֹו׃", "transliteral": "lā-mô", "traducao_palavra": "para elas" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Quem despediu livre o asno montês, e quem soltou as prisões do asno bravo,",
+      "palavras": [
+        { "hebraico": "מִֽי־", "transliteral": "mî-", "traducao_palavra": "Quem" },
+        { "hebraico": "שִׁלַּ֣ח", "transliteral": "šil-laḥ", "traducao_palavra": "enviou/soltou" },
+        { "hebraico": "פֶּ֣רֶא", "transliteral": "pe-re", "traducao_palavra": "[o] asno montês" },
+        { "hebraico": "חָפְשִׁ֑י", "transliteral": "ḥā-p̄ə-šî", "traducao_palavra": "livre" },
+        { "hebraico": "וּמֹוסְרֹ֥ות", "transliteral": "ū-mō-w-śə-rô-wṯ", "traducao_palavra": "e as cordas de" },
+        { "hebraico": "עָ֝רֹ֗וד", "transliteral": "ʿā-rô-wḏ", "traducao_palavra": "asno bravo" },
+        { "hebraico": "מִ֣י", "transliteral": "mî", "traducao_palavra": "quem" },
+        { "hebraico": "פִתֵּֽחַ׃", "transliteral": "p̄it-tê-aḥ", "traducao_palavra": "abriu/soltou?" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Ao qual dei o ermo por casa, e a terra salgada por morada?",
+      "palavras": [
+        { "hebraico": "אֲשֶׁר־", "transliteral": "ʾă-šer-", "traducao_palavra": "Ao qual" },
+        { "hebraico": "שַׂ֣מְתִּי", "transliteral": "śam-tî", "traducao_palavra": "pus/dei" },
+        { "hebraico": "עֲרָבָ֣ה", "transliteral": "ʿă-rā-ḇā", "traducao_palavra": "[a] planície/ermo" },
+        { "hebraico": "בֵיתֹ֑ו", "transliteral": "bê-ṯô", "traducao_palavra": "[como] sua casa" },
+        { "hebraico": "וּמִשְׁכְּנֹתָ֥יו", "transliteral": "ū-miš-kə-nō-ṯāyw", "traducao_palavra": "e suas moradas" },
+        { "hebraico": "מְלֵחָֽה׃", "transliteral": "mə-lê-ḥā", "traducao_palavra": "[em] terra salgada" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Ele ri-se do estrépito da cidade; não ouve os gritos do condutor.",
+      "palavras": [
+        { "hebraico": "יִ֭שְׂחַק", "transliteral": "yiś-ḥaq", "traducao_palavra": "Ri-se" },
+        { "hebraico": "לַהֲמֹ֣ון", "transliteral": "la-hă-môn", "traducao_palavra": "da multidão/estrépito de" },
+        { "hebraico": "קִרְיָ֑ה", "transliteral": "qir-yā", "traducao_palavra": "cidade" },
+        { "hebraico": "תְּשֻׁאֹ֥ות", "transliteral": "tə-šu-ʾô-wṯ", "traducao_palavra": "[os] gritos de" },
+        { "hebraico": "נֹ֝גֵ֗שׂ", "transliteral": "nō-ḡêś", "traducao_palavra": "condutor/exator" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "יִשְׁמָֽע׃", "transliteral": "yiš-māʿ", "traducao_palavra": "ouve" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "O que busca nos montes é o seu pasto, e anda procurando tudo o que está verde.",
+      "palavras": [
+        { "hebraico": "יְת֣וּר", "transliteral": "yə-ṯûr", "traducao_palavra": "[O que] explora" },
+        { "hebraico": "הָרִ֣ים", "transliteral": "hā-rîm", "traducao_palavra": "[nos] montes" },
+        { "hebraico": "מִרְעֵ֑הוּ", "transliteral": "mir-ʿê-hū", "traducao_palavra": "[é] seu pasto" },
+        { "hebraico": "וְאַחַ֖ר", "transliteral": "wə-ʾa-ḥar", "traducao_palavra": "e atrás de" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "toda" },
+        { "hebraico": "יָרֹ֣וק", "transliteral": "yā-rô-wq", "traducao_palavra": "coisa verde" },
+        { "hebraico": "יִדְרֹֽושׁ׃", "transliteral": "yiḏ-rôš", "traducao_palavra": "ele busca" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Acaso quererá o boi silvestre servir-te, ou ficará o boi silvestre no teu curral?",
+      "palavras": [
+        { "hebraico": "הֲיֹ֣אבֶה", "transliteral": "hă-yō-ʾḇeh", "traducao_palavra": "Acaso quererá" },
+        { "hebraico": "רֵּ֣ים", "transliteral": "rêm", "traducao_palavra": "[o] boi silvestre/unicórnio" },
+        { "hebraico": "עָבְדֶ֑ךָ", "transliteral": "ʿā-ḇə-ḏe-ḵā", "traducao_palavra": "servir-te?" },
+        { "hebraico": "אִם־", "transliteral": "ʾim-", "traducao_palavra": "ou" },
+        { "hebraico": "יָ֝לִ֗ין", "transliteral": "yā-lîn", "traducao_palavra": "pernoitará" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "junto a" },
+        { "hebraico": "אֵבוּסֶֽךָ׃", "transliteral": "ʾê-ḇû-śe-ḵā", "traducao_palavra": "teu curral/manjedoura?" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Acaso podes amarrar o boi silvestre com corda no rego, ou esterroar ele os vales após ti?",
+      "palavras": [
+        { "hebraico": "הֲתִקְשָׁר־", "transliteral": "hă-ṯiq-šār-", "traducao_palavra": "Acaso amarrarás" },
+        { "hebraico": "רֵ֭ים", "transliteral": "rêm", "traducao_palavra": "[o] boi silvestre" },
+        { "hebraico": "בַּעֲבֹ֣ט", "transliteral": "ba-ʿă-ḇōṭ", "traducao_palavra": "com a corda" },
+        { "hebraico": "תַּלְמֹ֑ו", "transliteral": "tal-mô", "traducao_palavra": "[no] seu rego?" },
+        { "hebraico": "אִם־", "transliteral": "ʾim-", "traducao_palavra": "ou" },
+        { "hebraico": "יְשַׂדֵּ֖ד", "transliteral": "yə-śad-dêḏ", "traducao_palavra": "gradeará/esterroará" },
+        { "hebraico": "עֲמָקִ֣ים", "transliteral": "ʿă-mā-qîm", "traducao_palavra": "vales" },
+        { "hebraico": "אַחֲרֶֽיךָ׃", "transliteral": "ʾa-ḥă-rey-ḵā", "traducao_palavra": "atrás de ti?" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Confiarás nele por ser grande a sua força, ou deixarás a seu cargo o teu trabalho?",
+      "palavras": [
+        { "hebraico": "הֲתִבְטַח־", "transliteral": "hă-ṯiḇ-ṭaḥ-", "traducao_palavra": "Acaso confiarás" },
+        { "hebraico": "בֹּ֭ו", "transliteral": "bô", "traducao_palavra": "nele" },
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "רַ֣ב", "transliteral": "raḇ", "traducao_palavra": "[é] grande" },
+        { "hebraico": "כֹּחֹ֑ו", "transliteral": "kō-ḥô", "traducao_palavra": "a força dele?" },
+        { "hebraico": "וְתַעֲזֹ֖ב", "transliteral": "wə-ṯa-ʿă-zōḇ", "traducao_palavra": "ou deixarás" },
+        { "hebraico": "אֵלָ֣יו", "transliteral": "ʾê-lāyw", "traducao_palavra": "para ele" },
+        { "hebraico": "יְגִיעֶֽךָ׃", "transliteral": "yə-ḡî-ʿe-ḵā", "traducao_palavra": "teu trabalho/fadiga?" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Acreditarás nele, que te trará a semente, e a recolherá na tua eira?",
+      "palavras": [
+        { "hebraico": "הֲתַאֲמִ֣ין", "transliteral": "hă-ṯa-ʾă-mîn", "traducao_palavra": "Acaso crerás" },
+        { "hebraico": "בֹּ֗ו", "transliteral": "bô", "traducao_palavra": "nele" },
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "que" },
+        { "hebraico": "יָשִׁ֣יב", "transliteral": "yā-šîḇ", "traducao_palavra": "trará de volta" },
+        { "hebraico": "זַרְעֶ֑ךָ", "transliteral": "zar-ʿe-ḵā", "traducao_palavra": "tua semente" },
+        { "hebraico": "וְֽ֝גָרְנְךָ֗", "transliteral": "wə-ḡār-nə-ḵā", "traducao_palavra": "e na tua eira" },
+        { "hebraico": "יֶאֱסֹֽף׃", "transliteral": "ye-ʾĕ-śōp̄", "traducao_palavra": "ajuntará?" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Batem alegremente as asas das avestruzes, como se fossem as asas e as penas da cegonha.",
+      "palavras": [
+        { "hebraico": "כְּנַף־", "transliteral": "kə-nap̄-", "traducao_palavra": "[A] asa de" },
+        { "hebraico": "רְנָנִ֥ים", "transliteral": "rə-nā-nîm", "traducao_palavra": "avestruzes [que gritam]" },
+        { "hebraico": "נֶעֱלָ֑סָה", "transliteral": "ne-ʿĕ-lā-śā", "traducao_palavra": "bate alegremente" },
+        { "hebraico": "אִם־", "transliteral": "ʾim-", "traducao_palavra": "porventura" },
+        { "hebraico": "אֶבְרָ֥ה", "transliteral": "ʾeḇ-rā", "traducao_palavra": "[as] asas" },
+        { "hebraico": "חֲסִידָ֗ה", "transliteral": "ḥă-śî-ḏā", "traducao_palavra": "[da] cegonha" },
+        { "hebraico": "וְנֹצָֽה׃", "transliteral": "wə-nō-ṣā", "traducao_palavra": "e penas?" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Ela deixa os seus ovos na terra, e os aquece no pó,",
+      "palavras": [
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "Pois" },
+        { "hebraico": "תַעֲזֹ֣ב", "transliteral": "ṯa-ʿă-zōḇ", "traducao_palavra": "deixa" },
+        { "hebraico": "לָאָ֣רֶץ", "transliteral": "lā-ʾā-reṣ", "traducao_palavra": "na terra" },
+        { "hebraico": "בֵּצֶ֑יהָ", "transliteral": "bê-ṣey-hā", "traducao_palavra": "seus ovos" },
+        { "hebraico": "וְעַל־", "transliteral": "wə-ʿal-", "traducao_palavra": "e sobre" },
+        { "hebraico": "עָפָ֥ר", "transliteral": "ʿā-p̄ār", "traducao_palavra": "[o] pó" },
+        { "hebraico": "תְּחַמֵּֽם׃", "transliteral": "tə-ḥam-mêm", "traducao_palavra": "aquece [eles]" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "E se esquece de que algum pé os pode pisar, ou que os animais do campo os podem calcar.",
+      "palavras": [
+        { "hebraico": "וַ֭תִּשְׁכַּח", "transliteral": "wat-tiš-kaḥ", "traducao_palavra": "E esquece-se" },
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "que" },
+        { "hebraico": "רֶ֣גֶל", "transliteral": "re-ḡel", "traducao_palavra": "[um] pé" },
+        { "hebraico": "תְּזוּרֶ֑הָ", "transliteral": "tə-zû-re-hā", "traducao_palavra": "pode esmagá-los" },
+        { "hebraico": "וְחַיַּ֖ת", "transliteral": "wə-ḥay-yaṯ", "traducao_palavra": "e fera de" },
+        { "hebraico": "הַשָּׂדֶ֣ה", "transliteral": "haś-śā-ḏeh", "traducao_palavra": "o campo" },
+        { "hebraico": "תְּדוּשֶֽׁהָ׃", "transliteral": "tə-ḏû-še-hā", "traducao_palavra": "pode pisá-los" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Ela endurece o seu coração para com os seus filhos, como se não fossem seus; em vão é o seu trabalho, mas ela está sem temor,",
+      "palavras": [
+        { "hebraico": "הִקְשִׁ֧יחַ", "transliteral": "hiq-šî-aḥ", "traducao_palavra": "Endurece" },
+        { "hebraico": "בָּנֶ֛יהָ", "transliteral": "bā-ney-hā", "traducao_palavra": "os seus filhos" },
+        { "hebraico": "לְלֹא־", "transliteral": "lə-lō-", "traducao_palavra": "como se não fossem" },
+        { "hebraico": "לָ֑הּ", "transliteral": "lāh", "traducao_palavra": "seus" },
+        { "hebraico": "לְרִ֖יק", "transliteral": "lə-rîq", "traducao_palavra": "em vão" },
+        { "hebraico": "יְגִיעָ֣הּ", "transliteral": "yə-ḡî-ʿāh", "traducao_palavra": "[é] o trabalho dela" },
+        { "hebraico": "בְּלִי־", "transliteral": "bə-lî-", "traducao_palavra": "sem" },
+        { "hebraico": "פָֽחַד׃", "transliteral": "p̄ā-ḥaḏ", "traducao_palavra": "temor" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "Porque Deus a privou de sabedoria, e não lhe repartiu entendimento.",
+      "palavras": [
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "Porque" },
+        { "hebraico": "הִשָּׁ֣הּ", "transliteral": "hiš-šāh", "traducao_palavra": "privou-a" },
+        { "hebraico": "אֱלֹ֣והַּ", "transliteral": "ʾĕ-lô-ah", "traducao_palavra": "Deus" },
+        { "hebraico": "חָכְמָ֑ה", "transliteral": "ḥāḵ-mā", "traducao_palavra": "de sabedoria" },
+        { "hebraico": "וְלֹא־", "transliteral": "wə-lō-", "traducao_palavra": "e não" },
+        { "hebraico": "חָ֥לַק", "transliteral": "ḥā-laq", "traducao_palavra": "repartiu" },
+        { "hebraico": "לָ֝הּ", "transliteral": "lāh", "traducao_palavra": "a ela" },
+        { "hebraico": "בַּבִּינָֽה׃", "transliteral": "bab-bî-nā", "traducao_palavra": "no entendimento" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "A seu tempo se levanta ao alto; ri-se do cavalo, e do que vai montado nele.",
+      "palavras": [
+        { "hebraico": "כָּ֭עֵת", "transliteral": "kā-ʿêṯ", "traducao_palavra": "A seu tempo" },
+        { "hebraico": "בַּמָּרֹ֣ום", "transliteral": "bam-mā-rôm", "traducao_palavra": "no alto" },
+        { "hebraico": "תַּמְרִ֑יא", "transliteral": "tam-rî", "traducao_palavra": "se levanta/bate as asas" },
+        { "hebraico": "תִּשְׂחַ֥ק", "transliteral": "tiś-ḥaq", "traducao_palavra": "ri-se" },
+        { "hebraico": "לַ֝סּ֗וּס", "transliteral": "las-sûs", "traducao_palavra": "do cavalo" },
+        { "hebraico": "וּלְרֹכְבֹֽו׃", "transliteral": "ū-lə-rō-ḵə-ḇô", "traducao_palavra": "e do seu cavaleiro" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "Acaso deste tu força ao cavalo, ou revestiste o seu pescoço de crinas?",
+      "palavras": [
+        { "hebraico": "הֲתִתֵּ֣ן", "transliteral": "hă-ṯit-tên", "traducao_palavra": "Acaso darás tu" },
+        { "hebraico": "לַסּ֣וּס", "transliteral": "las-sûs", "traducao_palavra": "ao cavalo" },
+        { "hebraico": "גְּבוּרָ֑ה", "transliteral": "gə-ḇû-rā", "traducao_palavra": "força" },
+        { "hebraico": "הֲתַלְבִּ֥ישׁ", "transliteral": "hă-ṯal-bîš", "traducao_palavra": "acaso revestirás" },
+        { "hebraico": "צַוָּארֹ֥ו", "transliteral": "ṣaw-wā-rô", "traducao_palavra": "o pescoço dele" },
+        { "hebraico": "רַעְמָֽה׃", "transliteral": "ra-ʿmā", "traducao_palavra": "de crina/trovão" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "Acaso o farás saltar como ao gafanhoto? Terrível é o fogoso respirar das suas ventas.",
+      "palavras": [
+        { "hebraico": "הַֽתַּרְעִישֶׁ֥נּוּ", "transliteral": "hat-tar-ʿî-šen-nū", "traducao_palavra": "Acaso o farás saltar/tremer" },
+        { "hebraico": "כָּאַרְבֶּ֑ה", "transliteral": "kā-ʾar-beh", "traducao_palavra": "como o gafanhoto?" },
+        { "hebraico": "הֹ֥וד", "transliteral": "hôḏ", "traducao_palavra": "A glória/majestade de" },
+        { "hebraico": "נַ֝חְרֹ֗ו", "transliteral": "na-ḥərô", "traducao_palavra": "seu resfolegar" },
+        { "hebraico": "אֵימָֽה׃", "transliteral": "ʾê-mā", "traducao_palavra": "[é] pavor" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "Escarva na terra, e folga na sua força, e sai ao encontro das armas.",
+      "palavras": [
+        { "hebraico": "יַחְפְּר֣וּ", "transliteral": "yaḥ-pə-rû", "traducao_palavra": "Escarvam" },
+        { "hebraico": "בָ֭עֵמֶק", "transliteral": "ḇā-ʿê-meq", "traducao_palavra": "no vale" },
+        { "hebraico": "וְיָשִׂ֣ישׂ", "transliteral": "wə-yā-śîś", "traducao_palavra": "e alegra-se" },
+        { "hebraico": "בְּכֹ֑חַ", "transliteral": "bə-ḵō-aḥ", "traducao_palavra": "na [sua] força" },
+        { "hebraico": "יֵ֝צֵ֗א", "transliteral": "yê-ṣê", "traducao_palavra": "sai" },
+        { "hebraico": "לִקְרַאת־", "transliteral": "liq-raṯ-", "traducao_palavra": "ao encontro de" },
+        { "hebraico": "נָֽשֶׁק׃", "transliteral": "nā-šeq", "traducao_palavra": "armas" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "Ri-se do temor, e não se espanta, e não torna atrás por causa da espada.",
+      "palavras": [
+        { "hebraico": "יִשְׂחַ֣ק", "transliteral": "yiś-ḥaq", "traducao_palavra": "Ri-se" },
+        { "hebraico": "לְ֭פַחַד", "transliteral": "lə-p̄a-ḥaḏ", "traducao_palavra": "do pavor" },
+        { "hebraico": "וְלֹ֣א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "יֵחָ֑ת", "transliteral": "yê-ḥāṯ", "traducao_palavra": "se aterroriza" },
+        { "hebraico": "וְלֹא־", "transliteral": "wə-lō-", "traducao_palavra": "e não" },
+        { "hebraico": "יָ֝שׁוּב", "transliteral": "yā-šûḇ", "traducao_palavra": "volta" },
+        { "hebraico": "מִפְּנֵי־", "transliteral": "mip-pə-nê-", "traducao_palavra": "diante da" },
+        { "hebraico": "חָֽרֶב׃", "transliteral": "ḥā-reḇ", "traducao_palavra": "espada" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "Contra ele range a aljava, a lança flamejante e o dardo.",
+      "palavras": [
+        { "hebraico": "עָ֭לָיו", "transliteral": "ʿā-lāyw", "traducao_palavra": "Sobre ele" },
+        { "hebraico": "תִּרְנֶ֣ה", "transliteral": "tir-neh", "traducao_palavra": "range/soa" },
+        { "hebraico": "אַשְׁפָּ֑ה", "transliteral": "ʾaš-pā", "traducao_palavra": "[a] aljava" },
+        { "hebraico": "לַ֥הַב", "transliteral": "la-haḇ", "traducao_palavra": "[a] chama de" },
+        { "hebraico": "חֲ֝נִית", "transliteral": "ḥă-nîṯ", "traducao_palavra": "lança" },
+        { "hebraico": "וְכִידֹֽון׃", "transliteral": "wə-ḵî-ḏôwn", "traducao_palavra": "e dardo" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "Agitando-se e furioso, ele devora a terra, e não se detém ao som da trombeta.",
+      "palavras": [
+        { "hebraico": "בְּרַ֣עַשׁ", "transliteral": "bə-ra-ʿaš", "traducao_palavra": "Com tremor" },
+        { "hebraico": "וְ֭רֹגֶז", "transliteral": "wə-rō-ḡez", "traducao_palavra": "e furor" },
+        { "hebraico": "יְגַמֶּא־", "transliteral": "yə-ḡam-me-", "traducao_palavra": "ele devora" },
+        { "hebraico": "אָ֑רֶץ", "transliteral": "ʾā-reṣ", "traducao_palavra": "[a] terra" },
+        { "hebraico": "וְלֹא־", "transliteral": "wə-lō-", "traducao_palavra": "e não" },
+        { "hebraico": "יַ֝אֲמִ֗ין", "transliteral": "ya-ʾă-mîn", "traducao_palavra": "fica parado/crê" },
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "quando [há]" },
+        { "hebraico": "קֹ֥ול", "transliteral": "qôl", "traducao_palavra": "[o] som de" },
+        { "hebraico": "שֹׁופָֽר׃", "transliteral": "šô-p̄ār", "traducao_palavra": "trombeta" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "Ao soar da trombeta diz: Eia! E de longe cheira a guerra, o trovão dos príncipes, e o alarido.",
+      "palavras": [
+        { "hebraico": "בְּדֵי֮", "transliteral": "bə-ḏê", "traducao_palavra": "Sempre que [soa]" },
+        { "hebraico": "שֹׁופָ֪ר", "transliteral": "šô-p̄ār", "traducao_palavra": "[a] trombeta" },
+        { "hebraico": "יֹאמַ֨ר ׀", "transliteral": "yō-mar", "traducao_palavra": "diz ele" },
+        { "hebraico": "הֶ֫אָ֥ח", "transliteral": "he-ʾāḥ", "traducao_palavra": "Eia!/Ah!" },
+        { "hebraico": "וּ֝מֵרָחֹ֗וק", "transliteral": "ū-mê-rā-ḥô-wq", "traducao_palavra": "e de longe" },
+        { "hebraico": "יָרִ֥יחַ", "transliteral": "yā-rî-aḥ", "traducao_palavra": "cheira" },
+        { "hebraico": "מִלְחָמָ֑ה", "transliteral": "mil-ḥā-mā", "traducao_palavra": "[a] guerra" },
+        { "hebraico": "רַ֥עַם", "transliteral": "ra-ʿam", "traducao_palavra": "[o] trovão de" },
+        { "hebraico": "שָׂ֝רִ֗ים", "transliteral": "śā-rîm", "traducao_palavra": "príncipes" },
+        { "hebraico": "וּתְרוּעָֽה׃", "transliteral": "ū-ṯə-rû-ʿā", "traducao_palavra": "e o alarido" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "Porventura voa o gavião pela tua inteligência, estendendo as suas asas para o sul?",
+      "palavras": [
+        { "hebraico": "הֲמִבִּֽינָתְךָ֭", "transliteral": "hă-mib-bî-nā-ṯə-ḵā", "traducao_palavra": "Acaso pela tua inteligência" },
+        { "hebraico": "יַֽאֲבֶר־", "transliteral": "ya-ʾă-ḇer-", "traducao_palavra": "voa/empluma" },
+        { "hebraico": "נֵ֑ץ", "transliteral": "nêṣ", "traducao_palavra": "[o] gavião" },
+        { "hebraico": "יִפְרֹ֨שׂ", "transliteral": "yip̄-rōś", "traducao_palavra": "[e] estende" },
+        { "hebraico": "כְּנָפָ֝ו", "transliteral": "kə-nā-p̄āw", "traducao_palavra": "suas asas" },
+        { "hebraico": "לְתֵימָֽן׃", "transliteral": "lə-ṯê-mān", "traducao_palavra": "para o sul?" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "Ou se remonta a águia ao teu mandado, e põe no alto o seu ninho?",
+      "palavras": [
+        { "hebraico": "אִם־", "transliteral": "ʾim-", "traducao_palavra": "Acaso" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sob" },
+        { "hebraico": "פִּ֭יךָ", "transliteral": "pî-ḵā", "traducao_palavra": "tua ordem/boca" },
+        { "hebraico": "יַגְבִּ֣יהַּ", "transliteral": "yaḡ-bî-ah", "traducao_palavra": "se eleva" },
+        { "hebraico": "נָ֑שֶׁר", "transliteral": "nā-šer", "traducao_palavra": "[a] águia" },
+        { "hebraico": "וְ֝כִ֗י", "transliteral": "wə-ḵî", "traducao_palavra": "e [porque]" },
+        { "hebraico": "יָרִ֥ים", "transliteral": "yā-rîm", "traducao_palavra": "põe no alto" },
+        { "hebraico": "קִנֹּֽו׃", "transliteral": "qin-nô", "traducao_palavra": "seu ninho?" }
+      ]
+    },
+    "28": {
+      "traducao_completa": "Nas rochas habita e pernoita; no cume do penhasco, e em lugar seguro.",
+      "palavras": [
+        { "hebraico": "סֶ֣לַע", "transliteral": "śe-laʿ", "traducao_palavra": "[Na] rocha" },
+        { "hebraico": "יִ֭שְׁכֹּן", "transliteral": "yiš-kōn", "traducao_palavra": "habita" },
+        { "hebraico": "וְיִתְלֹנָ֑ן", "transliteral": "wə-yiṯ-lō-nān", "traducao_palavra": "e pernoita" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre" },
+        { "hebraico": "שֶׁן־", "transliteral": "šen-", "traducao_palavra": "[o] dente de/cume de" },
+        { "hebraico": "סֶ֝֗לַע", "transliteral": "śe-laʿ", "traducao_palavra": "rocha" },
+        { "hebraico": "וּמְצוּדָֽה׃", "transliteral": "ū-mə-ṣû-ḏā", "traducao_palavra": "e fortaleza/lugar seguro" }
+      ]
+    },
+    "29": {
+      "traducao_completa": "Dali descobre a presa; de longe a avistam os seus olhos.",
+      "palavras": [
+        { "hebraico": "מִשָּׁ֥ם", "transliteral": "miš-šām", "traducao_palavra": "Dali" },
+        { "hebraico": "חָֽפַר־", "transliteral": "ḥā-p̄ar-", "traducao_palavra": "espreita/cava" },
+        { "hebraico": "אָ֑כֶל", "transliteral": "ʾō-ḵel", "traducao_palavra": "[a] comida/presa" },
+        { "hebraico": "לְ֝מֵרָחֹ֗וק", "transliteral": "lə-mê-rā-ḥô-wq", "traducao_palavra": "de longe" },
+        { "hebraico": "עֵינָ֥יו", "transliteral": "ʿê-nāyw", "traducao_palavra": "seus olhos" },
+        { "hebraico": "יַבִּֽיטוּ׃", "transliteral": "yab-bî-ṭû", "traducao_palavra": "avistam" }
+      ]
+    },
+    "30": {
+      "traducao_completa": "Seus filhos sugam o sangue; e onde há mortos, ali está ela.",
+      "palavras": [
+        { "hebraico": "וְאֶפְרֹוחָ֥יו", "transliteral": "wə-ʾep̄-rō-ḥāyw", "traducao_palavra": "E seus filhotes" },
+        { "hebraico": "יְעַלְעוּ־", "transliteral": "yə-al-ʿû-", "traducao_palavra": "sugam/bebem" },
+        { "hebraico": "דָ֑ם", "transliteral": "ḏām", "traducao_palavra": "sangue" },
+        { "hebraico": "וּבַאֲשֶׁ֥ר", "transliteral": "ū-ḇa-ʾă-šer", "traducao_palavra": "e onde" },
+        { "hebraico": "חֲ֝לָלִ֗ים", "transliteral": "ḥă-lā-lîm", "traducao_palavra": "[há] mortos" },
+        { "hebraico": "שָׁ֣ם", "transliteral": "šām", "traducao_palavra": "ali" },
+        { "hebraico": "הֽוּא׃", "transliteral": "hû", "traducao_palavra": "está ela" }
+      ]
+    }
+  }
 }

@@ -1,6 +1,241 @@
 {
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+  "livro": "Salmos - תְּהִלִּים - Tehillim",
   "capítulo": 49,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Ao mestre de canto. Dos filhos de Corá. Salmo.",
+      "palavras": [
+        { "hebraico": "לַמְנַצֵּ֥חַ", "transliteral": "lam-naṣ-ṣē-aḥ", "traducao_palavra": "ao mestre de canto" },
+        { "hebraico": "לִבְנֵי־קֹ֬רַח", "transliteral": "liḇ-nê-qō-raḥ", "traducao_palavra": "para os filhos de Corá" },
+        { "hebraico": "מִזְמֹֽור׃", "transliteral": "miz-môr", "traducao_palavra": "salmo" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Ouvi isto, todos os povos; inclinai os ouvidos, todos os moradores do mundo;",
+      "palavras": [
+        { "hebraico": "שִׁמְעוּ־זֹ֭את", "transliteral": "šim-ʿû-zōṯ", "traducao_palavra": "ouvi isto" },
+        { "hebraico": "כָּל־הָעַמִּ֑ים", "transliteral": "kāl-hā-ʿam-mîm", "traducao_palavra": "todos os povos" },
+        { "hebraico": "הַ֝אֲזִ֗ינוּ", "transliteral": "ha-ʾă-zî-nû", "traducao_palavra": "inclinai os ouvidos" },
+        { "hebraico": "כָּל־יֹ֥שְׁבֵי", "transliteral": "kāl-yō-šə-ḇê", "traducao_palavra": "todos os moradores de" },
+        { "hebraico": "חָֽלֶד׃", "transliteral": "ḥā-leḏ", "traducao_palavra": "mundo/tempo" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Tanto os de humilde condição como os de alta linhagem, ricos e pobres juntamente.",
+      "palavras": [
+        { "hebraico": "גַּם־בְּנֵ֥י", "transliteral": "gam-bə-nê", "traducao_palavra": "também filhos de" },
+        { "hebraico": "אָדָ֗ם", "transliteral": "ʾā-ḏām", "traducao_palavra": "homem/baixo grau" },
+        { "hebraico": "גַּם־בְּנֵי־אִ֥ישׁ", "transliteral": "gam-bə-nê-ʾîš", "traducao_palavra": "também filhos de homem/alto grau" },
+        { "hebraico": "יַ֝֗חַד", "transliteral": "ya-ḥaḏ", "traducao_palavra": "juntamente" },
+        { "hebraico": "עָשִׁ֥יר", "transliteral": "ʿā-šîr", "traducao_palavra": "rico" },
+        { "hebraico": "וְאֶבְיֹֽון׃", "transliteral": "wə-ʾeḇ-yôn", "traducao_palavra": "e pobre" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "A minha boca falará sabedoria, e a meditação do meu coração será de entendimento.",
+      "palavras": [
+        { "hebraico": "פִּ֭י", "transliteral": "pî", "traducao_palavra": "minha boca" },
+        { "hebraico": "יְדַבֵּ֣ר", "transliteral": "yə-ḏab-bēr", "traducao_palavra": "falará" },
+        { "hebraico": "חָכְמֹ֑ות", "transliteral": "ḥāḵ-môṯ", "traducao_palavra": "sabedoria" },
+        { "hebraico": "וְהָג֖וּת", "transliteral": "wə-hā-ḡûṯ", "traducao_palavra": "e a meditação de" },
+        { "hebraico": "לִבִּ֣י", "transliteral": "lib-bî", "traducao_palavra": "meu coração" },
+        { "hebraico": "תְבוּנֹֽות׃", "transliteral": "ṯə-ḇû-nôṯ", "traducao_palavra": "entendimento" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Inclinarei o meu ouvido a uma parábola; declararei o meu enigma ao som da harpa.",
+      "palavras": [
+        { "hebraico": "אַטֶּ֣ה", "transliteral": "ʾaṭ-ṭeh", "traducao_palavra": "inclinarei" },
+        { "hebraico": "לְמָשָׁ֣ל", "transliteral": "lə-mā-šāl", "traducao_palavra": "a uma parábola" },
+        { "hebraico": "אָזְנִ֑י", "transliteral": "ʾāz-nî", "traducao_palavra": "meu ouvido" },
+        { "hebraico": "אֶפְתַּ֥ח", "transliteral": "ʾep̄-taḥ", "traducao_palavra": "abrirei/declararei" },
+        { "hebraico": "בְּ֝כִנֹּ֗ור", "transliteral": "bə-ḵin-nôr", "traducao_palavra": "com harpa" },
+        { "hebraico": "חִידָתִֽי׃", "transliteral": "ḥî-ḏā-ṯî", "traducao_palavra": "meu enigma" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Por que temeria eu nos dias do mal, quando me cercar a iniquidade dos que me perseguem?",
+      "palavras": [
+        { "hebraico": "לָ֣מָּה", "transliteral": "lām-mā", "traducao_palavra": "por que" },
+        { "hebraico": "אִ֭ירָא", "transliteral": "ʾî-rā", "traducao_palavra": "temeria" },
+        { "hebraico": "בִּ֣ימֵי", "transliteral": "bî-mê", "traducao_palavra": "nos dias de" },
+        { "hebraico": "רָ֑ע", "transliteral": "rāʿ", "traducao_palavra": "mal" },
+        { "hebraico": "עֲוֹ֖ן", "transliteral": "ʿă-wōn", "traducao_palavra": "[quando] a iniquidade de" },
+        { "hebraico": "עֲקֵבַ֣י", "transliteral": "ʿă-qē-ḇay", "traducao_palavra": "meus calcanhares/perseguidores" },
+        { "hebraico": "יְסוּבֵּֽנִי׃", "transliteral": "yə-śûb-bē-nî", "traducao_palavra": "me cercar" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Aqueles que confiam na sua fazenda, e se gloriam na multidão das suas riquezas,",
+      "palavras": [
+        { "hebraico": "הַבֹּטְחִ֥ים", "transliteral": "hab-bō-ṭə-ḥîm", "traducao_palavra": "os que confiam" },
+        { "hebraico": "עַל־חֵילָ֑ם", "transliteral": "ʿal-ḥê-lām", "traducao_palavra": "em sua riqueza/bens" },
+        { "hebraico": "וּבְרֹ֥ב", "transliteral": "ū-ḇə-rōḇ", "traducao_palavra": "e na multidão de" },
+        { "hebraico": "עָ֝שְׁרָ֗ם", "transliteral": "āš-rām", "traducao_palavra": "sua riqueza" },
+        { "hebraico": "יִתְהַלָּֽלוּ׃", "transliteral": "yiṯ-hal-lā-lû", "traducao_palavra": "se gloriam" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Nenhum deles de modo algum pode remir a seu irmão, nem dar a Deus o resgate dele",
+      "palavras": [
+        { "hebraico": "אָ֗ח", "transliteral": "ʾāḥ", "traducao_palavra": "irmão" },
+        { "hebraico": "לֹא־פָדֹ֪ה", "transliteral": "lō-p̄ā-ḏōh", "traducao_palavra": "não remindo" },
+        { "hebraico": "יִפְדֶּ֫ה", "transliteral": "yip̄-deh", "traducao_palavra": "remirá" },
+        { "hebraico": "אִ֥ישׁ", "transliteral": "ʾîš", "traducao_palavra": "[um] homem" },
+        { "hebraico": "לֹא־יִתֵּ֖ן", "transliteral": "lō-yit-tên", "traducao_palavra": "não dará" },
+        { "hebraico": "לֵאלֹהִ֣ים", "transliteral": "lê-lō-hîm", "traducao_palavra": "a Deus" },
+        { "hebraico": "כָּפְרֹֽו׃", "transliteral": "kā-p̄ə-rô", "traducao_palavra": "o seu resgate" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "(Pois a redenção da sua alma é caríssima, e cessará para sempre),",
+      "palavras": [
+        { "hebraico": "וְ֭יֵקַר", "transliteral": "wə-yē-qar", "traducao_palavra": "e é custosa/cara" },
+        { "hebraico": "פִּדְיֹ֥ון", "transliteral": "piḏ-yôn", "traducao_palavra": "[a] redenção de" },
+        { "hebraico": "נַפְשָׁ֑ם", "transliteral": "nap̄-šām", "traducao_palavra": "alma deles" },
+        { "hebraico": "וְחָדַ֥ל", "transliteral": "wə-ḥā-ḏal", "traducao_palavra": "e cessará" },
+        { "hebraico": "לְעֹולָֽם׃", "transliteral": "lə-ʿô-lām", "traducao_palavra": "para sempre" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Para que continue a viver perpetuamente, e não veja a corrupção.",
+      "palavras": [
+        { "hebraico": "וִֽיחִי־עֹ֥וד", "transliteral": "wî-ḥî-ʿôḏ", "traducao_palavra": "e que viva ainda" },
+        { "hebraico": "לָנֶ֑צַח", "transliteral": "lā-ne-ṣaḥ", "traducao_palavra": "para sempre" },
+        { "hebraico": "לֹ֖א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "יִרְאֶ֣ה", "transliteral": "yir-ʾeh", "traducao_palavra": "veja" },
+        { "hebraico": "הַשָּֽׁחַת׃", "transliteral": "haš-šā-ḥaṯ", "traducao_palavra": "a cova/corrupção" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Porque ele vê que os sábios morrem; perecem igualmente o louco e o ignorante, e deixam a outros as suas riquezas.",
+      "palavras": [
+        { "hebraico": "כִּ֤י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "יִרְאֶ֨ה ׀", "transliteral": "yir-ʾeh", "traducao_palavra": "ele vê [que]" },
+        { "hebraico": "חֲכָמִ֣ים", "transliteral": "ḥă-ḵā-mîm", "traducao_palavra": "sábios" },
+        { "hebraico": "יָ֫מ֥וּתוּ", "transliteral": "yā-mû-ṯû", "traducao_palavra": "morrem" },
+        { "hebraico": "יַחַד", "transliteral": "ya-ḥaḏ", "traducao_palavra": "juntamente" },
+        { "hebraico": "כְּסִ֖יל", "transliteral": "kə-śîl", "traducao_palavra": "[o] louco" },
+        { "hebraico": "וָבַ֣עַר", "transliteral": "wā-ḇa-ʿar", "traducao_palavra": "e o ignorante" },
+        { "hebraico": "יֹאבֵ֑דוּ", "transliteral": "yō-ḇê-ḏû", "traducao_palavra": "perecem" },
+        { "hebraico": "וְעָזְב֖וּ", "transliteral": "wə-ʿā-zə-ḇû", "traducao_palavra": "e deixam" },
+        { "hebraico": "לַאֲחֵרִ֣ים", "transliteral": "la-ʾă-ḥē-rîm", "traducao_palavra": "para outros" },
+        { "hebraico": "חֵילָֽם׃", "transliteral": "ḥê-lām", "traducao_palavra": "suas riquezas" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Todavia, o homem não permanece em sua honra; é semelhante aos animais que perecem.",
+      "palavras": [
+        { "hebraico": "וְאָדָ֣ם", "transliteral": "wə-ʾā-ḏām", "traducao_palavra": "mas o homem" },
+        { "hebraico": "בִּ֭יקָר", "transliteral": "bî-qār", "traducao_palavra": "em honra/preciosidade" },
+        { "hebraico": "בַּל־יָלִ֑ין", "transliteral": "bal-yā-lîn", "traducao_palavra": "não pernoitará/permanecerá" },
+        { "hebraico": "נִמְשַׁ֖ל", "transliteral": "nim-šal", "traducao_palavra": "assemelha-se" },
+        { "hebraico": "כַּבְּהֵמֹ֣ות", "transliteral": "kab-bə-hē-môṯ", "traducao_palavra": "como os animais" },
+        { "hebraico": "נִדְמֽוּ׃", "transliteral": "niḏ-mû", "traducao_palavra": "[que] perecem/são destruídos" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Este caminho deles é a sua loucura; contudo, os seus sucessores se agradam em suas palavras. (Selah)",
+      "palavras": [
+        { "hebraico": "זֶ֣ה", "transliteral": "zeh", "traducao_palavra": "este" },
+        { "hebraico": "דַ֭רְכָּם", "transliteral": "dar-kām", "traducao_palavra": "caminho deles" },
+        { "hebraico": "כֵּ֣סֶל", "transliteral": "kē-śel", "traducao_palavra": "[é] loucura/estultícia" },
+        { "hebraico": "לָ֑מֹו", "transliteral": "lā-mô", "traducao_palavra": "para eles" },
+        { "hebraico": "וְאַחֲרֵיהֶ֖ם", "transliteral": "wə-ʾa-ḥă-rê-hem", "traducao_palavra": "e os que vêm depois deles" },
+        { "hebraico": "בְּפִיהֶ֥ם", "transliteral": "bə-p̄î-hem", "traducao_palavra": "em sua boca" },
+        { "hebraico": "יִרְצֽוּ", "transliteral": "yir-ṣû", "traducao_palavra": "se agradam" },
+        { "hebraico": "סֶֽלָה׃", "transliteral": "se-lā", "traducao_palavra": "Selah" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Como ovelhas são postos no Sheol; a morte os pastoreará; os retos terão domínio sobre eles pela manhã; e a sua formosura se consumirá no Sheol, longe das suas habitações.",
+      "palavras": [
+        { "hebraico": "כַּצֹּ֤אן ׀", "transliteral": "kaṣ-ṣōn", "traducao_palavra": "como ovelhas" },
+        { "hebraico": "לִשְׁאֹ֬ול", "transliteral": "liš-ʾôl", "traducao_palavra": "para o Sheol" },
+        { "hebraico": "שַׁתּוּ", "transliteral": "šat-tû", "traducao_palavra": "foram postos" },
+        { "hebraico": "מָ֪וֶת", "transliteral": "mā-weṯ", "traducao_palavra": "[a] morte" },
+        { "hebraico": "יִ֫רְעֵ֥ם", "transliteral": "yir-ʿēm", "traducao_palavra": "os pastoreará" },
+        { "hebraico": "וַיִּרְדּ֘וּ", "transliteral": "way-yir-dû", "traducao_palavra": "e dominarão" },
+        { "hebraico": "בָ֤ם", "transliteral": "ḇām", "traducao_palavra": "neles" },
+        { "hebraico": "יְשָׁרִ֨ים ׀", "transliteral": "yə-šā-rîm", "traducao_palavra": "[os] retos" },
+        { "hebraico": "לַבֹּ֗קֶer", "transliteral": "lab-bō-qer", "traducao_palavra": "pela manhã" },
+        { "hebraico": "וְ֭צוּרָם", "transliteral": "wə-ṣû-rām", "traducao_palavra": "e a forma/imagem deles" },
+        { "hebraico": "לְבַלֹּ֥ות", "transliteral": "lə-ḇal-lôṯ", "traducao_palavra": "para consumir-se" },
+        { "hebraico": "שְׁאֹ֗ול", "transliteral": "šə-ʾôl", "traducao_palavra": "[no] Sheol" },
+        { "hebraico": "מִזְבֻ֥ל", "transliteral": "miz-bul", "traducao_palavra": "longe da morada" },
+        { "hebraico": "לֹֽו׃", "transliteral": "lô", "traducao_palavra": "dele" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "Mas Deus redimirá a minha alma do poder do Sheol, pois me receberá. (Selah)",
+      "palavras": [
+        { "hebraico": "אַךְ־אֱלֹהִ֗ים", "transliteral": "ʾaḵ-ʾĕ-lō-hîm", "traducao_palavra": "certamente Deus" },
+        { "hebraico": "יִפְדֶּ֣ה", "transliteral": "yip̄-deh", "traducao_palavra": "redimirá" },
+        { "hebraico": "נַ֭פְשִׁי", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma" },
+        { "hebraico": "מִֽיַּד־שְׁאֹ֑ול", "transliteral": "miy-yaḏ-šə-ʾôl", "traducao_palavra": "da mão/poder do Sheol" },
+        { "hebraico": "כִּ֖י", "transliteral": "kî", "traducao_palavra": "pois" },
+        { "hebraico": "יִקָּחֵ֣נִי", "transliteral": "yiq-qā-ḥê-nî", "traducao_palavra": "ele me tomará/receberá" },
+        { "hebraico": "סֶֽלָה׃", "transliteral": "se-lā", "traducao_palavra": "Selah" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Não temas, quando alguém se enriquece, quando a glória da sua casa se multiplica.",
+      "palavras": [
+        { "hebraico": "אַל־תִּ֭ירָא", "transliteral": "ʾal-tî-rā", "traducao_palavra": "não temas" },
+        { "hebraico": "כִּֽי־יַעֲשִׁ֣ר", "transliteral": "kî-ya-ʿă-šîr", "traducao_palavra": "quando se tornar rico" },
+        { "hebraico": "אִ֑ישׁ", "transliteral": "ʾîš", "traducao_palavra": "um homem" },
+        { "hebraico": "כִּֽי־יִ֝רְבֶּה", "transliteral": "kî-yir-beh", "traducao_palavra": "quando aumentar/multiplicar" },
+        { "hebraico": "כְּבֹ֥וד", "transliteral": "kə-ḇôḏ", "traducao_palavra": "[a] glória de" },
+        { "hebraico": "בֵּיתֹֽו׃", "transliteral": "bê-ṯô", "traducao_palavra": "sua casa" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "Porque, quando morrer, nada levará consigo, nem a sua glória o acompanhará.",
+      "palavras": [
+        { "hebraico": "כִּ֤י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "בְ֭מֹותֹו", "transliteral": "ḇə-mô-ṯô", "traducao_palavra": "na sua morte" },
+        { "hebraico": "יִקַּ֣ח", "transliteral": "yiq-qaḥ", "traducao_palavra": "levará/tomará" },
+        { "hebraico": "הַכֹּ֑ל", "transliteral": "hak-kōl", "traducao_palavra": "o todo/nada" },
+        { "hebraico": "לֹא־יֵרֵ֖ד", "transliteral": "lō-yē-rēḏ", "traducao_palavra": "não descerá" },
+        { "hebraico": "אַחֲרָ֣יו", "transliteral": "ʾa-ḥă-rāw", "traducao_palavra": "atrás dele" },
+        { "hebraico": "כְּḇֹ֝ודֹו׃", "transliteral": "kə-ḇô-ḏô", "traducao_palavra": "sua glória" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "Ainda que na sua vida ele bendiga a sua alma; e os homens te louvem, quando fazes bem a ti mesmo,",
+      "palavras": [
+        { "hebraico": "כִּֽי־נַ֭פְשֹׁו", "transliteral": "kî-nap̄-šô", "traducao_palavra": "embora sua alma" },
+        { "hebraico": "בְּחַיָּ֣יו", "transliteral": "bə-ḥay-yāw", "traducao_palavra": "em sua vida" },
+        { "hebraico": "יְḇָרֵ֑ךְ", "transliteral": "yə-ḇā-rēḵ", "traducao_palavra": "ele bendiga" },
+        { "hebraico": "וְ֝יֹודֻ֗ךָ", "transliteral": "wə-yô-ḏu-ḵā", "traducao_palavra": "e te louvem" },
+        { "hebraico": "כִּי־תֵיטִ֥יב", "transliteral": "kî-ṯê-ṭîḇ", "traducao_palavra": "quando fazes bem" },
+        { "hebraico": "לָֽךְ׃", "transliteral": "lāḵ", "traducao_palavra": "a ti mesmo" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "Irá para a geração de seus pais; eles nunca verão a luz.",
+      "palavras": [
+        { "hebraico": "תָּ֭בֹוא", "transliteral": "tā-ḇô", "traducao_palavra": "ela irá [a alma]" },
+        { "hebraico": "עַד־דֹּ֣ור", "transliteral": "ʿaḏ-dôr", "traducao_palavra": "até a geração de" },
+        { "hebraico": "אֲבֹותָ֑יו", "transliteral": "ʾă-ḇô-ṯāw", "traducao_palavra": "seus pais" },
+        { "hebraico": "עַד־נֵ֝צַח", "transliteral": "ʿaḏ-ne-ṣaḥ", "traducao_palavra": "para sempre" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "יִרְאוּ־אֹֽור׃", "transliteral": "yir-ʾû-ʾôr", "traducao_palavra": "verão a luz" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "O homem que está em honra, e não entende, é semelhante aos animais que perecem.",
+      "palavras": [
+        { "hebraico": "אָדָ֣ם", "transliteral": "ʾā-ḏām", "traducao_palavra": "homem" },
+        { "hebraico": "בִּ֭יקָר", "transliteral": "bî-qār", "traducao_palavra": "em honra" },
+        { "hebraico": "וְלֹ֣א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "יָבִ֑ין", "transliteral": "yā-ḇîn", "traducao_palavra": "entende/discerna" },
+        { "hebraico": "נִמְשַׁ֖ל", "transliteral": "nim-šal", "traducao_palavra": "assemelha-se" },
+        { "hebraico": "כַּבְּהֵמֹ֣ות", "transliteral": "kab-bə-hē-môṯ", "traducao_palavra": "como os animais" },
+        { "hebraico": "נִדְמֽוּ׃", "transliteral": "niḏ-mû", "traducao_palavra": "[que] perecem" }
+      ]
+    }
+  }
 }

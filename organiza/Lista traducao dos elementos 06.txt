@@ -1,0 +1,324 @@
+
+OBS.: não tem a class .conteudo (script/original.js, script/kjv.js, , script/naa.js, script/ntlh.js, script/nvi.js, script/nvt.js)
+
+verificar variáveis e funç~es elacioada na marca dagua = 
+marcadagua ( . => classe )  => marcaDagua => script/sobre.js e no maradagua.js
+
+
+# → ID.
+. → classe.
+
+LISTA DOS ARQUIVOS (index.html, Style.css e script.js):
+
+* subirImg (variavel) => subirImagem => script.js
+* criarelementodesenho (função) => criarElementoVersao => script.js
+* titleAnime (chave do ojeto) => tituloVersao => script.js
+* versoesBiblia (constante/array) => script.js
+* tituloDesenho (chave do objeto) => tituloVersao => script.js
+* img (chave do objeto) => não alterado => script.js
+* exibirTodasVersoes (função) => script.js
+* lista ( # => ID ) => index.html, script.js, style.css (como seletor .lista-versoes)
+* desenho (parâmetro de função) => versao => script.js
+* nomeDesenho (variável) => tituloVersao => script.js
+* imgDesenho (variável) => imagemVersao => script.js
+* codigoVersao (variável) => script.js
+* tituloMinusculo (variável) => script.js
+* urlDestino (variável) => script.js
+* botaoArquivoReal (constante) => script.js
+* botaoPersonalizado (constante) => script.js
+* previsualizacaoImagem (constante) => script.js
+* leitorArquivo (variável local) => script.js
+* abreBotaoPopup (constante) => script.js
+* fechaBotaoPopup (constante) => script.js
+* fechaBotaoBoasVindas (constante) => script.js
+* botaoSalvar (constante) => script.js
+* abrirPopup (função) => script.js, index.html
+* fecharPopup (função) => script.js, index.html
+* popupBoasVindas (constante) => script.js
+* fecharSejaBemVindo (função) => script.js, index.html
+* salvarVersao (função) => script.js, index.html
+* entradaTitulo (constante) => script.js
+* cabecalho ( . => classe )  => index.html, style.css
+* material-icons ( . => classe )  => index.html, style.css
+* abrir-popup ( . => classe )  => index.html, style.css, script.js (como seletor)
+* lista-versoes ( . => classe )  => index.html, style.css
+* seja-bem-vindo ( . => classe )  => index.html, style.css, script.js (como seletor)
+* ativo ( . => classe )  => index.html, style.css, script.js (como seletor)
+* fechar-seja-bem-vindo ( . => classe )  => index.html, style.css, script.js (como seletor)
+* popup-nova-versao ( . => classe )  => index.html, style.css, script.js (como seletor)
+* fechar-popup ( . => classe )  => index.html, style.css, script.js (como seletor)
+* arquivo-imagem ( # => ID ) => index.html, script.js
+* imagem-previsualizacao ( . => classe )  => index.html, style.css, script.js (como seletor)
+* previsualizacao-imagem ( # => ID ) => index.html, script.js
+* novo-botao-imagem ( # => ID ) => index.html, script.js
+* botao-imagem ( . => classe )  => index.html, style.css, script.js (como seletor)
+* novo-titulo-biblia ( # => ID ) => index.html, script.js
+* titulo-nova-biblia ( . => classe )  => index.html, style.css, script.js (como seletor)
+* salvar-versao ( . => classe )  => index.html, style.css, script.js (como seletor)
+* gradiente ( . => classe )  => index.html, style.css
+
+
+-------------------------------X-------------------------------
+
+# Lista Organizada de Elementos
+
+*activeCapitulo (Variável global) => script/versoes-capitulos.js, script/versoes-interface.js, script/versoes-modo-leitura.js, script/versoes.js, script/biblia-navegacao.js, script/slide-biblia-coordenador.js
+*activeLivro (Variável global) => script/versoes-capitulos.js, script/versoes-interface.js, script/versoes-modo-leitura.js, script/versoes.js, script/biblia-navegacao.js, script/slide-biblia-coordenador.js
+*activeVersiculoButton (Variável global) => script/versoes-capitulos.js, script/versoes-modo-leitura.js, script/biblia-navegacao.js, script/slide-biblia-coordenador.js
+*abrirJanelaSlide (Função global) => script/slide-biblia-coordenador.js, script/slide-biblia-janela.js
+*acoes (Constante) => script/versoes-navegacao-modo-leitura.js
+*areaConteudo (Constante) => versoes-capitulos.js
+*areaConteudoLeitura (Constante) => script/versoes-modo-leitura.js
+*ArrowLeft (Chave do objeto) => script/versoes-navegacao-modo-leitura.js
+*ArrowRight (Chave do objeto) => script/versoes-navegacao-modo-leitura.js
+*atualizarTitulo (Método) => script/versoes-interface.js
+*atualizaBotoesCapitulos (Função global) => script/versoes-capitulos.js, script/versoes.js, script/versoes-modo-leitura.js, script/biblia-navegacao.js
+*barraPesquisa (Classe .) => barra-pesquisa => html/versoes.html, css/versoes.css, script/versoes.js (Uso em seletores document.querySelector)
+*botao (Variável) => script/versoes-capitulos.js, script/versoes-navegacao-modoleitura.js, script/versoes-modo-leitura.js
+*botao-capitulo-dinamico (Classe .) => script/versoes-capitulos.js
+*botaoBuscar (Constante) => script/versoes-realizabusca.js, script/versoes.js
+*botaoFechar (Constante) => script/versoes.js
+*botaoModoLeitura (Propriedade) => script/versoes-interface.js
+*botaoVersiculo (Constante) => script/versoes.js
+*cabecalho-inferior (Classe .) => css/versoes.css, html/versoes.html
+*cabecalho-superior (Classe .) => css/versoes.css, html/versoes.html
+*cache (Constante) => script/versoes-cache.js
+*cacheCapítulos (Função global) => cacheCapitulos => script/versoes-cache.js
+*cacheCapítulo (Função global) => cacheCapitulo => script/versoes-modo-leitura.js, script/versoes-navegacao.js, script/versoes-cache.js
+*cacheKey (Constante) => chaveCache => script/versoes-realiza-busca.js
+*candidatos (Variável) => script/versoes-realiza-busca.js
+*cap (Variável) => script/slide-biblia-coordenador.js
+*capituloClicado (Variável) => script/versoes-capitulos.js
+*capituloDestino (Variável) => script/versoes-navegacao-modo-leitura.js
+*carregaScriptAssincrono (Função) => script/versoes.js
+*carregarCapituloModoLeitura (Função global) => script/versoes-modo-leitura.js, script/versoes-capitulos.js, script/versoes-navegacao-modo-leitura.js, script/biblia-navegacao.js
+*carregarConteudoEWatermark (Função global) => carregarConteudoMarcaDagua => script/versoes-capitulos.js
+*carregarDeIndexedDB (Função) => carregarIndexedDB => script/versoes-realiza-busca.js
+*carregarEConstruirIndice (Função) => carregarConstruirIndice => script/versoes-realizabusca.js, script/versoes.js 
+*carregarLivro (Função global) =>  script/versoes-interface.js
+*carregarPreferencias (Função global) => script/versoes-cache.js
+*carregarVersiculo (Método) =>  script/versoes-versiculos.js
+*chave (Variável) => script/versoes-cache.js
+*chaveStorage (Variável) => chaveArmazenamento => script/versoes-cache.js
+*CHAVES_LOCAL_STORAGE (Constante) => CHAVES_ARMAZENAMENTO_LOCAL => sript/versoes-cache.js
+*combinarEstrategiasBusca (Função) => script/versoes-realiza-busca.js
+*configurarBotaoNavegacao (Função) => script/versoes-navegacao-modo-leitura.js
+*configurarEventos (Método) =>  scrit/versoes-interface.js
+*configurarListenersNavegacao (Função global) => script/versoes-navegacao-modo-leitura.js, script/versoes-modo-leitura.js
+
+*container (Variável) => Não alterado => versoes-versiculos.js
+*containerCapitulos (Variável) => conteinerCapitulos => versoes-capitulos.js
+
+*containerLeitura (Variável) => Não alterado => versoes-modoleitura.js
+
+*containersBotoesCapitulosExistentes (Constante) => Não alterado => versoes-capitulos.js
+
+*conteudo (Classe .) => Não alterado => css/versoes.css, html/versoes.html, versoes-capitulos.js, versoes-versiculos.js, versoes-modo-leitura.js, biblia-navegacao.js, acf.js, ara.js
+*conteudo::-webkit-scrollbar (Seletor) => Não alterado => css/versoes.css
+*conteudo::-webkit-scrollbar-thumb (Seletor) => Não alterado => css/versoes.css
+*conteudo::-webkit-scrollbar-track (Seletor) => Não alterado => css/versoes.css
+*conteudo-dropdown (Classe .) => conteudo-menu-suspenso => css/versoes.css, html/versoes.html, script/dropdown.js
+*conteudo-versiculos (Classe .) => Não alterado => versoes-versiculos.js (Uso)
+*contagem (Variável) => Não alterado => original.js
+*contagemVersiculosPorVersao (Variável global) => Não alterado => slide-biblia-coordenador.js (Uso)
+*content (Constante) => conteudo => original.js (Uso)
+*criarListaVersoes (Método) => Não alterado => versoes-interface.js
+*dados (Variável) => Não alterado => versoes-versiculos.js
+*dadosCapitulo (Variável) => Não alterado => versoes-modoleitura.js
+*data (Chave do objeto) => dados => versoes-realizabusca.js
+*defineTituloPagina (Função global) => definirTituloPagina => versoes-modoleitura.js (Uso), versoes.js
+*doc (Variável) => Não alterado => versoes-modoleitura.js
+*dropdown (Classe .) => meu-suspenso => css/versoes.css, html/versoes.html, script/dropdown.js
+*dropdown:hover .conteudo-dropdown (Seletor) => .meu-suspenso:hover .conteudo-menu-suspenso => css/versoes.css
+*dynamic-chapter-buttons-container (ID #) => Não alterado => versoes-capitulos.js, versoes.js (Uso), versoes-modoleitura.js (Uso)
+*dynamic-verse-buttons-container (ID #) => Não alterado => versoes-modoleitura.js (Uso)
+*ehVersaoHtml (Variável) => Não alterado => versoes-modoleitura.js
+*erro (Variável) => Não alterado => versoes-cache.js
+*exibirResultados (Função) => Não alterado => versoes.js
+*existingVersiculoDiv (Constante) => Não alterado => original.js
+*extrairVersiculosDoHTML (Função) => Não alterado => versoes-realizabusca.js
+*footer (Seletor) => Não alterado => css/versoes.css
+*footer p (Seletor) => Não alterado => css/versoes.css
+*gerarHtmlJanelaSlide (Função global) => Não alterado => slide-biblia-coordenador.js (Uso), slide-biblia-interface.js (Definição)
+*gerarHtmlNavegacao (Função global) => Não alterado => versoes-navegacao-modoleitura.js, versoes-modoleitura.js (Uso)
+*gerenciadorVersiculos (Constante) => Não alterado => versoes-versiculos.js
+*getLivroDisplayName (Função global) => Não alterado => versoes-capitulos.js, versoes-interface.js (Uso), versoes-modoleitura.js (Uso), versoes.js (Uso, Definição), biblia-navegacao.js (Uso), acf.js (Uso), ara.js (Uso), original.js (Uso), kjv.js (Uso), naa.js (Uso), ntlh.js (Uso), nvi.js (Uso), nvt.js (Uso)
+*getSpecificChapterTitle (Função global) => obterTituloCapituloEspecifico => original.js (Definição), slide-biblia-interface.js (Uso)
+*getSpecificVerseCount (Função global) => obterContagemVersiculosEspecifica => original.js (Definição), biblia-navegacao.js (Uso), versoes-versiculos.js (Uso)
+*handleKeyNavigation (Função) => lidarComNavegacaoTeclado => versoes-navegacao-modoleitura.js
+*HINARIOS_CONFIG (Constante) => Não alterado => slide-harpa-cantor-dados.js (Definição)
+*htmlBotoesNavegacao (Variável) => Não alterado => versoes-navegacao-modoleitura.js, versoes-modoleitura.js
+*htmlConstruido (Variável) => Não alterado => versoes-modoleitura.js
+*htmlParaExibir (Variável) => Não alterado => versoes-modoleitura.js
+*idBotao (Variável) => Não alterado => versoes-navegacao-modoleitura.js
+*idScript (Constante) => Não alterado => versoes-capitulos.js
+*inicializarQuandoPronto (Função) => Não alterado => slide-biblia-coordenador.js
+*inicializarSlide (Função) => Não alterado => slide-biblia-coordenador.js (Definição), slide-biblia.js (Uso), versoes.js (Uso)
+*inicializarVersao (Função) => Não alterado => versoes.js
+*initializePage (Função) => inicializarPagina => versoes-realizabusca.js (Definição), versoes.js (Uso)
+*InterfaceManager (Classe .) => GerenciadorInterface => versoes-interface.js
+*interfaceManager (Constante) => gerenciadorInterface => versoes-interface.js
+*invertedIndex (Propriedade) => indiceInvertido => versoes-realizabusca.js
+*isReady (Propriedade) => estaPronto => versoes-realizabusca.js
+*isReadingModeEnabled (Variável global) => Não alterado => original.js (Definição)
+*itemLista (Constante) => Não alterado => versoes.js
+*key (Variável) => chave => versoes-realizabusca.js
+*limparCacheCapitulos (Função global) => Não alterado => versoes-cache.js
+*link (Variável) => Não alterado => versoes-realizabusca.js, versoes.js
+*link-slide (ID #) => Não alterado => slide-biblia-coordenador.js (Uso), html/versoes.html (Definição)
+*linkSlideEncontrado (Variável) => Não alterado => slide-biblia-coordenador.js
+*linksHeader (Variável) => Não alterado => slide-biblia-coordenador.js
+*listaVersoes (Constante) => Não alterado => versoes.js
+*livro (Variável) => Não alterado => versoes-interface.js
+*livro (Chave do objeto) => Não alterado => versoes-realizabusca.js
+*livroCapituloAnterior (Variável) => Não alterado => versoes-navegacao-modoleitura.js
+*livroClicado (Variável) => Não alterado => versoes-capitulos.js
+*livroDestino (Variável) => Não alterado => versoes-navegacao-modoleitura.js
+*livrosBiblicos (Constante) => Não alterado => versoes-realizabusca.js
+*livrosOrdem (Variável global) => Não alterado => slide-biblia-coordenador.js (Uso)
+*loading-message (Classe em string HTML) => mensagem-carregamento => versoes-modoleitura.js
+*loadSpecificVerse (Função global) => carregarVersiculoEspecifico => original.js (Definição), versoes-versiculos.js (Uso), biblia-navegacao.js (Uso), slide-biblia-interface.js (Uso)
+*marcadagua (Classe .) => marcaDagua => script/sobre.js, script/marcadagua.js
+*marcadagua-image (Classe .) => marca-dagua-imagem => css/versoes.css, script/sobre.js, script/marcadagua.js
+*MAX_RESULTS (Constante) => MAX_RESULTADOS => versoes-realizabusca.js
+*menu-livros (Classe .) => Não alterado => css/versoes.css, html/versoes.html, script/sobre.js, script/biblia-navegacao.js
+*menu-livros::-webkit-scrollbar (Seletor) => Não alterado => css/versoes.css
+*menu-livros::-webkit-scrollbar-thumb (Seletor) => Não alterado => css/versoes.css
+*menu-livros::-webkit-scrollbar-track (Seletor) => Não alterado => css/versoes.css
+*menu-livros a (Seletor) => Não alterado => css/versoes.css
+*menu-livros li (Seletor) => Não alterado => css/versoes.css
+*menu-livros ul (Seletor) => Não alterado => css/versoes.css
+*menu-opcoes (Classe .) => Não alterado => css/versoes.css, html/versoes.html, script/sobre.js, script/menu-dicionario-concordancia.js
+*menu-opcoes li (Seletor) => Não alterado => css/versoes.css
+*menu-opcoes li a (Seletor) => Não alterado => css/versoes.css
+*menu-title (Classe .) => titulo-menu => css/versoes.css, html/versoes.html, script/menu-dicionario-concordancia.js
+*modo-leitura (ID #) => Não alterado => versoes-interface.js (Definição), html/versoes.html (Uso), versoes-modoleitura.js (Uso), css/modo-leitura.css (Uso)
+*modoLeituraAtivo (Variável global) => Não alterado => versoes-modoleitura.js (Definição), versoes-capitulos.js (Uso), versoes-navegacao-modoleitura.js (Uso), biblia-navegacao.js (Uso), slide-biblia-coordenador.js (Uso)
+*modoLeitura-capitulo-anterior (ID #) => Não alterado => versoes-navegacao-modoleitura.js, css/modo-leitura.css (Uso)
+*modoLeitura-capitulo-proximo (ID #) => Não alterado => versoes-navegacao-modoleitura.js, css/modo-leitura.css (Uso)
+*modulosCarregados (Variável) => Não alterado => slide-biblia-coordenador.js
+*modulosNecessarios (Constante) => Não alterado => slide-biblia-coordenador.js
+*module-leitura (Classe .) => modo-leitura => versoes-modoleitura.js (Uso no body.classList), original.js (Uso no body.classList)
+*nav .dropdown .conteudo-dropdown li a (Seletor) => nav .meu-suspenso .conteudo-menu-suspenso li a => css/versoes.css
+*nav .menu-opcoes (Seletor) => Não alterado => css/versoes.css
+*nav .menu-opcoes li (Seletor) => Não alterado => css/versoes.css
+*nav .menu-opcoes li a (Seletor) => Não alterado => css/versoes.css
+*navegarParaVersiculo (Função global) => Não alterado => versoes.js (Definição), versoes-realizabusca.js (Uso)
+*newInvertedIndex (Variável) => novoIndiceInvertido => versoes-realizabusca.js
+*newVersiculos (Variável) => novosVersiculos => versoes-realizabusca.js
+*nomes (Constante) => Não alterado => versoes-versiculos.js
+*normalizarNomeLivro (Função global) => Não alterado => slide-biblia-coordenador.js (Uso), slide-biblia-utils.js (Definição)
+*normalizarTexto (Função) => Não alterado => versoes-realizabusca.js
+*NOME_VERSAO_COMPLETA_BIBLIA (Variável global) => Não alterado => versoes-interface.js, versoes.js (Uso, Definição), acf.js (Uso), ara.js (Uso), original.js (Uso, Definição), kjv.js (Uso), naa.js (Uso), ntlh.js (Uso), nvi.js (Uso), nvt.js (Uso)
+*novoBotao (Variável) => Não alterado => versoes-navegacao-modoleitura.js
+*novoScript (Variável) => Não alterado => versoes-capitulos.js, versoes.js
+*obterCapituloDoCache (Função global) => obterCapituloCache => versoes-cache.js, versoes-modoleitura.js (Uso)
+*obterContagemCapitulosLivro (Função global) => Não alterado => versoes-capitulos.js, versoes-navegacao.js (Uso)
+*obterLivroCapituloAnterior (Função global) => Não alterado => versoes-navegacao-modoleitura.js, versoes-navegacao.js (Definição)
+*obterParametroUrl (Função) => Não alterado => versoes.js
+*obterPreferencia (Função global) => Não alterado => versoes-cache.js, versoes.js (Uso), versoes-modo-leitura.js (Uso), versoes-navegacao.js (Uso)
+*obterProximoLivroECapitulo (Função global) => Não alterado => versoes-navegacao-modoleitura.js, versoes-navegacao.js (Definição)
+*obterTotalHinos (Função) => Não alterado => slide-harpa-cantor-utils.js (Definição)
+*opcoesTexto (Constante) => Não alterado => versoes.js
+*opcoesValidas (Variável) => Não alterado => versoes-realizabusca.js, versoes.js
+*overlay (ID #) => Não alterado => versoes-realizabusca.js, versoes.js
+*palavra (Variável) => Não alterado => versoes-realizabusca.js
+*palavras (Variável) => Não alterado => versoes-realizabusca.js
+*palavrasBusca (Variável) => Não alterado => versoes-realizabusca.js
+*parametrosUrl (Constante) => Não alterado => versoes.js
+*progress-bar-inner (ID em string HTML) => barra-progresso-interna => versoes-realizabusca.js, versoes.js (Uso)
+*progress-bar-outer (ID em string HTML) => barra-progresso-externa => versoes-realizabusca.js, versoes.js (Uso)
+*progress-text (ID em string HTML) => texto-progresso => versoes-realizabusca.js, versoes.js (Uso)
+*progressoBar (Constante) => barraProgresso => versoes-realizabusca.js, versoes.js
+*progressoTexto (Constante) => textoProgresso => versoes-realizabusca.js, versoes.js
+*proximoLivroCapitulo (Variável) => Não alterado => versoes-navegacao-modoleitura.js
+*reading-mode-message (Classe em string HTML) => mensagem-modo-leitura => versoes-modoleitura.js
+*reading-mode-navigation (Classe em string HTML) => navegacao-modo-leitura => versoes-navegacao-modoleitura.js
+*realizarBusca (Função) => Não alterado => versoes-realizabusca.js
+*realizarBuscaAvancada (Função global) => Não alterado => versoes-realizabusca.js, versoes.js (Uso)
+*recarregaMarcaDagua (Função) => Não alterado => versoes-capitulos.js
+*response (Variável) => Não alterado => versoes-modoleitura.js, original.js
+*resultado-item (Classe .) => item-resultado => versoes-realizabusca.js
+*resultados (Variável) => Não alterado => versoes-realizabusca.js
+*resultados-busca-container (ID #) => container-resultados-busca => versoes-realizabusca.js
+*resultadosComTodasPalavras (Variável) => Não alterado => versoes-realizabusca.js
+*resultadosFinais (Variável) => Não alterado => versoes-realizabusca.js
+*resultadosFinaisFiltrados (Variável) => Não alterado => versoes-realizabusca.js
+*salvarEmIndexedDB (Função) => Não alterado => versoes-realizabusca.js
+*salvarPreferencia (Função global) => Não alterado => versoes-cache.js, versoes.js (Uso)
+*scriptAntigo (Variável) => Não alterado => versoes-capitulos.js, versoes.js
+*script-marca-dagua (String ID) => Não alterado => versoes-capitulos.js
+*search-content (ID #) => conteudo-busca => versoes-realizabusca.js
+*search-overlay (ID #) => sobreposicao-busca => versoes-realizabusca.js, versoes.js (Uso)
+*searchEngine (Objeto global) => motorDeBusca => versoes-realizabusca.js
+*seletor (Constante) => Não alterado => versoes-realizabusca.js, versoes.js
+*seletor-versao-principal (ID #) => Não alterado => css/versoes.css, html/versoes.html, versoes-interface.js, versoes.js
+*seletorVersao (Propriedade) => Não alterado => versoes-interface.js
+*shadow (Variável) => sombra => versoes-realizabusca.js, versoes.js
+*sobre (Classe .) => Não alterado => css/versoes.css
+*sobre-content (Classe .) => conteudo-sobre => css/versoes.css, script/sobre.js
+*subtitulo-versao-extenso (ID #) => Não alterado => css/versoes.css, html/versoes.html, versoes-interface.js, versoes.js
+*termo (Parâmetro) => Não alterado => versoes-realizabusca.js
+*termoNorm (Variável) => termoNormalizado => versoes-realizabusca.js
+*texto (Chave do objeto) => Não alterado => versoes-realizabusca.js
+*textoP (Constante) => Não alterado => original.js
+*textoTitulo (Variável) => Não alterado => versoes-capitulos.js
+*tipo (Chave do objeto) => Não alterado => versoes-realizabusca.js
+*titulo (Constante) => Não alterado => versoes-versiculos.js (Uso)
+*titulo-conteiner (Classe .) => Não alterado => html/versoes.html
+*tituloH2 (Variável) => Não alterado => versoes-capitulos.js, versoes-modoleitura.js, original.js
+*tituloInternoH3 (Constante) => Não alterado => original.js
+*titulo-principal-versao (ID #) => Não alterado => html/versoes.html, versoes-interface.js, versoes-modo-leitura.js, versoes.js, acf.js, ara.js, original.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js
+*todasAsPromessas (Constante) => Não alterado => versoes-realizabusca.js
+*todosOsCapitulos (Constante) => Não alterado => versoes-realizabusca.js
+*toggleReadingMode (Função global) => Não alterado => versoes-interface.js, versoes-capitulos.js (Uso), versoes-modoleitura.js (Uso, Definição), versoes.js (Uso), biblia-navegacao.js (Uso)
+*toggleVersiculos (Função global) => Não alterado => versoes-capitulos.js, biblia-navegacao.js (Uso), versoes.js (Uso)
+*totalCapitulos (Constante) => Não alterado => versoes-capitulos.js
+*ultimaCapituloSelecionado (Variável global) => Não alterado => versoes-modoleitura.js (Definição), versoes-capitulos.js (Uso), sobre.js (Uso), versoes.js (Uso)
+*ultimoLivroSelecionado (Variável global) => Não alterado => versoes-modoleitura.js (Definição), versoes-capitulos.js (Uso), sobre.js (Uso), versoes.js (Uso)
+*ultimoVersiculoSelecionado (Variável global) => Não alterado => versoes-modoleitura.js (Definição), versoes-capitulos.js (Uso), sobre.js (Uso), versoes.js (Uso)
+*ULTIMO_CAPITULO (Chave do objeto) => Não alterado => versoes-cache.js
+*ULTIMO_LIVRO (Chave do objeto) => Não alterado => versoes-cache.js
+*ULTIMO_VERSICULO (Chave do objeto) => Não alterado => versoes-cache.js
+*updateSearchIndexProgress (Função global) => atualizarProgressoIndiceBusca => versoes-realizabusca.js, versoes.js (Definição)
+*url (Variável) => Não alterado => versoes-versiculos.js
+*urlParams (Variável) => Não alterado => slide-biblia-coordenador.js
+*valor (Variável) => Não alterado => versoes-cache.js
+*valorPadrao (Parâmetro) => Não alterado => versoes-cache.js
+*valorParseado (Variável) => Não alterado => versoes-cache.js
+*vers (Variável) => Não alterado => versoes-realizabusca.js
+*versao (Variável) => Não alterado => versoes-versiculos.js, slide-biblia-coordenador.js
+*versaoAtual (Variável) => Não alterado => versoes-modoleitura.js
+*versaoAtual (Propriedade) => Não alterado => versoes-realizabusca.js
+*versaoBiblicaSelecionada (Chave localStorage) => Não alterado => versoes-interface.js, versoes-cache.js (Uso)
+*VERSAO-BIBLICA (Chave do objeto) => Não alterado => versoes-cache.js
+*versaoInicial (Variável) => Não alterado => versoes.js
+*versaoPadrao (Variável) => Não alterado => versoes.js
+*versaoSelecionada (Variável) => Não alterado => versoes-realizabusca.js
+*versBtn (Variável) => Não alterado => slide-biblia-coordenador.js
+*verse-container (Classe em string HTML) => conteiner-versiculo => versoes-modoleitura.js
+*verse-number (Classe em string HTML) => numero-versiculo => versoes-modoleitura.js
+*verse-section-title (Classe em string HTML) => titulo-secao-versiculo => versoes-modoleitura.js
+*verse-text (Classe em string HTML) => texto-versiculo => versoes-modoleitura.js
+*versiculo-ativo (Classe .) => Não alterado => versoes-versiculos.js
+*versiculoAtivo (Propriedade) => Não alterado => versoes-versiculos.js
+*versiculoClicado (Variável) => Não alterado => versoes-capitulos.js
+*versiculoElementDiv (Constante) => Não alterado => original.js
+*versiculoId (Variável) => idVersiculo => versoes-realizabusca.js
+*versiculos (Propriedade) => Não alterado => versoes-realizabusca.js
+*versiculosPorCapitulo (Constante) => Não alterado => original.js
+*VersiculosManager (Classe .) => GerenciadorVersiculos => versoes-versiculos.js
+*versoes-list (ID #) => Não alterado => versoes-interface.js
+*versoesQueUsamHtml (Constante) => Não alterado => versoes-modoleitura.js
+*versNum (Variável) => Não alterado => slide-biblia-coordenador.js
+*_atualizarBotoesVersiculos (Método privado) => Não alterado => versoes-versiculos.js
+*_criarContainerVersiculos (Método privado) => _criarConteinerVersiculos => versoes-versiculos.js
+*_getNomeLivro (Método privado) => _obterNomeLivro => versoes-versiculos.js
+*_handleLivroClick (Método privado) => _lidarComCliqueLivro => versoes-interface.js
+
+## Recomendações Finais
+
+- Aplicação das Alterações: Implemente renomeações em lotes por arquivo para evitar quebras. Use find/replace em editores como VS Code.
+- Verificações Pendentes: Para marca d'água, teste recriação em sobre.js e capitulos.js. Para inconsistências em nomes de livros (ex.: 1cronica vs 1cronicas), alinhe com biblia-navegacao.js.
+- Duplicatas: Elementos globais (ex.: activeLivro) foram consolidados; defina em um arquivo central (versoes.js).
+- Revisão: Concentre-se nas linhas sem o asterisco (*), pois elas não estavam no arquivo original e podem exigir atenção adicional.

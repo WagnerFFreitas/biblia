@@ -1,6 +1,119 @@
 {
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+  "livro": "Salmos - תְּהִלִּים - Tehillim",
   "capítulo": 20,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Ao mestre de canto. Salmo de Davi.",
+      "palavras": [
+        { "hebraico": "לַמְנַצֵּ֗חַ", "transliteral": "lam-naṣ-ṣē-aḥ", "traducao_palavra": "ao mestre de canto" },
+        { "hebraico": "מִזְמֹ֥ור", "transliteral": "miz-môr", "traducao_palavra": "salmo" },
+        { "hebraico": "לְדָוִֽד׃", "transliteral": "lə-ḏā-wiḏ", "traducao_palavra": "de Davi" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "YHWH te ouça no dia da angústia; o nome do Deus de Jacó te proteja.",
+      "palavras": [
+        { "hebraico": "יַֽעַנְךָ֣", "transliteral": "ya-ʿan-ḵā", "traducao_palavra": "te ouça/responda" },
+        { "hebraico": "יְהוָ֮ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "בְּיֹ֪ום", "transliteral": "bə-yôm", "traducao_palavra": "no dia de" },
+        { "hebraico": "צָ֫רָ֥ה", "transliteral": "ṣā-rā", "traducao_palavra": "angústia" },
+        { "hebraico": "יְשַׂגֶּבְךָ֬", "transliteral": "yə-śag-geḇ-ḵā", "traducao_palavra": "te ponha no alto/proteja" },
+        { "hebraico": "שֵׁ֣ם", "transliteral": "šēm", "traducao_palavra": "[o] nome de" },
+        { "hebraico": "אֱלֹהֵ֣י", "transliteral": "ʾĕ-lō-hê", "traducao_palavra": "Deus de" },
+        { "hebraico": "יַעֲקֹֽב׃", "transliteral": "ya-ʿă-qōḇ", "traducao_palavra": "Jacó" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Envie-te socorro desde o santuário e te sustenha desde Sião.",
+      "palavras": [
+        { "hebraico": "יִשְׁלַח־עֶזְרְךָ֥", "transliteral": "yiš-laḥ-ʿez-rə-ḵā", "traducao_palavra": "envie teu socorro" },
+        { "hebraico": "מִקֹּ֑דֶשׁ", "transliteral": "miq-qō-ḏeš", "traducao_palavra": "do santuário" },
+        { "hebraico": "וּ֝מִצִּיֹּ֗ון", "transliteral": "ū-miṣ-ṣiy-yôn", "traducao_palavra": "e de Sião" },
+        { "hebraico": "יִסְעָדֶֽךָּ׃", "transliteral": "yis-ʿā-ḏek-kā", "traducao_palavra": "te sustente" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Lembre-se de todas as tuas ofertas e aceite os teus holocaustos. (Selah)",
+      "palavras": [
+        { "hebraico": "יִזְכֹּ֥ר", "transliteral": "yiz-kōr", "traducao_palavra": "lembre-se" },
+        { "hebraico": "כָּל־מִנְחֹתֶ֑ךָ", "transliteral": "kāl-min-ḥō-ṯe-ḵā", "traducao_palavra": "todas as tuas ofertas" },
+        { "hebraico": "וְעֹולָתְךָ֖", "transliteral": "wə-ʿô-lā-ṯə-ḵā", "traducao_palavra": "e teu holocausto" },
+        { "hebraico": "יְדַשְּׁנֶ֥ה", "transliteral": "yə-ḏaš-šə-neh", "traducao_palavra": "torne em cinzas [aceite]" },
+        { "hebraico": "סֶּֽלָה׃", "transliteral": "se-lā", "traducao_palavra": "Selah [pausa]" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Conceda-te conforme o teu coração e cumpra todo o teu desígnio.",
+      "palavras": [
+        { "hebraico": "יִֽתֶּן־לְךָ֥", "transliteral": "yit-ten-lə-ḵā", "traducao_palavra": "conceda a ti" },
+        { "hebraico": "כִלְבָבֶ֑ךָ", "transliteral": "ḵil-ḇā-ḇe-ḵā", "traducao_palavra": "conforme teu coração" },
+        { "hebraico": "וְכָל־עֲצָתְךָ֥", "transliteral": "wə-ḵāl-ʿă-ṣā-ṯə-ḵā", "traducao_palavra": "e todo teu conselho/desígnio" },
+        { "hebraico": "יְמַלֵּֽא׃", "transliteral": "yə-mal-lē", "traducao_palavra": "ele cumpra" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Celebraremos com júbilo a tua vitória e, em nome do nosso Deus, hastearemos pendões; satisfaça YHWH todas as tuas petições.",
+      "palavras": [
+        { "hebraico": "נְרַנְּנָ֨ה ׀", "transliteral": "nə-ran-nə-nā", "traducao_palavra": "cantaremos com júbilo" },
+        { "hebraico": "בִּ֘ישׁוּעָתֶ֤ךָ", "transliteral": "bî-šû-ʿā-ṯe-ḵā", "traducao_palavra": "em tua salvação/vitória" },
+        { "hebraico": "וּבְשֵׁם־אֱלֹהֵינוּ", "transliteral": "ū-ḇə-šēm-ʾĕ-lō-hê-nû", "traducao_palavra": "e no nome do nosso Deus" },
+        { "hebraico": "נִדְגֹּ֑ל", "transliteral": "niḏ-gōl", "traducao_palavra": "hastearemos bandeiras" },
+        { "hebraico": "יְמַלֵּ֥א", "transliteral": "yə-mal-lē", "traducao_palavra": "cumpra" },
+        { "hebraico": "יְהוָ֗e", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "כָּל־מִשְׁאֲלֹותֶֽיךָ׃", "transliteral": "kāl-miš-ʾă-lô-ṯe-ḵā", "traducao_palavra": "todos os teus pedidos" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Agora sei que YHWH salva o seu ungido; ele o ouvirá desde o seu santo céu, com a força salvadora da sua destra.",
+      "palavras": [
+        { "hebraico": "עַתָּ֣ה", "transliteral": "ʿat-tā", "traducao_palavra": "agora" },
+        { "hebraico": "יָדַ֗עְתִּי", "transliteral": "yā-ḏaʿ-tî", "traducao_palavra": "sei/soube" },
+        { "hebraico": "כִּ֤י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "הֹ֘ושִׁ֤יעַ", "transliteral": "hô-šî-aʿ", "traducao_palavra": "salva" },
+        { "hebraico": "יְהוָ֨ה ׀", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "מְשִׁיחֹ֗ו", "transliteral": "mə-šî-ḥô", "traducao_palavra": "seu ungido" },
+        { "hebraico": "יַעֲנֵ֨הוּ ׀", "transliteral": "ya-ʿă-nē-hû", "traducao_palavra": "ele o ouvirá/responderá" },
+        { "hebraico": "מִשְּׁמֵ֣י", "transliteral": "miš-šə-mê", "traducao_palavra": "desde céus de" },
+        { "hebraico": "קָדְשֹׁ֑ו", "transliteral": "qāḏ-šô", "traducao_palavra": "sua santidade" },
+        { "hebraico": "בִּ֝גְבֻרֹ֗ות", "transliteral": "biḡ-ḇu-rôṯ", "traducao_palavra": "com atos de força de" },
+        { "hebraico": "יֵ֣שַׁע", "transliteral": "yē-šaʿ", "traducao_palavra": "salvação de" },
+        { "hebraico": "יְמִינֹֽו׃", "transliteral": "yə-mî-nô", "traducao_palavra": "sua destra" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Uns confiam em carros e outros em cavalos, mas nós faremos menção do nome de YHWH, nosso Deus.",
+      "palavras": [
+        { "hebraico": "אֵ֣לֶּה", "transliteral": "ʾēl-leh", "traducao_palavra": "estes [confiam]" },
+        { "hebraico": "בָ֭רֶכֶב", "transliteral": "ḇā-re-ḵeḇ", "traducao_palavra": "em carros" },
+        { "hebraico": "וְאֵ֣לֶּה", "transliteral": "wə-ʾēl-leh", "traducao_palavra": "e estes" },
+        { "hebraico": "בַסּוּסִ֑ים", "transliteral": "ḇas-sû-śîm", "traducao_palavra": "em cavalos" },
+        { "hebraico": "וַאֲנַ֕חְנוּ", "transliteral": "wa-ʾă-naḥ-nû", "traducao_palavra": "mas nós" },
+        { "hebraico": "בְּשֵׁם־יְהוָ֥ה", "transliteral": "bə-šēm-YHWH", "traducao_palavra": "no nome de YHWH" },
+        { "hebraico": "אֱלֹהֵ֖ינוּ", "transliteral": "ʾĕ-lō-hê-nû", "traducao_palavra": "nosso Deus" },
+        { "hebraico": "נַזְכִּֽיר׃", "transliteral": "naz-kîr", "traducao_palavra": "invocaremos/faremos menção" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Eles se encurvam e caem, mas nós nos levantamos e nos mantemos de pé.",
+      "palavras": [
+        { "hebraico": "הֵ֭מָּה", "transliteral": "hēm-mā", "traducao_palavra": "eles" },
+        { "hebraico": "כָּרְע֣וּ", "transliteral": "kā-rə-ʿû", "traducao_palavra": "encurvaram-se" },
+        { "hebraico": "וְנָפָ֑לוּ", "transliteral": "wə-nā-p̄ā-lû", "traducao_palavra": "e caíram" },
+        { "hebraico": "וַאֲנַ֥חְנוּ", "transliteral": "wa-ʾă-naḥ-nû", "traducao_palavra": "mas nós" },
+        { "hebraico": "קַּ֝מְנוּ", "transliteral": "qam-nû", "traducao_palavra": "levantamos" },
+        { "hebraico": "וַנִּתְעֹודָֽד׃", "transliteral": "wan-niṯ-ʿô-ḏāḏ", "traducao_palavra": "e nos mantemos firmes/erguidos" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Salva, YHWH! Ouça-nos o Rei no dia em que clamarmos.",
+      "palavras": [
+        { "hebraico": "יְהוָ֥ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "הֹושִׁ֑יעָה", "transliteral": "hô-šî-ʿā", "traducao_palavra": "salva!" },
+        { "hebraico": "הַ֝מֶּ֗לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o Rei" },
+        { "hebraico": "יַעֲנֵ֥נוּ", "transliteral": "ya-ʿă-nē-nû", "traducao_palavra": "nos ouça/responda" },
+        { "hebraico": "בְיֹום־קָרְאֵֽנוּ׃", "transliteral": "ḇə-yôm-qā-rə-ʾē-nû", "traducao_palavra": "no dia do nosso clamar" }
+      ]
+    }
+  }
 }

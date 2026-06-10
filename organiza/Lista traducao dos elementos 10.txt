@@ -1,0 +1,92 @@
+Lista Completa de Traduções
+
+Aqui está a lista completa de todas as palavras traduzidas em todas as páginas do projeto:
+
+content => areaConteudo => acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js, sobre.js
+response => resposta => acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+data => dados => acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+searchTerm => termoBusca => gerenciador_concordancia.js, concordancia-optimizada.js
+isLoading => estaCarregando => concordancia-optimizada.js
+existingVersiculoDiv => divVersiculoExistente => acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+versiculoElementDiv => divElementoVersiculo => acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+currentLetter => letraAtual => gerenciador_concordancia.js, dicionario.js, concordancia-optimizada.js
+currentPage => paginaAtual => gerenciador_concordancia.js, dicionario.js, concordancia-optimizada.js
+itemsPerPage => itensPorPagina => gerenciador_concordancia.js, dicionario.js
+allTermos => todosTermosLetra => gerenciador_concordancia.js, dicionario.js
+allData => todosTermosLetra => gerenciador_concordancia.js, dicionario.js
+allGlobalTermos => todosTermosGlobais => dicionario.js
+listaLetras => indiceLetras => gerenciador_concordancia.js, dicionario.js
+hasMore => temMaisResultados => concordancia-optimizada.js, gerenciador_concordancia.js
+activeHinario => hinarioAtivo => harpa_cantor.js
+activeHinoData => dadosHinoAtivo => harpa_cantor.js
+livroKey => chaveLivro => biblia-navegacao.js
+BIBLE_VERSION => VERSAO_BIBLIA => acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+NOME_VERSAO_COMPLETA_BIBLIA => NOME_COMPLETO_VERSAO_BIBLIA => acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js, versoes.js
+activeLivro => livroAtivo => biblia-navegacao.js, versoes.js, versoes_modoleitura.js
+activeCapitulo => capituloAtivo => biblia-navegacao.js, versoes.js, versoes_modoleitura.js
+activeVersiculoButton => botaoVersiculoAtivo => biblia-navegacao.js, versoes.js
+loadSpecificVerse => carregarVersiculoEspecifico => acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+getSpecificVerseCount => obterContagemVersiculosEspecifica => acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+getSpecificChapterTitle => obterTituloCapituloEspecifico => acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+toggleReadingMode => alternarModoLeitura => versoes.js, versoes_modoleitura.js
+initializeDropdowns => inicializarMenusSuspensos => dropdown.js
+loadBook => carregarLivro => biblia-navegacao.js
+createCapitulosButtons => criarBotoesCapitulos => biblia-navegacao.js
+toggleVersiculos => alternarVersiculos => biblia-navegacao.js
+performGlobalSearch => executarBuscaGlobal => concordancia-optimizada.js
+updateResultsCounter => atualizarContadorResultados => concordancia.js, concordancia-optimizada.js
+showLoading => mostrarCarregamento => concordancia.js, concordancia-optimizada.js
+loadLetterList => carregarIndiceLetras => gerenciador_concordancia.js
+loadLetterData => carregarDadosPorLetra => gerenciador_concordancia.js
+handleSearch => manipularBusca => dicionario.js
+getLivroDisplayName => obterNomeExibicaoLivro => biblia-navegacao.js, acf.js, ara.js, arc.js, kjv.js, naa.js, ntlh.js, nvi.js, nvt.js, original.js
+abrirJanelaDeBusca => abrirJanelaDeBusca => biblia_realizabusca.js
+carregaScriptAssincrono => carregarScriptAssincrono => versoes.js
+DataManager => GerenciadorDados => gerenciador_concordancia.js
+ConcordanciaOptimized => ConcordanciaOtimizada => concordancia-optimizada.js
+Dicionario => Dicionario => dicionario.js
+MainApp => AppPrincipal => menu_dicionarioconcordancia.js
+InterfaceManager => GerenciadorInterface => versoes_interface.js
+VersiculosManager => GerenciadorVersiculos => versoes_versiculos.js
+container => conteiner => menu_dicionarioconcordancia.css, versoes.css, menu_dicionarioconcordancia.html, versoes.html
+container-titulo => conteiner-titulo => versoes.css, menu_dicionarioconcordancia.css, versoes.html, menu_dicionarioconcordancia.html
+content => conteudo => cursos.css, versoes.css, cursos.html, versoes.html
+wrapper => agrupador => dicionario.css
+watermark => marcadagua => cursos.css, versoes.css, biblia_realizabusca.css
+dropdown => menu-suspenso => versoes.css, versoes.html
+search-overlay-content => overlay-busca-conteudo => biblia_realizabusca.css, biblia_realizabusca.js
+search-overlay-resultado-item => item-resultado-busca => biblia_realizabusca.css, biblia_realizabusca.js
+palavra-section => selecao-palavra => concordancia.css, concordancia-optimizada.js
+palavra-header => palavra-cabecalho => concordancia.css, concordancia-optimizada.js
+expand-indicator => indicador-expansao => concordancia.css, concordancia-optimizada.js
+menu-button => botao-menu => cantor_cristao.css, harpa_cantor.html
+hino-container => conteiner-hino => cantor_cristao.css, harpa_cantor.js
+reading-mode-header => cabecalho-modo-leitura => modo_leitura.css, versoes_modoleitura.js
+chapter-verses => capitulo-versiculos => modo_leitura.css, versoes_modoleitura.js
+voltar-botao => botao-voltar => slide_biblia.css, slide_biblia_interface.js
+proximo-botao => botao-proximo => slide_biblia.css, slide_biblia_interface.js
+btn-letra => botao-letra => menu_dicionarioconcordancia.css, menu_dicionarioconcordancia.html
+custom-select => selecao-personalizada => concordancia.css, menu_dicionarioconcordancia.html
+livro-select => selecao-livro => concordancia.css, menu_dicionarioconcordancia.html
+btn-buscar => botao-buscar => concordancia.css, menu_dicionarioconcordancia.html
+loading-indicator => indicador-carregamento => concordancia.css, menu_dicionarioconcordancia.html, concordancia-optimizada.js
+spinner-carregamento => icone-carregamento => concordancia.css, menu_dicionarioconcordancia.html
+container-contador => conteiner-contador => concordancia.css, menu_dicionarioconcordancia.html
+btn-carregar-mais => botao-carregar-mais => concordancia.css, menu_dicionarioconcordancia.html
+container-resultados => conteiner-resultados => concordancia.css, menu_dicionarioconcordancia.html, concordancia-optimizada.js
+wrapper-conteudo-dicionario => agrupador-conteudo-dicionario => dicionario.css, menu_dicionarioconcordancia.html
+baixar-list => baixar-lista => versoes.css, versoes.html, dropdown.js
+utilidades-list => utilidades-lista => versoes.css, versoes.html, dropdown.js
+opcoes-menu => menu-opcoes => versoes.css, menu_dicionarioconcordancia.css, versoes.html, menu_dicionarioconcordancia.html
+slide-container => conteiner-slide => slide_harpacantor.css, slide_biblia.css
+livro-header => cabecalho-livro => concordancia.css
+concordancias-content => conteudo-concordancia => concordancia.css
+sobre-content => conteudo-sobre => versoes.css
+search-btn => botao-busca => concordancia.css
+btn-paginacao => botao-paginacao => concordancia.css
+dicionario-btn => botao-dicionario => dicionario.css, menu_dicionarioconcordancia.html
+btnHarpa => botaoHarpa => harpa_cantor.html
+btnCantor => botaoCantor => harpa_cantor.html
+btnSlide => botaoSlide => harpa_cantor.html
+
+Esta lista inclui todas as palavras traduzidas em todas as mais de 15 páginas do projeto, seguindo o formato solicitado: "palavra-original => palavra-traduzida => nome-do-arquivo".

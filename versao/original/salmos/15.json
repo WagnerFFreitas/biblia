@@ -1,6 +1,76 @@
 {
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+  "livro": "Salmos - תְּהִלִּים - Tehillim",
   "capítulo": 15,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Salmo de Davi. YHWH, quem habitará na tua tenda? Quem morará no teu santo monte?",
+      "palavras": [
+        { "hebraico": "מִזְמֹ֥ור", "transliteral": "miz-môr", "traducao_palavra": "salmo" },
+        { "hebraico": "לְדָוִ֑ד", "transliteral": "lə-ḏā-wiḏ", "traducao_palavra": "de Davi" },
+        { "hebraico": "יְ֭הוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "מִֽי־יָג֣וּר", "transliteral": "mî-yā-ḡûr", "traducao_palavra": "quem habitará/peregrinará" },
+        { "hebraico": "בְּאָהֳלֶ֑ךָ", "transliteral": "bə-ʾā-ho-le-ḵā", "traducao_palavra": "em tua tenda" },
+        { "hebraico": "מִֽי־יִ֝שְׁכֹּ֗ן", "transliteral": "mî-yiš-kōn", "traducao_palavra": "quem morará/residirá" },
+        { "hebraico": "בְּהַ֣ר", "transliteral": "bə-har", "traducao_palavra": "no monte de" },
+        { "hebraico": "קָדְשֶֽׁךָ׃", "transliteral": "qāḏ-še-ḵā", "traducao_palavra": "tua santidade" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Aquele que anda em integridade, e pratica a justiça, e fala a verdade no seu coração.",
+      "palavras": [
+        { "hebraico": "הֹולֵ֣ךְ", "transliteral": "hō-lēḵ", "traducao_palavra": "[o que] anda" },
+        { "hebraico": "תָּמִ֑ים", "transliteral": "tā-mîm", "traducao_palavra": "[em] integridade/perfeição" },
+        { "hebraico": "וּפֹעֵ֥ל", "transliteral": "ū-p̄ō-ʿēl", "traducao_palavra": "e pratica" },
+        { "hebraico": "צֶ֑דֶק", "transliteral": "ṣe-ḏeq", "traducao_palavra": "justiça" },
+        { "hebraico": "וְדֹבֵ֖ר", "transliteral": "wə-ḏō-ḇēr", "traducao_palavra": "e fala" },
+        { "hebraico": "אֱמֶ֣ת", "transliteral": "ʾĕ-meṯ", "traducao_palavra": "verdade" },
+        { "hebraico": "בִּלְבָבֹֽו׃", "transliteral": "bil-ḇā-ḇô", "traducao_palavra": "em seu coração" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Aquele que não calunia com a sua língua, nem faz mal ao seu próximo, nem lança descrédito contra o seu parente.",
+      "palavras": [
+        { "hebraico": "לֹא־רָגַ֨ל ׀", "transliteral": "lō-rā-ḡal", "traducao_palavra": "não calunia/difama" },
+        { "hebraico": "עַל־לְשֹׁנֹ֗ו", "transliteral": "ʿal-lə-šō-nô", "traducao_palavra": "com sua língua" },
+        { "hebraico": "לֹא־עָשָׂ֣ה", "transliteral": "lō-ʿā-śā", "traducao_palavra": "não fez" },
+        { "hebraico": "לְרֵעֵ֣הוּ", "transliteral": "lə-rê-ʿê-hû", "traducao_palavra": "ao seu próximo" },
+        { "hebraico": "רָעָ֑ה", "transliteral": "rā-ʿā", "traducao_palavra": "mal" },
+        { "hebraico": "וְ֝חֶרְפָּ֗ה", "transliteral": "wə-ḥer-pā", "traducao_palavra": "e vergonha/descrédito" },
+        { "hebraico": "לֹא־נָשָׂ֥א", "transliteral": "lō-nā-śā", "traducao_palavra": "não lançou/levou" },
+        { "hebraico": "עַל־קְרֹבֹֽו׃", "transliteral": "ʿal-qə-rō-ḇô", "traducao_palavra": "contra seu parente/vizinho" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Aquele a cujos olhos o réprobo é desprezado; mas honra os que temem a YHWH; aquele que jura com dano seu, e não muda.",
+      "palavras": [
+        { "hebraico": "נִבְזֶ֤ה ׀", "transliteral": "niḇ-zeh", "traducao_palavra": "desprezível [é]" },
+        { "hebraico": "בְּעֵינָ֨יו", "transliteral": "bə-ʿê-nāw", "traducao_palavra": "em seus olhos" },
+        { "hebraico": "נִמְאָ֗ס", "transliteral": "nim-ʾās", "traducao_palavra": "o réprobo/rejeitado" },
+        { "hebraico": "וְאֶת־יִרְאֵ֣י", "transliteral": "wə-ʾeṯ-yir-ʾê", "traducao_palavra": "mas os tementes a" },
+        { "hebraico": "יְהוָ֣ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "יְכַבֵּ֑ד", "transliteral": "yə-ḵab-bēḏ", "traducao_palavra": "ele honra" },
+        { "hebraico": "נִשְׁבַּ֥ע", "transliteral": "niš-baʿ", "traducao_palavra": "jurou" },
+        { "hebraico": "לְהָרַ֗ע", "transliteral": "lə-hā-raʿ", "traducao_palavra": "para [seu próprio] mal/dano" },
+        { "hebraico": "וְלֹ֣א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "יָמִֽר׃", "transliteral": "yā-mir", "traducao_palavra": "muda/retira" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Aquele que não empresta o seu dinheiro com usura, nem aceita suborno contra o inocente. Quem faz isto nunca será abalado.",
+      "palavras": [
+        { "hebraico": "כַּסְפֹּ֨ו ׀", "transliteral": "kas-pô", "traducao_palavra": "seu dinheiro" },
+        { "hebraico": "לֹא־נָתַ֣ן", "transliteral": "lō-nā-ṯan", "traducao_palavra": "não deu" },
+        { "hebraico": "בְּנֶשֶׁךְ֮", "transliteral": "bə-ne-šeḵ", "traducao_palavra": "com usura/juros" },
+        { "hebraico": "וְשֹׁ֥חַד", "transliteral": "wə-šō-ḥaḏ", "traducao_palavra": "e suborno" },
+        { "hebraico": "עַל־נָקִ֗י", "transliteral": "ʿal-nā-qî", "traducao_palavra": "contra [o] inocente" },
+        { "hebraico": "לֹ֥א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "לָ֫קָ֥ח", "transliteral": "lā-qāḥ", "traducao_palavra": "aceitou" },
+        { "hebraico": "עֹֽשֵׂה־אֵ֑לֶּה", "transliteral": "ʿō-śēh-ʾēl-leh", "traducao_palavra": "[o que] faz estas [coisas]" },
+        { "hebraico": "לֹא", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "יִמֹּ֥וט", "transliteral": "yim-môṭ", "traducao_palavra": "será abalado" },
+        { "hebraico": "לְעֹולָֽם׃", "transliteral": "lə-ʿô-lām", "traducao_palavra": "para sempre" }
+      ]
+    }
+  }
 }
