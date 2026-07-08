@@ -2,5 +2,363 @@
   "livro": "Eclesiastes - קֹהֶלֶת - Qohelet",
   "capítulo": 3,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Tudo tem o seu tempo determinado, e há tempo para todo o propósito debaixo do céu.",
+      "palavras": [
+        { "hebraico": "לַכֹּ֖ל", "transliteral": "lak-kōl", "traducao_palavra": "Para tudo" },
+        { "hebraico": "זְמָ֑ן", "transliteral": "zə-mān", "traducao_palavra": "[há um] tempo determinado" },
+        { "hebraico": "וְעֵ֥ת", "transliteral": "wə-ʿēṯ", "traducao_palavra": "e uma ocasião/estação" },
+        { "hebraico": "לְכָל־חֵ֖פֶץ", "transliteral": "lə-ḵāl-ḥē-p̄eṣ", "traducao_palavra": "para todo propósito/assunto" },
+        { "hebraico": "תַּ֥חַת", "transliteral": "ta-ḥaṯ", "traducao_palavra": "debaixo de" },
+        { "hebraico": "הַשָּׁמָֽיִם׃", "transliteral": "haš-šā-mā-yim", "traducao_palavra": "os céus" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "há tempo de nascer e tempo de morrer; tempo de plantar e tempo de arrancar o que se plantou;",
+      "palavras": [
+        { "hebraico": "עֵ֥ת", "transliteral": "ʿēṯ", "traducao_palavra": "Tempo" },
+        { "hebraico": "לָלֶ֖דֶת", "transliteral": "lā-le-ḏeṯ", "traducao_palavra": "de nascer" },
+        { "hebraico": "וְעֵ֣ת", "transliteral": "wə-ʿēṯ", "traducao_palavra": "e tempo" },
+        { "hebraico": "לָמ֑וּת", "transliteral": "lā-mûṯ", "traducao_palavra": "de morrer" },
+        { "hebraico": "עֵ֣ת", "transliteral": "ʿēṯ", "traducao_palavra": "tempo" },
+        { "hebraico": "לָטַ֔עַת", "transliteral": "lā-ṭa-ʿaṯ", "traducao_palavra": "de plantar" },
+        { "hebraico": "וְעֵ֥ת", "transliteral": "wə-ʿēṯ", "traducao_palavra": "e tempo" },
+        { "hebraico": "לַעֲקֹ֥ור", "transliteral": "la-ʿă-qôr", "traducao_palavra": "de arrancar" },
+        { "hebraico": "נָטֽוּעַ׃", "transliteral": "nā-ṭû-aḥ", "traducao_palavra": "o plantado" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "tempo de matar e tempo de curar; tempo de derrubar e tempo de edificar;",
+      "palavras": [
+        { "hebraico": "עֵ֤ת", "transliteral": "ʿēṯ", "traducao_palavra": "Tempo" },
+        { "hebraico": "לַהֲרֹוג֙", "transliteral": "la-hă-rōḡ", "traducao_palavra": "de matar" },
+        { "hebraico": "וְעֵ֣ת", "transliteral": "wə-ʿēṯ", "traducao_palavra": "e tempo" },
+        { "hebraico": "לִרְפֹּ֔וא", "transliteral": "lir-pô", "traducao_palavra": "de curar" },
+        { "hebraico": "עֵ֥ת", "transliteral": "ʿēṯ", "traducao_palavra": "tempo" },
+        { "hebraico": "לִפְרֹ֖וץ", "transliteral": "lip̄-rōṣ", "traducao_palavra": "de derrubar/romper" },
+        { "hebraico": "וְעֵ֥ת", "transliteral": "wə-ʿēṯ", "traducao_palavra": "e tempo" },
+        { "hebraico": "לִבְנֹֽות׃", "transliteral": "liḇ-nôṯ", "traducao_palavra": "de edificar" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "tempo de chorar e tempo de rir; tempo de prantear e tempo de dançar;",
+      "palavras": [
+        { "hebraico": "עֵ֤ת", "transliteral": "ʿēṯ", "traducao_palavra": "Tempo" },
+        { "hebraico": "לִבְכֹּות֙", "transliteral": "liḇ-kôṯ", "traducao_palavra": "de chorar" },
+        { "hebraico": "וְעֵ֣ת", "transliteral": "wə-ʿēṯ", "traducao_palavra": "e tempo" },
+        { "hebraico": "לִשְׂחֹ֔וק", "transliteral": "liś-ḥôq", "traducao_palavra": "de rir" },
+        { "hebraico": "עֵ֥ת", "transliteral": "ʿēṯ", "traducao_palavra": "tempo" },
+        { "hebraico": "סְפֹ֖וד", "transliteral": "śə-p̄ôḏ", "traducao_palavra": "de prantear" },
+        { "hebraico": "וְעֵ֥ת", "transliteral": "wə-ʿēṯ", "traducao_palavra": "e tempo" },
+        { "hebraico": "רְקֹֽוד׃", "transliteral": "rə-qôḏ", "traducao_palavra": "de dançar" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "tempo de espalhar pedras e tempo de ajuntar pedras; tempo de abraçar e tempo de afastar-se de abraçar;",
+      "palavras": [
+        { "hebraico": "עֵ֚ת", "transliteral": "ʿēṯ", "traducao_palavra": "Tempo" },
+        { "hebraico": "לְהַשְׁלִ֣יךְ", "transliteral": "lə-haš-lîḵ", "traducao_palavra": "de lançar" },
+        { "hebraico": "אֲבָנִ֔ים", "transliteral": "ʾă-ḇā-nîm", "traducao_palavra": "pedras" },
+        { "hebraico": "וְעֵ֥ת", "transliteral": "wə-ʿēṯ", "traducao_palavra": "e tempo" },
+        { "hebraico": "כְּנֹ֥וס", "transliteral": "kə-nôś", "traducao_palavra": "de ajuntar" },
+        { "hebraico": "אֲבָנִ֑ים", "transliteral": "ʾă-ḇā-nîm", "traducao_palavra": "pedras" },
+        { "hebraico": "עֵ֤ת", "transliteral": "ʿēṯ", "traducao_palavra": "tempo" },
+        { "hebraico": "לַחֲבֹ֔וק", "transliteral": "la-ḥă-ḇôq", "traducao_palavra": "de abraçar" },
+        { "hebraico": "וְעֵ֥ת", "transliteral": "wə-ʿēṯ", "traducao_palavra": "e tempo" },
+        { "hebraico": "לִרְחֹ֖ק", "transliteral": "lir-ḥōq", "traducao_palavra": "de se afastar de" },
+        { "hebraico": "מֵחַבֵּֽק׃", "transliteral": "mē-ḥab-bēq", "traducao_palavra": "abraçar" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "tempo de buscar e tempo de perder; tempo de guardar e tempo de deitar fora;",
+      "palavras": [
+        { "hebraico": "עֵ֤ת", "transliteral": "ʿēṯ", "traducao_palavra": "Tempo" },
+        { "hebraico": "לְבַקֵּשׁ֙", "transliteral": "lə-ḇaq-qēš", "traducao_palavra": "de buscar" },
+        { "hebraico": "וְעֵ֣ת", "transliteral": "wə-ʿēṯ", "traducao_palavra": "e tempo" },
+        { "hebraico": "לְאַבֵּ֔ד", "transliteral": "lə-ʾab-bêḏ", "traducao_palavra": "de perder" },
+        { "hebraico": "עֵ֥ת", "transliteral": "ʿēṯ", "traducao_palavra": "tempo" },
+        { "hebraico": "לִשְׁמֹ֖ור", "transliteral": "liš-môr", "traducao_palavra": "de guardar" },
+        { "hebraico": "וְעֵ֥ת", "transliteral": "wə-ʿēṯ", "traducao_palavra": "e tempo" },
+        { "hebraico": "לְהַשְׁלִֽיךְ׃", "transliteral": "lə-haš-lîḵ", "traducao_palavra": "de lançar fora" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "tempo de rasgar e tempo de coser; tempo de estar calado e tempo de falar;",
+      "palavras": [
+        { "hebraico": "עֵ֤ת", "transliteral": "ʿēṯ", "traducao_palavra": "Tempo" },
+        { "hebraico": "לִקְרֹ֨ועַ֙", "transliteral": "liq-rô-aʿ", "traducao_palavra": "de rasgar" },
+        { "hebraico": "וְעֵ֣ת", "transliteral": "wə-ʿēṯ", "traducao_palavra": "e tempo" },
+        { "hebraico": "לִתְפֹּ֔ור", "transliteral": "liṯ-pôr", "traducao_palavra": "de coser" },
+        { "hebraico": "עֵ֥ת", "transliteral": "ʿēṯ", "traducao_palavra": "tempo" },
+        { "hebraico": "לַחֲשֹׁ֖ות", "transliteral": "la-ḥă-šôṯ", "traducao_palavra": "de calar" },
+        { "hebraico": "וְעֵ֥ת", "transliteral": "wə-ʿēṯ", "traducao_palavra": "e tempo" },
+        { "hebraico": "לְדַבֵּֽר׃", "transliteral": "lə-ḏab-bêr", "traducao_palavra": "de falar" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "tempo de amar e tempo de odiar; tempo de guerra e tempo de paz.",
+      "palavras": [
+        { "hebraico": "עֵ֤ת", "transliteral": "ʿēṯ", "traducao_palavra": "Tempo" },
+        { "hebraico": "לֶאֱהֹב֙", "transliteral": "le-ʾĕ-hōḇ", "traducao_palavra": "de amar" },
+        { "hebraico": "וְעֵ֣ת", "transliteral": "wə-ʿēṯ", "traducao_palavra": "e tempo" },
+        { "hebraico": "לִשְׂנֹ֔א", "transliteral": "liś-nō", "traducao_palavra": "de odiar" },
+        { "hebraico": "עֵ֥ת", "transliteral": "ʿēṯ", "traducao_palavra": "tempo de" },
+        { "hebraico": "מִלְחָמָ֖ה", "transliteral": "mil-ḥā-mā", "traducao_palavra": "guerra" },
+        { "hebraico": "וְעֵ֥ת", "transliteral": "wə-ʿēṯ", "traducao_palavra": "e tempo de" },
+        { "hebraico": "שָׁלֹֽום׃", "transliteral": "šā-lôm", "traducao_palavra": "paz" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Que proveito tem o trabalhador naquilo em que trabalha?",
+      "palavras": [
+        { "hebraico": "מַה־", "transliteral": "mah-", "traducao_palavra": "Que" },
+        { "hebraico": "יִּתְרֹ֖ון", "transliteral": "yit-rôn", "traducao_palavra": "proveito/vantagem" },
+        { "hebraico": "הָעֹושֶׂ֑ה", "transliteral": "hā-ʿō-śeh", "traducao_palavra": "[tem] o que faz/trabalha" },
+        { "hebraico": "בַּאֲשֶׁ֖ר", "transliteral": "ba-ʾă-šer", "traducao_palavra": "naquilo em que" },
+        { "hebraico": "ה֥וּא", "transliteral": "hû", "traducao_palavra": "ele" },
+        { "hebraico": "עָמֵֽל׃", "transliteral": "ʿā-mêl", "traducao_palavra": "se afadiga/trabalha" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Tenho visto o trabalho que Deus deu aos filhos dos homens, para nele se exercitarem.",
+      "palavras": [
+        { "hebraico": "רָאִ֣יתִי", "transliteral": "rā-ʾî-ṯî", "traducao_palavra": "Vi" },
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "[objeto]" },
+        { "hebraico": "הָֽעִנְיָ֔ן", "transliteral": "hā-ʿin-yān", "traducao_palavra": "o trabalho/ocupação" },
+        { "hebraico": "אֲשֶׁ֨ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "נָתַ֧ן", "transliteral": "nā-ṯan", "traducao_palavra": "deu" },
+        { "hebraico": "אֱלֹהִ֛ים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "לִבְנֵ֥י", "transliteral": "liḇ-nê", "traducao_palavra": "aos filhos de" },
+        { "hebraico": "הָאָדָ֖ם", "transliteral": "hā-ʾā-ḏām", "traducao_palavra": "os homens" },
+        { "hebraico": "לַעֲנֹ֥ות", "transliteral": "la-ʿă-nôṯ", "traducao_palavra": "para se exercitarem" },
+        { "hebraico": "בֹּֽו׃", "transliteral": "bô", "traducao_palavra": "nele" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Tudo fez formoso no seu tempo; também pôs o mundo no coração deles, sem que o homem possa descobrir a obra que Deus fez desde o princípio até ao fim.",
+      "palavras": [
+        { "hebraico": "אֶת־הַכֹּ֥ל", "transliteral": "ʾeṯ-hak-kōl", "traducao_palavra": "Tudo" },
+        { "hebraico": "עָשָׂ֖ה", "transliteral": "ʿā-śā", "traducao_palavra": "ele fez" },
+        { "hebraico": "יָפֶ֣ה", "transliteral": "yā-p̄eh", "traducao_palavra": "belo/formoso" },
+        { "hebraico": "בְעִתֹּ֑ו", "transliteral": "ḇə-ʿit-tô", "traducao_palavra": "no seu tempo" },
+        { "hebraico": "גַּ֤ם", "transliteral": "gam", "traducao_palavra": "também" },
+        { "hebraico": "אֶת־הָעֹלָם֙", "transliteral": "ʾeṯ-hā-ʿō-lām", "traducao_palavra": "a eternidade/mundo" },
+        { "hebraico": "נָתַ֣ן", "transliteral": "nā-ṯan", "traducao_palavra": "pôs" },
+        { "hebraico": "בְּלִבָּ֔ם", "transliteral": "bə-lib-bām", "traducao_palavra": "no coração deles" },
+        { "hebraico": "מִבְּלִ֞י", "transliteral": "mib-bə-lî", "traducao_palavra": "sem que" },
+        { "hebraico": "אֲשֶׁ֧ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "לֹא־יִמְצָ֣א", "transliteral": "lō-yim-ṣā", "traducao_palavra": "não descubra" },
+        { "hebraico": "הָאָדָ֗ם", "transliteral": "hā-ʾā-ḏām", "traducao_palavra": "o homem" },
+        { "hebraico": "אֶת־הַֽמַּעֲשֶׂה֙", "transliteral": "ʾeṯ-ham-ma-ʿă-śeh", "traducao_palavra": "a obra" },
+        { "hebraico": "אֲשֶׁר־עָשָׂ֣ה", "transliteral": "ʾă-šer-ʿā-śā", "traducao_palavra": "que fez" },
+        { "hebraico": "הָאֱלֹהִ֔ים", "transliteral": "hā-ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "מֵרֹ֖אשׁ", "transliteral": "mê-rōš", "traducao_palavra": "desde o princípio" },
+        { "hebraico": "וְעַד־סֹֽוף׃", "transliteral": "wə-ʿaḏ-śôp̄", "traducao_palavra": "até o fim" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Já tenho conhecido que não há coisa melhor para eles do que alegrar-se e fazer bem na sua vida;",
+      "palavras": [
+        { "hebraico": "יָדַ֕עְתִּי", "transliteral": "yā-ḏa-ʿə-tî", "traducao_palavra": "Conheci" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "אֵ֥ין", "transliteral": "ʾên", "traducao_palavra": "não há" },
+        { "hebraico": "טֹ֖וב", "transliteral": "ṭôḇ", "traducao_palavra": "bem/melhor" },
+        { "hebraico": "בָּ֑ם", "transliteral": "bām", "traducao_palavra": "neles" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "exceto" },
+        { "hebraico": "אִם־לִשְׂמֹ֔וחַ", "transliteral": "ʾim-liś-mô-aḥ", "traducao_palavra": "alegrar-se" },
+        { "hebraico": "וְלַעֲשֹׂ֥ות", "transliteral": "wə-la-ʿă-śôṯ", "traducao_palavra": "e fazer" },
+        { "hebraico": "טֹ֖וב", "transliteral": "ṭôḇ", "traducao_palavra": "o bem" },
+        { "hebraico": "בְּחַיָּֽיו׃", "transliteral": "bə-ḥay-yāyw", "traducao_palavra": "na sua vida" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "e também que todo o homem coma e beba, e goze do bem de todo o seu trabalho; isto é um dom de Deus.",
+      "palavras": [
+        { "hebraico": "וְגַ֤ם", "transliteral": "wə-ḡam", "traducao_palavra": "E também" },
+        { "hebraico": "כָּל־הָאָדָם֙", "transliteral": "kāl-hā-ʾā-ḏām", "traducao_palavra": "todo homem" },
+        { "hebraico": "שֶׁיֹּאכַ֣ל", "transliteral": "še-yyō-ḵal", "traducao_palavra": "que coma" },
+        { "hebraico": "וְשָׁתָ֔ה", "transliteral": "wə-šā-ṯā", "traducao_palavra": "e beba" },
+        { "hebraico": "וְרָאָ֥ה", "transliteral": "wə-rā-ʾā", "traducao_palavra": "e veja/goze" },
+        { "hebraico": "טֹּ֖וב", "transliteral": "ṭôḇ", "traducao_palavra": "o bem" },
+        { "hebraico": "בְּכָל־עֲמָלֹ֑ו", "transliteral": "bə-ḵāl-ʿă-mā-lô", "traducao_palavra": "em todo seu trabalho" },
+        { "hebraico": "מַתַּ֥ת", "transliteral": "mat-taṯ", "traducao_palavra": "[é] dom de" },
+        { "hebraico": "אֱלֹהִ֖ים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "הִֽיא׃", "transliteral": "hî", "traducao_palavra": "ele/isso" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Eu sei que tudo quanto Deus faz durará eternamente; nada se lhe pode acrescentar, e nada se lhe pode tirar; e isso faz Deus para que os homens temam diante dele.",
+      "palavras": [
+        { "hebraico": "יָדַ֗עְתִּי", "transliteral": "yā-ḏa-ʿə-tî", "traducao_palavra": "Eu sei/conheci" },
+        { "hebraico": "כִּ֠י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "כָּל־אֲשֶׁ֨ר", "transliteral": "kāl-ʾă-šer", "traducao_palavra": "tudo o que" },
+        { "hebraico": "יַעֲשֶׂ֤ה", "transliteral": "ya-ʿă-śeh", "traducao_palavra": "faz" },
+        { "hebraico": "הָאֱלֹהִים֙", "transliteral": "hā-ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "ה֚וּא", "transliteral": "hû", "traducao_palavra": "ele" },
+        { "hebraico": "יִהְיֶ֣ה", "transliteral": "yih-yeh", "traducao_palavra": "será/permanecerá" },
+        { "hebraico": "לְעֹולָ֔ם", "transliteral": "lə-ʿô-lām", "traducao_palavra": "para sempre" },
+        { "hebraico": "עָלָיו֙", "transliteral": "ʿā-lāyw", "traducao_palavra": "sobre ele" },
+        { "hebraico": "אֵ֣ין", "transliteral": "ʾên", "traducao_palavra": "não [há]" },
+        { "hebraico": "לְהֹוסִ֔יף", "transliteral": "lə-hô-śîp̄", "traducao_palavra": "para acrescentar" },
+        { "hebraico": "וּמִמֶּ֖נּוּ", "transliteral": "ū-mim-men-nû", "traducao_palavra": "e dele" },
+        { "hebraico": "אֵ֣ין", "transliteral": "ʾên", "traducao_palavra": "não [há]" },
+        { "hebraico": "לִגְרֹ֑עַ", "transliteral": "liḡ-rō-aʿ", "traducao_palavra": "para tirar" },
+        { "hebraico": "וְהָאֱלֹהִ֣ים", "transliteral": "wə-hā-ʾĕ-lō-hîm", "traducao_palavra": "e Deus" },
+        { "hebraico": "עָשָׂ֔ה", "transliteral": "ʿā-śā", "traducao_palavra": "fez" },
+        { "hebraico": "שֶׁיִּֽרְא֖וּ", "transliteral": "še-yyir-ʾû", "traducao_palavra": "para que temam" },
+        { "hebraico": "מִלְּפָנָֽיו׃", "transliteral": "mil-lə-p̄ā-nāyw", "traducao_palavra": "diante dele" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "O que é, já foi; e o que há de ser, também já foi; e Deus pede conta do que passou.",
+      "palavras": [
+        { "hebraico": "מַה־", "transliteral": "mah-", "traducao_palavra": "O que" },
+        { "hebraico": "שֶּׁהָיָה֙", "transliteral": "še-hā-yā", "traducao_palavra": "que foi" },
+        { "hebraico": "כְּבָ֣ר", "transliteral": "kə-ḇār", "traducao_palavra": "já" },
+        { "hebraico": "ה֚וּא", "transliteral": "hû", "traducao_palavra": "[é] ele" },
+        { "hebraico": "וַאֲשֶׁ֥ר", "transliteral": "wa-ʾă-šer", "traducao_palavra": "e o que" },
+        { "hebraico": "לִהְיֹ֖ות", "transliteral": "lih-yôṯ", "traducao_palavra": "há de ser" },
+        { "hebraico": "כְּבָ֣ר", "transliteral": "kə-ḇār", "traducao_palavra": "já" },
+        { "hebraico": "הָיָ֑ה", "transliteral": "hā-yā", "traducao_palavra": "foi" },
+        { "hebraico": "וְהָאֱלֹהִ֖ים", "transliteral": "wə-hā-ʾĕ-lō-hîm", "traducao_palavra": "e Deus" },
+        { "hebraico": "יְבַקֵּ֥שׁ", "transliteral": "yə-ḇaq-qēš", "traducao_palavra": "busca/pede conta de" },
+        { "hebraico": "אֶת־נִרְדָּֽף׃", "transliteral": "ʾeṯ-nir-dāp̄", "traducao_palavra": "o que passou/foi perseguido" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Vi ainda debaixo do sol: no lugar do juízo, a impiedade; e no lugar da justiça, a impiedade.",
+      "palavras": [
+        { "hebraico": "וְעֹ֥וד", "transliteral": "wə-ʿôḏ", "traducao_palavra": "E ainda/além disso" },
+        { "hebraico": "רָאִ֖יתִי", "transliteral": "rā-ʾî-ṯî", "traducao_palavra": "vi" },
+        { "hebraico": "תַּ֣חַת", "transliteral": "ta-ḥaṯ", "traducao_palavra": "debaixo de" },
+        { "hebraico": "הַשָּׁ֑מֶשׁ", "transliteral": "haš-šā-meš", "traducao_palavra": "o sol" },
+        { "hebraico": "מְקֹ֤ום", "transliteral": "mə-qôm", "traducao_palavra": "lugar de" },
+        { "hebraico": "הַמִּשְׁפָּט֙", "transliteral": "ham-miš-pāṭ", "traducao_palavra": "o juízo" },
+        { "hebraico": "שָׁ֣מָּה", "transliteral": "šām-mā", "traducao_palavra": "ali [está]" },
+        { "hebraico": "הָרֶ֔שַׁע", "transliteral": "hā-re-šaʿ", "traducao_palavra": "a impiedade" },
+        { "hebraico": "וּמְקֹ֥ום", "transliteral": "ū-mə-qôm", "traducao_palavra": "e o lugar de" },
+        { "hebraico": "הַצֶּ֖דֶק", "transliteral": "haṣ-ṣe-ḏeq", "traducao_palavra": "a justiça" },
+        { "hebraico": "שָׁ֥מָּה", "transliteral": "šām-mā", "traducao_palavra": "ali [está]" },
+        { "hebraico": "הָרֶֽשַׁע׃", "transliteral": "hā-re-šaʿ", "traducao_palavra": "a impiedade" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "Eu disse no meu coração: Deus julgará o justo e o ímpio; porque há um tempo para todo o propósito e para toda a obra.",
+      "palavras": [
+        { "hebraico": "אָמַ֤רְתִּי", "transliteral": "ʾā-mar-tî", "traducao_palavra": "Disse" },
+        { "hebraico": "אֲנִי֙", "transliteral": "ʾă-nî", "traducao_palavra": "eu" },
+        { "hebraico": "בְּלִבִּ֔י", "transliteral": "bə-lib-bî", "traducao_palavra": "no meu coração" },
+        { "hebraico": "אֶת־הַצַּדִּ֖יק", "transliteral": "ʾeṯ-haṣ-ṣad-dîq", "traducao_palavra": "ao justo" },
+        { "hebraico": "וְאֶת־הָרָשָׁ֑ע", "transliteral": "wə-ʾeṯ-hā-rā-šāʿ", "traducao_palavra": "e ao ímpio" },
+        { "hebraico": "יִשְׁפֹּ֣ט", "transliteral": "yiš-pōṭ", "traducao_palavra": "julgará" },
+        { "hebraico": "הָאֱלֹהִ֔ים", "transliteral": "hā-ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "כִּי־עֵ֣ת", "transliteral": "kî-ʿēṯ", "traducao_palavra": "porque tempo [há]" },
+        { "hebraico": "לְכָל־חֵ֔פֶץ", "transliteral": "lə-ḵāl-ḥē-p̄eṣ", "traducao_palavra": "para todo propósito" },
+        { "hebraico": "וְעַ֥ל", "transliteral": "wə-ʿal", "traducao_palavra": "e sobre" },
+        { "hebraico": "כָּל־הַמַּעֲשֶׂ֖ה", "transliteral": "kāl-ham-ma-ʿă-śeh", "traducao_palavra": "toda obra" },
+        { "hebraico": "שָֽׁם׃", "transliteral": "šām", "traducao_palavra": "ali" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "Disse ainda no meu coração, quanto à condição dos filhos dos homens, que Deus os provaria para que vissem que são em si mesmos como animais.",
+      "palavras": [
+        { "hebraico": "אָמַ֤רְתִּי", "transliteral": "ʾā-mar-tî", "traducao_palavra": "Disse" },
+        { "hebraico": "אֲנִי֙", "transliteral": "ʾă-nî", "traducao_palavra": "eu" },
+        { "hebraico": "בְּלִבִּ֔י", "transliteral": "bə-lib-bî", "traducao_palavra": "no meu coração" },
+        { "hebraico": "עַל־דִּבְרַת֙", "transliteral": "ʿal-diḇ-raṯ", "traducao_palavra": "sobre o assunto/condição de" },
+        { "hebraico": "בְּנֵ֣י", "transliteral": "bə-nê", "traducao_palavra": "filhos de" },
+        { "hebraico": "הָאָדָ֔ם", "transliteral": "hā-ʾā-ḏām", "traducao_palavra": "os homens" },
+        { "hebraico": "לְבָרָ֖ם", "transliteral": "lə-ḇā-rām", "traducao_palavra": "para prová-los" },
+        { "hebraico": "הָאֱלֹהִ֑ים", "transliteral": "hā-ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "וְלִרְאֹ֕ות", "transliteral": "wə-lir-ʾôṯ", "traducao_palavra": "e para verem" },
+        { "hebraico": "שֶׁהֶם־בְּהֵמָ֥ה", "transliteral": "še-hem-bə-hē-mā", "traducao_palavra": "que eles [são] animais" },
+        { "hebraico": "הֵ֖מָּה", "transliteral": "hêm-mā", "traducao_palavra": "[são] eles" },
+        { "hebraico": "לָהֶֽם׃", "transliteral": "lā-hem", "traducao_palavra": "em si mesmos" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "Porque o que sucede aos filhos dos homens sucede aos animais; o mesmo sucesso lhes ocorre: como morre um, assim morre o outro, e todos têm o mesmo fôlego; a vantagem do homem sobre o animal não é nenhuma, porque tudo é vaidade.",
+      "palavras": [
+        { "hebraico": "כִּ֠י", "transliteral": "kî", "traducao_palavra": "Porque" },
+        { "hebraico": "מִקְרֶ֨ה", "transliteral": "miq-reh", "traducao_palavra": "[o] evento/acaso de" },
+        { "hebraico": "בְנֵֽי־הָאָדָ֜ם", "transliteral": "ḇə-nê-hā-ʾā-ḏām", "traducao_palavra": "filhos dos homens" },
+        { "hebraico": "וּמִקְרֶ֣ה", "transliteral": "ū-miq-reh", "traducao_palavra": "e o evento de" },
+        { "hebraico": "הַבְּהֵמָה֮", "transliteral": "hab-bə-hē-mā", "traducao_palavra": "o animal" },
+        { "hebraico": "וּמִקְרֶ֥ה", "transliteral": "ū-miq-reh", "traducao_palavra": "e um evento" },
+        { "hebraico": "אֶחָ֣ד", "transliteral": "ʾe-ḥāḏ", "traducao_palavra": "único/mesmo" },
+        { "hebraico": "לָהֶם֒", "transliteral": "lā-hem", "traducao_palavra": "[há] para eles" },
+        { "hebraico": "כְּמֹ֥ות", "transliteral": "kə-môṯ", "traducao_palavra": "como a morte de" },
+        { "hebraico": "זֶה֙", "transliteral": "zeh", "traducao_palavra": "deste" },
+        { "hebraico": "כֵּ֣מֹות", "transliteral": "kê-môṯ", "traducao_palavra": "assim a morte de" },
+        { "hebraico": "זֶ֔ה", "transliteral": "zeh", "traducao_palavra": "desse" },
+        { "hebraico": "וְר֥וּחַ", "transliteral": "wə-rū-aḥ", "traducao_palavra": "e fôlego/espírito" },
+        { "hebraico": "אֶחָ֖ד", "transliteral": "ʾe-ḥāḏ", "traducao_palavra": "único" },
+        { "hebraico": "לַכֹּ֑ל", "transliteral": "lak-kōl", "traducao_palavra": "para tudo/todos" },
+        { "hebraico": "וּמֹותַ֨ר", "transliteral": "ū-mô-ṯar", "traducao_palavra": "e vantagem de" },
+        { "hebraico": "הָאָדָ֤ם", "transliteral": "hā-ʾā-ḏām", "traducao_palavra": "o homem" },
+        { "hebraico": "מִן־הַבְּהֵמָה֙", "transliteral": "min-hab-bə-hē-mā", "traducao_palavra": "sobre o animal" },
+        { "hebraico": "אָ֔יִן", "transliteral": "ʾā-yin", "traducao_palavra": "não [há]" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "הַכֹּ֖ל", "transliteral": "hak-kōl", "traducao_palavra": "tudo" },
+        { "hebraico": "הָֽבֶל׃", "transliteral": "hā-ḇel", "traducao_palavra": "[é] vaidade" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "Todos vão para um lugar; todos são pó e todos ao pó voltarão.",
+      "palavras": [
+        { "hebraico": "הַכֹּ֥ל", "transliteral": "hak-kōl", "traducao_palavra": "Tudo/todos" },
+        { "hebraico": "הֹולֵ֖ךְ", "transliteral": "hô-lêḵ", "traducao_palavra": "vão/caminham" },
+        { "hebraico": "אֶל־מָקֹ֣ום", "transliteral": "ʾel-mā-qôm", "traducao_palavra": "para um lugar" },
+        { "hebraico": "אֶחָ֑ד", "transliteral": "ʾe-ḥāḏ", "traducao_palavra": "único" },
+        { "hebraico": "הַכֹּל֙", "transliteral": "hak-kōl", "traducao_palavra": "tudo" },
+        { "hebraico": "הָיָ֣ה", "transliteral": "hā-yā", "traducao_palavra": "foi" },
+        { "hebraico": "מִן־הֶֽעָפָ֔ר", "transliteral": "min-he-ʿā-p̄ār", "traducao_palavra": "do pó" },
+        { "hebraico": "וְהַכֹּ֖ל", "transliteral": "wə-hak-kōl", "traducao_palavra": "e tudo" },
+        { "hebraico": "שָׁ֥ב", "transliteral": "šāḇ", "traducao_palavra": "volta" },
+        { "hebraico": "אֶל־הֶעָפָֽר׃", "transliteral": "ʾel-he-ʿā-p̄ār", "traducao_palavra": "ao pó" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "Quem sabe se o espírito dos filhos dos homens sobe para cima e se o espírito dos animais desce para baixo, para a terra?",
+      "palavras": [
+        { "hebraico": "מִ֣י", "transliteral": "mî", "traducao_palavra": "Quem" },
+        { "hebraico": "יֹודֵ֗עַ", "transliteral": "yô-ḏê-aʿ", "traducao_palavra": "sabe?" },
+        { "hebraico": "ר֚וּחַ", "transliteral": "rū-aḥ", "traducao_palavra": "o espírito de" },
+        { "hebraico": "בְּנֵ֣י", "transliteral": "bə-nê", "traducao_palavra": "filhos de" },
+        { "hebraico": "הָאָדָ֔ם", "transliteral": "hā-ʾā-ḏām", "traducao_palavra": "os homens" },
+        { "hebraico": "הָעֹלָ֥ה", "transliteral": "hā-ʿō-lā", "traducao_palavra": "que sobe" },
+        { "hebraico": "הִ֖יא", "transliteral": "hî", "traducao_palavra": "ele" },
+        { "hebraico": "לְמָ֑עְלָה", "transliteral": "lə-mā-ʿlā", "traducao_palavra": "para cima" },
+        { "hebraico": "וְר֨וּחַ֙", "transliteral": "wə-rū-aḥ", "traducao_palavra": "e o espírito de" },
+        { "hebraico": "הַבְּהֵמָ֔ה", "transliteral": "hab-bə-hē-mā", "traducao_palavra": "o animal" },
+        { "hebraico": "הַיֹּרֶ֥דֶת", "transliteral": "hay-yō-re-ḏeṯ", "traducao_palavra": "que desce" },
+        { "hebraico": "הִ֖יא", "transliteral": "hî", "traducao_palavra": "ele" },
+        { "hebraico": "לְמַ֥טָּה", "transliteral": "lə-maṭ-ṭā", "traducao_palavra": "para baixo" },
+        { "hebraico": "לָאָֽרֶץ׃", "transliteral": "lā-ʾā-reṣ", "traducao_palavra": "para a terra" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "Vi, pois, que não há nada melhor para o homem do que alegrar-se nas suas obras, porque essa é a sua porção; pois quem o fará voltar para ver o que será depois dele?",
+      "palavras": [
+        { "hebraico": "וְרָאִ֗יתִי", "transliteral": "wə-rā-ʾî-ṯî", "traducao_palavra": "E vi" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "אֵ֥ין", "transliteral": "ʾên", "traducao_palavra": "não [há]" },
+        { "hebraico": "טֹוב֙", "transliteral": "ṭôḇ", "traducao_palavra": "melhor" },
+        { "hebraico": "מֵאֲשֶׁ֨ר", "transliteral": "mē-ʾă-šer", "traducao_palavra": "do que" },
+        { "hebraico": "יִשְׂמַ֤ח", "transliteral": "yiś-maḥ", "traducao_palavra": "alegrar-se" },
+        { "hebraico": "הָאָדָם֙", "transliteral": "hā-ʾā-ḏām", "traducao_palavra": "o homem" },
+        { "hebraico": "בְּמַעֲשָׂ֔יו", "transliteral": "bə-ma-ʿă-śāyw", "traducao_palavra": "nas suas obras" },
+        { "hebraico": "כִּי־ה֖וּא", "transliteral": "kî-hû", "traducao_palavra": "porque ele/isso [é]" },
+        { "hebraico": "חֶלְקֹ֑ו", "transliteral": "ḥel-qô", "traducao_palavra": "sua porção" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "מִ֤י", "transliteral": "mî", "traducao_palavra": "quem" },
+        { "hebraico": "יְבִיאֶ֨נּוּ֙", "transliteral": "yə-ḇî-ʾen-nû", "traducao_palavra": "o trará/fará voltar" },
+        { "hebraico": "לִרְאֹֹ֔ות", "transliteral": "lir-ʾôṯ", "traducao_palavra": "para ver" },
+        { "hebraico": "בְּמֶ֖ה", "transliteral": "bə-meh", "traducao_palavra": "no que" },
+        { "hebraico": "שֶׁיִּהְיֶ֥ה", "transliteral": "še-yyih-yeh", "traducao_palavra": "que será" },
+        { "hebraico": "אַחֲרָֽיו׃", "transliteral": "ʾa-ḥă-rāyw", "traducao_palavra": "depois dele" }
+      ]
+    }
+  }
 }
