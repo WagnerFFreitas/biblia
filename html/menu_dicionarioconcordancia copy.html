@@ -1,174 +1,174 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Concordância e Dicionário Bíblico</title>
-    <link rel="stylesheet" href="../css/menu_dicionarioconcordancia.css">
-    <link rel="stylesheet" href="../css/concordancia.css">
-    <link rel="stylesheet" href="../css/dicionario.css">
-</head>
-<body>
-    <header>
-        <div class="cabecalho-superior">
-            <div class="titulo-conteiner">
-                <h1>Concordância e Dicionário Bíblico</h1>
-                <p class="nome-extenso">Localize todas as ocorrências de palavras na Bíblia Sagrada</p>
-            </div>
-        </div>
-        
-        <nav>
-            <span class="titulo-menu" style="display: none;">NAVEGAÇÃO</span>
-            <ul class="menu-opcoes">
-                <li><a href="../index.html" id="menu-principal">Menu Principal</a></li>
-                <li><a href="#" id="concordancia">Concordância</a></li>
-                <li><a href="#" id="dicionario">Dicionário</a></li>
-                <li><a href="#" id="sobre">Sobre</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="conteiner">
-        <aside class="menu-alfabetico" style="display: none;">
-            <div class="alfabeto-conteiner">
-                <button class="letra-btn" data-letra="A">A</button>
-                <button class="letra-btn" data-letra="B">B</button>
-                <button class="letra-btn" data-letra="C">C</button>
-                <button class="letra-btn" data-letra="D">D</button>
-                <button class="letra-btn" data-letra="E">E</button>
-                <button class="letra-btn" data-letra="F">F</button>
-                <button class="letra-btn" data-letra="G">G</button>
-                <button class="letra-btn" data-letra="H">H</button>
-                <button class="letra-btn" data-letra="I">I</button>
-                <button class="letra-btn" data-letra="J">J</button>
-                <button class="letra-btn" data-letra="K">K</button>
-                <button class="letra-btn" data-letra="L">L</button>
-                <button class="letra-btn" data-letra="M">M</button>
-                <button class="letra-btn" data-letra="N">N</button>
-                <button class="letra-btn" data-letra="O">O</button>
-                <button class="letra-btn" data-letra="P">P</button>
-                <button class="letra-btn" data-letra="Q">Q</button>
-                <button class="letra-btn" data-letra="R">R</button>
-                <button class="letra-btn" data-letra="S">S</button>
-                <button class="letra-btn" data-letra="T">T</button>
-                <button class="letra-btn" data-letra="U">U</button>
-                <button class="letra-btn" data-letra="V">V</button>
-                <button class="letra-btn" data-letra="W">W</button>
-                <button class="letra-btn" data-letra="X">X</button>
-                <button class="letra-btn" data-letra="Y">Y</button>
-                <button class="letra-btn" data-letra="Z">Z</button>
-            </div>
-        </aside>
-
-        <main id="conteudo-principal">
-            <div id="mensagem-inicial">
-                <h2>Seja bem-vindo!</h2>
-                <p>Escolha Concordância ou Dicionário no menu superior.</p>
-            </div>
-
-            <section id="secao-concordancia" class="secao-inativa">
-                <div class="filtros-conteiner">
-                    <div class="filtros-linha">
-                        <div class="filtro-grupo">
-                            <label for="filtro-palavra-input">Palavra:</label>
-                            <input type="text" id="filtro-palavra-input" placeholder="Filtrar palavras na lista...">
-                        </div>
-                        <div class="filtro-grupo">
-                            <label for="testamento-select">Testamento:</label>
-                            <div class="custom-select" id="custom-testamento-select">
-                                <div class="select-selected" data-value="todos">Todos</div>
-                                <div class="select-items select-hide">
-                                    <div data-value="todos">Todos</div>
-                                    <div data-value="Antigo Testamento">Antigo Testamento</div>
-                                    <div data-value="Novo Testamento">Novo Testamento</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="filtro-grupo">
-                            <label for="livro-select">Livro:</label>
-                            <div class="custom-select" id="custom-livro-select">
-                                <div class="select-selected" data-value="todos">Todos os livros</div>
-                                <div class="select-items select-hide">
-                                    <div data-value="todos">Todos os livros</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="filtro-grupo">
-                            <label for="busca-global">Busca:</label>
-                            <input type="text" id="busca-global" placeholder="Busca global na Bíblia...">
-                        </div>
-                        <div class="filtro-grupo">
-                            <label> </label>
-                            <button id="btn-buscar" class="search-btn">CONSULTAR</button>
-                        </div>
-                    </div>
-                </div>
-                <div id="loading-indicator" class="loading-conteiner" style="display: none;">
-                    <div class="loading-spinner"></div>
-                    <p>Carregando dados...</p>
-                </div>
-                <div id="contador-resultados" class="contador-conteiner" style="display: none;">
-                    <button id="carregar-mais" class="btn-carregar-mais" style="display: none;">CARREGAR MAIS RESULTADOS</button>
-                    <p>Mostrando <span id="resultados-visiveis">0</span> de <span id="total-resultados">0</span> resultados</p>
-                </div>
-                <div id="resultados-conteiner">
-                    <p class="mensagem-inicial">Selecione uma letra ou realize uma busca para continuar.</p>
-                </div>
-            </section>
-
-            <section id="secao-dicionario" class="secao-inativa">
-                <div class="dicionario-linha">
-                    <div class="dicionario-busca-grupo">
-                        <div class="dicionario-busca">
-                            <input type="text" placeholder="Buscar termo no dicionário...">
-                        </div>
-                        <button class="dicionario-btn">BUSCAR</button>
-                    </div>
-                </div>
-                <div class="dicionario-conteudo-wrapper">
-                    <div class="dicionario-opcoes-laterais"></div>
-                    <div id="dicionario-resultados">
-                        <p class="mensagem-inicial">Escolha uma letra para exibir os termos do dicionário.</p>
-                    </div>
-                </div>
-            </section>
-
-            <section id="secao-sobre" class="secao-inativa">
-                <div class="sobre-conteiner">
-                    <h2>Sobre a Concordância e Dicionário Bíblico</h2>
-                    <p>Esta ferramenta permite localizar todas as ocorrências de palavras na Bíblia Sagrada, além de fornecer definições detalhadas de termos bíblicos.</p>
-                    <h3>Como usar a Concordância:</h3>
-                    <ul>
-                        <li>Clique em uma letra do alfabeto para ver todas as palavras que começam com ela</li>
-                        <li>Use os filtros para refinar sua busca por testamento ou livro específico</li>
-                        <li>Digite uma palavra na busca global para encontrar todas as suas ocorrências</li>
-                    </ul>
-                    <h3>Como usar o Dicionário:</h3>
-                    <ul>
-                        <li>Digite um termo bíblico no campo de busca</li>
-                        <li>Veja definições detalhadas, etimologia e referências relacionadas</li>
-                        <li>Use as sugestões automáticas para encontrar termos relacionados</li>
-                    </ul>
-                </div>
-            </section>
-            <section class="conteudo">
-                <h2></h2>
-                <!--<div class="marcadagua"></div>-->
-            </section>
-        </main>
-    </div>
-
-    <footer>
-        <p>© Bíblia Sagrada 2025</p>
-    </footer>
-
-    <!-- Carregamos o gerenciador primeiro -->
-    <script src="../script/gerenciador_concordancia_novo.js"></script>
-    <!-- Depois os scripts que dependem dele -->
-    <script src="../script/concordancia-optimizada.js"></script>
-    <script src="../script/dicionario.js"></script>
-    <script src="../script/marcadagua.js"></script>
-    <!-- Por último carregamos o script principal -->
-    <script src="../script/menu_dicionarioconcordancia.js"></script>
-</body>
-</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concordância e Dicionário Bíblico</title>
+    <link rel="stylesheet" href="../css/menu_dicionarioconcordancia.css">
+    <link rel="stylesheet" href="../css/concordancia.css">
+    <link rel="stylesheet" href="../css/dicionario.css">
+</head>
+<body>
+    <header>
+        <div class="cabecalho-superior">
+            <div class="titulo-conteiner">
+                <h1>Concordância e Dicionário Bíblico</h1>
+                <p class="nome-extenso">Localize todas as ocorrências de palavras na Bíblia Sagrada</p>
+            </div>
+        </div>
+        
+        <nav>
+            <span class="titulo-menu" style="display: none;">NAVEGAÇÃO</span>
+            <ul class="menu-opcoes">
+                <li><a href="../index.html" id="menu-principal">Menu Principal</a></li>
+                <li><a href="#" id="concordancia">Concordância</a></li>
+                <li><a href="#" id="dicionario">Dicionário</a></li>
+                <li><a href="#" id="sobre">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="conteiner">
+        <aside class="menu-alfabetico" style="display: none;">
+            <div class="alfabeto-conteiner">
+                <button class="letra-btn" data-letra="A">A</button>
+                <button class="letra-btn" data-letra="B">B</button>
+                <button class="letra-btn" data-letra="C">C</button>
+                <button class="letra-btn" data-letra="D">D</button>
+                <button class="letra-btn" data-letra="E">E</button>
+                <button class="letra-btn" data-letra="F">F</button>
+                <button class="letra-btn" data-letra="G">G</button>
+                <button class="letra-btn" data-letra="H">H</button>
+                <button class="letra-btn" data-letra="I">I</button>
+                <button class="letra-btn" data-letra="J">J</button>
+                <button class="letra-btn" data-letra="K">K</button>
+                <button class="letra-btn" data-letra="L">L</button>
+                <button class="letra-btn" data-letra="M">M</button>
+                <button class="letra-btn" data-letra="N">N</button>
+                <button class="letra-btn" data-letra="O">O</button>
+                <button class="letra-btn" data-letra="P">P</button>
+                <button class="letra-btn" data-letra="Q">Q</button>
+                <button class="letra-btn" data-letra="R">R</button>
+                <button class="letra-btn" data-letra="S">S</button>
+                <button class="letra-btn" data-letra="T">T</button>
+                <button class="letra-btn" data-letra="U">U</button>
+                <button class="letra-btn" data-letra="V">V</button>
+                <button class="letra-btn" data-letra="W">W</button>
+                <button class="letra-btn" data-letra="X">X</button>
+                <button class="letra-btn" data-letra="Y">Y</button>
+                <button class="letra-btn" data-letra="Z">Z</button>
+            </div>
+        </aside>
+
+        <main id="conteudo-principal">
+            <div id="mensagem-inicial">
+                <h2>Seja bem-vindo!</h2>
+                <p>Escolha Concordância ou Dicionário no menu superior.</p>
+            </div>
+
+            <section id="secao-concordancia" class="secao-inativa">
+                <div class="filtros-conteiner">
+                    <div class="filtros-linha">
+                        <div class="filtro-grupo">
+                            <label for="filtro-palavra-input">Palavra:</label>
+                            <input type="text" id="filtro-palavra-input" placeholder="Filtrar palavras na lista...">
+                        </div>
+                        <div class="filtro-grupo">
+                            <label for="testamento-select">Testamento:</label>
+                            <div class="custom-select" id="custom-testamento-select">
+                                <div class="select-selected" data-value="todos">Todos</div>
+                                <div class="select-items select-hide">
+                                    <div data-value="todos">Todos</div>
+                                    <div data-value="Antigo Testamento">Antigo Testamento</div>
+                                    <div data-value="Novo Testamento">Novo Testamento</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filtro-grupo">
+                            <label for="livro-select">Livro:</label>
+                            <div class="custom-select" id="custom-livro-select">
+                                <div class="select-selected" data-value="todos">Todos os livros</div>
+                                <div class="select-items select-hide">
+                                    <div data-value="todos">Todos os livros</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filtro-grupo">
+                            <label for="busca-global">Busca:</label>
+                            <input type="text" id="busca-global" placeholder="Busca global na Bíblia...">
+                        </div>
+                        <div class="filtro-grupo">
+                            <label> </label>
+                            <button id="btn-buscar" class="search-btn">CONSULTAR</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="loading-indicator" class="loading-conteiner" style="display: none;">
+                    <div class="loading-spinner"></div>
+                    <p>Carregando dados...</p>
+                </div>
+                <div id="contador-resultados" class="contador-conteiner" style="display: none;">
+                    <button id="carregar-mais" class="btn-carregar-mais" style="display: none;">CARREGAR MAIS RESULTADOS</button>
+                    <p>Mostrando <span id="resultados-visiveis">0</span> de <span id="total-resultados">0</span> resultados</p>
+                </div>
+                <div id="resultados-conteiner">
+                    <p class="mensagem-inicial">Selecione uma letra ou realize uma busca para continuar.</p>
+                </div>
+            </section>
+
+            <section id="secao-dicionario" class="secao-inativa">
+                <div class="dicionario-linha">
+                    <div class="dicionario-busca-grupo">
+                        <div class="dicionario-busca">
+                            <input type="text" placeholder="Buscar termo no dicionário...">
+                        </div>
+                        <button class="dicionario-btn">BUSCAR</button>
+                    </div>
+                </div>
+                <div class="dicionario-conteudo-wrapper">
+                    <div class="dicionario-opcoes-laterais"></div>
+                    <div id="dicionario-resultados">
+                        <p class="mensagem-inicial">Escolha uma letra para exibir os termos do dicionário.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="secao-sobre" class="secao-inativa">
+                <div class="sobre-conteiner">
+                    <h2>Sobre a Concordância e Dicionário Bíblico</h2>
+                    <p>Esta ferramenta permite localizar todas as ocorrências de palavras na Bíblia Sagrada, além de fornecer definições detalhadas de termos bíblicos.</p>
+                    <h3>Como usar a Concordância:</h3>
+                    <ul>
+                        <li>Clique em uma letra do alfabeto para ver todas as palavras que começam com ela</li>
+                        <li>Use os filtros para refinar sua busca por testamento ou livro específico</li>
+                        <li>Digite uma palavra na busca global para encontrar todas as suas ocorrências</li>
+                    </ul>
+                    <h3>Como usar o Dicionário:</h3>
+                    <ul>
+                        <li>Digite um termo bíblico no campo de busca</li>
+                        <li>Veja definições detalhadas, etimologia e referências relacionadas</li>
+                        <li>Use as sugestões automáticas para encontrar termos relacionados</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="conteudo">
+                <h2></h2>
+                <!-- <div class="marcadagua"></div> -->
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>© Bíblia Sagrada 2025</p>
+    </footer>
+
+    <!-- Carregamos o gerenciador primeiro -->
+    <script src="../script/gerenciador_concordancia_novo.js"></script>
+    <!-- Depois os scripts que dependem dele -->
+    <script src="../script/concordancia-optimizada.js"></script>
+    <script src="../script/dicionario.js"></script>
+    <script src="../script/marcadagua.js"></script>
+    <!-- Por último carregamos o script principal -->
+    <script src="../script/menu_dicionarioconcordancia.js"></script>
+</body>
+</html>

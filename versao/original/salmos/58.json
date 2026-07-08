@@ -1,6 +1,156 @@
 {
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+  "livro": "Salmos - תְּהִלִּים - Tehillim",
   "capítulo": 58,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Falais vós deveras, ó congregação, a justiça? Julgais retamente, ó filhos dos homens?",
+      "palavras": [
+        { "hebraico": "הַֽאֻמְנָ֗ם", "transliteral": "ha-ʾum-nām", "traducao_palavra": "acaso deveras" },
+        { "hebraico": "אֵ֣לֶם", "transliteral": "ʾē-lem", "traducao_palavra": "em silêncio/ó congregação" },
+        { "hebraico": "צֶ֭דֶק", "transliteral": "ṣe-ḏeq", "traducao_palavra": "[a] justiça" },
+        { "hebraico": "תְּדַבֵּר֑וּן", "transliteral": "tə-ḏab-bē-rûn", "traducao_palavra": "falais" },
+        { "hebraico": "מֵישָׁרִ֥ים", "transliteral": "mê-šā-rîm", "traducao_palavra": "retamente/equidade" },
+        { "hebraico": "תִּ֝שְׁפְּט֗וּ", "transliteral": "tiš-pə-ṭû", "traducao_palavra": "julgais" },
+        { "hebraico": "בְּנֵ֣י", "transliteral": "bə-nê", "traducao_palavra": "filhos de" },
+        { "hebraico": "אָדָֽם׃", "transliteral": "ʾā-ḏām", "traducao_palavra": "homem/Adão" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Não, antes no coração sentenciais iniquidades; na terra pesais a violência das vossas mãos.",
+      "palavras": [
+        { "hebraico": "אַף־", "transliteral": "ʾap̄-", "traducao_palavra": "também/antes" },
+        { "hebraico": "בְּלֵב֮", "transliteral": "bə-lēḇ", "traducao_palavra": "no coração" },
+        { "hebraico": "עֹולֹ֪ת", "transliteral": "ʿô-lōṯ", "traducao_palavra": "iniquidades/injustiças" },
+        { "hebraico": "תִּפְעָ֫ל֥וּן", "transliteral": "tip̄-ʿā-lûn", "traducao_palavra": "praticais" },
+        { "hebraico": "בָּאָ֑רֶץ", "transliteral": "bā-ʾā-reṣ", "traducao_palavra": "na terra" },
+        { "hebraico": "חֲמַ֥ס", "transliteral": "ḥă-maś", "traducao_palavra": "a violência de" },
+        { "hebraico": "יְ֝דֵיכֶ֗ם", "transliteral": "yə-ḏê-ḵem", "traducao_palavra": "vossas mãos" },
+        { "hebraico": "תְּפַלֵּסֽוּן׃", "transliteral": "tə-p̄al-lē-śûn", "traducao_palavra": "pesais/preparais" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Alienam-se os ímpios desde a madre; andam errados desde que nasceram, falando mentiras.",
+      "palavras": [
+        { "hebraico": "זֹ֘רוּ", "transliteral": "zō-rû", "traducao_palavra": "alienaram-se" },
+        { "hebraico": "רְשָׁעִ֥ים", "transliteral": "rə-šā-ʿîm", "traducao_palavra": "[os] ímpios" },
+        { "hebraico": "מֵרָ֑חֶם", "transliteral": "mē-rā-ḥem", "traducao_palavra": "desde o útero/madre" },
+        { "hebraico": "תָּע֥וּ", "transliteral": "tā-ʿû", "traducao_palavra": "erraram/extraviaram-se" },
+        { "hebraico": "מִ֝בֶּ֗טֶן", "transliteral": "mib-be-ṭen", "traducao_palavra": "desde o ventre" },
+        { "hebraico": "דֹּבְרֵ֥י", "transliteral": "dō-ḇə-rê", "traducao_palavra": "faladores de" },
+        { "hebraico": "כָזָֽב׃", "transliteral": "ḵā-zāḇ", "traducao_palavra": "mentira" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "O seu veneno é semelhante ao veneno da serpente; são como a víbora surda, que tapa os seus ouvidos,",
+      "palavras": [
+        { "hebraico": "חֲמַת־", "transliteral": "ḥă-maṯ-", "traducao_palavra": "veneno de" },
+        { "hebraico": "לָ֭מֹו", "transliteral": "lā-mô", "traducao_palavra": "deles" },
+        { "hebraico": "כִּדְמ֣וּת", "transliteral": "kiḏ-mûṯ", "traducao_palavra": "conforme a semelhança de" },
+        { "hebraico": "חֲמַת־", "transliteral": "ḥă-maṯ-", "traducao_palavra": "veneno de" },
+        { "hebraico": "נָחָ֑שׁ", "transliteral": "nā-ḥāš", "traducao_palavra": "serpente" },
+        { "hebraico": "כְּמֹו־", "transliteral": "kə-mô-", "traducao_palavra": "como" },
+        { "hebraico": "פֶ֥תֶן", "transliteral": "p̄e-ṯen", "traducao_palavra": "víbora/áspide" },
+        { "hebraico": "חֵ֝רֵ֗שׁ", "transliteral": "ḥē-rēš", "traducao_palavra": "surda" },
+        { "hebraico": "יַאְטֵ֥ם", "transliteral": "ya-ʾə-ṭēm", "traducao_palavra": "[que] tapa" },
+        { "hebraico": "אָזְנֹֽו׃", "transliteral": "ʾā-zə-nô", "traducao_palavra": "seu ouvido" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Para não ouvir a voz dos encantadores, do encantador perito em encantamentos.",
+      "palavras": [
+        { "hebraico": "אֲשֶׁ֤ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "לֹא־", "transliteral": "lō-", "traducao_palavra": "não" },
+        { "hebraico": "יִשְׁמַ֗ע", "transliteral": "yiš-maʿ", "traducao_palavra": "ouvirá" },
+        { "hebraico": "לְקֹ֥ול", "transliteral": "lə-qôl", "traducao_palavra": "à voz de" },
+        { "hebraico": "מְלַחֲשִׁ֑ים", "transliteral": "mə-la-ḥă-šîm", "traducao_palavra": "encantadores/murmuradores" },
+        { "hebraico": "חֹובֵ֖ר", "transliteral": "ḥô-ḇēr", "traducao_palavra": "conjurador de" },
+        { "hebraico": "חֲבָרִ֣ים", "transliteral": "ḥă-ḇā-rîm", "traducao_palavra": "feitiços/conjuros" },
+        { "hebraico": "מְחֻכָּֽם׃", "transliteral": "mə-ḥuk-kām", "traducao_palavra": "sábio/perito" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Ó Deus, quebra-lhes os dentes nas suas bocas; arranca, YHWH, os queixais aos leõezinhos.",
+      "palavras": [
+        { "hebraico": "אֱ֭לֹהִים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "ó Deus" },
+        { "hebraico": "הֲרָס־", "transliteral": "hă-ros-", "traducao_palavra": "quebra/destrói" },
+        { "hebraico": "שִׁנֵּ֣ימֹו", "transliteral": "šin-nê-mô", "traducao_palavra": "dentes deles" },
+        { "hebraico": "בְּפִ֑יהֶם", "transliteral": "bə-p̄î-hem", "traducao_palavra": "na boca deles" },
+        { "hebraico": "מַלְתְּעֹ֥ות", "transliteral": "mal-tə-ʿôṯ", "traducao_palavra": "[os] queixais de" },
+        { "hebraico": "כְּ֝פִירִ֗ים", "transliteral": "kə-p̄î-rîm", "traducao_palavra": "leõezinhos" },
+        { "hebraico": "נְתֹ֥ץ", "transliteral": "nə-ṯōṣ", "traducao_palavra": "arranca" },
+        { "hebraico": "יְהוָֽה׃", "transliteral": "YHWH", "traducao_palavra": "YHWH" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Escoem-se como águas que correm continuamente; quando ele armar as suas setas, fiquem elas embotadas.",
+      "palavras": [
+        { "hebraico": "יִמָּאֲס֣וּ", "transliteral": "yim-mā-ʾă-śû", "traducao_palavra": "rejeitem-se/desapareçam" },
+        { "hebraico": "כְמַיִם֮", "transliteral": "ḵə-ma-yim", "traducao_palavra": "como águas" },
+        { "hebraico": "יִתְהַלְּכוּ־", "transliteral": "yiṯ-hal-lə-ḵû-", "traducao_palavra": "andam/fluem" },
+        { "hebraico": "לָ֑מֹו", "transliteral": "lā-mô", "traducao_palavra": "para elas" },
+        { "hebraico": "יִדְרֹ֥ךְ", "transliteral": "yiḏ-rōḵ", "traducao_palavra": "ele pisará/armará" },
+        { "hebraico": "חִצָּ֗ו", "transliteral": "ḥiṣ-ṣāw", "traducao_palavra": "setas dele" },
+        { "hebraico": "כְּמֹ֣ו", "transliteral": "kə-mô", "traducao_palavra": "como se" },
+        { "hebraico": "יִתְמֹלָֽלוּ׃", "transliteral": "yiṯ-mō-lā-lû", "traducao_palavra": "se desfizessem/cortassem" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Como a lesma que se derrete, passem eles; como o aborto de mulher, não vejam o sol.",
+      "palavras": [
+        { "hebraico": "כְּמֹ֥ו", "transliteral": "kə-mô", "traducao_palavra": "como" },
+        { "hebraico": "שַׁבְּל֣וּל", "transliteral": "šab-lə-lûl", "traducao_palavra": "caracol/lesma" },
+        { "hebraico": "תֶּ֣מֶס", "transliteral": "te-mes", "traducao_palavra": "[que em] derretimento" },
+        { "hebraico": "יַהֲלֹ֑ךְ", "transliteral": "ya-hă-lōḵ", "traducao_palavra": "ele vai/passa" },
+        { "hebraico": "נֵ֥פֶל", "transliteral": "nē-p̄el", "traducao_palavra": "[como] aborto de" },
+        { "hebraico": "אֵ֝שֶׁת", "transliteral": "ʾē-šeṯ", "traducao_palavra": "mulher" },
+        { "hebraico": "בַּל־", "transliteral": "bal-", "traducao_palavra": "não" },
+        { "hebraico": "חָ֥זוּ", "transliteral": "ḥā-zû", "traducao_palavra": "viram" },
+        { "hebraico": "שָֽׁמֶשׁ׃", "transliteral": "šā-meš", "traducao_palavra": "[o] sol" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Antes que as vossas panelas sintam o calor dos espinhos, ele os arrebatará como por um turbilhão, tanto o verde como o que está em brasas.",
+      "palavras": [
+        { "hebraico": "בְּטֶ֤רֶם", "transliteral": "bə-ṭe-rem", "traducao_palavra": "antes que" },
+        { "hebraico": "יָבִ֣ינוּ", "transliteral": "yā-ḇî-nû", "traducao_palavra": "entendam/sintam" },
+        { "hebraico": "סִּירֹתֵיכֶ֣ם", "transliteral": "śî-rō-ṯê-ḵem", "traducao_palavra": "panelas vossas" },
+        { "hebraico": "אָטָ֑ד", "transliteral": "ʾā-ṭāḏ", "traducao_palavra": "[o] espinheiro" },
+        { "hebraico": "כְּמֹו־", "transliteral": "kə-mô-", "traducao_palavra": "como" },
+        { "hebraico": "חַ֥י", "transliteral": "ḥay", "traducao_palavra": "vivo/verde" },
+        { "hebraico": "כְּמֹו־", "transliteral": "kə-mô-", "traducao_palavra": "como" },
+        { "hebraico": "חָ֝רֹון", "transliteral": "ḥā-rôn", "traducao_palavra": "ardor/queima" },
+        { "hebraico": "יִשְׂעָרֶֽנּוּ׃", "transliteral": "yiś-ʿā-ren-nû", "traducao_palavra": "ele os arrebatará" }
+      ]
+    },
+    "    10": {
+      "traducao_completa": "O justo se alegrará quando vir a vingança; lavará os seus pés no sangue do ímpio.",
+      "palavras": [
+        { "hebraico": "יִשְׂמַ֣ח", "transliteral": "yiś-maḥ", "traducao_palavra": "alegrar-se-á" },
+        { "hebraico": "צַ֭דִּיק", "transliteral": "ṣad-dîq", "traducao_palavra": "[o] justo" },
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "quando" },
+        { "hebraico": "חָזָ֣ה", "transliteral": "ḥā-zā", "traducao_palavra": "vir" },
+        { "hebraico": "נָקָ֑ם", "transliteral": "nā-qām", "traducao_palavra": "vingança" },
+        { "hebraico": "פְּעָמָ֥יו", "transliteral": "pə-ʿā-māw", "traducao_palavra": "seus pés/passos" },
+        { "hebraico": "יִ֝רְחַ֗ץ", "transliteral": "yir-ḥaṣ", "traducao_palavra": "lavará" },
+        { "hebraico": "בְּדַ֣ם", "transliteral": "bə-ḏam", "traducao_palavra": "no sangue de" },
+        { "hebraico": "הָרָשָֽׁע׃", "transliteral": "hā-rā-šāʿ", "traducao_palavra": "o ímpio" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Então dirá o homem: Deveras há uma recompensa para o justo; deveras há um Deus que julga na terra.",
+      "palavras": [
+        { "hebraico": "וְיֹאמַ֣ר", "transliteral": "wə-yō-mar", "traducao_palavra": "e dirá" },
+        { "hebraico": "אָ֭דָם", "transliteral": "ʾā-ḏām", "traducao_palavra": "[o] homem" },
+        { "hebraico": "אַךְ־", "transliteral": "ʾaḵ-", "traducao_palavra": "deveras/certamente" },
+        { "hebraico": "פְּרִ֣י", "transliteral": "pə-rî", "traducao_palavra": "[há] fruto/recompensa" },
+        { "hebraico": "לַצַּדִּ֑ique", "transliteral": "laṣ-ṣad-dîq", "traducao_palavra": "para o justo" },
+        { "hebraico": "אַ֥ךְ", "transliteral": "ʾaḵ", "traducao_palavra": "deveras" },
+        { "hebraico": "יֵשׁ־", "transliteral": "yēš-", "traducao_palavra": "há" },
+        { "hebraico": "אֱ֝לֹהִ֗ים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "שֹׁפְטִ֥ים", "transliteral": "šō-p̄ə-ṭîm", "traducao_palavra": "[que] julga" },
+        { "hebraico": "בָּאָֽרֶץ׃", "transliteral": "bā-ʾā-reṣ", "traducao_palavra": "na terra" }
+      ]
+    }
+  }
 }

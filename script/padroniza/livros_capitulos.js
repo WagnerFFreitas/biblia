@@ -1,12 +1,14 @@
 /*===============================================================================*/
-/*                    SCRIPT DE ESTRUTURA DE LIVROS E CAPÍTULOS                  */
+/*                   SCRIPT DE ESTRUTURA DE LIVROS E CAPÍTULOS                   */
 /*===============================================================================*/
 /*  Este arquivo contém:                                                         */
-/*                    - Estrutura de dados que mapeia todos os livros da Bíblia  */
-/*                    - Contagem de versículos para validação e navegação        */
+/*           - Estrutura de dados que mapeia todos os livros da Bíblia           */
+/*              - Contagem de versículos para validação e navegação              */
 /*===============================================================================*/
 
-window.versiculosPorCapitulo = {                                                  // Tabela de contagem de versículos por capítulo
+/* BLOCO: Ele define o objeto global que contém a contagem de versículos para    */
+/* cada capítulo de cada livro da Bíblia (ex: "gênesis": { 1: 31, 2: 25 })       */
+window.versiculosPorCapitulo = {
 
     "genesis": { 1: 31, 2: 25, 3: 24, 4: 26, 5: 32, 6: 22, 7: 24, 8: 22, 9: 29, 10: 32, 11: 32, 12: 20, 13: 18, 14: 24, 15: 21, 16: 16, 17: 27, 18: 33, 19: 38, 20: 18, 21: 34, 22: 24, 23: 20, 24: 67, 25: 34, 26: 35, 27: 46, 28: 22, 29: 35, 30: 43, 31: 55, 32: 32, 33: 20, 34: 31, 35: 29, 36: 43, 37: 36, 38: 30, 39: 23, 40: 23, 41: 57, 42: 38, 43: 34, 44: 34, 45: 28, 46: 34, 47: 31, 48: 22, 49: 33, 50: 26 },
     "exodo": { 1: 22, 2: 25, 3: 22, 4: 31, 5: 23, 6: 30, 7: 25, 8: 32, 9: 35, 10: 29, 11: 10, 12: 37, 13: 22, 14: 31, 15: 27, 16: 36, 17: 16, 18: 27, 19: 29, 20: 26, 21: 36, 22: 31, 23: 33, 24: 18, 25: 40, 26: 37, 27: 21, 28: 43, 29: 46, 30: 38, 31: 18, 32: 35, 33: 23, 34: 35, 35: 35, 36: 38, 37: 29, 38: 31, 39: 43, 40: 38 },
@@ -84,12 +86,12 @@ window.versiculosPorCapitulo = {                                                
     "apocalipse": { 1: 20, 2: 29, 3: 22, 4: 11, 5: 14, 6: 17, 7: 17, 8: 13, 9: 21, 10: 11, 11: 19, 12: 17, 13: 18, 14: 20, 15: 8, 16: 21, 17: 18, 18: 24, 19: 21, 20: 15, 21: 27, 22: 21 }
 };
 
-window.getVerseCount = function(livro, capitulo) {                                 // Função para obter contagem de versículos
-    const contagem = window.versiculosPorCapitulo[livro]?.[capitulo];              // Busca contagem na tabela
-    
-    if (typeof contagem === 'undefined') {                                         // Se não encontrou a informação
-        console.warn(`Contagem não encontrada para ${livro} ${capitulo}`);         // Log de aviso
-        return 0;                                                                  // Retorna zero versículos
+// BLOCO: Ele  define a função que retorna a quantidade de versículos em um determinado capítulo de um livro (retorna 0 se não existir)
+window.getVerseCount = function(livro, capitulo) {
+    const contagem = window.versiculosPorCapitulo[livro]?.[capitulo];
+    if (typeof contagem === 'undefined') {
+        console.warn(`Contagem não encontrada para ${livro} ${capitulo}`);
+        return 0;
     }
-    return contagem;                                                               // Retorna número de versículos
+    return contagem;
 };

@@ -1,103 +1,174 @@
 /*===============================================================================*/
-/*                  MÓDULO DE DADOS E NAVEGAÇÃO DA BÍBLIA                        */
+/*                     MÓDULO DE DADOS E NAVEGAÇÃO DA BÍBLIA                     */
 /*===============================================================================*/
 /*  Este script é responsável por:                                               */
-/*                       - Gerenciar a lista de livros da Bíblia                 */
-/*                       - Verificar a existência de capítulos                   */
-/*                       - Contar e memorizar o total de capítulos por livro     */
-/*                       - Calcular a navegação para o capítulo anterior/próximo */
+/*                    - Gerenciar a lista de livros da Bíblia                    */
+/*                     - Verificar a existência de capítulos                     */
+/*              - Contar e memorizar o total de capítulos por livro              */
+/*            - Calcular a navegação para o capítulo anterior/próximo            */
 /*===============================================================================*/
 
-const listaLivrosBiblia = [                                                           // Lista completa dos livros bíblicos
-    'genesis', 'exodo', 'levitico', 'numeros', 'deuteronomio', 'josue', 'juizes', 'rute', '1samuel', '2samuel',
-    '1reis', '2reis', '1cronicas', '2cronicas', 'esdras', 'neemias', 'ester', 'jo', 'salmos', 'proverbios',
-    'eclesiastes', 'cantares', 'isaias', 'jeremias', 'lamentacoes', 'ezequiel', 'daniel', 'oseias', 'joel',
-    'amos', 'obadias', 'jonas', 'miqueias', 'naum', 'habacuque', 'sofonias', 'ageu', 'zacarias', 'malaquias',
-    'mateus', 'marcos', 'lucas', 'joao', 'atos', 'romanos', '1corintios', '2corintios', 'galatas', 'efesios',
-    'filipenses', 'colossenses', '1tessalonicenses', '2tessalonicenses', '1timoteo', '2timoteo', 'tito',
-    'filemom', 'hebreus', 'tiago', '1pedro', '2pedro', '1joao', '2joao', '3joao', 'judas', 'apocalipse'
+/* BLOCO: Define uma constante com a lista de todos os livros em ordem canônica  */
+const listaLivrosBiblia = [
+    'genesis',
+    'exodo',
+    'levitico',
+    'numeros',
+    'deuteronomio',
+    'josue',
+    'juizes',
+    'rute',
+    '1samuel',
+    '2samuel',
+    '1reis',
+    '2reis',
+    '1cronicas',
+    '2cronicas',
+    'esdras',
+    'neemias',
+    'ester',
+    'jo',
+    'salmos',
+    'proverbios',
+    'eclesiastes',
+    'cantares',
+    'isaias',
+    'jeremias',
+    'lamentacoes',
+    'ezequiel',
+    'daniel',
+    'oseias',
+    'joel',
+    'amos',
+    'obadias',
+    'jonas',
+    'miqueias',
+    'naum',
+    'habacuque',
+    'sofonias',
+    'ageu',
+    'zacarias',
+    'malaquias',
+    'mateus',
+    'marcos',
+    'lucas',
+    'joao',
+    'atos',
+    'romanos',
+    '1corintios',
+    '2corintios',
+    'galatas',
+    'efesios',
+    'filipenses',
+    'colossenses',
+    '1tessalonicenses',
+    '2tessalonicenses',
+    '1timoteo',
+    '2timoteo',
+    'tito',
+    'filemom',
+    'hebreus',
+    'tiago',
+    '1pedro',
+    '2pedro',
+    '1joao',
+    '2joao',
+    '3joao',
+    'judas',
+    'apocalipse'
 ];
 
-const cacheNumeroCapitulos = {};                                                      // Cache para contagem de capítulos
+/* BLOCO: Cria objeto para armazenamento em cache do número de capítulos         */
+const cacheNumeroCapitulos = {};                                                  // Inicia objeto de memória
 
-async function capituloExistentes(livro, capitulo) {                                 // Função para verificar existência de capítulo
-    try {                                                                           // Inicia tratamento de erro
-        let versaoAtual = 'ara';                                                    // Define versão padrão
+/* BLOCO: Função que verifica se um capítulo existe no servidor                  */
+async function capituloExistentes(livro, capitulo) {
+    try {                                                                         // Inicia bloco de tentativa
         
-        if (typeof window.obterPreferencia === 'function') {                        // Verifica função de preferências
-            const v = window.obterPreferencia('versaoBiblicaSelecionada', 'ara');   // Obtém versão selecionada
-            if (typeof v === 'string' && v.length > 0) versaoAtual = v;             // Atualiza versão se válida
+        /* BLOCO: Identifica a versão bíblica selecionada pelo usuário          */
+        let versaoAtual = 'ara';                                                  // Define versão padrão
+        if (typeof window.obterPreferencia === 'function') {                      // Verifica existência da função
+            const v = window.obterPreferencia('versaoBiblicaSelecionada', 'ara'); // Busca preferência do usuário
+            if (typeof v === 'string' && v.length > 0) versaoAtual = v;           // Valida o texto da versão
         }
 
-        const versoesQueUsamHtml = ['arc'];                                         // Lista de versões HTML
-        const ehVersaoHtml = versoesQueUsamHtml.includes(versaoAtual.toLowerCase()); // Verifica se usa HTML
+        /* BLOCO: Define as rotas de busca baseadas no formato da bíblia        */
+        const versoesQueUsamHtml = ['arc'];                                       // Lista versões em HTML
+        const ehVersaoHtml = versoesQueUsamHtml.includes(versaoAtual.toLowerCase());  // Verifica tipo de arquivo
+        const caminho = ehVersaoHtml ?                                            // Escolhe a rota do arquivo
+            `../versao/${versaoAtual.toLowerCase()}/${livro.toLowerCase()}/${capitulo}.html` :  // Rota para arquivo HTML
+            `../versao/${versaoAtual.toLowerCase()}/${livro.toLowerCase()}/${capitulo}.json`;  // Rota para arquivo JSON
+
+        /* BLOCO: Realiza o teste de conexão com o arquivo solicitado           */
+        const resposta = await fetch(caminho, { method: 'HEAD' });                // Testa existência do arquivo
+        return resposta.ok;                                                       // Retorna status da resposta
+    } catch (error) {
         
-        const caminho = ehVersaoHtml ?                                              // Define caminho do arquivo
-            `../versao/${versaoAtual.toLowerCase()}/${livro.toLowerCase()}/${capitulo}.html` :
-            `../versao/${versaoAtual.toLowerCase()}/${livro.toLowerCase()}/${capitulo}.json`;
-
-        const resposta = await fetch(caminho, { method: 'HEAD' });                  // Verifica existência do arquivo
-        return resposta.ok;                                                         // Retorna resultado da verificação
-    } catch (error) {                                                               // Captura erros
-        console.error(`Erro ao verificar capítulo ${livro} ${capitulo}:`, error);   // Log de erro
-        return false;                                                               // Retorna false em caso de erro
+        /* BLOCO: Trata falhas de conexão ou erros inesperados                  */
+        console.error(`Erro ao verificar capítulo ${livro} ${capitulo}:`, error); // Loga erro no console
+        return false;                                                             // Retorna falha na verificação
     }
 }
 
-async function obterContagemCapitulosLivro(livro) {                                 // Função para contar capítulos de um livro
-    const chaveLivro = livro.toLowerCase();                                         // Padroniza nome do livro
-    const cacheCap = window.obterCapítuloDoCache(chaveLivro, 0);                    // Verifica cache
+/* BLOCO: Função que conta o número de capítulos, usando cache para otimizar     */
+async function obterContagemCapitulosLivro(livro) {
     
-    if (cacheCap) return cacheCap;                                                  // Retorna se já está em cache
-    
-    if (window.livros && window.livros[chaveLivro] && window.livros[chaveLivro].capitulos) { // Verifica base de dados global
-        window.cacheCapitulo(chaveLivro, 0, window.livros[chaveLivro].capitulos);   // Salva no cache
-        return window.livros[chaveLivro].capitulos;                                 // Retorna contagem
+    /* BLOCO: Verifica se os dados já estão disponíveis na memória (Cache)      */
+    const chaveLivro = livro.toLowerCase();                                       // Padroniza nome do livro
+    const cacheCap = window.obterCapítuloDoCache(chaveLivro, 0);                  // Consulta cache global
+    if (cacheCap) return cacheCap;                                                // Retorna valor se cacheado
+    if (window.livros && window.livros[chaveLivro] && window.livros[chaveLivro].capitulos) {  // Checa dados globais extras
+        window.cacheCapitulo(chaveLivro, 0, window.livros[chaveLivro].capitulos); // Salva contagem no cache
+        return window.livros[chaveLivro].capitulos;                               // Retorna valor encontrado
     }
 
-    console.warn(`[Capítulos] Contagem para ${livro} não encontrada. Descobrindo...`); // Log de aviso
-    
-    let maximoCapitulo = 0;                                                         // Inicializa contador
-    
-    for (let capitulo = 1; capitulo <= 150; capitulo++) {                           // Testa capítulos de 1 a 150
-        if (await capituloExistentes(chaveLivro, capitulo)) maximoCapitulo = capitulo; // Atualiza contador se existe
-        else break;                                                                 // Para se não existe
+    /* BLOCO: Executa busca manual por força bruta se não houver cache         */
+    console.warn(`[Capítulos] Contagem para ${livro} não encontrada. Descobrindo...`);  // Emite aviso de busca
+    let maximoCapitulo = 0;                                                       // Inicia contador de capítulos
+    for (let capitulo = 1; capitulo <= 150; capitulo++) {                         // Itera para testar arquivos
+        if (await capituloExistentes(chaveLivro, capitulo)) maximoCapitulo = capitulo;  // Incrementa se arquivo existe
+        else break;                                                               // Interrompe se não encontrar
     }
     
-    window.cacheCapitulo(chaveLivro, 0, maximoCapitulo);                            // Salva resultado no cache
-    return maximoCapitulo;                                                          // Retorna contagem final
+    window.cacheCapitulo(chaveLivro, 0, maximoCapitulo);                          // Armazena resultado no cache
+    return maximoCapitulo;                                                        // Retorna total de capítulos
 }
 
-window.obterContagemCapitulosLivro = obterContagemCapitulosLivro;                   // Torna função disponível globalmente
+window.obterContagemCapitulosLivro = obterContagemCapitulosLivro;                 // Exporta função globalmente
 
-window.obterProximoLivroECapitulo = async function(livroAtual, capituloAtual) {        // Função para navegar ao próximo capítulo/livro
-    const indiceLivroAtual = listaLivrosBiblia.indexOf(livroAtual.toLowerCase());       // Encontra posição do livro atual
+/* BLOCO: Função global para encontrar o próximo capítulo ou livro               */
+window.obterProximoLivroECapitulo = async function(livroAtual, capituloAtual) {
     
-    if (indiceLivroAtual === -1) return null;                                           // Retorna null se livro não encontrado
+    /* BLOCO: Valida e obtém os dados do livro e capítulo informados            */
+    const indiceLivroAtual = listaLivrosBiblia.indexOf(livroAtual.toLowerCase()); // Localiza índice do livro
+    if (indiceLivroAtual === -1) return null;                                     // Retorna nulo se inexistente
+    const numCapitulosLivro = await obterContagemCapitulosLivro(livroAtual);      // Pega total de caps do livro
     
-    const numCapitulosLivro = await obterContagemCapitulosLivro(livroAtual);            // Obtém número de capítulos do livro
-    
-    if (capituloAtual < numCapitulosLivro) {                                            // Se não é o último capítulo
-         return { livro: livroAtual, capitulo: capituloAtual + 1 };                     // Vai para próximo capítulo
+    /* BLOCO: Calcula se o destino é o próximo capítulo ou o próximo livro      */
+    if (capituloAtual < numCapitulosLivro) {                                      // Se não for o último capítulo
+         return { livro: livroAtual, capitulo: capituloAtual + 1 };               // Avança para próximo capítulo
     }
     
-    if (indiceLivroAtual < listaLivrosBiblia.length - 1) {                              // Se não é o último livro
-        return { livro: listaLivrosBiblia[indiceLivroAtual + 1], capitulo: 1 };         // Vai para primeiro capítulo do próximo livro
+    if (indiceLivroAtual < listaLivrosBiblia.length - 1) {                        // Se houver um próximo livro
+        return { livro: listaLivrosBiblia[indiceLivroAtual + 1], capitulo: 1 };   // Vai para cap 1 do prox livro
     }
-    return null;                                                                        // Retorna null se chegou ao fim
+    return null;                                                                  // Retorna nulo se fim da Bíblia
 };
 
-window.obterLivroCapituloAnterior = async function(livroAtual, capituloAtual) {        // Função para navegar ao capítulo/livro anterior
-    if (capituloAtual > 1) {                                                            // Se não é o primeiro capítulo
-        return { livro: livroAtual, capitulo: capituloAtual - 1 };                      // Vai para capítulo anterior
+/* BLOCO: Função global para encontrar o livro e capítulo anterior               */
+window.obterLivroCapituloAnterior = async function(livroAtual, capituloAtual) {
+    
+    /* BLOCO: Verifica se é possível recuar dentro do próprio livro             */
+    if (capituloAtual > 1) {                                                      // Se não for o capítulo inicial
+        return { livro: livroAtual, capitulo: capituloAtual - 1 };                // Retorna capítulo anterior
     }
     
-    const indiceLivroAtual = listaLivrosBiblia.indexOf(livroAtual.toLowerCase());       // Encontra posição do livro atual
+    /* BLOCO: Calcula o livro anterior e localiza seu capítulo final            */
+    const indiceLivroAtual = listaLivrosBiblia.indexOf(livroAtual.toLowerCase()); // Localiza índice do livro
+    if (indiceLivroAtual <= 0) return null;                                       // Gênesis não tem anterior
     
-    if (indiceLivroAtual <= 0) return null;                                             // Retorna null se é o primeiro livro
-    
-    const livroAnterior = listaLivrosBiblia[indiceLivroAtual - 1];                      // Obtém livro anterior
-    const ultimoCapituloLivroAnterior = await obterContagemCapitulosLivro(livroAnterior); // Obtém último capítulo do livro anterior
-    
-    return { livro: livroAnterior, capitulo: ultimoCapituloLivroAnterior };             // Vai para último capítulo do livro anterior
+    /* BLOCO: Localiza o nome do livro anterior e descobre seu capítulo final   */
+    const livroAnterior = listaLivrosBiblia[indiceLivroAtual - 1];                // Identifica nome do anterior
+    const ultimoCapituloLivroAnterior = await obterContagemCapitulosLivro(livroAnterior);  // Pega total de caps do anterior
+    return { livro: livroAnterior, capitulo: ultimoCapituloLivroAnterior };       // Retorna último cap do anterior
 };

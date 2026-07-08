@@ -1,503 +1,503 @@
-/*======================================================*/
-/*     ESTILOS DO MENU, DICIONÁRIO E CONCORDÂNCIA       */
-/*   Layout principal, cabeçalho, navegação e conteúdo  */
-/*           menu_dicionarioconcorancia.css             */
-/*======================================================*/
-
-/*======================================================*/
-/*            CONFIGURAÇÃO INICIAL (RESET)              */
-/*    Remove margens e PADDING padrão para garantir     */
-/*           consistência entre navegadores.            */
-/*======================================================*/
-* {
-    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão.    */
-    padding: 0;                                            /* Define o preenchimento interno como nulo para remover os espaçamentos padrão. */
-    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).              */
-}
-
-/*======================================================*/
-/*          LAYOUT PRINCIPAL DO CORPO DA PÁGINA         */
-/*  Configura o layout básico do corpo da página para   */
-/*      ocupar toda a altura da tela com gradiente.     */
-/*======================================================*/
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, SANS-SERIF; /* Define a família da fonte para o CORPO DA PÁGINA.                      */
-    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); /* Define o fundo com gradiente escuro para o CORPO DA PÁGINA.       */
-    color: #ffffff;                                      /* Define a cor do texto em branco para o CORPO DA PÁGINA.                       */
-    line-height: 1.6;                                      /* Define a altura da linha para melhorar a legibilidade no CORPO DA PÁGINA.     */
-    overflow: hidden;                                      /* Oculta o conteúdo que transborda no CORPO DA PÁGINA.                          */
-    min-height: 100vh;                                     /* Define a altura mínima da viewport para o CORPO DA PÁGINA.                    */
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no CORPO DA PÁGINA.        */
-    flex-direction: column;                                /* Define a direção da flexbox para coluna no CORPO DA PÁGINA.                   */
-}
-
-/*======================================================*/
-/*                  CABEÇALHO PRINCIPAL                 */
-/*      Header fixo com gradiente e sombra suave        */
-/*======================================================*/
-header {
-    background: linear-gradient(135deg, rgba(26, 26, 26, 0.2) 0%, rgba(51, 51, 51, 0.2) 100%); /* Define a cor de fundo com gradiente translúcido para o CABEÇALHO PRINCIPAL. */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);           /* Define uma sombra suave para criar profundidade no CABEÇALHO PRINCIPAL.                                              */
-    position: fixed;                                       /* Define o posicionamento fixo para manter o CABEÇALHO PRINCIPAL sempre visível.                                       */
-    top: 0;                                                /* Define a distância do topo como zero para alinhar o CABEÇALHO PRINCIPAL.                                             */
-    left: 0;                                               /* Define a distância da esquerda como zero para alinhar o CABEÇALHO PRINCIPAL.                                         */
-    width: 100%;                                           /* Define a largura total para garantir que o CABEÇALHO PRINCIPAL ocupe toda a extensão.                                */
-    z-index: 1000;                                         /* Define a ordem de empilhamento para que o CABEÇALHO PRINCIPAL se sobreponha a outros elementos.                      */
-    height: 100px;                                         /* Define a altura fixa para padronizar a dimensão vertical do CABEÇALHO PRINCIPAL.                                     */
-}
-
-/*======================================================*/
-/*             CABEÇALHO SUPERIOR — CONTAINER           */
-/*    Container flexível para elementos do cabeçalho    */
-/*======================================================*/
-.cabecalho-superior {
-    padding: 20px;                                         /* Define o preenchimento interno para criar um respiro no CABEÇALHO SUPERIOR.          */
-    height: 100%;                                          /* Define a altura total para o CABEÇALHO SUPERIOR.                                     */
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no CABEÇALHO SUPERIOR.            */
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no CABEÇALHO SUPERIOR.  */
-    justify-content: flex-start;                           /* Define o alinhamento horizontal à esquerda para os elementos no CABEÇALHO SUPERIOR.  */
-}
-
-/*======================================================*/
-/*              CABEÇALHO SUPERIOR — TÍTULO             */
-/*         Estilo do título principal da página         */
-/*======================================================*/
-.titulo-conteiner h1 {
-    color: #d4af37;                                      /* Define a cor do texto em dourado para o TÍTULO PRINCIPAL.                       */
-    font-size: 2.5rem;                                     /* Define o tamanho da fonte para o TÍTULO PRINCIPAL.                              */
-    font-weight: 700;                                      /* Define o peso da fonte em NEGRITO FORTE para o TÍTULO PRINCIPAL.                */
-    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o TÍTULO PRINCIPAL.                  */
-    margin-bottom: 2px;                                    /* Define o espaçamento inferior para o TÍTULO PRINCIPAL.                          */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);         /* Define uma sombra no texto para criar profundidade no TÍTULO PRINCIPAL.         */
-}
-
-/*======================================================*/
-/*           CABEÇALHO SUPERIOR — SUBTÍTULO             */
-/*       Nome extenso abaixo do título principal        */
-/*======================================================*/
-.nome-extenso {
-    color: #cccccc;                                      /* Define a cor do texto em cinza claro para o NOME EXTENSO.      */
-    font-size: 1.1rem;                                     /* Define o tamanho da fonte para o NOME EXTENSO.                 */
-    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o NOME EXTENSO.     */
-    margin-left: 50px;                                     /* Define o recuo à esquerda para o NOME EXTENSO.                 */
-    line-height: 0.2;                                      /* Define a altura da linha compacta para o NOME EXTENSO.         */
-    margin-bottom: 20px;                                   /* Define o espaçamento inferior para o NOME EXTENSO.             */
-    margin-left: 280px;                                    /* Define o recuo à esquerda ajustado para o NOME EXTENSO.        */
-}
-
-/*======================================================*/
-/*               BARRA DE NAVEGAÇÃO (MENU)              */
-/*   Menu fixo abaixo do cabeçalho com bordas douradas  */
-/*======================================================*/
-nav {
-    background: rgba(0, 0, 0, 0.1);                      /* Define a cor de fundo preto translúcido para a BARRA DE NAVEGAÇÃO.                                */
-    padding: 15px 20px;                                    /* Define o preenchimento interno para criar um respiro na BARRA DE NAVEGAÇÃO.                       */
-    border-top: 3px solid #d4af37;                       /* Define a borda superior sólida dourada para a BARRA DE NAVEGAÇÃO.                                 */
-    position: fixed;                                       /* Define o posicionamento fixo para manter a BARRA DE NAVEGAÇÃO sempre visível.                     */
-    top: 100px;                                            /* Define a distância do topo para posicionar a BARRA DE NAVEGAÇÃO abaixo do cabeçalho.              */
-    left: 0;                                               /* Define a distância da esquerda como zero para alinhar a BARRA DE NAVEGAÇÃO.                       */
-    width: 100%;                                           /* Define a largura total para garantir que a BARRA DE NAVEGAÇÃO ocupe toda a extensão.              */
-    z-index: 900;                                          /* Define a ordem de empilhamento para que a BARRA DE NAVEGAÇÃO se sobreponha a elementos de fundo.  */
-    height: 60px;                                          /* Define a altura fixa para padronizar a dimensão vertical da BARRA DE NAVEGAÇÃO.                   */
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente na BARRA DE NAVEGAÇÃO.                         */
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos na BARRA DE NAVEGAÇÃO.               */
-    border-bottom: 3px solid #d4af37;                    /* Define a borda inferior sólida dourada para a BARRA DE NAVEGAÇÃO.                                 */
-    justify-content: center;                               /* Define o alinhamento horizontal centralizado para os elementos na BARRA DE NAVEGAÇÃO.             */
-}
-
-/*======================================================*/
-/*           BARRA DE NAVEGAÇÃO — TÍTULO DO MENU        */
-/*     Rótulo "MENU" à esquerda das opções (oculto)     */
-/*======================================================*/
-.titulo-menu {
-    color: #d4af37;                                      /* Define a cor do texto em dourado para o TÍTULO DO MENU.                       */
-    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO MÉDIO para o TÍTULO DO MENU.                */
-    font-size: 0.9rem;                                     /* Define o tamanho da fonte para o TÍTULO DO MENU.                              */
-    letter-spacing: 1px;                                   /* Define o espaçamento entre as letras para o TÍTULO DO MENU.                   */
-    margin-right: 340px;                                   /* Define o espaçamento à direita para posicionar o TÍTULO DO MENU.              */
-    display: none;                                         /* Define a exibição como nula para ocultar o TÍTULO DO MENU por padrão.         */
-}
-
-/*======================================================*/
-/*            BARRA DE NAVEGAÇÃO — LISTA DE OPÇÕES      */
-/*          Container flexível para os links do menu    */
-/*======================================================*/
-.menu-opcoes {
-    display: inline-flex;                                  /* Ativa o FLEXBOX em linha para alinhar os itens corretamente nas OPÇÕES DO MENU.      */
-    list-style: none;                                      /* Define o estilo de lista como nulo para remover os marcadores das OPÇÕES DO MENU.    */
-    gap: 30px;                                             /* Define o espaçamento entre os itens das OPÇÕES DO MENU.                              */
-    margin-left: 20px;                                     /* Define o recuo à esquerda para as OPÇÕES DO MENU.                                    */
-}
-
-/*======================================================*/
-/*         BARRA DE NAVEGAÇÃO — LINKS DO MENU           */
-/*            Estilo dos links navegáveis               */
-/*======================================================*/
-.menu-opcoes a {
-    color: #ffffff;                                      /* Define a cor do texto em branco para os LINKS DO MENU.                               */
-    text-decoration: none;                                 /* Define a decoração do texto como nula para remover o sublinhado dos LINKS DO MENU.   */
-    padding: 8px 16px;                                     /* Define o preenchimento interno para criar um respiro nos LINKS DO MENU.              */
-    border-radius: 5px;                                    /* Define os cantos arredondados para suavizar o design dos LINKS DO MENU.              */
-    transition: all 0.3s ease;                             /* Define uma transição suave para os efeitos nos LINKS DO MENU.                        */
-    font-weight: 500;                                      /* Define o peso da fonte em NEGRITO MÉDIO para os LINKS DO MENU.                       */
-}
-
-/*======================================================*/
-/*          BARRA DE NAVEGAÇÃO — HOVER E ATIVO          */
-/*   eedback visual ao passar o mouse e estado ativo    */
-/*======================================================*/
-.menu-opcoes a:hover,
-.menu-opcoes a.active {
-    background: #d4af37;                                 /* Define a cor de fundo dourada para o efeito de HOVER e estado ATIVO.            */
-    color: #1a1a1a;                                      /* Define a cor do texto em preto escuro para o efeito de HOVER e estado ATIVO.    */
-    transform: translateY(-2px);                           /* Define o deslocamento vertical para cima no efeito de HOVER e estado ATIVO.     */
-}
-
-/*======================================================*/
-/*                  CONTAINER PRINCIPAL                 */
-/*   Área flexível que contém menu lateral e conteúdo   */
-/*======================================================*/
-.conteiner {
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no CONTAINER PRINCIPAL.    */
-    padding-top: 160px;                                    /* Define o preenchimento superior para compensar os cabeçalhos fixos.           */
-    flex-grow: 1;                                          /* Permite que o CONTAINER PRINCIPAL se expanda para ocupar o espaço disponível. */
-    position: relative;                                    /* Define o posicionamento relativo para o CONTAINER PRINCIPAL.                  */
-    background: rgba(26, 26, 26, 0.3);                   /* Define a cor de fundo semitransparente para o CONTAINER PRINCIPAL.            */
-}
-
-/*======================================================*/
-/*               MENU ALFABÉTICO LATERAL                */
-/*  Navegação fixa lateral com letras do alfabeto       */
-/*======================================================*/
-.menu-alfabetico {
-    width: 140px;                                          /* Define a largura fixa para padronizar a dimensão horizontal do MENU ALFABÉTICO.                          */
-    background: linear-gradient(135deg, rgba(26, 26, 26, 0.2) 0%, rgba(51, 51, 51, 0.2) 100%); /* Define o fundo com gradiente translúcido para o MENU ALFABÉTICO. */
-    border-right: 2px solid #d4af37;                     /* Define a borda direita sólida dourada para o MENU ALFABÉTICO.                                            */
-    padding: 20px 10px;                                    /* Define o preenchimento interno para criar um respiro no MENU ALFABÉTICO.                                 */
-    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.3);           /* Define uma sombra para criar profundidade no MENU ALFABÉTICO.                                            */
-    position: fixed;                                       /* Define o posicionamento fixo para manter o MENU ALFABÉTICO sempre visível.                               */
-    top: 160px;                                            /* Define a distância do topo para posicionar o MENU ALFABÉTICO.                                            */
-    left: 0;                                               /* Define a distância da esquerda como zero para alinhar o MENU ALFABÉTICO.                                 */
-    bottom: 40px;                                          /* Define a distância do fundo para limitar a altura do MENU ALFABÉTICO.                                    */
-    overflow-y: auto;                                      /* Define o comportamento de rolagem vertical automática para o MENU ALFABÉTICO.                            */
-    z-index: 800;                                          /* Define a ordem de empilhamento para que o MENU ALFABÉTICO se sobreponha a elementos de fundo.            */
-    flex-shrink: 0;                                        /* Impede que o MENU ALFABÉTICO encolha.                                                                    */
-}
-
-/*======================================================*/
-/*          MENU ALFABÉTICO — BARRA DE ROLAGEM          */
-/*            Estilização da barra de rolagem           */
-/*======================================================*/
-.menu-alfabetico::-webkit-scrollbar {
-    width: 12px;                                           /* Define a largura fixa para padronizar o tamanho da BARRA DE ROLAGEM no MENU ALFABÉTICO. */
-}
-
-.menu-alfabetico::-webkit-scrollbar-track {
-    background: rgba(56, 56, 56, 0.3);                     /* Define a cor de fundo da trilha para a BARRA DE ROLAGEM do MENU ALFABÉTICO.   */
-}
-
-.menu-alfabetico::-webkit-scrollbar-thumb {
-    margin: 5px;                                           /* Define a margem externa para criar um espaçamento ao redor da ALÇA da BARRA DE ROLAGEM. */
-    background: rgba(167, 162, 162, 0.1);                /* Define a cor da alça (thumb) para a BARRA DE ROLAGEM do MENU ALFABÉTICO.                */
-    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design da ALÇA da BARRA DE ROLAGEM.       */
-}
-
-/*======================================================*/
-/*         MENU ALFABÉTICO — CONTAINER DAS LETRAS       */
-/*       Layout em coluna para os botões de letra       */
-/*======================================================*/
-.alfabeto-conteiner {
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no CONTAINER DAS LETRAS.   */
-    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os botões de letra. */
-    gap: 8px;                                              /* Define o espaçamento entre os botões de letra no CONTAINER DAS LETRAS.        */
-}
-
-/*======================================================*/
-/*           MENU ALFABÉTICO — BOTÕES DE LETRA          */
-/*        Estilo dos botões individuais de letra        */
-/*======================================================*/
-.letra-btn {
-    background: rgba(58, 58, 58, 0.3);                   /* Define a cor de fundo semitransparente para os BOTÕES DE LETRA.                      */
-    color: #ffffff;                                      /* Define a cor do texto em branco para os BOTÕES DE LETRA.                             */
-    border: 2px solid transparent;                         /* Define a borda transparente para os BOTÕES DE LETRA.                                 */
-    padding: 12px;                                         /* Define o preenchimento interno para criar um respiro nos BOTÕES DE LETRA.            */
-    border-radius: 8px;                                    /* Define os cantos arredondados para suavizar o design dos BOTÕES DE LETRA.            */
-    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação nos BOTÕES DE LETRA.*/
-    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO MÉDIO para os BOTÕES DE LETRA.                     */
-    font-size: 1rem;                                       /* Define o tamanho da fonte para os BOTÕES DE LETRA.                                   */
-    position: relative;                                    /* Define o posicionamento relativo para os BOTÕES DE LETRA.                            */
-    transition: all 0.3s ease;                             /* Define uma transição suave para os efeitos nos BOTÕES DE LETRA.                      */
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para os BOTÕES DE LETRA.                  */
-    min-height: 45px;                                      /* Define a altura mínima para padronizar a dimensão vertical dos BOTÕES DE LETRA.      */
-    display: flex;                                         /* Ativa o FLEXBOX para centralizar o conteúdo nos BOTÕES DE LETRA.                     */
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para o conteúdo dos BOTÕES DE LETRA.      */
-    justify-content: center;                               /* Define o alinhamento horizontal centralizado para o conteúdo dos BOTÕES DE LETRA.    */
-}
-
-/*======================================================*/
-/*        MENU ALFABÉTICO — BOTÕES DE LETRA HOVER       */
-/*          Efeito visual ao passar o mouse             */
-/*======================================================*/
-.letra-btn:hover {
-    background: rgba(74, 74, 74, 0.7);                   /* Define a cor de fundo semitransparente mais escura no efeito de HOVER.          */
-    border-color: #d4af37;                               /* Define a cor da borda dourada no efeito de HOVER.                               */
-    transform: translateX(5px);                            /* Define o deslocamento horizontal para a direita no efeito de HOVER.             */
-    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);      /* Define uma sombra dourada suave no efeito de HOVER.                             */
-}
-
-/*======================================================*/
-/*        MENU ALFABÉTICO — BOTÕES DE LETRA ATIVO       */
-/*          Estilo para o botão de letra ativo          */
-/*======================================================*/
-.letra-btn.active {
-    background: linear-gradient(135deg, #d4af37 0%, #b8941f 100%); /* Define o fundo com gradiente dourado para o BOTÃO DE LETRA ATIVO.     */
-    color: #1a1a1a;                                      /* Define a cor do texto em preto escuro para o BOTÃO DE LETRA ATIVO.                */
-    border-color: #d4af37;                               /* Define a cor da borda dourada para o BOTÃO DE LETRA ATIVO.                        */
-    transform: translateX(5px);                            /* Define o deslocamento horizontal para a direita no BOTÃO DE LETRA ATIVO.          */
-    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.5);      /* Define uma sombra dourada mais forte no BOTÃO DE LETRA ATIVO.                     */
-}
-
-/*======================================================*/
-/*                   CONTEÚDO PRINCIPAL                 */
-/*     Área central que exibe o conteúdo dinâmico       */
-/*======================================================*/
-#conteudo-principal {
-    flex: 1;                                               /* Permite que o CONTEÚDO PRINCIPAL se expanda para ocupar o espaço disponível.               */
-    gap: 10px;                                             /* Define o espaçamento entre os elementos internos do CONTEÚDO PRINCIPAL.                    */
-    overflow-y: auto;                                      /* Define o comportamento de rolagem vertical automática para o CONTEÚDO PRINCIPAL.           */
-    scrollbar-width: none;                                 /* Define a largura da BARRA DE ROLAGEM como nula para ocultá-la no Firefox.                  */
-    -ms-overflow-style: none;                              /* Define o estilo de transbordamento como nulo para ocultar a BARRA DE ROLAGEM no IE e Edge. */
-}
-
-/*======================================================*/
-/*       CORREÇÕES ESPECÍFICAS PARA OS MÓDULOS          */
-/*  Ajustes de margem e altura para cada funcionalidade */
-/*======================================================*/
-
-/*======================================================*/
-/*     Margem específica para o módulo concordância     */
-/*======================================================*/
-body.modulo-concordancia #conteudo-principal {
-    margin-top: 170px;                                     /* Define o espaçamento superior específico para o módulo CONCORDÂNCIA.          */
-    height: calc(100vh - 230px);                           /* Define a altura calculada para o módulo CONCORDÂNCIA.                         */
-    padding: 3px 0;                                        /* Define o preenchimento interno vertical para o módulo CONCORDÂNCIA.           */
-}
-
-/*======================================================*/
-/*      Margem específica para o módulo dicionário      */
-/*======================================================*/
-body.modulo-dicionario #conteudo-principal {
-    margin-top: 5px;                                       /* Define o espaçamento superior específico para o módulo DICIONÁRIO.            */
-    padding: 5px 10px;                                     /* Define o preenchimento interno para o módulo DICIONÁRIO.                      */
-    margin-left: 140px;                                    /* Define o recuo à esquerda para compensar a largura do menu alfabético fixo.   */
-    height: calc(100vh - 80px);                            /* Define a altura calculada para o módulo DICIONÁRIO.                           */
-}
-
-/*======================================================*/
-/*       Margem específica para o módulo sobre          */
-/*======================================================*/
-body.modulo-sobre #conteudo-principal {
-    margin-top: 20px;                                      /* Define o espaçamento superior específico para o módulo SOBRE.*/
-    height: calc(100vh - 220px);                           /* Define a altura calculada para o módulo SOBRE.               */
-}
-
-/*======================================================*/
-/*          CONTEÚDO PRINCIPAL — BARRA DE ROLAGEM       */
-/*      Oculta a barra de rolagem visual no Webkit      */
-/*======================================================*/
-#conteudo-principal::-webkit-scrollbar {
-    display: none;                                         /* Define a exibição como nula para ocultar a BARRA DE ROLAGEM visual em navegadores Webkit.  */
-}
-
-/*======================================================*/
-/*                 SEÇÕES DE CONTEÚDO                   */
-/*   Controle de visibilidade para conteúdo dinâmico    */
-/*======================================================*/
-.secao-ativa {
-    display: block;                                        /* Define a exibição como bloco para a SEÇÃO ATIVA.     */
-}
-
-.secao-inativa {
-    display: none;                                         /* Define a exibição como nula para a SEÇÃO INATIVA.    */
-}
-
-/*======================================================*/
-/*            MENSAGEM INICIAL DE BOAS-VINDAS           */
-/*  Mensagem exibida quando nenhum conteúdo está ativo  */
-/*======================================================*/
-#mensagem-inicial {
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para a MENSAGEM INICIAL.*/
-}
-
-#mensagem-inicial h2 {
-    color: #d4af37;                                      /* Define a cor do texto em dourado para o TÍTULO DA MENSAGEM INICIAL.  */
-    font-size: 2rem;                                       /* Define o tamanho da fonte para o TÍTULO DA MENSAGEM INICIAL.         */
-}
-
-#mensagem-inicial p {
-    color: #cccccc;                                      /* Define a cor do texto em cinza claro para o TEXTO DA MENSAGEM INICIAL.        */
-    font-size: 1.2rem;                                     /* Define o tamanho da fonte para o TEXTO DA MENSAGEM INICIAL.                   */
-}
-
-/*======================================================*/
-/*              CONTAINER DE CARREGAMENTO               */
-/*   Indicador visual durante operações assíncronas     */
-/*======================================================*/
-.loading-conteiner {
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para o CONTAINER DE CARREGAMENTO.                         */
-    padding: 20px;                                         /* Define o preenchimento interno para criar um respiro no CONTAINER DE CARREGAMENTO.                   */
-    position: absolute;                                    /* Define o posicionamento absoluto para o CONTAINER DE CARREGAMENTO.                                   */
-    top: 280px;                                            /* Define a distância do topo para posicionar o CONTAINER DE CARREGAMENTO.                              */
-    left: 0;                                               /* Define a distância da esquerda como zero para alinhar o CONTAINER DE CARREGAMENTO.                   */
-    right: 0;                                              /* Define a distância da direita como zero para alinhar o CONTAINER DE CARREGAMENTO.                    */
-    z-index: 1000;                                         /* Define a ordem de empilhamento para que o CONTAINER DE CARREGAMENTO se sobreponha a outros elementos.*/
-    display: flex;                                         /* Ativa o FLEXBOX para centralizar o conteúdo no CONTAINER DE CARREGAMENTO.                            */
-    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os elementos.                              */
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no CONTAINER DE CARREGAMENTO.           */
-    justify-content: center;                               /* Define o alinhamento horizontal centralizado para os elementos no CONTAINER DE CARREGAMENTO.         */
-}
-
-.loading-conteiner p {
-    color: #d4af37;                                      /* Define a cor do texto em dourado para o TEXTO DE CARREGAMENTO. */
-    font-size: 1.1em;                                      /* Define o tamanho da fonte para o TEXTO DE CARREGAMENTO.        */
-    margin-top: 15px;                                      /* Define o espaçamento superior para separar o texto do spinner. */
-}
-
-/*======================================================*/
-/*                SPINNER DE CARREGAMENTO               */
-/*    Animação circular para indicar processamento      */
-/*======================================================*/
-.loading-spinner {
-    width: 40px;                                           /* Define a largura fixa para o SPINNER DE CARREGAMENTO.                                */
-    height: 40px;                                          /* Define a altura fixa para o SPINNER DE CARREGAMENTO.                                 */
-    border-radius: 50%;                                    /* Define os cantos arredondados para criar forma circular no SPINNER DE CARREGAMENTO.  */
-    animation: spin 1s linear infinite;                    /* Define a animação de rotação contínua para o SPINNER DE CARREGAMENTO.                */
-    margin: 0 auto 20px;                                   /* Define as margens para centralizar o SPINNER DE CARREGAMENTO.                        */
-}
-
-/*======================================================*/
-/*              ANIMAÇÃO DE ROTAÇÃO (SPIN)              */
-/*          Define os keyframes para a rotação          */
-/*======================================================*/
-@keyframes spin {
-    0% { transform: rotate(0deg); }                        /* Define a rotação inicial como 0 graus para a ANIMAÇÃO DE SPIN.     */
-    100% { transform: rotate(360deg); }                    /* Define a rotação final como 360 graus para a ANIMAÇÃO DE SPIN.     */
-}
-
-/*======================================================*/
-/*                        RODAPÉ                        */
-/*     Área fixa com informações no final da página     */
-/*======================================================*/
-footer {
-    position: fixed;                                       /* Define o posicionamento fixo para manter o RODAPÉ estático na parte inferior da tela.*/
-    bottom: 0;                                             /* Define a distância do fundo como zero para fixar o RODAPÉ no limite inferior.        */
-    left: 0px;                                             /* Define a distância da esquerda para posicionar o RODAPÉ.                             */
-    z-index: 1;                                            /* Define a ordem de empilhamento para que o RODAPÉ se sobreponha ao conteúdo.          */
-    width: 100%;                                           /* Define a largura total para garantir que o RODAPÉ ocupe toda a extensão horizontal.  */
-    height: 40px;                                          /* Define a altura fixa para padronizar a dimensão vertical do RODAPÉ.                  */
-    background-color: rgba(56, 56, 56, 0.8);             /* Define a cor de fundo semitransparente para o RODAPÉ.                                */
-    color: #d4ac0d;                                      /* Define a cor do texto em dourado para o RODAPÉ.                                      */
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para o conteúdo do RODAPÉ.                */
-}
-
-footer p {
-    font-size: 1.3em;                                      /* Define o tamanho da fonte para o texto do RODAPÉ.                             */
-    line-height: 1.5;                                      /* Define a altura da linha para melhorar a legibilidade do texto do RODAPÉ.     */
-}
-
-/*======================================================*/
-/*                    MARCA D'ÁGUA                      */
-/*         Imagem de fundo semi-transparente            */
-/*======================================================*/
-.marca-dagua-imagem {
-    position: fixed;                                       /* Define o posicionamento fixo para manter a MARCA D'ÁGUA estática durante a rolagem da página.     */
-    top: 0;                                                /* Define a distância do topo como zero para que a MARCA D'ÁGUA comece no limite superior.           */
-    left: 0;                                               /* Define a distância da esquerda como zero para alinhar a MARCA D'ÁGUA ao limite lateral.           */
-    width: 100%;                                           /* Define a largura total para garantir que a MARCA D'ÁGUA preencha a tela horizontalmente.          */
-    height: 120%;                                          /* Define a altura expandida para garantir que a MARCA D'ÁGUA cubra toda a área de visualização.     */
-    z-index: 10;                                           /* Define a ordem de empilhamento em camada de fundo para a MARCA D'ÁGUA.                            */
-    opacity: 0.3;                                          /* Define a opacidade para tornar a MARCA D'ÁGUA semi-transparente e sutil.                          */
-    overflow: hidden;                                      /* Define o transbordamento como oculto para impedir que a MARCA D'ÁGUA exiba barras de rolagem.     */
-    pointer-events: none;                                  /* Desativa a interação do mouse para que a MARCA D'ÁGUA não bloqueie cliques no conteúdo.           */
-    background-size: cover;                                /* Define o tamanho do fundo para cobrir toda a área sem distorcer a MARCA D'ÁGUA.                   */
-    background-repeat: no-repeat;                          /* Impede que a imagem de fundo da MARCA D'ÁGUA se repita na tela.                                   */
-    background-position: center;                           /* Centraliza a imagem de fundo da MARCA D'ÁGUA na área de visualização.                             */
-}
-
-/*======================================================*/
-/*         BARRA DE NAVEGAÇÃO — AJUSTE DE MARGEM        */
-/*       Remove margem esquerda das opções do menu      */
-/*======================================================*/
-.menu-opcoes {
-    margin-left: 0;                                        /* Define o recuo à esquerda como nulo para as OPÇÕES DO MENU.  */
-}
-
-/*======================================================*/
-/*               SEÇÃO DE REFERÊNCIAS                   */
-/*   Exibe referências cruzadas para palavras bíblicas  */
-/*======================================================*/
-.referencias-section {
-    margin-top: 10px;                                      /* Define o espaçamento superior para a SEÇÃO DE REFERÊNCIAS.                    */
-    padding: 10px;                                         /* Define o preenchimento interno para criar um respiro na SEÇÃO DE REFERÊNCIAS. */
-    background: rgba(0, 0, 0, 0.2);                      /* Define a cor de fundo semitransparente para a SEÇÃO DE REFERÊNCIAS.           */
-    border-radius: 5px;                                    /* Define os cantos arredondados para suavizar o design da SEÇÃO DE REFERÊNCIAS. */
-}
-
-.referencias-titulo {
-    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o TÍTULO DAS REFERÊNCIAS.   */
-    margin-bottom: 5px;                                    /* Define o espaçamento inferior para o TÍTULO DAS REFERÊNCIAS.       */
-    color: #d4af37;                                      /* Define a cor do texto em dourado para o TÍTULO DAS REFERÊNCIAS.    */
-}
-
-.referencia-item {
-    display: inline-block;                                 /* Define a exibição como bloco em linha para os ITENS DE REFERÊNCIA. */
-    margin-right: 10px;                                    /* Define o espaçamento à direita para separar os ITENS DE REFERÊNCIA.*/
-    color: #cccccc;                                      /* Define a cor do texto em cinza claro para os ITENS DE REFERÊNCIA.  */
-}
-
-.referencia-item:not(:last-child)::after {
-    content: ", ";                                         /* Adiciona uma vírgula e espaço após cada ITEM DE REFERÊNCIA, exceto o último.  */
-}
-
-/*======================================================*/
-/*              SEÇÃO "SOBRE" — CONTAINER               */
-/*   Estilos específicos para a página de informações   */
-/*======================================================*/
-.sobre-conteiner {
-    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%); /* Define o fundo com gradiente escuro para o CONTAINER DA SEÇÃO "SOBRE".   */
-    border-radius: 12px;                                   /* Define os cantos arredondados para suavizar o design do CONTAINER DA SEÇÃO "SOBRE".  */
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);           /* Define uma sombra para criar profundidade no CONTAINER DA SEÇÃO "SOBRE".             */
-}
-
-.sobre-conteiner h2 {
-    color: #d4af37;                                      /* Define a cor do texto em dourado para o TÍTULO PRINCIPAL DA SEÇÃO "SOBRE".      */
-    font-size: 2rem;                                       /* Define o tamanho da fonte para o TÍTULO PRINCIPAL DA SEÇÃO "SOBRE".             */
-    margin-bottom: 20px;                                   /* Define o espaçamento inferior para o TÍTULO PRINCIPAL DA SEÇÃO "SOBRE".         */
-    margin-left: 60px;                                     /* Define o recuo à esquerda para o TÍTULO PRINCIPAL DA SEÇÃO "SOBRE".             */
-}
-
-.sobre-conteiner h3 {
-    color: #d4af37;                                      /* Define a cor do texto em dourado para os SUBTÍTULOS DA SEÇÃO "SOBRE".*/
-    font-size: 1.3rem;                                     /* Define o tamanho da fonte para os SUBTÍTULOS DA SEÇÃO "SOBRE".       */
-    margin: 25px 0 15px 60px;                              /* Define as margens para os SUBTÍTULOS DA SEÇÃO "SOBRE".               */
-}
-
-.sobre-conteiner p {
-    color: #cccccc;                                      /* Define a cor do texto em cinza claro para os PARÁGRAFOS DA SEÇÃO "SOBRE".               */
-    font-size: 1.1rem;                                     /* Define o tamanho da fonte para os PARÁGRAFOS DA SEÇÃO "SOBRE".                          */
-    line-height: 1.8;                                      /* Define a altura da linha para melhorar a legibilidade nos PARÁGRAFOS DA SEÇÃO "SOBRE".  */
-    margin-bottom: 20px;                                   /* Define o espaçamento inferior para os PARÁGRAFOS DA SEÇÃO "SOBRE".                      */
-    text-align: justify;                                   /* Define o alinhamento justificado para os PARÁGRAFOS DA SEÇÃO "SOBRE".                   */
-    margin-left: 60px;                                     /* Define o recuo à esquerda para os PARÁGRAFOS DA SEÇÃO "SOBRE".                          */
-}
-
-.sobre-conteiner ul {
-    color: #ffffff;                                      /* Define a cor do texto em branco para as LISTAS DA SEÇÃO "SOBRE".     */
-    margin-left: 120px;                                    /* Define o recuo à esquerda para as LISTAS DA SEÇÃO "SOBRE".           */
-    margin-bottom: 20px;                                   /* Define o espaçamento inferior para as LISTAS DA SEÇÃO "SOBRE".       */
-}
-
-.sobre-conteiner li {
-    margin-bottom: 10px;                                   /* Define o espaçamento inferior para os ITENS DA LISTA DA SEÇÃO "SOBRE".                     */
-    line-height: 1.6;                                      /* Define a altura da linha para melhorar a legibilidade nos ITENS DA LISTA DA SEÇÃO "SOBRE". */
-}
+/*======================================================*/
+/*      ESTILOS DO MENU, DICIONÁRIO E CONCORDÂNCIA      */
+/*  Layout principal, cabeçalho, navegação e conteúdo   */
+/*            menu_dicionarioconcorancia.css            */
+/*======================================================*/
+
+/*======================================================*/
+/*             CONFIGURAÇÃO INICIAL (RESET)             */
+/*    Remove margens e PADDING padrão para garantir     */
+/*           consistência entre navegadores.            */
+/*======================================================*/
+* {
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão.    */
+    padding: 0;                                            /* Define o preenchimento interno como nulo para remover os espaçamentos padrão. */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).              */
+}
+
+/*======================================================*/
+/*         LAYOUT PRINCIPAL DO CORPO DA PÁGINA          */
+/*  Configura o layout básico do corpo da página para   */
+/*     ocupar toda a altura da tela com gradiente.      */
+/*======================================================*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, SANS-SERIF;  /* Define a família da fonte para o CORPO DA PÁGINA.                 */
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);  /* Define o fundo com gradiente escuro para o CORPO DA PÁGINA.      */
+    color: #ffffff;                                        /* Define a cor do texto em branco para o CORPO DA PÁGINA.                   */
+    line-height: 1.6;                                      /* Define a altura da linha para melhorar a legibilidade no CORPO DA PÁGINA. */
+    overflow: hidden;                                      /* Oculta o conteúdo que transborda no CORPO DA PÁGINA.                      */
+    min-height: 100vh;                                     /* Define a altura mínima da viewport para o CORPO DA PÁGINA.                */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no CORPO DA PÁGINA.    */
+    flex-direction: column;                                /* Define a direção da flexbox para coluna no CORPO DA PÁGINA.               */
+}
+
+/*======================================================*/
+/*                 CABEÇALHO PRINCIPAL                  */
+/*       Header fixo com gradiente e sombra suave       */
+/*======================================================*/
+header {
+    background: linear-gradient(135deg, rgba(26, 26, 26, 0.2) 0%, rgba(51, 51, 51, 0.2) 100%);  /* Define a cor de fundo com gradiente translúcido para o CABEÇALHO PRINCIPAL. */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);             /* Define uma sombra suave para criar profundidade no CABEÇALHO PRINCIPAL.                                          */
+    position: fixed;                                       /* Define o posicionamento fixo para manter o CABEÇALHO PRINCIPAL sempre visível.                                   */
+    top: 0;                                                /* Define a distância do topo como zero para alinhar o CABEÇALHO PRINCIPAL.                                         */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar o CABEÇALHO PRINCIPAL.                                     */
+    width: 100%;                                           /* Define a largura total para garantir que o CABEÇALHO PRINCIPAL ocupe toda a extensão.                            */
+    z-index: 1000;                                         /* Define a ordem de empilhamento para que o CABEÇALHO PRINCIPAL se sobreponha a outros elementos.                  */
+    height: 100px;                                         /* Define a altura fixa para padronizar a dimensão vertical do CABEÇALHO PRINCIPAL.                                 */
+}
+
+/*======================================================*/
+/*            CABEÇALHO SUPERIOR — CONTAINER            */
+/*    Container flexível para elementos do cabeçalho    */
+/*======================================================*/
+.cabecalho-superior {
+    padding: 20px;                                         /* Define o preenchimento interno para criar um respiro no CABEÇALHO SUPERIOR.         */
+    height: 100%;                                          /* Define a altura total para o CABEÇALHO SUPERIOR.                                    */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no CABEÇALHO SUPERIOR.           */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no CABEÇALHO SUPERIOR. */
+    justify-content: flex-start;                           /* Define o alinhamento horizontal à esquerda para os elementos no CABEÇALHO SUPERIOR. */
+}
+
+/*======================================================*/
+/*             CABEÇALHO SUPERIOR — TÍTULO              */
+/*         Estilo do título principal da página         */
+/*======================================================*/
+.titulo-conteiner h1 {
+    color: #d4af37;                                        /* Define a cor do texto em dourado para o TÍTULO PRINCIPAL.               */
+    font-size: 2.5rem;                                     /* Define o tamanho da fonte para o TÍTULO PRINCIPAL.                      */
+    font-weight: 700;                                      /* Define o peso da fonte em NEGRITO FORTE para o TÍTULO PRINCIPAL.        */
+    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o TÍTULO PRINCIPAL.          */
+    margin-bottom: 2px;                                    /* Define o espaçamento inferior para o TÍTULO PRINCIPAL.                  */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);           /* Define uma sombra no texto para criar profundidade no TÍTULO PRINCIPAL. */
+}
+
+/*======================================================*/
+/*            CABEÇALHO SUPERIOR — SUBTÍTULO            */
+/*       Nome extenso abaixo do título principal        */
+/*======================================================*/
+.nome-extenso {
+    color: #cccccc;                                        /* Define a cor do texto em cinza claro para o NOME EXTENSO.  */
+    font-size: 1.1rem;                                     /* Define o tamanho da fonte para o NOME EXTENSO.             */
+    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o NOME EXTENSO. */
+    margin-left: 50px;                                     /* Define o recuo à esquerda para o NOME EXTENSO.             */
+    line-height: 0.2;                                      /* Define a altura da linha compacta para o NOME EXTENSO.     */
+    margin-bottom: 20px;                                   /* Define o espaçamento inferior para o NOME EXTENSO.         */
+    margin-left: 280px;                                    /* Define o recuo à esquerda ajustado para o NOME EXTENSO.    */
+}
+
+/*======================================================*/
+/*              BARRA DE NAVEGAÇÃO (MENU)               */
+/*  Menu fixo abaixo do cabeçalho com bordas douradas   */
+/*======================================================*/
+nav {
+    background: rgba(0, 0, 0, 0.1);                        /* Define a cor de fundo preto translúcido para a BARRA DE NAVEGAÇÃO.                               */
+    padding: 15px 20px;                                    /* Define o preenchimento interno para criar um respiro na BARRA DE NAVEGAÇÃO.                      */
+    border-top: 3px solid #d4af37;                         /* Define a borda superior sólida dourada para a BARRA DE NAVEGAÇÃO.                                */
+    position: fixed;                                       /* Define o posicionamento fixo para manter a BARRA DE NAVEGAÇÃO sempre visível.                    */
+    top: 100px;                                            /* Define a distância do topo para posicionar a BARRA DE NAVEGAÇÃO abaixo do cabeçalho.             */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar a BARRA DE NAVEGAÇÃO.                      */
+    width: 100%;                                           /* Define a largura total para garantir que a BARRA DE NAVEGAÇÃO ocupe toda a extensão.             */
+    z-index: 900;                                          /* Define a ordem de empilhamento para que a BARRA DE NAVEGAÇÃO se sobreponha a elementos de fundo. */
+    height: 60px;                                          /* Define a altura fixa para padronizar a dimensão vertical da BARRA DE NAVEGAÇÃO.                  */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente na BARRA DE NAVEGAÇÃO.                        */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos na BARRA DE NAVEGAÇÃO.              */
+    border-bottom: 3px solid #d4af37;                      /* Define a borda inferior sólida dourada para a BARRA DE NAVEGAÇÃO.                                */
+    justify-content: center;                               /* Define o alinhamento horizontal centralizado para os elementos na BARRA DE NAVEGAÇÃO.            */
+}
+
+/*======================================================*/
+/*         BARRA DE NAVEGAÇÃO — TÍTULO DO MENU          */
+/*     Rótulo "MENU" à esquerda das opções (oculto)     */
+/*======================================================*/
+.titulo-menu {
+    color: #d4af37;                                        /* Define a cor do texto em dourado para o TÍTULO DO MENU.               */
+    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO MÉDIO para o TÍTULO DO MENU.        */
+    font-size: 0.9rem;                                     /* Define o tamanho da fonte para o TÍTULO DO MENU.                      */
+    letter-spacing: 1px;                                   /* Define o espaçamento entre as letras para o TÍTULO DO MENU.           */
+    margin-right: 340px;                                   /* Define o espaçamento à direita para posicionar o TÍTULO DO MENU.      */
+    display: none;                                         /* Define a exibição como nula para ocultar o TÍTULO DO MENU por padrão. */
+}
+
+/*======================================================*/
+/*         BARRA DE NAVEGAÇÃO — LISTA DE OPÇÕES         */
+/*       Container flexível para os links do menu       */
+/*======================================================*/
+.menu-opcoes {
+    display: inline-flex;                                  /* Ativa o FLEXBOX em linha para alinhar os itens corretamente nas OPÇÕES DO MENU.   */
+    list-style: none;                                      /* Define o estilo de lista como nulo para remover os marcadores das OPÇÕES DO MENU. */
+    gap: 30px;                                             /* Define o espaçamento entre os itens das OPÇÕES DO MENU.                           */
+    margin-left: 20px;                                     /* Define o recuo à esquerda para as OPÇÕES DO MENU.                                 */
+}
+
+/*======================================================*/
+/*          BARRA DE NAVEGAÇÃO — LINKS DO MENU          */
+/*             Estilo dos links navegáveis              */
+/*======================================================*/
+.menu-opcoes a {
+    color: #ffffff;                                        /* Define a cor do texto em branco para os LINKS DO MENU.                             */
+    text-decoration: none;                                 /* Define a decoração do texto como nula para remover o sublinhado dos LINKS DO MENU. */
+    padding: 8px 16px;                                     /* Define o preenchimento interno para criar um respiro nos LINKS DO MENU.            */
+    border-radius: 5px;                                    /* Define os cantos arredondados para suavizar o design dos LINKS DO MENU.            */
+    transition: all 0.3s ease;                             /* Define uma transição suave para os efeitos nos LINKS DO MENU.                      */
+    font-weight: 500;                                      /* Define o peso da fonte em NEGRITO MÉDIO para os LINKS DO MENU.                     */
+}
+
+/*======================================================*/
+/*          BARRA DE NAVEGAÇÃO — HOVER E ATIVO          */
+/*   eedback visual ao passar o mouse e estado ativo    */
+/*======================================================*/
+.menu-opcoes a:hover,
+.menu-opcoes a.active {
+    background: #d4af37;                                   /* Define a cor de fundo dourada para o efeito de HOVER e estado ATIVO.         */
+    color: #1a1a1a;                                        /* Define a cor do texto em preto escuro para o efeito de HOVER e estado ATIVO. */
+    transform: translateY(-2px);                           /* Define o deslocamento vertical para cima no efeito de HOVER e estado ATIVO.  */
+}
+
+/*======================================================*/
+/*                 CONTAINER PRINCIPAL                  */
+/*   Área flexível que contém menu lateral e conteúdo   */
+/*======================================================*/
+.conteiner {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no CONTAINER PRINCIPAL.    */
+    padding-top: 160px;                                    /* Define o preenchimento superior para compensar os cabeçalhos fixos.           */
+    flex-grow: 1;                                          /* Permite que o CONTAINER PRINCIPAL se expanda para ocupar o espaço disponível. */
+    position: relative;                                    /* Define o posicionamento relativo para o CONTAINER PRINCIPAL.                  */
+    background: rgba(26, 26, 26, 0.3);                     /* Define a cor de fundo semitransparente para o CONTAINER PRINCIPAL.            */
+}
+
+/*======================================================*/
+/*               MENU ALFABÉTICO LATERAL                */
+/*    Navegação fixa lateral com letras do alfabeto     */
+/*======================================================*/
+.menu-alfabetico {
+    width: 140px;                                          /* Define a largura fixa para padronizar a dimensão horizontal do MENU ALFABÉTICO.                       */
+    background: linear-gradient(135deg, rgba(26, 26, 26, 0.2) 0%, rgba(51, 51, 51, 0.2) 100%);  /* Define o fundo com gradiente translúcido para o MENU ALFABÉTICO. */
+    border-right: 2px solid #d4af37;                       /* Define a borda direita sólida dourada para o MENU ALFABÉTICO.                                         */
+    padding: 20px 10px;                                    /* Define o preenchimento interno para criar um respiro no MENU ALFABÉTICO.                              */
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.3);             /* Define uma sombra para criar profundidade no MENU ALFABÉTICO.                                         */
+    position: fixed;                                       /* Define o posicionamento fixo para manter o MENU ALFABÉTICO sempre visível.                            */
+    top: 160px;                                            /* Define a distância do topo para posicionar o MENU ALFABÉTICO.                                         */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar o MENU ALFABÉTICO.                              */
+    bottom: 40px;                                          /* Define a distância do fundo para limitar a altura do MENU ALFABÉTICO.                                 */
+    overflow-y: auto;                                      /* Define o comportamento de rolagem vertical automática para o MENU ALFABÉTICO.                         */
+    z-index: 800;                                          /* Define a ordem de empilhamento para que o MENU ALFABÉTICO se sobreponha a elementos de fundo.         */
+    flex-shrink: 0;                                        /* Impede que o MENU ALFABÉTICO encolha.                                                                 */
+}
+
+/*======================================================*/
+/*          MENU ALFABÉTICO — BARRA DE ROLAGEM          */
+/*           Estilização da barra de rolagem            */
+/*======================================================*/
+.menu-alfabetico::-webkit-scrollbar {
+    width: 12px;                                           /* Define a largura fixa para padronizar o tamanho da BARRA DE ROLAGEM no MENU ALFABÉTICO. */
+}
+
+.menu-alfabetico::-webkit-scrollbar-track {
+    background: rgba(56, 56, 56, 0.3);                     /* Define a cor de fundo da trilha para a BARRA DE ROLAGEM do MENU ALFABÉTICO. */
+}
+
+.menu-alfabetico::-webkit-scrollbar-thumb {
+    margin: 5px;                                           /* Define a margem externa para criar um espaçamento ao redor da ALÇA da BARRA DE ROLAGEM. */
+    background: rgba(167, 162, 162, 0.1);                  /* Define a cor da alça (thumb) para a BARRA DE ROLAGEM do MENU ALFABÉTICO.                */
+    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design da ALÇA da BARRA DE ROLAGEM.       */
+}
+
+/*======================================================*/
+/*        MENU ALFABÉTICO — CONTAINER DAS LETRAS        */
+/*       Layout em coluna para os botões de letra       */
+/*======================================================*/
+.alfabeto-conteiner {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no CONTAINER DAS LETRAS.   */
+    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os botões de letra. */
+    gap: 8px;                                              /* Define o espaçamento entre os botões de letra no CONTAINER DAS LETRAS.        */
+}
+
+/*======================================================*/
+/*          MENU ALFABÉTICO — BOTÕES DE LETRA           */
+/*        Estilo dos botões individuais de letra        */
+/*======================================================*/
+.letra-btn {
+    background: rgba(58, 58, 58, 0.3);                     /* Define a cor de fundo semitransparente para os BOTÕES DE LETRA.                       */
+    color: #ffffff;                                        /* Define a cor do texto em branco para os BOTÕES DE LETRA.                              */
+    border: 2px solid transparent;                         /* Define a borda transparente para os BOTÕES DE LETRA.                                  */
+    padding: 12px;                                         /* Define o preenchimento interno para criar um respiro nos BOTÕES DE LETRA.             */
+    border-radius: 8px;                                    /* Define os cantos arredondados para suavizar o design dos BOTÕES DE LETRA.             */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação nos BOTÕES DE LETRA. */
+    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO MÉDIO para os BOTÕES DE LETRA.                      */
+    font-size: 1rem;                                       /* Define o tamanho da fonte para os BOTÕES DE LETRA.                                    */
+    position: relative;                                    /* Define o posicionamento relativo para os BOTÕES DE LETRA.                             */
+    transition: all 0.3s ease;                             /* Define uma transição suave para os efeitos nos BOTÕES DE LETRA.                       */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para os BOTÕES DE LETRA.                   */
+    min-height: 45px;                                      /* Define a altura mínima para padronizar a dimensão vertical dos BOTÕES DE LETRA.       */
+    display: flex;                                         /* Ativa o FLEXBOX para centralizar o conteúdo nos BOTÕES DE LETRA.                      */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para o conteúdo dos BOTÕES DE LETRA.       */
+    justify-content: center;                               /* Define o alinhamento horizontal centralizado para o conteúdo dos BOTÕES DE LETRA.     */
+}
+
+/*======================================================*/
+/*       MENU ALFABÉTICO — BOTÕES DE LETRA HOVER        */
+/*           Efeito visual ao passar o mouse            */
+/*======================================================*/
+.letra-btn:hover {
+    background: rgba(74, 74, 74, 0.7);                     /* Define a cor de fundo semitransparente mais escura no efeito de HOVER. */
+    border-color: #d4af37;                                 /* Define a cor da borda dourada no efeito de HOVER.                      */
+    transform: translateX(5px);                            /* Define o deslocamento horizontal para a direita no efeito de HOVER.    */
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);        /* Define uma sombra dourada suave no efeito de HOVER.                    */
+}
+
+/*======================================================*/
+/*       MENU ALFABÉTICO — BOTÕES DE LETRA ATIVO        */
+/*          Estilo para o botão de letra ativo          */
+/*======================================================*/
+.letra-btn.active {
+    background: linear-gradient(135deg, #d4af37 0%, #b8941f 100%);  /* Define o fundo com gradiente dourado para o BOTÃO DE LETRA ATIVO. */
+    color: #1a1a1a;                                        /* Define a cor do texto em preto escuro para o BOTÃO DE LETRA ATIVO.         */
+    border-color: #d4af37;                                 /* Define a cor da borda dourada para o BOTÃO DE LETRA ATIVO.                 */
+    transform: translateX(5px);                            /* Define o deslocamento horizontal para a direita no BOTÃO DE LETRA ATIVO.   */
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.5);        /* Define uma sombra dourada mais forte no BOTÃO DE LETRA ATIVO.              */
+}
+
+/*======================================================*/
+/*                  CONTEÚDO PRINCIPAL                  */
+/*      Área central que exibe o conteúdo dinâmico      */
+/*======================================================*/
+#conteudo-principal {
+    flex: 1;                                               /* Permite que o CONTEÚDO PRINCIPAL se expanda para ocupar o espaço disponível.               */
+    gap: 10px;                                             /* Define o espaçamento entre os elementos internos do CONTEÚDO PRINCIPAL.                    */
+    overflow-y: auto;                                      /* Define o comportamento de rolagem vertical automática para o CONTEÚDO PRINCIPAL.           */
+    scrollbar-width: none;                                 /* Define a largura da BARRA DE ROLAGEM como nula para ocultá-la no Firefox.                  */
+    -ms-overflow-style: none;                              /* Define o estilo de transbordamento como nulo para ocultar a BARRA DE ROLAGEM no IE e Edge. */
+}
+
+/*======================================================*/
+/*        CORREÇÕES ESPECÍFICAS PARA OS MÓDULOS         */
+/* Ajustes de margem e altura para cada funcionalidade  */
+/*======================================================*/
+
+/*======================================================*/
+/*     Margem específica para o módulo concordância     */
+/*======================================================*/
+body.modulo-concordancia #conteudo-principal {
+    margin-top: 170px;                                     /* Define o espaçamento superior específico para o módulo CONCORDÂNCIA. */
+    height: calc(100vh - 230px);                           /* Define a altura calculada para o módulo CONCORDÂNCIA.                */
+    padding: 3px 0;                                        /* Define o preenchimento interno vertical para o módulo CONCORDÂNCIA.  */
+}
+
+/*======================================================*/
+/*      Margem específica para o módulo dicionário      */
+/*======================================================*/
+body.modulo-dicionario #conteudo-principal {
+    margin-top: 5px;                                       /* Define o espaçamento superior específico para o módulo DICIONÁRIO.          */
+    padding: 5px 10px;                                     /* Define o preenchimento interno para o módulo DICIONÁRIO.                    */
+    margin-left: 140px;                                    /* Define o recuo à esquerda para compensar a largura do menu alfabético fixo. */
+    height: calc(100vh - 80px);                            /* Define a altura calculada para o módulo DICIONÁRIO.                         */
+}
+
+/*======================================================*/
+/*        Margem específica para o módulo sobre         */
+/*======================================================*/
+body.modulo-sobre #conteudo-principal {
+    margin-top: 20px;                                      /* Define o espaçamento superior específico para o módulo SOBRE. */
+    height: calc(100vh - 220px);                           /* Define a altura calculada para o módulo SOBRE.                */
+}
+
+/*======================================================*/
+/*        CONTEÚDO PRINCIPAL — BARRA DE ROLAGEM         */
+/*      Oculta a barra de rolagem visual no Webkit      */
+/*======================================================*/
+#conteudo-principal::-webkit-scrollbar {
+    display: none;                                         /* Define a exibição como nula para ocultar a BARRA DE ROLAGEM visual em navegadores Webkit. */
+}
+
+/*======================================================*/
+/*                  SEÇÕES DE CONTEÚDO                  */
+/*   Controle de visibilidade para conteúdo dinâmico    */
+/*======================================================*/
+.secao-ativa {
+    display: block;                                        /* Define a exibição como bloco para a SEÇÃO ATIVA. */
+}
+
+.secao-inativa {
+    display: none;                                         /* Define a exibição como nula para a SEÇÃO INATIVA. */
+}
+
+/*======================================================*/
+/*           MENSAGEM INICIAL DE BOAS-VINDAS            */
+/*  Mensagem exibida quando nenhum conteúdo está ativo  */
+/*======================================================*/
+#mensagem-inicial {
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para a MENSAGEM INICIAL. */
+}
+
+#mensagem-inicial h2 {
+    color: #d4af37;                                        /* Define a cor do texto em dourado para o TÍTULO DA MENSAGEM INICIAL. */
+    font-size: 2rem;                                       /* Define o tamanho da fonte para o TÍTULO DA MENSAGEM INICIAL.        */
+}
+
+#mensagem-inicial p {
+    color: #cccccc;                                        /* Define a cor do texto em cinza claro para o TEXTO DA MENSAGEM INICIAL. */
+    font-size: 1.2rem;                                     /* Define o tamanho da fonte para o TEXTO DA MENSAGEM INICIAL.            */
+}
+
+/*======================================================*/
+/*              CONTAINER DE CARREGAMENTO               */
+/*    Indicador visual durante operações assíncronas    */
+/*======================================================*/
+.loading-conteiner {
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o CONTAINER DE CARREGAMENTO.                          */
+    padding: 20px;                                         /* Define o preenchimento interno para criar um respiro no CONTAINER DE CARREGAMENTO.                    */
+    position: absolute;                                    /* Define o posicionamento absoluto para o CONTAINER DE CARREGAMENTO.                                    */
+    top: 280px;                                            /* Define a distância do topo para posicionar o CONTAINER DE CARREGAMENTO.                               */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar o CONTAINER DE CARREGAMENTO.                    */
+    right: 0;                                              /* Define a distância da direita como zero para alinhar o CONTAINER DE CARREGAMENTO.                     */
+    z-index: 1000;                                         /* Define a ordem de empilhamento para que o CONTAINER DE CARREGAMENTO se sobreponha a outros elementos. */
+    display: flex;                                         /* Ativa o FLEXBOX para centralizar o conteúdo no CONTAINER DE CARREGAMENTO.                             */
+    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os elementos.                               */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no CONTAINER DE CARREGAMENTO.            */
+    justify-content: center;                               /* Define o alinhamento horizontal centralizado para os elementos no CONTAINER DE CARREGAMENTO.          */
+}
+
+.loading-conteiner p {
+    color: #d4af37;                                        /* Define a cor do texto em dourado para o TEXTO DE CARREGAMENTO. */
+    font-size: 1.1em;                                      /* Define o tamanho da fonte para o TEXTO DE CARREGAMENTO.        */
+    margin-top: 15px;                                      /* Define o espaçamento superior para separar o texto do spinner. */
+}
+
+/*======================================================*/
+/*               SPINNER DE CARREGAMENTO                */
+/*     Animação circular para indicar processamento     */
+/*======================================================*/
+.loading-spinner {
+    width: 40px;                                           /* Define a largura fixa para o SPINNER DE CARREGAMENTO.                               */
+    height: 40px;                                          /* Define a altura fixa para o SPINNER DE CARREGAMENTO.                                */
+    border-radius: 50%;                                    /* Define os cantos arredondados para criar forma circular no SPINNER DE CARREGAMENTO. */
+    animation: spin 1s linear infinite;                    /* Define a animação de rotação contínua para o SPINNER DE CARREGAMENTO.               */
+    margin: 0 auto 20px;                                   /* Define as margens para centralizar o SPINNER DE CARREGAMENTO.                       */
+}
+
+/*======================================================*/
+/*              ANIMAÇÃO DE ROTAÇÃO (SPIN)              */
+/*          Define os keyframes para a rotação          */
+/*======================================================*/
+@keyframes spin {
+    0% { transform: rotate(0deg); }                        /* Define a rotação inicial como 0 graus para a ANIMAÇÃO DE SPIN. */
+    100% { transform: rotate(360deg); }                    /* Define a rotação final como 360 graus para a ANIMAÇÃO DE SPIN. */
+}
+
+/*======================================================*/
+/*                        RODAPÉ                        */
+/*     Área fixa com informações no final da página     */
+/*======================================================*/
+footer {
+    position: fixed;                                       /* Define o posicionamento fixo para manter o RODAPÉ estático na parte inferior da tela. */
+    bottom: 0;                                             /* Define a distância do fundo como zero para fixar o RODAPÉ no limite inferior.         */
+    left: 0px;                                             /* Define a distância da esquerda para posicionar o RODAPÉ.                              */
+    z-index: 1;                                            /* Define a ordem de empilhamento para que o RODAPÉ se sobreponha ao conteúdo.           */
+    width: 100%;                                           /* Define a largura total para garantir que o RODAPÉ ocupe toda a extensão horizontal.   */
+    height: 40px;                                          /* Define a altura fixa para padronizar a dimensão vertical do RODAPÉ.                   */
+    background-color: rgba(56, 56, 56, 0.8);               /* Define a cor de fundo semitransparente para o RODAPÉ.                                 */
+    color: #d4ac0d;                                        /* Define a cor do texto em dourado para o RODAPÉ.                                       */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o conteúdo do RODAPÉ.                 */
+}
+
+footer p {
+    font-size: 1.3em;                                      /* Define o tamanho da fonte para o texto do RODAPÉ.                         */
+    line-height: 1.5;                                      /* Define a altura da linha para melhorar a legibilidade do texto do RODAPÉ. */
+}
+
+/*======================================================*/
+/*                     MARCA D'ÁGUA                     */
+/*          Imagem de fundo semi-transparente           */
+/*======================================================*/
+.marca-dagua-imagem {
+    position: fixed;                                       /* Define o posicionamento fixo para manter a MARCA D'ÁGUA estática durante a rolagem da página. */
+    top: 0;                                                /* Define a distância do topo como zero para que a MARCA D'ÁGUA comece no limite superior.       */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar a MARCA D'ÁGUA ao limite lateral.       */
+    width: 100%;                                           /* Define a largura total para garantir que a MARCA D'ÁGUA preencha a tela horizontalmente.      */
+    height: 120%;                                          /* Define a altura expandida para garantir que a MARCA D'ÁGUA cubra toda a área de visualização. */
+    z-index: 10;                                           /* Define a ordem de empilhamento em camada de fundo para a MARCA D'ÁGUA.                        */
+    opacity: 0.3;                                          /* Define a opacidade para tornar a MARCA D'ÁGUA semi-transparente e sutil.                      */
+    overflow: hidden;                                      /* Define o transbordamento como oculto para impedir que a MARCA D'ÁGUA exiba barras de rolagem. */
+    pointer-events: none;                                  /* Desativa a interação do mouse para que a MARCA D'ÁGUA não bloqueie cliques no conteúdo.       */
+    background-size: cover;                                /* Define o tamanho do fundo para cobrir toda a área sem distorcer a MARCA D'ÁGUA.               */
+    background-repeat: no-repeat;                          /* Impede que a imagem de fundo da MARCA D'ÁGUA se repita na tela.                               */
+    background-position: center;                           /* Centraliza a imagem de fundo da MARCA D'ÁGUA na área de visualização.                         */
+}
+
+/*======================================================*/
+/*        BARRA DE NAVEGAÇÃO — AJUSTE DE MARGEM         */
+/*      Remove margem esquerda das opções do menu       */
+/*======================================================*/
+.menu-opcoes {
+    margin-left: 0;                                        /* Define o recuo à esquerda como nulo para as OPÇÕES DO MENU. */
+}
+
+/*======================================================*/
+/*                 SEÇÃO DE REFERÊNCIAS                 */
+/*  Exibe referências cruzadas para palavras bíblicas   */
+/*======================================================*/
+.referencias-section {
+    margin-top: 10px;                                      /* Define o espaçamento superior para a SEÇÃO DE REFERÊNCIAS.                    */
+    padding: 10px;                                         /* Define o preenchimento interno para criar um respiro na SEÇÃO DE REFERÊNCIAS. */
+    background: rgba(0, 0, 0, 0.2);                        /* Define a cor de fundo semitransparente para a SEÇÃO DE REFERÊNCIAS.           */
+    border-radius: 5px;                                    /* Define os cantos arredondados para suavizar o design da SEÇÃO DE REFERÊNCIAS. */
+}
+
+.referencias-titulo {
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o TÍTULO DAS REFERÊNCIAS. */
+    margin-bottom: 5px;                                    /* Define o espaçamento inferior para o TÍTULO DAS REFERÊNCIAS.     */
+    color: #d4af37;                                        /* Define a cor do texto em dourado para o TÍTULO DAS REFERÊNCIAS.  */
+}
+
+.referencia-item {
+    display: inline-block;                                 /* Define a exibição como bloco em linha para os ITENS DE REFERÊNCIA.  */
+    margin-right: 10px;                                    /* Define o espaçamento à direita para separar os ITENS DE REFERÊNCIA. */
+    color: #cccccc;                                        /* Define a cor do texto em cinza claro para os ITENS DE REFERÊNCIA.   */
+}
+
+.referencia-item:not(:last-child)::after {
+    content: ", ";                                         /* Adiciona uma vírgula e espaço após cada ITEM DE REFERÊNCIA, exceto o último. */
+}
+
+/*======================================================*/
+/*              SEÇÃO "SOBRE" — CONTAINER               */
+/*   Estilos específicos para a página de informações   */
+/*======================================================*/
+.sobre-conteiner {
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);  /* Define o fundo com gradiente escuro para o CONTAINER DA SEÇÃO "SOBRE".     */
+    border-radius: 12px;                                   /* Define os cantos arredondados para suavizar o design do CONTAINER DA SEÇÃO "SOBRE". */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);             /* Define uma sombra para criar profundidade no CONTAINER DA SEÇÃO "SOBRE".            */
+}
+
+.sobre-conteiner h2 {
+    color: #d4af37;                                        /* Define a cor do texto em dourado para o TÍTULO PRINCIPAL DA SEÇÃO "SOBRE". */
+    font-size: 2rem;                                       /* Define o tamanho da fonte para o TÍTULO PRINCIPAL DA SEÇÃO "SOBRE".        */
+    margin-bottom: 20px;                                   /* Define o espaçamento inferior para o TÍTULO PRINCIPAL DA SEÇÃO "SOBRE".    */
+    margin-left: 60px;                                     /* Define o recuo à esquerda para o TÍTULO PRINCIPAL DA SEÇÃO "SOBRE".        */
+}
+
+.sobre-conteiner h3 {
+    color: #d4af37;                                        /* Define a cor do texto em dourado para os SUBTÍTULOS DA SEÇÃO "SOBRE". */
+    font-size: 1.3rem;                                     /* Define o tamanho da fonte para os SUBTÍTULOS DA SEÇÃO "SOBRE".        */
+    margin: 25px 0 15px 60px;                              /* Define as margens para os SUBTÍTULOS DA SEÇÃO "SOBRE".                */
+}
+
+.sobre-conteiner p {
+    color: #cccccc;                                        /* Define a cor do texto em cinza claro para os PARÁGRAFOS DA SEÇÃO "SOBRE".              */
+    font-size: 1.1rem;                                     /* Define o tamanho da fonte para os PARÁGRAFOS DA SEÇÃO "SOBRE".                         */
+    line-height: 1.8;                                      /* Define a altura da linha para melhorar a legibilidade nos PARÁGRAFOS DA SEÇÃO "SOBRE". */
+    margin-bottom: 20px;                                   /* Define o espaçamento inferior para os PARÁGRAFOS DA SEÇÃO "SOBRE".                     */
+    text-align: justify;                                   /* Define o alinhamento justificado para os PARÁGRAFOS DA SEÇÃO "SOBRE".                  */
+    margin-left: 60px;                                     /* Define o recuo à esquerda para os PARÁGRAFOS DA SEÇÃO "SOBRE".                         */
+}
+
+.sobre-conteiner ul {
+    color: #ffffff;                                        /* Define a cor do texto em branco para as LISTAS DA SEÇÃO "SOBRE". */
+    margin-left: 120px;                                    /* Define o recuo à esquerda para as LISTAS DA SEÇÃO "SOBRE".       */
+    margin-bottom: 20px;                                   /* Define o espaçamento inferior para as LISTAS DA SEÇÃO "SOBRE".   */
+}
+
+.sobre-conteiner li {
+    margin-bottom: 10px;                                   /* Define o espaçamento inferior para os ITENS DA LISTA DA SEÇÃO "SOBRE".                     */
+    line-height: 1.6;                                      /* Define a altura da linha para melhorar a legibilidade nos ITENS DA LISTA DA SEÇÃO "SOBRE". */
+}

@@ -1,6 +1,79 @@
 {
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+  "livro": "Salmos - תְּהִלִּים - Tehillim",
   "capítulo": 70,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Apressa-te, ó Deus, em me livrar; apressa-te, YHWH, em ajudar-me.",
+      "palavras": [
+        { "hebraico": "אֱלֹהִ֥ים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "ó Deus" },
+        { "hebraico": "לְהַצִּילֵ֑נִי", "transliteral": "lə-haṣ-ṣî-lê-nî", "traducao_palavra": "para me livrar" },
+        { "hebraico": "יְ֝הוָ֗ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "לְעֶזְרָ֥תִי", "transliteral": "lə-ʿez-rā-ṯî", "traducao_palavra": "para meu auxílio" },
+        { "hebraico": "חֽוּשָׁה׃", "transliteral": "ḥû-šā", "traducao_palavra": "apressa-te" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Sejam envergonhados e confundidos os que buscam a minha vida; voltem atrás e confundam-se os que me desejam o mal.",
+      "palavras": [
+        { "hebraico": "יֵבֹ֣שׁוּ", "transliteral": "yē-ḇō-šû", "traducao_palavra": "sejam envergonhados" },
+        { "hebraico": "וְיַחְפְּר֮וּ", "transliteral": "wə-yaḥ-pə-rû", "traducao_palavra": "e sejam confundidos/pálidos" },
+        { "hebraico": "מְבַקְשֵׁ֪י", "transliteral": "mə-ḇaq-šê", "traducao_palavra": "os que buscam" },
+        { "hebraico": "נַ֫פְשִׁ֥י", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma/vida" },
+        { "hebraico": "יִסֹּ֣גוּ", "transliteral": "yis-śō-ḡû", "traducao_palavra": "retrocedam" },
+        { "hebraico": "אָ֭חֹור", "transliteral": "ʾā-ḥôr", "traducao_palavra": "atrás" },
+        { "hebraico": "וְיִכָּלְמ֑וּ", "transliteral": "wə-yik-kā-lə-mû", "traducao_palavra": "e sejam humilhados" },
+        { "hebraico": "חֲ֝פֵצֵ֗י", "transliteral": "ḥă-p̄ê-ṣê", "traducao_palavra": "os que desejam" },
+        { "hebraico": "רָעָתִֽי׃", "transliteral": "rā-ʿā-ṯî", "traducao_palavra": "o meu mal" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Retrocedam em recompensa da sua vergonha os que dizem: Ah! Ah!",
+      "palavras": [
+        { "hebraico": "יָ֭שׁוּבוּ", "transliteral": "yā-šû-ḇû", "traducao_palavra": "voltem/retrocedam" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "por causa de" },
+        { "hebraico": "עֵ֣קֶב", "transliteral": "ʿē-qeḇ", "traducao_palavra": "consequência/recompensa de" },
+        { "hebraico": "בָּשְׁתָּ֑ם", "transliteral": "bāš-tām", "traducao_palavra": "vergonha deles" },
+        { "hebraico": "הָ֝אֹמְרִ֗ים", "transliteral": "hā-ʾō-mə-rîm", "traducao_palavra": "os que dizem" },
+        { "hebraico": "הֶ֘אָ֥ח", "transliteral": "he-ʾāḥ", "traducao_palavra": "ah!" },
+        { "hebraico": "׀", "transliteral": "|", "traducao_palavra": "" },
+        { "hebraico": "הֶאָֽח׃", "transliteral": "he-ʾāḥ", "traducao_palavra": "ah!" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Folguem e alegrem-se em ti todos os que te buscam; e os que amam a tua salvação digam continuamente: Engrandecido seja Deus.",
+      "palavras": [
+        { "hebraico": "יָ֘שִׂ֤ישׂוּ", "transliteral": "yā-śî-śû", "traducao_palavra": "exultem" },
+        { "hebraico": "וְיִשְׂמְח֨וּ", "transliteral": "wə-yiś-mə-ḥû", "traducao_palavra": "e alegrem-se" },
+        { "hebraico": "׀", "transliteral": "|", "traducao_palavra": "" },
+        { "hebraico": "בְּךָ֗", "transliteral": "bə-ḵā", "traducao_palavra": "em ti" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todos" },
+        { "hebraico": "מְבַקְשֶׁ֫יךָ", "transliteral": "mə-ḇaq-šê-ḵā", "traducao_palavra": "os que te buscam" },
+        { "hebraico": "וְיֹאמְר֣וּ", "transliteral": "wə-yō-mə-rû", "traducao_palavra": "e digam" },
+        { "hebraico": "תָ֭מִיד", "transliteral": "ṯā-mîḏ", "traducao_palavra": "continuamente" },
+        { "hebraico": "יִגְדַּ֣ל", "transliteral": "yiḡ-dal", "traducao_palavra": "seja engrandecido" },
+        { "hebraico": "אֱלֹהִ֑ים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "אֹֽ֝הֲבֵ֗י", "transliteral": "ʾō-hă-ḇê", "traducao_palavra": "os que amam" },
+        { "hebraico": "יְשׁוּעָתֶֽךָ׃", "transliteral": "yə-šû-ʿā-ṯe-ḵā", "traducao_palavra": "tua salvação" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Eu, porém, sou pobre e necessitado; apressa-te a vir a mim, ó Deus; tu és o meu auxílio e o meu libertador; YHWH, não te detraste.",
+      "palavras": [
+        { "hebraico": "וַאֲנִ֤י", "transliteral": "wa-ʾă-nî", "traducao_palavra": "e eu" },
+        { "hebraico": "׀", "transliteral": "|", "traducao_palavra": "" },
+        { "hebraico": "עָנִ֣י", "transliteral": "ʿā-nî", "traducao_palavra": "pobre" },
+        { "hebraico": "וְאֶבְיֹון֮", "transliteral": "wə-ʾeḇ-yôn", "traducao_palavra": "e necessitado" },
+        { "hebraico": "אֱלֹהִ֪ים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "ó Deus" },
+        { "hebraico": "חֽוּשָׁה־", "transliteral": "ḥû-šā-", "traducao_palavra": "apressa-te" },
+        { "hebraico": "לִּ֫י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "עֶזְרִ֣י", "transliteral": "ʿez-rî", "traducao_palavra": "meu auxílio" },
+        { "hebraico": "וּמְפַלְטִ֣י", "transliteral": "ū-mə-p̄al-ṭî", "traducao_palavra": "e meu libertador" },
+        { "hebraico": "אַ֑תָּה", "transliteral": "ʾāt-tā", "traducao_palavra": "és tu" },
+        { "hebraico": "יְ֝הוָ֗ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אַל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "תְּאַחַֽר׃", "transliteral": "tə-ʾa-ḥar", "traducao_palavra": "te detraste/tardes" }
+      ]
+    }
+  }
 }

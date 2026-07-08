@@ -1,6 +1,99 @@
 {
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+  "livro": "Salmos - תְּהִלִּים - Tehillim",
   "capítulo": 114,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Quando Israel saiu do Egito, e a casa de Jacó de um povo de língua estranha,",
+      "palavras": [
+        { "hebraico": "בְּצֵאת", "transliteral": "bəṣēṯ", "traducao_palavra": "no sair de" },
+        { "hebraico": "יִשְׂרָאֵל", "transliteral": "yiśrāʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "מִמִּצְרָיִם", "transliteral": "mimmiṣrāyim", "traducao_palavra": "do Egito" },
+        { "hebraico": "בֵּית", "transliteral": "bêṯ", "traducao_palavra": "[a] casa de" },
+        { "hebraico": "יַעֲקֹב", "transliteral": "yaʿăqōḇ", "traducao_palavra": "Jacó" },
+        { "hebraico": "מֵעַם", "transliteral": "mēʿam", "traducao_palavra": "de um povo" },
+        { "hebraico": "לֹעֵז", "transliteral": "lōʿēz", "traducao_palavra": "[de] língua estranha/barbara" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Judá tornou-se o seu santuário, e Israel o seu domínio.",
+      "palavras": [
+        { "hebraico": "הָיְתָה", "transliteral": "hāyəṯā", "traducao_palavra": "foi/tornou-se" },
+        { "hebraico": "יְהוּדָה", "transliteral": "yəhûḏā", "traducao_palavra": "Judá" },
+        { "hebraico": "לְקָדְשֹׁו", "transliteral": "ləqāḏšô", "traducao_palavra": "para santuário dele" },
+        { "hebraico": "יִשְׂרָאֵל", "transliteral": "yiśrāʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "מַמְשְׁלֹותָיו׃", "transliteral": "mamšəlôṯāyw", "traducao_palavra": "domínios dele" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "O mar viu isto e fugiu; o Jordão voltou atrás.",
+      "palavras": [
+        { "hebraico": "הַיָּם", "transliteral": "hayyām", "traducao_palavra": "o mar" },
+        { "hebraico": "רָאָה", "transliteral": "rāʾā", "traducao_palavra": "viu" },
+        { "hebraico": "וַיָּנֹס", "transliteral": "wayyānōs", "traducao_palavra": "e fugiu" },
+        { "hebraico": "הַיַּרְדֵּן", "transliteral": "hayyardēn", "traducao_palavra": "o Jordão" },
+        { "hebraico": "יִסֹּב", "transliteral": "yissōḇ", "traducao_palavra": "voltou/virou" },
+        { "hebraico": "לְאָחֹור׃", "transliteral": "ləʾāḥôr", "traducao_palavra": "para trás" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Os montes saltaram como carneiros, e os outeiros como cordeiros.",
+      "palavras": [
+        { "hebraico": "הֶהָרִים", "transliteral": "hehārym", "traducao_palavra": "os montes" },
+        { "hebraico": "רָקְדוּ", "transliteral": "rāqəḏû", "traducao_palavra": "saltaram/dançaram" },
+        { "hebraico": "כְאֵילִים", "transliteral": "ḵəʾêlîm", "traducao_palavra": "como carneiros" },
+        { "hebraico": "גְּבָעֹות", "transliteral": "gəḇāʿôṯ", "traducao_palavra": "outeiros/colinas" },
+        { "hebraico": "כִּבְנֵי־", "transliteral": "kiḇnê-", "traducao_palavra": "como filhos de" },
+        { "hebraico": "צֹאן׃", "transliteral": "ṣōn", "traducao_palavra": "ovelhas/rebanho" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Que tens tu, ó mar, que fugiste? E tu, ó Jordão, que voltaste atrás?",
+      "palavras": [
+        { "hebraico": "מַה־", "transliteral": "mah-", "traducao_palavra": "o que/que tens" },
+        { "hebraico": "לְּךָ", "transliteral": "lləḵā", "traducao_palavra": "a ti" },
+        { "hebraico": "הַיָּם", "transliteral": "hayyām", "traducao_palavra": "ó mar" },
+        { "hebraico": "כִּי", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "תָנּוּס", "transliteral": "ṯānûs", "traducao_palavra": "fugiste" },
+        { "hebraico": "הַיַּרְדֵּן", "transliteral": "hayyardēn", "traducao_palavra": "ó Jordão" },
+        { "hebraico": "תִּסֹּב", "transliteral": "tissōḇ", "traducao_palavra": "voltaste" },
+        { "hebraico": "לְאָחֹור׃", "transliteral": "ləʾāḥôr", "traducao_palavra": "para trás" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Vós, montes, por que saltastes como carneiros? E vós, outeiros, como cordeiros?",
+      "palavras": [
+        { "hebraico": "הֶ֭הָרִים", "transliteral": "hehārym", "traducao_palavra": "ó montes" },
+        { "hebraico": "תִּרְקְדוּ", "transliteral": "tirqəḏû", "traducao_palavra": "saltastes" },
+        { "hebraico": "כְאֵילִים", "transliteral": "ḵəʾêlîm", "traducao_palavra": "como carneiros" },
+        { "hebraico": "גְּ֝בָעֹות", "transliteral": "gəḇāʿôṯ", "traducao_palavra": "ó outeiros" },
+        { "hebraico": "כִּבְנֵi־", "transliteral": "kiḇnê-", "traducao_palavra": "como filhos de" },
+        { "hebraico": "צֹאן׃", "transliteral": "ṣōn", "traducao_palavra": "ovelhas" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Treme, ó terra, na presença do Senhor, na presença do Deus de Jacó,",
+      "palavras": [
+        { "hebraico": "מִלִּפְנֵי", "transliteral": "millip̄nê", "traducao_palavra": "diante da face de" },
+        { "hebraico": "אָדֹון", "transliteral": "ʾāḏôn", "traducao_palavra": "Senhor" },
+        { "hebraico": "ח֫וּלִי", "transliteral": "ḥûlî", "traducao_palavra": "treme/contorce-te" },
+        { "hebraico": "אָרֶץ", "transliteral": "ʾāreṣ", "traducao_palavra": "ó terra" },
+        { "hebraico": "מִלִּפְנֵי", "transliteral": "millip̄nê", "traducao_palavra": "diante da face de" },
+        { "hebraico": "אֱלֹוהַּ", "transliteral": "ʾĕlôhha", "traducao_palavra": "Deus de" },
+        { "hebraico": "יַעֲקֹב׃", "transliteral": "yaʿăqōḇ", "traducao_palavra": "Jacó" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "O qual converteu a rocha em lago de águas, o pedregulho em fonte de águas.",
+      "palavras": [
+        { "hebraico": "הַהֹופְכִי", "transliteral": "hahôp̄əḵî", "traducao_palavra": "o que converte" },
+        { "hebraico": "הַצּוּר", "transliteral": "haṣṣûr", "traducao_palavra": "a rocha" },
+        { "hebraico": "אֲגַם־", "transliteral": "ʾăḡam-", "traducao_palavra": "em lago de" },
+        { "hebraico": "מָיִם", "transliteral": "māyim", "traducao_palavra": "águas" },
+        { "hebraico": "חַלָּמִישׁ", "transliteral": "ḥallāmîš", "traducao_palavra": "[o] pedregulho/pederneira" },
+        { "hebraico": "לְמַעְיְנֹו־", "transliteral": "ləmaʿyənô-", "traducao_palavra": "em fonte de" },
+        { "hebraico": "מָיִם׃", "transliteral": "māyim", "traducao_palavra": "águas" }
+      ]
+    }
+  }
 }

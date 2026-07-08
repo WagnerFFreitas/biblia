@@ -1,379 +1,379 @@
-/*======================================================*/
-/*                ESTILOS ESPECÍFICOS DO SLIDE          */
-/*   Layout, animações, texto hebraico e controles      */
-/*   para exibição de versículos em tela cheia          */
-/*======================================================*/
-
-/*======================================================*/
-/*            CONFIGURAÇÃO INICIAL (RESET)              */
-/*    Remove margens e PADDING padrão para garantir     */
-/*           consistência entre navegadores.            */
-/*======================================================*/
-body {
-    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão.                 */
-    padding: 0;                                            /* Define o preenchimento interno como nulo para remover os espaçamentos padrão.              */
-    background-color: black;                             /* Define a cor de fundo em preto para o CONTÊINER PRINCIPAL DO SLIDE.                        */
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do SLIDE.                     */
-    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os elementos.                    */
-    justify-content: center;                               /* Define o alinhamento vertical centralizado para os elementos no SLIDE.                     */
-    align-items: center;                                   /* Define o alinhamento horizontal centralizado para os elementos no SLIDE.                   */
-    height: 100vh;                                         /* Define a altura total para garantir que o CONTÊINER PRINCIPAL ocupe toda a visão vertical. */
-    color: white;                                        /* Define a cor do texto em branco do CONTÊINER PRINCIPAL DO SLIDE.                           */
-    font-family: Arial, SANS-SERIF;                        /* Define o tipo de fonte como ARIAL, SANS-SERIF do CONTÊINER PRINCIPAL DO SLIDE.             */
-    overflow: hidden;                                      /* Oculta o transbordamento e desativa a rolagem do CONTÊINER PRINCIPAL DO SLIDE.             */
-    opacity: 0;                                            /* Define a opacidade inicial como zero para a transição do SLIDE.                            */
-    transition: opacity 0.3s ease-in-out;                  /* Define uma transição suave para a opacidade do SLIDE.                                      */
-}
-
-/*======================================================*/
-/*                 SLIDE CARREGADO                      */
-/*   Estado visual quando o conteúdo está pronto        */
-/*                para ser exibido                      */
-/*======================================================*/
-body.loaded {
-    opacity: 1;                                            /* Define a opacidade total quando o SLIDE está carregado.                              */
-}
-
-/*======================================================*/
-/*          CONTÊINER DO VERSÍCULO E TÍTULO             */
-/*   Estrutura flexível que organiza o título e o       */
-/*              conteúdo do versículo                   */
-/*======================================================*/
-#versiculo-conteiner {
-    display: flex;                                        /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do CONTÊINER DO VERSÍCULO. */
-    flex-direction: column;                               /* Define a orientação em coluna para empilhar verticalmente os elementos.                  */
-    justify-content: center;                              /* Define o alinhamento vertical centralizado para os elementos no CONTÊINER DO VERSÍCULO.  */
-    align-items: center;                                  /* Define o alinhamento horizontal centralizado para os elementos no CONTÊINER DO VERSÍCULO.*/
-    margin-top: 0;                                        /* Define o espaçamento superior como nulo para o CONTÊINER DO VERSÍCULO.                   */
-    margin-bottom: 1.25rem;                               /* Define o espaçamento inferior para o CONTÊINER DO VERSÍCULO.                           */
-    width: 95%;                                           /* Define a largura relativa para garantir que o CONTÊINER DO VERSÍCULO seja responsivo.   */
-    text-align: center;                                   /* Define o alinhamento de texto centralizado para o CONTÊINER DO VERSÍCULO.              */
-    flex-grow: 1;                                         /* Permite que o CONTÊINER DO VERSÍCULO se expanda para ocupar o espaço disponível.        */
-    overflow-y: auto;                                     /* Define o comportamento de rolagem vertical automática para o CONTÊINER DO VERSÍCULO.    */
-    padding: 1rem 1rem 0;                                 /* Define o preenchimento interno superior e lateral para criar um respiro no CONTÊINER.  */
-    box-sizing: border-box;                               /* Inclui bordas e padding no tamanho total (Evita quebrar layout).                      */
-    position: relative;                                   /* Define o posicionamento relativo para o CONTÊINER DO VERSÍCULO.                        */
-}
-
-/*======================================================*/
-/*                 TÍTULO DO VERSÍCULO                  */
-/*     Cabeçalho fixo superior com informações do       */
-/*              livro, capítulo e versículo             */
-/*======================================================*/
-#titulo {
-    background-color: rgba(0, 0, 0, 0.6);                /* Define a cor de fundo preta translúcida para o TÍTULO DO VERSÍCULO.                    */
-    color: #f1c40f;                                      /* Define a cor do texto em dourado para o TÍTULO DO VERSÍCULO.                          */
-    width: 100%;                                           /* Define a largura total para garantir que o TÍTULO DO VERSÍCULO ocupe toda a extensão.  */
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TÍTULO DO VERSÍCULO.                */
-    padding: 0.75rem 0;                                    /* Define o preenchimento interno vertical para criar um respiro no TÍTULO DO VERSÍCULO.  */
-    font-size: clamp(1.2rem, 3vw, 2rem);                   /* Define o tamanho da fonte de forma responsiva para o TÍTULO DO VERSÍCULO.             */
-    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o TÍTULO DO VERSÍCULO.                        */
-    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o TÍTULO DO VERSÍCULO.                     */
-    font-family: Arial, SANS-SERIF;                        /* Define o tipo de fonte como ARIAL, SANS-SERIF para o TÍTULO DO VERSÍCULO.             */
-    text-transform: uppercase;                             /* Define a transformação do texto em maiúsculas para o TÍTULO DO VERSÍCULO.             */
-    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do TÍTULO.  */
-    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).                      */
-    flex-shrink: 0;                                        /* Impede que o TÍTULO DO VERSÍCULO encolha dentro do layout flexível.                  */
-    z-index: 2;                                            /* Define a ordem de empilhamento para que o TÍTULO DO VERSÍCULO se sobreponha ao fundo. */
-}
-
-/*======================================================*/
-/*                 TEXTO DO VERSÍCULO                   */
-/*     Estilo do parágrafo principal com tamanho        */
-/*            responsivo e destaque visual              */
-/*======================================================*/
-.texto-versiculo {
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TEXTO DO VERSÍCULO.                  */
-    font-size: clamp(2rem, 2.82vw, 5rem);                  /* Define o tamanho da fonte de forma responsiva para o TEXTO DO VERSÍCULO.              */
-    max-width: 100%;                                       /* Define o limite máximo de largura sem restrições para o TEXTO DO VERSÍCULO.           */
-    overflow-wrap: break-word;                             /* Define a quebra de palavras longas para evitar transbordamento no TEXTO DO VERSÍCULO. */
-    line-height: 1.3;                                      /* Define a altura da linha para ajustar o espaçamento vertical entre os textos.         */
-    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o TEXTO DO VERSÍCULO.                         */
-    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o TEXTO DO VERSÍCULO.                      */
-    font-family: "Arial Black", Gadget, SANS-SERIF;        /* Define a família da fonte como ARIAL BLACK para o TEXTO DO VERSÍCULO.                 */
-    z-index: 2;                                            /* Define a ordem de empilhamento para que o TEXTO DO VERSÍCULO se sobreponha ao fundo.  */
-    margin-top: 0.5rem;                                    /* Define o espaçamento superior para separar o TEXTO DO VERSÍCULO do título.            */
-}
-
-/*======================================================*/
-/*            TRADUÇÃO COMPLETA DO VERSÍCULO            */
-/*    Exibe o texto da versão original em português     */
-/*              com estilo diferenciado                 */
-/*======================================================*/
-.traducao-completa {
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para a TRADUÇÃO COMPLETA DO VERSÍCULO.      */
-    font-size: clamp(1.5rem, 2.5vw, 3rem);                 /* Define o tamanho da fonte de forma responsiva para a TRADUÇÃO COMPLETA DO VERSÍCULO.  */
-    max-width: 100%;                                       /* Define o limite máximo de largura sem restrições para a TRADUÇÃO COMPLETA DO VERSÍCULO.*/
-    overflow-wrap: break-word;                             /* Define a quebra de palavras longas para evitar transbordamento na TRADUÇÃO.           */
-    line-height: 1.4;                                      /* Define a altura da linha para ajustar o espaçamento vertical entre os textos.         */
-    font-weight: normal;                                   /* Define o peso da fonte como normal para a TRADUÇÃO COMPLETA DO VERSÍCULO.            */
-    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para a TRADUÇÃO COMPLETA DO VERSÍCULO.         */
-    font-family: Arial, SANS-SERIF;                        /* Define o tipo de fonte como ARIAL, SANS-SERIF para a TRADUÇÃO COMPLETA DO VERSÍCULO.  */
-    color: #ffffff;                                      /* Define a cor do texto em branco para a TRADUÇÃO COMPLETA DO VERSÍCULO.                */
-    z-index: 2;                                            /* Define a ordem de empilhamento para que a TRADUÇÃO se sobreponha ao fundo.            */
-    margin-bottom: 2rem;                                   /* Define o espaçamento inferior para separar a TRADUÇÃO dos elementos abaixo.           */
-}
-
-/*======================================================*/
-/*           CONTAINER DAS PALAVRAS HEBRAICAS           */
-/*      Organiza as palavras em layout flexível RTL     */
-/*      (direita para esquerda) com quebra de linha     */
-/*======================================================*/
-.palavras-container {
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout da exibição das PALAVRAS. */
-    flex-direction: row-reverse;                           /* Define a orientação da direita para a esquerda para o texto em HEBRAICO.                */
-    flex-wrap: wrap;                                       /* Define a quebra automática de linha para que as palavras sejam distribuídas.             */
-    justify-content: center;                               /* Define o alinhamento horizontal centralizado para as PALAVRAS HEBRAICAS.                */
-    align-items: flex-start;                               /* Define o alinhamento vertical ao início para as PALAVRAS HEBRAICAS.                     */
-    gap: 2rem;                                             /* Define o espaçamento entre as palavras no CONTAINER DAS PALAVRAS.                       */
-    width: 100%;                                           /* Define a largura total para o CONTAINER DAS PALAVRAS.                                  */
-    max-width: 95%;                                        /* Define o limite máximo de largura para o CONTAINER DAS PALAVRAS.                       */
-    margin: 0 auto;                                        /* Define as margens laterais automáticas para centralizar o CONTAINER DAS PALAVRAS.      */
-    padding: 1rem;                                         /* Define o preenchimento interno para criar um respiro no CONTAINER DAS PALAVRAS.        */
-    z-index: 2;                                            /* Define a ordem de empilhamento para que o CONTAINER DAS PALAVRAS se sobreponha ao fundo.*/
-}
-
-/*======================================================*/
-/*              ITEM INDIVIDUAL DA PALAVRA              */
-/*      Agrupa hebraico, transliteração e tradução      */
-/*             em layout de coluna vertical             */
-/*======================================================*/
-.word-detail-item {
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout dos ITENS DA PALAVRA.     */
-    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os elementos.                  */
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos nos ITENS DA PALAVRA.      */
-    justify-content: flex-start;                           /* Define o alinhamento vertical ao início para os elementos nos ITENS DA PALAVRA.        */
-    gap: 0.5rem;                                           /* Define o espaçamento entre os elementos internos dos ITENS DA PALAVRA.                  */
-    min-width: 100px;                                      /* Define a largura mínima para garantir a visibilidade dos ITENS DA PALAVRA.              */
-    max-width: 200px;                                      /* Define a largura máxima permitida para limitar a expansão dos ITENS DA PALAVRA.         */
-    flex-shrink: 0;                                        /* Impede que os ITENS DA PALAVRA encolham dentro do layout flexível.                    */
-}
-
-/*======================================================*/
-/*                    TEXTO HEBRAICO                    */
-/*          Destaque visual do texto original           */
-/*          em cor dourada e fonte específica           */
-/*======================================================*/
-.word-detail-item .hebrew {
-    font-size: clamp(2rem, 3vw, 4rem);                     /* Define o tamanho da fonte de forma responsiva para o TEXTO HEBRAICO.                   */
-    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o TEXTO HEBRAICO.                              */
-    color: #ffd700;                                      /* Define a cor do texto em dourado para o TEXTO HEBRAICO.                               */
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TEXTO HEBRAICO.                     */
-    line-height: 1.2;                                      /* Define a altura da linha para ajustar o espaçamento vertical entre os textos.         */
-    font-family: "Times New Roman", serif;                 /* Define a família da fonte como TIMES NEW ROMAN para o TEXTO HEBRAICO.                 */
-}
-
-/*======================================================*/
-/*                 TEXTO TRANSLITERADO                  */
-/*          Representação fonética do hebraico          */
-/*             em cinza claro e maiúsculas              */
-/*======================================================*/
-.word-detail-item .transliteration {
-    font-size: clamp(0.9rem, 1.5vw, 1.5rem);               /* Define o tamanho da fonte de forma responsiva para o TEXTO TRANSLITERADO.             */
-    font-weight: normal;                                   /* Define o peso da fonte como normal para o TEXTO TRANSLITERADO.                       */
-    color: #cccccc;                                      /* Define a cor do texto em cinza claro para o TEXTO TRANSLITERADO.                     */
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TEXTO TRANSLITERADO.               */
-    text-transform: uppercase;                             /* Define a transformação do texto em maiúsculas para o TEXTO TRANSLITERADO.            */
-    line-height: 1.2;                                      /* Define a altura da linha para ajustar o espaçamento vertical entre os textos.         */
-    font-family: Arial, SANS-SERIF;                        /* Define o tipo de fonte como ARIAL, SANS-SERIF para o TEXTO TRANSLITERADO.             */
-}
-
-/*======================================================*/
-/*                 TRADUÇÃO DA PALAVRA                  */
-/*         Significado da palavra em português          */
-/*                 em branco e itálico                  */
-/*======================================================*/
-.word-detail-item .translation {
-    font-size: clamp(0.9rem, 1.5vw, 1.5rem);               /* Define o tamanho da fonte de forma responsiva para a TRADUÇÃO DA PALAVRA.             */
-    font-weight: normal;                                   /* Define o peso da fonte como normal para a TRADUÇÃO DA PALAVRA.                       */
-    color: #ffffff;                                      /* Define a cor do texto em branco para a TRADUÇÃO DA PALAVRA.                          */
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para a TRADUÇÃO DA PALAVRA.               */
-    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para a TRADUÇÃO DA PALAVRA.                    */
-    line-height: 1.2;                                      /* Define a altura da linha para ajustar o espaçamento vertical entre os textos.         */
-    font-family: Arial, SANS-SERIF;                        /* Define o tipo de fonte como ARIAL, SANS-SERIF para a TRADUÇÃO DA PALAVRA.             */
-}
-
-/*======================================================*/
-/*              TÍTULO DA SEÇÃO INTERNA                 */
-/* Destaque temático do versículo (ex: “No Princípio”)  */
-/*       em cor verde claro e estilo diferenciado       */
-/*======================================================*/
-#versiculo-conteiner strong.section-title {
-    color: #5df565;                                      /* Define a cor do texto em verde claro para o TÍTULO DA SEÇÃO INTERNA.                 */
-    font-size: clamp(1.5rem, 2.8vw, 3rem);                 /* Define o tamanho da fonte de forma responsiva para o TÍTULO DA SEÇÃO INTERNA.        */
-    margin-bottom: 1rem;                                   /* Define o espaçamento inferior para separar o TÍTULO DA SEÇÃO INTERNA do conteúdo.    */
-    display: block;                                        /* Define a exibição como bloco para garantir que o TÍTULO ocupe uma linha exclusiva.   */
-    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o TÍTULO DA SEÇÃO INTERNA.                    */
-    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o TÍTULO DA SEÇÃO INTERNA.                */
-    font-family: Arial, SANS-SERIF;                        /* Define o tipo de fonte como ARIAL, SANS-SERIF para o TÍTULO DA SEÇÃO INTERNA.        */
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TÍTULO DA SEÇÃO INTERNA.           */
-    width: 100%;                                           /* Define a largura total para o TÍTULO DA SEÇÃO INTERNA.                               */
-    z-index: 3;                                            /* Define a ordem de empilhamento para que o TÍTULO DA SEÇÃO se sobreponha ao conteúdo. */
-    line-height: 1.2;                                      /* Define a altura da linha para ajustar o espaçamento vertical entre os textos.        */
-}
-
-/*======================================================*/
-/*                  MARCA D'ÁGUA                        */
-/*       Imagem de fundo semi-transparente              */
-/*======================================================*/
-#marcadagua {
-    position: fixed;                                       /* Define o posicionamento fixo para manter a MARCA D'ÁGUA estática durante a rolagem da página.     */
-    top: 0;                                                /* Define a distância do topo como zero para que a MARCA D'ÁGUA comece no limite superior.           */
-    left: 0;                                               /* Define a distância da esquerda como zero para alinhar a MARCA D'ÁGUA ao limite lateral.           */
-    z-index: 1;                                            /* Define a ordem de empilhamento em camada de fundo para a MARCA D'ÁGUA.                            */
-    width: 100%;                                           /* Define a largura total para garantir que a MARCA D'ÁGUA preencha a tela horizontalmente.          */
-    height: 100%;                                          /* Define a altura total para garantir que a MARCA D'ÁGUA preencha a tela verticalmente.             */
-    background-image: url("../img/biblia.png");            /* Define a imagem de fundo da MARCA D'ÁGUA.                                                          */
-    opacity: 0.15;                                         /* Define a opacidade para tornar a MARCA D'ÁGUA semi-transparente e sutil.                          */
-    pointer-events: none;                                  /* Desativa a interação do mouse para que a MARCA D'ÁGUA não bloqueie cliques no conteúdo.           */
-    overflow: hidden;                                      /* Define o transbordamento como oculto para impedir que a MARCA D'ÁGUA exiba barras de rolagem.     */
-    background-size: cover;                                /* Define o tamanho do fundo para cobrir toda a área sem distorcer a MARCA D'ÁGUA.                   */
-    background-repeat: no-repeat;                          /* Impede que a imagem de fundo da MARCA D'ÁGUA se repita na tela.                                   */
-    background-position: center;                           /* Centraliza a imagem de fundo da MARCA D'ÁGUA na área de visualização.                             */
-}
-
-/*======================================================*/
-/*           CONTÊINER DOS BOTÕES DE NAVEGAÇÃO          */
-/*     Barra fixa inferior com controles de voltar      */
-/*                 e próximo versículo                  */
-/*======================================================*/
-#botao-conteiner {
-    width: 100%;                                           /* Define a largura total para garantir que o CONTÊINER DOS BOTÕES ocupe toda a extensão.  */
-    background-color: rgba(0, 0, 0, 0.6);                /* Define a cor de fundo preta translúcida para o CONTÊINER DOS BOTÕES.                    */
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout dos BOTÕES.                */
-    justify-content: center;                               /* Define o alinhamento horizontal centralizado para os elementos nos BOTÕES.              */
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos nos BOTÕES.                */
-    gap: 1rem;                                             /* Define o espaçamento entre os elementos internos dos BOTÕES.                            */
-    padding: 0.5rem 1.2rem;                                /* Define o preenchimento interno vertical e horizontal para criar um respiro nos BOTÕES.  */
-    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).                        */
-    flex-shrink: 0;                                        /* Impede que o CONTÊINER DOS BOTÕES encolha dentro do layout flexível.                    */
-    z-index: 2;                                            /* Define a ordem de empilhamento para que o CONTÊINER DOS BOTÕES se sobreponha ao fundo.  */
-}
-
-/*======================================================*/
-/*              BOTÕES DE VOLTAR E PRÓXIMO              */
-/*        Estilo comum para botões de navegação         */
-/*                  entre versículos                    */
-/*======================================================*/
-#voltar-botao,
-#proximo-botao {
-    border: none;                                          /* Define a borda como nula para remover o contorno padrão dos BOTÕES DE NAVEGAÇÃO.                  */
-    padding: 0.6rem 1.5rem;                                /* Define o preenchimento interno vertical e horizontal para dimensionar os BOTÕES.                  */
-    font-size: clamp(0.9rem, 1.2vw, 1.2rem);               /* Define o tamanho da fonte de forma responsiva para os BOTÕES DE NAVEGAÇÃO.                        */
-    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para os BOTÕES DE NAVEGAÇÃO.                                    */
-    font-style: normal;                                    /* Define o estilo da fonte como normal para os BOTÕES DE NAVEGAÇÃO.                                 */
-    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design dos BOTÕES DE NAVEGAÇÃO.                     */
-    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação nos BOTÕES DE NAVEGAÇÃO.         */
-    transition: background-color 0.2s ease, color 0.2s ease, opacity 0.2s ease; /* Define transições suaves para os efeitos visuais nos BOTÕES DE NAVEGAÇÃO.    */
-    display: inline-flex;                                  /* Define a exibição como flex em linha para os BOTÕES DE NAVEGAÇÃO.                                 */
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos nos BOTÕES DE NAVEGAÇÃO.             */
-    justify-content: center;                               /* Define o alinhamento horizontal centralizado para os elementos nos BOTÕES DE NAVEGAÇÃO.           */
-    min-width: 120px;                                      /* Define a largura mínima para garantir a visibilidade dos BOTÕES DE NAVEGAÇÃO.                     */
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para os BOTÕES DE NAVEGAÇÃO.                           */
-}
-
-/*======================================================*/
-/*            BOTÃO DE VOLTAR VERSÍCULO                 */
-/*   Aciona a navegação para o versículo anterior       */
-/*======================================================*/
-#voltar-botao {
-    background-color: #f1c40f;                           /* Define a cor de fundo em dourado para destacar a ação do BOTÃO DE VOLTAR VERSÍCULO.    */
-    color: black;                                        /* Define a cor do texto em preto para garantir a leitura no BOTÃO DE VOLTAR VERSÍCULO.   */
-}
-
-/*======================================================*/
-/*            BOTÃO DE PRÓXIMO VERSÍCULO                */
-/*   Aciona a navegação para o próximo versículo        */
-/*======================================================*/
-#proximo-botao {
-    background-color: #f1c40f;                           /* Define a cor de fundo em dourado para destacar a ação do BOTÃO DE PRÓXIMO VERSÍCULO.   */
-    color: black;                                        /* Define a cor do texto em preto para garantir a leitura no BOTÃO DE PRÓXIMO VERSÍCULO.  */
-}
-
-/*======================================================*/
-/*         BOTÃO DE VOLTAR VERSÍCULO - HOVER            */
-/*           Efeito visual ao passar o mouse            */
-/*======================================================*/
-#voltar-botao:not(:disabled):hover {
-    background-color: #d4ac0d;                           /* Define a cor de fundo em dourado mais escuro para o efeito de HOVER no BOTÃO VOLTAR.   */
-    color: white;                                        /* Define a cor do texto em branco para o efeito de HOVER no BOTÃO VOLTAR.                */
-}
-
-/*======================================================*/
-/*         BOTÃO DE PRÓXIMO VERSÍCULO - HOVER           */
-/*           Efeito visual ao passar o mouse            */
-/*======================================================*/
-#proximo-botao:not(:disabled):hover {
-    background-color: #d4ac0d;                           /* Define a cor de fundo em dourado mais escuro para o efeito de HOVER no BOTÃO PRÓXIMO.  */
-    color: white;                                        /* Define a cor do texto em branco para o efeito de HOVER no BOTÃO PRÓXIMO.               */
-}
-
-/*======================================================*/
-/*           BOTÕES DE NAVEGAÇÃO DESATIVADOS            */
-/*     Estilo visual para botões inativos quando        */
-/*    não há versículo anterior/próximo disponível      */
-/*======================================================*/
-#voltar-botao:disabled,
-#proximo-botao:disabled {
-    background-color: #333333;                           /* Define a cor de fundo em cinza escuro para os BOTÕES DE NAVEGAÇÃO quando desativados.  */
-    color: #888888;                                      /* Define a cor do texto em cinza claro para os BOTÕES DE NAVEGAÇÃO quando desativados.   */
-    cursor: not-allowed;                                   /* Define o cursor como "não permitido" para os BOTÕES DE NAVEGAÇÃO quando desativados.   */
-    opacity: 0.6;                                          /* Define a opacidade reduzida para os BOTÕES DE NAVEGAÇÃO quando desativados.            */
-}
-
-/*======================================================*/
-/*              CONTEÚDO DA OPÇÃO “SOBRE”               */
-/*     Janela central com informações da aplicação      */
-/*======================================================*/
-.popup-overlay {
-    position: fixed;                                       /* Define o posicionamento fixo para manter a janela do POPUP sempre visível durante a interação.    */
-    top: 0;                                                /* Define a distância do topo como zero para que o POPUP comece no limite superior.                  */
-    left: 0;                                               /* Define a distância da esquerda como zero para alinhar o POPUP ao limite lateral.                  */
-    width: 100%;                                           /* Define a largura total para garantir que o POPUP preencha a tela horizontalmente.                 */
-    height: 100%;                                          /* Define a altura total para garantir que o POPUP preencha a tela verticalmente.                    */
-    background-color: rgba(0, 0, 0, 0.7);                /* Define a cor de fundo em preto translúcido para destacar e isolar o conteúdo do POPUP.            */
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do POPUP.                            */
-    justify-content: center;                               /* Define o alinhamento horizontal centralizado para o conteúdo do POPUP.                            */
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para o conteúdo do POPUP.                              */
-    z-index: 1000;                                         /* Define a ordem de empilhamento em nível máximo para garantir que o POPUP fique acima de todos.    */
-}
-
-/*======================================================*/
-/*                POPUP — CONTEÚDO                      */
-/*     Janela central com informações da aplicação      */
-/*======================================================*/
-.popup-conteudo {
-    background-color: white;                             /* Define a cor de fundo em branco para o CONTEÚDO DO POPUP.                                  */
-    padding: 2rem;                                         /* Define o preenchimento interno para criar um respiro entre o conteúdo e as bordas do POPUP.*/
-    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design da janela flutuante do POPUP.         */
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para o CONTEÚDO DO POPUP.                       */
-    color: black;                                        /* Define a cor do texto em preto para o CONTEÚDO DO POPUP.                                   */
-}
-
-/*======================================================*/
-/*                POPUP — TÍTULO (H2)                   */
-/*======================================================*/
-.popup-conteudo h2 {
-    margin-top: 0;                                         /* Define a margem superior como nula para remover o espaçamento padrão do TÍTULO DO POPUP.*/
-}
-
-/*======================================================*/
-/*                 POPUP — BOTÃO FECHAR                 */
-/*======================================================*/
-#fechar-popup {
-    background-color: #f1c40f;                           /* Define a cor de fundo em dourado para destacar a ação do BOTÃO FECHAR DO POPUP.                   */
-    color: black;                                        /* Define a cor do texto em preto para garantir a leitura no BOTÃO FECHAR DO POPUP.                  */
-    border: none;                                          /* Define a borda como nula para remover o contorno padrão do BOTÃO FECHAR DO POPUP.                 */
-    padding: 0.5rem 1rem;                                  /* Define o preenchimento interno vertical e horizontal para dimensionar o BOTÃO FECHAR DO POPUP.    */
-    border-radius: 5px;                                    /* Define os cantos arredondados para suavizar o design do BOTÃO FECHAR DO POPUP.                    */
-    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO FECHAR DO POPUP.        */
-    font-size: 1rem;                                       /* Define o tamanho da fonte para dar destaque ao texto do BOTÃO FECHAR DO POPUP.                    */
-}
-
-/*======================================================*/
-/*             POPUP — BOTÃO FECHAR — HOVER             */
-/*           Efeito visual ao passar o mouse            */
-/*======================================================*/
-#fechar-popup:hover {
-    background-color: #d4ac0d;                           /* Define a cor de fundo em dourado mais escuro para o efeito de HOVER no BOTÃO FECHAR DO POPUP.     */
-}
+/*======================================================*/
+/*             ESTILOS ESPECÍFICOS DO SLIDE             */
+/*    Layout, animações, texto hebraico e controles     */
+/*      para exibição de versículos em tela cheia       */
+/*======================================================*/
+
+/*======================================================*/
+/*             CONFIGURAÇÃO INICIAL (RESET)             */
+/*    Remove margens e PADDING padrão para garantir     */
+/*           consistência entre navegadores.            */
+/*======================================================*/
+body {
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão.                 */
+    padding: 0;                                            /* Define o preenchimento interno como nulo para remover os espaçamentos padrão.              */
+    background-color: black;                               /* Define a cor de fundo em preto para o CONTÊINER PRINCIPAL DO SLIDE.                        */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do SLIDE.                     */
+    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os elementos.                    */
+    justify-content: center;                               /* Define o alinhamento vertical centralizado para os elementos no SLIDE.                     */
+    align-items: center;                                   /* Define o alinhamento horizontal centralizado para os elementos no SLIDE.                   */
+    height: 100vh;                                         /* Define a altura total para garantir que o CONTÊINER PRINCIPAL ocupe toda a visão vertical. */
+    color: white;                                          /* Define a cor do texto em branco do CONTÊINER PRINCIPAL DO SLIDE.                           */
+    font-family: Arial, SANS-SERIF;                        /* Define o tipo de fonte como ARIAL, SANS-SERIF do CONTÊINER PRINCIPAL DO SLIDE.             */
+    overflow: hidden;                                      /* Oculta o transbordamento e desativa a rolagem do CONTÊINER PRINCIPAL DO SLIDE.             */
+    opacity: 0;                                            /* Define a opacidade inicial como zero para a transição do SLIDE.                            */
+    transition: opacity 0.3s ease-in-out;                  /* Define uma transição suave para a opacidade do SLIDE.                                      */
+}
+
+/*======================================================*/
+/*                   SLIDE CARREGADO                    */
+/*     Estado visual quando o conteúdo está pronto      */
+/*                   para ser exibido                   */
+/*======================================================*/
+body.loaded {
+    opacity: 1;                                            /* Define a opacidade total quando o SLIDE está carregado. */
+}
+
+/*======================================================*/
+/*           CONTÊINER DO VERSÍCULO E TÍTULO            */
+/*     Estrutura flexível que organiza o título e o     */
+/*                conteúdo do versículo                 */
+/*======================================================*/
+#versiculo-conteiner {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do CONTÊINER DO VERSÍCULO.   */
+    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os elementos.                   */
+    justify-content: center;                               /* Define o alinhamento vertical centralizado para os elementos no CONTÊINER DO VERSÍCULO.   */
+    align-items: center;                                   /* Define o alinhamento horizontal centralizado para os elementos no CONTÊINER DO VERSÍCULO. */
+    margin-top: 0;                                         /* Define o espaçamento superior como nulo para o CONTÊINER DO VERSÍCULO.                    */
+    margin-bottom: 1.25rem;                                /* Define o espaçamento inferior para o CONTÊINER DO VERSÍCULO.                              */
+    width: 95%;                                            /* Define a largura relativa para garantir que o CONTÊINER DO VERSÍCULO seja responsivo.     */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o CONTÊINER DO VERSÍCULO.                 */
+    flex-grow: 1;                                          /* Permite que o CONTÊINER DO VERSÍCULO se expanda para ocupar o espaço disponível.          */
+    overflow-y: auto;                                      /* Define o comportamento de rolagem vertical automática para o CONTÊINER DO VERSÍCULO.      */
+    padding: 1rem 1rem 0;                                  /* Define o preenchimento interno superior e lateral para criar um respiro no CONTÊINER.     */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).                          */
+    position: relative;                                    /* Define o posicionamento relativo para o CONTÊINER DO VERSÍCULO.                           */
+}
+
+/*======================================================*/
+/*                 TÍTULO DO VERSÍCULO                  */
+/*      Cabeçalho fixo superior com informações do      */
+/*             livro, capítulo e versículo              */
+/*======================================================*/
+#titulo {
+    background-color: rgba(0, 0, 0, 0.6);                  /* Define a cor de fundo preta translúcida para o TÍTULO DO VERSÍCULO.                   */
+    color: #f1c40f;                                        /* Define a cor do texto em dourado para o TÍTULO DO VERSÍCULO.                          */
+    width: 100%;                                           /* Define a largura total para garantir que o TÍTULO DO VERSÍCULO ocupe toda a extensão. */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TÍTULO DO VERSÍCULO.                */
+    padding: 0.75rem 0;                                    /* Define o preenchimento interno vertical para criar um respiro no TÍTULO DO VERSÍCULO. */
+    font-size: clamp(1.2rem, 3vw, 2rem);                   /* Define o tamanho da fonte de forma responsiva para o TÍTULO DO VERSÍCULO.             */
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o TÍTULO DO VERSÍCULO.                         */
+    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o TÍTULO DO VERSÍCULO.                     */
+    font-family: Arial, SANS-SERIF;                        /* Define o tipo de fonte como ARIAL, SANS-SERIF para o TÍTULO DO VERSÍCULO.             */
+    text-transform: uppercase;                             /* Define a transformação do texto em maiúsculas para o TÍTULO DO VERSÍCULO.             */
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do TÍTULO.  */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).                      */
+    flex-shrink: 0;                                        /* Impede que o TÍTULO DO VERSÍCULO encolha dentro do layout flexível.                   */
+    z-index: 2;                                            /* Define a ordem de empilhamento para que o TÍTULO DO VERSÍCULO se sobreponha ao fundo. */
+}
+
+/*======================================================*/
+/*                  TEXTO DO VERSÍCULO                  */
+/*      Estilo do parágrafo principal com tamanho       */
+/*             responsivo e destaque visual             */
+/*======================================================*/
+.texto-versiculo {
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TEXTO DO VERSÍCULO.                 */
+    font-size: clamp(2rem, 2.82vw, 5rem);                  /* Define o tamanho da fonte de forma responsiva para o TEXTO DO VERSÍCULO.              */
+    max-width: 100%;                                       /* Define o limite máximo de largura sem restrições para o TEXTO DO VERSÍCULO.           */
+    overflow-wrap: break-word;                             /* Define a quebra de palavras longas para evitar transbordamento no TEXTO DO VERSÍCULO. */
+    line-height: 1.3;                                      /* Define a altura da linha para ajustar o espaçamento vertical entre os textos.         */
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o TEXTO DO VERSÍCULO.                          */
+    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o TEXTO DO VERSÍCULO.                      */
+    font-family: "Arial Black", Gadget, SANS-SERIF;        /* Define a família da fonte como ARIAL BLACK para o TEXTO DO VERSÍCULO.                 */
+    z-index: 2;                                            /* Define a ordem de empilhamento para que o TEXTO DO VERSÍCULO se sobreponha ao fundo.  */
+    margin-top: 0.5rem;                                    /* Define o espaçamento superior para separar o TEXTO DO VERSÍCULO do título.            */
+}
+
+/*======================================================*/
+/*            TRADUÇÃO COMPLETA DO VERSÍCULO            */
+/*    Exibe o texto da versão original em português     */
+/*               com estilo diferenciado                */
+/*======================================================*/
+.traducao-completa {
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para a TRADUÇÃO COMPLETA DO VERSÍCULO.       */
+    font-size: clamp(1.5rem, 2.5vw, 3rem);                 /* Define o tamanho da fonte de forma responsiva para a TRADUÇÃO COMPLETA DO VERSÍCULO.    */
+    max-width: 100%;                                       /* Define o limite máximo de largura sem restrições para a TRADUÇÃO COMPLETA DO VERSÍCULO. */
+    overflow-wrap: break-word;                             /* Define a quebra de palavras longas para evitar transbordamento na TRADUÇÃO.             */
+    line-height: 1.4;                                      /* Define a altura da linha para ajustar o espaçamento vertical entre os textos.           */
+    font-weight: normal;                                   /* Define o peso da fonte como normal para a TRADUÇÃO COMPLETA DO VERSÍCULO.               */
+    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para a TRADUÇÃO COMPLETA DO VERSÍCULO.            */
+    font-family: Arial, SANS-SERIF;                        /* Define o tipo de fonte como ARIAL, SANS-SERIF para a TRADUÇÃO COMPLETA DO VERSÍCULO.    */
+    color: #ffffff;                                        /* Define a cor do texto em branco para a TRADUÇÃO COMPLETA DO VERSÍCULO.                  */
+    z-index: 2;                                            /* Define a ordem de empilhamento para que a TRADUÇÃO se sobreponha ao fundo.              */
+    margin-bottom: 2rem;                                   /* Define o espaçamento inferior para separar a TRADUÇÃO dos elementos abaixo.             */
+}
+
+/*======================================================*/
+/*           CONTAINER DAS PALAVRAS HEBRAICAS           */
+/*     Organiza as palavras em layout flexível RTL      */
+/*     (direita para esquerda) com quebra de linha      */
+/*======================================================*/
+.palavras-container {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout da exibição das PALAVRAS.   */
+    flex-direction: row-reverse;                           /* Define a orientação da direita para a esquerda para o texto em HEBRAICO.                 */
+    flex-wrap: wrap;                                       /* Define a quebra automática de linha para que as palavras sejam distribuídas.             */
+    justify-content: center;                               /* Define o alinhamento horizontal centralizado para as PALAVRAS HEBRAICAS.                 */
+    align-items: flex-start;                               /* Define o alinhamento vertical ao início para as PALAVRAS HEBRAICAS.                      */
+    gap: 2rem;                                             /* Define o espaçamento entre as palavras no CONTAINER DAS PALAVRAS.                        */
+    width: 100%;                                           /* Define a largura total para o CONTAINER DAS PALAVRAS.                                    */
+    max-width: 95%;                                        /* Define o limite máximo de largura para o CONTAINER DAS PALAVRAS.                         */
+    margin: 0 auto;                                        /* Define as margens laterais automáticas para centralizar o CONTAINER DAS PALAVRAS.        */
+    padding: 1rem;                                         /* Define o preenchimento interno para criar um respiro no CONTAINER DAS PALAVRAS.          */
+    z-index: 2;                                            /* Define a ordem de empilhamento para que o CONTAINER DAS PALAVRAS se sobreponha ao fundo. */
+}
+
+/*======================================================*/
+/*              ITEM INDIVIDUAL DA PALAVRA              */
+/*      Agrupa hebraico, transliteração e tradução      */
+/*             em layout de coluna vertical             */
+/*======================================================*/
+.word-detail-item {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout dos ITENS DA PALAVRA. */
+    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os elementos.            */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos nos ITENS DA PALAVRA. */
+    justify-content: flex-start;                           /* Define o alinhamento vertical ao início para os elementos nos ITENS DA PALAVRA.    */
+    gap: 0.5rem;                                           /* Define o espaçamento entre os elementos internos dos ITENS DA PALAVRA.             */
+    min-width: 100px;                                      /* Define a largura mínima para garantir a visibilidade dos ITENS DA PALAVRA.         */
+    max-width: 200px;                                      /* Define a largura máxima permitida para limitar a expansão dos ITENS DA PALAVRA.    */
+    flex-shrink: 0;                                        /* Impede que os ITENS DA PALAVRA encolham dentro do layout flexível.                 */
+}
+
+/*======================================================*/
+/*                    TEXTO HEBRAICO                    */
+/*          Destaque visual do texto original           */
+/*          em cor dourada e fonte específica           */
+/*======================================================*/
+.word-detail-item .hebrew {
+    font-size: clamp(2rem, 3vw, 4rem);                     /* Define o tamanho da fonte de forma responsiva para o TEXTO HEBRAICO.          */
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o TEXTO HEBRAICO.                      */
+    color: #ffd700;                                        /* Define a cor do texto em dourado para o TEXTO HEBRAICO.                       */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TEXTO HEBRAICO.             */
+    line-height: 1.2;                                      /* Define a altura da linha para ajustar o espaçamento vertical entre os textos. */
+    font-family: "Times New Roman", serif;                 /* Define a família da fonte como TIMES NEW ROMAN para o TEXTO HEBRAICO.         */
+}
+
+/*======================================================*/
+/*                 TEXTO TRANSLITERADO                  */
+/*          Representação fonética do hebraico          */
+/*             em cinza claro e maiúsculas              */
+/*======================================================*/
+.word-detail-item .transliteration {
+    font-size: clamp(0.9rem, 1.5vw, 1.5rem);               /* Define o tamanho da fonte de forma responsiva para o TEXTO TRANSLITERADO.     */
+    font-weight: normal;                                   /* Define o peso da fonte como normal para o TEXTO TRANSLITERADO.                */
+    color: #cccccc;                                        /* Define a cor do texto em cinza claro para o TEXTO TRANSLITERADO.              */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TEXTO TRANSLITERADO.        */
+    text-transform: uppercase;                             /* Define a transformação do texto em maiúsculas para o TEXTO TRANSLITERADO.     */
+    line-height: 1.2;                                      /* Define a altura da linha para ajustar o espaçamento vertical entre os textos. */
+    font-family: Arial, SANS-SERIF;                        /* Define o tipo de fonte como ARIAL, SANS-SERIF para o TEXTO TRANSLITERADO.     */
+}
+
+/*======================================================*/
+/*                 TRADUÇÃO DA PALAVRA                  */
+/*         Significado da palavra em português          */
+/*                 em branco e itálico                  */
+/*======================================================*/
+.word-detail-item .translation {
+    font-size: clamp(0.9rem, 1.5vw, 1.5rem);               /* Define o tamanho da fonte de forma responsiva para a TRADUÇÃO DA PALAVRA.     */
+    font-weight: normal;                                   /* Define o peso da fonte como normal para a TRADUÇÃO DA PALAVRA.                */
+    color: #ffffff;                                        /* Define a cor do texto em branco para a TRADUÇÃO DA PALAVRA.                   */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para a TRADUÇÃO DA PALAVRA.        */
+    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para a TRADUÇÃO DA PALAVRA.             */
+    line-height: 1.2;                                      /* Define a altura da linha para ajustar o espaçamento vertical entre os textos. */
+    font-family: Arial, SANS-SERIF;                        /* Define o tipo de fonte como ARIAL, SANS-SERIF para a TRADUÇÃO DA PALAVRA.     */
+}
+
+/*======================================================*/
+/*               TÍTULO DA SEÇÃO INTERNA                */
+/* Destaque temático do versículo (ex: “No Princípio”)  */
+/*       em cor verde claro e estilo diferenciado       */
+/*======================================================*/
+#versiculo-conteiner strong.section-title {
+    color: #5df565;                                        /* Define a cor do texto em verde claro para o TÍTULO DA SEÇÃO INTERNA.                 */
+    font-size: clamp(1.5rem, 2.8vw, 3rem);                 /* Define o tamanho da fonte de forma responsiva para o TÍTULO DA SEÇÃO INTERNA.        */
+    margin-bottom: 1rem;                                   /* Define o espaçamento inferior para separar o TÍTULO DA SEÇÃO INTERNA do conteúdo.    */
+    display: block;                                        /* Define a exibição como bloco para garantir que o TÍTULO ocupe uma linha exclusiva.   */
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o TÍTULO DA SEÇÃO INTERNA.                    */
+    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o TÍTULO DA SEÇÃO INTERNA.                */
+    font-family: Arial, SANS-SERIF;                        /* Define o tipo de fonte como ARIAL, SANS-SERIF para o TÍTULO DA SEÇÃO INTERNA.        */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TÍTULO DA SEÇÃO INTERNA.           */
+    width: 100%;                                           /* Define a largura total para o TÍTULO DA SEÇÃO INTERNA.                               */
+    z-index: 3;                                            /* Define a ordem de empilhamento para que o TÍTULO DA SEÇÃO se sobreponha ao conteúdo. */
+    line-height: 1.2;                                      /* Define a altura da linha para ajustar o espaçamento vertical entre os textos.        */
+}
+
+/*======================================================*/
+/*                     MARCA D'ÁGUA                     */
+/*          Imagem de fundo semi-transparente           */
+/*======================================================*/
+#marcadagua {
+    position: fixed;                                       /* Define o posicionamento fixo para manter a MARCA D'ÁGUA estática durante a rolagem da página. */
+    top: 0;                                                /* Define a distância do topo como zero para que a MARCA D'ÁGUA comece no limite superior.       */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar a MARCA D'ÁGUA ao limite lateral.       */
+    z-index: 1;                                            /* Define a ordem de empilhamento em camada de fundo para a MARCA D'ÁGUA.                        */
+    width: 100%;                                           /* Define a largura total para garantir que a MARCA D'ÁGUA preencha a tela horizontalmente.      */
+    height: 100%;                                          /* Define a altura total para garantir que a MARCA D'ÁGUA preencha a tela verticalmente.         */
+    background-image: url("../img/biblia.png");            /* Define a imagem de fundo da MARCA D'ÁGUA.                                                     */
+    opacity: 0.15;                                         /* Define a opacidade para tornar a MARCA D'ÁGUA semi-transparente e sutil.                      */
+    pointer-events: none;                                  /* Desativa a interação do mouse para que a MARCA D'ÁGUA não bloqueie cliques no conteúdo.       */
+    overflow: hidden;                                      /* Define o transbordamento como oculto para impedir que a MARCA D'ÁGUA exiba barras de rolagem. */
+    background-size: cover;                                /* Define o tamanho do fundo para cobrir toda a área sem distorcer a MARCA D'ÁGUA.               */
+    background-repeat: no-repeat;                          /* Impede que a imagem de fundo da MARCA D'ÁGUA se repita na tela.                               */
+    background-position: center;                           /* Centraliza a imagem de fundo da MARCA D'ÁGUA na área de visualização.                         */
+}
+
+/*======================================================*/
+/*          CONTÊINER DOS BOTÕES DE NAVEGAÇÃO           */
+/*     Barra fixa inferior com controles de voltar      */
+/*                 e próximo versículo                  */
+/*======================================================*/
+#botao-conteiner {
+    width: 100%;                                           /* Define a largura total para garantir que o CONTÊINER DOS BOTÕES ocupe toda a extensão. */
+    background-color: rgba(0, 0, 0, 0.6);                  /* Define a cor de fundo preta translúcida para o CONTÊINER DOS BOTÕES.                   */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout dos BOTÕES.               */
+    justify-content: center;                               /* Define o alinhamento horizontal centralizado para os elementos nos BOTÕES.             */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos nos BOTÕES.               */
+    gap: 1rem;                                             /* Define o espaçamento entre os elementos internos dos BOTÕES.                           */
+    padding: 0.5rem 1.2rem;                                /* Define o preenchimento interno vertical e horizontal para criar um respiro nos BOTÕES. */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).                       */
+    flex-shrink: 0;                                        /* Impede que o CONTÊINER DOS BOTÕES encolha dentro do layout flexível.                   */
+    z-index: 2;                                            /* Define a ordem de empilhamento para que o CONTÊINER DOS BOTÕES se sobreponha ao fundo. */
+}
+
+/*======================================================*/
+/*              BOTÕES DE VOLTAR E PRÓXIMO              */
+/*        Estilo comum para botões de navegação         */
+/*                   entre versículos                   */
+/*======================================================*/
+#voltar-botao,
+#proximo-botao {
+    border: none;                                          /* Define a borda como nula para remover o contorno padrão dos BOTÕES DE NAVEGAÇÃO.                */
+    padding: 0.6rem 1.5rem;                                /* Define o preenchimento interno vertical e horizontal para dimensionar os BOTÕES.                */
+    font-size: clamp(0.9rem, 1.2vw, 1.2rem);               /* Define o tamanho da fonte de forma responsiva para os BOTÕES DE NAVEGAÇÃO.                      */
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para os BOTÕES DE NAVEGAÇÃO.                                  */
+    font-style: normal;                                    /* Define o estilo da fonte como normal para os BOTÕES DE NAVEGAÇÃO.                               */
+    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design dos BOTÕES DE NAVEGAÇÃO.                   */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação nos BOTÕES DE NAVEGAÇÃO.       */
+    transition: background-color 0.2s ease, color 0.2s ease, opacity 0.2s ease;  /* Define transições suaves para os efeitos visuais nos BOTÕES DE NAVEGAÇÃO. */
+    display: inline-flex;                                  /* Define a exibição como flex em linha para os BOTÕES DE NAVEGAÇÃO.                               */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos nos BOTÕES DE NAVEGAÇÃO.           */
+    justify-content: center;                               /* Define o alinhamento horizontal centralizado para os elementos nos BOTÕES DE NAVEGAÇÃO.         */
+    min-width: 120px;                                      /* Define a largura mínima para garantir a visibilidade dos BOTÕES DE NAVEGAÇÃO.                   */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para os BOTÕES DE NAVEGAÇÃO.                         */
+}
+
+/*======================================================*/
+/*              BOTÃO DE VOLTAR VERSÍCULO               */
+/*     Aciona a navegação para o versículo anterior     */
+/*======================================================*/
+#voltar-botao {
+    background-color: #f1c40f;                             /* Define a cor de fundo em dourado para destacar a ação do BOTÃO DE VOLTAR VERSÍCULO.  */
+    color: black;                                          /* Define a cor do texto em preto para garantir a leitura no BOTÃO DE VOLTAR VERSÍCULO. */
+}
+
+/*======================================================*/
+/*              BOTÃO DE PRÓXIMO VERSÍCULO              */
+/*     Aciona a navegação para o próximo versículo      */
+/*======================================================*/
+#proximo-botao {
+    background-color: #f1c40f;                             /* Define a cor de fundo em dourado para destacar a ação do BOTÃO DE PRÓXIMO VERSÍCULO.  */
+    color: black;                                          /* Define a cor do texto em preto para garantir a leitura no BOTÃO DE PRÓXIMO VERSÍCULO. */
+}
+
+/*======================================================*/
+/*          BOTÃO DE VOLTAR VERSÍCULO - HOVER           */
+/*           Efeito visual ao passar o mouse            */
+/*======================================================*/
+#voltar-botao:not(:disabled):hover {
+    background-color: #d4ac0d;                             /* Define a cor de fundo em dourado mais escuro para o efeito de HOVER no BOTÃO VOLTAR. */
+    color: white;                                          /* Define a cor do texto em branco para o efeito de HOVER no BOTÃO VOLTAR.              */
+}
+
+/*======================================================*/
+/*          BOTÃO DE PRÓXIMO VERSÍCULO - HOVER          */
+/*           Efeito visual ao passar o mouse            */
+/*======================================================*/
+#proximo-botao:not(:disabled):hover {
+    background-color: #d4ac0d;                             /* Define a cor de fundo em dourado mais escuro para o efeito de HOVER no BOTÃO PRÓXIMO. */
+    color: white;                                          /* Define a cor do texto em branco para o efeito de HOVER no BOTÃO PRÓXIMO.              */
+}
+
+/*======================================================*/
+/*           BOTÕES DE NAVEGAÇÃO DESATIVADOS            */
+/*      Estilo visual para botões inativos quando       */
+/*     não há versículo anterior/próximo disponível     */
+/*======================================================*/
+#voltar-botao:disabled,
+#proximo-botao:disabled {
+    background-color: #333333;                             /* Define a cor de fundo em cinza escuro para os BOTÕES DE NAVEGAÇÃO quando desativados. */
+    color: #888888;                                        /* Define a cor do texto em cinza claro para os BOTÕES DE NAVEGAÇÃO quando desativados.  */
+    cursor: not-allowed;                                   /* Define o cursor como "não permitido" para os BOTÕES DE NAVEGAÇÃO quando desativados.  */
+    opacity: 0.6;                                          /* Define a opacidade reduzida para os BOTÕES DE NAVEGAÇÃO quando desativados.           */
+}
+
+/*======================================================*/
+/*              CONTEÚDO DA OPÇÃO “SOBRE”               */
+/*     Janela central com informações da aplicação      */
+/*======================================================*/
+.popup-overlay {
+    position: fixed;                                       /* Define o posicionamento fixo para manter a janela do POPUP sempre visível durante a interação. */
+    top: 0;                                                /* Define a distância do topo como zero para que o POPUP comece no limite superior.               */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar o POPUP ao limite lateral.               */
+    width: 100%;                                           /* Define a largura total para garantir que o POPUP preencha a tela horizontalmente.              */
+    height: 100%;                                          /* Define a altura total para garantir que o POPUP preencha a tela verticalmente.                 */
+    background-color: rgba(0, 0, 0, 0.7);                  /* Define a cor de fundo em preto translúcido para destacar e isolar o conteúdo do POPUP.         */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do POPUP.                         */
+    justify-content: center;                               /* Define o alinhamento horizontal centralizado para o conteúdo do POPUP.                         */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para o conteúdo do POPUP.                           */
+    z-index: 1000;                                         /* Define a ordem de empilhamento em nível máximo para garantir que o POPUP fique acima de todos. */
+}
+
+/*======================================================*/
+/*                   POPUP — CONTEÚDO                   */
+/*     Janela central com informações da aplicação      */
+/*======================================================*/
+.popup-conteudo {
+    background-color: white;                               /* Define a cor de fundo em branco para o CONTEÚDO DO POPUP.                                   */
+    padding: 2rem;                                         /* Define o preenchimento interno para criar um respiro entre o conteúdo e as bordas do POPUP. */
+    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design da janela flutuante do POPUP.          */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o CONTEÚDO DO POPUP.                        */
+    color: black;                                          /* Define a cor do texto em preto para o CONTEÚDO DO POPUP.                                    */
+}
+
+/*======================================================*/
+/*                 POPUP — TÍTULO (H2)                  */
+/*======================================================*/
+.popup-conteudo h2 {
+    margin-top: 0;                                         /* Define a margem superior como nula para remover o espaçamento padrão do TÍTULO DO POPUP. */
+}
+
+/*======================================================*/
+/*                 POPUP — BOTÃO FECHAR                 */
+/*======================================================*/
+#fechar-popup {
+    background-color: #f1c40f;                             /* Define a cor de fundo em dourado para destacar a ação do BOTÃO FECHAR DO POPUP.                */
+    color: black;                                          /* Define a cor do texto em preto para garantir a leitura no BOTÃO FECHAR DO POPUP.               */
+    border: none;                                          /* Define a borda como nula para remover o contorno padrão do BOTÃO FECHAR DO POPUP.              */
+    padding: 0.5rem 1rem;                                  /* Define o preenchimento interno vertical e horizontal para dimensionar o BOTÃO FECHAR DO POPUP. */
+    border-radius: 5px;                                    /* Define os cantos arredondados para suavizar o design do BOTÃO FECHAR DO POPUP.                 */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO FECHAR DO POPUP.     */
+    font-size: 1rem;                                       /* Define o tamanho da fonte para dar destaque ao texto do BOTÃO FECHAR DO POPUP.                 */
+}
+
+/*======================================================*/
+/*             POPUP — BOTÃO FECHAR — HOVER             */
+/*           Efeito visual ao passar o mouse            */
+/*======================================================*/
+#fechar-popup:hover {
+    background-color: #d4ac0d;                             /* Define a cor de fundo em dourado mais escuro para o efeito de HOVER no BOTÃO FECHAR DO POPUP. */
+}

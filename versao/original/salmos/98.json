@@ -1,6 +1,127 @@
 {
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+  "livro": "Salmos - תְּהִלִּים - Tehillim",
   "capítulo": 98,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Salmo. Cantai a YHWH um cântico novo, porque ele fez maravilhas; a sua destra e o seu braço santo lhe alcançaram a vitória.",
+      "palavras": [
+        { "hebraico": "מִזְמֹ֡ור", "transliteral": "miz-môr", "traducao_palavra": "salmo" },
+        { "hebraico": "שִׁ֤ירוּ", "transliteral": "šî-rû", "traducao_palavra": "cantai" },
+        { "hebraico": "לַֽיהוָ֨ה", "transliteral": "lay-hwāh", "traducao_palavra": "a YHWH" },
+        { "hebraico": "שִׁ֬יר", "transliteral": "šîr", "traducao_palavra": "cântico" },
+        { "hebraico": "חָדָ֗שׁ", "transliteral": "ḥā-ḏāš", "traducao_palavra": "novo" },
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "נִפְלָאֹ֥ות", "transliteral": "nip̄-lā-ʾôṯ", "traducao_palavra": "maravilhas" },
+        { "hebraico": "עָשָׂ֑ה", "transliteral": "ʿā-śā", "traducao_palavra": "ele fez" },
+        { "hebraico": "הֹושִֽׁיעָה־", "transliteral": "hô-šî-ʿā-", "traducao_palavra": "salvou/deu vitória" },
+        { "hebraico": "לֹּ֥ו", "transliteral": "lô", "traducao_palavra": "para ele" },
+        { "hebraico": "יְ֝מִינֹ֗ו", "transliteral": "yə-mî-nô", "traducao_palavra": "destra dele" },
+        { "hebraico": "וּזְרֹ֥ועַ", "transliteral": "ū-zə-rô-aʿ", "traducao_palavra": "e braço de" },
+        { "hebraico": "קָדְשֹֽׁו׃", "transliteral": "qāḏ-šô", "traducao_palavra": "sua santidade" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "YHWH fez notória a sua salvação; manifestou a sua justiça aos olhos das nações.",
+      "palavras": [
+        { "hebraico": "הֹודִ֣יעַ", "transliteral": "hô-ḏî-aʿ", "traducao_palavra": "fez saber/notória" },
+        { "hebraico": "יְ֭הוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "יְשׁוּעָתֹ֑ו", "transliteral": "yə-šû-ʿā-ṯô", "traducao_palavra": "sua salvação" },
+        { "hebraico": "לְעֵינֵ֥י", "transliteral": "lə-ʿê-nê", "traducao_palavra": "aos olhos de" },
+        { "hebraico": "הַ֝גֹּויִ֗ם", "transliteral": "hag-gô-yim", "traducao_palavra": "as nações" },
+        { "hebraico": "גִּלָּ֥ה", "transliteral": "gil-lā", "traducao_palavra": "ele revelou" },
+        { "hebraico": "צִדְקָתֹֽו׃", "transliteral": "ṣiḏ-qā-ṯô", "traducao_palavra": "sua justiça" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Lembrou-se da sua misericórdia e da sua fidelidade para com a casa de Israel; todos os confins da terra viram a salvação do nosso Deus.",
+      "palavras": [
+        { "hebraico": "זָ֘כַ֤ר", "transliteral": "zā-ḵar", "traducao_palavra": "lembrou-se" },
+        { "hebraico": "חַסְדֹּ֨ו", "transliteral": "ḥas-dô", "traducao_palavra": "sua misericórdia" },
+        { "hebraico": "וֶֽאֱמוּנָתֹו֮", "transliteral": "we-ʾĕ-mû-nā-ṯô", "traducao_palavra": "e sua fidelidade" },
+        { "hebraico": "לְבֵ֪ית", "transliteral": "lə-ḇêṯ", "traducao_palavra": "para a casa de" },
+        { "hebraico": "יִשְׂרָ֫אֵ֥ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "רָאָ֥וּ", "transliteral": "rā-ʾû", "traducao_palavra": "viram" },
+        { "hebraico": "כָל־", "transliteral": "ḵāl-", "traducao_palavra": "todos" },
+        { "hebraico": "אַפְסֵי־", "transliteral": "ʾap̄-śê-", "traducao_palavra": "confins de" },
+        { "hebraico": "אָ֑רֶץ", "transliteral": "ʾā-reṣ", "traducao_palavra": "terra" },
+        { "hebraico": "אֵ֝ת", "transliteral": "ʾēṯ", "traducao_palavra": "[objeto]" },
+        { "hebraico": "יְשׁוּעַ֥ת", "transliteral": "yə-šû-ʿaṯ", "traducao_palavra": "salvação de" },
+        { "hebraico": "אֱלֹהֵֽינוּ׃", "transliteral": "ʾĕ-lō-hê-nû", "traducao_palavra": "Deus nosso" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Aclamai a YHWH com júbilo, toda a terra; exultai, cantai de alegria e salmodiai.",
+      "palavras": [
+        { "hebraico": "הָרִ֣יעוּ", "transliteral": "hā-rî-ʿû", "traducao_palavra": "aclamai" },
+        { "hebraico": "לַ֭יהוָה", "transliteral": "lay-hwāh", "traducao_palavra": "a YHWH" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "toda" },
+        { "hebraico": "הָאָ֑רֶץ", "transliteral": "hā-ʾā-reṣ", "traducao_palavra": "a terra" },
+        { "hebraico": "פִּצְח֖וּ", "transliteral": "piṣ-ḥû", "traducao_palavra": "rompei [em grito]" },
+        { "hebraico": "וְרַנְּנ֣וּ", "transliteral": "wə-ran-nə-nû", "traducao_palavra": "e cantai de júbilo" },
+        { "hebraico": "וְזַמֵּֽרוּ׃", "transliteral": "wə-zam-mē-rû", "traducao_palavra": "e salmodiai" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Salmodiai a YHWH com a harpa; com a harpa e a voz do canto.",
+      "palavras": [
+        { "hebraico": "זַמְּר֣וּ", "transliteral": "zam-mə-rû", "traducao_palavra": "salmodiai" },
+        { "hebraico": "לַיהוָ֣ה", "transliteral": "lay-hwāh", "traducao_palavra": "a YHWH" },
+        { "hebraico": "בְּכִנֹּ֑ור", "transliteral": "bə-ḵin-nôr", "traducao_palavra": "com harpa/lira" },
+        { "hebraico": "בְּ֝כִנֹּ֗ור", "transliteral": "bə-ḵin-nôr", "traducao_palavra": "com harpa" },
+        { "hebraico": "וְקֹ֣ול", "transliteral": "wə-qôl", "traducao_palavra": "e voz de" },
+        { "hebraico": "זִמְרָֽה׃", "transliteral": "zim-rā", "traducao_palavra": "cântico/melodia" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Com trombetas e ao som da buzina, aclamai perante a face do Rei YHWH.",
+      "palavras": [
+        { "hebraico": "בַּֽ֭חֲצֹצְרֹות", "transliteral": "ba-ḥă-ṣō-ṣə-rôṯ", "traducao_palavra": "com trombetas" },
+        { "hebraico": "וְקֹ֣ול", "transliteral": "wə-qôl", "traducao_palavra": "e voz de" },
+        { "hebraico": "שֹׁופָ֑ר", "transliteral": "šô-p̄ār", "traducao_palavra": "shofar" },
+        { "hebraico": "הָ֝רִ֗יעוּ", "transliteral": "hā-rî-ʿû", "traducao_palavra": "aclamai" },
+        { "hebraico": "לִפְנֵי", "transliteral": "lip̄-nê", "traducao_palavra": "perante" },
+        { "hebraico": "הַמֶּ֥לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o Rei" },
+        { "hebraico": "יְהוָֽה׃", "transliteral": "YHWH", "traducao_palavra": "YHWH" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Brame o mar e a sua plenitude; o mundo, e os que nele habitam.",
+      "palavras": [
+        { "hebraico": "יִרְעַ֣ם", "transliteral": "yir-ʿam", "traducao_palavra": "ressoe/brame" },
+        { "hebraico": "הַ֭יָּם", "transliteral": "hay-yām", "traducao_palavra": "o mar" },
+        { "hebraico": "וּמְלֹאֹ֑ו", "transliteral": "ū-mə-lō-ʾô", "traducao_palavra": "e a plenitude dele" },
+        { "hebraico": "תֵּ֝בֵ֗ל", "transliteral": "tē-ḇēl", "traducao_palavra": "[o] mundo" },
+        { "hebraico": "וְיֹ֥שְׁבֵי", "transliteral": "wə-yō-šə-ḇê", "traducao_palavra": "e os habitantes" },
+        { "hebraico": "בָֽהּ׃", "transliteral": "ḇāh", "traducao_palavra": "nele" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Os rios batam palmas; os montes juntos cantem de júbilo,",
+      "palavras": [
+        { "hebraico": "נְהָרֹ֥ות", "transliteral": "nə-hā-rôṯ", "traducao_palavra": "[os] rios" },
+        { "hebraico": "יִמְחֲאוּ־", "transliteral": "yim-ḥă-ʾû-", "traducao_palavra": "batam" },
+        { "hebraico": "כָ֑ף", "transliteral": "ḵāp̄", "traducao_palavra": "palma" },
+        { "hebraico": "יַ֝חַד", "transliteral": "ya-ḥaḏ", "traducao_palavra": "juntamente" },
+        { "hebraico": "הָרִ֥ים", "transliteral": "hā-rîm", "traducao_palavra": "montes" },
+        { "hebraico": "יְרַנֵּֽנוּ׃", "transliteral": "yə-ran-nē-nû", "traducao_palavra": "cantem de júbilo" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Ante a face de YHWH, porque vem julgar a terra; com justiça julgará o mundo e os povos com equidade.",
+      "palavras": [
+        { "hebraico": "לִֽפְנֵֽי־", "transliteral": "lip̄-nê-", "traducao_palavra": "perante" },
+        { "hebraico": "יְהוָ֨ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "בָ֗א", "transliteral": "ḇā", "traducao_palavra": "ele vem" },
+        { "hebraico": "לִשְׁפֹּ֥ט", "transliteral": "liš-pōṭ", "traducao_palavra": "para julgar" },
+        { "hebraico": "הָאָ֑רֶץ", "transliteral": "hā-ʾā-reṣ", "traducao_palavra": "a terra" },
+        { "hebraico": "יִשְׁפֹּט־", "transliteral": "yiš-pōṭ-", "traducao_palavra": "julgará" },
+        { "hebraico": "תֵּבֵ֥ל", "transliteral": "tē-ḇēl", "traducao_palavra": "[o] mundo" },
+        { "hebraico": "בְּצֶ֑דֶק", "transliteral": "bə-ṣe-ḏeq", "traducao_palavra": "com justiça" },
+        { "hebraico": "וְ֝עַמִּ֗ים", "transliteral": "wə-ʿam-mîm", "traducao_palavra": "e povos" },
+        { "hebraico": "בְּמֵישָׁרִֽים׃", "transliteral": "bə-mê-šā-rîm", "traducao_palavra": "com retidão/equidade" }
+      ]
+    }
+  }
 }

@@ -1,39 +1,31 @@
-/*===============================================================================*/
-/*                    SISTEMA DE CONCORDÂNCIA OTIMIZADA                          */
-/*===============================================================================*/
-/*  Este script é responsável por:                                               */
-/*                       - Gerenciar carregamento sob demanda de dados           */
-/*                       - Implementar busca global com filtros avançados        */
-/*                       - Controlar paginação e interface de resultados        */
-/*===============================================================================*/
-
-/* BLOCO: Define a classe principal do sistema de concordância otimizada        */
-class ConcordanciaOptimized {                                                                              /* Inicia classe da concordância       */
-    constructor() {                                                                                        /* Inicia construtor da classe         */
-        if (!window.dataManager) {                                                                         /* Verifica se gerenciador existe      */
-            window.dataManager = new DataManager();                                                        /* Cria nova instância do gerenciador  */
+/* /**                                                                           */
+/* * Sistema de concordância otimizado com carregamento sob demanda              */
+/* */                                                                            */
+class ConcordanciaOptimized {
+    constructor() {
+        if (!window.dataManager) {
+            window.dataManager = new DataManager();
         }
-        this.dataManager = window.dataManager;                                                             /* Vincula gerenciador de dados        */
+        this.dataManager = window.dataManager;
         
-        /* BLOCO: Inicializa propriedades de estado da concordância */
-        this.currentLetter = 'A';                                                                          /* Letra atualmente selecionada        */
-        this.currentPage = 0;                                                                              /* Página atual da paginação           */
-        this.isLoading = false;                                                                            /* Status de carregamento ativo        */
-        this.hasMore = true;                                                                               /* Indica se há mais dados              */
-        this.currentResults = [];                                                                          /* Array de resultados atuais          */
-        this.searchTerm = '';                                                                              /* Termo de busca global               */
-        this.filters = {                                                                                   /* Objeto de filtros ativos            */
-            testamento: 'todos',                                                                           /* Filtro de testamento                */
-            livro: 'todos'                                                                                 /* Filtro de livro específico          */
+        this.currentLetter = 'A';
+        this.currentPage = 0;
+        this.isLoading = false;
+        this.hasMore = true;
+        this.currentResults = [];
+        this.searchTerm = '';
+        this.filters = {
+            testamento: 'todos',
+            livro: 'todos'
         };
-        /* BLOCO: Propriedades para controle de contadores */
-        this.visibleCount = 0;                                                                             /* Contador de resultados visíveis     */
-        this.totalResultsCount = 0;                                                                        /* Contador total de resultados        */
-        this.pageSize = 50;                                                                                /* Tamanho padrão da página            */
+        // Propriedades para o contador
+        this.visibleCount = 0;
+        this.totalResultsCount = 0;
+        this.pageSize = 50;                                                       // Define um tamanho de página padrão
 
-        this.initializeElements();                                                                         /* Inicializa elementos da interface   */
-        this.bindEvents();                                                                                 /* Vincula eventos de interação        */
-        this.loadInitialData();                                                                            /* Carrega dados iniciais              */
+        this.initializeElements();
+        this.bindEvents();
+        this.loadInitialData();
     }
 
     initializeElements() {
@@ -90,10 +82,10 @@ class ConcordanciaOptimized {                                                   
                     this.filters.livro = 'todos';
                     if (this.elements.filtroPalavra) {
                         this.elements.filtroPalavra.value = '';
-                        this.elements.filtroPalavra.disabled = false; // Reabilita o filtro de palavra
+                        this.elements.filtroPalavra.disabled = false;             // Reabilita o filtro de palavra
                     }
                     this.resetDropdowns();
-                    this.selectLetter(this.currentLetter); // Recarrega a lista da letra atual
+                    this.selectLetter(this.currentLetter);                        // Recarrega a lista da letra atual
                 } else {
                     // Limpa imediatamente a área de resultados quando começar a digitar
                     this.elements.resultadosConteiner.innerHTML = '';
@@ -101,10 +93,10 @@ class ConcordanciaOptimized {                                                   
                     this.elements.carregarMais.style.display = 'none';
                     
                     if (this.elements.filtroPalavra) {
-                        this.elements.filtroPalavra.disabled = true; // Desabilita o filtro de palavra
+                        this.elements.filtroPalavra.disabled = true;              // Desabilita o filtro de palavra
                     }
                 }
-            }, 300); // Aguarda 300ms após a última digitação
+            }, 300);                                                              // Aguarda 300ms após a última digitação
         });
 
         // Filtro de palavra em tempo real (só será acionado se o campo não estiver desabilitado)
@@ -227,7 +219,7 @@ class ConcordanciaOptimized {                                                   
         // Reseta contadores e pageSize
         this.visibleCount = 0;
         this.totalResultsCount = 0;
-        this.pageSize = 50; // Reseta para o padrão
+        this.pageSize = 50;                                                       // Reseta para o padrão
         
         // Reset filtros
         this.filters = {
@@ -237,7 +229,7 @@ class ConcordanciaOptimized {                                                   
         
         this.elements.buscaGlobal.value = '';
         this.elements.filtroPalavra.value = '';
-        this.elements.filtroPalavra.disabled = false; // Garante que o filtro de palavra esteja habilitado
+        this.elements.filtroPalavra.disabled = false;                             // Garante que o filtro de palavra esteja habilitado
         
         // Reset dropdowns visuais
         this.resetDropdowns();
@@ -299,11 +291,11 @@ class ConcordanciaOptimized {                                                   
             }
             this.totalResultsCount = result.total;
 
-            this.currentResults = result.data; // Substitui os resultados pela página atual
+            this.currentResults = result.data;                                    // Substitui os resultados pela página atual
             this.hasMore = result.hasMore;
             this.currentPage = page;
 
-            this.renderResults(this.currentResults, false); // Renderiza a página inteira
+            this.renderResults(this.currentResults, false);                       // Renderiza a página inteira
             this.updateResultsCounter(this.visibleCount, this.totalResultsCount);
             this.updateLoadMoreButton();
 
@@ -647,8 +639,8 @@ async _fallbackSearch(searchLower) {
     
     const allResults = [];
     const letrasPrioritarias = [
-        searchLower.charAt(0), // Letra inicial
-        'a', 'e', 'o', 's', 'c', 'p', 'm' // Letras mais comuns
+        searchLower.charAt(0),                                                    // Letra inicial
+        'a', 'e', 'o', 's', 'c', 'p', 'm'                                         // Letras mais comuns
     ];
     
     const letrasUnicas = [...new Set(letrasPrioritarias)];
@@ -656,7 +648,7 @@ async _fallbackSearch(searchLower) {
     let letrasProcessadas = 0;
     
     for (const letra of letrasUnicas) {
-        if (allResults.length > 50) break; // Limite de resultados
+        if (allResults.length > 50) break;                                        // Limite de resultados
         
         try {
             await window.dataManager.loadLetterList();

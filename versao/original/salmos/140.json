@@ -1,6 +1,185 @@
 {
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+  "livro": "Salmos - תְּהִלִּים - Tehillim",
   "capítulo": 140,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Livra-me, YHWH, do homem mau; guarda-me do homem violento,",
+      "palavras": [
+        { "hebraico": "חַלְּצֵ֥נִי", "transliteral": "ḥal-lə-ṣē-nî", "traducao_palavra": "livra-me" },
+        { "hebraico": "יְהוָ֗ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "מֵאָ֘דָ֥ם", "transliteral": "mê-ʾā-ḏām", "traducao_palavra": "do homem" },
+        { "hebraico": "רָ֑ע", "transliteral": "rāʿ", "traducao_palavra": "mau" },
+        { "hebraico": "מֵאִ֖ישׁ", "transliteral": "mê-ʾîš", "traducao_palavra": "do homem" },
+        { "hebraico": "חֲמָסִ֣ים", "transliteral": "ḥă-mā-śîm", "traducao_palavra": "violento/violências" },
+        { "hebraico": "תִּנְצְרֵֽנִי׃", "transliteral": "tin-ṣə-rē-nî", "traducao_palavra": "tu me guardarás" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Que maquinam males no coração; ajuntam-se diariamente para a guerra.",
+      "palavras": [
+        { "hebraico": "אֲשֶׁ֤ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "חָשְׁב֣וּ", "transliteral": "ḥā-šə-ḇû", "traducao_palavra": "maquinam/planejam" },
+        { "hebraico": "רָעֹ֣ות", "transliteral": "rā-ʿôṯ", "traducao_palavra": "males" },
+        { "hebraico": "בְּלֵ֑ב", "transliteral": "bə-lēḇ", "traducao_palavra": "no coração" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todo" },
+        { "hebraico": "יֹ֝ום", "transliteral": "yôm", "traducao_palavra": "dia" },
+        { "hebraico": "יָג֥וּרוּ", "transliteral": "yā-ḡû-rû", "traducao_palavra": "ajuntam-se/conspiram" },
+        { "hebraico": "מִלְחָמֹֽות׃", "transliteral": "mil-ḥā-môṯ", "traducao_palavra": "[para] guerras" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Afiaram as suas línguas como a serpente; veneno de áspide está debaixo dos seus lábios. (Selah)",
+      "palavras": [
+        { "hebraico": "שָֽׁנֲנ֥וּ", "transliteral": "šā-nă-nû", "traducao_palavra": "afiaram" },
+        { "hebraico": "לְשֹׁונָם֮", "transliteral": "lə-šô-nām", "traducao_palavra": "língua deles" },
+        { "hebraico": "כְּמֹו־", "transliteral": "kə-mô-", "traducao_palavra": "como" },
+        { "hebraico": "נָ֫חָ֥שׁ", "transliteral": "nā-ḥāš", "traducao_palavra": "serpente" },
+        { "hebraico": "חֲמַ֥ת", "transliteral": "ḥă-maṯ", "traducao_palavra": "veneno de" },
+        { "hebraico": "עַכְשׁ֥וּב", "transliteral": "ʿaḵ-šûḇ", "traducao_palavra": "áspide/víbora" },
+        { "hebraico": "תַּ֝חַת", "transliteral": "ta-ḥaṯ", "traducao_palavra": "debaixo de" },
+        { "hebraico": "שְׂפָתֵ֗ימֹו", "transliteral": "śə-p̄ā-ṯê-mô", "traducao_palavra": "lábios deles" },
+        { "hebraico": "סֶֽלָה׃", "transliteral": "śe-lā", "traducao_palavra": "Selah [pausa]" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Guarda-me, YHWH, das mãos do ímpio; preserva-me do homem violento, que se propôs tropeçar os meus passos.",
+      "palavras": [
+        { "hebraico": "שָׁמְרֵ֤נִי", "transliteral": "šā-mə-rē-nî", "traducao_palavra": "guarda-me" },
+        { "hebraico": "יְהוָ֨ה ׀", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "מִידֵ֬י", "transliteral": "mî-ḏê", "traducao_palavra": "das mãos de" },
+        { "hebraico": "רָשָׁ֗ע", "transliteral": "rā-šāʿ", "traducao_palavra": "ímpio" },
+        { "hebraico": "מֵאִ֣ישׁ", "transliteral": "mê-ʾîš", "traducao_palavra": "do homem" },
+        { "hebraico": "חֲמָסִ֣ים", "transliteral": "ḥă-mā-śîm", "traducao_palavra": "violento" },
+        { "hebraico": "תִּנְצְרֵ֑נִי", "transliteral": "tin-ṣə-rē-nî", "traducao_palavra": "preserva me" },
+        { "hebraico": "אֲשֶׁ֥ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "חָ֝שְׁב֗וּ", "transliteral": "ḥā-šə-ḇû", "traducao_palavra": "planearam" },
+        { "hebraico": "לִדְחֹ֥ות", "transliteral": "liḏ-ḥôṯ", "traducao_palavra": "empurrar/derrubar" },
+        { "hebraico": "פְּעָמָֽי׃", "transliteral": "p̄ə-ʿā-māy", "traducao_palavra": "meus passos" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Os soberbos esconderam laço e cordas para mim; estenderam uma rede à beira do caminho; armaram ciladas para mim. (Selah)",
+      "palavras": [
+        { "hebraico": "טָֽמְנוּ־", "transliteral": "ṭā-mə-nû-", "traducao_palavra": "esconderam" },
+        { "hebraico": "גֵאִ֨ים ׀", "transliteral": "ḡē-ʾîm", "traducao_palavra": "soberbos" },
+        { "hebraico": "פַּ֡ח", "transliteral": "paḥ", "traducao_palavra": "laço" },
+        { "hebraico": "לִ֗י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "וַחֲבָלִ֗ים", "transliteral": "wa-ḥă-ḇā-lîm", "traducao_palavra": "e cordas" },
+        { "hebraico": "פָּרְשׂ֧וּ", "transliteral": "pā-rə-śû", "traducao_palavra": "estenderam" },
+        { "hebraico": "רֶ֣שֶׁת", "transliteral": "re-šeṯ", "traducao_palavra": "[uma] rede" },
+        { "hebraico": "לְיַד־", "transliteral": "lə-yaḏ-", "traducao_palavra": "ao lado de" },
+        { "hebraico": "מַעְגָּ֑ל", "transliteral": "maʿ-gāl", "traducao_palavra": "caminho" },
+        { "hebraico": "מֹקְשִׁ֖ים", "transliteral": "mō-qə-šîm", "traducao_palavra": "ciladas" },
+        { "hebraico": "שָֽׁתוּ־", "transliteral": "šā-ṯû-", "traducao_palavra": "puseram" },
+        { "hebraico": "לִ֣י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "סֶֽלָה׃", "transliteral": "śe-lā", "traducao_palavra": "Selah" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Eu disse a YHWH: Tu és o meu Deus; ouve, YHWH, a voz das minhas súplicas.",
+      "palavras": [
+        { "hebraico": "אָמַ֣רְתִּי", "transliteral": "ʾā-mar-tî", "traducao_palavra": "disse" },
+        { "hebraico": "לַֽיהוָה֮", "transliteral": "lay-hwāh", "traducao_palavra": "a YHWH" },
+        { "hebraico": "אֵלִ֪י", "transliteral": "ʾē-lî", "traducao_palavra": "Deus meu" },
+        { "hebraico": "אָ֥תָּה", "transliteral": "ʾāt-tā", "traducao_palavra": "[és] tu" },
+        { "hebraico": "הַאֲזִ֥ינָה", "transliteral": "ha-ʾă-zî-nā", "traducao_palavra": "dá ouvidos" },
+        { "hebraico": "יְ֝הוָ֗ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "קֹ֣ול", "transliteral": "qôl", "traducao_palavra": "[à] voz de" },
+        { "hebraico": "תַּחֲנוּנָֽי׃", "transliteral": "ta-ḥă-nû-nāy", "traducao_palavra": "minhas súplicas" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Ó DEUS Senhor, fortaleza da minha salvação, tu cobriste a minha cabeça no dia da batalha.",
+      "palavras": [
+        { "hebraico": "יְהוִ֣ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֲ֭דֹנָי", "transliteral": "ʾă-ḏō-nāy", "traducao_palavra": "Senhor" },
+        { "hebraico": "עֹ֣ז", "transliteral": "ʿōz", "traducao_palavra": "[a] força de" },
+        { "hebraico": "יְשׁוּעָתִ֑י", "transliteral": "yə-šû-ʿā-ṯî", "traducao_palavra": "minha salvação" },
+        { "hebraico": "סַכֹּ֥תָה", "transliteral": "śak-kô-ṯā", "traducao_palavra": "protegeste/cobriste" },
+        { "hebraico": "לְ֝רֹאשִׁ֗י", "transliteral": "lə-rō-šî", "traducao_palavra": "minha cabeça" },
+        { "hebraico": "בְּיֹ֣ום", "transliteral": "bə-yôm", "traducao_palavra": "no dia de" },
+        { "hebraico": "נָֽשֶׁק׃", "transliteral": "nā-šeq", "traducao_palavra": "armamento/batalha" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Não concedas, YHWH, ao ímpio os seus desejos; não deixes passar o seu mau desígnio, para que não se exalte. (Selah)",
+      "palavras": [
+        { "hebraico": "אַל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "תִּתֵּ֣ן", "transliteral": "tit-tên", "traducao_palavra": "concedas" },
+        { "hebraico": "יְ֭הוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "מַאֲוַיֵּ֣י", "transliteral": "ma-ʾă-way-yê", "traducao_palavra": "os desejos de" },
+        { "hebraico": "רָשָׁ֑ע", "transliteral": "rā-šāʿ", "traducao_palavra": "ímpio" },
+        { "hebraico": "זְמָמֹ֥ו", "transliteral": "zə-mā-mô", "traducao_palavra": "[o] plano dele" },
+        { "hebraico": "אַל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "תָּ֝פֵ֗ק", "transliteral": "tā-p̄ēq", "traducao_palavra": "promovas/faças suceder" },
+        { "hebraico": "יָר֥וּמוּ", "transliteral": "yā-rû-mû", "traducao_palavra": "[para que] não se exaltem" },
+        { "hebraico": "סֶֽלָה׃", "transliteral": "śe-lā", "traducao_palavra": "Selah" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Quanto à cabeça dos que me cercam, cubra-os a maldade dos seus lábios.",
+      "palavras": [
+        { "hebraico": "רֹ֥אשׁ", "transliteral": "rōš", "traducao_palavra": "cabeça de" },
+        { "hebraico": "מְסִבָּ֑י", "transliteral": "mə-sib-bāy", "traducao_palavra": "meus cercadores" },
+        { "hebraico": "עֲמַ֖ל", "transliteral": "ʿă-mal", "traducao_palavra": "a maldade/trabalho de" },
+        { "hebraico": "שְׂפָתֵ֣ימֹו", "transliteral": "śə-p̄ā-ṯê-mô", "traducao_palavra": "lábios deles" },
+        { "hebraico": "יְכַסֵּֽמֹו׃", "transliteral": "yə-ḵas-śē-mô", "traducao_palavra": "cubra-os" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Caiam sobre eles brasas vivas; sejam lançados no fogo, em covas profundas, para que se não tornem a levantar.",
+      "palavras": [
+        { "hebraico": "יִמֹּ֥וטוּ", "transliteral": "yim-mô-ṭû", "traducao_palavra": "caiam/balanceiem [Qere: יַמְטֵר yam-ṭēr]" },
+        { "hebraico": "עֲלֵיהֶ֗ם", "transliteral": "ʿă-lê-hem", "traducao_palavra": "sobre eles" },
+        { "hebraico": "גֶּחָ֫לִ֥ים", "transliteral": "ge-ḥā-lîm", "traducao_palavra": "brasas" },
+        { "hebraico": "בָּאֵ֥שׁ", "transliteral": "bā-ʾēš", "traducao_palavra": "no fogo" },
+        { "hebraico": "יַפִּילֵ֑ם", "transliteral": "yap-pî-lēm", "traducao_palavra": "lançará os" },
+        { "hebraico": "בְּ֝מַהֲמֹרֹ֗ות", "transliteral": "bə-ma-hă-mō-rôṯ", "traducao_palavra": "em poços/abismos" },
+        { "hebraico": "בַּל־", "transliteral": "bal-", "traducao_palavra": "não" },
+        { "hebraico": "יָקֽוּמוּ׃", "transliteral": "yā-qû-mû", "traducao_palavra": "se levantarão" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Não terá firmeza na terra o homem de má língua; o mal perseguirá o homem violento até a sua perdição.",
+      "palavras": [
+        { "hebraico": "אִ֚ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homem de" },
+        { "hebraico": "לָשֹׁון֮", "transliteral": "lā-šôn", "traducao_palavra": "língua [má]" },
+        { "hebraico": "בַּל־", "transliteral": "bal-", "traducao_palavra": "não" },
+        { "hebraico": "יִכֹּ֪ון", "transliteral": "yik-kôn", "traducao_palavra": "será estabelecido" },
+        { "hebraico": "בָּ֫אָ֥רֶץ", "transliteral": "bā-ʾā-reṣ", "traducao_palavra": "na terra" },
+        { "hebraico": "אִישׁ־", "transliteral": "ʾîš-", "traducao_palavra": "homem de" },
+        { "hebraico": "חָמָ֥ס", "transliteral": "ḥā-mās", "traducao_palavra": "violência" },
+        { "hebraico": "רָ֑ע", "transliteral": "rāʿ", "traducao_palavra": "[o] mau" },
+        { "hebraico": "יְ֝צוּדֶ֗נּוּ", "transliteral": "yə-ṣû-ḏen-nû", "traducao_palavra": "caçará o" },
+        { "hebraico": "לְמַדְחֵפֹֽת׃", "transliteral": "lə-maḏ-ḥē-p̄ōṯ", "traducao_palavra": "com empurrões/até à ruína" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Sei que YHWH manterá a causa do aflito, e o direito do necessitado.",
+      "palavras": [
+        { "hebraico": "יָדַ֫עְתִּי", "transliteral": "yā-ḏa-ʿtî", "traducao_palavra": "sei [eu]" },
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "que" },
+        { "hebraico": "יַעֲשֶׂ֣ה", "transliteral": "ya-ʿă-śeh", "traducao_palavra": "fará/executará" },
+        { "hebraico": "יְ֭הוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "דִּ֣ין", "transliteral": "dîn", "traducao_palavra": "[o] juízo de" },
+        { "hebraico": "עָנִ֑י", "transliteral": "ʿā-nî", "traducao_palavra": "aflito" },
+        { "hebraico": "מִ֝שְׁפַּ֗ט", "transliteral": "miš-pāṭ", "traducao_palavra": "[o] direito de" },
+        { "hebraico": "אֶבְיֹנִֽים׃", "transliteral": "ʾeḇ-yō-nîm", "traducao_palavra": "necessitados" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Assim os justos louvarão o teu nome; os retos habitarão na tua presença.",
+      "palavras": [
+        { "hebraico": "אַ֣ךְ", "transliteral": "ʾaḵ", "traducao_palavra": "certamente/assim" },
+        { "hebraico": "צַ֭דִּיקִים", "transliteral": "ṣad-dî-qîm", "traducao_palavra": "justos" },
+        { "hebraico": "יֹוד֣וּ", "transliteral": "yô-ḏû", "traducao_palavra": "louvarão/renderão graças" },
+        { "hebraico": "לִשְׁמֶ֑ךָ", "transliteral": "liš-me-ḵā", "traducao_palavra": "ao teu nome" },
+        { "hebraico": "יֵשְׁב֥וּ", "transliteral": "yē-šə-ḇû", "traducao_palavra": "habitarão" },
+        { "hebraico": "יְ֝שָׁרִ֗ים", "transliteral": "yə-šā-rîm", "traducao_palavra": "retos" },
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "com" },
+        { "hebraico": "פָּנֶֽיךָ׃", "transliteral": "pā-ne-ḵā", "traducao_palavra": "tua face/presença" }
+      ]
+    }
+  }
 }

@@ -1,6 +1,256 @@
 {
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+  "livro": "Salmos - תְּהִלִּים - Tehillim",
   "capítulo": 77,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "A minha voz elevou-se a Deus, e clamei; a minha voz elevou-se a Deus, e ele me inclinou os ouvidos.",
+      "palavras": [
+        { "hebraico": "קֹולִ֤י", "transliteral": "qô-lî", "traducao_palavra": "minha voz" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "a" },
+        { "hebraico": "אֱלֹהִים֙", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "וְאֶצְעָ֔קָה", "transliteral": "wə-ʾeṣ-ʿā-qā", "traducao_palavra": "e clamei" },
+        { "hebraico": "קֹולִ֥י", "transliteral": "qô-lî", "traducao_palavra": "minha voz" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "a" },
+        { "hebraico": "אֱלֹהִ֖ים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "וְהַאֲזִ֥ין", "transliteral": "wə-ha-ʾă-zîn", "traducao_palavra": "e deu ouvidos" },
+        { "hebraico": "אֵלָֽי׃", "transliteral": "ʾē-lāy", "traducao_palavra": "a mim" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "No dia da minha angústia busquei ao Senhor; a minha mão se estendia de noite, e não cessava; a minha alma recusava ser consolada.",
+      "palavras": [
+        { "hebraico": "בְּיֹ֨ום", "transliteral": "bə-yôm", "traducao_palavra": "no dia de" },
+        { "hebraico": "צָרָתִ֮י", "transliteral": "ṣā-rā-ṯî", "traducao_palavra": "minha angústia" },
+        { "hebraico": "אֲדֹנָ֪י", "transliteral": "ʾă-ḏō-nāy", "traducao_palavra": "[ao] Senhor" },
+        { "hebraico": "דָּ֫רָ֥שְׁתִּי", "transliteral": "dā-rāš-tî", "traducao_palavra": "busquei" },
+        { "hebraico": "יָדִ֤י", "transliteral": "yā-ḏî", "traducao_palavra": "minha mão" },
+        { "hebraico": "לַ֥יְלָה", "transliteral": "lay-lā", "traducao_palavra": "[de] noite" },
+        { "hebraico": "נִגְּרָ֗ה", "transliteral": "nig-gə-rā", "traducao_palavra": "estendeu-se/verteu" },
+        { "hebraico": "וְלֹ֣א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "תָפ֑וּג", "transliteral": "ṯā-p̄ûḡ", "traducao_palavra": "cessava/entorpecia" },
+        { "hebraico": "מֵאֲנָ֖ה", "transliteral": "mē-ʾă-nā", "traducao_palavra": "recusava" },
+        { "hebraico": "הִנָּחֵ֣ם", "transliteral": "hin-nā-ḥēm", "traducao_palavra": "ser consolada" },
+        { "hebraico": "נַפְשִֽׁי׃", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Lembrava-me de Deus e me perturbava; queixava-me e desfalecia o meu espírito. (Selah)",
+      "palavras": [
+        { "hebraico": "אֶזְכְּרָ֣ה", "transliteral": "ʾez-kə-rā", "traducao_palavra": "lembrarei" },
+        { "hebraico": "אֱלֹהִ֣ים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "וְאֶהֱמָ֑יָה", "transliteral": "wə-ʾe-hĕ-mā-yā", "traducao_palavra": "e me perturbava/gemia" },
+        { "hebraico": "אָשִׂ֓יחָה ׀", "transliteral": "ʾā-śî-ḥā", "traducao_palavra": "meditava/queixava" },
+        { "hebraico": "וְתִתְעַטֵּ֖ף", "transliteral": "wə-ṯiṯ-ʿaṭ-ṭēp̄", "traducao_palavra": "e desfalecia" },
+        { "hebraico": "רוּחִ֣י", "transliteral": "rû-ḥî", "traducao_palavra": "meu espírito" },
+        { "hebraico": "סֶֽלָה׃", "transliteral": "se-lā", "traducao_palavra": "Selah [pausa]" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Sustentaste os meus olhos acordados; estou tão perturbado que não posso falar.",
+      "palavras": [
+        { "hebraico": "אָ֭חַזְתָּ", "transliteral": "ʾā-ḥaz-tā", "traducao_palavra": "seguraste/sustentaste" },
+        { "hebraico": "שְׁמֻרֹ֣ות", "transliteral": "šə-mu-rôṯ", "traducao_palavra": "[as] pálpebras/vigílias de" },
+        { "hebraico": "עֵינָ֑י", "transliteral": "ʿê-nay", "traducao_palavra": "meus olhos" },
+        { "hebraico": "נִ֝פְעַ֗מְתִּי", "transliteral": "nip̄-ʿam-tî", "traducao_palavra": "fui perturbado/golpeado" },
+        { "hebraico": "וְלֹ֣א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "אֲדַבֵּֽר׃", "transliteral": "ʾă-ḏab-bēr", "traducao_palavra": "falarei" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Considerava os dias da antiguidade, os anos dos tempos passados.",
+      "palavras": [
+        { "hebraico": "חִשַּׁ֣בְתִּי", "transliteral": "ḥiš-šaḇ-tî", "traducao_palavra": "pensei/considerei" },
+        { "hebraico": "יָמִ֣ים", "transliteral": "yā-mîm", "traducao_palavra": "dias" },
+        { "hebraico": "מִקֶּ֑דם", "transliteral": "miq-qe-ḏem", "traducao_palavra": "da antiguidade" },
+        { "hebraico": "שְׁ֝נֹות", "transliteral": "šə-nôṯ", "traducao_palavra": "[os] anos de" },
+        { "hebraico": "עֹולָמִֽים׃", "transliteral": "ʿô-lā-mîm", "traducao_palavra": "tempos eternos/passados" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Lembro-me da minha canção de noite; medito em meu coração, e o meu espírito esquadrinha.",
+      "palavras": [
+        { "hebraico": "אֶ֘זְכְּרָ֤ה", "transliteral": "ʾez-kə-rā", "traducao_palavra": "lembrarei" },
+        { "hebraico": "נְגִינָתִ֨י", "transliteral": "nə-ḡî-nā-ṯî", "traducao_palavra": "minha canção/música" },
+        { "hebraico": "בַּלָּ֑יְלָה", "transliteral": "bal-lā-yə-lā", "traducao_palavra": "à noite" },
+        { "hebraico": "עִם־", "transliteral": "ʿim-", "traducao_palavra": "com" },
+        { "hebraico": "לְבָבִ֥י", "transliteral": "lə-ḇā-ḇî", "traducao_palavra": "meu coração" },
+        { "hebraico": "אָשִׂ֗יחָה", "transliteral": "ʾā-śî-ḥā", "traducao_palavra": "medito" },
+        { "hebraico": "וַיְחַפֵּ֥שׂ", "transliteral": "way-ḥap-pēś", "traducao_palavra": "e esquadrinhou/buscou" },
+        { "hebraico": "רוּחִֽי׃", "transliteral": "rû-ḥî", "traducao_palavra": "meu espírito" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Rejeitará o Senhor para sempre? E não tornará a ser favorável?",
+      "palavras": [
+        { "hebraico": "הַֽ֭לְעֹולָמִים", "transliteral": "hal-ʿô-lā-mîm", "traducao_palavra": "acaso para sempre" },
+        { "hebraico": "יִזְנַ֣ח", "transliteral": "yiz-naḥ", "traducao_palavra": "rejeitará" },
+        { "hebraico": "אֲדֹנָ֑י", "transliteral": "ʾă-ḏō-nāy", "traducao_palavra": "o Senhor" },
+        { "hebraico": "וְלֹֽא־", "transliteral": "wə-lō-", "traducao_palavra": "e não" },
+        { "hebraico": "יֹסִ֥יף", "transliteral": "yō-śîp̄", "traducao_palavra": "tornará a/continuará" },
+        { "hebraico": "לִרְצֹ֥ות", "transliteral": "lir-ṣôṯ", "traducao_palavra": "agradar-se" },
+        { "hebraico": "עֹֽוד׃", "transliteral": "ʿôḏ", "traducao_palavra": "ainda" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Cessou para sempre a sua benignidade? Acabou-se a sua promessa de geração em geração?",
+      "palavras": [
+        { "hebraico": "הֶאָפֵ֣ס", "transliteral": "he-ʾā-p̄ēs", "traducao_palavra": "acaso cessou" },
+        { "hebraico": "לָנֶ֣צַח", "transliteral": "lā-ne-ṣaḥ", "traducao_palavra": "para sempre" },
+        { "hebraico": "חַסְדֹּ֑ו", "transliteral": "ḥas-dô", "traducao_palavra": "sua bondade" },
+        { "hebraico": "גָּ֥מַר", "transliteral": "gā-mar", "traducao_palavra": "esgotou/findou" },
+        { "hebraico": "אֹ֝מֶר", "transliteral": "ʾō-mer", "traducao_palavra": "[a] palavra/promessa" },
+        { "hebraico": "לְדֹ֣ר", "transliteral": "lə-ḏōr", "traducao_palavra": "para geração" },
+        { "hebraico": "וָדֹֽר׃", "transliteral": "wā-ḏōr", "traducao_palavra": "e geração" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Esqueceu-se Deus de ter misericórdia? Ou encerrou ele as suas misericórdias na sua ira? (Selah)",
+      "palavras": [
+        { "hebraico": "הֲשָׁכַ֥ח", "transliteral": "hă-šā-ḵaḥ", "traducao_palavra": "acaso esqueceu" },
+        { "hebraico": "חַנֹּ֥ות", "transliteral": "ḥan-nôṯ", "traducao_palavra": "[de] ser gracioso" },
+        { "hebraico": "אֵ֑ל", "transliteral": "ʾēl", "traducao_palavra": "Deus" },
+        { "hebraico": "אִם־", "transliteral": "ʾim-", "traducao_palavra": "ou" },
+        { "hebraico": "קָפַ֥ץ", "transliteral": "qā-p̄aṣ", "traducao_palavra": "fechou/encerrou" },
+        { "hebraico": "בְּאַ֝֗ף", "transliteral": "bə-ʾap̄", "traducao_palavra": "na ira" },
+        { "hebraico": "רַחֲמָ֥יו", "transliteral": "ra-ḥă-māw", "traducao_palavra": "suas misericórdias" },
+        { "hebraico": "סֶֽלָה׃", "transliteral": "se-lā", "traducao_palavra": "Selah" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E eu disse: Isto é a minha enfermidade; mas eu me lembrarei dos anos da destra do Altíssimo.",
+      "palavras": [
+        { "hebraico": "וָ֭אֹמַר", "transliteral": "wā-ʾō-mar", "traducao_palavra": "e disse" },
+        { "hebraico": "חַלֹּותִ֣י", "transliteral": "ḥal-lô-ṯî", "traducao_palavra": "minha dor/sofrimento" },
+        { "hebraico": "הִ֑יא", "transliteral": "hî", "traducao_palavra": "[é] esta" },
+        { "hebraico": "שְׁ֝נֹות", "transliteral": "šə-nôṯ", "traducao_palavra": "anos de" },
+        { "hebraico": "יְמִ֣ין", "transliteral": "yə-mîn", "traducao_palavra": "[a] destra de" },
+        { "hebraico": "עֶלְיֹֽון׃", "transliteral": "ʿel-yôn", "traducao_palavra": "Altíssimo" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Recordarei os feitos de YAH; certamente me lembrarei das tuas maravilhas da antiguidade.",
+      "palavras": [
+        { "hebraico": "אֶזְכֹּ֥ור", "transliteral": "ʾez-kôr", "traducao_palavra": "lembrarei/mencionarei" },
+        { "hebraico": "מַֽעַלְלֵי־", "transliteral": "ma-ʿal-lê-", "traducao_palavra": "feitos de" },
+        { "hebraico": "יָ֑הּ", "transliteral": "yāh", "traducao_palavra": "YAH" },
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "porque/certamente" },
+        { "hebraico": "אֶזְכְּרָ֖ה", "transliteral": "ʾez-kə-rā", "traducao_palavra": "lembrarei" },
+        { "hebraico": "מִקֶּ֣דֶם", "transliteral": "miq-qe-ḏem", "traducao_palavra": "da antiguidade" },
+        { "hebraico": "פִּלְאֶֽךָ׃", "transliteral": "pil-ʾe-ḵā", "traducao_palavra": "tua maravilha" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Meditarei em todas as tuas obras e falarei dos teus feitos.",
+      "palavras": [
+        { "hebraico": "וְהָגִ֥יתִי", "transliteral": "wə-hā-ḡî-ṯî", "traducao_palavra": "e meditarei" },
+        { "hebraico": "בְכָל־", "transliteral": "ḇə-ḵāl-", "traducao_palavra": "em toda" },
+        { "hebraico": "פָּעֳלֶ֑ךָ", "transliteral": "pā-ʿo-le-ḵā", "traducao_palavra": "tua obra" },
+        { "hebraico": "וּבַעֲלִילֹותֶ֥יךָ", "transliteral": "ū-ḇa-ʿă-lî-lô-ṯey-ḵā", "traducao_palavra": "e em teus feitos" },
+        { "hebraico": "אָשִֽׂיחָה׃", "transliteral": "ʾā-śî-ḥā", "traducao_palavra": "falarei/queixarei" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "O teu caminho, ó Deus, está no santuário; que deus é tão grande como o nosso Deus?",
+      "palavras": [
+        { "hebraico": "אֱ֭לֹהִים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "ó Deus" },
+        { "hebraico": "בַּקֹּ֣odeשׁ", "transliteral": "baq-qō-ḏeš", "traducao_palavra": "na santidade/santuário" },
+        { "hebraico": "דַּרְכֶּ֑ךָ", "transliteral": "dar-ke-ḵā", "traducao_palavra": "[está] teu caminho" },
+        { "hebraico": "מִי־", "transliteral": "mî-", "traducao_palavra": "quem [é]" },
+        { "hebraico": "אֵ֥ל", "transliteral": "ʾēl", "traducao_palavra": "deus" },
+        { "hebraico": "גָּ֝דֹ֗ול", "transliteral": "gā-ḏôl", "traducao_palavra": "grande" },
+        { "hebraico": "כֵּאלֹהִֽים׃", "transliteral": "kē-lō-hîm", "traducao_palavra": "como Deus" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Tu és o Deus que faz maravilhas; tu fizeste notória a tua força entre os povos.",
+      "palavras": [
+        { "hebraico": "אַתָּ֣ה", "transliteral": "ʾat-tā", "traducao_palavra": "tu [és]" },
+        { "hebraico": "הָ֭אֵל", "transliteral": "hā-ʾēl", "traducao_palavra": "o Deus" },
+        { "hebraico": "עֹ֣שֵׂה", "transliteral": "ʿō-śēh", "traducao_palavra": "[que] faz" },
+        { "hebraico": "פֶ֑לֶא", "transliteral": "pe-le", "traducao_palavra": "maravilha" },
+        { "hebraico": "הֹודַ֖עְתָּ", "transliteral": "hô-ḏa-ʿtā", "traducao_palavra": "fizeste saber" },
+        { "hebraico": "בָעַמִּ֣ים", "transliteral": "ḇā-ʿam-mîm", "traducao_palavra": "entre os povos" },
+        { "hebraico": "עֻזֶּֽךָ׃", "transliteral": "uz-ze-ḵā", "traducao_palavra": "tua força" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "Com o teu braço remiste o teu povo, os filhos de Jacó e de José. (Selah)",
+      "palavras": [
+        { "hebraico": "גָּאַ֣לְתָּ", "transliteral": "gā-ʾal-tā", "traducao_palavra": "remiste" },
+        { "hebraico": "בִּזְרֹ֣ועַ", "transliteral": "bi-zə-rô-aʿ", "traducao_palavra": "com braço" },
+        { "hebraico": "עַמֶּ֑ךָ", "transliteral": "ʿam-me-ḵā", "traducao_palavra": "teu povo" },
+        { "hebraico": "בְּנֵי־", "transliteral": "bə-nê-", "traducao_palavra": "filhos de" },
+        { "hebraico": "יַעֲקֹ֥ב", "transliteral": "ya-ʿă-qōḇ", "traducao_palavra": "Jacó" },
+        { "hebraico": "וְיֹוסֵ֥ף", "transliteral": "wə-yô-śēp̄", "traducao_palavra": "e José" },
+        { "hebraico": "סֶֽלָה׃", "transliteral": "se-lā", "traducao_palavra": "Selah" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "As águas te viram, ó Deus, as águas te viram e tremeram; os abismos também se abalaram.",
+      "palavras": [
+        { "hebraico": "רָ֘אוּךָ", "transliteral": "rā-ʾû-ḵā", "traducao_palavra": "viram te" },
+        { "hebraico": "מַּ֪יִם", "transliteral": "ma-yim", "traducao_palavra": "águas" },
+        { "hebraico": "אֱלֹהִ֗ים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "ó Deus" },
+        { "hebraico": "רָ֘אוּךָ", "transliteral": "rā-ʾû-ḵā", "traducao_palavra": "viram te" },
+        { "hebraico": "מַּ֥יִם", "transliteral": "ma-yim", "traducao_palavra": "águas" },
+        { "hebraico": "יָחִ֑ילוּ", "transliteral": "yā-ḥî-lû", "traducao_palavra": "tremeram/contorceram-se" },
+        { "hebraico": "אַ֝ף", "transliteral": "ʾap̄", "traducao_palavra": "também" },
+        { "hebraico": "יִרְגְּז֥וּ", "transliteral": "yir-gə-zû", "traducao_palavra": "abalaram-se/estremeceram" },
+        { "hebraico": "תְהֹמֹֽות׃", "transliteral": "ṯə-hō-môṯ", "traducao_palavra": "abismos" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "As nuvens despejaram águas; os céus deram um som; as tuas setas também correram de uma para outra parte.",
+      "palavras": [
+        { "hebraico": "זֹ֤רְמוּ", "transliteral": "zō-rə-mû", "traducao_palavra": "despejaram/fluíram" },
+        { "hebraico": "מַ֨יִם", "transliteral": "ma-yim", "traducao_palavra": "águas" },
+        { "hebraico": "עָבֹ֗ות", "transliteral": "ʿā-ḇôṯ", "traducao_palavra": "[as] nuvens" },
+        { "hebraico": "קֹ֭ול", "transliteral": "qôl", "traducao_palavra": "[um] som" },
+        { "hebraico": "נָתְנ֣וּ", "transliteral": "nā-ṯə-nû", "traducao_palavra": "deram" },
+        { "hebraico": "שְׁחָקִ֑ים", "transliteral": "šə-ḥā-qîm", "traducao_palavra": "[os] céus/nuvens" },
+        { "hebraico": "אַף־", "transliteral": "ʾap̄-", "traducao_palavra": "também" },
+        { "hebraico": "חֲצָצֶ֥יךָ", "transliteral": "ḥă-ṣā-ṣey-ḵā", "traducao_palavra": "tuas setas/pedras de granizo" },
+        { "hebraico": "יִתְהַלָּֽכוּ׃", "transliteral": "yiṯ-hal-lā-ḵû", "traducao_palavra": "andaram/correram" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "A voz do teu trovão estava no redemoinho; os relâmpagos iluminaram o mundo; a terra se abalou e tremeu.",
+      "palavras": [
+        { "hebraico": "קֹ֬ול", "transliteral": "qôl", "traducao_palavra": "voz de" },
+        { "hebraico": "רַעַמְךָ֨", "transliteral": "ra-ʿam-ḵā", "traducao_palavra": "teu trovão" },
+        { "hebraico": "בַּגַּלְגַּ֗ל", "transliteral": "bag-gal-gal", "traducao_palavra": "no redemoinho/roda" },
+        { "hebraico": "הֵאִ֣ירוּ", "transliteral": "hē-ʾî-rû", "traducao_palavra": "iluminaram" },
+        { "hebraico": "בְרָקִ֣ים", "transliteral": "ḇə-rā-qîm", "traducao_palavra": "relâmpagos" },
+        { "hebraico": "תֵּבֵ֑ל", "transliteral": "tē-ḇēl", "traducao_palavra": "[o] mundo" },
+        { "hebraico": "רָגְזָ֖ה", "transliteral": "rā-ḡə-zā", "traducao_palavra": "estremeceu" },
+        { "hebraico": "וַתִּרְעַ֣שׁ", "transliteral": "wat-tir-ʿaš", "traducao_palavra": "e tremeu" },
+        { "hebraico": "הָאָֽרֶץ׃", "transliteral": "hā-ʾā-reṣ", "traducao_palavra": "a terra" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "Pelo mar foi o teu caminho, e as tuas veredas pelas grandes águas; e as tuas pegadas não foram conhecidas.",
+      "palavras": [
+        { "hebraico": "בַּיָּ֤ם", "transliteral": "bay-yām", "traducao_palavra": "no mar [foi]" },
+        { "hebraico": "דַּרְכֶּ֗ךָ", "transliteral": "dar-ke-ḵā", "traducao_palavra": "teu caminho" },
+        { "hebraico": "וּֽשְׁבִילְךָ֗", "transliteral": "ū-šə-ḇî-lə-ḵā", "traducao_palavra": "e tua vereda" },
+        { "hebraico": "בְּמַ֪יִם", "transliteral": "bə-ma-yim", "traducao_palavra": "em águas" },
+        { "hebraico": "רַבִּ֑ים", "transliteral": "rab-bîm", "traducao_palavra": "muitas" },
+        { "hebraico": "וְ֝עִקְּבֹותֶ֗יךָ", "transliteral": "wə-ʿiq-qə-ḇô-ṯey-ḵā", "traducao_palavra": "e tuas pegadas" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "נֹדָֽעוּ׃", "transliteral": "nō-ḏā-ʿû", "traducao_palavra": "foram conhecidas" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "Guiaste o teu povo, como a um rebanho, pela mão de Moisés e de Arão.",
+      "palavras": [
+        { "hebraico": "נָחִ֣יתָ", "transliteral": "nā-ḥî-ṯā", "traducao_palavra": "guiaste" },
+        { "hebraico": "כַצֹּ֣אן", "transliteral": "ḵaṣ-ṣōn", "traducao_palavra": "como rebanho" },
+        { "hebraico": "עַמֶּ֑ךָ", "transliteral": "ʿam-me-ḵā", "traducao_palavra": "teu povo" },
+        { "hebraico": "בְּיַד־", "transliteral": "bə-yaḏ-", "traducao_palavra": "pela mão de" },
+        { "hebraico": "מֹשֶׁ֥ה", "transliteral": "mō-šeh", "traducao_palavra": "Moisés" },
+        { "hebraico": "וְאַהֲרֹֽן׃", "transliteral": "wə-ʾa-hă-rōn", "traducao_palavra": "e Arão" }
+      ]
+    }
+  }
 }

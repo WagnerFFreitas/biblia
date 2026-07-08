@@ -1,718 +1,718 @@
-/*======================================================*/
-/*              ESTILOS DO DICIONÁRIO BÍBLICO           */
-/*    Busca, resultados, definições e responsividade    */
-/*======================================================*/
-
-/*======================================================*/
-/*             CAMPO DE BUSCA DO DICIONÁRIO             */
-/*      Estilo do input principal para pesquisa         */
-/*======================================================*/
-.dicionario-busca input {
-    width: 100%;                                           /* Define a largura total para garantir que o CAMPO DE BUSCA ocupe toda a extensão.     */
-    margin-left: 10px;                                     /* Define o recuo à esquerda para alinhar o CAMPO DE BUSCA com o contêiner.             */
-    padding: 7px 20px;                                     /* Define o preenchimento interno para criar um respiro no CAMPO DE BUSCA.              */
-    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%); /* Define um gradiente linear escuro para o fundo do CAMPO DE BUSCA.        */
-    border: 2px solid #d4af37;                           /* Define uma borda sólida dourada para delimitar o CAMPO DE BUSCA.                     */
-    border-radius: 12px;                                   /* Define os cantos arredondados para suavizar o design do CAMPO DE BUSCA.              */
-    color: #ffffff;                                      /* Define a cor do texto em branco para garantir o contraste no CAMPO DE BUSCA.         */
-    font-size: 1.2rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade no CAMPO DE BUSCA.           */
-    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades do CAMPO DE BUSCA.             */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);           /* Define uma sombra suave para criar profundidade e destaque no CAMPO DE BUSCA.        */
-}
-
-/*======================================================*/
-/*           CAMPO DE BUSCA — ESTADO DE FOCO            */
-/*      Efeitos visuais quando o campo está ativo       */
-/*======================================================*/
-.dicionario-busca input:focus {
-    outline: none;                                         /* Define o contorno como nulo para remover a borda padrão do CAMPO DE BUSCA em FOCO.        */
-    box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);        /* Define uma sombra dourada intensa para destacar o CAMPO DE BUSCA em FOCO.                 */
-    background: linear-gradient(135deg, #3a3a3a 0%, #2a2a2a 100%); /* Define um gradiente linear mais claro para o fundo do CAMPO DE BUSCA em FOCO. */
-}
-
-/*======================================================*/
-/*          CAMPO DE BUSCA — TEXTOS DE EXEMPLO          */
-/*       Estilo do placeholder (texto de exemplo)       */
-/*======================================================*/
-.dicionario-busca input::placeholder {
-    color: #999999;                                      /* Define a cor do texto de exemplo em cinza claro para o CAMPO DE BUSCA.          */
-}
-
-/*======================================================*/
-/*          CONTEINER PRINCIPAL DO DICIONÁRIO           */
-/*        Container que engloba todo o conteúdo         */
-/*======================================================*/
-.dicionario-conteiner {
-    width: 100%;                                           /* Define a largura total para garantir que o CONTEINER PRINCIPAL DO DICIONÁRIO ocupe toda a extensão.  */
-    max-width: 100%;                                       /* Define o limite máximo de largura sem restrições para o CONTEINER PRINCIPAL DO DICIONÁRIO.           */
-    padding: 25px 0px;                                     /* Define o preenchimento interno vertical para criar um respiro no CONTEINER PRINCIPAL DO DICIONÁRIO.  */
-    margin-bottom: 20px;                                   /* Define o espaçamento inferior para separar o CONTEINER PRINCIPAL DO DICIONÁRIO de outros elementos.  */
-    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%); /* Define um gradiente linear escuro para o fundo do CONTEINER PRINCIPAL DO DICIONÁRIO.     */
-    border: 2px solid #d4af37;                           /* Define uma borda sólida dourada para delimitar o CONTEINER PRINCIPAL DO DICIONÁRIO.                  */
-    border-radius: 12px;                                   /* Define os cantos arredondados para suavizar o design do CONTEINER PRINCIPAL DO DICIONÁRIO.           */
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);           /* Define uma sombra suave para criar profundidade e destaque no CONTEINER PRINCIPAL DO DICIONÁRIO.     */
-}
-
-/*======================================================*/
-/*        LINHA DE BUSCA E PAGINAÇÃO DO DICIONÁRIO      */
-/*    Barra superior com busca e controles de navegação */
-/*======================================================*/
-.dicionario-linha {
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout da LINHA DE BUSCA E PAGINAÇÃO.                */
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos na LINHA DE BUSCA E PAGINAÇÃO.                */
-    justify-content: space-between;                        /* Define a distribuição dos itens para criar espaçamento entre os blocos da LINHA DE BUSCA E PAGINAÇÃO.      */
-    padding: 10px 0px;                                     /* Define o preenchimento interno vertical para criar um respiro na LINHA DE BUSCA E PAGINAÇÃO.               */
-    margin-bottom: 20px;                                   /* Define o espaçamento inferior para separar a LINHA DE BUSCA E PAGINAÇÃO de outros elementos.               */
-    position: sticky;                                      /* Define o posicionamento fixo para manter a LINHA DE BUSCA E PAGINAÇÃO visível durante a rolagem.           */
-    z-index: 850;                                          /* Define a ordem de empilhamento para que a LINHA DE BUSCA E PAGINAÇÃO se sobreponha a elementos de fundo.   */
-    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%); /* Define um gradiente linear escuro para o fundo da LINHA DE BUSCA E PAGINAÇÃO.                  */
-    border: 2px solid #d4af37;                           /* Define uma borda sólida dourada para delimitar a LINHA DE BUSCA E PAGINAÇÃO.                               */
-    border-radius: 8px;                                    /* Define os cantos arredondados para suavizar o design da LINHA DE BUSCA E PAGINAÇÃO.                        */
-}
-
-/*======================================================*/
-/*              GRUPO DE BUSCA DO DICIONÁRIO            */
-/*     Container que agrupa o campo de busca e botão    */
-/*======================================================*/
-.dicionario-busca-grupo {
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do GRUPO DE BUSCA DO DICIONÁRIO.     */
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no GRUPO DE BUSCA DO DICIONÁRIO.     */
-    gap: 15px;                                             /* Define o espaçamento entre os elementos do GRUPO DE BUSCA DO DICIONÁRIO.                          */
-}
-
-/*======================================================*/
-/*      GRUPO DE BUSCA — CAMPO DE BUSCA ESPECÍFICO      */
-/*      Ajuste de largura do campo dentro do grupo      */
-/*======================================================*/
-.dicionario-busca-grupo .dicionario-busca {
-    width: 100%;                                           /* Define a largura total para garantir que o CAMPO DE BUSCA ESPECÍFICO ocupe toda a extensão.       */
-}
-
-/*======================================================*/
-/*           GRUPO DE PAGINAÇÃO DO DICIONÁRIO           */
-/*    Container para botões de navegação de páginas     */
-/*======================================================*/
-.dicionario-paginacao-grupo {
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do GRUPO DE PAGINAÇÃO DO DICIONÁRIO.    */
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no GRUPO DE PAGINAÇÃO DO DICIONÁRIO.    */
-    gap: 0px;                                              /* Define o espaçamento nulo entre os elementos do GRUPO DE PAGINAÇÃO DO DICIONÁRIO.                    */
-    padding: 0 2px;                                        /* Define o preenchimento interno horizontal para criar um respiro no GRUPO DE PAGINAÇÃO DO DICIONÁRIO. */
-}
-
-/*======================================================*/
-/*      BOTÃO DE PÁGINA ANTERIOR DO DICIONÁRIO          */
-/*      Controle para voltar à página anterior          */
-/*======================================================*/
-#btn-anterior-dicionario {
-    margin-right: 10px;                                    /* Define o espaçamento à direita para separar o BOTÃO DE PÁGINA ANTERIOR de outros elementos.      */
-    padding: 0 15px;                                       /* Define o preenchimento interno horizontal para criar um respiro no BOTÃO DE PÁGINA ANTERIOR.     */
-    height: 36px;                                          /* Define a altura fixa para padronizar a dimensão vertical do BOTÃO DE PÁGINA ANTERIOR.            */
-    background: linear-gradient(135deg, #d4af37 0%, #b8941f 100%); /* Define um gradiente linear dourado para o fundo do BOTÃO DE PÁGINA ANTERIOR.              */
-    border: none;                                          /* Define a borda como nula para remover o contorno padrão do BOTÃO DE PÁGINA ANTERIOR.             */
-    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design do BOTÃO DE PÁGINA ANTERIOR.                */
-    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO DE PÁGINA ANTERIOR.    */
-    color: #1a1a1a;                                      /* Define a cor do texto em preto escuro para garantir a leitura no BOTÃO DE PÁGINA ANTERIOR.       */
-    font-size: 0.9rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade no BOTÃO DE PÁGINA ANTERIOR.             */
-    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO MODERADO para o BOTÃO DE PÁGINA ANTERIOR.                      */
-    text-transform: uppercase;                             /* Define a transformação do texto para MAIÚSCULAS no BOTÃO DE PÁGINA ANTERIOR.                     */
-    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades do BOTÃO DE PÁGINA ANTERIOR.               */
-    white-space: nowrap;                                   /* Impede a quebra automática de linha para manter a integridade visual do BOTÃO DE PÁGINA ANTERIOR.*/
-    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total do BOTÃO DE PÁGINA ANTERIOR.                            */
-}
-
-/*======================================================*/
-/*    BOTÃO DE PÁGINA ANTERIOR — EFEITO HOVER ATIVO     */
-/*         Feedback visual ao passar o mouse            */
-/*======================================================*/
-#btn-anterior-dicionario:hover:not(:disabled) {
-    transform: translateY(-2px);                           /* Define o deslocamento vertical para cima no efeito de HOVER do BOTÃO DE PÁGINA ANTERIOR.*/
-    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);      /* Define uma sombra dourada intensa para destacar o BOTÃO DE PÁGINA ANTERIOR em HOVER.    */
-}
-
-/*======================================================*/
-/*    BOTÃO DE PÁGINA ANTERIOR — ESTADO DESATIVADO      */
-/*     Estilo quando o botão não está disponível        */
-/*======================================================*/
-#btn-anterior-dicionario:disabled {
-    background: linear-gradient(135deg, #555555 0%, #444444 100%); /* Define um gradiente linear cinza para o fundo do BOTÃO DE PÁGINA ANTERIOR DESATIVADO.               */
-    cursor: not-allowed;                                   /* Define o cursor como não permitido para indicar a não interatividade do BOTÃO DE PÁGINA ANTERIOR DESATIVADO.     */
-    opacity: 0.6;                                          /* Define a opacidade reduzida para indicar o estado desativado do BOTÃO DE PÁGINA ANTERIOR.                        */
-}
-
-/*======================================================*/
-/*       BOTÃO DE PRÓXIMA PÁGINA DO DICIONÁRIO          */
-/*      Controle para avançar à próxima página          */
-/*======================================================*/
-#btn-proximo-dicionario {
-    margin-left: 10px;                                     /* Define o recuo à esquerda para separar o BOTÃO DE PRÓXIMA PÁGINA de outros elementos.            */
-    margin-right: 10px;                                    /* Define o espaçamento à direita para separar o BOTÃO DE PRÓXIMA PÁGINA de outros elementos.       */
-    padding: 0 15px;                                       /* Define o preenchimento interno horizontal para criar um respiro no BOTÃO DE PRÓXIMA PÁGINA.      */
-    height: 36px;                                          /* Define a altura fixa para padronizar a dimensão vertical do BOTÃO DE PRÓXIMA PÁGINA.             */
-    background: linear-gradient(135deg, #d4af37 0%, #b8941f 100%); /* Define um gradiente linear dourado para o fundo do BOTÃO DE PRÓXIMA PÁGINA.          */
-    border: none;                                          /* Define a borda como nula para remover o contorno padrão do BOTÃO DE PRÓXIMA PÁGINA.               */
-    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design do BOTÃO DE PRÓXIMA PÁGINA.                  */
-    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO DE PRÓXIMA PÁGINA.      */
-    color: #1a1a1a;                                      /* Define a cor do texto em preto escuro para garantir a leitura no BOTÃO DE PRÓXIMA PÁGINA.         */
-    font-size: 0.9rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade no BOTÃO DE PRÓXIMA PÁGINA.               */
-    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO MODERADO para o BOTÃO DE PRÓXIMA PÁGINA.                        */
-    text-transform: uppercase;                             /* Define a transformação do texto para MAIÚSCULAS no BOTÃO DE PRÓXIMA PÁGINA.                       */
-    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades do BOTÃO DE PRÓXIMA PÁGINA.                 */
-    white-space: nowrap;                                   /* Impede a quebra automática de linha para manter a integridade visual do BOTÃO DE PRÓXIMA PÁGINA.  */
-    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total do BOTÃO DE PRÓXIMA PÁGINA.                              */
-}
-
-/*======================================================*/
-/*     BOTÃO DE PRÓXIMA PÁGINA — EFEITO HOVER ATIVO     */
-/*          Feedback visual ao passar o mouse           */
-/*======================================================*/
-#btn-proximo-dicionario:hover:not(:disabled) {
-    transform: translateY(-2px);                           /* Define o deslocamento vertical para cima no efeito de HOVER do BOTÃO DE PRÓXIMA PÁGINA. */
-    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);      /* Define uma sombra dourada intensa para destacar o BOTÃO DE PRÓXIMA PÁGINA em HOVER.     */
-}
-
-/*======================================================*/
-/*     BOTÃO DE PRÓXIMA PÁGINA — ESTADO DESATIVADO      */
-/*      Estilo quando o botão não está disponível       */
-/*======================================================*/
-#btn-proximo-dicionario:disabled {
-    background: linear-gradient(135deg, #555555 0%, #444444 100%); /* Define um gradiente linear cinza para o fundo do BOTÃO DE PRÓXIMA PÁGINA DESATIVADO.          */
-    cursor: not-allowed;                                   /* Define o cursor como não permitido para indicar a não interatividade do BOTÃO DE PRÓXIMA PÁGINA DESATIVADO.*/
-    opacity: 0.6;                                          /* Define a opacidade reduzida para indicar o estado desativado do BOTÃO DE PRÓXIMA PÁGINA.                   */
-}
-
-/*======================================================*/
-/*        CONTADOR DE RESULTADOS DO DICIONÁRIO          */
-/*       Exibe a contagem de termos encontrados         */
-/*======================================================*/
-.contador-dicionario {
-    min-width: 200px;                                      /* Define a largura mínima para garantir a visibilidade do CONTADOR DE RESULTADOS.                   */
-    padding: 5px 22px;                                     /* Define o preenchimento interno para criar um respiro no CONTADOR DE RESULTADOS.                   */
-    background: rgba(212, 175, 55, 0.1);                 /* Define a cor de fundo em dourado translúcido para o CONTADOR DE RESULTADOS.                       */
-    border: 1px solid rgba(212, 175, 55, 0.3);           /* Define uma borda sólida dourada translúcida para delimitar o CONTADOR DE RESULTADOS.              */
-    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design do CONTADOR DE RESULTADOS.                   */
-    color: #d4af37;                                      /* Define a cor do texto em dourado para o CONTADOR DE RESULTADOS.                                   */
-    font-size: 1.1rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade no CONTADOR DE RESULTADOS.                */
-    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO MODERADO para o CONTADOR DE RESULTADOS.                         */
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para o CONTADOR DE RESULTADOS.                         */
-    white-space: nowrap;                                   /* Impede a quebra automática de linha para manter a integridade visual do CONTADOR DE RESULTADOS.   */
-    overflow: hidden;                                      /* Oculta o transbordamento para impedir que o conteúdo exceda os limites do CONTADOR DE RESULTADOS. */
-    text-overflow: ellipsis;                               /* Adiciona reticências ao final de textos longos no CONTADOR DE RESULTADOS.                         */
-    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total do CONTADOR DE RESULTADOS.                               */
-}
-
-/*======================================================*/
-/*     WRAPPER DO CONTEÚDO PRINCIPAL DO DICIONÁRIO      */
-/*           Organiza a disposição do conteúdo          */
-/*======================================================*/
-.dicionario-conteudo-wrapper {
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do WRAPPER DO CONTEÚDO PRINCIPAL.    */
-    align-items: flex-start;                               /* Define o alinhamento vertical ao topo para os elementos no WRAPPER DO CONTEÚDO PRINCIPAL.         */
-    gap: 0;                                                /* Define o espaçamento nulo entre os elementos do WRAPPER DO CONTEÚDO PRINCIPAL.                    */
-}
-
-/*======================================================*/
-/*          OPÇÕES LATERAIS DO DICIONÁRIO               */
-/*       Painel lateral com opções adicionais           */
-/*======================================================*/
-.dicionario-opcoes-laterais {
-    flex-shrink: 0;                                        /* Impede que o elemento encolha para manter suas dimensões originais.*/
-}
-
-/*======================================================*/
-/*      BOTÃO DE BUSCA GERAL DO DICIONÁRIO            */
-/*     Botão principal para iniciar pesquisas           */
-/*======================================================*/
-.dicionario-btn,
-.btn-buscar {
-    height: 40px;                                          /* Define a altura fixa para padronizar a dimensão vertical do BOTÃO DE BUSCA GERAL.                */
-    padding: 0 20px;                                       /* Define o preenchimento interno horizontal para criar um respiro no BOTÃO DE BUSCA GERAL.         */
-    background: linear-gradient(135deg, #d4af37 0%, #b8941f 100%); /* Define um gradiente linear dourado para o fundo do BOTÃO DE BUSCA GERAL.                */
-    border: none;                                          /* Define a borda como nula para remover o contorno padrão do BOTÃO DE BUSCA GERAL.                */
-    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design do BOTÃO DE BUSCA GERAL.                   */
-    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO DE BUSCA GERAL.        */
-    color: #1a1a1a;                                      /* Define a cor do texto em preto escuro para garantir a leitura no BOTÃO DE BUSCA GERAL.          */
-    font-size: 0.9rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade no BOTÃO DE BUSCA GERAL.                 */
-    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO MODERADO para o BOTÃO DE BUSCA GERAL.                         */
-    text-transform: uppercase;                             /* Define a transformação do texto para MAIÚSCULAS no BOTÃO DE BUSCA GERAL.                        */
-    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades do BOTÃO DE BUSCA GERAL.                  */
-    white-space: nowrap;                                   /* Impede a quebra automática de linha para manter a integridade visual do BOTÃO DE BUSCA GERAL.    */
-    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total do BOTÃO DE BUSCA GERAL.                               */
-}
-
-/*======================================================*/
-/*   BOTÃO DE BUSCA GERAL — EFEITO HOVER ATIVO        */
-/*     Feedback visual ao passar o mouse                */
-/*======================================================*/
-.dicionario-btn:hover,
-.btn-buscar:hover {
-    transform: translateY(-2px);                           /* Define o deslocamento vertical para cima no efeito de HOVER do BOTÃO DE BUSCA GERAL.             */
-    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);      /* Define uma sombra dourada intensa para destacar o BOTÃO DE BUSCA GERAL em HOVER.                */
-}
-
-/*======================================================*/
-/*    BOTÃO DE BUSCA GERAL — EFEITO DE CLIQUE         */
-/*     Feedback visual durante o clique                 */
-/*======================================================*/
-.dicionario-btn:active,
-.btn-buscar:active {
-    transform: translateY(0);                              /* Define o deslocamento vertical nulo para retornar à posição original no clique do BOTÃO DE BUSCA GERAL.*/
-}
-
-/*======================================================*/
-/*         CONTEINER DE SUGESTÕES DO DICIONÁRIO         */
-/*        Lista suspensa com sugestões de busca         */
-/*======================================================*/
-#sugestoes-conteiner {
-    position: absolute;                                    /* Define o posicionamento absoluto para que o CONTEINER DE SUGESTÕES flutue em relação ao seu container.                         */
-    top: 100%;                                             /* Define o posicionamento para que o CONTEINER DE SUGESTÕES comece imediatamente abaixo do elemento pai.                         */
-    left: 0;                                               /* Define a distância da esquerda como zero para alinhar o CONTEINER DE SUGESTÕES ao limite lateral.                              */
-    right: 0;                                              /* Define a distância da direita como zero para alinhar o CONTEINER DE SUGESTÕES ao limite lateral.                               */
-    z-index: 1000;                                         /* Define a ordem de empilhamento em nível máximo para garantir que o CONTEINER DE SUGESTÕES fique acima de todos os elementos.   */
-    display: none;                                         /* Define a exibição como nula para ocultar o CONTEINER DE SUGESTÕES por padrão.                                                  */
-    max-height: 200px;                                     /* Define a altura máxima para limitar a expansão vertical do CONTEINER DE SUGESTÕES.                                             */
-    overflow-y: auto;                                      /* Define o comportamento de rolagem vertical automática para o CONTEINER DE SUGESTÕES.                                           */
-    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%); /* Define um gradiente linear escuro para o fundo do CONTEINER DE SUGESTÕES.                                          */
-    border: 2px solid #d4af37;                             /* Define uma borda sólida dourada para delimitar o CONTEINER DE SUGESTÕES.                                                     */
-    border-top: none;                                      /* Define a borda superior como nula para conectar visualmente ao elemento acima.                                                 */
-    border-radius: 0 0 12px 12px;                          /* Define os cantos arredondados apenas na parte inferior do CONTEINER DE SUGESTÕES.                                              */
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);           /* Define uma sombra suave para criar profundidade e destaque no CONTEINER DE SUGESTÕES.                                          */
-}
-
-/*======================================================*/
-/*      CONTEINER DE SUGESTÕES — ESTADO VISÍVEL         */
-/*      Exibe a lista de sugestões quando ativo         */
-/*======================================================*/
-#sugestoes-conteiner.show {
-    display: block;                                        /* Define a exibição como bloco para garantir a VISIBILIDADE do CONTEINER DE SUGESTÕES. */
-}
-
-/*======================================================*/
-/*           ITEM DE SUGESTÃO DO DICIONÁRIO             */
-/*       Opção individual na lista de sugestões         */
-/*======================================================*/
-.sugestao-item {
-    padding: 12px 20px;                                    /* Define o preenchimento interno para criar um respiro no ITEM DE SUGESTÃO.            */
-    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no ITEM DE SUGESTÃO.*/
-    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades do ITEM DE SUGESTÃO.           */
-    border-bottom: 1px solid #444444;                    /* Define uma borda inferior sólida cinza para separar visualmente os ITENS DE SUGESTÃO.*/
-}
-
-/*======================================================*/
-/*       ITEM DE SUGESTÃO — EFEITO HOVER ATIVO          */
-/*         Feedback visual ao passar o mouse            */
-/*======================================================*/
-.sugestao-item:hover {
-    background: linear-gradient(135deg, #3a3a3a 0%, #2a2a2a 100%); /* Define um gradiente linear mais claro para o fundo do ITEM DE SUGESTÃO em HOVER.*/
-    color: #d4af37;                                      /* Define a cor do texto em dourado para destacar o ITEM DE SUGESTÃO em HOVER.                 */
-}
-
-/*======================================================*/
-/*        ITEM DE SUGESTÃO — ÚLTIMO ELEMENTO            */
-/*      Remove a borda do último item da lista          */
-/*======================================================*/
-.sugestao-item:last-child {
-    border-bottom: none;                                   /* Define a borda inferior como nula para remover a separação do último ITEM DE SUGESTÃO.  */
-}
-
-/*======================================================*/
-/*              RESULTADOS DO DICIONÁRIO                */
-/*     Área de exibição das definições encontradas      */
-/*======================================================*/
-#dicionario-resultados {
-    flex-grow: 1;                                          /* Permite que o elemento se expanda para ocupar o espaço disponível.                         */
-    height: calc(100vh - 240px);                           /* Define a altura calculada dinamicamente para os RESULTADOS DO DICIONÁRIO.                  */
-    min-height: 400px;                                     /* Define a altura mínima para garantir a visibilidade dos RESULTADOS DO DICIONÁRIO.          */
-    padding: 20px 0px;                                     /* Define o preenchimento interno vertical para criar um respiro nos RESULTADOS DO DICIONÁRIO.*/
-    padding-bottom: 120px;                                 /* Define o preenchimento interno inferior para garantir espaço ao final da rolagem.          */
-    overflow-y: auto;                                      /* Define o comportamento de rolagem vertical automática para os RESULTADOS DO DICIONÁRIO.    */
-    background: rgba(0, 0, 0, 0.2);                      /* Define a cor de fundo em preto translúcido para os RESULTADOS DO DICIONÁRIO.               */
-    border-radius: 12px;                                   /* Define os cantos arredondados para suavizar o design dos RESULTADOS DO DICIONÁRIO.         */
-    scrollbar-width: none;                                 /* Define a largura da barra de rolagem como nula para ocultá-la no Firefox.                  */
-    -ms-overflow-style: none;                              /* Define o estilo de transbordamento como nulo para ocultar a barra de rolagem no IE e Edge. */
-}
-
-/*======================================================*/
-/*  RESULTADOS DO DICIONÁRIO — BARRA DE ROLAGEM WEBKIT  */
-/*   Esconde a barra de rolagem em navegadores Webkit   */
-/*======================================================*/
-#dicionario-resultados::-webkit-scrollbar {
-    display: none;                                         /* Define a exibição como nula para ocultar a BARRA DE ROLAGEM visual em navegadores Webkit.  */
-}
-
-/*======================================================*/
-/*   RESULTADOS DO DICIONÁRIO — ESTADO DE CARREGAMENTO  */
-/*     Indicadores visuais durante o carregamento       */
-/*======================================================*/
-#dicionario-resultados.loading {
-    opacity: 0.7;                                          /* Define a opacidade reduzida para indicar o estado de carregamento dos RESULTADOS DO DICIONÁRIO.   */
-    transform: scale(0.98);                                /* Define a redução de escala para criar efeito visual de carregamento nos RESULTADOS DO DICIONÁRIO. */
-}
-
-/*======================================================*/
-/*          ITEM DE DEFINIÇÃO DO DICIONÁRIO             */
-/*     Bloco individual com informações de um termo     */
-/*======================================================*/
-.definicao-item {
-    margin-bottom: 10px;                                   /* Define o espaçamento inferior para separar os ITENS DE DEFINIÇÃO.                                 */
-    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%); /* Define um gradiente linear escuro para o fundo do ITEM DE DEFINIÇÃO.                  */
-    border: 2px solid #444444;                           /* Define uma borda sólida cinza para delimitar o ITEM DE DEFINIÇÃO.                                 */
-    border-radius: 12px;                                   /* Define os cantos arredondados para suavizar o design do ITEM DE DEFINIÇÃO.                        */
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);           /* Define uma sombra suave para criar profundidade e destaque no ITEM DE DEFINIÇÃO.                  */
-    overflow: hidden;                                      /* Oculta o transbordamento para impedir que o conteúdo exceda os limites do ITEM DE DEFINIÇÃO.      */
-    opacity: 0;                                            /* Define a opacidade inicial como zero para animação do ITEM DE DEFINIÇÃO.                          */
-    transform: translateY(20px);                           /* Define o posicionamento inicial abaixo para animação do ITEM DE DEFINIÇÃO.                        */
-    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades do ITEM DE DEFINIÇÃO.                       */
-    animation: fadeInUp 0.5s ease forwards;                /* Aplica a animação de surgir para o ITEM DE DEFINIÇÃO.                                             */
-}
-
-/*======================================================*/
-/*                 ANIMAÇÃO DE SURGIR                   */
-/*     Efeito visual para aparecimento de elementos     */
-/*======================================================*/
-@keyframes fadeInUp {
-    to {
-        opacity: 1;                                        /* Define a opacidade final como total para a animação de surgir.     */
-        transform: translateY(0);                          /* Define o posicionamento final como zero para a animação de surgir. */
-    }
-}
-
-/*======================================================*/
-/*      ITEM DE DEFINIÇÃO — ATRASOS DE ANIMAÇÃO         */
-/*      Temporização para surgimento sequencial         */
-/*======================================================*/
-.definicao-item:nth-child(1) { animation-delay: 0.1s; }   /* Define o atraso de animação em 0.1s para o primeiro ITEM DE DEFINIÇÃO.         */
-.definicao-item:nth-child(2) { animation-delay: 0.2s; }   /* Define o atraso de animação em 0.2s para o segundo ITEM DE DEFINIÇÃO.          */
-.definicao-item:nth-child(3) { animation-delay: 0.3s; }   /* Define o atraso de animação em 0.3s para o terceiro ITEM DE DEFINIÇÃO.         */
-.definicao-item:nth-child(4) { animation-delay: 0.4s; }   /* Define o atraso de animação em 0.4s para o quarto ITEM DE DEFINIÇÃO.           */
-.definicao-item:nth-child(5) { animation-delay: 0.5s; }   /* Define o atraso de animação em 0.5s para o quinto ITEM DE DEFINIÇÃO.           */
-
-/*======================================================*/
-/*      ITEM DE DEFINIÇÃO — EFEITO HOVER ATIVO          */
-/*        Feedback visual ao passar o mouse             */
-/*======================================================*/
-.definicao-item:hover {
-    border-color: #d4af37;                               /* Define a cor da borda como dourada para destacar o ITEM DE DEFINIÇÃO em HOVER.           */
-    transform: translateY(-3px);                           /* Define o deslocamento vertical para cima no efeito de HOVER do ITEM DE DEFINIÇÃO.        */
-    box-shadow: 0 10px 30px rgba(212, 175, 55, 0.2);     /* Define uma sombra dourada suave para destacar o ITEM DE DEFINIÇÃO em HOVER.              */
-}
-
-/*======================================================*/
-/*        CABEÇALHO DA DEFINIÇÃO DO DICIONÁRIO          */
-/*   Seção superior com informações básicas do termo    */
-/*======================================================*/
-.definicao-header {
-    padding: 25px;                                         /* Define o preenchimento interno para criar um respiro no CABEÇALHO DA DEFINIÇÃO.          */
-    background: linear-gradient(135deg, #3a3a3a 0%, #2a2a2a 100%); /* Define um gradiente linear cinza para o fundo do CABEÇALHO DA DEFINIÇÃO.     */
-    border-bottom: 2px solid #d4af37;                    /* Define uma borda inferior sólida dourada para delimitar o CABEÇALHO DA DEFINIÇÃO.        */
-}
-
-/*======================================================*/
-/*            TÍTULO DO TERMO DO DICIONÁRIO             */
-/*     Nome principal do termo com destaque visual      */
-/*======================================================*/
-.termo-titulo {
-    padding: 15px 25px;                                    /* Define o preenchimento interno para criar um respiro no TÍTULO DO TERMO.             */
-    margin-bottom: 20px;                                   /* Define o espaçamento inferior para separar o TÍTULO DO TERMO de outros elementos.    */
-    background: linear-gradient(135deg, #4a5bff 0%, #3a4bef 100%); /* Define um gradiente linear azul para o fundo do TÍTULO DO TERMO.         */
-    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design do TÍTULO DO TERMO.             */
-    color: #ffffff;                                      /* Define a cor do texto em branco para garantir o contraste no TÍTULO DO TERMO.        */
-    font-size: 1.5rem;                                     /* Define o tamanho da fonte para dar destaque ao TÍTULO DO TERMO.                      */
-    font-weight: 700;                                      /* Define o peso da fonte em NEGRITO FORTE para o TÍTULO DO TERMO.                      */
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TÍTULO DO TERMO.                   */
-    text-transform: uppercase;                             /* Define a transformação do texto para MAIÚSCULAS no TÍTULO DO TERMO.                  */
-    letter-spacing: 1.5px;                                 /* Define o espaçamento entre as letras para melhorar a legibilidade do TÍTULO DO TERMO.*/
-    box-shadow: 0 4px 15px rgba(74, 91, 255, 0.3);       /* Define uma sombra azul para criar profundidade e destaque no TÍTULO DO TERMO.        */
-}
-
-/*======================================================*/
-/*                 ETIMOLOGIA DO TERMO                  */
-/*        Informações sobre a origem da palavra         */
-/*======================================================*/
-.etimologia {
-    margin-bottom: 15px;                                   /* Define o espaçamento inferior para separar a ETIMOLOGIA de outros elementos.  */
-    color: #d4af37;                                      /* Define a cor do texto em dourado para a ETIMOLOGIA.                           */
-    font-size: 1.1rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade na ETIMOLOGIA.        */
-    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO MODERADO para a ETIMOLOGIA.                 */
-    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para a ETIMOLOGIA.                      */
-}
-
-/*======================================================*/
-/*           ETIMOLOGIA — TEXTO EM NEGRITO              */
-/*      Destaque para partes importantes do texto       */
-/*======================================================*/
-.etimologia strong {
-    color: #ffffff;                                      /* Define a cor do texto em branco para destacar o texto em negrito na ETIMOLOGIA. */
-}
-
-/*======================================================*/
-/*          SEÇÃO "VEJA TAMBÉM" DO DICIONÁRIO           */
-/*    Referências cruzadas para termos relacionados     */
-/*======================================================*/
-.veja-tambem-dicionario {
-    color: #cccccc;                                      /* Define a cor do texto em cinza claro para a SEÇÃO "VEJA TAMBÉM".                     */
-    font-size: 1.1rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade na SEÇÃO "VEJA TAMBÉM".      */
-}
-
-/*======================================================*/
-/*       SEÇÃO "VEJA TAMBÉM" — TEXTO EM NEGRITO         */
-/*      Destaque para partes importantes do texto       */
-/*======================================================*/
-.veja-tambem-dicionario strong {
-    color: #d4af37;                                      /* Define a cor do texto em dourado para destacar o texto em negrito na SEÇÃO "VEJA TAMBÉM". */
-}
-
-/*======================================================*/
-/*          TERMO RELACIONADO DO DICIONÁRIO             */
-/*     Link para termos semanticamente conectados       */
-/*======================================================*/
-.termo-relacionado {
-    display: inline-block;                                 /* Define a exibição como bloco em linha para permitir dimensões e espaçamentos no TERMO RELACIONADO.*/
-    margin: 2px;                                           /* Define a margem externa para separar os TERMOS RELACIONADOS.                                      */
-    padding: 4px 8px;                                      /* Define o preenchimento interno para criar um respiro no TERMO RELACIONADO.                        */
-    background: rgba(212, 175, 55, 0.2);                 /* Define a cor de fundo em dourado translúcido para o TERMO RELACIONADO.                            */
-    border-radius: 4px;                                    /* Define os cantos arredondados para suavizar o design do TERMO RELACIONADO.                        */
-    color: #d4af37;                                      /* Define a cor do texto em dourado para o TERMO RELACIONADO.                                        */
-    font-size: 0.9rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade no TERMO RELACIONADO.                     */
-    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no TERMO RELACIONADO.            */
-    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades do TERMO RELACIONADO.                       */
-}
-
-/*======================================================*/
-/*        TERMO RELACIONADO — EFEITO HOVER ATIVO        */
-/*          Feedback visual ao passar o mouse           */
-/*======================================================*/
-.termo-relacionado:hover {
-    background: #d4af37;                                 /* Define a cor de fundo em dourado sólido para destacar o TERMO RELACIONADO em HOVER.          */
-    color: #1a1a1a;                                      /* Define a cor do texto em preto escuro para garantir a leitura no TERMO RELACIONADO em HOVER. */
-}
-
-/*======================================================*/
-/*        CONTEÚDO DA DEFINIÇÃO DO DICIONÁRIO           */
-/*      Seção principal com a explicação do termo       */
-/*======================================================*/
-.definicao-content {
-    padding: 25px;                                         /* Define o preenchimento interno para criar um respiro no CONTEÚDO DA DEFINIÇÃO.*/
-}
-
-/*======================================================*/
-/*          TEXTO DA DEFINIÇÃO DO DICIONÁRIO            */
-/*         Explicação detalhada do significado          */
-/*======================================================*/
-.definicao-texto {
-    margin-bottom: 25px;                                   /* Define o espaçamento inferior para separar o TEXTO DA DEFINIÇÃO de outros elementos.                 */
-    padding: 0;                                            /* Define o preenchimento interno como nulo para remover os espaçamentos padrão do TEXTO DA DEFINIÇÃO.  */
-    color: #ffffff;                                      /* Define a cor do texto em branco para garantir o contraste no TEXTO DA DEFINIÇÃO.                     */
-    font-size: 1.1rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade no TEXTO DA DEFINIÇÃO.                       */
-    line-height: 1.8;                                      /* Define a altura da linha para melhorar a legibilidade do TEXTO DA DEFINIÇÃO.                         */
-    text-align: justify;                                   /* Define o alinhamento justificado para distribuir o TEXTO DA DEFINIÇÃO de forma uniforme.             */
-}
-
-/*======================================================*/
-/*        TEXTO DA DEFINIÇÃO — TEXTO EM NEGRITO         */
-/*      Destaque para partes importantes do texto       */
-/*======================================================*/
-.definicao-texto strong {
-    color: #d4af37;                                      /* Define a cor do texto em dourado para destacar o texto em negrito no TEXTO DA DEFINIÇÃO.  */
-}
-
-/*======================================================*/
-/*          SEÇÃO DE REFERÊNCIAS DO DICIONÁRIO          */
-/*           Fontes bibliográficas e citações           */
-/*======================================================*/
-.referencias-section {
-    padding: 20px;                                         /* Define o preenchimento interno para criar um respiro na SEÇÃO DE REFERÊNCIAS. */
-    background: rgba(0, 0, 0, 0.2);                      /* Define a cor de fundo em preto translúcido para a SEÇÃO DE REFERÊNCIAS.       */
-    border-radius: 8px;                                    /* Define os cantos arredondados para suavizar o design da SEÇÃO DE REFERÊNCIAS. */
-}
-
-/*======================================================*/
-/*           TÍTULO DA SEÇÃO DE REFERÊNCIAS             */
-/*            Cabeçalho da seção de fontes              */
-/*======================================================*/
-.referencias-titulo {
-    margin-bottom: 15px;                                   /* Define o espaçamento inferior para separar o TÍTULO DA SEÇÃO DE REFERÊNCIAS de outros elementos.  */
-    color: #d4af37;                                      /* Define a cor do texto em dourado para o TÍTULO DA SEÇÃO DE REFERÊNCIAS.                           */
-    font-size: 1.2rem;                                     /* Define o tamanho da fonte para dar destaque ao TÍTULO DA SEÇÃO DE REFERÊNCIAS.                    */
-    font-weight: 700;                                      /* Define o peso da fonte em NEGRITO FORTE para o TÍTULO DA SEÇÃO DE REFERÊNCIAS.                    */
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TÍTULO DA SEÇÃO DE REFERÊNCIAS.                 */
-}
-
-/*======================================================*/
-/*            ITEM DE REFERÊNCIA DO DICIONÁRIO          */
-/*     Elemento individual com informações da fonte     */
-/*======================================================*/
-.referencia-item {
-    padding: 15px;                                         /* Define o preenchimento interno para criar um respiro no ITEM DE REFERÊNCIA.       */
-    margin-bottom: 12px;                                   /* Define o espaçamento inferior para separar os ITENS DE REFERÊNCIA.                */
-    background: linear-gradient(135deg, #3a3a3a 0%, #2a2a2a 100%); /* Define um gradiente linear cinza para o fundo do ITEM DE REFERÊNCIA.  */
-    border: 1px solid #555555;                           /* Define uma borda sólida cinza para delimitar o ITEM DE REFERÊNCIA.                */
-    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design do ITEM DE REFERÊNCIA.       */
-    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades do ITEM DE REFERÊNCIA.      */
-}
-
-/*======================================================*/
-/*       ITEM DE REFERÊNCIA — EFEITO HOVER ATIVO        */
-/*         Feedback visual ao passar o mouse            */
-/*======================================================*/
-.referencia-item:hover {
-    background: linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 100%); /* Define um gradiente linear cinza mais claro para o fundo do ITEM DE REFERÊNCIA em HOVER.  */
-    border-color: #d4af37;                               /* Define a cor da borda como dourada para destacar o ITEM DE REFERÊNCIA em HOVER.                       */
-}
-
-/*======================================================*/
-/*        ITEM DE REFERÊNCIA — ÚLTIMO ELEMENTO          */
-/*       Remove a margem do último item da lista        */
-/*======================================================*/
-.referencia-item:last-child {
-    margin-bottom: 0;                                      /* Define o espaçamento inferior como nulo para remover a margem do último ITEM DE REFERÊNCIA.*/
-}
-
-/*======================================================*/
-/*        CITAÇÃO DA REFERÊNCIA DO DICIONÁRIO           */
-/*       Informação específica da fonte citada          */
-/*======================================================*/
-.referencia-citacao {
-    margin-bottom: 8px;                                    /* Define o espaçamento inferior para separar a CITAÇÃO DA REFERÊNCIA de outros elementos. */
-    color: #d4af37;                                      /* Define a cor do texto em dourado para a CITAÇÃO DA REFERÊNCIA.                          */
-    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO MODERADO para a CITAÇÃO DA REFERÊNCIA.                */
-}
-
-/*======================================================*/
-/*         TEXTO DA REFERÊNCIA DO DICIONÁRIO            */
-/*           Descrição detalhada da fonte               */
-/*======================================================*/
-.referencia-texto {
-    color: #ffffff;                                      /* Define a cor do texto em branco para garantir o contraste no TEXTO DA REFERÊNCIA.      */
-    line-height: 1.6;                                      /* Define a altura da linha para melhorar a legibilidade do TEXTO DA REFERÊNCIA.          */
-}
-
-/*======================================================*/
-/*                 AÇÕES DO DICIONÁRIO                  */
-/*     Container para botões e controles adicionais     */
-/*======================================================*/
-.dicionario-acoes {
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout das AÇÕES DO DICIONÁRIO.*/
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos nas AÇÕES DO DICIONÁRIO.*/
-    gap: 10px;                                             /* Define o espaçamento entre os elementos das AÇÕES DO DICIONÁRIO.                     */
-}
-
-/*======================================================*/
-/*             VERSÃO MOBILE (ATÉ 768px)                */
-/*     Ajustes para dispositivos com telas menores      */
-/*======================================================*/
-@media (max-width: 900px) {
-    /*==================================================*/
-    /*        LINHA DE BUSCA E PAGINAÇÃO — MOBILE       */
-    /*==================================================*/
-    .dicionario-linha {
-        position: static;                                  /* Define o posicionamento estático para integrar a LINHA DE BUSCA E PAGINAÇÃO ao fluxo normal da página.     */
-        flex-direction: column;                            /* Define a orientação em coluna para empilhar verticalmente os itens da LINHA DE BUSCA E PAGINAÇÃO.          */
-        align-items: stretch;                              /* Define o alinhamento para que os itens ocupem toda a largura da LINHA DE BUSCA E PAGINAÇÃO.                */
-        gap: 15px;                                         /* Define o espaçamento entre os elementos da LINHA DE BUSCA E PAGINAÇÃO.                                     */
-        padding: 10px;                                     /* Define o preenchimento interno para criar um respiro na LINHA DE BUSCA E PAGINAÇÃO.                        */
-    }
-    
-    /*==================================================*/
-    /*          GRUPO DE PAGINAÇÃO — MOBILE             */
-    /*==================================================*/
-    .dicionario-paginacao-grupo {
-        flex-direction: column;                            /* Define a orientação em coluna para empilhar verticalmente os itens do GRUPO DE PAGINAÇÃO.  */
-        align-items: center;                               /* Define o alinhamento vertical centralizado para os elementos no GRUPO DE PAGINAÇÃO.        */
-        gap: 10px;                                         /* Define o espaçamento entre os elementos do GRUPO DE PAGINAÇÃO.                             */
-    }
-    
-    /*==================================================*/
-    /*           GRUPO DE BUSCA — MOBILE                */
-    /*==================================================*/
-    .dicionario-busca-grupo {
-        flex-direction: column;                            /* Define a orientação em coluna para empilhar verticalmente os itens do GRUPO DE BUSCA.*/
-        align-items: stretch;                              /* Define o alinhamento para que os itens ocupem toda a largura do GRUPO DE BUSCA.      */
-        gap: 10px;                                         /* Define o espaçamento entre os elementos do GRUPO DE BUSCA.                           */
-    }
-    
-    /*==================================================*/
-    /*    GRUPO DE BUSCA — CAMPO ESPECÍFICO — MOBILE    */
-    /*==================================================*/
-    .dicionario-busca-grupo .dicionario-busca {
-        width: 100%;                                       /* Define a largura total para garantir que o CAMPO DE BUSCA ESPECÍFICO preencha o espaço do GRUPO DE BUSCA.  */
-    }
-    
-    /*==================================================*/
-    /*           CAMPO DE BUSCA — MOBILE                */
-    /*==================================================*/
-    .dicionario-busca input {
-        padding: 12px 15px;                                /* Define o preenchimento interno para criar um respiro no CAMPO DE BUSCA.       */
-        font-size: 1rem;                                   /* Define o tamanho da fonte para assegurar a legibilidade no CAMPO DE BUSCA.    */
-    }
-    
-    /*==================================================*/
-    /*    WRAPPER DO CONTEÚDO PRINCIPAL — MOBILE        */
-    /*==================================================*/
-    .dicionario-conteudo-wrapper {
-        flex-direction: column;                            /* Define a orientação em coluna para empilhar verticalmente os itens do WRAPPER DO CONTEÚDO PRINCIPAL. */
-    }
-    
-    /*==================================================*/
-    /*     BOTÃO DE BUSCA GERAL — MOBILE               */
-    /*==================================================*/
-    .dicionario-btn {
-        width: 120px;                                      /* Define a largura fixa para padronizar o tamanho do BOTÃO DE BUSCA GERAL.             */
-        margin: 0 5px;                                     /* Define margens horizontais para separar o BOTÃO DE BUSCA GERAL de outros elementos.  */
-    }
-    
-    /*==================================================*/
-    /*       CONTADOR DE RESULTADOS — MOBILE            */
-    /*==================================================*/
-    .contador-dicionario {
-        min-width: auto;                                   /* Define a largura mínima como automática para permitir ajuste do CONTADOR DE RESULTADOS. */
-        width: 100%;                                       /* Define a largura total para garantir que o CONTADOR DE RESULTADOS preencha o espaço.    */
-        margin: 10px 0;                                    /* Define margens verticais para separar o CONTADOR DE RESULTADOS de outros elementos.     */
-    }
-    
-    /*==================================================*/
-    /*            TÍTULO DO TERMO — MOBILE              */
-    /*==================================================*/
-    .termo-titulo {
-        font-size: 1.2rem;                                 /* Define o tamanho da fonte para assegurar a legibilidade no TÍTULO DO TERMO.   */
-    }
-    
-    /*==================================================*/
-    /*    CABEÇALHO E CONTEÚDO DA DEFINIÇÃO — MOBILE    */
-    /*==================================================*/
-    .definicao-header,
-    .definicao-content {
-        padding: 20px;                                     /* Define o preenchimento interno para criar um respiro no CABEÇALHO E CONTEÚDO DA DEFINIÇÃO. */
-    }
-    
-    /*==================================================*/
-    /*          CONTEINER "SOBRE" — MOBILE              */
-    /*==================================================*/
-    .sobre-conteiner {
-        padding: 20px;                                     /* Define o preenchimento interno para criar um respiro no CONTEINER "SOBRE".    */
-    }
-    
-    /*==================================================*/
-    /*     CONTEINER "SOBRE" — TÍTULO H2 — MOBILE       */
-    /*==================================================*/
-    .sobre-conteiner h2 {
-        font-size: 1.5rem;                                 /* Define o tamanho da fonte para assegurar a legibilidade no TÍTULO H2 do CONTEINER "SOBRE". */
-    }
-    
-    /*==================================================*/
-    /*     CONTEINER "SOBRE" — TÍTULO H3 — MOBILE       */
-    /*==================================================*/
-    .sobre-conteiner h3 {
-        font-size: 1.1rem;                                 /* Define o tamanho da fonte para assegurar a legibilidade no TÍTULO H3 do CONTEINER "SOBRE". */
-    }
-    
-    /*==================================================*/
-    /*        RESULTADOS DO DICIONÁRIO — MOBILE         */
-    /*==================================================*/
-    #dicionario-resultados {
-        margin-left: 0;                                    /* Define o recuo à esquerda como nulo para alinhar os RESULTADOS DO DICIONÁRIO à borda da tela.        */
-        margin-top: 0;                                     /* Define o espaçamento superior como nulo para alinhar os RESULTADOS DO DICIONÁRIO ao elemento acima.  */
-        height: auto;                                      /* Define a altura automática para que os RESULTADOS DO DICIONÁRIO se ajustem ao seu conteúdo.          */
-        padding: 10px;                                     /* Define o preenchimento interno para criar um respiro nos RESULTADOS DO DICIONÁRIO.                   */
-        overflow-y: auto;                                  /* Define o comportamento de rolagem vertical automática para os RESULTADOS DO DICIONÁRIO.              */
-    }
-}
+/*======================================================*/
+/*            ESTILOS DO DICIONÁRIO BÍBLICO             */
+/*    Busca, resultados, definições e responsividade    */
+/*======================================================*/
+
+/*======================================================*/
+/*             CAMPO DE BUSCA DO DICIONÁRIO             */
+/*       Estilo do input principal para pesquisa        */
+/*======================================================*/
+.dicionario-busca input {
+    width: 100%;                                           /* Define a largura total para garantir que o CAMPO DE BUSCA ocupe toda a extensão. */
+    margin-left: 10px;                                     /* Define o recuo à esquerda para alinhar o CAMPO DE BUSCA com o contêiner.         */
+    padding: 7px 20px;                                     /* Define o preenchimento interno para criar um respiro no CAMPO DE BUSCA.          */
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);  /* Define um gradiente linear escuro para o fundo do CAMPO DE BUSCA.       */
+    border: 2px solid #d4af37;                             /* Define uma borda sólida dourada para delimitar o CAMPO DE BUSCA.                 */
+    border-radius: 12px;                                   /* Define os cantos arredondados para suavizar o design do CAMPO DE BUSCA.          */
+    color: #ffffff;                                        /* Define a cor do texto em branco para garantir o contraste no CAMPO DE BUSCA.     */
+    font-size: 1.2rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade no CAMPO DE BUSCA.       */
+    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades do CAMPO DE BUSCA.         */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);             /* Define uma sombra suave para criar profundidade e destaque no CAMPO DE BUSCA.    */
+}
+
+/*======================================================*/
+/*           CAMPO DE BUSCA — ESTADO DE FOCO            */
+/*      Efeitos visuais quando o campo está ativo       */
+/*======================================================*/
+.dicionario-busca input:focus {
+    outline: none;                                         /* Define o contorno como nulo para remover a borda padrão do CAMPO DE BUSCA em FOCO.     */
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);          /* Define uma sombra dourada intensa para destacar o CAMPO DE BUSCA em FOCO.              */
+    background: linear-gradient(135deg, #3a3a3a 0%, #2a2a2a 100%);  /* Define um gradiente linear mais claro para o fundo do CAMPO DE BUSCA em FOCO. */
+}
+
+/*======================================================*/
+/*          CAMPO DE BUSCA — TEXTOS DE EXEMPLO          */
+/*       Estilo do placeholder (texto de exemplo)       */
+/*======================================================*/
+.dicionario-busca input::placeholder {
+    color: #999999;                                        /* Define a cor do texto de exemplo em cinza claro para o CAMPO DE BUSCA. */
+}
+
+/*======================================================*/
+/*          CONTEINER PRINCIPAL DO DICIONÁRIO           */
+/*        Container que engloba todo o conteúdo         */
+/*======================================================*/
+.dicionario-conteiner {
+    width: 100%;                                           /* Define a largura total para garantir que o CONTEINER PRINCIPAL DO DICIONÁRIO ocupe toda a extensão. */
+    max-width: 100%;                                       /* Define o limite máximo de largura sem restrições para o CONTEINER PRINCIPAL DO DICIONÁRIO.          */
+    padding: 25px 0px;                                     /* Define o preenchimento interno vertical para criar um respiro no CONTEINER PRINCIPAL DO DICIONÁRIO. */
+    margin-bottom: 20px;                                   /* Define o espaçamento inferior para separar o CONTEINER PRINCIPAL DO DICIONÁRIO de outros elementos. */
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);  /* Define um gradiente linear escuro para o fundo do CONTEINER PRINCIPAL DO DICIONÁRIO.       */
+    border: 2px solid #d4af37;                             /* Define uma borda sólida dourada para delimitar o CONTEINER PRINCIPAL DO DICIONÁRIO.                 */
+    border-radius: 12px;                                   /* Define os cantos arredondados para suavizar o design do CONTEINER PRINCIPAL DO DICIONÁRIO.          */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);             /* Define uma sombra suave para criar profundidade e destaque no CONTEINER PRINCIPAL DO DICIONÁRIO.    */
+}
+
+/*======================================================*/
+/*       LINHA DE BUSCA E PAGINAÇÃO DO DICIONÁRIO       */
+/*  Barra superior com busca e controles de navegação   */
+/*======================================================*/
+.dicionario-linha {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout da LINHA DE BUSCA E PAGINAÇÃO.              */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos na LINHA DE BUSCA E PAGINAÇÃO.              */
+    justify-content: space-between;                        /* Define a distribuição dos itens para criar espaçamento entre os blocos da LINHA DE BUSCA E PAGINAÇÃO.    */
+    padding: 10px 0px;                                     /* Define o preenchimento interno vertical para criar um respiro na LINHA DE BUSCA E PAGINAÇÃO.             */
+    margin-bottom: 20px;                                   /* Define o espaçamento inferior para separar a LINHA DE BUSCA E PAGINAÇÃO de outros elementos.             */
+    position: sticky;                                      /* Define o posicionamento fixo para manter a LINHA DE BUSCA E PAGINAÇÃO visível durante a rolagem.         */
+    z-index: 850;                                          /* Define a ordem de empilhamento para que a LINHA DE BUSCA E PAGINAÇÃO se sobreponha a elementos de fundo. */
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);  /* Define um gradiente linear escuro para o fundo da LINHA DE BUSCA E PAGINAÇÃO.                   */
+    border: 2px solid #d4af37;                             /* Define uma borda sólida dourada para delimitar a LINHA DE BUSCA E PAGINAÇÃO.                             */
+    border-radius: 8px;                                    /* Define os cantos arredondados para suavizar o design da LINHA DE BUSCA E PAGINAÇÃO.                      */
+}
+
+/*======================================================*/
+/*             GRUPO DE BUSCA DO DICIONÁRIO             */
+/*    Container que agrupa o campo de busca e botão     */
+/*======================================================*/
+.dicionario-busca-grupo {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do GRUPO DE BUSCA DO DICIONÁRIO. */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no GRUPO DE BUSCA DO DICIONÁRIO. */
+    gap: 15px;                                             /* Define o espaçamento entre os elementos do GRUPO DE BUSCA DO DICIONÁRIO.                      */
+}
+
+/*======================================================*/
+/*      GRUPO DE BUSCA — CAMPO DE BUSCA ESPECÍFICO      */
+/*      Ajuste de largura do campo dentro do grupo      */
+/*======================================================*/
+.dicionario-busca-grupo .dicionario-busca {
+    width: 100%;                                           /* Define a largura total para garantir que o CAMPO DE BUSCA ESPECÍFICO ocupe toda a extensão. */
+}
+
+/*======================================================*/
+/*           GRUPO DE PAGINAÇÃO DO DICIONÁRIO           */
+/*    Container para botões de navegação de páginas     */
+/*======================================================*/
+.dicionario-paginacao-grupo {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do GRUPO DE PAGINAÇÃO DO DICIONÁRIO.    */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no GRUPO DE PAGINAÇÃO DO DICIONÁRIO.    */
+    gap: 0px;                                              /* Define o espaçamento nulo entre os elementos do GRUPO DE PAGINAÇÃO DO DICIONÁRIO.                    */
+    padding: 0 2px;                                        /* Define o preenchimento interno horizontal para criar um respiro no GRUPO DE PAGINAÇÃO DO DICIONÁRIO. */
+}
+
+/*======================================================*/
+/*        BOTÃO DE PÁGINA ANTERIOR DO DICIONÁRIO        */
+/*        Controle para voltar à página anterior        */
+/*======================================================*/
+#btn-anterior-dicionario {
+    margin-right: 10px;                                    /* Define o espaçamento à direita para separar o BOTÃO DE PÁGINA ANTERIOR de outros elementos.       */
+    padding: 0 15px;                                       /* Define o preenchimento interno horizontal para criar um respiro no BOTÃO DE PÁGINA ANTERIOR.      */
+    height: 36px;                                          /* Define a altura fixa para padronizar a dimensão vertical do BOTÃO DE PÁGINA ANTERIOR.             */
+    background: linear-gradient(135deg, #d4af37 0%, #b8941f 100%);  /* Define um gradiente linear dourado para o fundo do BOTÃO DE PÁGINA ANTERIOR.             */
+    border: none;                                          /* Define a borda como nula para remover o contorno padrão do BOTÃO DE PÁGINA ANTERIOR.              */
+    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design do BOTÃO DE PÁGINA ANTERIOR.                 */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO DE PÁGINA ANTERIOR.     */
+    color: #1a1a1a;                                        /* Define a cor do texto em preto escuro para garantir a leitura no BOTÃO DE PÁGINA ANTERIOR.        */
+    font-size: 0.9rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade no BOTÃO DE PÁGINA ANTERIOR.              */
+    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO MODERADO para o BOTÃO DE PÁGINA ANTERIOR.                       */
+    text-transform: uppercase;                             /* Define a transformação do texto para MAIÚSCULAS no BOTÃO DE PÁGINA ANTERIOR.                      */
+    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades do BOTÃO DE PÁGINA ANTERIOR.                */
+    white-space: nowrap;                                   /* Impede a quebra automática de linha para manter a integridade visual do BOTÃO DE PÁGINA ANTERIOR. */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total do BOTÃO DE PÁGINA ANTERIOR.                             */
+}
+
+/*======================================================*/
+/*    BOTÃO DE PÁGINA ANTERIOR — EFEITO HOVER ATIVO     */
+/*          Feedback visual ao passar o mouse           */
+/*======================================================*/
+#btn-anterior-dicionario:hover:not(:disabled) {
+    transform: translateY(-2px);                           /* Define o deslocamento vertical para cima no efeito de HOVER do BOTÃO DE PÁGINA ANTERIOR. */
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);        /* Define uma sombra dourada intensa para destacar o BOTÃO DE PÁGINA ANTERIOR em HOVER.     */
+}
+
+/*======================================================*/
+/*     BOTÃO DE PÁGINA ANTERIOR — ESTADO DESATIVADO     */
+/*      Estilo quando o botão não está disponível       */
+/*======================================================*/
+#btn-anterior-dicionario:disabled {
+    background: linear-gradient(135deg, #555555 0%, #444444 100%);  /* Define um gradiente linear cinza para o fundo do BOTÃO DE PÁGINA ANTERIOR DESATIVADO.               */
+    cursor: not-allowed;                                   /* Define o cursor como não permitido para indicar a não interatividade do BOTÃO DE PÁGINA ANTERIOR DESATIVADO. */
+    opacity: 0.6;                                          /* Define a opacidade reduzida para indicar o estado desativado do BOTÃO DE PÁGINA ANTERIOR.                    */
+}
+
+/*======================================================*/
+/*        BOTÃO DE PRÓXIMA PÁGINA DO DICIONÁRIO         */
+/*        Controle para avançar à próxima página        */
+/*======================================================*/
+#btn-proximo-dicionario {
+    margin-left: 10px;                                     /* Define o recuo à esquerda para separar o BOTÃO DE PRÓXIMA PÁGINA de outros elementos.            */
+    margin-right: 10px;                                    /* Define o espaçamento à direita para separar o BOTÃO DE PRÓXIMA PÁGINA de outros elementos.       */
+    padding: 0 15px;                                       /* Define o preenchimento interno horizontal para criar um respiro no BOTÃO DE PRÓXIMA PÁGINA.      */
+    height: 36px;                                          /* Define a altura fixa para padronizar a dimensão vertical do BOTÃO DE PRÓXIMA PÁGINA.             */
+    background: linear-gradient(135deg, #d4af37 0%, #b8941f 100%);  /* Define um gradiente linear dourado para o fundo do BOTÃO DE PRÓXIMA PÁGINA.             */
+    border: none;                                          /* Define a borda como nula para remover o contorno padrão do BOTÃO DE PRÓXIMA PÁGINA.              */
+    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design do BOTÃO DE PRÓXIMA PÁGINA.                 */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO DE PRÓXIMA PÁGINA.     */
+    color: #1a1a1a;                                        /* Define a cor do texto em preto escuro para garantir a leitura no BOTÃO DE PRÓXIMA PÁGINA.        */
+    font-size: 0.9rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade no BOTÃO DE PRÓXIMA PÁGINA.              */
+    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO MODERADO para o BOTÃO DE PRÓXIMA PÁGINA.                       */
+    text-transform: uppercase;                             /* Define a transformação do texto para MAIÚSCULAS no BOTÃO DE PRÓXIMA PÁGINA.                      */
+    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades do BOTÃO DE PRÓXIMA PÁGINA.                */
+    white-space: nowrap;                                   /* Impede a quebra automática de linha para manter a integridade visual do BOTÃO DE PRÓXIMA PÁGINA. */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total do BOTÃO DE PRÓXIMA PÁGINA.                             */
+}
+
+/*======================================================*/
+/*     BOTÃO DE PRÓXIMA PÁGINA — EFEITO HOVER ATIVO     */
+/*          Feedback visual ao passar o mouse           */
+/*======================================================*/
+#btn-proximo-dicionario:hover:not(:disabled) {
+    transform: translateY(-2px);                           /* Define o deslocamento vertical para cima no efeito de HOVER do BOTÃO DE PRÓXIMA PÁGINA. */
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);        /* Define uma sombra dourada intensa para destacar o BOTÃO DE PRÓXIMA PÁGINA em HOVER.     */
+}
+
+/*======================================================*/
+/*     BOTÃO DE PRÓXIMA PÁGINA — ESTADO DESATIVADO      */
+/*      Estilo quando o botão não está disponível       */
+/*======================================================*/
+#btn-proximo-dicionario:disabled {
+    background: linear-gradient(135deg, #555555 0%, #444444 100%);  /* Define um gradiente linear cinza para o fundo do BOTÃO DE PRÓXIMA PÁGINA DESATIVADO.               */
+    cursor: not-allowed;                                   /* Define o cursor como não permitido para indicar a não interatividade do BOTÃO DE PRÓXIMA PÁGINA DESATIVADO. */
+    opacity: 0.6;                                          /* Define a opacidade reduzida para indicar o estado desativado do BOTÃO DE PRÓXIMA PÁGINA.                    */
+}
+
+/*======================================================*/
+/*         CONTADOR DE RESULTADOS DO DICIONÁRIO         */
+/*        Exibe a contagem de termos encontrados        */
+/*======================================================*/
+.contador-dicionario {
+    min-width: 200px;                                      /* Define a largura mínima para garantir a visibilidade do CONTADOR DE RESULTADOS.                   */
+    padding: 5px 22px;                                     /* Define o preenchimento interno para criar um respiro no CONTADOR DE RESULTADOS.                   */
+    background: rgba(212, 175, 55, 0.1);                   /* Define a cor de fundo em dourado translúcido para o CONTADOR DE RESULTADOS.                       */
+    border: 1px solid rgba(212, 175, 55, 0.3);             /* Define uma borda sólida dourada translúcida para delimitar o CONTADOR DE RESULTADOS.              */
+    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design do CONTADOR DE RESULTADOS.                   */
+    color: #d4af37;                                        /* Define a cor do texto em dourado para o CONTADOR DE RESULTADOS.                                   */
+    font-size: 1.1rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade no CONTADOR DE RESULTADOS.                */
+    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO MODERADO para o CONTADOR DE RESULTADOS.                         */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o CONTADOR DE RESULTADOS.                         */
+    white-space: nowrap;                                   /* Impede a quebra automática de linha para manter a integridade visual do CONTADOR DE RESULTADOS.   */
+    overflow: hidden;                                      /* Oculta o transbordamento para impedir que o conteúdo exceda os limites do CONTADOR DE RESULTADOS. */
+    text-overflow: ellipsis;                               /* Adiciona reticências ao final de textos longos no CONTADOR DE RESULTADOS.                         */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total do CONTADOR DE RESULTADOS.                               */
+}
+
+/*======================================================*/
+/*     WRAPPER DO CONTEÚDO PRINCIPAL DO DICIONÁRIO      */
+/*          Organiza a disposição do conteúdo           */
+/*======================================================*/
+.dicionario-conteudo-wrapper {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do WRAPPER DO CONTEÚDO PRINCIPAL. */
+    align-items: flex-start;                               /* Define o alinhamento vertical ao topo para os elementos no WRAPPER DO CONTEÚDO PRINCIPAL.      */
+    gap: 0;                                                /* Define o espaçamento nulo entre os elementos do WRAPPER DO CONTEÚDO PRINCIPAL.                 */
+}
+
+/*======================================================*/
+/*            OPÇÕES LATERAIS DO DICIONÁRIO             */
+/*         Painel lateral com opções adicionais         */
+/*======================================================*/
+.dicionario-opcoes-laterais {
+    flex-shrink: 0;                                        /* Impede que o elemento encolha para manter suas dimensões originais. */
+}
+
+/*======================================================*/
+/*          BOTÃO DE BUSCA GERAL DO DICIONÁRIO          */
+/*        Botão principal para iniciar pesquisas        */
+/*======================================================*/
+.dicionario-btn,
+.btn-buscar {
+    height: 40px;                                          /* Define a altura fixa para padronizar a dimensão vertical do BOTÃO DE BUSCA GERAL.             */
+    padding: 0 20px;                                       /* Define o preenchimento interno horizontal para criar um respiro no BOTÃO DE BUSCA GERAL.      */
+    background: linear-gradient(135deg, #d4af37 0%, #b8941f 100%);  /* Define um gradiente linear dourado para o fundo do BOTÃO DE BUSCA GERAL.             */
+    border: none;                                          /* Define a borda como nula para remover o contorno padrão do BOTÃO DE BUSCA GERAL.              */
+    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design do BOTÃO DE BUSCA GERAL.                 */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO DE BUSCA GERAL.     */
+    color: #1a1a1a;                                        /* Define a cor do texto em preto escuro para garantir a leitura no BOTÃO DE BUSCA GERAL.        */
+    font-size: 0.9rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade no BOTÃO DE BUSCA GERAL.              */
+    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO MODERADO para o BOTÃO DE BUSCA GERAL.                       */
+    text-transform: uppercase;                             /* Define a transformação do texto para MAIÚSCULAS no BOTÃO DE BUSCA GERAL.                      */
+    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades do BOTÃO DE BUSCA GERAL.                */
+    white-space: nowrap;                                   /* Impede a quebra automática de linha para manter a integridade visual do BOTÃO DE BUSCA GERAL. */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total do BOTÃO DE BUSCA GERAL.                             */
+}
+
+/*======================================================*/
+/*      BOTÃO DE BUSCA GERAL — EFEITO HOVER ATIVO       */
+/*          Feedback visual ao passar o mouse           */
+/*======================================================*/
+.dicionario-btn:hover,
+.btn-buscar:hover {
+    transform: translateY(-2px);                           /* Define o deslocamento vertical para cima no efeito de HOVER do BOTÃO DE BUSCA GERAL. */
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);        /* Define uma sombra dourada intensa para destacar o BOTÃO DE BUSCA GERAL em HOVER.     */
+}
+
+/*======================================================*/
+/*       BOTÃO DE BUSCA GERAL — EFEITO DE CLIQUE        */
+/*           Feedback visual durante o clique           */
+/*======================================================*/
+.dicionario-btn:active,
+.btn-buscar:active {
+    transform: translateY(0);                              /* Define o deslocamento vertical nulo para retornar à posição original no clique do BOTÃO DE BUSCA GERAL. */
+}
+
+/*======================================================*/
+/*         CONTEINER DE SUGESTÕES DO DICIONÁRIO         */
+/*        Lista suspensa com sugestões de busca         */
+/*======================================================*/
+#sugestoes-conteiner {
+    position: absolute;                                    /* Define o posicionamento absoluto para que o CONTEINER DE SUGESTÕES flutue em relação ao seu container.                       */
+    top: 100%;                                             /* Define o posicionamento para que o CONTEINER DE SUGESTÕES comece imediatamente abaixo do elemento pai.                       */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar o CONTEINER DE SUGESTÕES ao limite lateral.                            */
+    right: 0;                                              /* Define a distância da direita como zero para alinhar o CONTEINER DE SUGESTÕES ao limite lateral.                             */
+    z-index: 1000;                                         /* Define a ordem de empilhamento em nível máximo para garantir que o CONTEINER DE SUGESTÕES fique acima de todos os elementos. */
+    display: none;                                         /* Define a exibição como nula para ocultar o CONTEINER DE SUGESTÕES por padrão.                                                */
+    max-height: 200px;                                     /* Define a altura máxima para limitar a expansão vertical do CONTEINER DE SUGESTÕES.                                           */
+    overflow-y: auto;                                      /* Define o comportamento de rolagem vertical automática para o CONTEINER DE SUGESTÕES.                                         */
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);  /* Define um gradiente linear escuro para o fundo do CONTEINER DE SUGESTÕES.                                           */
+    border: 2px solid #d4af37;                             /* Define uma borda sólida dourada para delimitar o CONTEINER DE SUGESTÕES.                                                     */
+    border-top: none;                                      /* Define a borda superior como nula para conectar visualmente ao elemento acima.                                               */
+    border-radius: 0 0 12px 12px;                          /* Define os cantos arredondados apenas na parte inferior do CONTEINER DE SUGESTÕES.                                            */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);             /* Define uma sombra suave para criar profundidade e destaque no CONTEINER DE SUGESTÕES.                                        */
+}
+
+/*======================================================*/
+/*       CONTEINER DE SUGESTÕES — ESTADO VISÍVEL        */
+/*       Exibe a lista de sugestões quando ativo        */
+/*======================================================*/
+#sugestoes-conteiner.show {
+    display: block;                                        /* Define a exibição como bloco para garantir a VISIBILIDADE do CONTEINER DE SUGESTÕES. */
+}
+
+/*======================================================*/
+/*            ITEM DE SUGESTÃO DO DICIONÁRIO            */
+/*        Opção individual na lista de sugestões        */
+/*======================================================*/
+.sugestao-item {
+    padding: 12px 20px;                                    /* Define o preenchimento interno para criar um respiro no ITEM DE SUGESTÃO.             */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no ITEM DE SUGESTÃO. */
+    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades do ITEM DE SUGESTÃO.            */
+    border-bottom: 1px solid #444444;                      /* Define uma borda inferior sólida cinza para separar visualmente os ITENS DE SUGESTÃO. */
+}
+
+/*======================================================*/
+/*        ITEM DE SUGESTÃO — EFEITO HOVER ATIVO         */
+/*          Feedback visual ao passar o mouse           */
+/*======================================================*/
+.sugestao-item:hover {
+    background: linear-gradient(135deg, #3a3a3a 0%, #2a2a2a 100%);  /* Define um gradiente linear mais claro para o fundo do ITEM DE SUGESTÃO em HOVER. */
+    color: #d4af37;                                        /* Define a cor do texto em dourado para destacar o ITEM DE SUGESTÃO em HOVER.               */
+}
+
+/*======================================================*/
+/*          ITEM DE SUGESTÃO — ÚLTIMO ELEMENTO          */
+/*        Remove a borda do último item da lista        */
+/*======================================================*/
+.sugestao-item:last-child {
+    border-bottom: none;                                   /* Define a borda inferior como nula para remover a separação do último ITEM DE SUGESTÃO. */
+}
+
+/*======================================================*/
+/*               RESULTADOS DO DICIONÁRIO               */
+/*     Área de exibição das definições encontradas      */
+/*======================================================*/
+#dicionario-resultados {
+    flex-grow: 1;                                          /* Permite que o elemento se expanda para ocupar o espaço disponível.                          */
+    height: calc(100vh - 240px);                           /* Define a altura calculada dinamicamente para os RESULTADOS DO DICIONÁRIO.                   */
+    min-height: 400px;                                     /* Define a altura mínima para garantir a visibilidade dos RESULTADOS DO DICIONÁRIO.           */
+    padding: 20px 0px;                                     /* Define o preenchimento interno vertical para criar um respiro nos RESULTADOS DO DICIONÁRIO. */
+    padding-bottom: 120px;                                 /* Define o preenchimento interno inferior para garantir espaço ao final da rolagem.           */
+    overflow-y: auto;                                      /* Define o comportamento de rolagem vertical automática para os RESULTADOS DO DICIONÁRIO.     */
+    background: rgba(0, 0, 0, 0.2);                        /* Define a cor de fundo em preto translúcido para os RESULTADOS DO DICIONÁRIO.                */
+    border-radius: 12px;                                   /* Define os cantos arredondados para suavizar o design dos RESULTADOS DO DICIONÁRIO.          */
+    scrollbar-width: none;                                 /* Define a largura da barra de rolagem como nula para ocultá-la no Firefox.                   */
+    -ms-overflow-style: none;                              /* Define o estilo de transbordamento como nulo para ocultar a barra de rolagem no IE e Edge.  */
+}
+
+/*======================================================*/
+/*  RESULTADOS DO DICIONÁRIO — BARRA DE ROLAGEM WEBKIT  */
+/*   Esconde a barra de rolagem em navegadores Webkit   */
+/*======================================================*/
+#dicionario-resultados::-webkit-scrollbar {
+    display: none;                                         /* Define a exibição como nula para ocultar a BARRA DE ROLAGEM visual em navegadores Webkit. */
+}
+
+/*======================================================*/
+/*  RESULTADOS DO DICIONÁRIO — ESTADO DE CARREGAMENTO   */
+/*      Indicadores visuais durante o carregamento      */
+/*======================================================*/
+#dicionario-resultados.loading {
+    opacity: 0.7;                                          /* Define a opacidade reduzida para indicar o estado de carregamento dos RESULTADOS DO DICIONÁRIO.   */
+    transform: scale(0.98);                                /* Define a redução de escala para criar efeito visual de carregamento nos RESULTADOS DO DICIONÁRIO. */
+}
+
+/*======================================================*/
+/*           ITEM DE DEFINIÇÃO DO DICIONÁRIO            */
+/*     Bloco individual com informações de um termo     */
+/*======================================================*/
+.definicao-item {
+    margin-bottom: 10px;                                   /* Define o espaçamento inferior para separar os ITENS DE DEFINIÇÃO.                            */
+    background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);  /* Define um gradiente linear escuro para o fundo do ITEM DE DEFINIÇÃO.                */
+    border: 2px solid #444444;                             /* Define uma borda sólida cinza para delimitar o ITEM DE DEFINIÇÃO.                            */
+    border-radius: 12px;                                   /* Define os cantos arredondados para suavizar o design do ITEM DE DEFINIÇÃO.                   */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);             /* Define uma sombra suave para criar profundidade e destaque no ITEM DE DEFINIÇÃO.             */
+    overflow: hidden;                                      /* Oculta o transbordamento para impedir que o conteúdo exceda os limites do ITEM DE DEFINIÇÃO. */
+    opacity: 0;                                            /* Define a opacidade inicial como zero para animação do ITEM DE DEFINIÇÃO.                     */
+    transform: translateY(20px);                           /* Define o posicionamento inicial abaixo para animação do ITEM DE DEFINIÇÃO.                   */
+    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades do ITEM DE DEFINIÇÃO.                  */
+    animation: fadeInUp 0.5s ease forwards;                /* Aplica a animação de surgir para o ITEM DE DEFINIÇÃO.                                        */
+}
+
+/*======================================================*/
+/*                  ANIMAÇÃO DE SURGIR                  */
+/*     Efeito visual para aparecimento de elementos     */
+/*======================================================*/
+@keyframes fadeInUp {
+    to {
+        opacity: 1;                                        /* Define a opacidade final como total para a animação de surgir.     */
+        transform: translateY(0);                          /* Define o posicionamento final como zero para a animação de surgir. */
+    }
+}
+
+/*======================================================*/
+/*       ITEM DE DEFINIÇÃO — ATRASOS DE ANIMAÇÃO        */
+/*       Temporização para surgimento sequencial        */
+/*======================================================*/
+.definicao-item:nth-child(1) { animation-delay: 0.1s; }    /* Define o atraso de animação em 0.1s para o primeiro ITEM DE DEFINIÇÃO. */
+.definicao-item:nth-child(2) { animation-delay: 0.2s; }    /* Define o atraso de animação em 0.2s para o segundo ITEM DE DEFINIÇÃO. */
+.definicao-item:nth-child(3) { animation-delay: 0.3s; }    /* Define o atraso de animação em 0.3s para o terceiro ITEM DE DEFINIÇÃO. */
+.definicao-item:nth-child(4) { animation-delay: 0.4s; }    /* Define o atraso de animação em 0.4s para o quarto ITEM DE DEFINIÇÃO. */
+.definicao-item:nth-child(5) { animation-delay: 0.5s; }    /* Define o atraso de animação em 0.5s para o quinto ITEM DE DEFINIÇÃO. */
+
+/*======================================================*/
+/*        ITEM DE DEFINIÇÃO — EFEITO HOVER ATIVO        */
+/*          Feedback visual ao passar o mouse           */
+/*======================================================*/
+.definicao-item:hover {
+    border-color: #d4af37;                                 /* Define a cor da borda como dourada para destacar o ITEM DE DEFINIÇÃO em HOVER.    */
+    transform: translateY(-3px);                           /* Define o deslocamento vertical para cima no efeito de HOVER do ITEM DE DEFINIÇÃO. */
+    box-shadow: 0 10px 30px rgba(212, 175, 55, 0.2);       /* Define uma sombra dourada suave para destacar o ITEM DE DEFINIÇÃO em HOVER.       */
+}
+
+/*======================================================*/
+/*         CABEÇALHO DA DEFINIÇÃO DO DICIONÁRIO         */
+/*   Seção superior com informações básicas do termo    */
+/*======================================================*/
+.definicao-header {
+    padding: 25px;                                         /* Define o preenchimento interno para criar um respiro no CABEÇALHO DA DEFINIÇÃO.   */
+    background: linear-gradient(135deg, #3a3a3a 0%, #2a2a2a 100%);  /* Define um gradiente linear cinza para o fundo do CABEÇALHO DA DEFINIÇÃO. */
+    border-bottom: 2px solid #d4af37;                      /* Define uma borda inferior sólida dourada para delimitar o CABEÇALHO DA DEFINIÇÃO. */
+}
+
+/*======================================================*/
+/*            TÍTULO DO TERMO DO DICIONÁRIO             */
+/*     Nome principal do termo com destaque visual      */
+/*======================================================*/
+.termo-titulo {
+    padding: 15px 25px;                                    /* Define o preenchimento interno para criar um respiro no TÍTULO DO TERMO.              */
+    margin-bottom: 20px;                                   /* Define o espaçamento inferior para separar o TÍTULO DO TERMO de outros elementos.     */
+    background: linear-gradient(135deg, #4a5bff 0%, #3a4bef 100%);  /* Define um gradiente linear azul para o fundo do TÍTULO DO TERMO.             */
+    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design do TÍTULO DO TERMO.              */
+    color: #ffffff;                                        /* Define a cor do texto em branco para garantir o contraste no TÍTULO DO TERMO.         */
+    font-size: 1.5rem;                                     /* Define o tamanho da fonte para dar destaque ao TÍTULO DO TERMO.                       */
+    font-weight: 700;                                      /* Define o peso da fonte em NEGRITO FORTE para o TÍTULO DO TERMO.                       */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TÍTULO DO TERMO.                    */
+    text-transform: uppercase;                             /* Define a transformação do texto para MAIÚSCULAS no TÍTULO DO TERMO.                   */
+    letter-spacing: 1.5px;                                 /* Define o espaçamento entre as letras para melhorar a legibilidade do TÍTULO DO TERMO. */
+    box-shadow: 0 4px 15px rgba(74, 91, 255, 0.3);         /* Define uma sombra azul para criar profundidade e destaque no TÍTULO DO TERMO.         */
+}
+
+/*======================================================*/
+/*                 ETIMOLOGIA DO TERMO                  */
+/*        Informações sobre a origem da palavra         */
+/*======================================================*/
+.etimologia {
+    margin-bottom: 15px;                                   /* Define o espaçamento inferior para separar a ETIMOLOGIA de outros elementos. */
+    color: #d4af37;                                        /* Define a cor do texto em dourado para a ETIMOLOGIA.                          */
+    font-size: 1.1rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade na ETIMOLOGIA.       */
+    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO MODERADO para a ETIMOLOGIA.                */
+    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para a ETIMOLOGIA.                     */
+}
+
+/*======================================================*/
+/*            ETIMOLOGIA — TEXTO EM NEGRITO             */
+/*      Destaque para partes importantes do texto       */
+/*======================================================*/
+.etimologia strong {
+    color: #ffffff;                                        /* Define a cor do texto em branco para destacar o texto em negrito na ETIMOLOGIA. */
+}
+
+/*======================================================*/
+/*          SEÇÃO "VEJA TAMBÉM" DO DICIONÁRIO           */
+/*    Referências cruzadas para termos relacionados     */
+/*======================================================*/
+.veja-tambem-dicionario {
+    color: #cccccc;                                        /* Define a cor do texto em cinza claro para a SEÇÃO "VEJA TAMBÉM".                */
+    font-size: 1.1rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade na SEÇÃO "VEJA TAMBÉM". */
+}
+
+/*======================================================*/
+/*        SEÇÃO "VEJA TAMBÉM" — TEXTO EM NEGRITO        */
+/*      Destaque para partes importantes do texto       */
+/*======================================================*/
+.veja-tambem-dicionario strong {
+    color: #d4af37;                                        /* Define a cor do texto em dourado para destacar o texto em negrito na SEÇÃO "VEJA TAMBÉM". */
+}
+
+/*======================================================*/
+/*           TERMO RELACIONADO DO DICIONÁRIO            */
+/*      Link para termos semanticamente conectados      */
+/*======================================================*/
+.termo-relacionado {
+    display: inline-block;                                 /* Define a exibição como bloco em linha para permitir dimensões e espaçamentos no TERMO RELACIONADO. */
+    margin: 2px;                                           /* Define a margem externa para separar os TERMOS RELACIONADOS.                                       */
+    padding: 4px 8px;                                      /* Define o preenchimento interno para criar um respiro no TERMO RELACIONADO.                         */
+    background: rgba(212, 175, 55, 0.2);                   /* Define a cor de fundo em dourado translúcido para o TERMO RELACIONADO.                             */
+    border-radius: 4px;                                    /* Define os cantos arredondados para suavizar o design do TERMO RELACIONADO.                         */
+    color: #d4af37;                                        /* Define a cor do texto em dourado para o TERMO RELACIONADO.                                         */
+    font-size: 0.9rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade no TERMO RELACIONADO.                      */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no TERMO RELACIONADO.             */
+    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades do TERMO RELACIONADO.                        */
+}
+
+/*======================================================*/
+/*        TERMO RELACIONADO — EFEITO HOVER ATIVO        */
+/*          Feedback visual ao passar o mouse           */
+/*======================================================*/
+.termo-relacionado:hover {
+    background: #d4af37;                                   /* Define a cor de fundo em dourado sólido para destacar o TERMO RELACIONADO em HOVER.          */
+    color: #1a1a1a;                                        /* Define a cor do texto em preto escuro para garantir a leitura no TERMO RELACIONADO em HOVER. */
+}
+
+/*======================================================*/
+/*         CONTEÚDO DA DEFINIÇÃO DO DICIONÁRIO          */
+/*      Seção principal com a explicação do termo       */
+/*======================================================*/
+.definicao-content {
+    padding: 25px;                                         /* Define o preenchimento interno para criar um respiro no CONTEÚDO DA DEFINIÇÃO. */
+}
+
+/*======================================================*/
+/*           TEXTO DA DEFINIÇÃO DO DICIONÁRIO           */
+/*         Explicação detalhada do significado          */
+/*======================================================*/
+.definicao-texto {
+    margin-bottom: 25px;                                   /* Define o espaçamento inferior para separar o TEXTO DA DEFINIÇÃO de outros elementos.                */
+    padding: 0;                                            /* Define o preenchimento interno como nulo para remover os espaçamentos padrão do TEXTO DA DEFINIÇÃO. */
+    color: #ffffff;                                        /* Define a cor do texto em branco para garantir o contraste no TEXTO DA DEFINIÇÃO.                    */
+    font-size: 1.1rem;                                     /* Define o tamanho da fonte para assegurar a legibilidade no TEXTO DA DEFINIÇÃO.                      */
+    line-height: 1.8;                                      /* Define a altura da linha para melhorar a legibilidade do TEXTO DA DEFINIÇÃO.                        */
+    text-align: justify;                                   /* Define o alinhamento justificado para distribuir o TEXTO DA DEFINIÇÃO de forma uniforme.            */
+}
+
+/*======================================================*/
+/*        TEXTO DA DEFINIÇÃO — TEXTO EM NEGRITO         */
+/*      Destaque para partes importantes do texto       */
+/*======================================================*/
+.definicao-texto strong {
+    color: #d4af37;                                        /* Define a cor do texto em dourado para destacar o texto em negrito no TEXTO DA DEFINIÇÃO. */
+}
+
+/*======================================================*/
+/*          SEÇÃO DE REFERÊNCIAS DO DICIONÁRIO          */
+/*           Fontes bibliográficas e citações           */
+/*======================================================*/
+.referencias-section {
+    padding: 20px;                                         /* Define o preenchimento interno para criar um respiro na SEÇÃO DE REFERÊNCIAS. */
+    background: rgba(0, 0, 0, 0.2);                        /* Define a cor de fundo em preto translúcido para a SEÇÃO DE REFERÊNCIAS.       */
+    border-radius: 8px;                                    /* Define os cantos arredondados para suavizar o design da SEÇÃO DE REFERÊNCIAS. */
+}
+
+/*======================================================*/
+/*            TÍTULO DA SEÇÃO DE REFERÊNCIAS            */
+/*             Cabeçalho da seção de fontes             */
+/*======================================================*/
+.referencias-titulo {
+    margin-bottom: 15px;                                   /* Define o espaçamento inferior para separar o TÍTULO DA SEÇÃO DE REFERÊNCIAS de outros elementos. */
+    color: #d4af37;                                        /* Define a cor do texto em dourado para o TÍTULO DA SEÇÃO DE REFERÊNCIAS.                          */
+    font-size: 1.2rem;                                     /* Define o tamanho da fonte para dar destaque ao TÍTULO DA SEÇÃO DE REFERÊNCIAS.                   */
+    font-weight: 700;                                      /* Define o peso da fonte em NEGRITO FORTE para o TÍTULO DA SEÇÃO DE REFERÊNCIAS.                   */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TÍTULO DA SEÇÃO DE REFERÊNCIAS.                */
+}
+
+/*======================================================*/
+/*           ITEM DE REFERÊNCIA DO DICIONÁRIO           */
+/*     Elemento individual com informações da fonte     */
+/*======================================================*/
+.referencia-item {
+    padding: 15px;                                         /* Define o preenchimento interno para criar um respiro no ITEM DE REFERÊNCIA.   */
+    margin-bottom: 12px;                                   /* Define o espaçamento inferior para separar os ITENS DE REFERÊNCIA.            */
+    background: linear-gradient(135deg, #3a3a3a 0%, #2a2a2a 100%);  /* Define um gradiente linear cinza para o fundo do ITEM DE REFERÊNCIA. */
+    border: 1px solid #555555;                             /* Define uma borda sólida cinza para delimitar o ITEM DE REFERÊNCIA.            */
+    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design do ITEM DE REFERÊNCIA.   */
+    transition: all 0.3s ease;                             /* Define uma transição suave para todas as propriedades do ITEM DE REFERÊNCIA.  */
+}
+
+/*======================================================*/
+/*       ITEM DE REFERÊNCIA — EFEITO HOVER ATIVO        */
+/*          Feedback visual ao passar o mouse           */
+/*======================================================*/
+.referencia-item:hover {
+    background: linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 100%);  /* Define um gradiente linear cinza mais claro para o fundo do ITEM DE REFERÊNCIA em HOVER. */
+    border-color: #d4af37;                                 /* Define a cor da borda como dourada para destacar o ITEM DE REFERÊNCIA em HOVER.                   */
+}
+
+/*======================================================*/
+/*         ITEM DE REFERÊNCIA — ÚLTIMO ELEMENTO         */
+/*       Remove a margem do último item da lista        */
+/*======================================================*/
+.referencia-item:last-child {
+    margin-bottom: 0;                                      /* Define o espaçamento inferior como nulo para remover a margem do último ITEM DE REFERÊNCIA. */
+}
+
+/*======================================================*/
+/*         CITAÇÃO DA REFERÊNCIA DO DICIONÁRIO          */
+/*        Informação específica da fonte citada         */
+/*======================================================*/
+.referencia-citacao {
+    margin-bottom: 8px;                                    /* Define o espaçamento inferior para separar a CITAÇÃO DA REFERÊNCIA de outros elementos. */
+    color: #d4af37;                                        /* Define a cor do texto em dourado para a CITAÇÃO DA REFERÊNCIA.                          */
+    font-weight: 600;                                      /* Define o peso da fonte em NEGRITO MODERADO para a CITAÇÃO DA REFERÊNCIA.                */
+}
+
+/*======================================================*/
+/*          TEXTO DA REFERÊNCIA DO DICIONÁRIO           */
+/*             Descrição detalhada da fonte             */
+/*======================================================*/
+.referencia-texto {
+    color: #ffffff;                                        /* Define a cor do texto em branco para garantir o contraste no TEXTO DA REFERÊNCIA. */
+    line-height: 1.6;                                      /* Define a altura da linha para melhorar a legibilidade do TEXTO DA REFERÊNCIA.     */
+}
+
+/*======================================================*/
+/*                 AÇÕES DO DICIONÁRIO                  */
+/*     Container para botões e controles adicionais     */
+/*======================================================*/
+.dicionario-acoes {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout das AÇÕES DO DICIONÁRIO. */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos nas AÇÕES DO DICIONÁRIO. */
+    gap: 10px;                                             /* Define o espaçamento entre os elementos das AÇÕES DO DICIONÁRIO.                      */
+}
+
+/*======================================================*/
+/*              VERSÃO MOBILE (ATÉ 768px)               */
+/*     Ajustes para dispositivos com telas menores      */
+/*======================================================*/
+@media (max-width: 900px) {
+    /*==================================================*/
+    /*       LINHA DE BUSCA E PAGINAÇÃO — MOBILE        */
+    /*==================================================*/
+    .dicionario-linha {
+        position: static;                                  /* Define o posicionamento estático para integrar a LINHA DE BUSCA E PAGINAÇÃO ao fluxo normal da página. */
+        flex-direction: column;                            /* Define a orientação em coluna para empilhar verticalmente os itens da LINHA DE BUSCA E PAGINAÇÃO.      */
+        align-items: stretch;                              /* Define o alinhamento para que os itens ocupem toda a largura da LINHA DE BUSCA E PAGINAÇÃO.            */
+        gap: 15px;                                         /* Define o espaçamento entre os elementos da LINHA DE BUSCA E PAGINAÇÃO.                                 */
+        padding: 10px;                                     /* Define o preenchimento interno para criar um respiro na LINHA DE BUSCA E PAGINAÇÃO.                    */
+    }
+    
+    /*==================================================*/
+    /*           GRUPO DE PAGINAÇÃO — MOBILE            */
+    /*==================================================*/
+    .dicionario-paginacao-grupo {
+        flex-direction: column;                            /* Define a orientação em coluna para empilhar verticalmente os itens do GRUPO DE PAGINAÇÃO. */
+        align-items: center;                               /* Define o alinhamento vertical centralizado para os elementos no GRUPO DE PAGINAÇÃO.       */
+        gap: 10px;                                         /* Define o espaçamento entre os elementos do GRUPO DE PAGINAÇÃO.                            */
+    }
+    
+    /*==================================================*/
+    /*             GRUPO DE BUSCA — MOBILE              */
+    /*==================================================*/
+    .dicionario-busca-grupo {
+        flex-direction: column;                            /* Define a orientação em coluna para empilhar verticalmente os itens do GRUPO DE BUSCA. */
+        align-items: stretch;                              /* Define o alinhamento para que os itens ocupem toda a largura do GRUPO DE BUSCA.       */
+        gap: 10px;                                         /* Define o espaçamento entre os elementos do GRUPO DE BUSCA.                            */
+    }
+    
+    /*==================================================*/
+    /*    GRUPO DE BUSCA — CAMPO ESPECÍFICO — MOBILE    */
+    /*==================================================*/
+    .dicionario-busca-grupo .dicionario-busca {
+        width: 100%;                                       /* Define a largura total para garantir que o CAMPO DE BUSCA ESPECÍFICO preencha o espaço do GRUPO DE BUSCA. */
+    }
+    
+    /*==================================================*/
+    /*             CAMPO DE BUSCA — MOBILE              */
+    /*==================================================*/
+    .dicionario-busca input {
+        padding: 12px 15px;                                /* Define o preenchimento interno para criar um respiro no CAMPO DE BUSCA.    */
+        font-size: 1rem;                                   /* Define o tamanho da fonte para assegurar a legibilidade no CAMPO DE BUSCA. */
+    }
+    
+    /*==================================================*/
+    /*      WRAPPER DO CONTEÚDO PRINCIPAL — MOBILE      */
+    /*==================================================*/
+    .dicionario-conteudo-wrapper {
+        flex-direction: column;                            /* Define a orientação em coluna para empilhar verticalmente os itens do WRAPPER DO CONTEÚDO PRINCIPAL. */
+    }
+    
+    /*==================================================*/
+    /*          BOTÃO DE BUSCA GERAL — MOBILE           */
+    /*==================================================*/
+    .dicionario-btn {
+        width: 120px;                                      /* Define a largura fixa para padronizar o tamanho do BOTÃO DE BUSCA GERAL.            */
+        margin: 0 5px;                                     /* Define margens horizontais para separar o BOTÃO DE BUSCA GERAL de outros elementos. */
+    }
+    
+    /*==================================================*/
+    /*         CONTADOR DE RESULTADOS — MOBILE          */
+    /*==================================================*/
+    .contador-dicionario {
+        min-width: auto;                                   /* Define a largura mínima como automática para permitir ajuste do CONTADOR DE RESULTADOS. */
+        width: 100%;                                       /* Define a largura total para garantir que o CONTADOR DE RESULTADOS preencha o espaço.    */
+        margin: 10px 0;                                    /* Define margens verticais para separar o CONTADOR DE RESULTADOS de outros elementos.     */
+    }
+    
+    /*==================================================*/
+    /*             TÍTULO DO TERMO — MOBILE             */
+    /*==================================================*/
+    .termo-titulo {
+        font-size: 1.2rem;                                 /* Define o tamanho da fonte para assegurar a legibilidade no TÍTULO DO TERMO. */
+    }
+    
+    /*==================================================*/
+    /*    CABEÇALHO E CONTEÚDO DA DEFINIÇÃO — MOBILE    */
+    /*==================================================*/
+    .definicao-header,
+    .definicao-content {
+        padding: 20px;                                     /* Define o preenchimento interno para criar um respiro no CABEÇALHO E CONTEÚDO DA DEFINIÇÃO. */
+    }
+    
+    /*==================================================*/
+    /*            CONTEINER "SOBRE" — MOBILE            */
+    /*==================================================*/
+    .sobre-conteiner {
+        padding: 20px;                                     /* Define o preenchimento interno para criar um respiro no CONTEINER "SOBRE". */
+    }
+    
+    /*==================================================*/
+    /*      CONTEINER "SOBRE" — TÍTULO H2 — MOBILE      */
+    /*==================================================*/
+    .sobre-conteiner h2 {
+        font-size: 1.5rem;                                 /* Define o tamanho da fonte para assegurar a legibilidade no TÍTULO H2 do CONTEINER "SOBRE". */
+    }
+    
+    /*==================================================*/
+    /*      CONTEINER "SOBRE" — TÍTULO H3 — MOBILE      */
+    /*==================================================*/
+    .sobre-conteiner h3 {
+        font-size: 1.1rem;                                 /* Define o tamanho da fonte para assegurar a legibilidade no TÍTULO H3 do CONTEINER "SOBRE". */
+    }
+    
+    /*==================================================*/
+    /*        RESULTADOS DO DICIONÁRIO — MOBILE         */
+    /*==================================================*/
+    #dicionario-resultados {
+        margin-left: 0;                                    /* Define o recuo à esquerda como nulo para alinhar os RESULTADOS DO DICIONÁRIO à borda da tela.       */
+        margin-top: 0;                                     /* Define o espaçamento superior como nulo para alinhar os RESULTADOS DO DICIONÁRIO ao elemento acima. */
+        height: auto;                                      /* Define a altura automática para que os RESULTADOS DO DICIONÁRIO se ajustem ao seu conteúdo.         */
+        padding: 10px;                                     /* Define o preenchimento interno para criar um respiro nos RESULTADOS DO DICIONÁRIO.                  */
+        overflow-y: auto;                                  /* Define o comportamento de rolagem vertical automática para os RESULTADOS DO DICIONÁRIO.             */
+    }
+}

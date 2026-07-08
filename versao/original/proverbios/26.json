@@ -1,6 +1,352 @@
 {
-  "livro": "Provérbios - מִשְׁלֵי - Mishlei",
+  "livro": "Provérbios - מִשְׁלֵי - Mishlei",
   "capítulo": 26,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Como a neve no verão, e como a chuva na ceifa, assim a honra não convém ao tolo.",
+      "palavras": [
+        { "hebraico": "כַּשֶּׁ֣לֶג", "transliteral": "kaš-še-leḡ", "traducao_palavra": "Como a neve" },
+        { "hebraico": "בַּ֭קַּיִץ", "transliteral": "baq-qa-yiṣ", "traducao_palavra": "no verão" },
+        { "hebraico": "וְכַמָּטָ֣ר", "transliteral": "wə-ḵam-mā-ṭār", "traducao_palavra": "e como a chuva" },
+        { "hebraico": "בַּקָּצִ֑יר", "transliteral": "baq-qā-ṣîr", "traducao_palavra": "na ceifa/colheita" },
+        { "hebraico": "כֵּ֤ן", "transliteral": "kên", "traducao_palavra": "assim" },
+        { "hebraico": "לֹא־נֳָאוֶ֖ה", "transliteral": "lō-nā-weh", "traducao_palavra": "não é apropriada/convém" },
+        { "hebraico": "לִכְסִ֣יל", "transliteral": "liḵ-śîl", "traducao_palavra": "ao tolo" },
+        { "hebraico": "כָּבֹֽוד׃", "transliteral": "kā-ḇôḏ", "traducao_palavra": "a honra" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Como o pássaro no seu vaguear e a andorinha no seu voo, assim a maldição sem causa não virá a pousar.",
+      "palavras": [
+        { "hebraico": "כַּצִּפֹּ֣ור", "transliteral": "kaṣ-ṣip-pôr", "traducao_palavra": "Como o pássaro" },
+        { "hebraico": "לָ֭נוּד", "transliteral": "lā-nûḏ", "traducao_palavra": "no vaguear" },
+        { "hebraico": "כַּדְּרֹ֣ור", "transliteral": "kad-də-rôr", "traducao_palavra": "como a andorinha/liberdade" },
+        { "hebraico": "לָע֑וּף", "transliteral": "lā-ʿûp̄", "traducao_palavra": "no voar" },
+        { "hebraico": "כֵּ֥ן", "transliteral": "kên", "traducao_palavra": "assim" },
+        { "hebraico": "קִלְלַ֥ת", "transliteral": "qil-laṯ", "traducao_palavra": "a maldição de" },
+        { "hebraico": "חִנָּ֗ם", "transliteral": "ḥin-nām", "traducao_palavra": "sem causa/gratuitamente" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תָבֹֽא׃", "transliteral": "ṯā-ḇō", "traducao_palavra": "virá/pousará" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "O açoite é para o cavalo, o freio para o jumento, e a vara para as costas dos tolos.",
+      "palavras": [
+        { "hebraico": "שֹׁ֣וט", "transliteral": "šôṭ", "traducao_palavra": "Açoite" },
+        { "hebraico": "לַ֭סּוּס", "transliteral": "las-sûs", "traducao_palavra": "para o cavalo" },
+        { "hebraico": "מֶ֣תֶג", "transliteral": "me-ṯeḡ", "traducao_palavra": "freio/rédea" },
+        { "hebraico": "לַחֲמֹ֑ור", "transliteral": "la-ḥă-môr", "traducao_palavra": "para o jumento" },
+        { "hebraico": "וְ֝שֵׁ֗בֶט", "transliteral": "wə-šê-ḇeṭ", "traducao_palavra": "e a vara" },
+        { "hebraico": "לְגֵ֣ו", "transliteral": "lə-ḡêw", "traducao_palavra": "para as costas de" },
+        { "hebraico": "כְּסִילִֽים׃", "transliteral": "kə-śî-lîm", "traducao_palavra": "tolos" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Não respondas ao tolo segundo a sua estultícia, para que não te faças semelhante a ele.",
+      "palavras": [
+        { "hebraico": "אַל־תַּ֥עַן", "transliteral": "ʾal-ta-ʿan", "traducao_palavra": "Não respondas" },
+        { "hebraico": "כְּסִ֗יל", "transliteral": "kə-śîl", "traducao_palavra": "[ao] tolo" },
+        { "hebraico": "כְּאִוַּלְתֹּ֥ו", "transliteral": "kə-ʾiw-wal-tô", "traducao_palavra": "segundo a estultícia dele" },
+        { "hebraico": "פֶּן־תִּשְׁוֶה־", "transliteral": "pen-tiš-weh-", "traducao_palavra": "para que não te assemelhes" },
+        { "hebraico": "לֹּ֥ו", "transliteral": "lô", "traducao_palavra": "a ele" },
+        { "hebraico": "גַּם־אָֽתָּה׃", "transliteral": "gam-ʾāt-tā", "traducao_palavra": "também tu" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Responde ao tolo segundo a sua estultícia, para que não seja sábio aos seus próprios olhos.",
+      "palavras": [
+        { "hebraico": "עֲנֵ֣ה", "transliteral": "ʿă-nēh", "traducao_palavra": "Responde" },
+        { "hebraico": "כְ֭סִיל", "transliteral": "ḵə-śîl", "traducao_palavra": "[ao] tolo" },
+        { "hebraico": "כְּאִוַּלְתֹּ֑ו", "transliteral": "kə-ʾiw-wal-tô", "traducao_palavra": "segundo a estultícia dele" },
+        { "hebraico": "פֶּן־יִהְיֶ֖ה", "transliteral": "pen-yih-yeh", "traducao_palavra": "para que não seja" },
+        { "hebraico": "חָכָ֣ם", "transliteral": "ḥā-ḵām", "traducao_palavra": "sábio" },
+        { "hebraico": "בְּעֵינָֽיו׃", "transliteral": "bə-ʿê-nāyw", "traducao_palavra": "em seus olhos" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Como quem corta os próprios pés e bebe a violência, assim é o que envia mensagem por mão de um tolo.",
+      "palavras": [
+        { "hebraico": "מְקַצֶּ֣ה", "transliteral": "mə-qaṣ-ṣeh", "traducao_palavra": "Corta" },
+        { "hebraico": "רַ֭גְלַיִם", "transliteral": "raḡ-la-yim", "traducao_palavra": "pés" },
+        { "hebraico": "חָמָ֣ס", "transliteral": "ḥā-mās", "traducao_palavra": "violência" },
+        { "hebraico": "שֹׁתֶ֑ה", "transliteral": "šō-ṯeh", "traducao_palavra": "bebe" },
+        { "hebraico": "שֹׁלֵ֥חַ", "transliteral": "šō-lê-aḥ", "traducao_palavra": "[o que] envia" },
+        { "hebraico": "דְּ֝ḇָרִ֗ים", "transliteral": "də-ḇā-rîm", "traducao_palavra": "palavras/mensagem" },
+        { "hebraico": "בְּיַד־", "transliteral": "bə-yaḏ-", "traducao_palavra": "pela mão de" },
+        { "hebraico": "כְּסִֽיל׃", "transliteral": "kə-śîl", "traducao_palavra": "um tolo" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Como as pernas do coxo, que pendem inúteis, assim é o provérbio na boca dos tolos.",
+      "palavras": [
+        { "hebraico": "דַּלְי֣וּ", "transliteral": "dal-yû", "traducao_palavra": "Penderam/são fracas" },
+        { "hebraico": "שֹׁ֭קַיִם", "transliteral": "šō-qa-yim", "traducao_palavra": "as pernas" },
+        { "hebraico": "מִפִּסֵּ֑חַ", "transliteral": "mip-pis-sē-aḥ", "traducao_palavra": "do coxo" },
+        { "hebraico": "וּ֝מָשָׁ֗ל", "transliteral": "ū-mā-šāl", "traducao_palavra": "e um provérbio" },
+        { "hebraico": "בְּפִ֣י", "transliteral": "bə-p̄î", "traducao_palavra": "na boca de" },
+        { "hebraico": "כְסִילִֽים׃", "transliteral": "ḵə-śî-lîm", "traducao_palavra": "tolos" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Como o que ata a pedra na funda, assim é o que dá honra ao tolo.",
+      "palavras": [
+        { "hebraico": "כִּצְרֹ֥ור", "transliteral": "kiṣ-rôr", "traducao_palavra": "Como o atar" },
+        { "hebraico": "אֶ֝בֶן", "transliteral": "ʾe-ḇen", "traducao_palavra": "uma pedra" },
+        { "hebraico": "בְּמַרְגֵּמָ֗ה", "transliteral": "bə-mar-ḡê-mā", "traducao_palavra": "na funda/monte de pedras" },
+        { "hebraico": "כֵּן־נֹותֵ֖ן", "transliteral": "kên-nô-ṯên", "traducao_palavra": "assim [é o que] dá" },
+        { "hebraico": "לִכְסִ֣יל", "transliteral": "liḵ-śîl", "traducao_palavra": "ao tolo" },
+        { "hebraico": "כָּבֹֽוד׃", "transliteral": "kā-ḇôḏ", "traducao_palavra": "honra" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Como o espinho que entra na mão do bêbado, assim é o provérbio na boca dos tolos.",
+      "palavras": [
+        { "hebraico": "חֹ֭וחַ", "transliteral": "ḥô-aḥ", "traducao_palavra": "Espinho/cardo" },
+        { "hebraico": "עָלָ֣ה", "transliteral": "ʿā-lā", "traducao_palavra": "subiu/entrou" },
+        { "hebraico": "בְיַד־", "transliteral": "ḇə-yaḏ-", "traducao_palavra": "na mão de" },
+        { "hebraico": "שִׁכֹּ֑ור", "transliteral": "šik-kôr", "traducao_palavra": "um bêbado" },
+        { "hebraico": "וּ֝מָשָׁ֗ל", "transliteral": "ū-mā-šāl", "traducao_palavra": "e um provérbio" },
+        { "hebraico": "בְּפִ֣י", "transliteral": "bə-p̄î", "traducao_palavra": "na boca de" },
+        { "hebraico": "כְסִילִֽים׃", "transliteral": "ḵə-śî-lîm", "traducao_palavra": "tolos" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Grande é o que a tudo dá forma, mas o que aluga o tolo é como o que aluga os que passam.",
+      "palavras": [
+        { "hebraico": "רַ֥ב", "transliteral": "raḇ", "traducao_palavra": "Grande/mestre" },
+        { "hebraico": "מְחֳֹולֵֽל־", "transliteral": "mə-ḥô-lêl-", "traducao_palavra": "que forma/fere" },
+        { "hebraico": "כֹּ֑ל", "transliteral": "kōl", "traducao_palavra": "tudo" },
+        { "hebraico": "וְשֹׂכֵ֤ר", "transliteral": "wə-śō-ḵêr", "traducao_palavra": "e o que aluga" },
+        { "hebraico": "כְּסִ֗יל", "transliteral": "kə-śîl", "traducao_palavra": "um tolo" },
+        { "hebraico": "וְשֹׂכֵ֥ר", "transliteral": "wə-śō-ḵêr", "traducao_palavra": "e aluga" },
+        { "hebraico": "עֹבְרִֽים׃", "transliteral": "ʿō-ḇə-rîm", "traducao_palavra": "os que passam" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Como o cão que torna ao seu vômito, assim o tolo reitera a sua estultícia.",
+      "palavras": [
+        { "hebraico": "כְּכֶ֥לֶב", "transliteral": "kə-ḵe-leḇ", "traducao_palavra": "Como o cão" },
+        { "hebraico": "שָׁ֣ב", "transliteral": "šāḇ", "traducao_palavra": "retorna" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre/ao" },
+        { "hebraico": "קֵאֹ֑ו", "transliteral": "qê-ʾô", "traducao_palavra": "seu vômito" },
+        { "hebraico": "כְּ֝סִ֗יל", "transliteral": "kə-śîl", "traducao_palavra": "[assim é o] tolo" },
+        { "hebraico": "שֹׁונֶ֥ה", "transliteral": "šô-neh", "traducao_palavra": "[que] repete" },
+        { "hebraico": "בְאִוַּלְתֹּֽו׃", "transliteral": "ḇə-ʾiw-wal-tô", "traducao_palavra": "em sua estultícia" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Viste um homem que é sábio a seus próprios olhos? Maior esperança há para o tolo do que para ele.",
+      "palavras": [
+        { "hebraico": "חָ֘זִ֤יתָ", "transliteral": "ḥā-zî-ṯā", "traducao_palavra": "Viste" },
+        { "hebraico": "אִ֗ישׁ", "transliteral": "ʾîš", "traducao_palavra": "um homem" },
+        { "hebraico": "חָכָ֥ם", "transliteral": "ḥā-ḵām", "traducao_palavra": "sábio" },
+        { "hebraico": "בְּעֵינָ֑יו", "transliteral": "bə-ʿê-nāyw", "traducao_palavra": "em seus olhos" },
+        { "hebraico": "תִּקְוָ֖ה", "transliteral": "tiq-wā", "traducao_palavra": "esperança [há]" },
+        { "hebraico": "לִכְסִ֣יל", "transliteral": "liḵ-śîl", "traducao_palavra": "para o tolo" },
+        { "hebraico": "מִמֶּֽנּוּ׃", "transliteral": "mim-men-nû", "traducao_palavra": "mais do que para ele" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Diz o preguiçoso: Um leão feroz está no caminho; um leão está no meio das ruas.",
+      "palavras": [
+        { "hebraico": "אָמַ֣ר", "transliteral": "ʾā-mar", "traducao_palavra": "Disse" },
+        { "hebraico": "עָ֭צֵל", "transliteral": "ʿā-ṣēl", "traducao_palavra": "[o] preguiçoso" },
+        { "hebraico": "שַׁ֣חַל", "transliteral": "ša-ḥal", "traducao_palavra": "[há um] leão novo/feroz" },
+        { "hebraico": "בַּדָּ֑רֶךְ", "transliteral": "bad-de-reḵ", "traducao_palavra": "no caminho" },
+        { "hebraico": "אֲ֝רִ֗י", "transliteral": "ʾă-rî", "traducao_palavra": "[um] leão" },
+        { "hebraico": "בֵּ֣ין", "transliteral": "bên", "traducao_palavra": "entre/no meio de" },
+        { "hebraico": "הָרְחֹבֹֽות׃", "transliteral": "hā-rə-ḥō-ḇôṯ", "traducao_palavra": "as ruas" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Como a porta gira nos seus gonzos, assim o preguiçoso na sua cama.",
+      "palavras": [
+        { "hebraico": "הַ֭דֶּלֶת", "transliteral": "had-de-leṯ", "traducao_palavra": "A porta" },
+        { "hebraico": "תִּסֹּ֣וב", "transliteral": "tis-śôḇ", "traducao_palavra": "gira" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre" },
+        { "hebraico": "צִירָ֑הּ", "transliteral": "ṣî-rāh", "traducao_palavra": "seu gonzo/eixo" },
+        { "hebraico": "וְ֝עָצֵ֗ל", "transliteral": "wə-ʿā-ṣēl", "traducao_palavra": "e o preguiçoso" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre" },
+        { "hebraico": "מִטָּתֹֽו׃", "transliteral": "miṭ-ṭā-ṯô", "traducao_palavra": "sua cama" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "O preguiçoso esconde a mão no prato; e cansa-se de a tornar a levar à boca.",
+      "palavras": [
+        { "hebraico": "טָ֘מַ֤ן", "transliteral": "ṭā-man", "traducao_palavra": "Escondeu" },
+        { "hebraico": "עָצֵ֣ל", "transliteral": "ʿā-ṣēl", "traducao_palavra": "[o] preguiçoso" },
+        { "hebraico": "יָ֭דֹו", "transliteral": "yā-ḏô", "traducao_palavra": "sua mão" },
+        { "hebraico": "בַּצַּלָּ֑חַת", "transliteral": "baṣ-ṣal-lā-ḥaṯ", "traducao_palavra": "no prato/tigela" },
+        { "hebraico": "נִ֝לְאָ֗ה", "transliteral": "nil-ʾā", "traducao_palavra": "[ele] cansa-se" },
+        { "hebraico": "לַהֲשִׁיבָ֥הּ", "transliteral": "la-hă-šî-ḇāh", "traducao_palavra": "de fazê-la voltar" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "para" },
+        { "hebraico": "פִּֽיו׃", "transliteral": "pîw", "traducao_palavra": "sua boca" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Mais sábio é o preguiçoso aos seus próprios olhos do que sete homens que sabem responder bem.",
+      "palavras": [
+        { "hebraico": "חָ֘כָ֤ם", "transliteral": "ḥā-ḵām", "traducao_palavra": "Sábio [é]" },
+        { "hebraico": "עָצֵ֣ל", "transliteral": "ʿā-ṣēl", "traducao_palavra": "[o] preguiçoso" },
+        { "hebraico": "בְּעֵינָ֑יו", "transliteral": "bə-ʿê-nāyw", "traducao_palavra": "em seus olhos" },
+        { "hebraico": "מִ֝שִּׁבְעָ֗ה", "transliteral": "miš-šiḇ-ʿā", "traducao_palavra": "do que sete" },
+        { "hebraico": "מְשִׁ֥יבֵי", "transliteral": "mə-šî-ḇê", "traducao_palavra": "que respondem" },
+        { "hebraico": "טָֽעַם׃", "transliteral": "ṭā-ʿam", "traducao_palavra": "[com] discrição/senso" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "O que, passando, se envolve em questão alheia, é como aquele que pega um cão pelas orelhas.",
+      "palavras": [
+        { "hebraico": "מַחֲזִ֣יק", "transliteral": "ma-ḥă-zîq", "traducao_palavra": "Pega/segura" },
+        { "hebraico": "בְּאָזְנֵי־", "transliteral": "bə-ʾāz-nê-", "traducao_palavra": "pelas orelhas de" },
+        { "hebraico": "כָ֑לֶב", "transliteral": "ḵā-leḇ", "traducao_palavra": "[um] cão" },
+        { "hebraico": "עֹ֝בֵ֗ר", "transliteral": "ʿō-ḇēr", "traducao_palavra": "[o que] passa" },
+        { "hebraico": "מִתְעַבֵּ֥ר", "transliteral": "miṯ-ʿab-bêr", "traducao_palavra": "[e] se enfurece/envolve" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre" },
+        { "hebraico": "רֲִיב", "transliteral": "rîḇ", "traducao_palavra": "contenda" },
+        { "hebraico": "לֹּא־", "transliteral": "lō-", "traducao_palavra": "[que] não [é]" },
+        { "hebraico": "לֹֽו׃", "transliteral": "lô", "traducao_palavra": "dele" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "Como o louco que lança fogo, flechas e morte,",
+      "palavras": [
+        { "hebraico": "כְּֽ֭מִתְלַהְלֵהַּ", "transliteral": "kə-miṯ-lah-lē-ha", "traducao_palavra": "Como um louco/alguém que se finge demente" },
+        { "hebraico": "הַיֹּרֶ֥ה", "transliteral": "hay-yō-reh", "traducao_palavra": "que atira/lança" },
+        { "hebraico": "זִקִּ֗ים", "transliteral": "ziq-qîm", "traducao_palavra": "dardos inflamados/fogo" },
+        { "hebraico": "חִצִּ֥ים", "transliteral": "ḥiṣ-ṣîm", "traducao_palavra": "flechas" },
+        { "hebraico": "וָמָֽוֶת׃", "transliteral": "wā-mā-weṯ", "traducao_palavra": "e morte" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "assim é o homem que engana o seu próximo e diz: Fiz isso por brincadeira.",
+      "palavras": [
+        { "hebraico": "כֵּן־", "transliteral": "kên-", "traducao_palavra": "Assim [é]" },
+        { "hebraico": "אִ֭ישׁ", "transliteral": "ʾîš", "traducao_palavra": "[o] homem" },
+        { "hebraico": "רִמָּ֣ה", "transliteral": "rim-mā", "traducao_palavra": "[que] enganou" },
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "[objeto]" },
+        { "hebraico": "רֵעֵ֑הוּ", "transliteral": "rē-ʿê-hû", "traducao_palavra": "seu próximo" },
+        { "hebraico": "וְ֝אָמַ֗ר", "transliteral": "wə-ʾā-mar", "traducao_palavra": "e diz" },
+        { "hebraico": "הֲלֹא־", "transliteral": "hă-lō-", "traducao_palavra": "acaso não" },
+        { "hebraico": "מְשַׂחֵ֥ק", "transliteral": "mə-śa-ḥêq", "traducao_palavra": "brincando/rindo" },
+        { "hebraico": "אָֽנִי׃", "transliteral": "ʾā-nî", "traducao_palavra": "[estava] eu" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "Sem lenha, o fogo se apaga; e não havendo maldizente, cessa a contenda.",
+      "palavras": [
+        { "hebraico": "בְּאֶ֣פֶס", "transliteral": "bə-ʾe-p̄es", "traducao_palavra": "Em falta/fim de" },
+        { "hebraico": "עֵ֭צִים", "transliteral": "ʿê-ṣîm", "traducao_palavra": "lenhas" },
+        { "hebraico": "תִּכְבֶּה־", "transliteral": "tiḵ-beh-", "traducao_palavra": "apaga-se" },
+        { "hebraico": "אֵ֑שׁ", "transliteral": "ʾêš", "traducao_palavra": "[o] fogo" },
+        { "hebraico": "וּבְאֵ֥ין", "transliteral": "ū-ḇə-ʾên", "traducao_palavra": "e em não havendo" },
+        { "hebraico": "נִ֝רְגָּ֗ן", "transliteral": "nir-gān", "traducao_palavra": "murmurador/maldizente" },
+        { "hebraico": "יִשְׁתֹּ֥ק", "transliteral": "yiš-tōq", "traducao_palavra": "silenciará/cessará" },
+        { "hebraico": "מָדֹֽון׃", "transliteral": "mā-ḏôn", "traducao_palavra": "[a] contenda" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "Como o carvão para as brasas e a lenha para o fogo, assim é o homem briguento para acender contendas.",
+      "palavras": [
+        { "hebraico": "פֶּחָ֣ם", "transliteral": "pe-ḥām", "traducao_palavra": "Carvão" },
+        { "hebraico": "לְ֭גֶחָלִים", "transliteral": "lə-ḡe-ḥā-lîm", "traducao_palavra": "para brasas" },
+        { "hebraico": "וְעֵצִ֣ים", "transliteral": "wə-ʿê-ṣîm", "traducao_palavra": "e lenha" },
+        { "hebraico": "לְאֵ֑שׁ", "transliteral": "lə-ʾêš", "traducao_palavra": "para fogo" },
+        { "hebraico": "וְאִ֥ישׁ", "transliteral": "wə-ʾîš", "traducao_palavra": "e um homem" },
+        { "hebraico": "מִ֝דְיָנִ֗ים", "transliteral": "miḏ-yā-nîm", "traducao_palavra": "de contendas" },
+        { "hebraico": "לְחַרְחַר־", "transliteral": "lə-ḥar-ḥar-", "traducao_palavra": "para inflamar/acender" },
+        { "hebraico": "רִֽיב׃", "transliteral": "rîḇ", "traducao_palavra": "disputa" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "As palavras do caluniador são como guloseimas, e descem até o mais íntimo do ventre.",
+      "palavras": [
+        { "hebraico": "דִּבְרֵ֣י", "transliteral": "diḇ-rê", "traducao_palavra": "As palavras de" },
+        { "hebraico": "נִ֭רְגָּן", "transliteral": "nir-gān", "traducao_palavra": "[um] caluniador" },
+        { "hebraico": "כְּמִֽתְלַהֲמִ֑ים", "transliteral": "kə-miṯ-la-hă-mîm", "traducao_palavra": "como guloseimas/golpes" },
+        { "hebraico": "וְ֝הֵ֗ם", "transliteral": "wə-hêm", "traducao_palavra": "e elas" },
+        { "hebraico": "יָרְד֥וּ", "transliteral": "yā-rə-ḏû", "traducao_palavra": "descem" },
+        { "hebraico": "חַדְרֵi־", "transliteral": "ḥaḏ-rê-", "traducao_palavra": "[às] câmaras de" },
+        { "hebraico": "בָֽטֶן׃", "transliteral": "ḇā-ṭen", "traducao_palavra": "ventre" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "Como o caco de vaso coberto de escória de prata, assim são os lábios ardentes e o coração mau.",
+      "palavras": [
+        { "hebraico": "כֶּ֤סֶף", "transliteral": "ke-sep̄", "traducao_palavra": "Prata" },
+        { "hebraico": "סִ֭יגִים", "transliteral": "śî-ḡîm", "traducao_palavra": "[como] escórias" },
+        { "hebraico": "מְצֻפֶּ֣ה", "transliteral": "mə-ṣup-peh", "traducao_palavra": "revestido" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre" },
+        { "hebraico": "חָ֑רֶשׂ", "transliteral": "ḥā-reś", "traducao_palavra": "[um] caco de barro" },
+        { "hebraico": "שְׂפָתַ֥יִם", "transliteral": "śə-p̄ā-ṯa-yim", "traducao_palavra": "[são] lábios" },
+        { "hebraico": "דֹּ֝לְקִ֗ים", "transliteral": "dō-lə-qîm", "traducao_palavra": "ardentes/ferventes" },
+        { "hebraico": "וְלֶב־", "transliteral": "wə-leḇ-", "traducao_palavra": "e um coração" },
+        { "hebraico": "רָֽע׃", "transliteral": "rāʿ", "traducao_palavra": "mau" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "O que odeia disfarça com os seus lábios, mas no seu interior reserva o engano.",
+      "palavras": [
+        { "hebraico": "בִּ֭שְׂפָתָיו", "transliteral": "biś-p̄ā-ṯāyw", "traducao_palavra": "Com seus lábios" },
+        { "hebraico": "יִנָּכֵ֣ר", "transliteral": "yin-nā-ḵêr", "traducao_palavra": "disfarça/se faz estranho" },
+        { "hebraico": "שֹׂונֵ֑א", "transliteral": "śô-nē", "traducao_palavra": "[o que] odeia" },
+        { "hebraico": "וּ֝בְקִרְבֹּ֗ו", "transliteral": "ū-ḇə-qir-bô", "traducao_palavra": "mas no seu interior" },
+        { "hebraico": "יָשִׁ֥ית", "transliteral": "yā-šîṯ", "traducao_palavra": "põe/armazena" },
+        { "hebraico": "מִרְמָֽה׃", "transliteral": "mir-mā", "traducao_palavra": "engano" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "Quando te falar suavemente, não te fies nele, porque sete abominações há no seu coração.",
+      "palavras": [
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "Quando" },
+        { "hebraico": "יְחַנֵּ֣ן", "transliteral": "yə-ḥan-nên", "traducao_palavra": "ele tornar graciosa" },
+        { "hebraico": "קֹ֭ולֹו", "transliteral": "qô-lô", "traducao_palavra": "sua voz" },
+        { "hebraico": "אַל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "תַּאֲמֶן־", "transliteral": "ta-ʾă-men-", "traducao_palavra": "creas" },
+        { "hebraico": "בֹּ֑ו", "transliteral": "bô", "traducao_palavra": "nele" },
+        { "hebraico": "כִּ֭י", "transliteral": "kî", "traducao_palavra": "pois" },
+        { "hebraico": "שֶׁ֤בֶע", "transliteral": "še-ḇaʿ", "traducao_palavra": "sete" },
+        { "hebraico": "תֹּועֵבֹ֨ות", "transliteral": "tô-ʿê-ḇôṯ", "traducao_palavra": "abominações [há]" },
+        { "hebraico": "בְּלִבֹּֽו׃", "transliteral": "bə-lib-bô", "traducao_palavra": "no seu coração" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "Ainda que o seu ódio se encubra com fingimento, a sua maldade se descobrirá na congregação.",
+      "palavras": [
+        { "hebraico": "תִּכַּסֶּ֣ה", "transliteral": "tik-kaś-śeh", "traducao_palavra": "Encubra-se" },
+        { "hebraico": "שִׂ֭נְאָה", "transliteral": "śin-ʾā", "traducao_palavra": "[o] ódio" },
+        { "hebraico": "בְּמַשָּׁאֹ֑ון", "transliteral": "bə-maš-šā-ʾôn", "traducao_palavra": "com engano/ardil" },
+        { "hebraico": "תִּגָּלֶ֖ה", "transliteral": "tig-gā-leh", "traducao_palavra": "será revelada" },
+        { "hebraico": "רָעָתֹ֥ו", "transliteral": "rā-ʿā-ṯô", "traducao_palavra": "a maldade dele" },
+        { "hebraico": "בְקָהָֽל׃", "transliteral": "ḇə-qā-hāl", "traducao_palavra": "na assembleia/congregação" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "O que cava uma cova nela cairá; e o que revolve a pedra, esta voltará sobre ele.",
+      "palavras": [
+        { "hebraico": "כֹּרֶה־", "transliteral": "kō-rēh-", "traducao_palavra": "O que cava" },
+        { "hebraico": "שַּׁ֭חַת", "transliteral": "ša-ḥaṯ", "traducao_palavra": "uma cova" },
+        { "hebraico": "בָּ֣הּ", "transliteral": "bāh", "traducao_palavra": "nela" },
+        { "hebraico": "יִפֹּ֑ול", "transliteral": "yip-pôl", "traducao_palavra": "cairá" },
+        { "hebraico": "וְגֹלֵ֥ל", "transliteral": "wə-ḡō-lēl", "traducao_palavra": "e o que rola/revolve" },
+        { "hebraico": "אֶ֝֗בֶן", "transliteral": "ʾe-ḇen", "traducao_palavra": "[uma] pedra" },
+        { "hebraico": "אֵלָ֥יו", "transliteral": "ʾê-lāyw", "traducao_palavra": "para ele" },
+        { "hebraico": "תָּשֽׁוּב׃", "transliteral": "tā-šûḇ", "traducao_palavra": "ela voltará" }
+      ]
+    },
+    "28": {
+      "traducao_completa": "A língua mentirosa odeia aqueles a quem feriu, e a boca lisonjeira opera a ruína.",
+      "palavras": [
+        { "hebraico": "לְשֹׁון־", "transliteral": "lə-šôn-", "traducao_palavra": "Língua de" },
+        { "hebraico": "שֶׁ֭קֶר", "transliteral": "še-qer", "traducao_palavra": "mentira" },
+        { "hebraico": "יִשְׂנָ֣א", "transliteral": "yiś-nā", "traducao_palavra": "odeia" },
+        { "hebraico": "דַכָּ֑יו", "transliteral": "dak-kāyw", "traducao_palavra": "seus oprimidos/esmagados" },
+        { "hebraico": "וּפֶ֥ה", "transliteral": "ū-p̄eh", "traducao_palavra": "e a boca" },
+        { "hebraico": "חָ֝לָ֗ק", "transliteral": "ḥā-lāq", "traducao_palavra": "lisonjeira/suave" },
+        { "hebraico": "יַעֲשֶׂ֥ה", "transliteral": "ya-ʿă-śeh", "traducao_palavra": "fará/opera" },
+        { "hebraico": "מִדְחֶֽה׃", "transliteral": "miḏ-ḥeh", "traducao_palavra": "ruína/queda" }
+      ]
+    }
+  }
 }

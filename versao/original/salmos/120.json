@@ -1,6 +1,91 @@
 {
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+  "livro": "Salmos - תְּהִלִּים - Tehillim",
   "capítulo": 120,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Na minha angústia clamei a YHWH, e ele me ouviu.",
+      "palavras": [
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "a/para" },
+        { "hebraico": "יְהוָ֥ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "בַּצָּרָ֕תָה", "transliteral": "baṣ-ṣā-rā-ṯā", "traducao_palavra": "na angústia" },
+        { "hebraico": "לִּ֥י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "קָרָ֖אתִי", "transliteral": "qā-rā-ṯî", "traducao_palavra": "clamei" },
+        { "hebraico": "וַֽיַּעֲנֵֽנִי׃", "transliteral": "way-ya-ʿă-nē-nî", "traducao_palavra": "e ele me respondeu/ouviu" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "YHWH, livra a minha alma dos lábios mentirosos e da língua enganosa.",
+      "palavras": [
+        { "hebraico": "יְהוָ֗ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "הַצִּ֣ילָה", "transliteral": "haṣ-ṣî-lā", "traducao_palavra": "livra" },
+        { "hebraico": "נַ֭פְשִׁי", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma" },
+        { "hebraico": "מִשְּׂפַת־", "transliteral": "miś-śə-p̄aṯ-", "traducao_palavra": "do lábio de" },
+        { "hebraico": "שֶׁ֗קֶר", "transliteral": "še-qer", "traducao_palavra": "mentira" },
+        { "hebraico": "מִלָּשֹׁ֥ון", "transliteral": "mil-lā-šôn", "traducao_palavra": "da língua de" },
+        { "hebraico": "רְמִיָּֽה׃", "transliteral": "rə-miy-yā", "traducao_palavra": "engano/fraude" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Que te será dado, ou que te será acrescentado, ó língua enganosa?",
+      "palavras": [
+        { "hebraico": "מַה־", "transliteral": "mah-", "traducao_palavra": "o que" },
+        { "hebraico": "יִּתֵּ֣ן", "transliteral": "yit-tên", "traducao_palavra": "dará" },
+        { "hebraico": "לְ֭ךָ", "transliteral": "lə-ḵā", "traducao_palavra": "a ti" },
+        { "hebraico": "וּמַה־", "transliteral": "ū-mah-", "traducao_palavra": "e o que" },
+        { "hebraico": "יֹּסִ֥יף", "transliteral": "yō-śîp̄", "traducao_palavra": "acrescentará" },
+        { "hebraico": "לָ֗ךְ", "transliteral": "lāk", "traducao_palavra": "a ti" },
+        { "hebraico": "לָשֹׁ֥ון", "transliteral": "lā-šôn", "traducao_palavra": "ó língua de" },
+        { "hebraico": "רְמִיָּֽה׃", "transliteral": "rə-miy-yā", "traducao_palavra": "engano" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Flechas agudas de guerreiro, com brasas vivas de zimbro.",
+      "palavras": [
+        { "hebraico": "חִצֵּ֣י", "transliteral": "ḥiṣ-ṣê", "traducao_palavra": "flechas de" },
+        { "hebraico": "גִבֹּ֣ור", "transliteral": "gib-bôr", "traducao_palavra": "guerreiro/valente" },
+        { "hebraico": "שְׁנוּנִ֑ים", "transliteral": "šə-nû-nîm", "traducao_palavra": "afiadas" },
+        { "hebraico": "עִ֝ם", "transliteral": "ʿim", "traducao_palavra": "com" },
+        { "hebraico": "גַּחֲלֵי", "transliteral": "ga-ḥă-lê", "traducao_palavra": "brasas de" },
+        { "hebraico": "רְתָמִֽים׃", "transliteral": "rə-ṯā-mîm", "traducao_palavra": "zimbro/giesta" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Ai de mim, que peregrino em Meseque, e habito nas tendas de Quedar!",
+      "palavras": [
+        { "hebraico": "אֹֽויָה־", "transliteral": "ʾô-yā-", "traducao_palavra": "ai de" },
+        { "hebraico": "לִ֭י", "transliteral": "lî", "traducao_palavra": "mim" },
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "גַ֣רְתִּי", "transliteral": "gar-tî", "traducao_palavra": "peregrinei em" },
+        { "hebraico": "מֶ֑שֶׁךְ", "transliteral": "me-šeḵ", "traducao_palavra": "Meseque" },
+        { "hebraico": "שָׁ֝כַ֗נְתִּי", "transliteral": "šā-ḵan-tî", "traducao_palavra": "habitei" },
+        { "hebraico": "עִם־", "transliteral": "ʿim-", "traducao_palavra": "com" },
+        { "hebraico": "אָהֳלֵ֥י", "transliteral": "ʾā-ho-lê", "traducao_palavra": "as tendas de" },
+        { "hebraico": "קֵדָֽר׃", "transliteral": "qê-ḏār", "traducao_palavra": "Quedar" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Há muito que a minha alma habita com os que odeiam a paz.",
+      "palavras": [
+        { "hebraico": "רַ֭בַּת", "transliteral": "rab-baṯ", "traducao_palavra": "muito [tempo]" },
+        { "hebraico": "שָֽׁכְנָה־", "transliteral": "šā-ḵə-nā-", "traducao_palavra": "habitou" },
+        { "hebraico": "לָּ֣הּ", "transliteral": "lāh", "traducao_palavra": "ela [a alma]" },
+        { "hebraico": "נַפְשִׁ֑י", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma" },
+        { "hebraico": "עִ֝ם", "transliteral": "ʿim", "traducao_palavra": "com" },
+        { "hebraico": "שֹׂונֵ֥א", "transliteral": "śô-nē", "traducao_palavra": "[o que] odeia" },
+        { "hebraico": "שָׁלֹֽום׃", "transliteral": "šā-lôm", "traducao_palavra": "[a] paz" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Eu sou pela paz; mas, quando falo, eles são pela guerra.",
+      "palavras": [
+        { "hebraico": "אֲנִי־", "transliteral": "ʾă-nî-", "traducao_palavra": "eu [sou]" },
+        { "hebraico": "שָׁלֹ֥ום", "transliteral": "šā-lôm", "traducao_palavra": "paz" },
+        { "hebraico": "וְכִ֣י", "transliteral": "wə-ḵî", "traducao_palavra": "e quando" },
+        { "hebraico": "אֲדַבֵּ֑ר", "transliteral": "ʾă-ḏab-bēr", "traducao_palavra": "eu falo" },
+        { "hebraico": "הֵ֝מָּה", "transliteral": "hēm-mā", "traducao_palavra": "eles [são]" },
+        { "hebraico": "לַמִּלְחָמָֽה׃", "transliteral": "lam-mil-ḥā-mā", "traducao_palavra": "para a guerra" }
+      ]
+    }
+  }
 }

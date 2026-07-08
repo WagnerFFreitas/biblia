@@ -2,133 +2,84 @@
 /*                    MÓDULO DE CACHE E PERSISTÊNCIA DE DADOS                    */
 /*===============================================================================*/
 /*  Este script é responsável por:                                               */
-/*                       - Gerenciar o cache (memória) de capítulos e livros     */
-/*                       - Salvar e carregar preferências do usuário no navegador*/
-/*                       - Otimizar o desempenho, evitando downloads repetidos   */
+/*              - Gerenciar o cache (memória) de capítulos e livros              */
+/*           - Salvar e carregar preferências do usuário no navegador            */
+/*             - Otimizar o desempenho, evitando downloads repetidos             */
 /*===============================================================================*/
 
-// Este arquivo é como um "sistema de memória inteligente" para o site da Bíblia.
-// Imagine que você tem uma biblioteca pessoal onde guarda:
-// 1. Os livros que você já leu (para não precisar buscar de novo)
-// 2. Suas preferências (qual tradução você gosta, modo de leitura, etc.)
-// 3. O último lugar onde você parou de ler
-// É como ter um "assistente pessoal" que lembra de tudo para você!
-
-// Esta parte cria uma "caixa protetora" para o código, mantendo tudo organizado:
+/* BLOCO: Cria uma função anônima e a executa imediatamente para isolar o        */
+/* código                                                                        */
 (function() {
-    'use strict';                                                                               
-    // ↑ Ativa o "modo rigoroso" - como ter regras mais rígidas para evitar erros
+    'use strict';                                                                 // Ativa o modo de escrita rígido do JavaScript
 
-    // Este é o "baú de tesouros" onde guardamos tudo na memória:
+    /* BLOCO: Cria o objeto principal que servirá de cache (memória temporária)  */
     const cache = {
-        capitulos: {},                                                                          
-        // ↑ "Gaveta" para guardar textos bíblicos que já foram baixados
-        
-        preferencias: {}                                                                        
-        // ↑ "Gaveta" para guardar suas configurações pessoais
+        capitulos: {},                                                            // Mapa para armazenar textos bíblicos na RAM
+        preferencias: {}                                                          // Mapa para armazenar configurações na RAM
     };
 
-    // Esta é uma "lista de nomes" para organizar onde cada coisa é salva no navegador:
+    /* BLOCO: Define as chaves usadas para salvar dados no localStorage          */
     const CHAVES_ARMAZENAMENTO_LOCAL = {
-        VERSAO_BIBLICA: 'versaoBiblicaSelecionada',                                             
-        // ↑ Nome para salvar qual tradução você escolheu (ARA, NVI, etc.)
-        
-        MODO_LEITURA: 'modoLeituraAtivo',                                                       
-        // ↑ Nome para salvar se você gosta do modo tela cheia
-        
-        ULTIMO_LIVRO: 'ultimoLivroSelecionado',                                                 
-        // ↑ Nome para salvar o último livro que você estava lendo
-        
-        ULTIMO_CAPITULO: 'ultimoCapituloSelecionado',                                           
-        // ↑ Nome para salvar o último capítulo que você estava lendo
-        
-        ULTIMO_VERSICULO: 'ultimoVersiculoSelecionado'                                          
-        // ↑ Nome para salvar o último versículo que você estava lendo
+        VERSAO_BIBLICA: 'versaoBiblicaSelecionada',                               // Identificador da tradução escolhida
+        MODO_LEITURA: 'modoLeituraAtivo',                                         // Estado da interface (padrão ou leitura)
+        ULTIMO_LIVRO: 'ultimoLivroSelecionado',                                   // Registro do último livro acessado
+        ULTIMO_CAPITULO: 'ultimoCapituloSelecionado',                             // Registro do último capítulo acessado
+        ULTIMO_VERSICULO: 'ultimoVersiculoSelecionado'                            // Registro do último versículo acessado
     };
 
-    // Esta função é como "guardar um livro na estante" para usar depois:
+    /* BLOCO: Define a função global para armazenar dados de um capítulo no cache */
     window.cacheCapitulo = function(livro, capitulo, dados) {
-        const chave = `${livro.toLowerCase()}_${capitulo}`;                                     
-        // ↑ Cria uma "etiqueta" única para identificar o capítulo (ex: "genesis_1")
-        
-        cache.capitulos[chave] = dados;                                                         
-        // ↑ Guarda o texto do capítulo na "gaveta" da memória para usar depois
+        const chave = `${livro.toLowerCase()}_${capitulo}`;                       // Gera uma chave única combinando dados
+        cache.capitulos[chave] = dados;                                           // Grava o conteúdo textual na memória rápida
     };
 
-    // Esta função é como "pegar um livro da estante" que você já guardou:
+    /* BLOCO: Define a função global para buscar dados de um capítulo no cache   */
     window.obterCapítuloDoCache = function(livro, capitulo) {
-        const chave = `${livro.toLowerCase()}_${capitulo}`;                                     
-        // ↑ Recria a "etiqueta" para procurar o capítulo guardado
-        
-        return cache.capitulos[chave] || null;                                                  
-        // ↑ Retorna o texto se encontrar, ou "nada" se não tiver guardado
+        const chave = `${livro.toLowerCase()}_${capitulo}`;                       // Recria a chave de busca para localização
+        return cache.capitulos[chave] || null;                                    // Retorna o texto salvo ou nulo se não existir
     };
 
-    // Esta função é como "limpar toda a estante" de uma vez:
+    /* BLOCO: Define a função global para limpar todo o cache de capítulos       */
     window.limparCacheCapitulos = function() {
-        cache.capitulos = {};                                                                   
-        // ↑ Esvazia completamente a "gaveta" de textos guardados
+        cache.capitulos = {};                                                     // Esvazia completamente o mapa de textos
     };
 
-    // Esta função é como "anotar suas preferências num caderno" para lembrar depois:
+    /* BLOCO: Define a função global para salvar uma preferência do usuário      */
     window.salvarPreferencia = function(chave, valor) {
-        try {                                                                                   
-        // ↑ Tenta salvar (pode dar erro se o navegador não permitir)
-            localStorage.setItem(chave, JSON.stringify(valor));                                 
-            // ↑ Salva a preferência no "disco rígido" do navegador
-            
-            cache.preferencias[chave] = valor;                                                  
-            // ↑ Também guarda na "memória rápida" para acesso instantâneo
+        try {                                                                     // Inicia tentativa de escrita no disco
+            localStorage.setItem(chave, JSON.stringify(valor));                   // Grava o dado convertido em texto
+            cache.preferencias[chave] = valor;                                    // Atualiza o valor na memória rápida (RAM)
         } catch (erro) {
-            console.error('Erro ao salvar no localStorage:', erro);                             
-            // ↑ Se der erro, escreve no console para os programadores verem
+            console.error('Erro ao salvar no localStorage:', erro);               // Relata erro técnico de persistência
         }
     };
 
-    // Esta função é como "consultar suas anotações" para lembrar de uma preferência:
+    /* BLOCO: Define a função global para obter uma preferência do usuário       */
     window.obterPreferencia = function(chave, valorPadrao = null) {
         if (cache.preferencias[chave] !== undefined) {
-            return cache.preferencias[chave];                                                   
-            // ↑ Se já está na "memória rápida", retorna imediatamente
+            return cache.preferencias[chave];                                     // Retorna o valor direto da RAM se disponível
         }
 
-        // Se não está na memória, vai buscar no "disco rígido" do navegador:
+        /* BLOCO: Se não encontrar no cache, tenta ler do localStorage           */
         try {
-            const valor = localStorage.getItem(chave);                                          
-            // ↑ Tenta ler a preferência salva no navegador
-            
-            if (valor === null) return valorPadrao;                                             
-            // ↑ Se não encontrar nada, retorna o valor padrão
-            
-            const valorParseado = JSON.parse(valor);                                            
-            // ↑ Converte o texto salvo de volta para um valor utilizável
-            
-            cache.preferencias[chave] = valorParseado;                                          
-            // ↑ Guarda na "memória rápida" para próximas consultas
-            
-            return valorParseado;                                                               
-            // ↑ Retorna o valor encontrado
+            const valor = localStorage.getItem(chave);                            // Tenta ler o registro bruto do disco
+            if (valor === null) return valorPadrao;                               // Se vazio, entrega o valor de segurança
+            const valorParseado = JSON.parse(valor);                              // Converte o texto de volta para dado real
+            cache.preferencias[chave] = valorParseado;                            // Alimenta a RAM para consultas futuras
+            return valorParseado;                                                 // Entrega o dado processado
         } catch (erro) {
-            console.error('Erro ao ler do localStorage:', erro);                                
-            // ↑ Se der erro, escreve no console
-            
-            return valorPadrao;                                                                 
-            // ↑ Em caso de erro, retorna o valor padrão
+            console.error('Erro ao ler do localStorage:', erro);                  // Relata erro de leitura ou conversão
+            return valorPadrao;                                                   // Entrega o padrão em caso de falha
         }
     };
 
-    // Esta função é como "revisar todo o caderno de anotações" de uma vez:
+    /* BLOCO: Define a função que carrega todas as preferências do localStorage  */
     window.carregarPreferencias = function() {
-        Object.keys(CHAVES_ARMAZENAMENTO_LOCAL).forEach(chave => {                              
-        // ↑ Passa por cada tipo de preferência que existe
-            const chaveArmazenamento = CHAVES_ARMAZENAMENTO_LOCAL[chave];                       
-            // ↑ Pega o nome real usado para salvar
-            
-            cache.preferencias[chaveArmazenamento] = window.obterPreferencia(chaveArmazenamento); 
-            // ↑ Carrega a preferência do "disco" para a "memória rápida"
+        Object.keys(CHAVES_ARMAZENAMENTO_LOCAL).forEach(chave => {                // Varre todas as chaves mapeadas do sistema
+            const chaveArmazenamento = CHAVES_ARMAZENAMENTO_LOCAL[chave];         // Captura o nome da chave de disco
+            cache.preferencias[chaveArmazenamento] = window.obterPreferencia(chaveArmazenamento);  // Sincroniza disco com a memória rápida
         });
     };
 
-    window.carregarPreferencias();                                                              
-    // ↑ Executa o carregamento assim que este arquivo é lido pelo navegador
+    window.carregarPreferencias();                                                // Executa a sincronização ao carregar o script
 })();

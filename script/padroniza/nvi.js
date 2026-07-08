@@ -1,160 +1,114 @@
 /*===============================================================================*/
-/*                        MÓDULO DA VERSÃO BÍBLICA NVI                           */
+/*            SCRIPT ESPECÍFICO PARA NVI (Nova Versão Internacional)             */
 /*===============================================================================*/
-/*  Este script é responsável por:                                               */
-/*                       - Configurar a tradução Nova Versão Internacional      */
-/*                       - Carregar e exibir versículos da versão NVI           */
-/*                       - Gerenciar títulos e formatação específica da NVI     */
+/*  Este arquivo contém:                                                         */
+/*           - Funções para carregar e exibir versículos da versão NVI           */
+/*                  - Manipulação de títulos e modo de leitura                   */
 /*===============================================================================*/
 
-/**
- * Módulo específico para a versão NVI (Nova Versão Internacional)
- * Gerencia carregamento, exibição e formatação dos textos bíblicos
- * Integra-se com o sistema principal de navegação
- */
+/* BLOCO: Define as constantes globais de identificação e o nome completo da     */
+/* tradução para o sistema                                                       */
+window.BIBLE_VERSION                   = 'nvi';                                   // Identificador da versão
+window.NOME_VERSAO_COMPLETA_BIBLIA     = 'Nova Versão Internacional';             // Nome completo da tradução
+console.log(`[${window.BIBLE_VERSION}.js] Script carregado. Definindo funções específicas para NVI.`);  // Log de carga do módulo
 
-// ========================================================================
-// CONFIGURAÇÃO DA VERSÃO
-// ========================================================================
+/* BLOCO: Função que retorna a contagem de versículos consultando o motor de     */
+/* dados central                                                                 */
+window.getSpecificVerseCount = function(livro, capitulo) {                        // Inicia contador de versos
+    return window.getVerseCount(livro, capitulo);                                 // Consulta base de dados
+}
 
-window.BIBLE_VERSION = 'nvi';                                  // Identificador único da versão
-window.NOME_VERSAO_COMPLETA_BIBLIA = 'Nova Versão Internacional'; // Nome completo para exibição
-
-console.log(`[${window.BIBLE_VERSION}.js] Script carregado - Definindo funções específicas para NVI`);
-
-// ========================================================================
-// FUNÇÕES UTILITÁRIAS
-// ========================================================================
-
-/**
- * Obtém a contagem de versículos para um capítulo específico
- * @param {string} livro - Nome do livro bíblico
- * @param {number} capitulo - Número do capítulo
- * @returns {number} Quantidade de versículos no capítulo
- */
-window.getSpecificVerseCount = function(livro, capitulo) {
-    return window.getVerseCount(livro, capitulo);
-};
-
-// ========================================================================
-// FUNÇÃO PRINCIPAL: CARREGAMENTO DE VERSÍCULOS
-// ========================================================================
-
-/**
- * Carrega e exibe um versículo específico da versão NVI
- * @param {string} livro - Nome do livro bíblico
- * @param {number} capitulo - Número do capítulo
- * @param {number} versiculo - Número do versículo
- */
-window.loadSpecificVerse = async function(livro, capitulo, versiculo) {
-    console.log(`[NVI] Carregando: ${livro} ${capitulo}:${versiculo}`);
-    
-    // Localização da área de conteúdo
-    const content = document.querySelector('.conteudo');
-    if (!content) {
-        console.error("[NVI] Elemento .conteudo não encontrado");
+/* BLOCO: Função assíncrona responsável por buscar o JSON da tradução e          */
+/* renderizar o versículo na tela                                                */
+window.loadSpecificVerse = async function(livro, capitulo, versiculo) {           // Inicia motor de carga
+    console.log(`[NVI] Carregando: ${livro} ${capitulo}:${versiculo}`);           // Log de posição de leitura
+    const content = document.querySelector('.conteudo');                          // Localiza contêiner no DOM
+    if (!content) {                                                               // Valida existência elemento
+        console.error("[NVI] Elemento .conteudo não encontrado.");                // Relata falha de interface
         return;
     }
 
-    // Remoção do versículo anterior
-    const existingVersiculoDiv = content.querySelector('.texto-versiculo');
+    /* BLOCO: Localiza e remove a exibição do versículo anterior para preparar a interface para o novo conteúdo*/
+    const existingVersiculoDiv = content.querySelector('.texto-versiculo');       // Busca div de verso antigo
     if (existingVersiculoDiv) {
-        existingVersiculoDiv.remove();
+        existingVersiculoDiv.remove();                                            // Remove elemento do documento
     }
 
-    // Criação do contêiner para o novo versículo
-    const versiculoElementDiv = document.createElement('div');
-    versiculoElementDiv.classList.add('versiculo', 'texto-versiculo');
-    
-    // Aplicação de estilo específico para modo leitura
-    if (document.body.classList.contains('module-leitura')) {
-        versiculoElementDiv.classList.add('modo-leitura');
+    /* BLOCO: Cria o contêiner visual do versículo e aplica classes para suportar o modo leitura        */
+    const versiculoElementDiv = document.createElement('div');                    // Instancia elemento de bloco
+    versiculoElementDiv.classList.add('versiculo', 'texto-versiculo');            // Atribui classes de estilo
+    if (document.body.classList.contains('module-leitura')) {                     // Verifica estado interface
+        versiculoElementDiv.classList.add('modo-leitura');                        // Aplica layout de leitura
     }
 
+    /* BLOCO: Tenta realizar a requisição do arquivo JSON contendo o texto e os títulos do capítulo     */
     try {
-        // Requisição dos dados do capítulo
-        const response = await fetch(`../versao/nvi/${livro}/${capitulo}.json`);
-        if (!response.ok) {
-            throw new Error(`HTTP ${response.status} ao buscar JSON para ${livro} ${capitulo} (NVI)`);
+        const response = await fetch(`../versao/nvi/${livro}/${capitulo}.json`);  // Solicita arquivo ao servidor
+        if (!response.ok) {                                                       // Valida resposta da rede
+            throw new Error(`HTTP ${response.status} ao buscar JSON para ${livro} ${capitulo} (NVI)`);  // Lança exceção de falha
         }
-        
-        const data = await response.json();
+        const data = await response.json();                                       // Converte em objeto real
 
-        // Processamento do versículo
-        if (data.versiculos && data.versiculos[versiculo]) {
-            // Adição de título de seção se existir
-            if (data.titulos && data.titulos[versiculo]) {
-                const tituloInternoH3 = document.createElement('h3');
-                tituloInternoH3.classList.add('titulo-versiculo-interno');
-                tituloInternoH3.textContent = data.titulos[versiculo];
-                versiculoElementDiv.appendChild(tituloInternoH3);
+        /* BLOCO: Valida a existência do versículo nos dados e processa o título da seção se disponível */
+        if (data.versiculos && data.versiculos[versiculo]) {                      // Verifica se índice existe
+            if (data.titulos && data.titulos[versiculo]) {                        // Verifica subtítulo da seção
+                const tituloInternoH3 = document.createElement('h3');             // Cria cabeçalho de seção
+                tituloInternoH3.classList.add('titulo-versiculo-interno');        // Estiliza o cabeçalho
+                tituloInternoH3.textContent = data.titulos[versiculo];            // Insere texto do título
+                versiculoElementDiv.appendChild(tituloInternoH3);                 // Anexa ao bloco do versículo
             }
 
-            // Criação do parágrafo com o texto bíblico
-            const textoP = document.createElement('p');
-            textoP.id = `versiculo-${versiculo}`;
-            textoP.textContent = data.versiculos[versiculo];
-            versiculoElementDiv.appendChild(textoP);
-        } else {
-            // Tratamento para versículo não encontrado
-            const textoP = document.createElement('p');
-            textoP.textContent = `Versículo ${versiculo} não encontrado nos dados`;
-            versiculoElementDiv.appendChild(textoP);
-            console.warn(`[NVI] Versículo ${versiculo} não encontrado em ${livro} ${capitulo}.json`);
+            /* BLOCO: Instancia o parágrafo para o texto bíblico e atribui o identificador único para busca*/
+            const textoP = document.createElement('p');                           // Cria elemento de parágrafo
+            textoP.id = `versiculo-${versiculo}`;                                 // Define identificador único
+            textoP.textContent = data.versiculos[versiculo];                      // Insere o texto sagrado
+            versiculoElementDiv.appendChild(textoP);                              // Anexa texto ao bloco
+        } else {   
+            /* BLOCO: Trata o caso de versículo não localizado nos dados carregados do servidor         */
+            const textoP = document.createElement('p');                           // Cria aviso de ausência
+            textoP.textContent = `Versículo ${versiculo} não encontrado nos dados.`;  // Define mensagem amigável
+            versiculoElementDiv.appendChild(textoP);                              // Anexa aviso ao bloco
+            console.warn(`[NVI] Versículo ${versiculo} não encontrado em ${livro} ${capitulo}.json (NVI)`);  // Alerta técnico no console
         }
-    } catch (error) {
-        // Tratamento de erros de carregamento
-        console.error(`[NVI] Erro ao carregar versículo ${livro} ${capitulo}:${versiculo}:`, error);
+    } catch (error) {                                                             // Captura falha na requisição
         
-        const textoP = document.createElement('p');
-        textoP.textContent = `Erro ao carregar versículo ${versiculo}`;
-        textoP.style.color = "red";
-        versiculoElementDiv.appendChild(textoP);
+        /* BLOCO: Registra a falha técnica no console e exibe um alerta visual de erro para o usuário   */
+        console.error(`[NVI] Erro ao carregar versículo ${livro} ${capitulo}:${versiculo} (NVI):`, error);  // Log de erro crítico técnico
+        const textoP = document.createElement('p');                               // Cria parágrafo de erro
+        textoP.textContent = `Erro ao carregar versículo ${versiculo}.`;          // Define aviso de erro
+        textoP.style.color = "red";                                               // Aplica destaque visual
+        versiculoElementDiv.appendChild(textoP);                                  // Anexa erro ao bloco
     }
 
-    // Inserção do versículo na página
-    content.appendChild(versiculoElementDiv);
+    content.appendChild(versiculoElementDiv);                                     // Publica versículo no site
 
-    // Atualização do título principal da página
-    if (window.titulo) {
-        let nomeLivroDisplay = livro.toUpperCase();
-        
-        if (typeof window.getLivroDisplayName === 'function') {
-            nomeLivroDisplay = window.getLivroDisplayName(livro);
+    /* BLOCO: Atualiza o elemento de título H2 principal para refletir a navegação atual do usuário     */
+    if (window.titulo) {                                                          // Verifica se H2 está pronto
+        let nomeLivroDisplay = livro.toUpperCase();                               // Buffer para nome do livro
+        if (typeof window.getLivroDisplayName === 'function') {                   // Verifica tradutor de nomes
+            nomeLivroDisplay = window.getLivroDisplayName(livro);                 // Obtém nome legível
         } else {
-            console.warn("[NVI] Função getLivroDisplayName não encontrada");
+            console.warn("[NVI] Função getLivroDisplayName não encontrada.");     // Alerta falta de função
         }
-        
-        window.titulo.textContent = `${nomeLivroDisplay} - CAPÍTULO ${capitulo} - VERSÍCULO ${versiculo}`;
+        window.titulo.textContent = `${nomeLivroDisplay} - CAPÍTULO ${capitulo} - VERSÍCULO ${versiculo}`;  // Escreve novo título H2
     } else {
-        console.warn("[NVI] Elemento H2 principal (window.titulo) não encontrado");
+        console.warn(`[NVI] Elemento H2 principal (window.titulo) não encontrado.`);  // Alerta ausência de H2
     }
-};
+}
 
-// ========================================================================
-// FUNÇÃO AUXILIAR: OBTENÇÃO DE TÍTULOS
-// ========================================================================
-
-/**
- * Obtém o título de seção para um versículo específico
- * @param {string} livro - Nome do livro bíblico
- * @param {number} capitulo - Número do capítulo
- * @param {number} versiculo - Número do versículo
- * @returns {string|null} Título da seção ou null se não existir
- */
-window.getSpecificChapterTitle = async function(livro, capitulo, versiculo) {
-    console.log(`[NVI] Obtendo título interno para: ${livro} ${capitulo}:${versiculo}`);
-    
+/* BLOCO: Função destinada a recuperar o título de seção de um capítulo          */
+/* específico via requisição assíncrona                                          */
+window.getSpecificChapterTitle = async function(livro, capitulo, versiculo) {     // Inicia busca de subtítulo
+    console.log(`[NVI] Obtendo título interno para: ${livro} ${capitulo}:${versiculo}`);  // Log de busca de metadados
     try {
-        const response = await fetch(`../versao/nvi/${livro}/${capitulo}.json`);
-        if (!response.ok) {
-            throw new Error(`HTTP ${response.status} ao buscar JSON para ${livro} ${capitulo} (NVI)`);
+        const response = await fetch(`../versao/nvi/${livro}/${capitulo}.json`);  // Solicita dados ao servidor
+        if (!response.ok) {                                                       // Valida resposta da rede
+            throw new Error(`HTTP ${response.status} ao buscar JSON para ${livro} ${capitulo} (NVI)`);  // Lança exceção de erro
         }
-        
-        const data = await response.json();
-        return data.titulos && data.titulos[versiculo] ? data.titulos[versiculo] : null;
+        const data = await response.json();                                       // Converte em objeto real
+        return data.titulos && data.titulos[versiculo] ? data.titulos[versiculo] : null;  // Retorna subtítulo ou nulo
     } catch (error) {
-        console.error(`[NVI] Erro ao obter título interno para ${livro} ${capitulo}:${versiculo}:`, error);
-        return null;
+        console.error(`[NVI] Erro ao obter título interno para ${livro} ${capitulo}:${versiculo} (NVI):`, error);  // Log de falha na busca
+        return null;                                                              // Retorno seguro no erro
     }
-};
+}

@@ -1,50 +1,48 @@
 /*===============================================================================*/
-/*              SCRIPT COORDENADOR: DICIONÁRIO E CONCORDÂNCIA                    */
+/*                 SCRIPT COORDENADOR: DICIONÁRIO E CONCORDÂNCIA                 */
 /*===============================================================================*/
-/*  Este script é responsável por:                                               */
-/*                       - Gerenciar troca entre visualizações de concordância   */
-/*                       - Carregar templates HTML sob demanda                   */
-/*                       - Coordenar comunicação entre menu e views ativas       */
+/* - Gerencia a troca de visualizações (views) entre Concordância e Dicionário.  */
+/* - Carrega os templates HTML correspondentes sob demanda.                      */
+/* - Coordena a comunicação entre o menu alfabético e a view ativa.              */
 /*===============================================================================*/
 
-/* BLOCO: Importa funções necessárias dos módulos de concordância e dicionário */
-import {                                                                                           /* Inicia importação de concordância   */
-    onConcordanciaViewReady,                                                                       /* Função de inicialização da view     */
-    carregarDadosBaseConcordancia,                                                                 /* Função de carregamento de dados     */
-    atualizarFiltroTestamento,                                                                     /* Função de filtro por testamento     */
-    atualizarFiltroLivro,                                                                          /* Função de filtro por livro          */
-    executarBuscaGlobalConcordancia,                                                               /* Função de busca global              */
-    atualizarFiltroPalavra                                                                         /* Função de filtro por palavra        */
-} from './concordancia.js';                                                                        /* Arquivo fonte da concordância       */
-import { setupDicionarioView, carregarEDisplayDicionarioPorLetra } from './dicionario.js';        /* Importa funções do dicionário       */
-import { initConcordanciaDropdowns } from './dropdown_concordancia.js';                           /* Importa configuração de dropdowns   */
+// Este bloco importa as funções necessárias dos módulos de concordância e dicionário.
+import {
+    onConcordanciaViewReady,
+    carregarDadosBaseConcordancia,
+    atualizarFiltroTestamento,
+    atualizarFiltroLivro,
+    executarBuscaGlobalConcordancia,
+    atualizarFiltroPalavra
+} from './concordancia.js';
+import { setupDicionarioView, carregarEDisplayDicionarioPorLetra } from './dicionario.js';
+import { initConcordanciaDropdowns } from './dropdown_concordancia.js';
 
-/* BLOCO: Executa inicialização quando DOM está completamente carregado */
-document.addEventListener('DOMContentLoaded', () => {                                              /* Aguarda carregamento completo       */
-    /* BLOCO: Mapeia elementos principais da interface */
-    const conteudoPrincipal = document.getElementById('conteudoPrincipal');                        /* Área principal de conteúdo          */
-    const inicial = document.getElementById('mensagem-inicial');                                   /* Mensagem de boas-vindas             */
-    const navConcordancia = document.getElementById('concordancia');                               /* Link de navegação concordância      */
-    const navDicionario = document.getElementById('dicionario');                                   /* Link de navegação dicionário        */
-    const menuAlfabetico = document.querySelector('.menu-alfabetico');                             /* Menu lateral de letras              */
+// Este bloco é executado quando o DOM está completamente carregado.
+document.addEventListener('DOMContentLoaded', () => {                             // Mapeia os elementos principais da interface.
+    const conteudoPrincipal = document.getElementById('conteudoPrincipal');
+    const inicial = document.getElementById('mensagem-inicial');
+    const navConcordancia = document.getElementById('concordancia');
+    const navDicionario = document.getElementById('dicionario');
+    const menuAlfabetico = document.querySelector('.menu-alfabetico');
 
-    /* BLOCO: Define caminhos para arquivos HTML e dados */
-    const TELA_CONCORDANCIA_PATH = 'concordancia.html';                                            /* Caminho do template concordância    */
-    const TELA_DICIONARIO_VIEW_PATH = 'dicionario.html';                                           /* Caminho do template dicionário      */
-    const CONCORDANCIA_DATA_BASE_PATH = '../concordancia/';                                        /* Caminho base dados concordância     */
-    const DICIONARIO_DATA_BASE_PATH_LOCAL = '/dicionario/';                                        /* Caminho base dados dicionário       */
+    // Este bloco define os caminhos para os arquivos HTML e de dados.
+    const TELA_CONCORDANCIA_PATH = 'concordancia.html';
+    const TELA_DICIONARIO_VIEW_PATH = 'dicionario.html';
+    const CONCORDANCIA_DATA_BASE_PATH = '../concordancia/';
+    const DICIONARIO_DATA_BASE_PATH_LOCAL = '/dicionario/';
 
-    /* BLOCO: Cria variáveis de estado para controlar view atual e letra ativa */
-    let currentView = null;                                                                        /* View atualmente exibida             */
-    let letraAtivaSidebar = null;                                                                  /* Letra selecionada no menu lateral   */
+    // Este bloco cria as variáveis de estado para controlar a view atual e a letra ativa.
+    let currentView = null;
+    let letraAtivaSidebar = null;
 
     // Este bloco contém funções utilitárias para manipular a interface.
     function clearActiveNav() {
-        document.querySelectorAll('nav .menu-opcoes li a.active').forEach(link => link.classList.remove('active'));    // Remove a classe 'active' de todos os links de navegação.
+        document.querySelectorAll('nav .menu-opcoes li a.active').forEach(link => link.classList.remove('active'));  // Remove a classe 'active' de todos os links de navegação.
     }
 
     function setActiveNav(navElement) {
-        if (navElement) navElement.classList.add('active');                                                            // Adiciona a classe 'active' a um link de navegação específico.
+        if (navElement) navElement.classList.add('active');                       // Adiciona a classe 'active' a um link de navegação específico.
     }
 
     function adjustMainContentMargin() {
@@ -52,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {                           
         const isSidebarVisible = currentView === 'concordance' || currentView === 'dictionary';
         const elementos = ['conteudoPrincipal', 'mensagem-inicial'].map(id => document.getElementById(id));
         elementos.forEach(el => {
-            if (el) el.style.marginLeft = isSidebarVisible ? `${sidebarWidth}px` : '0';                                // Ajusta a margem esquerda do conteúdo principal para acomodar o menu lateral.
+            if (el) el.style.marginLeft = isSidebarVisible ? `${sidebarWidth}px` : '0';  // Ajusta a margem esquerda do conteúdo principal para acomodar o menu lateral.
         });
     }
 
@@ -75,14 +73,14 @@ document.addEventListener('DOMContentLoaded', () => {                           
     async function loadView(viewPath, targetElement, onLoadedCallback) {
         if (!targetElement) return showInitialState();
         if (inicial) inicial.style.display = 'none';
-        targetElement.innerHTML = '<div class="loader-geral">Carregando...</div>';                                     // Exibe um loader.
+        targetElement.innerHTML = '<div class="loader-geral">Carregando...</div>';  // Exibe um loader.
 
         try {
             const response = await fetch(viewPath);
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             const html = await response.text();
             targetElement.innerHTML = html;
-            if (onLoadedCallback) onLoadedCallback();                                                                  // Executa o callback após a inserção do HTML.
+            if (onLoadedCallback) onLoadedCallback();                             // Executa o callback após a inserção do HTML.
         } catch (error) {
             targetElement.innerHTML = `<p class="erro-mensagem">${error.message}</p>`;
         }
@@ -100,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {                           
             if (!response.ok) throw new Error('Arquivo não encontrado.');
             const jsonData = await response.json();
             const wordEntries = jsonData[letra.toLowerCase()] || [];
-            carregarDadosBaseConcordancia(wordEntries);                                                                // Usa a função do módulo concordancia.js para processar os dados.
+            carregarDadosBaseConcordancia(wordEntries);                           // Usa a função do módulo concordancia.js para processar os dados.
         } catch (error) {
             resultadosConteiner.innerHTML = `<p class="erro-mensagem">${error.message}</p>`;
             carregarDadosBaseConcordancia([]);
@@ -114,9 +112,9 @@ document.addEventListener('DOMContentLoaded', () => {                           
             btn.addEventListener('click', () => {
                 menuAlfabetico.querySelectorAll('.letra-btn.active').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
-                letraAtivaSidebar = btn.dataset.letra;                                                                 // Atualiza a letra ativa.
+                letraAtivaSidebar = btn.dataset.letra;                            // Atualiza a letra ativa.
 
-                if (currentView === 'concordance') {                                                                   // Decide qual função chamar com base na view atual.
+                if (currentView === 'concordance') {                              // Decide qual função chamar com base na view atual.
                     const buscaGlobalInput = conteudoPrincipal.querySelector('.filtros-conteiner .search-input');
                     const filtroPalavraInput = conteudoPrincipal.querySelector('#filtro-palavra-input');
                     if (buscaGlobalInput) buscaGlobalInput.value = '';
@@ -126,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {                           
                     const buscaDicionarioInput = conteudoPrincipal.querySelector('#dicionarioSearchInput');
                     if (buscaDicionarioInput) buscaDicionarioInput.value = '';
                     if (window.dicionario && typeof window.dicionario.loadAndDisplayLetter === 'function') {
-                        window.dicionario.loadAndDisplayLetter(letraAtivaSidebar);                                     // Chama o método da instância do dicionário.
+                        window.dicionario.loadAndDisplayLetter(letraAtivaSidebar);  // Chama o método da instância do dicionário.
                     }
                 }
                 adjustMainContentMargin();
@@ -174,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {                           
 
     // Este bloco Callback executado após o carregamento da view do Dicionário.
     function onDicionarioViewLoadedAndReady() {
-        setupDicionarioView(letraAtivaSidebar);                                                                    // Configura a view do dicionário.
+        setupDicionarioView(letraAtivaSidebar);                                   // Configura a view do dicionário.
         if (letraAtivaSidebar) {
             const btnLetraAtiva = menuAlfabetico.querySelector(`.letra-btn[data-letra="${letraAtivaSidebar}"]`);
             if (btnLetraAtiva && !btnLetraAtiva.classList.contains('active')) btnLetraAtiva.classList.add('active');
@@ -187,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {                           
         if (currentView === 'concordance') return;
         clearActiveNav(); setActiveNav(navConcordancia); currentView = 'concordance';
         menuAlfabetico.style.display = 'flex'; adjustMainContentMargin();
-        loadView(TELA_CONCORDANCIA_PATH, conteudoPrincipal, onConcordanciaViewLoadedAndReady);                     // Carrega a view da concordância.
+        loadView(TELA_CONCORDANCIA_PATH, conteudoPrincipal, onConcordanciaViewLoadedAndReady);  // Carrega a view da concordância.
     });
 
     navDicionario.addEventListener('click', e => {
@@ -195,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {                           
         if (currentView === 'dictionary') return;
         clearActiveNav(); setActiveNav(navDicionario); currentView = 'dictionary';
         menuAlfabetico.style.display = 'flex'; adjustMainContentMargin();
-        loadView(TELA_DICIONARIO_VIEW_PATH, conteudoPrincipal, onDicionarioViewLoadedAndReady);                    // Carrega a view do dicionário.
+        loadView(TELA_DICIONARIO_VIEW_PATH, conteudoPrincipal, onDicionarioViewLoadedAndReady);  // Carrega a view do dicionário.
     });
 
     // Este bloco inicializa a aplicação.

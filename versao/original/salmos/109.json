@@ -1,6 +1,387 @@
 {
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+  "livro": "Salmos - תְּהִלִּים - Tehillim",
   "capítulo": 109,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Ó Deus do meu louvor, não te cales;",
+      "palavras": [
+        { "hebraico": "אֱלֹהֵ֥י", "transliteral": "ʾĕ-lō-hê", "traducao_palavra": "Deus de" },
+        { "hebraico": "תְ֝הִלָּתִ֗י", "transliteral": "ṯə-hil-lā-ṯî", "traducao_palavra": "meu louvor" },
+        { "hebraico": "אַֽל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "תֶּחֱרַֽשׁ׃", "transliteral": "te-ḥĕ-raš", "traducao_palavra": "te cales" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Pois a boca do ímpio e a boca do enganador se abriram contra mim; falaram contra mim com uma língua mentirosa.",
+      "palavras": [
+        { "hebraico": "כִּ֤י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "פִ֘י", "transliteral": "p̄î", "traducao_palavra": "boca de" },
+        { "hebraico": "רָשָׁ֨ע", "transliteral": "rā-šāʿ", "traducao_palavra": "ímpio" },
+        { "hebraico": "וּֽפִי־", "transliteral": "ū-p̄î-", "traducao_palavra": "e boca de" },
+        { "hebraico": "מִ֭רְמָה", "transliteral": "mir-mā", "traducao_palavra": "engano" },
+        { "hebraico": "עָלַ֣י", "transliteral": "ʿā-lay", "traducao_palavra": "contra mim" },
+        { "hebraico": "פָּתָ֑חוּ", "transliteral": "pā-ṯā-ḥû", "traducao_palavra": "abriram" },
+        { "hebraico": "דִּבְּר֥וּ", "transliteral": "dib-bə-rû", "traducao_palavra": "falaram" },
+        { "hebraico": "אִ֝תִּ֗י", "transliteral": "ʾit-tî", "traducao_palavra": "comigo" },
+        { "hebraico": "לְשֹׁ֣ון", "transliteral": "lə-šôn", "traducao_palavra": "[com] língua de" },
+        { "hebraico": "שָֽׁקֶר׃", "transliteral": "šā-qer", "traducao_palavra": "mentira" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Cercaram-me com palavras de ódio e pelejaram contra mim sem causa.",
+      "palavras": [
+        { "hebraico": "וְדִבְרֵי", "transliteral": "wə-ḏiḇ-rê", "traducao_palavra": "e [com] palavras de" },
+        { "hebraico": "שִׂנְאָ֥ה", "transliteral": "śin-ʾā", "traducao_palavra": "ódio" },
+        { "hebraico": "סְבָב֑וּנִי", "transliteral": "śə-ḇā-ḇû-nî", "traducao_palavra": "cercaram-me" },
+        { "hebraico": "וַיִּֽלָּחֲמ֥וּ", "transliteral": "way-yil-lā-ḥă-mû", "traducao_palavra": "e pelejaram" },
+        { "hebraico": "עִמִּ֥י", "transliteral": "ʿim-mî", "traducao_palavra": "comigo" },
+        { "hebraico": "חִנָּֽם׃", "transliteral": "ḥin-nām", "traducao_palavra": "sem causa" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Em recompensa do meu amor, são meus adversários; mas eu entrego-me à oração.",
+      "palavras": [
+        { "hebraico": "תַּחַת־", "transliteral": "ta-ḥaṯ-", "traducao_palavra": "em lugar de/em troca de" },
+        { "hebraico": "אַהֲבָתִ֥י", "transliteral": "ʾa-hă-ḇā-ṯî", "traducao_palavra": "meu amor" },
+        { "hebraico": "יִשְׂטְנ֥וּנִי", "transliteral": "yiś-ṭə-nû-nî", "traducao_palavra": "eles me acusam/são adversários" },
+        { "hebraico": "וַאֲנִ֥י", "transliteral": "wa-ʾă-nî", "traducao_palavra": "mas eu [sou]" },
+        { "hebraico": "תְפִלָּֽה׃", "transliteral": "ṯə-p̄il-lā", "traducao_palavra": "[toda] oração" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Retribuíram-me o mal pelo bem, e o ódio pelo meu amor.",
+      "palavras": [
+        { "hebraico": "וַיָּ֘שִׂ֤ימוּ", "transliteral": "way-yā-śî-mû", "traducao_palavra": "e puseram/retribuíram" },
+        { "hebraico": "עָלַי", "transliteral": "ʿā-lay", "traducao_palavra": "sobre mim" },
+        { "hebraico": "רָ֭עָה", "transliteral": "rā-ʿā", "traducao_palavra": "mal" },
+        { "hebraico": "תַּ֣חַת", "transliteral": "ta-ḥaṯ", "traducao_palavra": "em lugar de" },
+        { "hebraico": "טֹובָ֑ה", "transliteral": "ṭô-ḇā", "traducao_palavra": "bem" },
+        { "hebraico": "וְ֝שִׂנְאָ֗ה", "transliteral": "wə-śin-ʾā", "traducao_palavra": "e ódio" },
+        { "hebraico": "תַּ֣חַת", "transliteral": "ta-ḥaṯ", "traducao_palavra": "em lugar de" },
+        { "hebraico": "אַהֲבָתִֽי׃", "transliteral": "ʾa-hă-ḇā-ṯî", "traducao_palavra": "meu amor" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Põe sobre ele um ímpio, e que o adversário esteja à sua direita.",
+      "palavras": [
+        { "hebraico": "הַפְקֵ֣ד", "transliteral": "hap̄-qēḏ", "traducao_palavra": "põe/constitui" },
+        { "hebraico": "עָלָ֣יו", "transliteral": "ʿā-lāyw", "traducao_palavra": "sobre ele" },
+        { "hebraico": "רָשָׁ֑ע", "transliteral": "rā-šāʿ", "traducao_palavra": "[um] ímpio" },
+        { "hebraico": "וְ֝שָׂטָ֗ן", "transliteral": "wə-śā-ṭān", "traducao_palavra": "e [um] acusador/Satanás" },
+        { "hebraico": "יַעֲמֹ֥ד", "transliteral": "ya-ʿă-mōḏ", "traducao_palavra": "esteja/fique de pé" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre/à" },
+        { "hebraico": "יְמִינֹֽו׃", "transliteral": "yə-mî-nô", "traducao_palavra": "sua direita" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Quando for julgado, saia condenado; e a sua oração se lhe torne em pecado.",
+      "palavras": [
+        { "hebraico": "בְּ֭הִשָּׁפְטֹו", "transliteral": "bə-hiš-šā-p̄ə-ṭô", "traducao_palavra": "no ser ele julgado" },
+        { "hebraico": "יֵצֵ֣א", "transliteral": "yē-ṣē", "traducao_palavra": "saia" },
+        { "hebraico": "רָשָׁ֑ע", "transliteral": "rā-šāʿ", "traducao_palavra": "[como] culpado" },
+        { "hebraico": "וּ֝תְפִלָּתֹ֗ו", "transliteral": "ū-ṯə-p̄il-lā-ṯô", "traducao_palavra": "e a oração dele" },
+        { "hebraico": "תִּהְיֶ֥ה", "transliteral": "tih-yeh", "traducao_palavra": "torne-se/seja" },
+        { "hebraico": "לַחֲטָאָֽה׃", "transliteral": "la-ḥă-ṭā-ʾā", "traducao_palavra": "em pecado" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Sejam poucos os seus dias, e outro tome o seu encargo.",
+      "palavras": [
+        { "hebraico": "יִֽהְיוּ־", "transliteral": "yih-yû-", "traducao_palavra": "sejam" },
+        { "hebraico": "יָמָ֥יו", "transliteral": "yā-māyw", "traducao_palavra": "dias dele" },
+        { "hebraico": "מְעַטִּ֑ים", "transliteral": "mə-ʿaṭ-ṭîm", "traducao_palavra": "poucos" },
+        { "hebraico": "פְּקֻדָּתֹ֗ו", "transliteral": "pə-qud-dā-ṯô", "traducao_palavra": "o encargo dele/ofício" },
+        { "hebraico": "יִקַּ֥ח", "transliteral": "yiq-qaḥ", "traducao_palavra": "tome" },
+        { "hebraico": "אַחֵֽר׃", "transliteral": "ʾa-ḥēr", "traducao_palavra": "outro" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Fiquem órfãos os seus filhos, e viúva a sua mulher.",
+      "palavras": [
+        { "hebraico": "יִֽהְיוּ־", "transliteral": "yih-yû-", "traducao_palavra": "sejam" },
+        { "hebraico": "בָנָ֥יו", "transliteral": "ḇā-nāyw", "traducao_palavra": "filhos dele" },
+        { "hebraico": "יְתֹומִ֑ים", "transliteral": "yə-ṯô-mîm", "traducao_palavra": "órfãos" },
+        { "hebraico": "וְ֝אִשְׁתֹּ֗ו", "transliteral": "wə-ʾiš-tô", "traducao_palavra": "e mulher dele" },
+        { "hebraico": "אַלְמָנָֽה׃", "transliteral": "ʾal-mā-nā", "traducao_palavra": "viúva" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Andem errantes os seus filhos e mendiguem; e busquem o seu pão longe das suas casas assoladas.",
+      "palavras": [
+        { "hebraico": "וְנֹ֤ועַ", "transliteral": "wə-nô-aʿ", "traducao_palavra": "e vagueiem" },
+        { "hebraico": "יָנ֥וּעוּ", "transliteral": "yā-nû-ʿû", "traducao_palavra": "andem errantes" },
+        { "hebraico": "בָנָ֗יו", "transliteral": "ḇā-nāyw", "traducao_palavra": "filhos dele" },
+        { "hebraico": "וְשִׁאֵ֑לוּ", "transliteral": "wə-ši-ʾē-lû", "traducao_palavra": "e mendiguem" },
+        { "hebraico": "וְ֝דָרְשׁ֗וּ", "transliteral": "wə-ḏā-rə-šû", "traducao_palavra": "e busquem" },
+        { "hebraico": "מֵחָרְבֹותֵיהֶֽם׃", "transliteral": "mē-ḥā-rə-ḇô-ṯê-hem", "traducao_palavra": "das suas ruínas" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "O credor lance mão de tudo quanto tenha, e os estranhos saquem o seu trabalho.",
+      "palavras": [
+        { "hebraico": "יְנַקֵּ֣שׁ", "transliteral": "yə-naq-qēš", "traducao_palavra": "lance a rede/mão" },
+        { "hebraico": "נֹ֭שֶׁה", "transliteral": "nō-šeh", "traducao_palavra": "[o] credor" },
+        { "hebraico": "לְכָל־", "transliteral": "lə-ḵāl-", "traducao_palavra": "em tudo" },
+        { "hebraico": "אֲשֶׁר־", "transliteral": "ʾă-šer-", "traducao_palavra": "que" },
+        { "hebraico": "לֹ֑ו", "transliteral": "lô", "traducao_palavra": "[há] para ele" },
+        { "hebraico": "וְיָבֹזּ֖וּ", "transliteral": "wə-yā-ḇōz-zû", "traducao_palavra": "e saquem/roubem" },
+        { "hebraico": "זָרִ֣ים", "transliteral": "zā-rîm", "traducao_palavra": "estranhos" },
+        { "hebraico": "יְגִיעֹֽו׃", "transliteral": "yə-ḡî-ʿô", "traducao_palavra": "o fruto do trabalho dele" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Não haja ninguém que se compadeça dele, nem haja quem favoreça os seus órfãos.",
+      "palavras": [
+        { "hebraico": "אַל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "יְהִי־", "transliteral": "yə-hî-", "traducao_palavra": "haja" },
+        { "hebraico": "לֹ֭ו", "transliteral": "lô", "traducao_palavra": "para ele" },
+        { "hebraico": "מֹשֵׁ֣ךְ", "transliteral": "mō-šēḵ", "traducao_palavra": "estendendo/mantendo" },
+        { "hebraico": "חָ֑סֶד", "transliteral": "ḥā-śeḏ", "traducao_palavra": "misericórdia" },
+        { "hebraico": "וְאַל־", "transliteral": "wə-ʾal-", "traducao_palavra": "e não" },
+        { "hebraico": "יְהִ֥י", "transliteral": "yə-hî", "traducao_palavra": "haja" },
+        { "hebraico": "חֹ֝ונֵ֗ן", "transliteral": "ḥô-nên", "traducao_palavra": "favorecendo/tendo graça" },
+        { "hebraico": "לִיתֹומָֽיו׃", "transliteral": "lî-ṯô-māyw", "traducao_palavra": "aos seus órfãos" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Seja a sua posteridade exterminada; na geração seguinte se apague o seu nome.",
+      "palavras": [
+        { "hebraico": "יְהִֽי־", "transliteral": "yə-hî-", "traducao_palavra": "seja" },
+        { "hebraico": "אַחֲרִיתֹ֥ו", "transliteral": "ʾa-ḥă-rî-ṯô", "traducao_palavra": "o futuro/posteridade dele" },
+        { "hebraico": "לְהַכְרִ֑ית", "transliteral": "lə-haḵ-rîṯ", "traducao_palavra": "para o extermínio" },
+        { "hebraico": "בְּדֹ֥ור", "transliteral": "bə-ḏôr", "traducao_palavra": "na geração" },
+        { "hebraico": "אַ֝חֵ֗ר", "transliteral": "ʾa-ḥēr", "traducao_palavra": "seguinte/outra" },
+        { "hebraico": "יִמַּ֥ח", "transliteral": "yim-maḥ", "traducao_palavra": "seja apagado" },
+        { "hebraico": "שְׁמָֽם׃", "transliteral": "šə-mām", "traducao_palavra": "nome deles" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Lembre-se YHWH da iniquidade de seus pais, e não se apague o pecado de sua mãe.",
+      "palavras": [
+        { "hebraico": "יִזָּכֵ֤ר ׀", "transliteral": "yiz-zā-ḵēr", "traducao_palavra": "seja lembrada" },
+        { "hebraico": "עֲוֹ֣ן", "transliteral": "ʿă-wōn", "traducao_palavra": "[a] iniquidade de" },
+        { "hebraico": "אֲ֭בֹתָיו", "transliteral": "ʾă-ḇô-ṯāyw", "traducao_palavra": "pais dele" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "perante/a" },
+        { "hebraico": "יְהוָ֑ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וְחַטַּ֥את", "transliteral": "wə-ḥaṭ-ṭaṯ", "traducao_palavra": "e o pecado de" },
+        { "hebraico": "אִ֝מֹּ֗ו", "transliteral": "ʾim-mô", "traducao_palavra": "mãe dele" },
+        { "hebraico": "אַל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "תִּמָּֽח׃", "transliteral": "tim-māḥ", "traducao_palavra": "seja apagado" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "Estejam sempre perante YHWH, para que ele desarraigue a sua memória da terra.",
+      "palavras": [
+        { "hebraico": "יִהְי֧וּ", "transliteral": "yih-yû", "traducao_palavra": "estejam" },
+        { "hebraico": "נֶֽגֶד־", "transliteral": "ne-ḡeḏ-", "traducao_palavra": "diante de" },
+        { "hebraico": "יְהוָ֥ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "תָּמִ֑יד", "transliteral": "tā-mîḏ", "traducao_palavra": "continuamente" },
+        { "hebraico": "וְיַכְרֵ֥ת", "transliteral": "wə-yaḵ-rēt", "traducao_palavra": "e corte/extirpe" },
+        { "hebraico": "מֵ֝אֶ֗רֶץ", "transliteral": "mē-ʾe-reṣ", "traducao_palavra": "da terra" },
+        { "hebraico": "זִכְרָֽם׃", "transliteral": "ziḵ-rām", "traducao_palavra": "memória deles" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Porquanto não se lembrou de usar de misericórdia; antes perseguiu o homem pobre e necessitado, para matar o quebrantado de coração.",
+      "palavras": [
+        { "hebraico": "יַ֭עַן", "transliteral": "ya-ʿan", "traducao_palavra": "porquanto" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "זָכַ֪ר", "transliteral": "zā-ḵar", "traducao_palavra": "lembrou-se de" },
+        { "hebraico": "עֲשֹׂ֪ות", "transliteral": "ʿă-śôṯ", "traducao_palavra": "fazer/usar" },
+        { "hebraico": "חָ֥סֶד", "transliteral": "ḥā-śeḏ", "traducao_palavra": "misericórdia" },
+        { "hebraico": "וַיִּרְדֹּ֡ף", "transliteral": "way-yir-dōp̄", "traducao_palavra": "e perseguiu" },
+        { "hebraico": "אִֽישׁ־", "transliteral": "ʾîš-", "traducao_palavra": "[o] homem" },
+        { "hebraico": "עָנִ֣י", "transliteral": "ʿā-nî", "traducao_palavra": "pobre" },
+        { "hebraico": "וְאֶבְיֹון", "transliteral": "wə-ʾeḇ-yôn", "traducao_palavra": "e necessitado" },
+        { "hebraico": "וְנִכְאֵ֨ה", "transliteral": "wə-niḵ-ʾē", "traducao_palavra": "e o abatido/quebrantado de" },
+        { "hebraico": "לֵבָ֬ב", "transliteral": "lē-ḇāḇ", "traducao_palavra": "coração" },
+        { "hebraico": "לְמֹותֵֽת", "transliteral": "lə-mô-ṯēṯ", "traducao_palavra": "para matar" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "Amou a maldição, e ela lhe sobreveio; não desejou a bênção, e ela se afastou dele.",
+      "palavras": [
+        { "hebraico": "וַיֶּאֱהַ֣ב", "transliteral": "way-ye-ʾĕ-haḇ", "traducao_palavra": "e amou" },
+        { "hebraico": "קְ֭לָלָה", "transliteral": "qə-lā-lā", "traducao_palavra": "[a] maldição" },
+        { "hebraico": "וַתְּבֹואֵ֑הוּ", "transliteral": "wat-tə-ḇô-ʾê-hû", "traducao_palavra": "e veio a ele" },
+        { "hebraico": "וְֽלֹא־", "transliteral": "wə-lō-", "traducao_palavra": "e não" },
+        { "hebraico": "חָפֵ֥ץ", "transliteral": "ḥā-p̄ēṣ", "traducao_palavra": "desejou" },
+        { "hebraico": "בִּ֝בְרָכָ֗ה", "transliteral": "biḇ-rā-ḵā", "traducao_palavra": "a bênção" },
+        { "hebraico": "וַתִּרְחַ֥ק", "transliteral": "wat-tir-ḥaq", "traducao_palavra": "e afastou-se" },
+        { "hebraico": "מִמֶּֽנּוּ", "transliteral": "mim-men-nû", "traducao_palavra": "dele" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "Vestiu-se de maldição como de uma túnica, e ela entrou como água nas suas entranhas e como azeite nos seus ossos.",
+      "palavras": [
+        { "hebraico": "וַיִּלְבַּ֥שׁ", "transliteral": "way-yil-baš", "traducao_palavra": "e vestiu" },
+        { "hebraico": "קְלָלָ֗ה", "transliteral": "qə-lā-lā", "traducao_palavra": "maldição" },
+        { "hebraico": "כְּמַדֹּ֑ו", "transliteral": "kə-mad-dô", "traducao_palavra": "como sua veste/túnica" },
+        { "hebraico": "וַתָּבֹ֣א", "transliteral": "wat-tā-ḇō", "traducao_palavra": "e entrou" },
+        { "hebraico": "כַמַּ֣יִם", "transliteral": "ḵam-ma-yim", "traducao_palavra": "como água" },
+        { "hebraico": "בְּקִרְבֹּ֑ו", "transliteral": "bə-qir-bô", "traducao_palavra": "no íntimo dele" },
+        { "hebraico": "וְ֝כַשֶּׁ֗מֶן", "transliteral": "wə-ḵaš-še-men", "traducao_palavra": "e como azeite" },
+        { "hebraico": "בְּעַצְמֹותָֽיו׃", "transliteral": "bə-ʿaṣ-mô-ṯāyw", "traducao_palavra": "em seus ossos" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "Seja-lhe como a veste que o cobre e como o cinto com que sempre se cinge.",
+      "palavras": [
+        { "hebraico": "תְּהִי־", "transliteral": "tə-hî-", "traducao_palavra": "seja" },
+        { "hebraico": "לֹ֭ו", "transliteral": "lô", "traducao_palavra": "a ele" },
+        { "hebraico": "כְּבֶ֣גֶד", "transliteral": "kə-ḇe-ḡeḏ", "traducao_palavra": "como veste" },
+        { "hebraico": "יַעְטֶ֑ה", "transliteral": "ya-ʿə-ṭeh", "traducao_palavra": "[que] ele cobre-se" },
+        { "hebraico": "וּ֝לְמֵ֗זַח", "transliteral": "ū-lə-mē-zaḥ", "traducao_palavra": "e por cinto" },
+        { "hebraico": "תָּמִ֥יד", "transliteral": "tā-mîḏ", "traducao_palavra": "sempre" },
+        { "hebraico": "יַחְגְּרֶֽהָ׃", "transliteral": "yaḥ-gə-re-hā", "traducao_palavra": "se cinge com ele" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "Tal seja, da parte de YHWH, o galardão dos meus adversários e dos que falam mal contra a minha alma.",
+      "palavras": [
+        { "hebraico": "זֹאת", "transliteral": "zōṯ", "traducao_palavra": "esta [seja]" },
+        { "hebraico": "פְּעֻלַּ֬ת", "transliteral": "pə-ʿul-laṯ", "traducao_palavra": "a recompensa/obra de" },
+        { "hebraico": "שֹׂטְנַ֫י", "transliteral": "śō-ṭə-nay", "traducao_palavra": "meus adversários" },
+        { "hebraico": "מֵאֵ֣ת", "transliteral": "mē-ʾēṯ", "traducao_palavra": "da parte de" },
+        { "hebraico": "יְהוָ֑ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וְהַדֹּבְרִ֥ים", "transliteral": "wə-had-dō-ḇə-rîm", "traducao_palavra": "e dos que falam" },
+        { "hebraico": "רָ֝֗ע", "transliteral": "rāʿ", "traducao_palavra": "mal" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "contra" },
+        { "hebraico": "נַפְשִֽׁי׃", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "Mas tu, ó DEUS Senhor, age por mim, por amor do teu nome; porque a tua misericórdia é boa, livra-me.",
+      "palavras": [
+        { "hebraico": "וְאַתָּ֤ה", "transliteral": "wə-ʾat-tā", "traducao_palavra": "mas tu" },
+        { "hebraico": "יְהוִ֨ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֲדֹנָי֮", "transliteral": "ʾă-ḏō-nāy", "traducao_palavra": "Senhor" },
+        { "hebraico": "עֲשֵׂה־", "transliteral": "ʿă-śēh-", "traducao_palavra": "age/trata" },
+        { "hebraico": "אִ֭תִּי", "transliteral": "ʾit-tî", "traducao_palavra": "comigo" },
+        { "hebraico": "לְמַ֣עַen", "transliteral": "lə-ma-ʿan", "traducao_palavra": "por causa de" },
+        { "hebraico": "שְׁמֶ֑ךָ", "transliteral": "šə-me-ḵā", "traducao_palavra": "teu nome" },
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "טֹ֥וב", "transliteral": "ṭôᇀ", "traducao_palavra": "boa [é]" },
+        { "hebraico": "חַ֝סְדְּךָ֗", "transliteral": "ḥas-də-ḵā", "traducao_palavra": "tua misericórdia" },
+        { "hebraico": "הַצִּילֵֽנִי׃", "transliteral": "haṣ-ṣî-lê-nî", "traducao_palavra": "livra-me" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "Porque estou pobre e necessitado, e o meu coração está ferido dentro de mim.",
+      "palavras": [
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "עָנִ֣י", "transliteral": "ʿā-nî", "traducao_palavra": "pobre" },
+        { "hebraico": "וְאֶבְיֹ֣ון", "transliteral": "wə-ʾeḇ-yôn", "traducao_palavra": "e necessitado" },
+        { "hebraico": "אֳָנֹ֑כִי", "transliteral": "ʾā-nō-ḵî", "traducao_palavra": "[sou] eu" },
+        { "hebraico": "וְ֝לִבִּ֗י", "transliteral": "wə-lib-bî", "traducao_palavra": "e meu coração" },
+        { "hebraico": "חָלַ֥ל", "transliteral": "ḥā-lal", "traducao_palavra": "está ferido/atravessado" },
+        { "hebraico": "בְּקִרְבִּֽי׃", "transliteral": "bə-qir-bî", "traducao_palavra": "dentro de mim" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "Vou-me como a sombra que declina; sou sacudido como o gafanhoto.",
+      "palavras": [
+        { "hebraico": "כְּצֵל־", "transliteral": "kə-ṣēl-", "traducao_palavra": "como sombra" },
+        { "hebraico": "כִּנְטֹותֹ֥ו", "transliteral": "kin-ṭô-ṯô", "traducao_palavra": "quando declina" },
+        { "hebraico": "נֶהֱלָ֑כְתִּי", "transliteral": "ne-hĕ-lāḵ-tî", "traducao_palavra": "fui me/passo" },
+        { "hebraico": "נִ֝נְעַarrayְתִּי", "transliteral": "nin-ʿar-tî", "traducao_palavra": "fui sacudido" },
+        { "hebraico": "כָּאַרְבֶּֽה׃", "transliteral": "kā-ʾar-beh", "traducao_palavra": "como gafanhoto" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "Os meus joelhos estão enfraquecidos pelo jejum, e a minha carne desfalecida de gordura.",
+      "palavras": [
+        { "hebraico": "בִּ֭רְכַּי", "transliteral": "bir-kay", "traducao_palavra": "meus joelhos" },
+        { "hebraico": "כָּשְׁל֣וּ", "transliteral": "kā-šə-lû", "traducao_palavra": "vacilaram/tropeçaram" },
+        { "hebraico": "מִצֹּ֑ום", "transliteral": "miṣ-ṣôm", "traducao_palavra": "pelo jejum" },
+        { "hebraico": "וּ֝בְשָׂרִ֗י", "transliteral": "ū-ḇə-śā-rî", "traducao_palavra": "e minha carne" },
+        { "hebraico": "כָּחַ֥שׁ", "transliteral": "kā-ḥaš", "traducao_palavra": "definhou/falhou" },
+        { "hebraico": "מִשָּֽׁמֶן׃", "transliteral": "miš-šā-men", "traducao_palavra": "de gordura" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "Tornei-me para eles um opróbrio; quando me viram, menearam a cabeça.",
+      "palavras": [
+        { "hebraico": "וַאֲנִ֤י ׀", "transliteral": "wa-ʾă-nî", "traducao_palavra": "e eu" },
+        { "hebraico": "הָיִ֣יתִי", "transliteral": "hā-yî-ṯî", "traducao_palavra": "tornei-me" },
+        { "hebraico": "חֶרְפָּ֣ה", "transliteral": "ḥer-pā", "traducao_palavra": "[um] opróbrio" },
+        { "hebraico": "לָהֶ֑ם", "transliteral": "lā-hem", "traducao_palavra": "para eles" },
+        { "hebraico": "יִ֝רְא֗וּנִי", "transliteral": "yir-ʾû-nî", "traducao_palavra": "viram me" },
+        { "hebraico": "יְנִיע֥וּן", "transliteral": "yə-nî-ʿûn", "traducao_palavra": "balançaram/menearam" },
+        { "hebraico": "רֹאשָֽׁם׃", "transliteral": "rō-šām", "traducao_palavra": "cabeça deles" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "Ajuda-me, YHWH Deus meu, salva-me segundo a tua misericórdia.",
+      "palavras": [
+        { "hebraico": "עָ֭זְרֵנִי", "transliteral": "ʿā-zə-rē-nî", "traducao_palavra": "ajuda-me" },
+        { "hebraico": "יְהוָ֣ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֱלֹהָ֑י", "transliteral": "ʾĕ-lō-hāy", "traducao_palavra": "Deus meu" },
+        { "hebraico": "הֹושִׁיאֵ֣נִי", "transliteral": "hô-šî-ʿē-nî", "traducao_palavra": "salva-me" },
+        { "hebraico": "כְחַסְדֶּֽךָ׃", "transliteral": "ḵə-ḥas-de-ḵā", "traducao_palavra": "conforme tua misericórdia" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "Para que saibam que esta é a tua mão, e que tu, YHWH, o fizeste.",
+      "palavras": [
+        { "hebraico": "וְ֭יֵֽדְעוּ", "transliteral": "wə-yē-ḏə-ʿû", "traducao_palavra": "e saibam" },
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "que" },
+        { "hebraico": "יָ֣דְךָ", "transliteral": "yā-ḏə-ḵā", "traducao_palavra": "tua mão" },
+        { "hebraico": "זֹּ֑את", "transliteral": "zōṯ", "traducao_palavra": "[é] esta" },
+        { "hebraico": "אַתָּ֖ה", "transliteral": "ʾat-tā", "traducao_palavra": "tu" },
+        { "hebraico": "יְהוָ֣ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "עֲשִׂיתָֽהּ׃", "transliteral": "ʿă-śî-ṯāh", "traducao_palavra": "fizeste-a" }
+      ]
+    },
+    "28": {
+      "traducao_completa": "Amaldiçoem eles, mas abençoa tu; quando se levantarem, sejam envergonhados; mas alegre-se o teu servo.",
+      "palavras": [
+        { "hebraico": "יְקַֽלְלוּ־", "transliteral": "yə-qal-lû-", "traducao_palavra": "amaldiçoem" },
+        { "hebraico": "הֵמָּה֮", "transliteral": "hēm-mā", "traducao_palavra": "eles" },
+        { "hebraico": "וְאַתָּ֪ה", "transliteral": "wə-ʾat-tā", "traducao_palavra": "mas tu" },
+        { "hebraico": "תְבָ֫רֵ֥ךְ", "transliteral": "ṯə-ḇā-rēḵ", "traducao_palavra": "abençoa" },
+        { "hebraico": "קָ֤מוּ", "transliteral": "qā-mû", "traducao_palavra": "[se] levantarem" },
+        { "hebraico": "וַיֵּבֹ֗שׁוּ", "transliteral": "way-yē-ḇō-šû", "traducao_palavra": "e sejam envergonhados" },
+        { "hebraico": "וְעַבְדְּךָ֥", "transliteral": "wə-ʿaḇ-də-ḵā", "traducao_palavra": "mas teu servo" },
+        { "hebraico": "יִשְׂמָֽח׃", "transliteral": "yiś-māḥ", "traducao_palavra": "alegrar-se-á" }
+      ]
+    },
+    "29": {
+      "traducao_completa": "Vistam-se os meus adversários de ignomínia, e cubram-se com a sua própria vergonha como com uma túnica.",
+      "palavras": [
+        { "hebraico": "יִלְבְּשׁ֣וּ", "transliteral": "yil-bə-šû", "traducao_palavra": "vistam-se" },
+        { "hebraico": "שֹׂוטְנַ֣י", "transliteral": "śô-ṭə-nay", "traducao_palavra": "meus adversários" },
+        { "hebraico": "כְּלִמָּ֑ה", "transliteral": "ḵə-lim-mā", "traducao_palavra": "[de] ignomínia" },
+        { "hebraico": "וְיַעֲט֨וּ", "transliteral": "wə-ya-ʿă-ṭû", "traducao_palavra": "e cubram-se" },
+        { "hebraico": "כַמְעִ֖יל", "transliteral": "ḵam-ʿîl", "traducao_palavra": "como capa/túnica" },
+        { "hebraico": "בָּשְׁתָּֽם׃", "transliteral": "bāš-tām", "traducao_palavra": "[de] vergonha deles" }
+      ]
+    },
+    "30": {
+      "traducao_completa": "Muitas graças darei a YHWH com a minha boca; louvá-lo-ei no meio da multidão.",
+      "palavras": [
+        { "hebraico": "אֹודֶ֣ה", "transliteral": "ʾô-ḏeh", "traducao_palavra": "agradecerei" },
+        { "hebraico": "יְהוָ֣ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "מְאֹ֣ד", "transliteral": "mə-ʾōḏ", "traducao_palavra": "muito" },
+        { "hebraico": "בְּפִ֑י", "transliteral": "bə-p̄î", "traducao_palavra": "com minha boca" },
+        { "hebraico": "וּבְתֹ֖וךְ", "transliteral": "ū-ḇə-ṯôḵ", "traducao_palavra": "e no meio de" },
+        { "hebraico": "רַבִּ֣ים", "transliteral": "rab-bîm", "traducao_palavra": "muitos" },
+        { "hebraico": "אֲהַלְלֶֽנּוּ׃", "transliteral": "ʾă-hal-le-nû", "traducao_palavra": "louvarei ele" }
+      ]
+    },
+    "31": {
+      "traducao_completa": "Pois ele se porá à direita do pobre, para o salvar dos que condenam a sua alma.",
+      "palavras": [
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "יַ֭עֲמֹד", "transliteral": "ya-ʿă-mōḏ", "traducao_palavra": "ele se porá" },
+        { "hebraico": "לִימִ֣ין", "transliteral": "lî-mîn", "traducao_palavra": "à direita de" },
+        { "hebraico": "אֶבְיֹ֑ון", "transliteral": "ʾeḇ-yôn", "traducao_palavra": "[do] necessitado" },
+        { "hebraico": "לְ֝הֹושִׁ֗יעַ", "transliteral": "lə-hô-šî-aʿ", "traducao_palavra": "para salvar" },
+        { "hebraico": "מִשֹּׁפְטֵ֥י", "transliteral": "miš-šō-p̄ə-ṭê", "traducao_palavra": "dos juízes/condenadores de" },
+        { "hebraico": "נַפְשֹֽׁו׃", "transliteral": "nap̄-šô", "traducao_palavra": "alma dele" }
+      ]
+    }
+  }
 }

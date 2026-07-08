@@ -1,15 +1,16 @@
 /*===============================================================================*/
 /*                      MÓDULO DE INTERFACE DA JANELA SLIDE                      */
 /*===============================================================================*/
-/*           Este módulo contém:                                                 */
-/*                             - Geração do HTML da janela pop-up                */
-/*                             - Todo o JavaScript que roda dentro da janela     */
-/*                             - Navegação, carregamento e eventos da interface  */
+/*                              Este módulo contém:                              */
+/*                      - Geração do HTML da janela pop-up                       */
+/*                 - Todo o JavaScript que roda dentro da janela                 */
+/*               - Navegação, carregamento e eventos da interface                */
 /*===============================================================================*/
 
-console.log("[slide_biblia_interface.js] Script iniciado.")                                                                  /* Log de inicialização do módulo      */
+console.log("[slide_biblia_interface.js] Script iniciado.")                       // Log de inicialização do módulo
 
-/* BLOCO: Função que constrói a estrutura completa da interface do slide, injetando dados e lógica de navegação            */
+/* BLOCO: Função que constrói a estrutura completa da interface do slide,        */
+/* injetando dados e lógica de navegação                                         */
 function gerarHtmlJanelaSlide(
     livroAtual,
     capituloAtual,
@@ -312,14 +313,16 @@ function gerarHtmlJanelaSlide(
 </html>`;
 }
 
-/* BLOCO: Função que realiza a escrita física do código gerado no documento da janela pop-up e encerra o fluxo             */
+/* BLOCO: Função que realiza a escrita física do código gerado no documento da   */
+/* janela pop-up e encerra o fluxo                                               */
 function escreverHtmlNaJanela(janela, html) {
-    janela.document.open();                                                                                                  /* Inicia abertura de fluxo de escrita */
-    janela.document.write(html);                                                                                             /* Transmite o conteúdo serializado    */
-    janela.document.close();                                                                                                 /* Finaliza e renderiza o conteúdo     */
-    console.log("[slide_biblia_interface.js] Conteúdo escrito na janela do slide.");                                         /* Log de sucesso operacional          */
+    janela.document.open();                                                       // Inicia abertura de fluxo de escrita
+    janela.document.write(html);                                                  // Transmite o conteúdo serializado
+    janela.document.close();                                                      // Finaliza e renderiza o conteúdo
+    console.log("[slide_biblia_interface.js] Conteúdo escrito na janela do slide.");  // Log de sucesso operacional
 }
 
-/* BLOCO: Define as exportações globais para que outros módulos possam invocar a geração e escrita da interface            */
-window.gerarHtmlJanelaSlide = gerarHtmlJanelaSlide;                                                                          /* Exporta o motor de geração          */
-window.escreverHtmlNaJanela = escreverHtmlNaJanela;                                                                          /* Exporta o motor de escrita          */
+/* BLOCO: Define as exportações globais para que outros módulos possam invocar   */
+/* a geração e escrita da interface                                              */
+window.gerarHtmlJanelaSlide = gerarHtmlJanelaSlide;                               // Exporta o motor de geração
+window.escreverHtmlNaJanela = escreverHtmlNaJanela;                               // Exporta o motor de escrita

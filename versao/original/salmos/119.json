@@ -1,6 +1,1949 @@
 {
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+  "livro": "Salmos - תְּהִלִּים - Tehillim",
   "capítulo": 119,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Bem-aventurados os íntegros no caminho, que andam na lei de YHWH.",
+      "palavras": [
+        { "hebraico": "אַשְׁרֵי", "transliteral": "ʾaš-rê", "traducao_palavra": "bem-aventurados" },
+        { "hebraico": "תְמִֽימֵי־", "transliteral": "ṯə-mî-mê-", "traducao_palavra": "os íntegros de" },
+        { "hebraico": "דָ֑רֶךְ", "transliteral": "ḏā-reḵ", "traducao_palavra": "caminho" },
+        { "hebraico": "הַֽ֝הֹלְכִ֗ים", "transliteral": "ha-hō-lə-ḵîm", "traducao_palavra": "os que andam" },
+        { "hebraico": "בְּתֹורַ֥ת", "transliteral": "bə-ṯô-raṯ", "traducao_palavra": "na lei de" },
+        { "hebraico": "יְהוָֽה׃", "transliteral": "YHWH", "traducao_palavra": "YHWH" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Bem-aventurados os que guardam os seus testemunhos, e que o buscam de todo o coração.",
+      "palavras": [
+        { "hebraico": "אַ֭שְׁרֵי", "transliteral": "ʾaš-rê", "traducao_palavra": "bem-aventurados" },
+        { "hebraico": "נֹצְרֵ֥י", "transliteral": "nō-ṣə-rê", "traducao_palavra": "[os que] guardam" },
+        { "hebraico": "עֵדֹתָ֑יו", "transliteral": "ʿē-ḏō-ṯāyw", "traducao_palavra": "testemunhos dele" },
+        { "hebraico": "בְּכָל־", "transliteral": "bə-ḵāl-", "traducao_palavra": "com todo" },
+        { "hebraico": "לֵ֥ב", "transliteral": "lēḇ", "traducao_palavra": "coração" },
+        { "hebraico": "יִדְרְשֽׁוּהוּ׃", "transliteral": "yiḏ-rə-šû-hû", "traducao_palavra": "buscam no" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "E não praticam iniquidade, mas andam em seus caminhos.",
+      "palavras": [
+        { "hebraico": "אַף", "transliteral": "ʾap̄", "traducao_palavra": "também/além disso" },
+        { "hebraico": "לֹֽא־", "transliteral": "lō-", "traducao_palavra": "não" },
+        { "hebraico": "פָעֲל֥וּ", "transliteral": "p̄ā-ʿă-lû", "traducao_palavra": "praticaram" },
+        { "hebraico": "עַוְלָ֑ה", "transliteral": "ʿaw-lā", "traducao_palavra": "iniquidade" },
+        { "hebraico": "בִּדְרָכָ֥יו", "transliteral": "biḏ-rā-ḵāyw", "traducao_palavra": "nos caminhos dele" },
+        { "hebraico": "הָלָֽכוּ׃", "transliteral": "hā-lā-ḵû", "traducao_palavra": "andaram" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Tu ordenaste os teus preceitos, para que fossem guardados diligentemente.",
+      "palavras": [
+        { "hebraico": "אַ֭תָּה", "transliteral": "ʾat-tā", "traducao_palavra": "tu" },
+        { "hebraico": "צִוִּ֥יתָה", "transliteral": "ṣiw-wî-ṯā", "traducao_palavra": "ordenaste" },
+        { "hebraico": "פִקֻּדֶ֗יךָ", "transliteral": "p̄iq-qu-ḏey-ḵā", "traducao_palavra": "teus preceitos" },
+        { "hebraico": "לִשְׁמֹ֥ר", "transliteral": "liš-mōr", "traducao_palavra": "para guardar" },
+        { "hebraico": "מְאֹֽד׃", "transliteral": "mə-ʾōḏ", "traducao_palavra": "muito/diligentemente" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Oxalá que os meus caminhos fossem dirigidos para guardarem os teus estatutos!",
+      "palavras": [
+        { "hebraico": "אַ֭חֲלַי", "transliteral": "ʾa-ḥă-lay", "traducao_palavra": "oxalá/quem dera" },
+        { "hebraico": "יִכֹּ֣נוּ", "transliteral": "yik-kō-nû", "traducao_palavra": "fossem firmados" },
+        { "hebraico": "דְרָכָ֑י", "transliteral": "ḏə-rā-ḵāy", "traducao_palavra": "meus caminhos" },
+        { "hebraico": "לִשְׁמֹ֥ר", "transliteral": "liš-mōr", "traducao_palavra": "para guardar" },
+        { "hebraico": "חֻקֶּֽיךָ׃", "transliteral": "ḥuq-qey-ḵā", "traducao_palavra": "teus estatutos" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Então não seria envergonhado, ao atentar para todos os teus mandamentos.",
+      "palavras": [
+        { "hebraico": "אָ֥ז", "transliteral": "ʾāz", "traducao_palavra": "então" },
+        { "hebraico": "לֹא־", "transliteral": "lō-", "traducao_palavra": "não" },
+        { "hebraico": "אֵבֹ֑ושׁ", "transliteral": "ʾē-ḇôš", "traducao_palavra": "seria envergonhado" },
+        { "hebraico": "בְּ֝הַבִּיטִ֗י", "transliteral": "bə-hab-bî-ṭî", "traducao_palavra": "no meu olhar/atentar" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "para" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todos" },
+        { "hebraico": "מִצְוֹתֶֽיךָ׃", "transliteral": "miṣ-wō-ṯey-ḵā", "traducao_palavra": "teus mandamentos" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Louvar-te-ei com retidão de coração quando tiver aprendido os teus justos juízos.",
+      "palavras": [
+        { "hebraico": "אֹ֭ודְךָ", "transliteral": "ʾô-ḏə-ḵā", "traducao_palavra": "louvar-te-ei" },
+        { "hebraico": "בְּיֹ֣שֶׁר", "transliteral": "bə-yō-šer", "traducao_palavra": "com retidão de" },
+        { "hebraico": "לֵבָ֑ב", "transliteral": "lē-ḇāḇ", "traducao_palavra": "coração" },
+        { "hebraico": "בְּ֝לָמְדִ֗י", "transliteral": "bə-lā-mə-ḏî", "traducao_palavra": "no meu aprender" },
+        { "hebraico": "מִשְׁפְּטֵ֥י", "transliteral": "miš-pə-ṭê", "traducao_palavra": "juízos de" },
+        { "hebraico": "צִדְקֶֽךָ׃", "transliteral": "ṣiḏ-qe-ḵā", "traducao_palavra": "tua justiça" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Guardarei os teus estatutos; não me desampares totalmente.",
+      "palavras": [
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "[objeto]" },
+        { "hebraico": "חֻקֶּ֥יךָ", "transliteral": "ḥuq-qey-ḵā", "traducao_palavra": "teus estatutos" },
+        { "hebraico": "אֶשְׁמֹ֑ר", "transliteral": "ʾeš-mōr", "traducao_palavra": "guardarei" },
+        { "hebraico": "אַל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "תַּעַזְבֵ֥נִי", "transliteral": "ta-ʿaz-ḇē-nî", "traducao_palavra": "me abandones" },
+        { "hebraico": "עַד־", "transliteral": "ʿaḏ-", "traducao_palavra": "até" },
+        { "hebraico": "מְאֹֽד׃", "transliteral": "mə-ʾōḏ", "traducao_palavra": "o extremo/totalmente" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Como purificará o jovem o seu caminho? Observando-o conforme a tua palavra.",
+      "palavras": [
+        { "hebraico": "בַּמֶּ֣ה", "transliteral": "bam-meh", "traducao_palavra": "com o quê/como" },
+        { "hebraico": "יְזַכֶּה־", "transliteral": "yə-zak-keh-", "traducao_palavra": "purificará" },
+        { "hebraico": "נַּ֭עַר", "transliteral": "na-ʿar", "traducao_palavra": "[o] jovem" },
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "[objeto]" },
+        { "hebraico": "אָרְחֹ֑ו", "transliteral": "ʾā-rə-ḥô", "traducao_palavra": "caminho dele" },
+        { "hebraico": "לִ֝שְׁמֹ֗ר", "transliteral": "liš-mōr", "traducao_palavra": "para guardar/observar" },
+        { "hebraico": "כִּדְבָרֶֽךָ׃", "transliteral": "kiḏ-ḇā-re-ḵā", "traducao_palavra": "conforme tua palavra" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "De todo o meu coração te busquei; não me deixes desviar dos teus mandamentos.",
+      "palavras": [
+        { "hebraico": "בְּכָל־", "transliteral": "bə-ḵāl-", "traducao_palavra": "com todo" },
+        { "hebraico": "לִבִּ֥י", "transliteral": "lib-bî", "traducao_palavra": "meu coração" },
+        { "hebraico": "דְרַשְׁתִּ֑יךָ", "transliteral": "ḏə-raš-tî-ḵā", "traducao_palavra": "busquei-te" },
+        { "hebraico": "אַל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "תַּ֝שְׁגֵּ֗נִי", "transliteral": "taš-gē-nî", "traducao_palavra": "me deixes errar/desviar" },
+        { "hebraico": "מִמּِצְוֹתֶֽיךָ׃", "transliteral": "mim-miṣ-wō-ṯey-ḵā", "traducao_palavra": "de teus mandamentos" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Escondi a tua palavra no meu coração, para não pecar contra ti.",
+      "palavras": [
+        { "hebraico": "בְּלִבִּ֭י", "transliteral": "bə-lib-bî", "traducao_palavra": "no meu coração" },
+        { "hebraico": "צָפַ֣נְתִּי", "transliteral": "ṣā-p̄an-tî", "traducao_palavra": "escondi/entesourei" },
+        { "hebraico": "אִמְרָתֶ֑ךָ", "transliteral": "ʾim-rā-ṯe-ḵā", "traducao_palavra": "tua palavra" },
+        { "hebraico": "לְ֝מַ֗עַן", "transliteral": "lə-ma-ʿan", "traducao_palavra": "para que" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "אֶחֱטָא־", "transliteral": "ʾe-ḥĕ-ṭā-", "traducao_palavra": "eu peque" },
+        { "hebraico": "לָֽךְ׃", "transliteral": "lāḵ", "traducao_palavra": "contra ti" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Bendito és tu, YHWH; ensina-me os teus estatutos.",
+      "palavras": [
+        { "hebraico": "בָּר֥וּךְ", "transliteral": "bā-rûḵ", "traducao_palavra": "bendito" },
+        { "hebraico": "אַתָּ֭ה", "transliteral": "ʾat-tā", "traducao_palavra": "[és] tu" },
+        { "hebraico": "יְהוָ֑ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "לַמְּדֵ֥נִי", "transliteral": "lam-mə-ḏē-nî", "traducao_palavra": "ensina-me" },
+        { "hebraico": "חֻקֶּֽיךָ׃", "transliteral": "ḥuq-qey-ḵā", "traducao_palavra": "teus estatutos" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Com os meus lábios tenho declarado todos os juízos da tua boca.",
+      "palavras": [
+        { "hebraico": "בִּשְׂפָתַ֥י", "transliteral": "biś-p̄ā-ṯay", "traducao_palavra": "com meus lábios" },
+        { "hebraico": "סִפַּ֑רְתִּי", "transliteral": "sip-par-tî", "traducao_palavra": "contei/declarei" },
+        { "hebraico": "כֹּ֝ל", "transliteral": "kōl", "traducao_palavra": "todos" },
+        { "hebraico": "מִשְׁפְּטֵי־", "transliteral": "miš-pə-ṭê-", "traducao_palavra": "juízos de" },
+        { "hebraico": "פִֽיךָ׃", "transliteral": "p̄î-ḵā", "traducao_palavra": "tua boca" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Regozijo-me no caminho dos teus testemunhos, tanto como em todas as riquezas.",
+      "palavras": [
+        { "hebraico": "בְּדֶ֖רֶךְ", "transliteral": "bə-ḏe-reḵ", "traducao_palavra": "no caminho de" },
+        { "hebraico": "עֵדְוֹתֶ֥יךָ", "transliteral": "ʿē-ḏə-wō-ṯey-ḵā", "traducao_palavra": "teus testemunhos" },
+        { "hebraico": "שַׂ֗שְׂתִּי", "transliteral": "śaś-tî", "traducao_palavra": "regozijei-me" },
+        { "hebraico": "כְּ֝עַ֗ל", "transliteral": "kə-ʿal", "traducao_palavra": "como sobre" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "toda" },
+        { "hebraico": "הֹֽון׃", "transliteral": "hôn", "traducao_palavra": "riqueza" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "Meditarei nos teus preceitos, e terei respeito aos teus caminhos.",
+      "palavras": [
+        { "hebraico": "בְּפִקֻּדֶ֥יךָ", "transliteral": "bə-p̄iq-qu-ḏey-ḵā", "traducao_palavra": "nos teus preceitos" },
+        { "hebraico": "אָשִׂ֑יחָה", "transliteral": "ʾā-śî-ḥā", "traducao_palavra": "meditarei" },
+        { "hebraico": "וְ֝אַבִּ֗יטָה", "transliteral": "wə-ʾab-bî-ṭā", "traducao_palavra": "e olharei/considerarei" },
+        { "hebraico": "אָרְחֹתֶֽיךָ׃", "transliteral": "ʾā-rə-ḥō-ṯey-ḵā", "traducao_palavra": "tuas veredas" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Deleitar-me-ei nos teus estatutos; não me esquecerei da tua palavra.",
+      "palavras": [
+        { "hebraico": "בְּחֻקֹּתֶ֥יךָ", "transliteral": "bə-ḥuq-qō-ṯey-ḵā", "traducao_palavra": "nos teus estatutos" },
+        { "hebraico": "אֶשְׁתַּעֲשָׁ֑ע", "transliteral": "ʾeš-ta-ʿă-šāʿ", "traducao_palavra": "deleitar-me-ei" },
+        { "hebraico": "לֹ֝א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "אֶשְׁכַּ֥ח", "transliteral": "ʾeš-kaḥ", "traducao_palavra": "esquecerei" },
+        { "hebraico": "דְּבָרֶֽךָ׃", "transliteral": "də-ḇā-re-ḵā", "traducao_palavra": "tua palavra" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "Faze bem ao teu servo, para que eu viva e guarde a tua palavra.",
+      "palavras": [
+        { "hebraico": "גְּמֹ֥ל", "transliteral": "gə-mōl", "traducao_palavra": "faze bem/trata com bondade" },
+        { "hebraico": "עַֽל־עַבְדְּךָ֥", "transliteral": "ʿal-ʿaḇ-də-ḵā", "traducao_palavra": "teu servo" },
+        { "hebraico": "אֶֽחְיֶ֗ה", "transliteral": "ʾe-ḥə-yeh", "traducao_palavra": "[para que] eu viva" },
+        { "hebraico": "וְאֶשְׁמְרָ֥ה", "transliteral": "wə-ʾeš-mə-rā", "traducao_palavra": "e guarde" },
+        { "hebraico": "דְבָרֶֽךָ׃", "transliteral": "ḏə-ḇā-re-ḵā", "traducao_palavra": "tua palavra" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "Desvenda os meus olhos, para que eu veja as maravilhas da tua lei.",
+      "palavras": [
+        { "hebraico": "גַּל־", "transliteral": "gal-", "traducao_palavra": "desvenda/abre" },
+        { "hebraico": "עֵינַ֥י", "transliteral": "ʿê-nay", "traducao_palavra": "meus olhos" },
+        { "hebraico": "וְאַבִּ֑יטָה", "transliteral": "wə-ʾab-bî-ṭā", "traducao_palavra": "e verei/contemplarei" },
+        { "hebraico": "נִ֝פְלָאֹ֗ות", "transliteral": "nip̄-lā-ʾôṯ", "traducao_palavra": "maravilhas" },
+        { "hebraico": "מִתֹּורָתֶֽךָ׃", "transliteral": "mit-tô-rā-ṯe-ḵā", "traducao_palavra": "da tua lei" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "Sou estrangeiro na terra; não escondas de mim os teus mandamentos.",
+      "palavras": [
+        { "hebraico": "גֵּ֣ר", "transliteral": "gēr", "traducao_palavra": "estrangeiro" },
+        { "hebraico": "אָנֹכִ֣י", "transliteral": "ʾā-nō-ḵî", "traducao_palavra": "[sou] eu" },
+        { "hebraico": "בָאָ֑רֶץ", "transliteral": "ḇā-ʾā-reṣ", "traducao_palavra": "na terra" },
+        { "hebraico": "אַל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "תַּסְתֵּ֥ר", "transliteral": "tas-tēr", "traducao_palavra": "escondas" },
+        { "hebraico": "מִ֝מֶּ֗נִּי", "transliteral": "mim-men-nî", "traducao_palavra": "de mim" },
+        { "hebraico": "מִצְוֹתֶֽיךָ׃", "transliteral": "miṣ-wō-ṯey-ḵā", "traducao_palavra": "teus mandamentos" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "A minha alma está quebrantada de desejar os teus juízos em todo o tempo.",
+      "palavras": [
+        { "hebraico": "גָּרְסָ֣ה", "transliteral": "gā-rə-śā", "traducao_palavra": "está moída/quebrantada" },
+        { "hebraico": "נַפְשִׁ֣י", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma" },
+        { "hebraico": "לְתַאֲבָ֑ה", "transliteral": "lə-ṯa-ʾă-ḇā", "traducao_palavra": "por anseio/desejo" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "para/por" },
+        { "hebraico": "מִשְׁפָּטֶ֥יךָ", "transliteral": "miš-pā-ṭey-ḵā", "traducao_palavra": "teus juízos" },
+        { "hebraico": "בְכָל־", "transliteral": "ḇə-ḵāl-", "traducao_palavra": "em todo" },
+        { "hebraico": "עֵֽת׃", "transliteral": "ʿēt", "traducao_palavra": "tempo" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "Tu repreendeste os soberbos amaldiçoados, que se desviam dos teus mandamentos.",
+      "palavras": [
+        { "hebraico": "גָּ֭עַרְתָּ", "transliteral": "gā-ʿar-tā", "traducao_palavra": "repreendeste" },
+        { "hebraico": "זֵדִ֣ים", "transliteral": "zē-ḏîm", "traducao_palavra": "[os] soberbos" },
+        { "hebraico": "אֲרוּרִ֑ים", "transliteral": "ʾă-rû-rîm", "traducao_palavra": "amaldiçoados" },
+        { "hebraico": "הַ֝שֹּׁגִ֗ים", "transliteral": "ha-ššō-ḡîm", "traducao_palavra": "[que] erram/desviam" },
+        { "hebraico": "מִמּِצְוֹתֶֽיךָ׃", "transliteral": "mim-miṣ-wō-ṯey-ḵā", "traducao_palavra": "de teus mandamentos" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "Tira de sobre mim o opróbrio e o desprezo, pois guardei os teus testemunhos.",
+      "palavras": [
+        { "hebraico": "גַּ֣ל", "transliteral": "gal", "traducao_palavra": "remove/rola" },
+        { "hebraico": "מֵ֭עָלַי", "transliteral": "mē-ʿā-lay", "traducao_palavra": "de sobre mim" },
+        { "hebraico": "חֶרְפָּ֣ה", "transliteral": "ḥer-pā", "traducao_palavra": "opróbrio" },
+        { "hebraico": "וָב֑וּז", "transliteral": "wā-ḇûz", "traducao_palavra": "e desprezo" },
+        { "hebraico": "כִּ֖י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "עֵדֹתֶ֣יךָ", "transliteral": "ʿē-ḏō-ṯey-ḵā", "traducao_palavra": "teus testemunhos" },
+        { "hebraico": "נָצָֽרְתִּי׃", "transliteral": "nā-ṣā-rə-tî", "traducao_palavra": "eu guardei" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "Ainda que príncipes se assentassem e falassem contra mim, o teu servo meditava nos teus estatutos.",
+      "palavras": [
+        { "hebraico": "גַּ֤ם", "transliteral": "gam", "traducao_palavra": "também/ainda que" },
+        { "hebraico": "יָֽשְׁב֣וּ", "transliteral": "yā-šə-ḇû", "traducao_palavra": "assentassem" },
+        { "hebraico": "שָׂ֭רִים", "transliteral": "śā-rîm", "traducao_palavra": "príncipes" },
+        { "hebraico": "בִּ֣י", "transliteral": "bî", "traducao_palavra": "contra mim" },
+        { "hebraico": "נִדְבָּ֑רוּ", "transliteral": "niḏ-bā-rû", "traducao_palavra": "falassem" },
+        { "hebraico": "עַ֝בְדְּךָ֗", "transliteral": "ʿaḇ-də-ḵā", "traducao_palavra": "teu servo" },
+        { "hebraico": "יָשִׂ֥יחַ", "transliteral": "yā-śî-aḥ", "traducao_palavra": "meditava" },
+        { "hebraico": "בְּחֻקֶּֽיךָ׃", "transliteral": "bə-ḥuq-qey-ḵā", "traducao_palavra": "nos teus estatutos" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "Também os teus testemunhos são o meu prazer e os meus conselheiros.",
+      "palavras": [
+        { "hebraico": "גַּם־", "transliteral": "gam-", "traducao_palavra": "também" },
+        { "hebraico": "עֵ֭דֹתֶיךָ", "transliteral": "ʿē-ḏō-ṯey-ḵā", "traducao_palavra": "teus testemunhos" },
+        { "hebraico": "שַׁעֲשֻׁעָ֑י", "transliteral": "ša-ʿă-šu-ʿāy", "traducao_palavra": "meus deleites/prazeres" },
+        { "hebraico": "אַ֝נְשֵׁ֗י", "transliteral": "ʾan-šê", "traducao_palavra": "homens de" },
+        { "hebraico": "עֲצָתִֽי׃", "transliteral": "ʿă-ṣā-ṯî", "traducao_palavra": "meu conselho" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "A minha alma está apegada ao pó; vivifica-me segundo a tua palavra.",
+      "palavras": [
+        { "hebraico": "דָּבְקָ֣ה", "transliteral": "dā-ḇə-qā", "traducao_palavra": "apegou-se" },
+        { "hebraico": "לֶעָפָ֣ר", "transliteral": "le-ʿā-p̄ār", "traducao_palavra": "ao pó" },
+        { "hebraico": "נַפְשִׁ֑י", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma" },
+        { "hebraico": "חַ֝יֵּ֗נִי", "transliteral": "ḥay-yē-nî", "traducao_palavra": "vivifica-me" },
+        { "hebraico": "כִּדְבָרֶֽךָ׃", "transliteral": "kiḏ-ḇā-re-ḵā", "traducao_palavra": "conforme tua palavra" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "Declarei os meus caminhos, e tu me ouviste; ensina-me os teus estatutos.",
+      "palavras": [
+        { "hebraico": "דְּרָכַ֣י", "transliteral": "də-rā-ḵay", "traducao_palavra": "meus caminhos" },
+        { "hebraico": "סִ֭פַּרְתִּי", "transliteral": "sip-par-tî", "traducao_palavra": "contei/declarei" },
+        { "hebraico": "וַֽתַּעֲנֵ֑נִי", "transliteral": "wat-ta-ʿă-nê-nî", "traducao_palavra": "e tu me respondeste" },
+        { "hebraico": "לַמְּדֵ֥נִי", "transliteral": "lam-mə-ḏē-nî", "traducao_palavra": "ensina-me" },
+        { "hebraico": "חֻקֶּֽיךָ׃", "transliteral": "ḥuq-qey-ḵā", "traducao_palavra": "teus estatutos" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "Faze-me entender o caminho dos teus preceitos; assim falarei das tuas maravilhas.",
+      "palavras": [
+        { "hebraico": "דֶּֽרֶךְ־", "transliteral": "de-reḵ-", "traducao_palavra": "caminho de" },
+        { "hebraico": "פִּקּוּדֶ֥יךָ", "transliteral": "p̄iq-qû-ḏey-ḵā", "traducao_palavra": "teus preceitos" },
+        { "hebraico": "הֲבִינֵ֑נִי", "transliteral": "hă-ḇî-nê-nî", "traducao_palavra": "faze-me entender" },
+        { "hebraico": "וְ֝אָשִׂ֗יחָה", "transliteral": "wə-ʾā-śî-ḥā", "traducao_palavra": "e falarei/meditarei" },
+        { "hebraico": "בְּנִפְלְאֹותֶֽיךָ׃", "transliteral": "bə-nip̄-lə-ʾô-ṯey-ḵā", "traducao_palavra": "nas tuas maravilhas" }
+      ]
+    },
+    "28": {
+      "traducao_completa": "A minha alma consome-se de tristeza; fortalece-me segundo a tua palavra.",
+      "palavras": [
+        { "hebraico": "דָּלְפָ֣ה", "transliteral": "dā-lə-p̄ā", "traducao_palavra": "escorreu/chorou" },
+        { "hebraico": "נַ֭פְשִׁי", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma" },
+        { "hebraico": "מִתּוּגָ֑ה", "transliteral": "mit-tû-ḡā", "traducao_palavra": "de tristeza" },
+        { "hebraico": "קַ֝יְּמֵ֗נִי", "transliteral": "qay-yə-mê-nî", "traducao_palavra": "fortalece-me/levanta-me" },
+        { "hebraico": "כִּדְבָרֶֽךָ׃", "transliteral": "kiḏ-ḇā-re-ḵā", "traducao_palavra": "conforme tua palavra" }
+      ]
+    },
+    "29": {
+      "traducao_completa": "Desvia de mim o caminho da falsidade, e concede-me graciosamente a tua lei.",
+      "palavras": [
+        { "hebraico": "דֶּֽרֶךְ־", "transliteral": "de-reḵ-", "traducao_palavra": "caminho de" },
+        { "hebraico": "שֶׁ֭קֶר", "transliteral": "še-qer", "traducao_palavra": "falsidade" },
+        { "hebraico": "הָסֵ֣ר", "transliteral": "hā-śēr", "traducao_palavra": "remove" },
+        { "hebraico": "מִמֶּ֑נִּי", "transliteral": "mim-men-nî", "traducao_palavra": "de mim" },
+        { "hebraico": "וְ֝תֹורָתְךָ֗", "transliteral": "wə-ṯô-rā-ṯə-ḵā", "traducao_palavra": "e tua lei" },
+        { "hebraico": "חָנֵּֽנִי׃", "transliteral": "ḥān-nē-nî", "traducao_palavra": "concede-me graciosamente" }
+      ]
+    },
+    "30": {
+      "traducao_completa": "Escolhi o caminho da verdade; pus diante de mim os teus juízos.",
+      "palavras": [
+        { "hebraico": "דֶּֽרֶךְ־", "transliteral": "de-reḵ-", "traducao_palavra": "caminho de" },
+        { "hebraico": "אֱמוּנָ֥ה", "transliteral": "ʾĕ-mû-nā", "traducao_palavra": "verdade/fidelidade" },
+        { "hebraico": "בָחָ֑רְתִּי", "transliteral": "ḇā-ḥār-tî", "traducao_palavra": "escolhi" },
+        { "hebraico": "מִשְׁפָּטֶ֖יךָ", "transliteral": "miš-pā-ṭey-ḵā", "traducao_palavra": "teus juízos" },
+        { "hebraico": "שִׁוִּֽיתִי׃", "transliteral": "šiw-wî-ṯî", "traducao_palavra": "pus/ajustei" }
+      ]
+    },
+    "31": {
+      "traducao_completa": "Apego-me aos teus testemunhos; ó YHWH, não me deixes confundido.",
+      "palavras": [
+        { "hebraico": "דָּבַ֥קְתִּי", "transliteral": "dā-ḇaq-tî", "traducao_palavra": "apeguei-me" },
+        { "hebraico": "בְעֵדְוֹתֶ֑יךָ", "transliteral": "ḇə-ʿē-ḏə-wō-ṯey-ḵā", "traducao_palavra": "nos teus testemunhos" },
+        { "hebraico": "יְ֝הוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אַל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "תְּבִישֵֽׁנִי׃", "transliteral": "tə-ḇî-šē-nî", "traducao_palavra": "envergonhes me" }
+      ]
+    },
+    "32": {
+      "traducao_completa": "Correrei pelo caminho dos teus mandamentos, quando alargares o meu coração.",
+      "palavras": [
+        { "hebraico": "דֶּֽרֶךְ־", "transliteral": "de-reḵ-", "traducao_palavra": "caminho de" },
+        { "hebraico": "מִצְוֹתֶ֥יךָ", "transliteral": "miṣ-wō-ṯey-ḵā", "traducao_palavra": "teus mandamentos" },
+        { "hebraico": "אָר֑וּץ", "transliteral": "ʾā-rûṣ", "traducao_palavra": "eu correrei" },
+        { "hebraico": "כִּ֖י", "transliteral": "kî", "traducao_palavra": "porque/quando" },
+        { "hebraico": "תַרְחִ֣יב", "transliteral": "ṯar-ḥîḇ", "traducao_palavra": "alargares" },
+        { "hebraico": "לִבִּֽי׃", "transliteral": "lib-bî", "traducao_palavra": "meu coração" }
+      ]
+    },
+    "33": {
+      "traducao_completa": "Ensina-me, YHWH, o caminho dos teus estatutos, e guardá-lo-ei até o fim.",
+      "palavras": [
+        { "hebraico": "הֹורֵ֣נִי", "transliteral": "hô-rē-nî", "traducao_palavra": "ensina-me" },
+        { "hebraico": "יְ֭הוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "דֶּ֣רֶךְ", "transliteral": "de-reḵ", "traducao_palavra": "caminho de" },
+        { "hebraico": "חֻקֶּ֑יךָ", "transliteral": "ḥuq-qey-ḵā", "traducao_palavra": "teus estatutos" },
+        { "hebraico": "וְאֶצְּרֶ֥נָּה", "transliteral": "wə-ʾeṣ-ṣə-ren-nā", "traducao_palavra": "e guardarei ele" },
+        { "hebraico": "עֵ֥קֶב׃", "transliteral": "ʿē-qeḇ", "traducao_palavra": "recompensa/fim" }
+      ]
+    },
+    "34": {
+      "traducao_completa": "Dá-me entendimento, e guardarei a tua lei; observá-la-ei de todo o meu coração.",
+      "palavras": [
+        { "hebraico": "הֲ֭בִינֵנִי", "transliteral": "hă-ḇî-nê-nî", "traducao_palavra": "faze-me entender" },
+        { "hebraico": "וְאֶצְּרָ֥ה", "transliteral": "wə-ʾeṣ-ṣə-rā", "traducao_palavra": "e guardarei" },
+        { "hebraico": "תֹורָתֶ֑ךָ", "transliteral": "tô-rā-ṯe-ḵā", "traducao_palavra": "tua lei" },
+        { "hebraico": "וְאֶשְׁמְרֶ֥נָּה", "transliteral": "wə-ʾeš-mə-ren-nā", "traducao_palavra": "e observarei ela" },
+        { "hebraico": "בְכָל־", "transliteral": "ḇə-ḵāl-", "traducao_palavra": "com todo" },
+        { "hebraico": "לֵֽב׃", "transliteral": "lēᇀ", "traducao_palavra": "coração" }
+      ]
+    },
+    "35": {
+      "traducao_completa": "Guia-me pela vereda dos teus mandamentos, porque nela me deleito.",
+      "palavras": [
+        { "hebraico": "הַ֭דְרִיכֵנִי", "transliteral": "haḏ-rî-ḵê-nî", "traducao_palavra": "guia-me" },
+        { "hebraico": "בִּנְתִ֣יב", "transliteral": "bin-ṯîḇ", "traducao_palavra": "na vereda de" },
+        { "hebraico": "מִצְוֹתֶ֑יךָ", "transliteral": "miṣ-wō-ṯey-ḵā", "traducao_palavra": "teus mandamentos" },
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "בֹ֥ו", "transliteral": "bô", "traducao_palavra": "nela" },
+        { "hebraico": "חָפָֽצְתִּי׃", "transliteral": "ḥā-p̄āṣ-tî", "traducao_palavra": "eu me deleito" }
+      ]
+    },
+    "36": {
+      "traducao_completa": "Inclina o meu coração aos teus testemunhos, e não à avareza.",
+      "palavras": [
+        { "hebraico": "הַט־", "transliteral": "haṭ-", "traducao_palavra": "inclina" },
+        { "hebraico": "לִבִּ֥י", "transliteral": "lib-bî", "traducao_palavra": "meu coração" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "para" },
+        { "hebraico": "עֵדְוֹתֶ֑יךָ", "transliteral": "ʿē-ḏə-wō-ṯey-ḵā", "traducao_palavra": "teus testemunhos" },
+        { "hebraico": "וְאַ֥ל", "transliteral": "wə-ʾal", "traducao_palavra": "e não" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "para" },
+        { "hebraico": "בָּֽצַע׃", "transliteral": "bā-ṣaʿ", "traducao_palavra": "lucro/avareza" }
+      ]
+    },
+    "37": {
+      "traducao_completa": "Desvia os meus olhos de contemplarem a vaidade, e vivifica-me no teu caminho.",
+      "palavras": [
+        { "hebraico": "הַעֲבֵ֣ר", "transliteral": "ha-ʿă-ḇēr", "traducao_palavra": "afasta/desvia" },
+        { "hebraico": "עֵ֭ינַי", "transliteral": "ʿê-nay", "traducao_palavra": "meus olhos" },
+        { "hebraico": "מֵרְאֹ֣ות", "transliteral": "mê-rə-ʾôṯ", "traducao_palavra": "de ver" },
+        { "hebraico": "שָׁ֑וְא", "transliteral": "šā-wəʾ", "traducao_palavra": "vaidade" },
+        { "hebraico": "בִּדְרָכֶ֥ךָ", "transliteral": "biḏ-rā-ḵe-ḵā", "traducao_palavra": "no teu caminho" },
+        { "hebraico": "חַיֵּֽנִי׃", "transliteral": "ḥay-yê-nî", "traducao_palavra": "vivifica-me" }
+      ]
+    },
+    "38": {
+      "traducao_completa": "Confirma a tua promessa ao teu servo, que se inclina ao teu temor.",
+      "palavras": [
+        { "hebraico": "הָקֵ֣ם", "transliteral": "hā-qēm", "traducao_palavra": "estabelece/confirma" },
+        { "hebraico": "לְ֭עַבְדְּךָ", "transliteral": "lə-ʿaḇ-də-ḵā", "traducao_palavra": "ao teu servo" },
+        { "hebraico": "אִמְרָתֶ֑ךָ", "transliteral": "ʾim-rā-ṯe-ḵā", "traducao_palavra": "tua promessa/fala" },
+        { "hebraico": "אֲ֝שֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "לְיִרְאָתֶֽךָ׃", "transliteral": "lə-yir-ʾā-ṯe-ḵā", "traducao_palavra": "para teu temor" }
+      ]
+    },
+    "39": {
+      "traducao_completa": "Desvia de mim o meu opróbrio, que temo, pois os teus juízos são bons.",
+      "palavras": [
+        { "hebraico": "הַעֲבֵ֣ר", "transliteral": "ha-ʿă-ḇēr", "traducao_palavra": "afasta/desvia" },
+        { "hebraico": "חֶ֭רְפָּתִי", "transliteral": "ḥer-pā-ṯî", "traducao_palavra": "meu opróbrio" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "o qual" },
+        { "hebraico": "יָגֹ֑רְתִּי", "transliteral": "yā-ḡōr-tî", "traducao_palavra": "temi" },
+        { "hebraico": "כִּ֖י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "מִשְׁפָּטֶ֣יךָ", "transliteral": "miš-pā-ṭey-ḵā", "traducao_palavra": "teus juízos" },
+        { "hebraico": "טֹּובִֽים׃", "transliteral": "ṭô-ḇîm", "traducao_palavra": "[são] bons" }
+      ]
+    },
+    "40": {
+      "traducao_completa": "Eis que tenho desejado os teus preceitos; vivifica-me por tua justiça.",
+      "palavras": [
+        { "hebraico": "הִ֭נֵּה", "transliteral": "hin-nēh", "traducao_palavra": "eis que" },
+        { "hebraico": "תָּאַ֣בְתִּי", "transliteral": "tā-ʾaḇ-tî", "traducao_palavra": "desejei" },
+        { "hebraico": "לְפִקֻּדֶ֑יךָ", "transliteral": "lə-p̄iq-qu-ḏey-ḵā", "traducao_palavra": "teus preceitos" },
+        { "hebraico": "בְּצִדְקָתְךָ֥", "transliteral": "bə-ṣiḏ-qā-ṯə-ḵā", "traducao_palavra": "na tua justiça" },
+        { "hebraico": "חַיֵּֽנִי׃", "transliteral": "ḥay-yê-nî", "traducao_palavra": "vivifica-me" }
+      ]
+    },
+    "41": {
+      "traducao_completa": "Venham também sobre mim as tuas misericórdias, ó YHWH, e a tua salvação segundo a tua palavra.",
+      "palavras": [
+        { "hebraico": "וִֽיבֹאֻ֣נִי", "transliteral": "wî-ḇō-ʾu-nî", "traducao_palavra": "e venham me" },
+        { "hebraico": "חֲסָדֶ֣ךָ", "transliteral": "ḥă-śā-ḏey-ḵā", "traducao_palavra": "tuas misericórdias" },
+        { "hebraico": "יְהוָ֑ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "תְּ֝שׁוּעָתְךָ֗", "transliteral": "tə-šû-ʿā-ṯə-ḵā", "traducao_palavra": "tua salvação" },
+        { "hebraico": "כְּאִמְרָתֶֽךָ׃", "transliteral": "kə-ʾim-rā-ṯe-ḵā", "traducao_palavra": "conforme tua palavra" }
+      ]
+    },
+    "42": {
+      "traducao_completa": "E terei que responder ao que me afronta, pois confio na tua palavra.",
+      "palavras": [
+        { "hebraico": "וְאֶעֱנֶ֣ה", "transliteral": "wə-ʾe-ʿĕ-neh", "traducao_palavra": "e responderei" },
+        { "hebraico": "חֹרְפִ֣י", "transliteral": "ḥō-rə-p̄î", "traducao_palavra": "[ao que] me afronta" },
+        { "hebraico": "דָבָ֑ר", "transliteral": "dā-ḇār", "traducao_palavra": "palavra" },
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "בָ֝טַחְתִּי", "transliteral": "ḇā-ṭaḥ-tî", "traducao_palavra": "confiei" },
+        { "hebraico": "בִּדְבָרֶֽךָ׃", "transliteral": "biḏ-ḇā-re-ḵā", "traducao_palavra": "na tua palavra" }
+      ]
+    },
+    "43": {
+      "traducao_completa": "E não tires da minha boca a palavra da verdade em nenhum tempo, pois esperei nos teus juízos.",
+      "palavras": [
+        { "hebraico": "וְֽאַל־תַּצֵּ֧ל", "transliteral": "wə-ʾal-taṣ-ṣēl", "traducao_palavra": "e não tires" },
+        { "hebraico": "מִפִּ֣י", "transliteral": "mip-pî", "traducao_palavra": "da minha boca" },
+        { "hebraico": "דְבַר־", "transliteral": "də-ḇar-", "traducao_palavra": "palavra de" },
+        { "hebraico": "אֱמֶ֣ת", "transliteral": "ʾĕ-meṯ", "traducao_palavra": "verdade" },
+        { "hebraico": "עַד־", "transliteral": "ʿaḏ-", "traducao_palavra": "até" },
+        { "hebraico": "מְאֹ֑ד", "transliteral": "mə-ʾōḏ", "traducao_palavra": "muito/totalmente" },
+        { "hebraico": "כִּ֖י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "לְמִשְׁפָּטֶ֣ךָ", "transliteral": "lə-miš-pā-ṭe-ḵā", "traducao_palavra": "nos teus juízos" },
+        { "hebraico": "יִחָֽלְתִּי׃", "transliteral": "yi-ḥā-lə-tî", "traducao_palavra": "esperei" }
+      ]
+    },
+    "44": {
+      "traducao_completa": "Assim guardarei a tua lei continuamente, para sempre e eternamente.",
+      "palavras": [
+        { "hebraico": "וְאֶשְׁמְרָ֖ה", "transliteral": "wə-ʾeš-mə-rā", "traducao_palavra": "e guardarei" },
+        { "hebraico": "תֹורָתְךָ֥", "transliteral": "tô-rā-ṯə-ḵā", "traducao_palavra": "tua lei" },
+        { "hebraico": "תָמִ֑יד", "transliteral": "ṯā-mîḏ", "traducao_palavra": "continuamente" },
+        { "hebraico": "לְעֹולָ֥ם", "transliteral": "lə-ʿô-lām", "traducao_palavra": "para sempre" },
+        { "hebraico": "וָעֶֽד׃", "transliteral": "wā-ʿeḏ", "traducao_palavra": "e eternamente" }
+      ]
+    },
+    "45": {
+      "traducao_completa": "E andarei em liberdade, pois busquei os teus preceitos.",
+      "palavras": [
+        { "hebraico": "וְאֶתְהַלְּכָ֥ה", "transliteral": "wə-ʾeṯ-hal-lə-ḵā", "traducao_palavra": "e andarei" },
+        { "hebraico": "בָרְחָבָ֑ה", "transliteral": "ḇā-rə-ḥā-ḇā", "traducao_palavra": "em liberdade/lugar amplo" },
+        { "hebraico": "כִּ֖י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "פִקֻּדֶ֣יךָ", "transliteral": "p̄iq-qu-ḏey-ḵā", "traducao_palavra": "teus preceitos" },
+        { "hebraico": "דָרָֽשְׁתִּי׃", "transliteral": "ḏā-rāš-tî", "traducao_palavra": "busquei" }
+      ]
+    },
+    "46": {
+      "traducao_completa": "Falarei dos teus testemunhos perante reis, e não me envergonharei.",
+      "palavras": [
+        { "hebraico": "וַאֲדַבְּרָ֣ה", "transliteral": "wa-ʾă-ḏab-bə-rā", "traducao_palavra": "e falarei" },
+        { "hebraico": "בְעֵדֹתֶיךָ", "transliteral": "ḇə-ʿē-ḏō-ṯey-ḵā", "traducao_palavra": "dos teus testemunhos" },
+        { "hebraico": "נֶ֥גֶד", "transliteral": "ne-ḡeḏ", "traducao_palavra": "diante de" },
+        { "hebraico": "מְלָכִ֑ים", "transliteral": "mə-lā-ḵîm", "traducao_palavra": "reis" },
+        { "hebraico": "וְלֹ֖א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "אֵבֹֽושׁ׃", "transliteral": "ʾē-ḇôš", "traducao_palavra": "seria envergonhado" }
+      ]
+    },
+    "47": {
+      "traducao_completa": "E deleitar-me-ei nos teus mandamentos, que eu amo.",
+      "palavras": [
+        { "hebraico": "וְאֶשְׁתַּעֲשַׁ֥ע", "transliteral": "wə-ʾeš-ta-ʿă-šaʿ", "traducao_palavra": "e deleitar-me-ei" },
+        { "hebraico": "בְּמִצְוֹתֶ֗יךָ", "transliteral": "bə-miṣ-wō-ṯey-ḵā", "traducao_palavra": "nos teus mandamentos" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "os quais" },
+        { "hebraico": "אָהָֽבְתִּי׃", "transliteral": "ʾā-hāḇ-tî", "traducao_palavra": "amei/amo" }
+      ]
+    },
+    "48": {
+      "traducao_completa": "Também levantarei as minhas mãos para os teus mandamentos, que amo, e meditarei nos teus estatutos.",
+      "palavras": [
+        { "hebraico": "וְאֶשָּׂא־", "transliteral": "wə-ʾeś-śā-", "traducao_palavra": "e levantarei" },
+        { "hebraico": "כַפַּ֗י", "transliteral": "ḵap-pay", "traducao_palavra": "minhas palmas/mãos" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "para" },
+        { "hebraico": "מִ֭צְוֹתֶיךָ", "transliteral": "miṣ-wō-ṯey-ḵā", "traducao_palavra": "teus mandamentos" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "os quais" },
+        { "hebraico": "אָהָ֑בְתִּי", "transliteral": "ʾā-hāḇ-tî", "traducao_palavra": "amei" },
+        { "hebraico": "וְאָשִׂ֥יחָה", "transliteral": "wə-ʾā-śî-ḥā", "traducao_palavra": "e meditarei" },
+        { "hebraico": "בְחֻקֶּֽיךָ׃", "transliteral": "ḇə-ḥuq-qey-ḵā", "traducao_palavra": "nos teus estatutos" }
+      ]
+    },
+    "49": {
+      "traducao_completa": "Lembra-te da palavra dada ao teu servo, na qual me fizeste esperar.",
+      "palavras": [
+        { "hebraico": "זְכֹר־", "transliteral": "zə-ḵōr-", "traducao_palavra": "lembra-te" },
+        { "hebraico": "דָּבָ֥ר", "transliteral": "dā-ḇār", "traducao_palavra": "[da] palavra" },
+        { "hebraico": "לְעַבְדֶּ֑ךָ", "transliteral": "lə-ʿaḇ-de-ḵā", "traducao_palavra": "ao teu servo" },
+        { "hebraico": "עַ֝ל", "transliteral": "ʿal", "traducao_palavra": "pela qual/sobre" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "יִֽחַלְתָּֽנִי׃", "transliteral": "yi-ḥal-tā-nî", "traducao_palavra": "me fizeste esperar" }
+      ]
+    },
+    "50": {
+      "traducao_completa": "Isto é o meu consolo na minha aflição, porque a tua palavra me vivificou.",
+      "palavras": [
+        { "hebraico": "זֹ֣את", "transliteral": "zōṯ", "traducao_palavra": "esta [é]" },
+        { "hebraico": "נֶחָמָתִ֣י", "transliteral": "ne-ḥā-mā-ṯî", "traducao_palavra": "minha consolação" },
+        { "hebraico": "בְעָנְיִ֑י", "transliteral": "ḇə-ʿā-nyî", "traducao_palavra": "na minha aflição" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "אִ֝מְרָתְךָ֗", "transliteral": "ʾim-rā-ṯə-ḵā", "traducao_palavra": "tua palavra/fala" },
+        { "hebraico": "חִיָּֽתְנִי׃", "transliteral": "ḥiy-yā-ṯə-nî", "traducao_palavra": "vivificou-me" }
+      ]
+    },
+    "51": {
+      "traducao_completa": "Os soberbos zombaram de mim em extremo; contudo não me desviei da tua lei.",
+      "palavras": [
+        { "hebraico": "זֵ֭דִים", "transliteral": "zē-ḏîm", "traducao_palavra": "[os] soberbos" },
+        { "hebraico": "הֱלִיצֻ֣נִי", "transliteral": "hĕ-lî-ṣu-nî", "traducao_palavra": "zombaram de mim" },
+        { "hebraico": "עַד־", "transliteral": "ʿaḏ-", "traducao_palavra": "até" },
+        { "hebraico": "מְאֹ֑ד", "transliteral": "mə-ʾōḏ", "traducao_palavra": "o extremo/muito" },
+        { "hebraico": "מִ֝תֹּורָתְךָ֗", "transliteral": "mit-tô-rā-ṯə-ḵā", "traducao_palavra": "da tua lei" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "נָטִֽיתִי׃", "transliteral": "nā-ṭî-ṯî", "traducao_palavra": "me desviei" }
+      ]
+    },
+    "52": {
+      "traducao_completa": "Lembrei-me dos teus juízos de outrora, YHWH, e consolei-me.",
+      "palavras": [
+        { "hebraico": "זָ֘כַ֤רְתִּי", "transliteral": "zā-ḵar-tî", "traducao_palavra": "lembrei-me" },
+        { "hebraico": "מִשְׁפָּטֶ֨יךָ", "transliteral": "miš-pā-ṭey-ḵā", "traducao_palavra": "dos teus juízos" },
+        { "hebraico": "מֵעֹולָ֥ם", "transliteral": "mē-ʿô-lām", "traducao_palavra": "de outrora/antiguidade" },
+        { "hebraico": "יְהוָ֗ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וָאֶתְנֶחָֽם׃", "transliteral": "wā-ʾeṯ-ne-ḥām", "traducao_palavra": "e consolei-me" }
+      ]
+    },
+    "53": {
+      "traducao_completa": "Horror se apoderou de mim, por causa dos ímpios que abandonam a tua lei.",
+      "palavras": [
+        { "hebraico": "זַלְעָפָ֣ה", "transliteral": "zal-ʿā-p̄ā", "traducao_palavra": "horror/indignação ardente" },
+        { "hebraico": "אֲחָזַ֣תְנִי", "transliteral": "ʾă-ḥā-zaṯ-nî", "traducao_palavra": "apoderou-se de mim" },
+        { "hebraico": "מֵרְשָׁעִ֑ים", "transliteral": "mê-rə-šā-ʿîm", "traducao_palavra": "por causa dos ímpios" },
+        { "hebraico": "עֹ֝זְבֵ֗י", "transliteral": "ʿō-zə-ḇê", "traducao_palavra": "[os que] abandonam" },
+        { "hebraico": "תֹּורָתֶֽךָ׃", "transliteral": "tô-rā-ṯe-ḵā", "traducao_palavra": "tua lei" }
+      ]
+    },
+    "54": {
+      "traducao_completa": "Os teus estatutos têm sido os meus cânticos no lugar das minhas peregrinações.",
+      "palavras": [
+        { "hebraico": "זְ֭מִרֹות", "transliteral": "zə-mi-rôṯ", "traducao_palavra": "cânticos/salmos" },
+        { "hebraico": "הָיוּ־", "transliteral": "hā-yû-", "traducao_palavra": "foram/têm sido" },
+        { "hebraico": "לִ֥י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "חֻקֶּ֗יךָ", "transliteral": "ḥuq-qey-ḵā", "traducao_palavra": "teus estatutos" },
+        { "hebraico": "בְּבֵ֣ית", "transliteral": "bə-ḇêṯ", "traducao_palavra": "na casa de" },
+        { "hebraico": "מְגוּרָֽי׃", "transliteral": "mə-ḡû-rāy", "traducao_palavra": "minhas peregrinações" }
+      ]
+    },
+    "55": {
+      "traducao_completa": "De noite me lembrei do teu nome, YHWH, e guardei a tua lei.",
+      "palavras": [
+        { "hebraico": "זָ֘כַ֤רְתִּי", "transliteral": "zā-ḵar-tî", "traducao_palavra": "lembrei-me" },
+        { "hebraico": "בַלַּ֣יְלָה", "transliteral": "bal-lay-lā", "traducao_palavra": "na noite" },
+        { "hebraico": "שִׁמְךָ֣", "transliteral": "šim-ḵā", "traducao_palavra": "teu nome" },
+        { "hebraico": "יְהוָ֑ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וָ֝אֶשְׁמְרָ֗ה", "transliteral": "wā-ʾeš-mə-rā", "traducao_palavra": "e guardei" },
+        { "hebraico": "תֹּורָתֶֽךָ׃", "transliteral": "tô-rā-ṯe-ḵā", "traducao_palavra": "tua lei" }
+      ]
+    },
+    "56": {
+      "traducao_completa": "Isto tive eu, porque guardei os teus preceitos.",
+      "palavras": [
+        { "hebraico": "זֹ֥את", "transliteral": "zōṯ", "traducao_palavra": "isto" },
+        { "hebraico": "הָֽיְתָה־", "transliteral": "hā-yə-ṯā-", "traducao_palavra": "foi/aconteceu" },
+        { "hebraico": "לִּ֑י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "כִּ֖י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "פִקֻּדֶ֣יךָ", "transliteral": "p̄iq-qu-ḏey-ḵā", "traducao_palavra": "teus preceitos" },
+        { "hebraico": "נָצָֽרְתִּי׃", "transliteral": "nā-ṣā-rə-tî", "traducao_palavra": "guardei" }
+      ]
+    },
+    "57": {
+      "traducao_completa": "Tu és a minha porção, YHWH; eu disse que guardaria as tuas palavras.",
+      "palavras": [
+        { "hebraico": "חֶלְקִ֖י", "transliteral": "ḥel-qî", "traducao_palavra": "minha porção" },
+        { "hebraico": "יְהוָ֥ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אָ֝מַ֗רְתִּי", "transliteral": "ʾā-mar-tî", "traducao_palavra": "eu disse" },
+        { "hebraico": "לִשְׁמֹ֥ר", "transliteral": "liš-mōr", "traducao_palavra": "para guardar" },
+        { "hebraico": "דְּבָרֶֽיךָ׃", "transliteral": "də-ḇā-rey-ḵā", "traducao_palavra": "tuas palavras" }
+      ]
+    },
+    "58": {
+      "traducao_completa": "Supliquei o teu favor de todo o meu coração; tem piedade de mim, segundo a tua palavra.",
+      "palavras": [
+        { "hebraico": "חִלִּ֨יתִי", "transliteral": "ḥil-lî-ṯî", "traducao_palavra": "supliquei/suavizei" },
+        { "hebraico": "פָנֶ֥יךָ", "transliteral": "p̄ā-ney-ḵā", "traducao_palavra": "tua face" },
+        { "hebraico": "בְכָל־", "transliteral": "bə-ḵāl-", "traducao_palavra": "com todo" },
+        { "hebraico": "לֵ֑ב", "transliteral": "lēḇ", "traducao_palavra": "coração" },
+        { "hebraico": "חָ֝נֵּ֗נִי", "transliteral": "ḥān-nê-nî", "traducao_palavra": "tem piedade de mim" },
+        { "hebraico": "כְּאִמְרָתֶֽךָ׃", "transliteral": "kə-ʾim-rā-ṯe-ḵā", "traducao_palavra": "conforme tua palavra" }
+      ]
+    },
+    "59": {
+      "traducao_completa": "Considerei os meus caminhos e voltei os meus pés para os teus testemunhos.",
+      "palavras": [
+        { "hebraico": "חִשַּׁ֥בְתִּי", "transliteral": "ḥiš-šaḇ-tî", "traducao_palavra": "considerei/pensei em" },
+        { "hebraico": "דְרָכָ֑י", "transliteral": "ḏə-rā-ḵāy", "traducao_palavra": "meus caminhos" },
+        { "hebraico": "וָאָשִׁ֥יבָה", "transliteral": "wā-ʾā-šî-ḇā", "traducao_palavra": "e voltei" },
+        { "hebraico": "רַ֝גְלַ֗י", "transliteral": "raḡ-lay", "traducao_palavra": "meus pés" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "para" },
+        { "hebraico": "עֵדֹתֶֽיךָ׃", "transliteral": "ʿē-ḏō-ṯey-ḵā", "traducao_palavra": "teus testemunhos" }
+      ]
+    },
+    "60": {
+      "traducao_completa": "Apressei-me e não me detive, a observar os teus mandamentos.",
+      "palavras": [
+        { "hebraico": "חַ֭שְׁתִּי", "transliteral": "ḥaš-tî", "traducao_palavra": "apressei-me" },
+        { "hebraico": "וְלֹ֣א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "הִתְמַהְמָ֑הְתִּי", "transliteral": "hiṯ-mah-mā-hət-tî", "traducao_palavra": "me detive/atrasei" },
+        { "hebraico": "לִ֝שְׁמֹר", "transliteral": "liš-mōr", "traducao_palavra": "para guardar" },
+        { "hebraico": "מִצְוֹתֶֽיךָ׃", "transliteral": "miṣ-wō-ṯey-ḵā", "traducao_palavra": "teus mandamentos" }
+      ]
+    },
+    "61": {
+      "traducao_completa": "Cordas de ímpios me cercaram; contudo não me esqueci da tua lei.",
+      "palavras": [
+        { "hebraico": "חֶבְלֵ֣י", "transliteral": "ḥeḇ-lê", "traducao_palavra": "[as] cordas de" },
+        { "hebraico": "רְשָׁעִ֣ים", "transliteral": "rə-šā-ʿîm", "traducao_palavra": "ímpios" },
+        { "hebraico": "עִוְּדֻ֑נִי", "transliteral": "ʿiw-wə-ḏu-nî", "traducao_palavra": "cercaram-me/envolveram-me" },
+        { "hebraico": "תֹּ֝ורָתְךָ֗", "transliteral": "tô-rā-ṯə-ḵā", "traducao_palavra": "tua lei" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "שָׁכָֽחְתִּי׃", "transliteral": "šā-ḵāḥ-tî", "traducao_palavra": "esqueci" }
+      ]
+    },
+    "62": {
+      "traducao_completa": "À meia-noite me levantarei para te louvar, pelos teus justos juízos.",
+      "palavras": [
+        { "hebraico": "חֲצֹות־", "transliteral": "ḥă-ṣôṯ-", "traducao_palavra": "metade da" },
+        { "hebraico": "לַ֗יְלָה", "transliteral": "lay-lā", "traducao_palavra": "noite" },
+        { "hebraico": "אָ֭קוּם", "transliteral": "ʾā-qûm", "traducao_palavra": "eu levantarei" },
+        { "hebraico": "לְהֹודֹ֣ות", "transliteral": "lə-hō-ḏôṯ", "traducao_palavra": "para dar graças" },
+        { "hebraico": "לָ֑ךְ", "transliteral": "lāk", "traducao_palavra": "a ti" },
+        { "hebraico": "עַ֝ל", "transliteral": "ʿal", "traducao_palavra": "por causa de" },
+        { "hebraico": "מִשְׁפְּטֵ֥י", "transliteral": "miš-pə-ṭê", "traducao_palavra": "juízos de" },
+        { "hebraico": "צִדְקֶֽךָ׃", "transliteral": "ṣiḏ-qe-ḵā", "traducao_palavra": "tua justiça" }
+      ]
+    },
+    "63": {
+      "traducao_completa": "Companheiro sou de todos os que te temem e dos que guardam os teus preceitos.",
+      "palavras": [
+        { "hebraico": "חָבֵ֣ר", "transliteral": "ḥā-ḇēr", "traducao_palavra": "companheiro" },
+        { "hebraico": "אָ֭נִי", "transliteral": "ʾā-nî", "traducao_palavra": "[sou] eu" },
+        { "hebraico": "לְכָל־", "transliteral": "lə-ḵāl-", "traducao_palavra": "de todos" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "יְרֵא֑וּךָ", "transliteral": "yə-rē-ʾû-ḵā", "traducao_palavra": "temem te" },
+        { "hebraico": "וּ֝לְשֹׁמְרֵ֗י", "transliteral": "ū-lə-šō-mə-rê", "traducao_palavra": "e dos guardadores de" },
+        { "hebraico": "פִקּוּדֶֽיךָ׃", "transliteral": "p̄iq-qû-ḏey-ḵā", "traducao_palavra": "teus preceitos" }
+      ]
+    },
+    "64": {
+      "traducao_completa": "A terra, YHWH, está cheia da tua misericórdia; ensina-me os teus estatutos.",
+      "palavras": [
+        { "hebraico": "חַסְדְּךָ֥", "transliteral": "ḥas-də-ḵā", "traducao_palavra": "tua misericórdia" },
+        { "hebraico": "יְ֝הוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "מָלְאָ֥ה", "transliteral": "mā-lə-ʾā", "traducao_palavra": "encheu" },
+        { "hebraico": "הָאָ֑רֶץ", "transliteral": "hā-ʾā-reṣ", "traducao_palavra": "a terra" },
+        { "hebraico": "חֻקֶּ֗יךָ", "transliteral": "ḥuq-qey-ḵā", "traducao_palavra": "teus estatutos" },
+        { "hebraico": "לַמְּדֵֽנִי׃", "transliteral": "lam-mə-ḏē-nî", "traducao_palavra": "ensina-me" }
+      ]
+    },
+    "65": {
+      "traducao_completa": "Fizeste bem ao teu servo, YHWH, segundo a tua palavra.",
+      "palavras": [
+        { "hebraico": "טֹ֭וב", "transliteral": "ṭôᇀ", "traducao_palavra": "bem" },
+        { "hebraico": "עָשִׂ֣יתָ", "transliteral": "ʿā-śî-ṯā", "traducao_palavra": "fizeste" },
+        { "hebraico": "עִֽם־", "transliteral": "ʿim-", "traducao_palavra": "com" },
+        { "hebraico": "עַבְדְּךָ֑", "transliteral": "ʿaḇ-də-ḵā", "traducao_palavra": "teu servo" },
+        { "hebraico": "יְ֝הוָ֗ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "כִּדְבָרֶֽךָ׃", "transliteral": "kiḏ-ḇā-re-ḵā", "traducao_palavra": "conforme tua palavra" }
+      ]
+    },
+    "66": {
+      "traducao_completa": "Ensina-me bom juízo e conhecimento, pois cri nos teus mandamentos.",
+      "palavras": [
+        { "hebraico": "ט֤וּב", "transliteral": "ṭûᇀ", "traducao_palavra": "bondade de" },
+        { "hebraico": "טַ֣עַם", "transliteral": "ṭa-ʿam", "traducao_palavra": "senso/juízo" },
+        { "hebraico": "וָדַ֣עַת", "transliteral": "wā-ḏa-ʿaṯ", "traducao_palavra": "e conhecimento" },
+        { "hebraico": "לַמְּדֵ֑נִי", "transliteral": "lam-mə-ḏē-nî", "traducao_palavra": "ensina-me" },
+        { "hebraico": "כִּ֖י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "בְמִצְוֹתֶ֣יךָ", "transliteral": "ḇə-miṣ-wō-ṯey-ḵā", "traducao_palavra": "em teus mandamentos" },
+        { "hebraico": "הֶאֱמָֽנְתִּי׃", "transliteral": "he-ʾĕ-mān-tî", "traducao_palavra": "eu cri" }
+      ]
+    },
+    "67": {
+      "traducao_completa": "Antes de ser afligido andava errado; mas agora guardo a tua palavra.",
+      "palavras": [
+        { "hebraico": "טֶ֤רֶם", "transliteral": "ṭe-rem", "traducao_palavra": "antes de" },
+        { "hebraico": "אֶֽעֱנֶ֨ה", "transliteral": "ʾe-ʿĕ-neh", "traducao_palavra": "eu ser afligido" },
+        { "hebraico": "אֲנִ֭י", "transliteral": "ʾă-nî", "traducao_palavra": "eu" },
+        { "hebraico": "שֹׁגֵ֑ג", "transliteral": "šō-ḡēḡ", "traducao_palavra": "[era] errante" },
+        { "hebraico": "וְ֝עַתָּה", "transliteral": "wə-ʿat-tā", "traducao_palavra": "e agora" },
+        { "hebraico": "אִמְרָתְךָ֥", "transliteral": "ʾim-rā-ṯə-ḵā", "traducao_palavra": "tua palavra" },
+        { "hebraico": "שָׁמָֽרְתִּי׃", "transliteral": "šā-mār-tî", "traducao_palavra": "eu guardei" }
+      ]
+    },
+    "68": {
+      "traducao_completa": "Tu és bom e fazes o bem; ensina-me os teus estatutos.",
+      "palavras": [
+        { "hebraico": "טֹוב־", "transliteral": "ṭôᇀ-", "traducao_palavra": "bom" },
+        { "hebraico": "אַתָּ֥ה", "transliteral": "ʾat-tā", "traducao_palavra": "[és] tu" },
+        { "hebraico": "וּמֵטִ֑יב", "transliteral": "ū-mê-ṭîḇ", "traducao_palavra": "e fazedor do bem" },
+        { "hebraico": "לַמְּדֵ֥נִי", "transliteral": "lam-mə-ḏē-nî", "traducao_palavra": "ensina-me" },
+        { "hebraico": "חֻקֶּֽיךָ׃", "transliteral": "ḥuq-qey-ḵā", "traducao_palavra": "teus estatutos" }
+      ]
+    },
+    "69": {
+      "traducao_completa": "Os soberbos forjaram mentiras contra mim; mas eu, de todo o meu coração, guardarei os teus preceitos.",
+      "palavras": [
+        { "hebraico": "טָפְל֬וּ", "transliteral": "ṭā-p̄ə-lû", "traducao_palavra": "forjaram/coseram" },
+        { "hebraico": "עָלַ֣י", "transliteral": "ʿā-lay", "traducao_palavra": "contra mim" },
+        { "hebraico": "שֶׁ֣קֶר", "transliteral": "še-qer", "traducao_palavra": "mentira" },
+        { "hebraico": "זֵדִ֑ים", "transliteral": "zē-ḏîm", "traducao_palavra": "soberbos" },
+        { "hebraico": "אֲ֝נִ֗י", "transliteral": "ʾă-nî", "traducao_palavra": "eu" },
+        { "hebraico": "בְּכָל־", "transliteral": "bə-ḵāl-", "traducao_palavra": "com todo" },
+        { "hebraico": "לֵ֥ב", "transliteral": "lēḇ", "traducao_palavra": "coração" },
+        { "hebraico": "אֶצֹּ֥ר", "transliteral": "ʾeṣ-ṣōr", "traducao_palavra": "guardarei" },
+        { "hebraico": "פִּקּוּדֶֽיךָ׃", "transliteral": "p̄iq-qû-ḏey-ḵā", "traducao_palavra": "teus preceitos" }
+      ]
+    },
+    "70": {
+      "traducao_completa": "Engordou-se-lhes o coração como gordura; mas eu me deleito na tua lei.",
+      "palavras": [
+        { "hebraico": "טָפַ֣שׁ", "transliteral": "ṭā-p̄aš", "traducao_palavra": "tornou-se insensível/gordo" },
+        { "hebraico": "כַּחֵ֣לֶב", "transliteral": "ka-ḥê-leḇ", "traducao_palavra": "como a gordura" },
+        { "hebraico": "לִבָּ֑ם", "transliteral": "lib-bām", "traducao_palavra": "coração deles" },
+        { "hebraico": "אֲ֝נִ֗י", "transliteral": "ʾă-nî", "traducao_palavra": "eu" },
+        { "hebraico": "תֹּורָתְךָ֥", "transliteral": "tô-rā-ṯə-ḵā", "traducao_palavra": "[na] tua lei" },
+        { "hebraico": "שִֽׁעֲשָֽׁעְתִּי׃", "transliteral": "ši-ʿă-šā-ʿă-tî", "traducao_palavra": "me deleitei" }
+      ]
+    },
+    "71": {
+      "traducao_completa": "Foi-me bom ter sido afligido, para que aprendesse os teus estatutos.",
+      "palavras": [
+        { "hebraico": "טֹוב־", "transliteral": "ṭôᇀ-", "traducao_palavra": "bom [foi]" },
+        { "hebraico": "לִ֥י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "כִֽי־", "transliteral": "kî-", "traducao_palavra": "que" },
+        { "hebraico": "עֻנֵּ֑יתִי", "transliteral": "ʿun-nê-ṯî", "traducao_palavra": "fui afligido" },
+        { "hebraico": "לְ֝מַ֗עַן", "transliteral": "lə-ma-ʿan", "traducao_palavra": "para que" },
+        { "hebraico": "אֶלְמַ֥ד", "transliteral": "ʾel-maḏ", "traducao_palavra": "eu aprendesse" },
+        { "hebraico": "חֻקֶּֽיךָ׃", "transliteral": "ḥuq-qey-ḵā", "traducao_palavra": "teus estatutos" }
+      ]
+    },
+    "72": {
+      "traducao_completa": "Melhor é para mim a lei da tua boca do que milhares de ouro ou de prata.",
+      "palavras": [
+        { "hebraico": "טֹוב־", "transliteral": "ṭôᇀ-", "traducao_palavra": "melhor [é]" },
+        { "hebraico": "לִ֥י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "תֹורַת־", "transliteral": "tô-raṯ-", "traducao_palavra": "a lei de" },
+        { "hebraico": "פִּ֑יךָ", "transliteral": "pî-ḵā", "traducao_palavra": "tua boca" },
+        { "hebraico": "מֵאַלְפֵ֥י", "transliteral": "mē-ʾal-p̄ê", "traducao_palavra": "do que milhares de" },
+        { "hebraico": "זָהָ֥ב", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "וָכָֽסֶף׃", "transliteral": "wā-ḵā-sep̄", "traducao_palavra": "e prata" }
+      ]
+    },
+    "73": {
+      "traducao_completa": "As tuas mãos me fizeram e me formaram; dá-me entendimento para aprender os teus mandamentos.",
+      "palavras": [
+        { "hebraico": "יָדֶ֣יךָ", "transliteral": "yā-ḏey-ḵā", "traducao_palavra": "tuas mãos" },
+        { "hebraico": "עָ֭שׂוּנִי", "transliteral": "ʿā-śû-nî", "traducao_palavra": "fizeram-me" },
+        { "hebraico": "וַֽיְכֹונֲנ֑וּנִי", "transliteral": "way-ḵô-nə-nû-nî", "traducao_palavra": "e estabeleceram-me" },
+        { "hebraico": "הֲ֝בִינֵ֗נִי", "transliteral": "hă-ḇî-nê-nî", "traducao_palavra": "faze-me entender" },
+        { "hebraico": "וְאֶלְמְדָ֥ה", "transliteral": "wə-ʾel-mə-ḏā", "traducao_palavra": "e aprenderei" },
+        { "hebraico": "מִצְוֹתֶֽיךָ׃", "transliteral": "miṣ-wō-ṯey-ḵā", "traducao_palavra": "teus mandamentos" }
+      ]
+    },
+    "74": {
+      "traducao_completa": "Os que te temem me verão e se alegrarão, porque esperei na tua palavra.",
+      "palavras": [
+        { "hebraico": "יְרֵאֶ֣יךָ", "transliteral": "yə-rē-ʾe-ḵā", "traducao_palavra": "teus tementes" },
+        { "hebraico": "יִרְא֣וּנִי", "transliteral": "yir-ʾû-nî", "traducao_palavra": "verão-me" },
+        { "hebraico": "וְיִשְׂמָ֑חוּ", "transliteral": "wə-yiś-mā-ḥû", "traducao_palavra": "e se alegrarão" },
+        { "hebraico": "כִּ֖י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "לִדְבָרְךָ֣", "transliteral": "liḏ-ḇā-rə-ḵā", "traducao_palavra": "na tua palavra" },
+        { "hebraico": "יִחָֽלְתִּי׃", "transliteral": "yi-ḥāl-tî", "traducao_palavra": "esperei" }
+      ]
+    },
+    "75": {
+      "traducao_completa": "Bem sei eu, YHWH, que os teus juízos são justiça, e que com fidelidade me afligiste.",
+      "palavras": [
+        { "hebraico": "יָדַ֣עְתִּי", "transliteral": "yā-ḏaʿ-tî", "traducao_palavra": "eu sei" },
+        { "hebraico": "יְ֭הוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "que" },
+        { "hebraico": "צֶ֣דֶק", "transliteral": "ṣe-ḏeq", "traducao_palavra": "[são] justiça" },
+        { "hebraico": "מִשְׁפָּטֶ֑יךָ", "transliteral": "miš-pā-ṭey-ḵā", "traducao_palavra": "teus juízos" },
+        { "hebraico": "וֶ֝אֱמוּנָ֗ה", "transliteral": "we-ʾĕ-mû-nā", "traducao_palavra": "e [com] fidelidade" },
+        { "hebraico": "עִנִּיתָֽנִי׃", "transliteral": "ʿin-nî-ṯā-nî", "traducao_palavra": "tu me afligiste" }
+      ]
+    },
+    "76": {
+      "traducao_completa": "Sirva, pois, a tua benignidade para me consolar, segundo a palavra que deste ao teu servo.",
+      "palavras": [
+        { "hebraico": "יְהִי־", "transliteral": "yə-hî-", "traducao_palavra": "seja" },
+        { "hebraico": "נָ֣א", "transliteral": "nā", "traducao_palavra": "agora/pois" },
+        { "hebraico": "חַסְדְּךָ֣", "transliteral": "ḥas-də-ḵā", "traducao_palavra": "tua benignidade" },
+        { "hebraico": "לְנַחֲמֵ֑נִי", "transliteral": "lə-na-ḥă-mē-nî", "traducao_palavra": "para me consolar" },
+        { "hebraico": "כְּאִמְרָתְךָ֥", "transliteral": "kə-ʾim-rā-ṯə-ḵā", "traducao_palavra": "conforme tua palavra" },
+        { "hebraico": "לְעַבְדֶּֽךָ׃", "transliteral": "lə-ʿaḇ-de-ḵā", "traducao_palavra": "ao teu servo" }
+      ]
+    },
+    "77": {
+      "traducao_completa": "Venham sobre mim as tuas misericórdias, para que eu viva, pois a tua lei é o meu prazer.",
+      "palavras": [
+        { "hebraico": "יְבֹא֕וּנִי", "transliteral": "yə-ḇō-ʾû-nî", "traducao_palavra": "venham a mim" },
+        { "hebraico": "רַחֲמֶ֖יךָ", "transliteral": "ra-ḥă-mey-ḵā", "traducao_palavra": "tuas misericórdias" },
+        { "hebraico": "וְאֶֽחְיֶ֑ה", "transliteral": "wə-ʾeḥ-yeh", "traducao_palavra": "e viverei" },
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "pois" },
+        { "hebraico": "תֹ֝ורָתְךָ֗", "transliteral": "tô-rā-ṯə-ḵā", "traducao_palavra": "tua lei" },
+        { "hebraico": "שַׁעֲשֻׁעָֽי׃", "transliteral": "ša-ʿă-šu-ʿāy", "traducao_palavra": "[é] meu prazer" }
+      ]
+    },
+    "78": {
+      "traducao_completa": "Sejam envergonhados os soberbos, pois me trataram perversamente sem causa; mas eu meditarei nos teus preceitos.",
+      "palavras": [
+        { "hebraico": "יֵבֹ֣שׁוּ", "transliteral": "yē-ḇō-šû", "traducao_palavra": "sejam envergonhados" },
+        { "hebraico": "זֵ֭דִים", "transliteral": "zē-ḏîm", "traducao_palavra": "soberbos" },
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "שֶׁ֣קֶר", "transliteral": "še-qer", "traducao_palavra": "[com] mentira/falsidade" },
+        { "hebraico": "עִוְּת֑וּנִי", "transliteral": "ʿiw-wə-ṯû-nî", "traducao_palavra": "distorceram-me/perverteram-me" },
+        { "hebraico": "אֲ֝נִ֗י", "transliteral": "ʾă-nî", "traducao_palavra": "eu" },
+        { "hebraico": "אָשִׂ֥יחַ", "transliteral": "ʾā-śî-aḥ", "traducao_palavra": "meditarei" },
+        { "hebraico": "בְּפִקּוּדֶֽיךָ׃", "transliteral": "bə-p̄iq-qû-ḏey-ḵā", "traducao_palavra": "nos teus preceitos" }
+      ]
+    },
+    "79": {
+      "traducao_completa": "Voltem-se para mim os que te temem, e os que conhecem os teus testemunhos.",
+      "palavras": [
+        { "hebraico": "יָשׁ֣וּבוּ", "transliteral": "yā-šû-ḇû", "traducao_palavra": "voltem-se" },
+        { "hebraico": "לִ֣י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "יְרֵאֶ֑יךָ", "transliteral": "yə-rē-ʾe-ḵā", "traducao_palavra": "teus tementes" },
+        { "hebraico": "וְ֝יֹדְעֵ֗י", "transliteral": "wə-yō-ḏə-ʿê", "traducao_palavra": "e os conhecedores de [Qere]" },
+        { "hebraico": "עֵדֹתֶֽיךָ׃", "transliteral": "ʿē-ḏō-ṯey-ḵā", "traducao_palavra": "teus testemunhos" }
+      ]
+    },
+    "80": {
+      "traducao_completa": "Seja o meu coração íntegro nos teus estatutos, para que eu não seja envergonhado.",
+      "palavras": [
+        { "hebraico": "יְהִי־", "transliteral": "yə-hî-", "traducao_palavra": "seja" },
+        { "hebraico": "לִבִּ֣י", "transliteral": "lib-bî", "traducao_palavra": "meu coração" },
+        { "hebraico": "תָמִ֣ים", "transliteral": "ṯā-mîm", "traducao_palavra": "perfeito/íntegro" },
+        { "hebraico": "בְּחֻקֶּ֑יךָ", "transliteral": "bə-ḥuq-qey-ḵā", "traducao_palavra": "nos teus estatutos" },
+        { "hebraico": "לְ֝מַ֗עַן", "transliteral": "lə-ma-ʿan", "traducao_palavra": "para que" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "אֵבֹֽושׁ׃", "transliteral": "ʾē-ḇôš", "traducao_palavra": "eu seja envergonhado" }
+      ]
+    },
+    "81": {
+      "traducao_completa": "Desfalece a minha alma pela tua salvação; espero na tua palavra.",
+      "palavras": [
+        { "hebraico": "כָּלְתָ֥ה", "transliteral": "kā-lə-ṯā", "traducao_palavra": "desfalece/consome-se" },
+        { "hebraico": "לִתְשׁוּעָתְךָ֥", "transliteral": "li-ṯə-šû-ʿā-ṯə-ḵā", "traducao_palavra": "pela tua salvação" },
+        { "hebraico": "נַפְשִׁ֑י", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma" },
+        { "hebraico": "לִדְבָרְךָ֥", "transliteral": "liḏ-ḇā-rə-ḵā", "traducao_palavra": "pela tua palavra" },
+        { "hebraico": "יִחָֽלְתִּי׃", "transliteral": "yi-ḥāl-tî", "traducao_palavra": "esperei" }
+      ]
+    },
+    "82": {
+      "traducao_completa": "Os meus olhos desfalecem pela tua palavra; digo: Quando me consolarás tu?",
+      "palavras": [
+        { "hebraico": "כָּל֣וּ", "transliteral": "kā-lû", "traducao_palavra": "falharam/consumiram-se" },
+        { "hebraico": "עֵ֭ינַי", "transliteral": "ʿê-nay", "traducao_palavra": "meus olhos" },
+        { "hebraico": "לְאִמְרָתֶ֑ךָ", "transliteral": "lə-ʾim-rā-ṯe-ḵā", "traducao_palavra": "pela tua palavra/promessa" },
+        { "hebraico": "לֵאמֹ֓ר ׀", "transliteral": "lē-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "מָתַ֥י", "transliteral": "mā-ṯay", "traducao_palavra": "quando?" },
+        { "hebraico": "תְּֽנַחֲמֵֽנִי׃", "transliteral": "tə-na-ḥă-mē-nî", "traducao_palavra": "tu me consolarás" }
+      ]
+    },
+    "83": {
+      "traducao_completa": "Pois estou como um odre na fumaça; contudo não me esqueço dos teus estatutos.",
+      "palavras": [
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "pois" },
+        { "hebraico": "הָ֭יִיתִי", "transliteral": "hā-yî-ṯî", "traducao_palavra": "fui/tornei-me" },
+        { "hebraico": "כְּנֹ֣אד", "transliteral": "kə-nōḏ", "traducao_palavra": "como odre" },
+        { "hebraico": "בְּקִיטֹ֑ור", "transliteral": "bə-qî-ṭôr", "traducao_palavra": "na fumaça" },
+        { "hebraico": "חֻ֝קֶּיךָ", "transliteral": "ḥuq-qey-ḵā", "traducao_palavra": "teus estatutos" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "שָׁכָֽחְתִּי׃", "transliteral": "šā-ḵāḥ-tî", "traducao_palavra": "esqueci" }
+      ]
+    },
+    "84": {
+      "traducao_completa": "Quantos serão os dias do teu servo? Quando farás juízo sobre os que me perseguem?",
+      "palavras": [
+        { "hebraico": "כַּמָּ֥ה", "transliteral": "kam-mā", "traducao_palavra": "quantos [são]" },
+        { "hebraico": "יְמֵֽי־", "transliteral": "yə-mê-", "traducao_palavra": "os dias de" },
+        { "hebraico": "עַבְדֶּ֑ךָ", "transliteral": "ʿaḇ-de-ḵā", "traducao_palavra": "teu servo" },
+        { "hebraico": "מָתַ֬י", "transliteral": "mā-ṯay", "traducao_palavra": "quando?" },
+        { "hebraico": "תַּעֲשֶׂ֖ה", "transliteral": "ta-ʿă-śeh", "traducao_palavra": "farás" },
+        { "hebraico": "בְרֹדְפַ֣י", "transliteral": "ḇə-rō-ḏə-p̄ay", "traducao_palavra": "nos meus perseguidores" },
+        { "hebraico": "מִשְׁפָּֽט׃", "transliteral": "miš-pāṭ", "traducao_palavra": "juízo" }
+      ]
+    },
+    "85": {
+      "traducao_completa": "Os soberbos cavaram covas para mim, o que não é conforme a tua lei.",
+      "palavras": [
+        { "hebraico": "כָּֽרוּ־", "transliteral": "kā-rû-", "traducao_palavra": "cavaram" },
+        { "hebraico": "לִ֣י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "זֵדִ֣ים", "transliteral": "zē-ḏîm", "traducao_palavra": "soberbos" },
+        { "hebraico": "שִׁיחֹ֑ות", "transliteral": "šî-ḥôṯ", "traducao_palavra": "covas" },
+        { "hebraico": "אֲ֝שֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "as quais" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não [são]" },
+        { "hebraico": "כְתֹורָתֶֽךָ׃", "transliteral": "ḵə-ṯô-rā-ṯe-ḵā", "traducao_palavra": "conforme tua lei" }
+      ]
+    },
+    "86": {
+      "traducao_completa": "Todos os teus mandamentos são verdade; com mentira me perseguem; ajuda-me.",
+      "palavras": [
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todos" },
+        { "hebraico": "מִצְוֹתֶ֥יךָ", "transliteral": "miṣ-wō-ṯey-ḵā", "traducao_palavra": "teus mandamentos" },
+        { "hebraico": "אֱמוּנָ֑ה", "transliteral": "ʾĕ-mû-nā", "traducao_palavra": "[são] verdade/fidelidade" },
+        { "hebraico": "שֶׁ֤קֶר", "transliteral": "še-qer", "traducao_palavra": "[com] mentira" },
+        { "hebraico": "רְדָפ֗וּנִי", "transliteral": "rə-ḏā-p̄û-nî", "traducao_palavra": "perseguiram-me" },
+        { "hebraico": "עָזְרֵֽנִי׃", "transliteral": "ʿā-zə-rê-nî", "traducao_palavra": "ajuda-me" }
+      ]
+    },
+    "87": {
+      "traducao_completa": "Quase que me consumiram na terra; mas eu não deixei os teus preceitos.",
+      "palavras": [
+        { "hebraico": "כִּ֭מְעַט", "transliteral": "kim-ʿaṭ", "traducao_palavra": "por pouco/quase" },
+        { "hebraico": "כִּלּ֣וּנִי", "transliteral": "kil-lû-nî", "traducao_palavra": "consumiram-me" },
+        { "hebraico": "בָאָ֑רֶץ", "transliteral": "bā-ʾā-reṣ", "traducao_palavra": "na terra" },
+        { "hebraico": "וַ֝אֲנִ֗י", "transliteral": "wa-ʾă-nî", "traducao_palavra": "mas eu" },
+        { "hebraico": "לֹא־", "transliteral": "lō-", "traducao_palavra": "não" },
+        { "hebraico": "עָזַ֥בְתִּי", "transliteral": "ʿā-zaḇ-tî", "traducao_palavra": "abandonei/deixei" },
+        { "hebraico": "פִקּוּדֶֽיךָ׃", "transliteral": "p̄iq-qû-ḏey-ḵā", "traducao_palavra": "teus preceitos" }
+      ]
+    },
+    "88": {
+      "traducao_completa": "Vivifica-me segundo a tua benignidade; então guardarei o testemunho da tua boca.",
+      "palavras": [
+        { "hebraico": "כְּחַסְדְּךָ֥", "transliteral": "kə-ḥas-də-ḵā", "traducao_palavra": "conforme tua benignidade" },
+        { "hebraico": "חַיֵּ֑נִי", "transliteral": "ḥay-yê-nî", "traducao_palavra": "vivifica-me" },
+        { "hebraico": "וְ֝אֶשְׁמְרָה", "transliteral": "wə-ʾeš-mə-rā", "traducao_palavra": "e guardarei" },
+        { "hebraico": "עֵד֥וּת", "transliteral": "ʿê-ḏûṯ", "traducao_palavra": "[o] testemunho de" },
+        { "hebraico": "פִּֽיךָ׃", "transliteral": "pî-ḵā", "traducao_palavra": "tua boca" }
+      ]
+    },
+    "89": {
+      "traducao_completa": "Para sempre, YHWH, a tua palavra está firmada nos céus.",
+      "palavras": [
+        { "hebraico": "לְעֹולָ֥ם", "transliteral": "lə-ʿô-lām", "traducao_palavra": "para sempre" },
+        { "hebraico": "יְהוָ֑ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "דְּ֝בָרְךָ֗", "transliteral": "də-ḇā-rə-ḵā", "traducao_palavra": "tua palavra" },
+        { "hebraico": "נִצָּ֥ב", "transliteral": "niṣ-ṣāḇ", "traducao_palavra": "está firmada/estabelecida" },
+        { "hebraico": "בַּשָּׁמָֽיִם", "transliteral": "ba-ššā-ma-yim", "traducao_palavra": "nos céus" }
+      ]
+    },
+    "90": {
+      "traducao_completa": "A tua fidelidade dura de geração em geração; tu firmaste a terra, e ela permanece.",
+      "palavras": [
+        { "hebraico": "לְדֹ֣ר", "transliteral": "lə-ḏōr", "traducao_palavra": "para geração" },
+        { "hebraico": "וָדֹ֭ר", "transliteral": "wā-ḏōr", "traducao_palavra": "e geração" },
+        { "hebraico": "אֱמֽוּנָתֶ֑ךָ", "transliteral": "ʾĕ-mû-nā-ṯe-ḵā", "traducao_palavra": "tua fidelidade" },
+        { "hebraico": "כֹּונַ֥נְתָּ", "transliteral": "kô-nan-tā", "traducao_palavra": "tu firmaste" },
+        { "hebraico": "אֶ֝֗רֶץ", "transliteral": "ʾe-reṣ", "traducao_palavra": "[a] terra" },
+        { "hebraico": "וַֽתַּעֲמֹֽד׃", "transliteral": "wat-ta-ʿă-mōḏ", "traducao_palavra": "e ela permanece" }
+      ]
+    },
+    "91": {
+      "traducao_completa": "Pelas tuas ordenanças permanecem até hoje; porque todas as coisas te servem.",
+      "palavras": [
+        { "hebraico": "לְֽמִשְׁפָּטֶיךָ", "transliteral": "lə-miš-pā-ṭey-ḵā", "traducao_palavra": "para teus juízos/ordenanças" },
+        { "hebraico": "עָמְד֣וּ", "transliteral": "ʿā-mə-ḏû", "traducao_palavra": "permaneceram" },
+        { "hebraico": "הַיֹּ֑ום", "transliteral": "hay-yôm", "traducao_palavra": "hoje/até este dia" },
+        { "hebraico": "כִּ֖י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "הַכֹּ֣ל", "transliteral": "ha-kkōl", "traducao_palavra": "o todo/todas as coisas" },
+        { "hebraico": "עֲבָדֶֽיךָ׃", "transliteral": "ʿă-ḇā-ḏey-ḵā", "traducao_palavra": "[são] teus servos" }
+      ]
+    },
+    "92": {
+      "traducao_completa": "Se a tua lei não fora o meu prazer, já teria perecido na minha aflição.",
+      "palavras": [
+        { "hebraico": "לוּלֵ֣י", "transliteral": "lû-lê", "traducao_palavra": "se não fosse" },
+        { "hebraico": "תֹורָתְךָ֣", "transliteral": "tô-rā-ṯə-ḵā", "traducao_palavra": "tua lei" },
+        { "hebraico": "שַׁעֲשֻׁעָ֑י", "transliteral": "ša-ʿă-šu-ʿāy", "traducao_palavra": "meu prazer" },
+        { "hebraico": "אָ֝֗ז", "transliteral": "ʾāz", "traducao_palavra": "então" },
+        { "hebraico": "אָבַ֥דְתִּי", "transliteral": "ʾā-ḇaḏ-tî", "traducao_palavra": "eu teria perecido" },
+        { "hebraico": "בְעָנְיִֽי׃", "transliteral": "ḇə-ʿā-nyî", "traducao_palavra": "na minha aflição" }
+      ]
+    },
+    "93": {
+      "traducao_completa": "Nunca me esquecerei dos teus preceitos; pois por eles me vivificaste.",
+      "palavras": [
+        { "hebraico": "לְ֭עֹולָם", "transliteral": "lə-ʿô-lām", "traducao_palavra": "para sempre" },
+        { "hebraico": "לֹא־", "transliteral": "lō-", "traducao_palavra": "não" },
+        { "hebraico": "אֶשְׁכַּ֣ח", "transliteral": "ʾeš-kaḥ", "traducao_palavra": "esquecerei" },
+        { "hebraico": "פִקֻּדֶ֑יךָ", "transliteral": "p̄iq-qu-ḏey-ḵā", "traducao_palavra": "teus preceitos" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "בָ֝ם", "transliteral": "ḇām", "traducao_palavra": "por eles" },
+        { "hebraico": "חִיִּיתָֽנִי׃", "transliteral": "ḥiy-yî-ṯā-nî", "traducao_palavra": "vivificaste-me" }
+      ]
+    },
+    "94": {
+      "traducao_completa": "Sou teu, salva-me; pois busquei os teus preceitos.",
+      "palavras": [
+        { "hebraico": "לְֽךָ־", "transliteral": "lə-ḵā-", "traducao_palavra": "teu [sou]" },
+        { "hebraico": "אֲ֭נִי", "transliteral": "ʾă-nî", "traducao_palavra": "eu" },
+        { "hebraico": "הֹושִׁיאֵ֑נִי", "transliteral": "hô-šî-ʿē-nî", "traducao_palavra": "salva-me" },
+        { "hebraico": "כִּ֖י", "transliteral": "kî", "traducao_palavra": "pois" },
+        { "hebraico": "פִקֻּדֶ֣יךָ", "transliteral": "p̄iq-qu-ḏey-ḵā", "traducao_palavra": "teus preceitos" },
+        { "hebraico": "דָרָֽשְׁתִּי׃", "transliteral": "ḏā-rāš-tî", "traducao_palavra": "busquei" }
+      ]
+    },
+    "95": {
+      "traducao_completa": "Os ímpios esperaram por mim para me destruírem, mas eu considerarei os teus testemunhos.",
+      "palavras": [
+        { "hebraico": "לִ֤י", "transliteral": "lî", "traducao_palavra": "por mim" },
+        { "hebraico": "קִוּ֣וּ", "transliteral": "qiw-wû", "traducao_palavra": "esperaram" },
+        { "hebraico": "רְשָׁעִ֣ים", "transliteral": "rə-šā-ʿîm", "traducao_palavra": "ímpios" },
+        { "hebraico": "לְאַבְּדֵ֑נִי", "transliteral": "lə-ʾab-bə-ḏē-nî", "traducao_palavra": "para destruir-me" },
+        { "hebraico": "עֵ֝דֹתֶ֗יךָ", "transliteral": "ʿē-ḏō-ṯey-ḵā", "traducao_palavra": "teus testemunhos" },
+        { "hebraico": "אֶתְבֹּונָֽן׃", "transliteral": "ʾeṯ-bô-nān", "traducao_palavra": "considerarei/entenderei" }
+      ]
+    },
+    "96": {
+      "traducao_completa": "Tenho visto fim a toda perfeição, mas o teu mandamento é amplíssimo.",
+      "palavras": [
+        { "hebraico": "לְכָל־", "transliteral": "lə-ḵāl-", "traducao_palavra": "a toda" },
+        { "hebraico": "תִּ֭כְלָה", "transliteral": "tiḵ-lā", "traducao_palavra": "perfeição/limite" },
+        { "hebraico": "רָאִ֣יתִי", "transliteral": "rā-ʾî-tî", "traducao_palavra": "vi" },
+        { "hebraico": "קֵ֑ץ", "transliteral": "qēṣ", "traducao_palavra": "[um] fim" },
+        { "hebraico": "רְחָבָ֖ה", "transliteral": "rə-ḥā-ḇā", "traducao_palavra": "ampla" },
+        { "hebraico": "מִצְוָתְךָ֣", "transliteral": "miṣ-wā-ṯə-ḵā", "traducao_palavra": "teu mandamento" },
+        { "hebraico": "מְאֹֽד׃", "transliteral": "mə-ʾōḏ", "traducao_palavra": "muito/extremamente" }
+      ]
+    },
+    "97": {
+      "traducao_completa": "Oh! quanto amo a tua lei! É a minha meditação todo o dia.",
+      "palavras": [
+        { "hebraico": "מָֽה־", "transliteral": "māh-", "traducao_palavra": "quão" },
+        { "hebraico": "אָהַ֥בְתִּי", "transliteral": "ʾā-haḇ-tî", "traducao_palavra": "amei/amo" },
+        { "hebraico": "תֹורָתֶ֑ךָ", "transliteral": "tô-rā-ṯe-ḵā", "traducao_palavra": "tua lei" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todo" },
+        { "hebraico": "הַ֝יֹּ֗ום", "transliteral": "hay-yôm", "traducao_palavra": "o dia" },
+        { "hebraico": "הִ֣יא", "transliteral": "hî", "traducao_palavra": "ela [é]" },
+        { "hebraico": "שִׂיחָתִֽי׃", "transliteral": "śî-ḥā-ṯî", "traducao_palavra": "minha meditação" }
+      ]
+    },
+    "98": {
+      "traducao_completa": "Tu, pelos teus mandamentos, me fazes mais sábio do que os meus inimigos; pois estão sempre comigo.",
+      "palavras": [
+        { "hebraico": "מֵ֭אֹיְבַי", "transliteral": "mē-ʾō-yə-ḇay", "traducao_palavra": "mais que meus inimigos" },
+        { "hebraico": "תְּחַכְּמֵ֣נִי", "transliteral": "tə-ḥak-kə-mē-nî", "traducao_palavra": "tu me fazes sábio" },
+        { "hebraico": "מִצְוֹתֶ֑ךָ", "transliteral": "miṣ-wō-ṯe-ḵā", "traducao_palavra": "teus mandamentos" },
+        { "hebraico": "כִּ֖י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "לְעֹולָ֣ם", "transliteral": "lə-ʿô-lām", "traducao_palavra": "para sempre" },
+        { "hebraico": "הִיא־", "transliteral": "hî-", "traducao_palavra": "ela [está]" },
+        { "hebraico": "לִֽי׃", "transliteral": "lî", "traducao_palavra": "comigo" }
+      ]
+    },
+    "99": {
+      "traducao_completa": "Tenho mais entendimento do que todos os meus mestres, porque os teus testemunhos são a minha meditação.",
+      "palavras": [
+        { "hebraico": "מִכָּל־", "transliteral": "mik-kāl-", "traducao_palavra": "mais que todos" },
+        { "hebraico": "מְלַמְּדַ֥י", "transliteral": "mə-lam-mə-ḏay", "traducao_palavra": "meus mestres" },
+        { "hebraico": "הִשְׂכַּ֑לְתִּי", "transliteral": "hiś-kal-tî", "traducao_palavra": "eu tive entendimento" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "עֵ֝דְוֹתֶ֗יךָ", "transliteral": "ʿē-ḏə-wō-ṯey-ḵā", "traducao_palavra": "teus testemunhos" },
+        { "hebraico": "שִׂ֣יחָה", "transliteral": "śî-ḥā", "traducao_palavra": "[são] meditação" },
+        { "hebraico": "לִֽי׃", "transliteral": "lî", "traducao_palavra": "para mim" }
+      ]
+    },
+    "100": {
+      "traducao_completa": "Entendo mais do que os antigos, porque guardo os teus preceitos.",
+      "palavras": [
+        { "hebraico": "מִזְּקֵנִ֥ים", "transliteral": "miz-zə-qē-nîm", "traducao_palavra": "mais que os anciãos/antigos" },
+        { "hebraico": "אֶתְבֹּונָ֑ן", "transliteral": "ʾeṯ-bô-nān", "traducao_palavra": "eu entendo" },
+        { "hebraico": "כִּ֖י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "פִקּוּדֶ֣יךָ", "transliteral": "p̄iq-qû-ḏey-ḵā", "traducao_palavra": "teus preceitos" },
+        { "hebraico": "נָצָֽרְתִּי׃", "transliteral": "nā-ṣā-rə-tî", "traducao_palavra": "guardei" }
+      ]
+    },
+    "101": {
+      "traducao_completa": "Retive os meus pés de todo caminho mau, para guardar a tua palavra.",
+      "palavras": [
+        { "hebraico": "מִכָּל־", "transliteral": "mik-kāl-", "traducao_palavra": "de todo" },
+        { "hebraico": "אֹ֣רַח", "transliteral": "ʾō-raḥ", "traducao_palavra": "caminho" },
+        { "hebraico": "רָ֭ע", "transliteral": "rāʿ", "traducao_palavra": "mau" },
+        { "hebraico": "כָּלִ֣אתִי", "transliteral": "kā-lî-ṯî", "traducao_palavra": "refreei/retive" },
+        { "hebraico": "רַגְלָ֑י", "transliteral": "raḡ-lāy", "traducao_palavra": "meus pés" },
+        { "hebraico": "לְ֝מַ֗עַן", "transliteral": "lə-ma-ʿan", "traducao_palavra": "para que" },
+        { "hebraico": "אֶשְׁמֹ֥ר", "transliteral": "ʾeš-mōr", "traducao_palavra": "eu guarde" },
+        { "hebraico": "דְּבָרֶֽךָ׃", "transliteral": "də-ḇā-re-ḵā", "traducao_palavra": "tua palavra" }
+      ]
+    },
+    "102": {
+      "traducao_completa": "Não me apartei dos teus juízos, porque tu me ensinaste.",
+      "palavras": [
+        { "hebraico": "מִמִּשְׁפָּטֶ֥יךָ", "transliteral": "mim-miš-pā-ṭey-ḵā", "traducao_palavra": "dos teus juízos" },
+        { "hebraico": "לֹא־", "transliteral": "lō-", "traducao_palavra": "não" },
+        { "hebraico": "סָ֑רְתִּי", "transliteral": "sār-tî", "traducao_palavra": "me apartei" },
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "אַ֝תָּה", "transliteral": "ʾat-tā", "traducao_palavra": "tu" },
+        { "hebraico": "הֹורֵתָֽנִי׃", "transliteral": "hô-rê-ṯā-nî", "traducao_palavra": "ensinaste-me" }
+      ]
+    },
+    "103": {
+      "traducao_completa": "Quão doces são as tuas palavras ao meu paladar, mais do que o mel à minha boca!",
+      "palavras": [
+        { "hebraico": "מַה־", "transliteral": "mah-", "traducao_palavra": "quão" },
+        { "hebraico": "נִּמְלְצ֣וּ", "transliteral": "nim-lə-ṣû", "traducao_palavra": "são suaves/doces" },
+        { "hebraico": "לְ֭חִכִּי", "transliteral": "lə-ḥik-kî", "traducao_palavra": "ao meu paladar" },
+        { "hebraico": "אִמְרָתֶ֗ךָ", "transliteral": "ʾim-rā-ṯe-ḵā", "traducao_palavra": "tua palavra/fala" },
+        { "hebraico": "מִדְּבַ֥שׁ", "transliteral": "mid-də-ḇaš", "traducao_palavra": "mais que o mel" },
+        { "hebraico": "לְפִֽי׃", "transliteral": "lə-p̄î", "traducao_palavra": "à minha boca" }
+      ]
+    },
+    "104": {
+      "traducao_completa": "Pelos teus preceitos alcancei entendimento; por isso odeio todo caminho de falsidade.",
+      "palavras": [
+        { "hebraico": "מִפִּקּוּדֶ֥יךָ", "transliteral": "mip-p̄iq-qû-ḏey-ḵā", "traducao_palavra": "pelos teus preceitos" },
+        { "hebraico": "אֶתְבֹּונָ֑ן", "transliteral": "ʾeṯ-bô-nān", "traducao_palavra": "eu entendo/alcanço entendimento" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "por" },
+        { "hebraico": "כֵּ֝ן", "transliteral": "kên", "traducao_palavra": "isso" },
+        { "hebraico": "שָׂנֵ֗אתִי", "transliteral": "śā-nê-tî", "traducao_palavra": "odiei" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todo" },
+        { "hebraico": "אֹ֥רַח", "transliteral": "ʾō-raḥ", "traducao_palavra": "caminho de" },
+        { "hebraico": "שָֽׁקֶר׃", "transliteral": "šā-qer", "traducao_palavra": "mentira/falsidade" }
+      ]
+    },
+    "105": {
+      "traducao_completa": "Lâmpada para os meus pés é a tua palavra, e luz para o meu caminho.",
+      "palavras": [
+        { "hebraico": "נֵר־", "transliteral": "nēr-", "traducao_palavra": "lâmpada" },
+        { "hebraico": "לְרַגְלִ֥י", "transliteral": "lə-raḡ-lî", "traducao_palavra": "para meu pé" },
+        { "hebraico": "דְבָרֶ֑ךָ", "transliteral": "də-ḇā-re-ḵā", "traducao_palavra": "tua palavra" },
+        { "hebraico": "וְ֝אֹור", "transliteral": "wə-ʾôr", "traducao_palavra": "e luz" },
+        { "hebraico": "לִנְתִיבָתִֽי׃", "transliteral": "lin-ṯî-ḇā-ṯî", "traducao_palavra": "para minha vereda/caminho" }
+      ]
+    },
+    "106": {
+      "traducao_completa": "Jurei, e o cumprirei, que guardarei os teus justos juízos.",
+      "palavras": [
+        { "hebraico": "נִשְׁבַּ֥עְתִּי", "transliteral": "niš-baʿ-tî", "traducao_palavra": "jurei" },
+        { "hebraico": "וָאֲקַיֵּ֑מָה", "transliteral": "wā-ʾă-qay-yē-mā", "traducao_palavra": "e confirmarei/cumprirei" },
+        { "hebraico": "לִ֝שְׁמֹ֗ר", "transliteral": "liš-mōr", "traducao_palavra": "para guardar" },
+        { "hebraico": "מִשְׁפְּטֵ֥י", "transliteral": "miš-pə-ṭê", "traducao_palavra": "juízos de" },
+        { "hebraico": "צִדְקֶֽךָ׃", "transliteral": "ṣiḏ-qe-ḵā", "traducao_palavra": "tua justiça" }
+      ]
+    },
+    "107": {
+      "traducao_completa": "Estou aflitíssimo; vivifica-me, YHWH, segundo a tua palavra.",
+      "palavras": [
+        { "hebraico": "נַעֲנֵ֥יתִי", "transliteral": "na-ʿă-nê-ṯî", "traducao_palavra": "fui afligido" },
+        { "hebraico": "עַד־", "transliteral": "ʿaḏ-", "traducao_palavra": "até" },
+        { "hebraico": "מְאֹ֑ד", "transliteral": "mə-ʾōḏ", "traducao_palavra": "o extremo" },
+        { "hebraico": "יְ֝הוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "חַיֵּ֥נִי", "transliteral": "ḥay-yê-nî", "traducao_palavra": "vivifica-me" },
+        { "hebraico": "כְדִבָרֶֽךָ׃", "transliteral": "ḵə-ḏi-ḇā-re-ḵā", "traducao_palavra": "conforme tua palavra" }
+      ]
+    },
+    "108": {
+      "traducao_completa": "Aceita, eu te rogo, YHWH, as ofertas voluntárias da minha boca; e ensina-me os teus juízos.",
+      "palavras": [
+        { "hebraico": "נִדְבֹ֣ות", "transliteral": "niḏ-ḇôṯ", "traducao_palavra": "[as] ofertas voluntárias de" },
+        { "hebraico": "פִּ֭י", "transliteral": "p̄î", "traducao_palavra": "minha boca" },
+        { "hebraico": "רְצֵה־", "transliteral": "rə-ṣēh-", "traducao_palavra": "aceita/agrada-te" },
+        { "hebraico": "נָ֣א", "transliteral": "nā", "traducao_palavra": "agora/rogo-te" },
+        { "hebraico": "יְהוָ֑ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וּֽמִשְׁפָּטֶ֥יךָ", "transliteral": "ū-miš-pā-ṭey-ḵā", "traducao_palavra": "e teus juízos" },
+        { "hebraico": "לַמְּדֵֽנִי׃", "transliteral": "lam-mə-ḏē-nî", "traducao_palavra": "ensina-me" }
+      ]
+    },
+    "109": {
+      "traducao_completa": "A minha alma está continuamente na minha mão; todavia não me esqueço da tua lei.",
+      "palavras": [
+        { "hebraico": "נַפְשִׁ֣י", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma" },
+        { "hebraico": "בְכַפִּ֣י", "transliteral": "ḇə-ḵap-pî", "traducao_palavra": "na minha palma/mão [em perigo]" },
+        { "hebraico": "תָמִ֑יד", "transliteral": "ṯā-mîḏ", "traducao_palavra": "continuamente" },
+        { "hebraico": "וְ֝תֹורָתְךָ֗", "transliteral": "wə-ṯô-rā-ṯə-ḵā", "traducao_palavra": "e tua lei" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "שָׁכָֽחְתִּי׃", "transliteral": "šā-ḵāḥ-tî", "traducao_palavra": "esqueci" }
+      ]
+    },
+    "110": {
+      "traducao_completa": "Os ímpios me armaram laço; contudo não me desviei dos teus preceitos.",
+      "palavras": [
+        { "hebraico": "נָתְנ֬וּ", "transliteral": "nā-ṯə-nû", "traducao_palavra": "puseram/armaram" },
+        { "hebraico": "רְשָׁעִ֣ים", "transliteral": "rə-šā-ʿîm", "traducao_palavra": "ímpios" },
+        { "hebraico": "פַּ֣ח", "transliteral": "pa-ḥ", "traducao_palavra": "laço" },
+        { "hebraico": "לִ֑י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "וּ֝מִפִּקּוּדֶ֗יךָ", "transliteral": "ū-mip-p̄iq-qû-ḏey-ḵā", "traducao_palavra": "e de teus preceitos" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תָעִֽיתִי׃", "transliteral": "ṯā-ʿî-ṯî", "traducao_palavra": "me desviei/errei" }
+      ]
+    },
+    "111": {
+      "traducao_completa": "Os teus testemunhos tomei por herança para sempre, pois são o gozo do meu coração.",
+      "palavras": [
+        { "hebraico": "נָחַ֨לְתִּי", "transliteral": "nā-ḥal-tî", "traducao_palavra": "herdei/tomei por herança" },
+        { "hebraico": "עֵדְוֹתֶ֥יךָ", "transliteral": "ʿē-ḏə-wō-ṯey-ḵā", "traducao_palavra": "teus testemunhos" },
+        { "hebraico": "לְעֹולָ֑ם", "transliteral": "lə-ʿô-lām", "traducao_palavra": "para sempre" },
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "שְׂשֹׂ֥ון", "transliteral": "śə-śôn", "traducao_palavra": "[o] gozo/alegria de" },
+        { "hebraico": "לִבִּ֥י", "transliteral": "lib-bî", "traducao_palavra": "meu coração" },
+        { "hebraico": "הֵֽמָּה׃", "transliteral": "hēm-mā", "traducao_palavra": "[são] eles" }
+      ]
+    },
+    "112": {
+      "traducao_completa": "Inclinei o meu coração a cumprir os teus estatutos, para sempre, até ao fim.",
+      "palavras": [
+        { "hebraico": "נָטִ֣יתִי", "transliteral": "nā-ṭî-ṯî", "traducao_palavra": "inclinei" },
+        { "hebraico": "לִ֭בִּי", "transliteral": "lib-bî", "traducao_palavra": "meu coração" },
+        { "hebraico": "לַעֲשֹׂ֥ות", "transliteral": "la-ʿă-śôṯ", "traducao_palavra": "para fazer/cumprir" },
+        { "hebraico": "חֻקֶּ֗יךָ", "transliteral": "ḥuq-qey-ḵā", "traducao_palavra": "teus estatutos" },
+        { "hebraico": "לְעֹולָ֥ם", "transliteral": "lə-ʿô-lām", "traducao_palavra": "para sempre" },
+        { "hebraico": "עֵֽקֶב׃", "transliteral": "ʿē-qeḇ", "traducao_palavra": "[até o] fim/recompensa" }
+      ]
+    },
+    "113": {
+      "traducao_completa": "Odeio os pensamentos vãos, mas amo a tua lei.",
+      "palavras": [
+        { "hebraico": "סֵעֲפִ֥ים", "transliteral": "śē-ʿă-p̄îm", "traducao_palavra": "[os] de mente dobre/pensamentos vãos" },
+        { "hebraico": "שָׂנֵ֑אתִי", "transliteral": "śā-nê-ṯî", "traducao_palavra": "odiei" },
+        { "hebraico": "וְתֹורָתְךָ֥", "transliteral": "wə-ṯô-rā-ṯə-ḵā", "traducao_palavra": "mas tua lei" },
+        { "hebraico": "אָהָֽבְתִּי׃", "transliteral": "ʾā-hāḇ-tî", "traducao_palavra": "amei" }
+      ]
+    },
+    "114": {
+      "traducao_completa": "Tu és o meu refúgio e o meu escudo; espero na tua palavra.",
+      "palavras": [
+        { "hebraico": "סִתְרִ֣י", "transliteral": "siṯ-rî", "traducao_palavra": "meu esconderijo/refúgio" },
+        { "hebraico": "וּמָגִנִּ֣י", "transliteral": "ū-mā-ḡin-nî", "traducao_palavra": "e meu escudo" },
+        { "hebraico": "אָ֑תָּה", "transliteral": "ʾāt-tā", "traducao_palavra": "[és] tu" },
+        { "hebraico": "לִדְבָרְךָ֥", "transliteral": "li-ḏə-ḇā-rə-ḵā", "traducao_palavra": "pela tua palavra" },
+        { "hebraico": "יִחָֽלְתִּי׃", "transliteral": "yi-ḥāl-tî", "traducao_palavra": "esperei" }
+      ]
+    },
+    "115": {
+      "traducao_completa": "Apartai-vos de mim, malfeitores, para que eu guarde os mandamentos do meu Deus.",
+      "palavras": [
+        { "hebraico": "סֽוּרוּ־", "transliteral": "śû-rû-", "traducao_palavra": "apartai-vos" },
+        { "hebraico": "מִמֶּ֥נִּי", "transliteral": "mim-men-nî", "traducao_palavra": "de mim" },
+        { "hebraico": "מְרֵעִ֑ים", "transliteral": "mə-rē-ʿîm", "traducao_palavra": "malfeitores" },
+        { "hebraico": "וְ֝אֶצְּרָה", "transliteral": "wə-ʾeṣ-ṣə-rā", "traducao_palavra": "e guardarei" },
+        { "hebraico": "מִצְוֹ֥ות", "transliteral": "miṣ-wōṯ", "traducao_palavra": "[os] mandamentos de" },
+        { "hebraico": "אֱלֹהָֽי׃", "transliteral": "ʾĕ-lō-hāy", "traducao_palavra": "meu Deus" }
+      ]
+    },
+    "116": {
+      "traducao_completa": "Sustenta-me conforme a tua palavra, para que eu viva, e não me deixes envergonhado da minha esperança.",
+      "palavras": [
+        { "hebraico": "סָמְכֵ֣נִי", "transliteral": "śā-mə-ḵē-nî", "traducao_palavra": "sustenta-me" },
+        { "hebraico": "כְאִמְרָתְךָ֥", "transliteral": "ḵə-ʾim-rā-ṯə-ḵā", "traducao_palavra": "conforme tua palavra" },
+        { "hebraico": "וְאֶֽחְיֶ֑ה", "transliteral": "wə-ʾeḥ-yeh", "traducao_palavra": "e viverei" },
+        { "hebraico": "וְאַל־", "transliteral": "wə-ʾal-", "traducao_palavra": "e não" },
+        { "hebraico": "תְּ֝בִישֵׁ֗נִי", "transliteral": "tə-ḇî-šē-nî", "traducao_palavra": "envergonhes me" },
+        { "hebraico": "מִשִּׂבְרִֽי׃", "transliteral": "miś-śiḇ-rî", "traducao_palavra": "da minha esperança" }
+      ]
+    },
+    "117": {
+      "traducao_completa": "Sustenta-me, e serei salvo, e atentarei sempre para os teus estatutos.",
+      "palavras": [
+        { "hebraico": "סְעָדֵ֥נִי", "transliteral": "śə-ʿā-ḏē-nî", "traducao_palavra": "apoia-me/sustenta-me" },
+        { "hebraico": "וְאִוָּשֵׁ֑עָה", "transliteral": "wə-ʾiw-wā-šê-ʿā", "traducao_palavra": "e serei salvo" },
+        { "hebraico": "וְאֶשְׁעָ֖ה", "transliteral": "wə-ʾeš-ʿā", "traducao_palavra": "e olharei/deleitarei" },
+        { "hebraico": "בְחֻקֶּ֣יךָ", "transliteral": "ḇə-ḥuq-qey-ḵā", "traducao_palavra": "nos teus estatutos" },
+        { "hebraico": "תָמִֽיד׃", "transliteral": "ṯā-mîḏ", "traducao_palavra": "continuamente" }
+      ]
+    },
+    "118": {
+      "traducao_completa": "Tu desprezas todos os que se desviam dos teus estatutos, pois o engano deles é falsidade.",
+      "palavras": [
+        { "hebraico": "סָ֭לִיתָ", "transliteral": "śā-lî-ṯā", "traducao_palavra": "rejeitaste/calcaste" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todos" },
+        { "hebraico": "שֹׁגִ֣ים", "transliteral": "šō-ḡîm", "traducao_palavra": "[os que] erram/desviam de" },
+        { "hebraico": "מֵחֻקֶּ֑יךָ", "transliteral": "mē-ḥuq-qey-ḵā", "traducao_palavra": "teus estatutos" },
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "שֶׁ֝֗קֶר", "transliteral": "še-qer", "traducao_palavra": "mentira/falsidade [é]" },
+        { "hebraico": "תַּרְמִיתָֽם׃", "transliteral": "tar-mî-ṯām", "traducao_palavra": "o engano deles" }
+      ]
+    },
+    "119": {
+      "traducao_completa": "Tu tiras da terra todos os ímpios como escória; por isso amo os teus testemunhos.",
+      "palavras": [
+        { "hebraico": "סִגִים", "transliteral": "si-ḡîm", "traducao_palavra": "[como] escórias" },
+        { "hebraico": "הִשְׁבַּ֥תָּ", "transliteral": "hiš-bat-tā", "traducao_palavra": "fizeste cessar/tiraste" },
+        { "hebraico": "כָל־", "transliteral": "ḵāl-", "traducao_palavra": "todos" },
+        { "hebraico": "רִשְׁעֵי־", "transliteral": "riš-ʿê-", "traducao_palavra": "ímpios de" },
+        { "hebraico": "אָ֑רֶץ", "transliteral": "ʾā-reṣ", "traducao_palavra": "terra" },
+        { "hebraico": "לָ֝כֵ֗ן", "transliteral": "lā-ḵēn", "traducao_palavra": "por isso" },
+        { "hebraico": "אָהַ֥בְתִּי", "transliteral": "ʾā-haḇ-tî", "traducao_palavra": "amei" },
+        { "hebraico": "עֵדֹתֶֽיךָ׃", "transliteral": "ʿē-ḏō-ṯey-ḵā", "traducao_palavra": "teus testemunhos" }
+      ]
+    },
+    "120": {
+      "traducao_completa": "Arrepia-se a minha carne com temor de ti, e temo os teus juízos.",
+      "palavras": [
+        { "hebraico": "סָמַ֣ר", "transliteral": "śā-mar", "traducao_palavra": "erriçou/arrepiou" },
+        { "hebraico": "מִפַּחְדְּךָ֣", "transliteral": "mip-paḥ-də-ḵā", "traducao_palavra": "pelo pavor de ti" },
+        { "hebraico": "בְשָׂרִ֑י", "transliteral": "ḇə-śā-rî", "traducao_palavra": "minha carne" },
+        { "hebraico": "וּֽמִמִּשְׁפָּטֶ֥יךָ", "transliteral": "ū-mim-miš-pā-ṭey-ḵā", "traducao_palavra": "e dos teus juízos" },
+        { "hebraico": "יָרֵֽאתִי׃", "transliteral": "yā-rê-ṯî", "traducao_palavra": "temi" }
+      ]
+    },
+    "121": {
+      "traducao_completa": "Tenho praticado juízo e justiça; não me entregues aos meus opressores.",
+      "palavras": [
+        { "hebraico": "עָ֭שִׂיתִי", "transliteral": "ʿā-śî-ṯî", "traducao_palavra": "pratiquei" },
+        { "hebraico": "מִשְׁפָּ֥ט", "transliteral": "miš-pāṭ", "traducao_palavra": "juízo" },
+        { "hebraico": "וָצֶ֑דֶק", "transliteral": "wā-ṣe-ḏeq", "traducao_palavra": "e justiça" },
+        { "hebraico": "בַּל־", "transliteral": "bal-", "traducao_palavra": "não" },
+        { "hebraico": "תַּ֝נִּיחֵ֗נִי", "transliteral": "tan-nî-ḥê-nî", "traducao_palavra": "entregues me/deixes me" },
+        { "hebraico": "לְעֹֽשְׁקָֽי׃", "transliteral": "lə-ʿō-šə-qāy", "traducao_palavra": "aos meus opressores" }
+      ]
+    },
+    "122": {
+      "traducao_completa": "Sê fiador do teu servo para o bem; não permitas que os soberbos me oprimam.",
+      "palavras": [
+        { "hebraico": "עֲרֹ֣ב", "transliteral": "ʿă-rōḇ", "traducao_palavra": "sê fiador de/garante" },
+        { "hebraico": "עַבְדְּךָ֣", "transliteral": "ʿaḇ-də-ḵā", "traducao_palavra": "teu servo" },
+        { "hebraico": "לְטֹ֑וב", "transliteral": "lə-ṭôᇀ", "traducao_palavra": "para o bem" },
+        { "hebraico": "אַֽל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "יַעַשְׁקֻ֥נִי", "transliteral": "ya-ʿaš-qu-nî", "traducao_palavra": "oprimam me" },
+        { "hebraico": "זֵדִֽים׃", "transliteral": "zē-ḏîm", "traducao_palavra": "[os] soberbos" }
+      ]
+    },
+    "123": {
+      "traducao_completa": "Os meus olhos desfalecem pela tua salvação e pela promessa da tua justiça.",
+      "palavras": [
+        { "hebraico": "עֵ֭ינַי", "transliteral": "ʿê-nay", "traducao_palavra": "meus olhos" },
+        { "hebraico": "כָּל֣וּ", "transliteral": "kā-lû", "traducao_palavra": "desfaleceram/consumiram" },
+        { "hebraico": "לִֽישׁוּעָתֶ֑ךָ", "transliteral": "lî-šû-ʿā-ṯe-ḵā", "traducao_palavra": "pela tua salvação" },
+        { "hebraico": "וּלְאִמְרַ֥ת", "transliteral": "ū-lə-ʾim-raṯ", "traducao_palavra": "e pela palavra/fala de" },
+        { "hebraico": "צִדְקֶֽךָ׃", "transliteral": "ṣiḏ-qe-ḵā", "traducao_palavra": "tua justiça" }
+      ]
+    },
+    "124": {
+      "traducao_completa": "Trata com o teu servo segundo a tua misericórdia, e ensina-me os teus estatutos.",
+      "palavras": [
+        { "hebraico": "עֲשֵׂ֖ה", "transliteral": "ʿă-śēh", "traducao_palavra": "age/faz" },
+        { "hebraico": "עִם־", "transliteral": "ʿim-", "traducao_palavra": "com" },
+        { "hebraico": "עַבְדְּךָ֥", "transliteral": "ʿaḇ-də-ḵā", "traducao_palavra": "teu servo" },
+        { "hebraico": "כְחַסְדֶּ֑ךָ", "transliteral": "ḵə-ḥas-de-ḵā", "traducao_palavra": "conforme tua misericórdia" },
+        { "hebraico": "וְחֻקֶּ֗יךָ", "transliteral": "wə-ḥuq-qey-ḵā", "traducao_palavra": "e teus estatutos" },
+        { "hebraico": "לַמְּדֵֽנִי׃", "transliteral": "lam-mə-ḏē-nî", "traducao_palavra": "ensina-me" }
+      ]
+    },
+    "125": {
+      "traducao_completa": "Sou teu servo; dá-me entendimento, para que conheça os teus testemunhos.",
+      "palavras": [
+        { "hebraico": "עַבְדְּךָ־", "transliteral": "ʿaḇ-də-ḵā-", "traducao_palavra": "teu servo [sou]" },
+        { "hebraico": "אָ֥נִי", "transliteral": "ʾā-nî", "traducao_palavra": "eu" },
+        { "hebraico": "הֲבִינֵ֑נִי", "transliteral": "hă-ḇi-nē-nî", "traducao_palavra": "faze-me entender" },
+        { "hebraico": "וְ֝אֵדְעָ֗ה", "transliteral": "wə-ʾê-ḏə-ʿā", "traducao_palavra": "e conhecerei" },
+        { "hebraico": "עֵדֹתֶֽיךָ׃", "transliteral": "ʿē-ḏō-ṯey-ḵā", "traducao_palavra": "teus testemunhos" }
+      ]
+    },
+    "126": {
+      "traducao_completa": "É tempo de operares, YHWH, pois eles anularam a tua lei.",
+      "palavras": [
+        { "hebraico": "עֵ֭ת", "transliteral": "ʿēt", "traducao_palavra": "[é] tempo" },
+        { "hebraico": "לַעֲשֹׂ֣ות", "transliteral": "la-ʿă-śôṯ", "traducao_palavra": "para agir" },
+        { "hebraico": "לַיהוָ֑ה", "transliteral": "lay-hwāh", "traducao_palavra": "para YHWH" },
+        { "hebraico": "הֵ֝פֵ֗רוּ", "transliteral": "hē-p̄ê-rû", "traducao_palavra": "eles anularam/quebraram" },
+        { "hebraico": "תֹּורָתֶֽךָ׃", "transliteral": "tô-rā-ṯe-ḵā", "traducao_palavra": "tua lei" }
+      ]
+    },
+    "127": {
+      "traducao_completa": "Pelo que amo os teus mandamentos mais do que o ouro, e ainda mais do que o ouro fino.",
+      "palavras": [
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "por" },
+        { "hebraico": "כֵּ֭ן", "transliteral": "kên", "traducao_palavra": "isso" },
+        { "hebraico": "אָהַ֣בְתִּי", "transliteral": "ʾā-haḇ-tî", "traducao_palavra": "amei" },
+        { "hebraico": "מִצְוֹתֶ֑יךָ", "transliteral": "miṣ-wō-ṯey-ḵā", "traducao_palavra": "teus mandamentos" },
+        { "hebraico": "מִזָּהָ֥ב", "transliteral": "miz-zā-hāḇ", "traducao_palavra": "mais que ouro" },
+        { "hebraico": "וּמִפָּֽז׃", "transliteral": "ū-mip-pāz", "traducao_palavra": "e que ouro fino" }
+      ]
+    },
+    "128": {
+      "traducao_completa": "Por isso considero retos todos os teus preceitos sobre todas as coisas, e odeio todo caminho de falsidade.",
+      "palavras": [
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "por" },
+        { "hebraico": "כֵּ֤ן ׀", "transliteral": "kên", "traducao_palavra": "isso" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todos" },
+        { "hebraico": "פִּקּ֘וּדֵ֤י", "transliteral": "p̄iq-qû-ḏê", "traducao_palavra": "preceitos de" },
+        { "hebraico": "כֹל", "transliteral": "ḵōl", "traducao_palavra": "tudo" },
+        { "hebraico": "יִשָּׁ֑רְתִּי", "transliteral": "yiš-šā-rə-tî", "traducao_palavra": "julguei retos" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todo" },
+        { "hebraico": "אֹ֥רַח", "transliteral": "ʾō-raḥ", "traducao_palavra": "caminho de" },
+        { "hebraico": "שֶׁ֝קֶר", "transliteral": "še-qer", "traducao_palavra": "falsidade" },
+        { "hebraico": "שָׂנֵֽאתִי׃", "transliteral": "śā-nê-tî", "traducao_palavra": "odiei" }
+      ]
+    },
+    "129": {
+      "traducao_completa": "Maravilhosos são os teus testemunhos; por isso a minha alma os guarda.",
+      "palavras": [
+        { "hebraico": "פְּלָאֹ֥ות", "transliteral": "pə-lā-ʾôṯ", "traducao_palavra": "maravilhosos [são]" },
+        { "hebraico": "עֵדְוֹתֶ֑יךָ", "transliteral": "ʿē-ḏə-wō-ṯey-ḵā", "traducao_palavra": "teus testemunhos" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "por" },
+        { "hebraico": "כֵּ֝ן", "transliteral": "kên", "traducao_palavra": "isso" },
+        { "hebraico": "נְצָרָ֥תַם", "transliteral": "nə-ṣā-rā-ṯam", "traducao_palavra": "guardou-os" },
+        { "hebraico": "נַפְשִֽׁי׃", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma" }
+      ]
+    },
+    "130": {
+      "traducao_completa": "A exposição das tuas palavras dá luz; dá entendimento aos simples.",
+      "palavras": [
+        { "hebraico": "פֵּ֖תַח", "transliteral": "pē-ṯaḥ", "traducao_palavra": "[a] abertura/exposição de" },
+        { "hebraico": "דְּבָרֶ֥יךָ", "transliteral": "də-ḇā-rey-ḵā", "traducao_palavra": "tuas palavras" },
+        { "hebraico": "יָאִ֑יר", "transliteral": "yā-ʾîr", "traducao_palavra": "dá luz" },
+        { "hebraico": "מֵ֝בִ֗ין", "transliteral": "mē-ḇîn", "traducao_palavra": "dando entendimento a" },
+        { "hebraico": "פְּתָיִֽים׃", "transliteral": "pə-ṯā-yîm", "traducao_palavra": "[os] simples" }
+      ]
+    },
+    "131": {
+      "traducao_completa": "Abri a minha boca e suspirei, pois desejei os teus mandamentos.",
+      "palavras": [
+        { "hebraico": "פִּֽי־", "transliteral": "pî-", "traducao_palavra": "minha boca" },
+        { "hebraico": "פָ֭עַרְתִּי", "transliteral": "p̄ā-ʿar-tî", "traducao_palavra": "abri" },
+        { "hebraico": "וָאֶשְׁאָ֑פָה", "transliteral": "wā-ʾeš-ʾā-p̄ā", "traducao_palavra": "e suspirei/ansiei" },
+        { "hebraico": "כִּ֖י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "לְמִצְוֹתֶ֣יךָ", "transliteral": "lə-miṣ-wō-ṯey-ḵā", "traducao_palavra": "por teus mandamentos" },
+        { "hebraico": "יָאָֽבְתִּי׃", "transliteral": "yā-ʾāḇ-tî", "traducao_palavra": "desejei" }
+      ]
+    },
+    "132": {
+      "traducao_completa": "Olha para mim e tem piedade de mim, conforme o teu costume para com os que amam o teu nome.",
+      "palavras": [
+        { "hebraico": "פְּנֵה־", "transliteral": "pə-nēh-", "traducao_palavra": "volta-te/olha" },
+        { "hebraico": "אֵלַ֥י", "transliteral": "ʾē-lay", "traducao_palavra": "para mim" },
+        { "hebraico": "וְחָנֵּ֑נִי", "transliteral": "wə-ḥān-nē-nî", "traducao_palavra": "e tem piedade de mim" },
+        { "hebraico": "כְּ֝מִשְׁפָּ֗ט", "transliteral": "kə-miš-pāṭ", "traducao_palavra": "conforme [o] costume/direito" },
+        { "hebraico": "לְאֹהֲבֵ֥י", "transliteral": "lə-ʾō-hă-ḇê", "traducao_palavra": "para os amadores de" },
+        { "hebraico": "שְׁמֶֽךָ׃", "transliteral": "šə-me-ḵā", "traducao_palavra": "teu nome" }
+      ]
+    },
+    "133": {
+      "traducao_completa": "Firma os meus passos na tua palavra, e não permitas que iniquidade alguma se assenhoreie de mim.",
+      "palavras": [
+        { "hebraico": "פְּעָמַי", "transliteral": "pə-ʿā-may", "traducao_palavra": "meus passos" },
+        { "hebraico": "הָכֵן", "transliteral": "hā-ḵēn", "traducao_palavra": "firma/estabelece" },
+        { "hebraico": "בְּאִמְרָתֶךָ", "transliteral": "bə-ʾim-rā-ṯe-ḵā", "traducao_palavra": "na tua palavra" },
+        { "hebraico": "וְאַל־", "transliteral": "wə-ʾal-", "traducao_palavra": "e não" },
+        { "hebraico": "תַּשְׁלֶט־", "transliteral": "taš-leṭ-", "traducao_palavra": "deixes dominar" },
+        { "hebraico": "בִּי", "transliteral": "bî", "traducao_palavra": "em mim" },
+        { "hebraico": "כָל־", "transliteral": "ḵāl-", "traducao_palavra": "qualquer" },
+        { "hebraico": "אָוֶן׃", "transliteral": "ʾā-wen", "traducao_palavra": "iniquidade" }
+      ]
+    },
+    "134": {
+      "traducao_completa": "Livra-me da opressão do homem; assim guardarei os teus preceitos.",
+      "palavras": [
+        { "hebraico": "פְּדֵנִי", "transliteral": "pə-ḏē-nî", "traducao_palavra": "redime-me/livra-me" },
+        { "hebraico": "מֵעֹשֶׁק", "transliteral": "mê-ʿō-šeq", "traducao_palavra": "da opressão de" },
+        { "hebraico": "אָדָם", "transliteral": "ʾā-ḏām", "traducao_palavra": "homem" },
+        { "hebraico": "וְאֶשְׁמְרָה", "transliteral": "wə-ʾeš-mə-rā", "traducao_palavra": "e guardarei" },
+        { "hebraico": "פִּקּוּדֶיךָ׃", "transliteral": "piq-qû-ḏey-ḵā", "traducao_palavra": "teus preceitos" }
+      ]
+    },
+    "135": {
+      "traducao_completa": "Faze resplandecer o teu rosto sobre o teu servo, e ensina-me os teus estatutos.",
+      "palavras": [
+        { "hebraico": "פָּנֶיךָ", "transliteral": "pā-ne-ḵā", "traducao_palavra": "tua face" },
+        { "hebraico": "הָאֵר", "transliteral": "hā-ʾēr", "traducao_palavra": "faze brilhar" },
+        { "hebraico": "בְּעַבְדֶּךָ", "transliteral": "bə-ʿaḇ-de-ḵā", "traducao_palavra": "sobre teu servo" },
+        { "hebraico": "וְלַמְּדֵנִי", "transliteral": "wə-lam-mə-ḏē-nî", "traducao_palavra": "e ensina-me" },
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "[objeto]" },
+        { "hebraico": "חֻקֶּיךָ׃", "transliteral": "ḥuq-qey-ḵā", "traducao_palavra": "teus estatutos" }
+      ]
+    },
+    "136": {
+      "traducao_completa": "Rios de águas correm dos meus olhos, porque os homens não guardam a tua lei.",
+      "palavras": [
+        { "hebraico": "פַּלְגֵי־", "transliteral": "pal-ḡê-", "traducao_palavra": "rios de" },
+        { "hebraico": "מַיִם", "transliteral": "ma-yim", "traducao_palavra": "águas" },
+        { "hebraico": "יָרְדוּ", "transliteral": "yā-rə-ḏû", "traducao_palavra": "desceram" },
+        { "hebraico": "עֵינָי", "transliteral": "ʿê-nāy", "traducao_palavra": "[dos] meus olhos" },
+        { "hebraico": "עַל", "transliteral": "ʿal", "traducao_palavra": "por causa de/sobre" },
+        { "hebraico": "לֹא־", "transliteral": "lō-", "traducao_palavra": "[que] não" },
+        { "hebraico": "שָׁמְרוּ", "transliteral": "šā-mə-rû", "traducao_palavra": "guardaram" },
+        { "hebraico": "תֹורָתֶךָ׃", "transliteral": "tô-rā-ṯe-ḵā", "traducao_palavra": "tua lei" }
+      ]
+    },
+    "137": {
+      "traducao_completa": "Justo és tu, YHWH, e retos são os teus juízos.",
+      "palavras": [
+        { "hebraico": "צַדִּ֥יק", "transliteral": "ṣad-dîq", "traducao_palavra": "justo" },
+        { "hebraico": "אַתָּה", "transliteral": "ʾat-tā", "traducao_palavra": "[és] tu" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וְיָשָׁר", "transliteral": "wə-yā-šār", "traducao_palavra": "e reto" },
+        { "hebraico": "מִשְׁפָּטֶיךָ׃", "transliteral": "miš-pā-ṭey-ḵā", "traducao_palavra": "teus juízos" }
+      ]
+    },
+    "138": {
+      "traducao_completa": "Os teus testemunhos, que ordenaste, são retos e mui fiéis.",
+      "palavras": [
+        { "hebraico": "צִוִּיתָ", "transliteral": "ṣiw-wî-ṯā", "traducao_palavra": "tu ordenaste" },
+        { "hebraico": "צֶדֶק", "transliteral": "ṣe-ḏeq", "traducao_palavra": "[em] justiça" },
+        { "hebraico": "עֵדֹתֶיךָ", "transliteral": "ʿē-ḏō-ṯey-ḵā", "traducao_palavra": "teus testemunhos" },
+        { "hebraico": "וֶאֱמוּנָה", "transliteral": "we-ʾĕ-mû-nā", "traducao_palavra": "e fidelidade" },
+        { "hebraico": "מְאֹד׃", "transliteral": "mə-ʾōḏ", "traducao_palavra": "muito" }
+      ]
+    },
+    "139": {
+      "traducao_completa": "O meu zelo me consumiu, porque os meus inimigos se esqueceram das tuas palavras.",
+      "palavras": [
+        { "hebraico": "צִמְּתַתְנִי", "transliteral": "ṣim-mə-ṯaṯ-nî", "traducao_palavra": "consumiu-me" },
+        { "hebraico": "קִנְאָתִי", "transliteral": "qin-ʾā-ṯî", "traducao_palavra": "meu zelo" },
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "שָׁכְחוּ", "transliteral": "šā-ḵə-ḥû", "traducao_palavra": "esqueceram" },
+        { "hebraico": "דְבָרֶיךָ", "transliteral": "də-ḇā-rey-ḵā", "traducao_palavra": "tuas palavras" },
+        { "hebraico": "צָרָי׃", "transliteral": "ṣā-rāy", "traducao_palavra": "meus adversários" }
+      ]
+    },
+    "140": {
+      "traducao_completa": "A tua palavra é mui pura; por isso o teu servo a ama.",
+      "palavras": [
+        { "hebraico": "צְרוּפָה", "transliteral": "ṣə-rû-p̄ā", "traducao_palavra": "refinada/pura" },
+        { "hebraico": "אִמְרָתְךָ", "transliteral": "ʾim-rā-ṯə-ḵā", "traducao_palavra": "tua palavra" },
+        { "hebraico": "מְאֹד", "transliteral": "mə-ʾōḏ", "traducao_palavra": "muito" },
+        { "hebraico": "וְעַבְדְּךָ", "transliteral": "wə-ʿaḇ-də-ḵā", "traducao_palavra": "e teu servo" },
+        { "hebraico": "אֲהֵבָהּ׃", "transliteral": "ʾă-hê-ḇāh", "traducao_palavra": "ama-a" }
+      ]
+    },
+    "141": {
+      "traducao_completa": "Pequeno sou e desprezado, mas não me esqueço dos teus preceitos.",
+      "palavras": [
+        { "hebraico": "צָעִיר", "transliteral": "ṣā-ʿîr", "traducao_palavra": "pequeno" },
+        { "hebraico": "אָנֹכִי", "transliteral": "ʾā-nō-ḵî", "traducao_palavra": "[sou] eu" },
+        { "hebraico": "וְנִבְזֶה", "transliteral": "wə-niḇ-zeh", "traducao_palavra": "e desprezado" },
+        { "hebraico": "פִּקֻּדֶיךָ", "transliteral": "p̄iq-qu-ḏey-ḵā", "traducao_palavra": "teus preceitos" },
+        { "hebraico": "לֹא", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "שָׁכָחְתִּי׃", "transliteral": "šā-ḵāḥ-tî", "traducao_palavra": "esqueci" }
+      ]
+    },
+    "142": {
+      "traducao_completa": "A tua justiça é uma justiça eterna, e a tua lei é a verdade.",
+      "palavras": [
+        { "hebraico": "צִדְקָתְךָ", "transliteral": "ṣiḏ-qā-ṯə-ḵā", "traducao_palavra": "tua justiça" },
+        { "hebraico": "צֶדֶק", "transliteral": "[é] justiça" },
+        { "hebraico": "לְעֹולָם", "transliteral": "lə-ʿô-lām", "traducao_palavra": "eterna" },
+        { "hebraico": "וְתֹורָתְךָ", "transliteral": "wə-ṯô-rā-ṯə-ḵā", "traducao_palavra": "e tua lei" },
+        { "hebraico": "אֱמֶת׃", "transliteral": "ʾĕ-meṯ", "traducao_palavra": "verdade" }
+      ]
+    },
+    "143": {
+      "traducao_completa": "Aperto e angústia se apoderaram de mim; mas os teus mandamentos são o meu prazer.",
+      "palavras": [
+        { "hebraico": "צַר־", "transliteral": "ṣar-", "traducao_palavra": "aperto" },
+        { "hebraico": "וּמָצֹוק", "transliteral": "ū-mā-ṣôq", "traducao_palavra": "e angústia" },
+        { "hebraico": "מְצָאוּנִי", "transliteral": "mə-ṣā-ʾû-nî", "traducao_palavra": "acharam-me" },
+        { "hebraico": "מִצְוֹתֶיךָ", "transliteral": "miṣ-wō-ṯey-ḵā", "traducao_palavra": "teus mandamentos" },
+        { "hebraico": "שַׁעֲשֻׁעָי׃", "transliteral": "ša-ʿă-šu-ʿāy", "traducao_palavra": "meus prazeres" }
+      ]
+    },
+    "144": {
+      "traducao_completa": "A justiça dos teus testemunhos é eterna; dá-me entendimento, para que eu viva.",
+      "palavras": [
+        { "hebraico": "צֶדֶק", "transliteral": "ṣe-ḏeq", "traducao_palavra": "[a] justiça de" },
+        { "hebraico": "עֵדְוֹתֶיךָ", "transliteral": "ʿē-ḏə-wō-ṯey-ḵā", "traducao_palavra": "teus testemunhos" },
+        { "hebraico": "לְעֹולָם", "transliteral": "lə-ʿô-lām", "traducao_palavra": "[é] para sempre" },
+        { "hebraico": "הֲבִינֵנִי", "transliteral": "hă-ḇî-nê-nî", "traducao_palavra": "faze-me entender" },
+        { "hebraico": "וְאֶחְיֶה׃", "transliteral": "wə-ʾeḥ-yeh", "traducao_palavra": "e viverei" }
+      ]
+    },
+    "145": {
+      "traducao_completa": "Clamei de todo o meu coração; ouve-me, YHWH, e guardarei os teus estatutos.",
+      "palavras": [
+        { "hebraico": "קָרָאתִי", "transliteral": "qā-rā-ṯî", "traducao_palavra": "clamei" },
+        { "hebraico": "בְכָל־", "transliteral": "bə-ḵāl-", "traducao_palavra": "com todo" },
+        { "hebraico": "לֵב", "transliteral": "lēḇ", "traducao_palavra": "coração" },
+        { "hebraico": "עֲנֵנִי", "transliteral": "ʿă-nē-nî", "traducao_palavra": "responde-me" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "חֻקֶּיךָ", "transliteral": "ḥuq-qey-ḵā", "traducao_palavra": "teus estatutos" },
+        { "hebraico": "אֶצֹּרָה׃", "transliteral": "ʾeṣ-ṣō-rā", "traducao_palavra": "guardarei" }
+      ]
+    },
+    "146": {
+      "traducao_completa": "A ti clamei; salva-me, e guardarei os teus testemunhos.",
+      "palavras": [
+        { "hebraico": "קְרָאתִיךָ", "transliteral": "qə-rā-ṯî-ḵā", "traducao_palavra": "clamei a ti" },
+        { "hebraico": "הֹושִׁיאֵנִי", "transliteral": "hô-šî-ʿē-nî", "traducao_palavra": "salva-me" },
+        { "hebraico": "וְאֶשְׁמְרָה", "transliteral": "wə-ʾeš-mə-rā", "traducao_palavra": "e guardarei" },
+        { "hebraico": "עֵדֹתֶיךָ׃", "transliteral": "ʿē-ḏō-ṯey-ḵā", "traducao_palavra": "teus testemunhos" }
+      ]
+    },
+    "147": {
+      "traducao_completa": "Antecipei a alvorada do dia, e clamei; esperei na tua palavra.",
+      "palavras": [
+        { "hebraico": "קִדַּמְתִּי", "transliteral": "qid-dam-tî", "traducao_palavra": "antecipei" },
+        { "hebraico": "בַנֶּשֶׁף", "transliteral": "ḇan-ne-šep̄", "traducao_palavra": "o crepúsculo/alvorada" },
+        { "hebraico": "וָאֲשַׁוֵּעָה", "transliteral": "wā-ʾă-šaw-wē-ʿā", "traducao_palavra": "e clamei por socorro" },
+        { "hebraico": "לִדְבָרְךָ", "transliteral": "li-ḏə-ḇā-rə-ḵā", "traducao_palavra": "na tua palavra" },
+        { "hebraico": "יִחָלְתִּי׃", "transliteral": "yi-ḥāl-tî", "traducao_palavra": "esperei" }
+      ]
+    },
+    "148": {
+      "traducao_completa": "Os meus olhos anteciparam as vigílias da noite, para meditar na tua palavra.",
+      "palavras": [
+        { "hebraico": "קִדְּמוּ", "transliteral": "qid-də-mû", "traducao_palavra": "anteciparam" },
+        { "hebraico": "עֵינַי", "transliteral": "ʿê-nay", "traducao_palavra": "meus olhos" },
+        { "hebraico": "אַשְׁמֻרֹות", "transliteral": "ʾaš-mu-rôṯ", "traducao_palavra": "[as] vigílias" },
+        { "hebraico": "לָשִׂיחַ", "transliteral": "lā-śî-aḥ", "traducao_palavra": "para meditar" },
+        { "hebraico": "בְּאִמְרָתֶךָ׃", "transliteral": "bə-ʾim-rā-ṯe-ḵā", "traducao_palavra": "na tua palavra" }
+      ]
+    },
+    "149": {
+      "traducao_completa": "Ouve a minha voz, segundo a tua benignidade; vivifica-me, YHWH, segundo o teu juízo.",
+      "palavras": [
+        { "hebraico": "קֹולִי", "transliteral": "qô-lî", "traducao_palavra": "minha voz" },
+        { "hebraico": "שִׁמְעָה", "transliteral": "šim-ʿā", "traducao_palavra": "ouve" },
+        { "hebraico": "כְחַסְדֶּךָ", "transliteral": "ḵə-ḥas-de-ḵā", "traducao_palavra": "conforme tua bondade" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "כְּמִשְׁפָּטֶךָ", "transliteral": "kə-miš-pā-ṭe-ḵā", "traducao_palavra": "conforme teu juízo" },
+        { "hebraico": "חַיֵּנִי׃", "transliteral": "ḥay-yê-nî", "traducao_palavra": "vivifica-me" }
+      ]
+    },
+    "150": {
+      "traducao_completa": "Aproximam-se os que seguem a malícia; afastam-se da tua lei.",
+      "palavras": [
+        { "hebraico": "קָרְבוּ", "transliteral": "qā-rə-ḇû", "traducao_palavra": "aproximaram-se" },
+        { "hebraico": "רֹדְפֵי", "transliteral": "rō-ḏə-p̄ê", "traducao_palavra": "perseguidores de/que seguem" },
+        { "hebraico": "זִמָּה", "transliteral": "zim-mā", "traducao_palavra": "maldade/trama" },
+        { "hebraico": "מִתֹּורָתְךָ", "transliteral": "mit-tô-rā-ṯə-ḵā", "traducao_palavra": "da tua lei" },
+        { "hebraico": "רָחָקוּ׃", "transliteral": "rā-ḥā-qû", "traducao_palavra": "afastaram-se" }
+      ]
+    },
+    "151": {
+      "traducao_completa": "Tu estás perto, YHWH, e todos os teus mandamentos são a verdade.",
+      "palavras": [
+        { "hebraico": "קָרֹוב", "transliteral": "qā-rôḇ", "traducao_palavra": "perto [estás]" },
+        { "hebraico": "אַתָּה", "transliteral": "ʾat-tā", "traducao_palavra": "tu" },
+        { "hebraico": "יְהוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וְכָל־", "transliteral": "wə-ḵāl-", "traducao_palavra": "e todos" },
+        { "hebraico": "מִצְוֹתֶיךָ", "transliteral": "miṣ-wō-ṯey-ḵā", "traducao_palavra": "teus mandamentos" },
+        { "hebraico": "אֱמֶת׃", "transliteral": "ʾĕ-meṯ", "traducao_palavra": "[são] verdade" }
+      ]
+    },
+    "152": {
+      "traducao_completa": "Acerca dos teus testemunhos soube, desde outrora, que tu os fundaste para sempre.",
+      "palavras": [
+        { "hebraico": "קֶדֶם", "transliteral": "qe-ḏem", "traducao_palavra": "outrora/desde cedo" },
+        { "hebraico": "יָדַעְתִּי", "transliteral": "yā-ḏaʿ-tî", "traducao_palavra": "eu soube" },
+        { "hebraico": "מֵעֵדֹתֶיךָ", "transliteral": "mê-ʿē-ḏō-ṯey-ḵā", "traducao_palavra": "dos teus testemunhos" },
+        { "hebraico": "כִּי", "transliteral": "kî", "traducao_palavra": "que" },
+        { "hebraico": "לְעֹולָם", "transliteral": "lə-ʿô-lām", "traducao_palavra": "para sempre" },
+        { "hebraico": "יְסַדְתָּם׃", "transliteral": "yə-śad-tām", "traducao_palavra": "fundaste-os" }
+      ]
+    },
+    "153": {
+      "traducao_completa": "Olha para a minha aflição e livra-me, pois não me esqueci da tua lei.",
+      "palavras": [
+        { "hebraico": "רְאֵה־", "transliteral": "rə-ʾēh-", "traducao_palavra": "olha" },
+        { "hebraico": "עָנְיִי", "transliteral": "ʿā-nyî", "traducao_palavra": "minha aflição" },
+        { "hebraico": "וְחַלְּצֵנִי", "transliteral": "wə-ḥal-lə-ṣē-nî", "traducao_palavra": "e livra-me" },
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "תֹורָתְךָ", "transliteral": "tô-rā-ṯə-ḵā", "traducao_palavra": "tua lei" },
+        { "hebraico": "לֹא", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "שָׁכָחְתִּי׃", "transliteral": "šā-ḵāḥ-tî", "traducao_palavra": "esqueci" }
+      ]
+    },
+    "154": {
+      "traducao_completa": "Pleiteia a minha causa e redime-me; vivifica-me segundo a tua palavra.",
+      "palavras": [
+        { "hebraico": "רִיבָה", "transliteral": "rî-ḇā", "traducao_palavra": "pleiteia" },
+        { "hebraico": "רִיבִי", "transliteral": "rî-ḇî", "traducao_palavra": "minha causa" },
+        { "hebraico": "וּגְאָלֵנִי", "transliteral": "ū-ḡə-ʾā-lē-nî", "traducao_palavra": "e redime-me" },
+        { "hebraico": "לְאִמְרָתְךָ", "transliteral": "lə-ʾim-rā-ṯə-ḵā", "traducao_palavra": "pela tua palavra" },
+        { "hebraico": "חַיֵּנִי׃", "transliteral": "ḥay-yê-nî", "traducao_palavra": "vivifica-me" }
+      ]
+    },
+    "155": {
+      "traducao_completa": "A salvação está longe dos ímpios, pois não buscam os teus estatutos.",
+      "palavras": [
+        { "hebraico": "רָחֹ֥וק", "transliteral": "rā-ḥôq", "traducao_palavra": "longe [está]" },
+        { "hebraico": "מֵרְשָׁעִ֥ים", "transliteral": "mê-rə-šā-ʿîm", "traducao_palavra": "dos ímpios" },
+        { "hebraico": "יְשׁוּעָ֑ה", "transliteral": "yə-šû-ʿā", "traducao_palavra": "[a] salvação" },
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "חֻ֝קֶּיךָ", "transliteral": "ḥuq-qey-ḵā", "traducao_palavra": "teus estatutos" },
+        { "hebraico": "לֹא", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "דָרָֽשׁוּ׃", "transliteral": "ḏā-rā-šû", "traducao_palavra": "buscaram" }
+      ]
+    },
+    "156": {
+      "traducao_completa": "Muitas são, YHWH, as tuas misericórdias; vivifica-me segundo os teus juízos.",
+      "palavras": [
+        { "hebraico": "רַחֲמֶ֖יךָ", "transliteral": "ra-ḥă-mey-ḵā", "traducao_palavra": "tuas misericórdias" },
+        { "hebraico": "רַבִּ֥ים", "transliteral": "rab-bîm", "traducao_palavra": "[são] muitas" },
+        { "hebraico": "יְהוָ֑ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "כְּמִשְׁפָּטֶ֥יךָ", "transliteral": "kə-miš-pā-ṭey-ḵā", "traducao_palavra": "conforme teus juízos" },
+        { "hebraico": "חַיֵּֽנִי׃", "transliteral": "ḥay-yê-nî", "traducao_palavra": "vivifica-me" }
+      ]
+    },
+    "157": {
+      "traducao_completa": "Muitos são os meus perseguidores e os meus adversários; mas não me desvio dos teus testemunhos.",
+      "palavras": [
+        { "hebraico": "רַבִּ֗ים", "transliteral": "rab-bîm", "traducao_palavra": "muitos [são]" },
+        { "hebraico": "רֹדְפַ֥י", "transliteral": "rō-ḏə-p̄ay", "traducao_palavra": "meus perseguidores" },
+        { "hebraico": "וְצָרָ֑י", "transliteral": "wə-ṣā-rāy", "traducao_palavra": "e meus adversários" },
+        { "hebraico": "מֵעֵדְוֹתֶ֗יךָ", "transliteral": "mê-ʿē-ḏə-wō-ṯey-ḵā", "traducao_palavra": "de teus testemunhos" },
+        { "hebraico": "לֹא", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "נָטִֽיתִי׃", "transliteral": "nā-ṭî-ṯî", "traducao_palavra": "me desviei" }
+      ]
+    },
+    "158": {
+      "traducao_completa": "Vi os pérfidos e senti nojo, porque não guardaram a tua palavra.",
+      "palavras": [
+        { "hebraico": "רָאִ֣יתִי", "transliteral": "rā-ʾî-ṯî", "traducao_palavra": "vi" },
+        { "hebraico": "בֹ֭גְדִים", "transliteral": "ḇō-ḡə-ḏîm", "traducao_palavra": "[os] pérfidos/traidores" },
+        { "hebraico": "וָאֶתְקֹוטָ֑טָה", "transliteral": "wā-ʾeṯ-qô-ṭā-ṭā", "traducao_palavra": "e senti nojo/horror" },
+        { "hebraico": "אֲשֶׁ֥ר", "transliteral": "ʾă-šer", "traducao_palavra": "porque" },
+        { "hebraico": "אִ֝מְרָתְךָ֗", "transliteral": "ʾim-rā-ṯə-ḵā", "traducao_palavra": "tua palavra/fala" },
+        { "hebraico": "לֹא", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "שָׁמָֽרוּ׃", "transliteral": "šā-mā-rû", "traducao_palavra": "guardaram" }
+      ]
+    },
+    "159": {
+      "traducao_completa": "Considera como amo os teus preceitos; vivifica-me, YHWH, segundo a tua benignidade.",
+      "palavras": [
+        { "hebraico": "רְ֭אֵה", "transliteral": "rə-ʾēh", "traducao_palavra": "vê/considera" },
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "que" },
+        { "hebraico": "פִקּוּדֶ֣יךָ", "transliteral": "p̄iq-qu-ḏey-ḵā", "traducao_palavra": "teus preceitos" },
+        { "hebraico": "אָהָ֑בְתִּי", "transliteral": "ʾā-hāḇ-tî", "traducao_palavra": "amei/amo" },
+        { "hebraico": "יְהוָ֓ה ׀", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "כְּחַסְדְּךָ֥", "transliteral": "kə-ḥas-də-ḵā", "traducao_palavra": "conforme tua bondade" },
+        { "hebraico": "חַיֵּֽנִי׃", "transliteral": "ḥay-yê-nî", "traducao_palavra": "vivifica-me" }
+      ]
+    },
+    "160": {
+      "traducao_completa": "A verdade é o princípio da tua palavra, e cada um dos teus justos juízos dura para sempre.",
+      "palavras": [
+        { "hebraico": "רֹאשׁ־", "transliteral": "rōš-", "traducao_palavra": "[o] princípio/soma de" },
+        { "hebraico": "דְּבָרְךָ֥", "transliteral": "də-ḇā-rə-ḵā", "traducao_palavra": "tua palavra" },
+        { "hebraico": "אֱמֶ֑ת", "transliteral": "ʾĕ-meṯ", "traducao_palavra": "[é] verdade" },
+        { "hebraico": "וּ֝לְעֹולָ֗ם", "transliteral": "ū-lə-ʿô-lām", "traducao_palavra": "e para sempre" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todo" },
+        { "hebraico": "מִשְׁפַּ֥ט", "transliteral": "miš-paṭ", "traducao_palavra": "juízo de" },
+        { "hebraico": "צִדְקֶֽךָ׃", "transliteral": "ṣiḏ-qe-ḵā", "traducao_palavra": "tua justiça" }
+      ]
+    },
+    "161": {
+      "traducao_completa": "Príncipes me perseguiram sem causa, mas o meu coração temeu a tua palavra.",
+      "palavras": [
+        { "hebraico": "שָׂ֭רִים", "transliteral": "śā-rîm", "traducao_palavra": "príncipes" },
+        { "hebraico": "רְדָפ֥וּנִי", "transliteral": "rə-ḏā-p̄û-nî", "traducao_palavra": "perseguiram me" },
+        { "hebraico": "חִנָּ֑ם", "transliteral": "ḥin-nām", "traducao_palavra": "sem causa" },
+        { "hebraico": "וּ֝מִדְּבָרְךָ֗", "transliteral": "ū-mid-də-ḇā-rə-ḵā", "traducao_palavra": "e da tua palavra" },
+        { "hebraico": "פָּחַ֥ד", "transliteral": "pā-ḥaḏ", "traducao_palavra": "temeu" },
+        { "hebraico": "לִבִּֽי׃", "transliteral": "lib-bî", "traducao_palavra": "meu coração" }
+      ]
+    },
+    "162": {
+      "traducao_completa": "Regozijo-me com a tua palavra, como aquele que acha um grande despojo.",
+      "palavras": [
+        { "hebraico": "שָׂ֣שׂ", "transliteral": "śāś", "traducao_palavra": "regozijante/alegre" },
+        { "hebraico": "אָ֭נֹכִי", "transliteral": "ʾā-nō-ḵî", "traducao_palavra": "eu [estou]" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre/com" },
+        { "hebraico": "אִמְרָתֶ֑ךָ", "transliteral": "ʾim-rā-ṯe-ḵā", "traducao_palavra": "tua palavra" },
+        { "hebraico": "כְּ֝מֹוצֵ֗א", "transliteral": "kə-mô-ṣē", "traducao_palavra": "como quem acha" },
+        { "hebraico": "שָׁלָ֥ל", "transliteral": "šā-lāl", "traducao_palavra": "despojo" },
+        { "hebraico": "רָֽב׃", "transliteral": "rāḇ", "traducao_palavra": "grande" }
+      ]
+    },
+    "163": {
+      "traducao_completa": "Odeio e abomino a mentira; mas amo a tua lei.",
+      "palavras": [
+        { "hebraico": "שֶׁ֣קֶר", "transliteral": "še-qer", "traducao_palavra": "[a] mentira" },
+        { "hebraico": "שָׂ֭נֵאתִי", "transliteral": "śā-nê-ṯî", "traducao_palavra": "odiei" },
+        { "hebraico": "וַאֲתַ֘עֵ֥בָה", "transliteral": "wa-ʾă-ṯa-ʿē-ḇā", "traducao_palavra": "e abominei" },
+        { "hebraico": "תֹּורָתְךָ֥", "transliteral": "tô-rā-ṯə-ḵā", "traducao_palavra": "tua lei" },
+        { "hebraico": "אָהָֽבְתִּי׃", "transliteral": "ʾā-hāḇ-tî", "traducao_palavra": "amei" }
+      ]
+    },
+    "164": {
+      "traducao_completa": "Sete vezes no dia te louvo pelos teus justos juízos.",
+      "palavras": [
+        { "hebraico": "שֶׁ֤בַע", "transliteral": "še-ḇaʿ", "traducao_palavra": "sete [vezes]" },
+        { "hebraico": "בַּ֭יֹּום", "transliteral": "bay-yôm", "traducao_palavra": "no dia" },
+        { "hebraico": "הִלַּלְתִּ֑יךָ", "transliteral": "hil-lal-tî-ḵā", "traducao_palavra": "louvei-te" },
+        { "hebraico": "עַ֝ל", "transliteral": "ʿal", "traducao_palavra": "por causa de" },
+        { "hebraico": "מִשְׁפְּטֵ֥י", "transliteral": "miš-pə-ṭê", "traducao_palavra": "juízos de" },
+        { "hebraico": "צִדְקֶֽךָ׃", "transliteral": "ṣiḏ-qe-ḵā", "traducao_palavra": "tua justiça" }
+      ]
+    },
+    "165": {
+      "traducao_completa": "Muita paz têm os que amam a tua lei, e para eles não há tropeço.",
+      "palavras": [
+        { "hebraico": "שָׁלֹ֣ום", "transliteral": "šā-lôm", "traducao_palavra": "paz" },
+        { "hebraico": "רָ֭ב", "transliteral": "rāḇ", "traducao_palavra": "muita/grande" },
+        { "hebraico": "לְאֹהֲבֵ֣י", "transliteral": "lə-ʾō-hă-ḇê", "traducao_palavra": "para os amadores de" },
+        { "hebraico": "תֹורָתֶ֑ךָ", "transliteral": "tô-rā-ṯe-ḵā", "traducao_palavra": "tua lei" },
+        { "hebraico": "וְאֵֽין־", "transliteral": "wə-ʾên-", "traducao_palavra": "e não [há]" },
+        { "hebraico": "לָ֝מֹו", "transliteral": "lā-mô", "traducao_palavra": "para eles" },
+        { "hebraico": "מִכְשֹֽׁול׃", "transliteral": "miḵ-šôl", "traducao_palavra": "pedra de tropeço" }
+      ]
+    },
+    "166": {
+      "traducao_completa": "Esperei na tua salvação, YHWH, e cumpri os teus mandamentos.",
+      "palavras": [
+        { "hebraico": "שִׂבַּ֥רְתִּי", "transliteral": "śib-bar-tî", "traducao_palavra": "esperei" },
+        { "hebraico": "לִֽישׁוּעָתְךָ֥", "transliteral": "lî-šû-ʿā-ṯə-ḵā", "traducao_palavra": "por tua salvação" },
+        { "hebraico": "יְהוָ֑ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וּֽמִצְוֹתֶ֥יךָ", "transliteral": "ū-miṣ-wō-ṯey-ḵā", "traducao_palavra": "e teus mandamentos" },
+        { "hebraico": "עָשִֽׂיתִי׃", "transliteral": "ʿā-śî-ṯî", "traducao_palavra": "fiz/cumpri" }
+      ]
+    },
+    "167": {
+      "traducao_completa": "A minha alma tem guardado os teus testemunhos; e amo-os sobremodo.",
+      "palavras": [
+        { "hebraico": "שָֽׁמְרָ֣ה", "transliteral": "šā-mə-rā", "traducao_palavra": "guardou" },
+        { "hebraico": "נַ֭פְשִׁי", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma" },
+        { "hebraico": "עֵדֹתֶ֑יךָ", "transliteral": "ʿē-ḏō-ṯey-ḵā", "traducao_palavra": "teus testemunhos" },
+        { "hebraico": "וָאֹהֲבֵ֥ם", "transliteral": "wā-ʾō-hă-ḇêm", "traducao_palavra": "e amei-os" },
+        { "hebraico": "מְאֹֽד׃", "transliteral": "mə-ʾōḏ", "traducao_palavra": "muito" }
+      ]
+    },
+    "168": {
+      "traducao_completa": "Tenho guardado os teus preceitos e os teus testemunhos, porque todos os meus caminhos estão diante de ti.",
+      "palavras": [
+        { "hebraico": "שָׁמַ֣רְתִּי", "transliteral": "šā-mar-tî", "traducao_palavra": "guardei" },
+        { "hebraico": "פִקּוּדֶ֣יךָ", "transliteral": "p̄iq-qu-ḏey-ḵā", "traducao_palavra": "teus preceitos" },
+        { "hebraico": "וְעֵדֹתֶ֑יךָ", "transliteral": "wə-ʿē-ḏō-ṯey-ḵā", "traducao_palavra": "e teus testemunhos" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "כָל־", "transliteral": "kāl-", "traducao_palavra": "todos" },
+        { "hebraico": "דְּרָכַ֥י", "transliteral": "ḏə-rā-ḵay", "traducao_palavra": "meus caminhos" },
+        { "hebraico": "נֶגְדֶּֽךָ׃", "transliteral": "neḡ-de-ḵā", "traducao_palavra": "[estão] diante de ti" }
+      ]
+    },
+    "169": {
+      "traducao_completa": "Chegue a ti o meu clamor, YHWH; dá-me entendimento conforme a tua palavra.",
+      "palavras": [
+        { "hebraico": "תִּקְרַ֤ב", "transliteral": "tiq-raḇ", "traducao_palavra": "aproxime-se/chegue" },
+        { "hebraico": "רִנָּתִ֣י", "transliteral": "rin-nā-ṯî", "traducao_palavra": "meu clamor/grito" },
+        { "hebraico": "לְפָנֶ֣יךָ", "transliteral": "lə-p̄ā-ne-ḵā", "traducao_palavra": "diante de ti" },
+        { "hebraico": "יְהוָ֑ah", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "כִּדְבָרְךָ֥", "transliteral": "kiḏ-ḇā-rə-ḵā", "traducao_palavra": "conforme tua palavra" },
+        { "hebraico": "הֲבִינֵֽנִי׃", "transliteral": "hă-ḇî-nê-nî", "traducao_palavra": "dá-me entendimento" }
+      ]
+    },
+    "170": {
+      "traducao_completa": "Chegue a minha súplica perante a tua face; livra-me segundo a tua promessa.",
+      "palavras": [
+        { "hebraico": "תָּבֹ֣וא", "transliteral": "tā-ḇô", "traducao_palavra": "venha" },
+        { "hebraico": "תְּחִנָּתִ֣י", "transliteral": "tə-ḥin-nā-ṯî", "traducao_palavra": "minha súplica" },
+        { "hebraico": "לְפָנֶ֑יךָ", "transliteral": "lə-p̄ā-ne-ḵā", "traducao_palavra": "perante ti" },
+        { "hebraico": "כְּ֝אִמְרָתְךָ֗", "transliteral": "kə-ʾim-rā-ṯə-ḵā", "traducao_palavra": "conforme tua promessa" },
+        { "hebraico": "הַצִּילֵֽנִי׃", "transliteral": "haṣ-ṣî-lê-nî", "traducao_palavra": "livra-me" }
+      ]
+    },
+    "171": {
+      "traducao_completa": "Os meus lábios proferirão louvor quando me ensinares os teus estatutos.",
+      "palavras": [
+        { "hebraico": "תַּבַּ֣עְנָה", "transliteral": "tab-ba-ʿə-nā", "traducao_palavra": "jorrarão/proferirão" },
+        { "hebraico": "שְׂפָתַ֣י", "transliteral": "śə-p̄ā-ṯay", "traducao_palavra": "meus lábios" },
+        { "hebraico": "תְהִלָּ֑ה", "transliteral": "ṯə-hil-lā", "traducao_palavra": "louvor" },
+        { "hebraico": "כִּ֖י", "transliteral": "kî", "traducao_palavra": "porque/quando" },
+        { "hebraico": "תְלַמְּדֵ֥נִי", "transliteral": "ṯə-lam-mə-ḏē-nî", "traducao_palavra": "tu me ensinares" },
+        { "hebraico": "חֻקֶּֽיךָ׃", "transliteral": "ḥuq-qey-ḵā", "traducao_palavra": "teus estatutos" }
+      ]
+    },
+    "172": {
+      "traducao_completa": "A minha língua falará da tua palavra, pois todos os teus mandamentos são justiça.",
+      "palavras": [
+        { "hebraico": "תַּ֣עַן", "transliteral": "ta-ʿan", "traducao_palavra": "responda/cante" },
+        { "hebraico": "לְ֭שֹׁונִי", "transliteral": "lə-šô-nî", "traducao_palavra": "minha língua" },
+        { "hebraico": "אִמְרָתֶ֑ךָ", "transliteral": "ʾim-rā-ṯe-ḵā", "traducao_palavra": "tua palavra" },
+        { "hebraico": "כִּ֖י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "כָל־", "transliteral": "kāl-", "traducao_palavra": "todos" },
+        { "hebraico": "מִצְוֹתֶ֥יךָ", "transliteral": "miṣ-wō-ṯey-ḵā", "traducao_palavra": "teus mandamentos" },
+        { "hebraico": "צֶּֽדֶק׃", "transliteral": "ṣe-ḏeq", "traducao_palavra": "[são] justiça" }
+      ]
+    },
+    "173": {
+      "traducao_completa": "Venha a tua mão socorrer-me, pois escolhi os teus preceitos.",
+      "palavras": [
+        { "hebraico": "תְּהִֽי־", "transliteral": "tə-hî-", "traducao_palavra": "seja" },
+        { "hebraico": "יָדְךָ֥", "transliteral": "yā-ḏə-ḵā", "traducao_palavra": "tua mão" },
+        { "hebraico": "לְעָזְרֵ֑נִי", "transliteral": "lə-ʿā-zə-rē-nî", "traducao_palavra": "para ajudar-me" },
+        { "hebraico": "כִּ֖י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "פִקּוּדֶ֣יךָ", "transliteral": "p̄iq-qu-ḏey-ḵā", "traducao_palavra": "teus preceitos" },
+        { "hebraico": "בָחָֽרְתִּי׃", "transliteral": "ḇā-ḥār-tî", "traducao_palavra": "escolhi" }
+      ]
+    },
+    "174": {
+      "traducao_completa": "Anseio pela tua salvação, YHWH; a tua lei é o meu prazer.",
+      "palavras": [
+        { "hebraico": "תָּאַ֤בְתִּי", "transliteral": "tā-ʾaḇ-tî", "traducao_palavra": "ansiei" },
+        { "hebraico": "לִֽישׁוּעָתְךָ֥", "transliteral": "lî-šû-ʿā-ṯə-ḵā", "traducao_palavra": "por tua salvação" },
+        { "hebraico": "יְהוָ֑ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וְ֝תֹורָתְךָ֗", "transliteral": "wə-ṯô-rā-ṯə-ḵā", "traducao_palavra": "e tua lei" },
+        { "hebraico": "שַׁעֲשֻׁעָֽי׃", "transliteral": "ša-ʿă-šu-ʿāy", "traducao_palavra": "[é] meu prazer" }
+      ]
+    },
+    "175": {
+      "traducao_completa": "Viva a minha alma e louvar-te-á; ajudem-me os teus juízos.",
+      "palavras": [
+        { "hebraico": "תְּחִֽי־", "transliteral": "tə-ḥî-", "traducao_palavra": "viva" },
+        { "hebraico": "נַ֭פְשִׁי", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma" },
+        { "hebraico": "וּֽתְהַֽלְלֶ֑ךָּ", "transliteral": "ū-ṯə-hal-lə-kā", "traducao_palavra": "e louvar-te-á" },
+        { "hebraico": "וּ֝מִשְׁפָּטֶ֗ךָ", "transliteral": "ū-miš-pā-ṭey-ḵā", "traducao_palavra": "e teus juízos" },
+        { "hebraico": "יַעְזְרֻֽנִי׃", "transliteral": "ya-ʿə-zə-ru-nî", "traducao_palavra": "ajudem me" }
+      ]
+    },
+    "176": {
+      "traducao_completa": "Andei errante como ovelha desgarrada; busca o teu servo, pois não me esqueci dos teus mandamentos.",
+      "palavras": [
+        { "hebraico": "תָּעִ֗יתִי", "transliteral": "ṯā-ʿî-ṯî", "traducao_palavra": "vaguei/errei" },
+        { "hebraico": "כְּשֶׂ֣ה", "transliteral": "kə-śeh", "traducao_palavra": "como ovelha" },
+        { "hebraico": "אֹ֭בֵד", "transliteral": "ʾō-ḇēḏ", "traducao_palavra": "perdida" },
+        { "hebraico": "בַּקֵּ֣שׁ", "transliteral": "baq-qēš", "traducao_palavra": "busca" },
+        { "hebraico": "עַבְדֶּ֑ךָ", "transliteral": "ʿaḇ-de-ḵā", "traducao_palavra": "teu servo" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "מִ֝צְוֹתֶ֗יךָ", "transliteral": "miṣ-wō-ṯey-ḵā", "traducao_palavra": "teus mandamentos" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "שָׁכָֽחְתִּי׃", "transliteral": "šā-ḵāḥ-tî", "traducao_palavra": "esqueci" }
+      ]
+    }
+  }
 }

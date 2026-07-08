@@ -1,6 +1,228 @@
 {
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+  "livro": "Salmos - תְּהִלִּים - Tehillim",
   "capítulo": 90,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Senhor, tu tens sido o nosso refúgio, de geração em geração.",
+      "palavras": [
+        { "hebraico": "אֲדֹנָ֗י", "transliteral": "ʾăḏōnāy", "traducao_palavra": "Senhor" },
+        { "hebraico": "מָ֘עֹ֤ון", "transliteral": "māʿôn", "traducao_palavra": "habitação/refúgio" },
+        { "hebraico": "אַתָּ֥ה", "transliteral": "ʾattā", "traducao_palavra": "tu" },
+        { "hebraico": "הָיִ֥יתָ", "transliteral": "hāyîṯā", "traducao_palavra": "foste/tens sido" },
+        { "hebraico": "לָּּ֥נוּ", "transliteral": "lānû", "traducao_palavra": "para nós" },
+        { "hebraico": "בְּדֹ֣ר", "transliteral": "bəḏōr", "traducao_palavra": "em geração" },
+        { "hebraico": "וָדֹֽר׃", "transliteral": "wāḏōr", "traducao_palavra": "e geração" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Antes que os montes nascessem, ou que tu formasses a terra e o mundo, sim, de eternidade a eternidade, tu és Deus.",
+      "palavras": [
+        { "hebraico": "בְּטֶ֤רֶם", "transliteral": "bəṭerem", "traducao_palavra": "antes que" },
+        { "hebraico": "הָרִ֪ים", "transliteral": "hārîm", "traducao_palavra": "montes" },
+        { "hebraico": "יֻ֫לָּ֥דוּ", "transliteral": "yullāḏû", "traducao_palavra": "nascessem/fossem gerados" },
+        { "hebraico": "וַתְּחֹ֘וחֵ֤ל", "transliteral": "wattəḥôḥēl", "traducao_palavra": "e tu desses à luz/formasses" },
+        { "hebraico": "אֶ֥רֶץ", "transliteral": "ʾereṣ", "traducao_palavra": "terra" },
+        { "hebraico": "וְתֵבֵ֑ל", "transliteral": "wəṯēḇēl", "traducao_palavra": "e mundo" },
+        { "hebraico": "וּמֵעֹולָ֥ם", "transliteral": "ūmēʿôlām", "traducao_palavra": "e desde a eternidade" },
+        { "hebraico": "עַד־", "transliteral": "ʿaḏ-", "traducao_palavra": "até" },
+        { "hebraico": "עֹ֝ולָ֗ם", "transliteral": "ʿôlām", "traducao_palavra": "a eternidade" },
+        { "hebraico": "אַתָּ֥ה", "transliteral": "ʾattā", "traducao_palavra": "tu [és]" },
+        { "hebraico": "אֵֽל׃", "transliteral": "ʾēl", "traducao_palavra": "Deus" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Tu reduzes o homem ao pó e dizes: Voltai, filhos dos homens.",
+      "palavras": [
+        { "hebraico": "תָּשֵׁ֣ב", "transliteral": "tāšēḇ", "traducao_palavra": "tu fazes voltar" },
+        { "hebraico": "אֱ֭נֹושׁ", "transliteral": "ʾĕnôš", "traducao_palavra": "[o] homem/mortal" },
+        { "hebraico": "עַד־", "transliteral": "ʿaḏ-", "traducao_palavra": "até" },
+        { "hebraico": "דַּכָּ֑א", "transliteral": "dakkāʾ", "traducao_palavra": "[o] pó/moagem" },
+        { "hebraico": "וַ֝תֹּ֗אמֶר", "transliteral": "wattōmer", "traducao_palavra": "e dizes" },
+        { "hebraico": "שׁ֣וּבוּ", "transliteral": "šûḇû", "traducao_palavra": "voltai" },
+        { "hebraico": "בְנֵי־", "transliteral": "ḇənê-", "traducao_palavra": "filhos de" },
+        { "hebraico": "אָדָֽם׃", "transliteral": "ʾāḏām", "traducao_palavra": "homem/Adão" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Porque mil anos aos teus olhos são como o dia de ontem que passou, e como a vigília da noite.",
+      "palavras": [
+        { "hebraico": "כִּ֤י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "אֶ֪לֶף", "transliteral": "ʾelep̄", "traducao_palavra": "mil" },
+        { "hebraico": "שָׁנִ֡ים", "transliteral": "šānîm", "traducao_palavra": "anos" },
+        { "hebraico": "בְּֽעֵינֶ֨יךָ", "transliteral": "bəʿêneyḵā", "traducao_palavra": "em teus olhos" },
+        { "hebraico": "כְּיֹ֣ום", "transliteral": "kəyôm", "traducao_palavra": "como o dia de" },
+        { "hebraico": "אֶ֭תְמֹול", "transliteral": "ʾeṯmôl", "traducao_palavra": "ontem" },
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "quando" },
+        { "hebraico": "יַעֲבֹ֑ר", "transliteral": "yaʿăḇōr", "traducao_palavra": "passa" },
+        { "hebraico": "וְאַשְׁמוּרָ֥ה", "transliteral": "wəʾašmûrā", "traducao_palavra": "e [como] vigília" },
+        { "hebraico": "בַלָּֽיְלָה׃", "transliteral": "ballāyəlā", "traducao_palavra": "na noite" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Tu os levas como por uma torrente; são como um sono; de manhã são como a erva que cresce.",
+      "palavras": [
+        { "hebraico": "זְ֭רַמְתָּם", "transliteral": "zəramtām", "traducao_palavra": "tu os arrastaste" },
+        { "hebraico": "שֵׁנָ֣ה", "transliteral": "šēnā", "traducao_palavra": "[como] um sono" },
+        { "hebraico": "יִהְי֑וּ", "transliteral": "yihyû", "traducao_palavra": "eles são" },
+        { "hebraico": "בַּ֝בֹּ֗קֶר", "transliteral": "babbōqer", "traducao_palavra": "pela manhã" },
+        { "hebraico": "כֶּחָצִ֥יר", "transliteral": "keḥāṣîr", "traducao_palavra": "como a erva" },
+        { "hebraico": "יַחֲלֹֽף׃", "transliteral": "yaḥălōp̄", "traducao_palavra": "que brota/passa" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "De manhã floresce e cresce; à tarde corta-se e seca.",
+      "palavras": [
+        { "hebraico": "בַּ֭בֹּקֶר", "transliteral": "babbōqer", "traducao_palavra": "de manhã" },
+        { "hebraico": "יָצִ֣יץ", "transliteral": "yāṣîṣ", "traducao_palavra": "floresce" },
+        { "hebraico": "וְחָלָ֑ף", "transliteral": "wəḥālāp̄", "traducao_palavra": "e se renova" },
+        { "hebraico": "לָ֝עֶ֗רֶב", "transliteral": "lāʿereḇ", "traducao_palavra": "à tarde" },
+        { "hebraico": "יְמֹולֵ֥ל", "transliteral": "yəmôlēl", "traducao_palavra": "murcha/é cortada" },
+        { "hebraico": "וְיָבֵֽשׁ׃", "transliteral": "wəyāḇēš", "traducao_palavra": "e seca" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Pois somos consumidos pela tua ira, e pelo teu furor somos angustiados.",
+      "palavras": [
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "כָלִ֥ינוּ", "transliteral": "ḵālînû", "traducao_palavra": "somos consumidos" },
+        { "hebraico": "בְאַפֶּ֑ךָ", "transliteral": "ḇəʾappeḵā", "traducao_palavra": "pela tua ira" },
+        { "hebraico": "וּֽבַחֲמָתְךָ֥", "transliteral": "ūḇaḥămāṯəḵā", "traducao_palavra": "e pelo teu furor" },
+        { "hebraico": "נִבְהָֽלְנוּ׃", "transliteral": "niḇhālnû", "traducao_palavra": "fomos perturbados/aterrados" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Puseste as nossas iniquidades diante de ti, os nossos pecados ocultos à luz do teu rosto.",
+      "palavras": [
+        { "hebraico": "שַׁתָּ֣ה", "transliteral": "šattā", "traducao_palavra": "tu puseste" },
+        { "hebraico": "עֲוֹנֹתֵ֣ינוּ", "transliteral": "ʿăwōnōṯênû", "traducao_palavra": "nossas iniquidades" },
+        { "hebraico": "לְנֶגְדֶּ֑ךָ", "transliteral": "ləneḡdeḵā", "traducao_palavra": "diante de ti" },
+        { "hebraico": "עֲ֝לֻמֵ֗נוּ", "transliteral": "ʿălumēnû", "traducao_palavra": "nosso pecado oculto" },
+        { "hebraico": "לִמְאֹ֥ור", "transliteral": "limʾôr", "traducao_palavra": "à luz de" },
+        { "hebraico": "פָּנֶֽיךָ׃", "transliteral": "pāneyḵā", "traducao_palavra": "tua face" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Pois todos os nossos dias vão passando na tua indignação; passamos os nossos anos como um suspiro.",
+      "palavras": [
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "pois" },
+        { "hebraico": "כָל־", "transliteral": "ḵāl-", "traducao_palavra": "todos" },
+        { "hebraico": "יָ֭מֵינוּ", "transliteral": "yāmênû", "traducao_palavra": "nossos dias" },
+        { "hebraico": "פָּנ֣וּ", "transliteral": "pānû", "traducao_palavra": "passaram/declinaram" },
+        { "hebraico": "בְעֶבְרָתֶ֑ךָ", "transliteral": "ḇəʿeḇrāṯeḵā", "traducao_palavra": "na tua indignação" },
+        { "hebraico": "כִּלִּ֖ינוּ", "transliteral": "killînû", "traducao_palavra": "consumimos" },
+        { "hebraico": "שָׁנֵ֣ינוּ", "transliteral": "šānênû", "traducao_palavra": "nossos anos" },
+        { "hebraico": "כְמֹו־", "transliteral": "ḵəmô-", "traducao_palavra": "como" },
+        { "hebraico": "הֶֽגֶה׃", "transliteral": "heḡeh", "traducao_palavra": "[um] pensamento/suspiro" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Os dias da nossa vida sobem a setenta anos, e se alguns, pela sua robustez, chegam a oitenta anos, o orgulho deles é cansaço e enfado, pois cedo se corta e vamos voando.",
+      "palavras": [
+        { "hebraico": "יְמֵֽי־", "transliteral": "yəmê-", "traducao_palavra": "os dias de" },
+        { "hebraico": "שְׁנֹותֵ֨ינוּ", "transliteral": "šənôṯênû", "traducao_palavra": "nossos anos" },
+        { "hebraico": "בָהֶ֥ם", "transliteral": "ḇāhem", "traducao_palavra": "neles" },
+        { "hebraico": "שִׁבְעִ֪ים", "transliteral": "šiḇʿîm", "traducao_palavra": "setenta" },
+        { "hebraico": "שָׁנָ֡ה", "transliteral": "šānā", "traducao_palavra": "ano" },
+        { "hebraico": "וְאִ֤ם", "transliteral": "wəʾim", "traducao_palavra": "e se" },
+        { "hebraico": "בִּגְבוּרֹ֨ת", "transliteral": "biḡḇûrōṯ", "traducao_palavra": "por robustez" },
+        { "hebraico": "שְׁמֹ֘ונִ֤ים", "transliteral": "šəmônîm", "traducao_palavra": "oitenta" },
+        { "hebraico": "שָׁנָ֗ה", "transliteral": "šānā", "traducao_palavra": "ano" },
+        { "hebraico": "וְ֭רָהְבָּם", "transliteral": "wərāhbām", "traducao_palavra": "e o orgulho deles" },
+        { "hebraico": "עָמָ֣ל", "transliteral": "ʿāmāl", "traducao_palavra": "trabalho/cansaço" },
+        { "hebraico": "וָאָ֑וֶן", "transliteral": "wāʾāwen", "traducao_palavra": "e vaidade/enfado" },
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "pois" },
+        { "hebraico": "גָ֥ז", "transliteral": "ḡāz", "traducao_palavra": "passa/corta-se" },
+        { "hebraico": "חִ֝֗ישׁ", "transliteral": "ḥîš", "traducao_palavra": "rapidamente" },
+        { "hebraico": "וַנָּעֻֽפָה׃", "transliteral": "wannāʿup̄ā", "traducao_palavra": "e voamos" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Quem conhece o poder da tua ira? E a tua indignação, segundo o temor que te é devido?",
+      "palavras": [
+        { "hebraico": "מִֽי־", "transliteral": "mî-", "traducao_palavra": "quem" },
+        { "hebraico": "יֹ֭ודֵעַ", "transliteral": "yôḏēaʿ", "traducao_palavra": "conhece" },
+        { "hebraico": "עֹ֣ז", "transliteral": "ʿōz", "traducao_palavra": "[o] poder de" },
+        { "hebraico": "אַפֶּ֑ךָ", "transliteral": "appeḵā", "traducao_palavra": "tua ira" },
+        { "hebraico": "וּ֝כְיִרְאָתְךָ֗", "transliteral": "ūḵəyirʾāṯəḵā", "traducao_palavra": "e conforme o teu temor" },
+        { "hebraico": "עֶבְרָתֶֽךָ׃", "transliteral": "ʿeḇrāṯeḵā", "traducao_palavra": "tua indignação" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Ensina-nos a contar os nossos dias, de tal maneira que alcancemos corações sábios.",
+      "palavras": [
+        { "hebraico": "לִמְנֹ֥ות", "transliteral": "limnôṯ", "traducao_palavra": "para contar" },
+        { "hebraico": "יָ֭מֵינוּ", "transliteral": "yāmênû", "traducao_palavra": "nossos dias" },
+        { "hebraico": "כֵּ֣ן", "transliteral": "kēn", "traducao_palavra": "assim" },
+        { "hebraico": "הֹודַ֑ע", "transliteral": "hôḏaʿ", "traducao_palavra": "ensina/faz saber" },
+        { "hebraico": "וְ֝נָבִ֗א", "transliteral": "wənāḇiʾ", "traducao_palavra": "e alcancemos/tragam" },
+        { "hebraico": "לְבַ֥ב", "transliteral": "ləḇaḇ", "traducao_palavra": "coração de" },
+        { "hebraico": "חָכְמָֽה׃", "transliteral": "ḥāḵmā", "traducao_palavra": "sabedoria" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Volta-te, YHWH, até quando? E aplaca-te para com os teus servos.",
+      "palavras": [
+        { "hebraico": "שׁוּבָ֣ה", "transliteral": "šûḇā", "traducao_palavra": "volta-te" },
+        { "hebraico": "יְ֭הוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "עַד־", "transliteral": "ʿaḏ-", "traducao_palavra": "até" },
+        { "hebraico": "מָתָ֑י", "transliteral": "mātāy", "traducao_palavra": "quando?" },
+        { "hebraico": "וְ֝הִנָּחֵ֗ם", "transliteral": "wəhinnāḥēm", "traducao_palavra": "e compadece-te/arrepende-te" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre/com" },
+        { "hebraico": "עֲבָדֶֽיךָ׃", "transliteral": "ʿăḇāḏeyḵā", "traducao_palavra": "teus servos" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Sacia-nos de manhã com a tua benignidade, para que cantemos e nos alegremos todos os nossos dias.",
+      "palavras": [
+        { "hebraico": "שַׂבְּעֵ֣נוּ", "transliteral": "śabbəʿênû", "traducao_palavra": "farta-nos/sacia-nos" },
+        { "hebraico": "בַבֹּ֣קֶר", "transliteral": "ḇabbōqer", "traducao_palavra": "pela manhã" },
+        { "hebraico": "חַסְדֶּ֑ךָ", "transliteral": "ḥasdeḵā", "traducao_palavra": "[com] tua bondade" },
+        { "hebraico": "וּנְרַנְּנָ֥ה", "transliteral": "ūnəranənā", "traducao_palavra": "e cantemos de júbilo" },
+        { "hebraico": "וְ֝נִשְׂמְחָ֗ה", "transliteral": "wəniśməḥā", "traducao_palavra": "e alegremo-nos" },
+        { "hebraico": "בְּכָל־", "transliteral": "bəḵāl-", "traducao_palavra": "em todos" },
+        { "hebraico": "יָמֵֽינוּ׃", "transliteral": "yāmênû", "traducao_palavra": "nossos dias" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "Alegra-nos pelos dias em que nos afligiste, e pelos anos em que vimos o mal.",
+      "palavras": [
+        { "hebraico": "שַׂ֭מְּחֵנוּ", "transliteral": "śamməḥênû", "traducao_palavra": "alegra-nos" },
+        { "hebraico": "כִּימֹ֣ות", "transliteral": "kîmôṯ", "traducao_palavra": "conforme os dias [que]" },
+        { "hebraico": "עִנִּיתָ֑נוּ", "transliteral": "ʿinnîṯānû", "traducao_palavra": "tu nos afligiste" },
+        { "hebraico": "שְׁ֝נֹות", "transliteral": "šənôṯ", "traducao_palavra": "[conforme os] anos [que]" },
+        { "hebraico": "רָ֘אִ֥ינוּ", "transliteral": "rāʾînû", "traducao_palavra": "vimos" },
+        { "hebraico": "רָעָֽה׃", "transliteral": "rāʿā", "traducao_palavra": "mal/adversidade" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Apareça a tua obra aos teus servos, e a tua glória sobre seus filhos.",
+      "palavras": [
+        { "hebraico": "יֵרָאֶ֣ה", "transliteral": "yērāʾeh", "traducao_palavra": "apareça/seja vista" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "a/para" },
+        { "hebraico": "עֲבָדֶ֣יךָ", "transliteral": "ʿăḇāḏeyḵā", "traducao_palavra": "teus servos" },
+        { "hebraico": "פָעֳלֶ֑ךָ", "transliteral": "p̄āʿŏleḵā", "traducao_palavra": "tua obra" },
+        { "hebraico": "וַ֝הֲדָרְךָ֗", "transliteral": "wahăḏārəḵā", "traducao_palavra": "e teu esplendor" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre" },
+        { "hebraico": "בְּנֵיהֶֽם׃", "transliteral": "bənêhem", "traducao_palavra": "filhos deles" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "E seja sobre nós a formosura do Senhor nosso Deus; e confirma sobre nós a obra das nossas mãos; sim, confirma a obra das nossas mãos.",
+      "palavras": [
+        { "hebraico": "וִיהִ֤י ׀", "transliteral": "wîhî", "traducao_palavra": "e seja" },
+        { "hebraico": "נֹ֤עַם", "transliteral": "nōʿam", "traducao_palavra": "[a] formosura/suavidade de" },
+        { "hebraico": "אֲדֹנָ֥י", "transliteral": "ʾăḏōnāy", "traducao_palavra": "Senhor" },
+        { "hebraico": "אֱלֹהֵ֗ינוּ", "transliteral": "ʾĕlōhênû", "traducao_palavra": "nosso Deus" },
+        { "hebraico": "עָ֫לֵ֥ינוּ", "transliteral": "ʿālênû", "traducao_palavra": "sobre nós" },
+        { "hebraico": "וּמַעֲשֵׂ֣ה", "transliteral": "ūmaʿăśēh", "traducao_palavra": "e a obra de" },
+        { "hebraico": "יָ֭דֵינוּ", "transliteral": "yāḏênû", "traducao_palavra": "nossas mãos" },
+        { "hebraico": "כֹּונְנָ֥ה", "transliteral": "kôwnənā", "traducao_palavra": "confirma/estabelece" },
+        { "hebraico": "עָלֵ֑ינוּ", "transliteral": "ʿālênû", "traducao_palavra": "sobre nós" },
+        { "hebraico": "וּמַעֲשֵׂ֥ה", "transliteral": "ūmaʿăśēh", "traducao_palavra": "e a obra de" },
+        { "hebraico": "יָ֝דֵינוּ", "transliteral": "yāḏênû", "traducao_palavra": "nossas mãos" },
+        { "hebraico": "כֹּונְנֵֽהוּ׃", "transliteral": "kôwnənēhû", "traducao_palavra": "confirma-a" }
+      ]
+    }
+  }
 }

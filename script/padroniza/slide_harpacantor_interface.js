@@ -1,17 +1,18 @@
 /*===============================================================================*/
-/*                  MÓDULO DE INTERFACE VISUAL (HINOS)                           */
+/*                      MÓDULO DE INTERFACE VISUAL (HINOS)                       */
 /*===============================================================================*/
 /*  Este script é responsável por:                                               */
-/*                       - Gerar a estrutura HTML para a janela de projeção      */
-/*                       - Definir a lógica interna de navegação do slide        */
-/*                       - Formatar a letra do hino em estrofes                  */
+/*              - Gerar a estrutura HTML para a janela de projeção               */
+/*               - Definir a lógica interna de navegação do slide                */
+/*                    - Formatar a letra do hino em estrofes                     */
 /*===============================================================================*/
 
-console.log("[slide_harpacantor_interface.js] Script iniciado.");                                                        /* Loga o início do script     */
+console.log("[slide_harpacantor_interface.js] Script iniciado.");                 // Loga o início do script
 
-/* BLOCO: Gera a estrutura completa da interface do slide, incluindo CSS, HTML e lógica interna de navegação         */
-function gerarHtmlJanelaHino(hinoData) {                                                                                 /* Inicia geração de interface */
-    const estrofesArray = hinoData.letra.split(/\n{2,}/).filter(e => e.trim() !== '').map(estrofe => estrofe.trim());    /* Cria lista de estrofes      */
+/* BLOCO: Gera a estrutura completa da interface do slide, incluindo CSS, HTML   */
+/* e lógica interna de navegação                                                 */
+function gerarHtmlJanelaHino(hinoData) {                                          // Inicia geração de interface
+    const estrofesArray = hinoData.letra.split(/\n{2,}/).filter(e => e.trim() !== '').map(estrofe => estrofe.trim());  // Cria lista de estrofes
 
     return `
 <!DOCTYPE html>                                                                                                          <!-- Define tipo do documento  -->
@@ -105,16 +106,17 @@ function gerarHtmlJanelaHino(hinoData) {                                        
         });
     </script>                                                                                                            /* Fecha script interno        */
 </body>                                                                                                                  <!-- Fecha corpo HTML          -->
-</html>`;                                                                                                                /* Finaliza string de template */
+</html>`;                                                                         // Finaliza string de template
 }
 
-/* BLOCO: Realiza a injeção física do HTML e finaliza o carregamento do documento na janela pop-up                      */
-function escreverHtmlNaJanela(janela, html) {                                                                            /* Inicia escrita no disco     */
-    janela.document.open();                                                                                              /* Abre fluxo da janela        */
-    janela.document.write(html);                                                                                         /* Transmite conteúdo          */
-    janela.document.close();                                                                                             /* Renderiza o conteúdo        */
-    console.log("[Interface] Conteúdo escrito na janela do slide.");                                                     /* Loga sucesso                */
+/* BLOCO: Realiza a injeção física do HTML e finaliza o carregamento do          */
+/* documento na janela pop-up                                                    */
+function escreverHtmlNaJanela(janela, html) {                                     // Inicia escrita no disco
+    janela.document.open();                                                       // Abre fluxo da janela
+    janela.document.write(html);                                                  // Transmite conteúdo
+    janela.document.close();                                                      // Renderiza o conteúdo
+    console.log("[Interface] Conteúdo escrito na janela do slide.");              // Loga sucesso
 }
 
-window.gerarHtmlJanelaHino = gerarHtmlJanelaHino;                                                                        /* Exporta o gerador           */
-window.escreverHtmlNaJanela = escreverHtmlNaJanela;                                                                      /* Exporta motor de escrita    */
+window.gerarHtmlJanelaHino = gerarHtmlJanelaHino;                                 // Exporta o gerador
+window.escreverHtmlNaJanela = escreverHtmlNaJanela;                               // Exporta motor de escrita

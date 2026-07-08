@@ -1,99 +1,99 @@
-/*======================================================*/
-/*            ARQUIVO DE ESTILOS DO CANTOR CRISTÃO      */
-/*  Este arquivo contém os estilos específicos para a   */
-/*       seção de hinos do Cantor Cristão.              */
-/*======================================================*/
-
-/*======================================================*/
-/*                  GRADE DE HINOS                      */
-/*    Configura o grid que exibe os botões de hinos.    */
-/*======================================================*/
-#botoes-hinos {
-    display: grid;                                         /* Define a exibição como grade para organizar os BOTÕES DE HINOS.                                      */
-    grid-template-columns: repeat(auto-fill, 200px);       /* Define colunas de 200px que se preenchem automaticamente na GRADE DE HINOS.                          */
-    align-items: start;                                    /* Define o alinhamento vertical dos itens ao início do contêiner da GRADE DE HINOS.                    */
-    justify-content: center;                               /* Define o alinhamento horizontal centralizado para a GRADE DE HINOS.                                  */
-    width: 100%;                                           /* Define a largura total do contêiner da GRADE DE HINOS.                                               */
-    max-width: 1200px;                                     /* Define a largura máxima para limitar a expansão em telas grandes da GRADE DE HINOS.                  */
-    margin: 20px auto;                                     /* Define margens automáticas para centralizar o contêiner na página, com espaçamento vertical de 20px. */
-    padding: 15px;                                         /* Define o preenchimento interno para criar um respiro no contêiner da GRADE DE HINOS.                 */
-    gap: 10px;                                             /* Define o espaçamento uniforme entre os botões na GRADE DE HINOS.                                     */
-    background-color: rgba(0, 0, 0, 0.5);                /* Define a cor de fundo em preto semi-transparente para o contêiner da GRADE DE HINOS.                 */
-    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design do contêiner da GRADE DE HINOS.                 */
-}
-
-/*======================================================*/
-/*                GRADE DE HINOS — VAZIA                */
-/*    Estilo para quando a grade de hinos está vazia.   */
-/*======================================================*/
-#botoes-hinos:empty {
-    min-height: 0;                                         /* Define a altura mínima como nula para o contêiner quando a GRADE DE HINOS está vazia.             */
-    padding: 0;                                            /* Define o preenchimento interno como nulo para o contêiner quando a GRADE DE HINOS está vazia.     */
-    background: none;                                      /* Remove a cor de fundo do contêiner quando a GRADE DE HINOS está vazia.                            */
-}
-
-/*======================================================*/
-/*                  BOTÃO DE HINO                       */
-/*        Estilo base para os botões de hinos.          */
-/*======================================================*/
-.botao-capitulo {
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar o conteúdo do BOTÃO DE HINO.                                                  */
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para o conteúdo do BOTÃO DE HINO.                               */
-    justify-content: flex-start;                           /* Define o alinhamento horizontalmente ao início (esquerda) do BOTÃO DE HINO.                                */
-    width: 200px;                                          /* Define a largura fixa para padronizar os BOTÕES DE HINO.                                                   */
-    height: auto;                                          /* Define a altura como automática para se ajustar ao conteúdo do BOTÃO DE HINO.                              */
-    min-height: 48px;                                      /* Define a altura mínima para garantir consistência visual no BOTÃO DE HINO.                                 */
-    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do BOTÃO DE HINO.                */
-    padding: 8px 12px;                                     /* Define o preenchimento interno vertical e horizontal para criar um respiro no BOTÃO DE HINO.               */
-    gap: 5px;                                              /* Define o espaçamento entre o número e o nome do hino no BOTÃO DE HINO.                                     */
-    font-size: 0.9em;                                      /* Define o tamanho da fonte para o texto do BOTÃO DE HINO.                                                   */
-    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o BOTÃO DE HINO.                                                    */
-    line-height: 1.2;                                      /* Define a altura da linha para melhorar a legibilidade do texto do BOTÃO DE HINO.                           */
-    text-align: left;                                      /* Define o alinhamento de texto à esquerda para o BOTÃO DE HINO.                                             */
-    color: #fff;                                         /* Define a cor do texto em branco para o BOTÃO DE HINO.                                                      */
-    background: rgba(56, 142, 60, 0.9);                  /* Define o fundo em verde semi-transparente para o BOTÃO DE HINO.                                            */
-    border: 2px solid transparent;                         /* Define uma borda sólida transparente de 2px para o BOTÃO DE HINO.                                          */
-    border-radius: 8px;                                    /* Define os cantos arredondados para suavizar o design do BOTÃO DE HINO.                                     */
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);           /* Define uma sombra suave para criar profundidade no BOTÃO DE HINO.                                          */
-    box-sizing: border-box;                                /* Inclui borda e preenchimento no cálculo do tamanho total do BOTÃO DE HINO.                                 */
-    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar que o BOTÃO DE HINO é clicável.                                 */
-    white-space: normal;                                   /* Permite a quebra de linha do texto dentro do BOTÃO DE HINO.                                                */
-    word-wrap: break-word;                                 /* Permite a quebra de palavras longas para evitar estouro de layout no BOTÃO DE HINO.                        */
-    transition: background 0.2s, transform 0.2s, border-color 0.2s; /* Define transições suaves para os efeitos de interação (fundo, movimento, borda) no BOTÃO DE HINO. */
-}
-
-/*======================================================*/
-/*              BOTÃO DE HINO — ATIVO                   */
-/*      Estilo para o botão de hino selecionado.        */
-/*======================================================*/
-.botao-capitulo.active {
-    background: #1b5e20;                                 /* Define a cor de fundo em verde escuro para indicar o estado ATIVO do BOTÃO DE HINO.    */
-    border-color: #4caf50;                               /* Define a cor da borda em verde claro para destacar o BOTÃO DE HINO ATIVO.              */
-}
-
-/*======================================================*/
-/*              BOTÃO DE HINO — HOVER                   */
-/*   Efeito visual ao passar o mouse sobre o botão.     */
-/*======================================================*/
-.botao-capitulo:hover {
-    background: rgba(27, 94, 32, 0.95);                  /* Define o fundo em verde mais escuro para feedback visual no efeito de HOVER.                         */
-    border-color: #4caf50;                               /* Define a cor da borda em verde claro para destaque no HOVER do BOTÃO DE HINO.                        */
-    transform: translateY(-2px);                           /* Aplica um pequeno deslocamento vertical para criar um efeito de elevação no HOVER do BOTÃO DE HINO.  */
-}
-
-/*======================================================*/
-/*                CONTÊINER DO HINO                     */
-/*   Define a cor da borda para o contêiner do hino.    */
-/*======================================================*/
-.hino-conteiner {
-    border-color: #388e3c;                               /* Define a cor da borda do CONTÊINER DO HINO.            */
-}
-
-/*======================================================*/
-/*                  BOTÃO DE MENU                       */
-/*      Estilo para o botão de menu quando ativo.       */
-/*======================================================*/
-.menu-button.active {
-    background: #388e3c;                                 /* Define a cor de fundo em verde para o BOTÃO DE MENU ativo.     */
-    color: #fff;                                         /* Define a cor do texto em branco para o BOTÃO DE MENU ativo.    */
-}
+/*======================================================*/
+/*         ARQUIVO DE ESTILOS DO CANTOR CRISTÃO         */
+/*  Este arquivo contém os estilos específicos para a   */
+/*          seção de hinos do Cantor Cristão.           */
+/*======================================================*/
+
+/*======================================================*/
+/*                    GRADE DE HINOS                    */
+/*    Configura o grid que exibe os botões de hinos.    */
+/*======================================================*/
+#botoes-hinos {
+    display: grid;                                         /* Define a exibição como grade para organizar os BOTÕES DE HINOS.                                      */
+    grid-template-columns: repeat(auto-fill, 200px);       /* Define colunas de 200px que se preenchem automaticamente na GRADE DE HINOS.                          */
+    align-items: start;                                    /* Define o alinhamento vertical dos itens ao início do contêiner da GRADE DE HINOS.                    */
+    justify-content: center;                               /* Define o alinhamento horizontal centralizado para a GRADE DE HINOS.                                  */
+    width: 100%;                                           /* Define a largura total do contêiner da GRADE DE HINOS.                                               */
+    max-width: 1200px;                                     /* Define a largura máxima para limitar a expansão em telas grandes da GRADE DE HINOS.                  */
+    margin: 20px auto;                                     /* Define margens automáticas para centralizar o contêiner na página, com espaçamento vertical de 20px. */
+    padding: 15px;                                         /* Define o preenchimento interno para criar um respiro no contêiner da GRADE DE HINOS.                 */
+    gap: 10px;                                             /* Define o espaçamento uniforme entre os botões na GRADE DE HINOS.                                     */
+    background-color: rgba(0, 0, 0, 0.5);                  /* Define a cor de fundo em preto semi-transparente para o contêiner da GRADE DE HINOS.                 */
+    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design do contêiner da GRADE DE HINOS.                 */
+}
+
+/*======================================================*/
+/*                GRADE DE HINOS — VAZIA                */
+/*   Estilo para quando a grade de hinos está vazia.    */
+/*======================================================*/
+#botoes-hinos:empty {
+    min-height: 0;                                         /* Define a altura mínima como nula para o contêiner quando a GRADE DE HINOS está vazia.         */
+    padding: 0;                                            /* Define o preenchimento interno como nulo para o contêiner quando a GRADE DE HINOS está vazia. */
+    background: none;                                      /* Remove a cor de fundo do contêiner quando a GRADE DE HINOS está vazia.                        */
+}
+
+/*======================================================*/
+/*                    BOTÃO DE HINO                     */
+/*         Estilo base para os botões de hinos.         */
+/*======================================================*/
+.botao-capitulo {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar o conteúdo do BOTÃO DE HINO.                                                   */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para o conteúdo do BOTÃO DE HINO.                                */
+    justify-content: flex-start;                           /* Define o alinhamento horizontalmente ao início (esquerda) do BOTÃO DE HINO.                                 */
+    width: 200px;                                          /* Define a largura fixa para padronizar os BOTÕES DE HINO.                                                    */
+    height: auto;                                          /* Define a altura como automática para se ajustar ao conteúdo do BOTÃO DE HINO.                               */
+    min-height: 48px;                                      /* Define a altura mínima para garantir consistência visual no BOTÃO DE HINO.                                  */
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do BOTÃO DE HINO.                 */
+    padding: 8px 12px;                                     /* Define o preenchimento interno vertical e horizontal para criar um respiro no BOTÃO DE HINO.                */
+    gap: 5px;                                              /* Define o espaçamento entre o número e o nome do hino no BOTÃO DE HINO.                                      */
+    font-size: 0.9em;                                      /* Define o tamanho da fonte para o texto do BOTÃO DE HINO.                                                    */
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o BOTÃO DE HINO.                                                     */
+    line-height: 1.2;                                      /* Define a altura da linha para melhorar a legibilidade do texto do BOTÃO DE HINO.                            */
+    text-align: left;                                      /* Define o alinhamento de texto à esquerda para o BOTÃO DE HINO.                                              */
+    color: #fff;                                           /* Define a cor do texto em branco para o BOTÃO DE HINO.                                                       */
+    background: rgba(56, 142, 60, 0.9);                    /* Define o fundo em verde semi-transparente para o BOTÃO DE HINO.                                             */
+    border: 2px solid transparent;                         /* Define uma borda sólida transparente de 2px para o BOTÃO DE HINO.                                           */
+    border-radius: 8px;                                    /* Define os cantos arredondados para suavizar o design do BOTÃO DE HINO.                                      */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);             /* Define uma sombra suave para criar profundidade no BOTÃO DE HINO.                                           */
+    box-sizing: border-box;                                /* Inclui borda e preenchimento no cálculo do tamanho total do BOTÃO DE HINO.                                  */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar que o BOTÃO DE HINO é clicável.                                  */
+    white-space: normal;                                   /* Permite a quebra de linha do texto dentro do BOTÃO DE HINO.                                                 */
+    word-wrap: break-word;                                 /* Permite a quebra de palavras longas para evitar estouro de layout no BOTÃO DE HINO.                         */
+    transition: background 0.2s, transform 0.2s, border-color 0.2s;  /* Define transições suaves para os efeitos de interação (fundo, movimento, borda) no BOTÃO DE HINO. */
+}
+
+/*======================================================*/
+/*                BOTÃO DE HINO — ATIVO                 */
+/*       Estilo para o botão de hino selecionado.       */
+/*======================================================*/
+.botao-capitulo.active {
+    background: #1b5e20;                                   /* Define a cor de fundo em verde escuro para indicar o estado ATIVO do BOTÃO DE HINO. */
+    border-color: #4caf50;                                 /* Define a cor da borda em verde claro para destacar o BOTÃO DE HINO ATIVO.           */
+}
+
+/*======================================================*/
+/*                BOTÃO DE HINO — HOVER                 */
+/*    Efeito visual ao passar o mouse sobre o botão.    */
+/*======================================================*/
+.botao-capitulo:hover {
+    background: rgba(27, 94, 32, 0.95);                    /* Define o fundo em verde mais escuro para feedback visual no efeito de HOVER.                        */
+    border-color: #4caf50;                                 /* Define a cor da borda em verde claro para destaque no HOVER do BOTÃO DE HINO.                       */
+    transform: translateY(-2px);                           /* Aplica um pequeno deslocamento vertical para criar um efeito de elevação no HOVER do BOTÃO DE HINO. */
+}
+
+/*======================================================*/
+/*                  CONTÊINER DO HINO                   */
+/*   Define a cor da borda para o contêiner do hino.    */
+/*======================================================*/
+.hino-conteiner {
+    border-color: #388e3c;                                 /* Define a cor da borda do CONTÊINER DO HINO. */
+}
+
+/*======================================================*/
+/*                    BOTÃO DE MENU                     */
+/*      Estilo para o botão de menu quando ativo.       */
+/*======================================================*/
+.menu-button.active {
+    background: #388e3c;                                   /* Define a cor de fundo em verde para o BOTÃO DE MENU ativo.  */
+    color: #fff;                                           /* Define a cor do texto em branco para o BOTÃO DE MENU ativo. */
+}

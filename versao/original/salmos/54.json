@@ -1,6 +1,89 @@
 {
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+  "livro": "Salmos - תְּהִלִּים - Tehillim",
   "capítulo": 54,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Salva-me, ó Deus, pelo teu nome, e faz-me justiça pelo teu poder.",
+      "palavras": [
+        { "hebraico": "אֱלֹהִים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "ó Deus" },
+        { "hebraico": "בְּשִׁמְךָ֣", "transliteral": "bə-šim-ḵā", "traducao_palavra": "pelo teu nome" },
+        { "hebraico": "הֹושִׁיאֵ֑נִי", "transliteral": "hô-šî-ʿē-nî", "traducao_palavra": "salva-me" },
+        { "hebraico": "וּבִגְבוּרָתְךָ֥", "transliteral": "ū-ḇiḡ-ḇû-rā-ṯə-ḵā", "traducao_palavra": "e pelo teu poder/força" },
+        { "hebraico": "תְּדִינֵֽנִי׃", "transliteral": "tə-ḏî-nê-nî", "traducao_palavra": "julga-me/faze-me justiça" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Ó Deus, ouve a minha oração, inclina os ouvidos às palavras da minha boca.",
+      "palavras": [
+        { "hebraico": "אֱ֭לֹהִים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "ó Deus" },
+        { "hebraico": "שְׁמַ֣ע", "transliteral": "šə-maʿ", "traducao_palavra": "ouve" },
+        { "hebraico": "תְּפִלָּתִ֑י", "transliteral": "tə-p̄il-lā-ṯî", "traducao_palavra": "minha oração" },
+        { "hebraico": "הַ֝אֲזִ֗ינָה", "transliteral": "ha-ʾă-zî-nā", "traducao_palavra": "inclina os ouvidos" },
+        { "hebraico": "לְאִמְרֵי־פִֽי׃", "transliteral": "lə-ʾim-rê-p̄î", "traducao_palavra": "às palavras da minha boca" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Pois estrangeiros se levantam contra mim, e tiranos buscam a minha vida; não puseram Deus diante de si. (Selah)",
+      "palavras": [
+        { "hebraico": "כִּ֤י", "transliteral": "kî", "traducao_palavra": "pois" },
+        { "hebraico": "זָרִ֨ים", "transliteral": "zā-rîm", "traducao_palavra": "estrangeiros" },
+        { "hebraico": "קָ֤מוּ", "transliteral": "qā-mû", "traducao_palavra": "levantaram-se" },
+        { "hebraico": "עָלַ֗י", "transliteral": "ʿā-lay", "traducao_palavra": "contra mim" },
+        { "hebraico": "וְ֭עָרִיצִים", "transliteral": "wə-ʿā-rî-ṣîm", "traducao_palavra": "e tiranos/violentos" },
+        { "hebraico": "בִּקְשׁ֣וּ", "transliteral": "biq-šû", "traducao_palavra": "buscaram" },
+        { "hebraico": "נַפְשִׁ֑י", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma/vida" },
+        { "hebraico": "לֹא", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "שָׂ֨מּוּ", "transliteral": "śām-mû", "traducao_palavra": "puseram" },
+        { "hebraico": "אֱלֹהִ֖ים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "לְנֶגְדָּ֣ם", "transliteral": "lə-neḡ-dām", "traducao_palavra": "diante deles" },
+        { "hebraico": "סֶֽלָה׃", "transliteral": "śe-lā", "traducao_palavra": "Selah [pausa]" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Eis que Deus é o meu ajudador; o Senhor está com os que sustêm a minha alma.",
+      "palavras": [
+        { "hebraico": "הִנֵּ֣ה", "transliteral": "hin-nēh", "traducao_palavra": "eis que" },
+        { "hebraico": "אֱ֭לֹהִים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "עֹזֵ֣ר", "transliteral": "ʿô-zēr", "traducao_palavra": "ajudador" },
+        { "hebraico": "לִ֑י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "אֲ֝דֹנָ֗י", "transliteral": "ʾă-ḏō-nāy", "traducao_palavra": "o Senhor" },
+        { "hebraico": "בְּסֹמְכֵ֥י", "transliteral": "bə-śō-mə-ḵê", "traducao_palavra": "entre os que sustêm" },
+        { "hebraico": "נַפְשִֽׁי׃", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Ele retribuirá o mal aos meus inimigos; destrói-os por tua verdade.",
+      "palavras": [
+        { "hebraico": "יָשִׁ֣יב", "transliteral": "yā-šîḇ", "traducao_palavra": "ele retribuirá/devolverá" },
+        { "hebraico": "הָ֭רַע", "transliteral": "hā-raʿ", "traducao_palavra": "o mal" },
+        { "hebraico": "לְשֹׁרְרָ֑י", "transliteral": "lə-šō-rə-rāy", "traducao_palavra": "aos meus inimigos/observadores" },
+        { "hebraico": "בַּ֝אֲמִתְּךָ֗", "transliteral": "ba-ʾă-mit-tə-ḵā", "traducao_palavra": "na tua verdade" },
+        { "hebraico": "הַצְמִיתֵֽם׃", "transliteral": "haṣ-mî-ṯêm", "traducao_palavra": "destrói-os/aniquila-os" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Eu te oferecerei voluntariamente sacrifícios; louvarei o teu nome, YHWH, porque é bom.",
+      "palavras": [
+        { "hebraico": "בִּנְדָבָ֥ה", "transliteral": "bin-ḏā-ḇā", "traducao_palavra": "voluntariamente" },
+        { "hebraico": "אֶזְבְּחָה־לָּ֑ךְ", "transliteral": "ʾez-bə-ḥā-lāḵ", "traducao_palavra": "sacrificarei a ti" },
+        { "hebraico": "אֹודֶ֨ה", "transliteral": "ʾô-ḏeh", "traducao_palavra": "louvarei/renderei graças" },
+        { "hebraico": "שִׁמְךָ֖", "transliteral": "šim-ḵā", "traducao_palavra": "[a] teu nome" },
+        { "hebraico": "יְהוָ֣ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "כִּי־טֹֽוב׃", "transliteral": "kî-ṭôḇ", "traducao_palavra": "porque [é] bom" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Pois ele me livrou de toda a angústia; e os meus olhos viram o meu desejo sobre os meus inimigos.",
+      "palavras": [
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "pois" },
+        { "hebraico": "מִכָּל־", "transliteral": "mik-kāl-", "traducao_palavra": "de toda" },
+        { "hebraico": "צָ֭רָה", "transliteral": "ṣā-rā", "traducao_palavra": "angústia" },
+        { "hebraico": "הִצִּילָ֑נִי", "transliteral": "hiṣ-ṣî-lā-nî", "traducao_palavra": "ele me livrou" },
+        { "hebraico": "וּ֝בְאֹיְבַ֗י", "transliteral": "ū-ḇə-ʾō-yə-ḇay", "traducao_palavra": "e nos meus inimigos" },
+        { "hebraico": "רָאָ֥תָה", "transliteral": "rā-ʾā-ṯā", "traducao_palavra": "viu [o desejo]" },
+        { "hebraico": "עֵינִֽי׃", "transliteral": "ʿê-nî", "traducao_palavra": "meu olho" }
+      ]
+    }
+  }
 }

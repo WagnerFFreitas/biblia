@@ -1,98 +1,86 @@
 /*===============================================================================*/
-/*                    MÓDULO DE APRESENTAÇÃO EM SLIDE (POP-UP)                   */
+/*                   MÓDULO DE APRESENTAÇÃO EM SLIDE (POP-UP)                    */
 /*===============================================================================*/
 /*  Este script é responsável por:                                               */
-/*                       - Abrir uma nova janela para o modo de apresentação     */
-/*                       - Gerenciar a navegação de versículos nessa nova janela */
-/*                       - Carregar dinamicamente o conteúdo bíblico na janela   */
-/*                       - Lidar com a navegação por teclado (setas, etc.)       */
+/*              - Abrir uma nova janela para o modo de apresentação              */
+/*            - Gerenciar a navegação de versículos nessa nova janela            */
+/*             - Carregar dinamicamente o conteúdo bíblico na janela             */
+/*               - Lidar com a navegação por teclado (setas, etc.)               */
 /*===============================================================================*/
 
-// Este arquivo é como um "projetor digital" para a Bíblia.
-// Imagine que você está em uma igreja ou escola e quer mostrar versículos da Bíblia
-// numa tela grande ou projetor. Este arquivo:
-// 1. Abre uma nova janela especial (como um PowerPoint)
-// 2. Mostra os versículos em letras grandes e bonitas
-// 3. Permite navegar com as setas do teclado (← →)
-// 4. Carrega automaticamente o texto da Bíblia
-// É como ter um "sistema de apresentação profissional" só para versículos bíblicos!
+console.log("[slide_biblia.js] Script iniciado.")                                 // Confirma o início do carregamento
 
-console.log("[slide_biblia.js] Script iniciado.")                                                                        
-// ↑ Escreve uma mensagem no console confirmando que este arquivo começou a funcionar
-
-// Esta é uma "tabela de tradução" de nomes de livros.
-// O problema: alguns lugares escrevem "Gênesis" (com acento), outros "genesis" (sem acento).
-// Esta tabela ajuda o programa a entender que "Gênesis" = "genesis", "Êxodo" = "exodo", etc.
-// É como ter um "dicionário" que traduz nomes bonitos para nomes técnicos que o computador entende.
-
+/* BLOCO: Objeto de mapeamento de nomes de livros acentuados para formato        */
+/* padrão sem acento                                                             */
 const livroAcentuadosParaSemAcentos = {
-    Gênesis: "genesis",           // ↑ "Gênesis" vira "genesis"
-    Êxodo: "exodo",               // ↑ "Êxodo" vira "exodo"
-    Levítico: "levitico",         // ↑ "Levítico" vira "levitico"
-    Números: "numeros",           // ↑ "Números" vira "numeros"
-    Deuteronômio: "deuteronomio", // ↑ "Deuteronômio" vira "deuteronomio"
-    Josué: "josue",               // ↑ "Josué" vira "josue"
-    Juízes: "juizes",             // ↑ "Juízes" vira "juizes"
-    Rute: "rute",                 // ↑ "Rute" continua "rute"
-    "1Samuel": "1samuel",         // ↑ "1Samuel" vira "1samuel"
-    "2Samuel": "2samuel",         // ↑ "2Samuel" vira "2samuel"
-    "1Reis": "1reis",             // ↑ "1Reis" vira "1reis"
-    "2Reis": "2reis",             // ↑ "2Reis" vira "2reis"
-    "1Crônicas": "1cronica",      // ↑ "1Crônicas" vira "1cronica"
-    "2Crônicas": "2cronica",      // ↑ "2Crônicas" vira "2cronica"
-    Esdras: "esdras",             // ↑ "Esdras" continua "esdras"
-    Neemias: "neemias",           // ↑ "Neemias" continua "neemias"
-    Ester: "ester",               // ↑ "Ester" continua "ester"
-    Jó: "jo",                     // ↑ "Jó" vira "jo"
-    Cantares: "cantares",         // ↑ "Cantares" continua "cantares"
-    Isaías: "isaias",             // ↑ "Isaías" vira "isaias"
-    Jeremias: "jeremias",         // ↑ "Jeremias" continua "jeremias"
-    Lamentações: "lamentacoes",   // ↑ "Lamentações" vira "lamentacoes"
-    Ezequiel: "ezequiel",         // ↑ "Ezequiel" continua "ezequiel"
-    Daniel: "daniel",             // ↑ "Daniel" continua "daniel"
-    Oséias: "oseas",              // ↑ "Oséias" vira "oseas"
-    Joel: "joel",                 // ↑ "Joel" continua "joel"
-    Amós: "amos",                 // ↑ "Amós" vira "amos"
-    Obadias: "obadias",           // ↑ "Obadias" continua "obadias"
-    Jonas: "jonas",               // ↑ "Jonas" continua "jonas"
-    Miquéias: "miqueias",         // ↑ "Miquéias" vira "miqueias"
-    Naum: "naum",                 // ↑ "Naum" continua "naum"
-    Habacuque: "habacuque",       // ↑ "Habacuque" continua "habacuque"
-    Sofonias: "sofonias",         // ↑ "Sofonias" continua "sofonias"
-    Ageu: "ageu",                 // ↑ "Ageu" continua "ageu"
-    Zacarias: "zacarias",         // ↑ "Zacarias" continua "zacarias"
-    Malaquias: "malaquias",       // ↑ "Malaquias" continua "malaquias"
-    Mateus: "mateus",             // ↑ "Mateus" continua "mateus"
-    Marcos: "marcos",             // ↑ "Marcos" continua "marcos"
-    Lucas: "lucas",               // ↑ "Lucas" continua "lucas"
-    João: "joao",                 // ↑ "João" vira "joao"
-    Atos: "atos",                 // ↑ "Atos" continua "atos"
-    Romanos: "romanos",           // ↑ "Romanos" continua "romanos"
-    "1Coríntios": "1corintios",   // ↑ "1Coríntios" vira "1corintios"
-    "2Coríntios": "2corintios",   // ↑ "2Coríntios" vira "2corintios"
-    Gálatas: "galatas",           // ↑ "Gálatas" vira "galatas"
-    Efésios: "efesios",           // ↑ "Efésios" vira "efesios"
-    Filipenses: "filipenses",     // ↑ "Filipenses" continua "filipenses"
-    Colossenses: "colossenses",   // ↑ "Colossenses" continua "colossenses"
-    "1Tessalonicenses": "1tessalonicenses", // ↑ "1Tessalonicenses" continua igual
-    "2Tessalonicenses": "2tessalonicenses", // ↑ "2Tessalonicenses" continua igual
-    "1Timóteo": "1timoteo",       // ↑ "1Timóteo" vira "1timoteo"
-    "2Timóteo": "2timoteo",       // ↑ "2Timóteo" vira "2timoteo"
-    Tito: "tito",                 // ↑ "Tito" continua "tito"
-    Filemom: "filemom",           // ↑ "Filemom" continua "filemom"
-    Hebreus: "hebreus",           // ↑ "Hebreus" continua "hebreus"
-    Tiago: "tiago",               // ↑ "Tiago" continua "tiago"
-    "1Pedro": "1pedro",           // ↑ "1Pedro" vira "1pedro"
-    "2Pedro": "2pedro",           // ↑ "2Pedro" vira "2pedro"
-    "1João": "1joao",             // ↑ "1João" vira "1joao"
-    "2João": "2joao",             // ↑ "2João" vira "2joao"
-    "3João": "3joao",             // ↑ "3João" vira "3joao"
-    Judas: "judas",               // ↑ "Judas" continua "judas"
-    Apocalipse: "apocalipse",     // ↑ "Apocalipse" continua "apocalipse"
+    Gênesis: "genesis",
+    Êxodo: "exodo",
+    Levítico: "levitico",
+    Números: "numeros",
+    Deuteronômio: "deuteronomio",
+    Josué: "josue",
+    Juízes: "juizes",
+    Rute: "rute",
+    "1Samuel": "1samuel",
+    "2Samuel": "2samuel",
+    "1Reis": "1reis",
+    "2Reis": "2reis",
+    "1Crônicas": "1cronica",
+    "2Crônicas": "2cronica",
+    Esdras: "esdras",
+    Neemias: "neemias",
+    Ester: "ester",
+    Jó: "jo",
+    Cantares: "cantares",
+    Isaías: "isaias",
+    Jeremias: "jeremias",
+    Lamentações: "lamentacoes",
+    Ezequiel: "ezequiel",
+    Daniel: "daniel",
+    Oséias: "oseas",
+    Joel: "joel",
+    Amós: "amos",
+    Obadias: "obadias",
+    Jonas: "jonas",
+    Miquéias: "miqueias",
+    Naum: "naum",
+    Habacuque: "habacuque",
+    Sofonias: "sofonias",
+    Ageu: "ageu",
+    Zacarias: "zacarias",
+    Malaquias: "malaquias",
+    Mateus: "mateus",
+    Marcos: "marcos",
+    Lucas: "lucas",
+    João: "joao",
+    Atos: "atos",
+    Romanos: "romanos",
+    "1Coríntios": "1corintios",
+    "2Coríntios": "2corintios",
+    Gálatas: "galatas",
+    Efésios: "efesios",
+    Filipenses: "filipenses",
+    Colossenses: "colossenses",
+    "1Tessalonicenses": "1tessalonicenses",
+    "2Tessalonicenses": "2tessalonicenses",
+    "1Timóteo": "1timoteo",
+    "2Timóteo": "2timoteo",
+    Tito: "tito",
+    Filemom: "filemom",
+    Hebreus: "hebreus",
+    Tiago: "tiago",
+    "1Pedro": "1pedro",
+    "2Pedro": "2pedro",
+    "1João": "1joao",
+    "2João": "2joao",
+    "3João": "3joao",
+    Judas: "judas",
+    Apocalipse: "apocalipse",
 }
 
-/* BLOCO: Estrutura de dados principal com a contagem de versículos por capítulo                */
-const baseLivros = {                                                                                                     /* Inicia objeto de contagem         */
+/* BLOCO: Estrutura de dados principal com a contagem de versículos por          */
+/* capítulo                                                                      */
+const baseLivros = {                                                              // Inicia objeto de contagem
     genesis: { 1: 31, 2: 25, 3: 24, 4: 26, 5: 32, 6: 22, 7: 24, 8: 22, 9: 29, 10: 32, 11: 32, 12: 20, 13: 18, 14: 24, 15: 21, 16: 16, 17: 27, 18: 33, 19: 38, 20: 18, 21: 34, 22: 24, 23: 20, 24: 67, 25: 34, 26: 35, 27: 46, 28: 22, 29: 35, 30: 43, 31: 55, 32: 32, 33: 20, 34: 31, 35: 29, 36: 43, 37: 36, 38: 30, 39: 23, 40: 23, 41: 57, 42: 38, 43: 34, 44: 34, 45: 28, 46: 34, 47: 31, 48: 22, 49: 33, 50: 26 },
     exodo: { 1: 22, 2: 25, 3: 22, 4: 31, 5: 23, 6: 30, 7: 25, 8: 32, 9: 35, 10: 29, 11: 10, 12: 37, 13: 22, 14: 31, 15: 27, 16: 36, 17: 16, 18: 27, 19: 29, 20: 26, 21: 36, 22: 31, 23: 33, 24: 18 },
     levitico: { 1: 17, 2: 16, 3: 17, 4: 35, 5: 19, 6: 30, 7: 38, 8: 36, 9: 24, 10: 20, 11: 47, 12: 8, 13: 59, 14: 57, 15: 33, 16: 34, 17: 16, 18: 30, 19: 37, 20: 27, 21: 24, 22: 33, 23: 44, 24: 23, 25: 55, 26: 46, 27: 34 },
@@ -159,19 +147,21 @@ const baseLivros = {                                                            
 }    
 
 
-/* BLOCO: Associa a estrutura de dados base a todas as versões da Bíblia disponíveis            */
-const contagemVersiculosPorVersao = {                                                                                    /* Inicia mapa de traduções    */
-    acf: baseLivros,                                                                                                     /* Versão Almeida Corrigida    */
-    ara: baseLivros,                                                                                                     /* Versão Almeida Revista      */
-    nvi: baseLivros,                                                                                                     /* Versão Nova Internacional   */
-    kjv: baseLivros,                                                                                                     /* Versão King James           */
-    arc: baseLivros,                                                                                                     /* Versão Almeida Revista      */
-    ntlh: baseLivros,                                                                                                    /* Versão Linguagem de Hoje    */
-    naa: baseLivros,                                                                                                     /* Versão Nova Almeida         */
-    original: baseLivros,                                                                                                /* Versão Texto Original       */
+/* BLOCO: Associa a estrutura de dados base a todas as versões da Bíblia         */
+/* disponíveis                                                                   */
+const contagemVersiculosPorVersao = {                                             // Inicia mapa de traduções
+    acf: baseLivros,                                                              // Versão Almeida Corrigida
+    ara: baseLivros,                                                              // Versão Almeida Revista
+    nvi: baseLivros,                                                              // Versão Nova Internacional
+    kjv: baseLivros,                                                              // Versão King James
+    arc: baseLivros,                                                              // Versão Almeida Revista
+    ntlh: baseLivros,                                                             // Versão Linguagem de Hoje
+    naa: baseLivros,                                                              // Versão Nova Almeida
+    original: baseLivros,                                                         // Versão Texto Original
 };
 
-/* BLOCO: Define a ordem canônica dos livros da Bíblia para a navegação sequencial              */
+/* BLOCO: Define a ordem canônica dos livros da Bíblia para a navegação          */
+/* sequencial                                                                    */
 const livrosOrdem = [
     "genesis",
     "exodo",
@@ -238,157 +228,161 @@ const livrosOrdem = [
     "apocalipse",
 ];
 
-/* BLOCO: Função para normalizar qualquer nome de livro para o formato interno (sem acentos)    */
-function normalizarNomeLivro(nome) {                                                                                     /* Inicia normalização         */
-    const nomeLower = nome.toLowerCase()                                                                                 /* Converte para minúsculas    */
-    const semAcentos = Object.keys(livroAcentuadosParaSemAcentos).find(                                                  /* Varre o mapa de nomes       */
-        (key) => key.toLowerCase() === nomeLower,                                                                        /* Busca chave correspondente  */
+/* BLOCO: Função para normalizar qualquer nome de livro para o formato interno   */
+/* (sem acentos)                                                                 */
+function normalizarNomeLivro(nome) {                                              // Inicia normalização
+    const nomeLower = nome.toLowerCase()                                          // Converte para minúsculas
+    const semAcentos = Object.keys(livroAcentuadosParaSemAcentos).find(           // Varre o mapa de nomes
+        (key) => key.toLowerCase() === nomeLower,                                 // Busca chave correspondente
     )
     if (semAcentos) {
-        return livroAcentuadosParaSemAcentos[semAcentos]                                                                 /* Retorna o ID padrão         */
+        return livroAcentuadosParaSemAcentos[semAcentos]                          // Retorna o ID padrão
     }
     return (
         Object.keys(livroAcentuadosParaSemAcentos).find(
-            (key) => livroAcentuadosParaSemAcentos[key] === nomeLower,                                                   /* Busca por valor inverso     */
+            (key) => livroAcentuadosParaSemAcentos[key] === nomeLower,            // Busca por valor inverso
         ) || nomeLower
-    )                                                                                                                    /* Fallback nome original      */
+    )                                                                             // Fallback nome original
 }
 
-/* BLOCO: Função para recuperar o nome do livro com acentos para exibição na interface          */
-function obterNomeAcentuado(nomeSemAcento) {                                                                             /* Inicia busca acentuada      */
+/* BLOCO: Função para recuperar o nome do livro com acentos para exibição na     */
+/* interface                                                                     */
+function obterNomeAcentuado(nomeSemAcento) {                                      // Inicia busca acentuada
     return (
         Object.keys(livroAcentuadosParaSemAcentos).find(
-            (key) => livroAcentuadosParaSemAcentos[key] === nomeSemAcento,                                               /* Localiza chave original     */
+            (key) => livroAcentuadosParaSemAcentos[key] === nomeSemAcento,        // Localiza chave original
         ) || nomeSemAcento
-    )                                                                                                                    /* Fallback nome recebido      */
+    )                                                                             // Fallback nome recebido
 }
 
-/* BLOCO: Inicializa o escutador de eventos do link 'Slide' na página principal                 */
-function inicializarSlide() {                                                                                            /* Inicia configuração slide   */
-    console.log("[slide.js] Configurando listener do link 'Slide'.")                                                     /* Log de inicialização        */
-    const linksHeader = document.querySelectorAll("header nav ul li a")                                                  /* Captura links do topo       */
-    let linkSlideEncontrado = null                                                                                       /* Var auxiliar de busca       */
-    linksHeader.forEach((link) => {                                                                                      /* Percorre links header       */
-        if (link.textContent.trim().toLowerCase() === "slide") {                                                         /* Busca texto exato "slide"   */
-            linkSlideEncontrado = link                                                                                   /* Atribui link encontrado     */
+/* BLOCO: Inicializa o escutador de eventos do link 'Slide' na página principal  */
+function inicializarSlide() {                                                     // Inicia configuração slide
+    console.log("[slide.js] Configurando listener do link 'Slide'.")              // Log de inicialização
+    const linksHeader = document.querySelectorAll("header nav ul li a")           // Captura links do topo
+    let linkSlideEncontrado = null                                                // Var auxiliar de busca
+    linksHeader.forEach((link) => {                                               // Percorre links header
+        if (link.textContent.trim().toLowerCase() === "slide") {                  // Busca texto exato "slide"
+            linkSlideEncontrado = link                                            // Atribui link encontrado
         }
     })
 
     /* BLOCO: Configura a ação de clique para o botão que abre o slide                          */
-    if (linkSlideEncontrado) {                                                                                           /* Verifica se link existe     */
-        linkSlideEncontrado.addEventListener("click", (event) => {                                                       /* Ouve o clique do usuário    */
-            event.preventDefault()                                                                                       /* Cancela ação de âncora      */
-            console.log("[slide.js] Link 'Slide' clicado.")                                                              /* Log de comando usuário      */
+    if (linkSlideEncontrado) {                                                    // Verifica se link existe
+        linkSlideEncontrado.addEventListener("click", (event) => {                // Ouve o clique do usuário
+            event.preventDefault()                                                // Cancela ação de âncora
+            console.log("[slide.js] Link 'Slide' clicado.")                       // Log de comando usuário
           
             /* BLOCO: Captura os parâmetros de versão e posição da leitura atual                */
-            const urlParams = new URLSearchParams(window.location.search)                                                /* Lê parâmetros da URL        */
-            const versao = window.BIBLE_VERSION || urlParams.get("version") || "arc"                                     /* Identifica tradução ativa   */
-            let livro = window.activeLivro || "genesis"                                                                  /* Identifica livro carregado  */
-            const cap = window.activeCapitulo || 1                                                                       /* Identifica capítulo ativo   */
-            const versBtn = window.activeVersiculoButton                                                                 /* Captura botão versículo     */
+            const urlParams = new URLSearchParams(window.location.search)         // Lê parâmetros da URL
+            const versao = window.BIBLE_VERSION || urlParams.get("version") || "arc"  // Identifica tradução ativa
+            let livro = window.activeLivro || "genesis"                           // Identifica livro carregado
+            const cap = window.activeCapitulo || 1                                // Identifica capítulo ativo
+            const versBtn = window.activeVersiculoButton                          // Captura botão versículo
             const versNum = versBtn
                 ? Number.parseInt(versBtn.dataset.versiculo, 10) || Number.parseInt(versBtn.textContent.trim(), 10) || 1
-                : 1                                                                                                      /* Define índice versículo     */
+                : 1                                                               // Define índice versículo
 
             /* BLOCO: Verifica se há dados básicos selecionados para abrir o slide              */
-            if (!livro || !cap) {                                                                                        /* Checa seleção necessária    */
-                alert("Por favor, selecione um livro e capítulo primeiro.")                                              /* Orienta o usuário           */
-                console.warn("[slide.js] Tentativa de abertura sem seleção ativa.")                                      /* Log de aviso técnico        */
-                return                                                                                                   /* Aborta a abertura           */
+            if (!livro || !cap) {                                                 // Checa seleção necessária
+                alert("Por favor, selecione um livro e capítulo primeiro.")       // Orienta o usuário
+                console.warn("[slide.js] Tentativa de abertura sem seleção ativa.")  // Log de aviso técnico
+                return                                                            // Aborta a abertura
             }
 
-            livro = normalizarNomeLivro(livro)                                                                           /* Padroniza ID do livro       */
+            livro = normalizarNomeLivro(livro)                                    // Padroniza ID do livro
             console.log(
                 `[slide.js] Estado para slide: Versão=${versao}, Livro=${livro}, Cap=${cap}, VersNum=${versNum}`,
-            )                                                                                                            /* Log de dados prontos        */
-            abrirJanelaSlide(livro, cap, versNum, versao)                                                                /* Dispara janela pop-up       */
+            )                                                                     // Log de dados prontos
+            abrirJanelaSlide(livro, cap, versNum, versao)                         // Dispara janela pop-up
         })
     } else {
-        console.warn("[slide.js] Link 'Slide' não encontrado no cabeçalho.")                                             /* Log falha de elemento       */
+        console.warn("[slide.js] Link 'Slide' não encontrado no cabeçalho.")      // Log falha de elemento
     }
 } 
-window.inicializarSlide = inicializarSlide                                                                               /* Exporta para escopo global  */
+window.inicializarSlide = inicializarSlide                                        // Exporta para escopo global
 
-/* BLOCO: Garante que a configuração do Slide ocorra após o carregamento completo do DOM        */
-document.addEventListener("DOMContentLoaded", () => {                                                                    /* Monitora carga do site      */
-    if (typeof inicializarSlide === "function") {                                                                        /* Verifica integridade função */
-        inicializarSlide()                                                                                               /* Ativa o sistema de slide    */
+/* BLOCO: Garante que a configuração do Slide ocorra após o carregamento         */
+/* completo do DOM                                                               */
+document.addEventListener("DOMContentLoaded", () => {                             // Monitora carga do site
+    if (typeof inicializarSlide === "function") {                                 // Verifica integridade função
+        inicializarSlide()                                                        // Ativa o sistema de slide
     } else {
-        console.error("[slide.js] inicializarSlide não definida no DOMContentLoaded.")                                   /* Log erro de carregamento    */
+        console.error("[slide.js] inicializarSlide não definida no DOMContentLoaded.")  // Log erro de carregamento
     }
 })
 
-/* BLOCO: Função principal que abre e configura a nova janela pop-up para apresentação de slide */
-async function abrirJanelaSlide(livroAtual, capituloAtual, versiculoAtual, versaoAtual) {                                /* Inicia motor de pop-up      */
+/* BLOCO: Função principal que abre e configura a nova janela pop-up para        */
+/* apresentação de slide                                                         */
+async function abrirJanelaSlide(livroAtual, capituloAtual, versiculoAtual, versaoAtual) {  // Inicia motor de pop-up
     console.log(
         `[slide.js] Tentando abrir slide para: ${versaoAtual.toUpperCase()} ${livroAtual} ${capituloAtual}:${versiculoAtual}`,
-    )                                                                                                                    /* Log de intenção abertura    */
+    )                                                                             // Log de intenção abertura
     
     /* BLOCO: Realiza a validação de parâmetros essenciais antes de abrir a janela              */
-    if (!livroAtual || !capituloAtual || !versiculoAtual || !versaoAtual) {                                              /* Valida dados de entrada     */
-        alert("Dados insuficientes para abrir o slide. Verifique a seleção.")                                            /* Notifica usuário falha      */
+    if (!livroAtual || !capituloAtual || !versiculoAtual || !versaoAtual) {       // Valida dados de entrada
+        alert("Dados insuficientes para abrir o slide. Verifique a seleção.")     // Notifica usuário falha
         console.warn("[slide.js] Tentativa com dados insuficientes:", {
             livroAtual,
             capituloAtual,
             versiculoAtual,
             versaoAtual,
-        })                                                                                                               /* Log detalhado do erro       */
-        return                                                                                                           /* Interrompe o processo       */
+        })                                                                        // Log detalhado do erro
+        return                                                                    // Interrompe o processo
     }
 
     /* BLOCO: Verifica se já existe uma janela aberta para evitar duplicidade                   */
-    livroAtual = normalizarNomeLivro(livroAtual)                                                                         /* Sincroniza ID livro         */
-    if (window.janelaSlide && !window.janelaSlide.closed) {                                                              /* Verifica janela ativa       */
-        window.janelaSlide.focus()                                                                                       /* Traz janela para frente     */
-        console.log("[slide.js] Janela do slide já estava aberta. Focando.")                                             /* Log de reutilização         */
-        return                                                                                                           /* Sai sem abrir nova          */
+    livroAtual = normalizarNomeLivro(livroAtual)                                  // Sincroniza ID livro
+    if (window.janelaSlide && !window.janelaSlide.closed) {                       // Verifica janela ativa
+        window.janelaSlide.focus()                                                // Traz janela para frente
+        console.log("[slide.js] Janela do slide já estava aberta. Focando.")      // Log de reutilização
+        return                                                                    // Sai sem abrir nova
     }
 
-    const largura = window.screen.availWidth                                                                             /* Pega largura do monitor     */
-    const altura = window.screen.availHeight                                                                             /* Pega altura do monitor      */
+    const largura = window.screen.availWidth                                      // Pega largura do monitor
+    const altura = window.screen.availHeight                                      // Pega altura do monitor
 
     /* BLOCO: Inicializa a abertura do pop-up e valida se foi bloqueado pelo browser            */
     window.janelaSlide = window.open(
         "",
         "JanelaSlide",
         `width=${largura},height=${altura},menubar=no,toolbar=no,location=no,status=no`,
-    )                                                                                                                    /* Instancia objeto window     */
-    if (!window.janelaSlide || window.janelaSlide.closed) {                                                              /* Valida permissão pop-up     */
-        alert("Não foi possível abrir a janela do slide. Desative o bloqueador de pop-ups.")                             /* Instrução bloqueio          */
-        console.error("[slide.js] Falha ao abrir a janela pop-up.")                                                      /* Log erro de permissão       */
-        return                                                                                                           /* Aborta operação             */
+    )                                                                             // Instancia objeto window
+    if (!window.janelaSlide || window.janelaSlide.closed) {                       // Valida permissão pop-up
+        alert("Não foi possível abrir a janela do slide. Desative o bloqueador de pop-ups.")  // Instrução bloqueio
+        console.error("[slide.js] Falha ao abrir a janela pop-up.")               // Log erro de permissão
+        return                                                                    // Aborta operação
     }
 
-    console.log("[slide.js] Janela pop-up aberta com sucesso.")                                                          /* Log de sucesso operacional  */
+    console.log("[slide.js] Janela pop-up aberta com sucesso.")                   // Log de sucesso operacional
 
     /* BLOCO: Valida a configuração de contagem de versículos da versão ativa                   */
-    const todaContagemDaVersao = contagemVersiculosPorVersao[versaoAtual]                                                /* Recupera mapa de versículos */
+    const todaContagemDaVersao = contagemVersiculosPorVersao[versaoAtual]         // Recupera mapa de versículos
     if (!todaContagemDaVersao || Object.keys(todaContagemDaVersao).length === 0) {
-        console.error(`[slide.js] Contagem não encontrada para ${versaoAtual.toUpperCase()}`)                            /* Log erro de arquivo config  */
-        window.janelaSlide.close()                                                                                       /* Auto-destrói pop-up vazio   */
-        alert(`Erro interno: Configuração de versículos ausente para ${versaoAtual.toUpperCase()}.`)                     /* Notifica erro crítico       */
-        return                                                                                                           /* Interrompe fluxo            */
+        console.error(`[slide.js] Contagem não encontrada para ${versaoAtual.toUpperCase()}`)  // Log erro de arquivo config
+        window.janelaSlide.close()                                                // Auto-destrói pop-up vazio
+        alert(`Erro interno: Configuração de versículos ausente para ${versaoAtual.toUpperCase()}.`)  // Notifica erro crítico
+        return                                                                    // Interrompe fluxo
     }
 
     /* BLOCO: Confirma a existência do livro específico na configuração carregada               */
     if (!todaContagemDaVersao[livroAtual]) {
         console.error(
             `[slide.js] Livro '${livroAtual}' não encontrado na contagem para ${versaoAtual.toUpperCase()}`,
-        )                                                                                                                /* Log erro de mapeamento livro*/
-        window.janelaSlide.close()                                                                                       /* Fecha pop-up inconsistente  */
-        alert(`Erro interno: Livro '${livroAtual}' não encontrado na configuração.`)                                     /* Notifica usuário erro livro */
-        return                                                                                                           /* Interrompe fluxo            */
+        )                                                                         // Log erro de mapeamento livro
+        window.janelaSlide.close()                                                // Fecha pop-up inconsistente
+        alert(`Erro interno: Livro '${livroAtual}' não encontrado na configuração.`)  // Notifica usuário erro livro
+        return                                                                    // Interrompe fluxo
     }
 
     /* BLOCO: Prepara os dados técnicos para injeção no ambiente da nova janela                 */
-    const todaContagemJSON = JSON.stringify(todaContagemDaVersao)                                                        /* Serializa mapa versos       */
-    const livrosOrdemJSON = JSON.stringify(livrosOrdem)                                                                  /* Serializa lista canônica    */
-    const livroAcentuado = obterNomeAcentuado(livroAtual)                                                                /* Obtém nome legível livro    */
-    const livroAcentuadosJSON = JSON.stringify(livroAcentuadosParaSemAcentos)                                            /* Serializa tradutor nomes    */
+    const todaContagemJSON = JSON.stringify(todaContagemDaVersao)                 // Serializa mapa versos
+    const livrosOrdemJSON = JSON.stringify(livrosOrdem)                           // Serializa lista canônica
+    const livroAcentuado = obterNomeAcentuado(livroAtual)                         // Obtém nome legível livro
+    const livroAcentuadosJSON = JSON.stringify(livroAcentuadosParaSemAcentos)     // Serializa tradutor nomes
 
-    const cssLink = versaoAtual === "original" ? '<link rel="stylesheet" href="../css/versoes.css">' : ""                /* Estilo condicional          */
+    const cssLink = versaoAtual === "original" ? '<link rel="stylesheet" href="../css/versoes.css">' : ""  // Estilo condicional
 
-    window.janelaSlide.document.open()                                                                                   /* Inicia escrita no pop-up    */
+    window.janelaSlide.document.open()                                            // Inicia escrita no pop-up
     window.janelaSlide.document.write(`
 <!DOCTYPE html>                                                                                                          <!-- Inicia documento slide    -->
 <html lang="pt-BR">                                                                                                      <!-- Idioma Português          -->
@@ -699,8 +693,8 @@ async function abrirJanelaSlide(livroAtual, capituloAtual, versiculoAtual, versa
     </script>
 </body>
 </html>
-    `)                                                                                                                   /* Finaliza Escritura Pop-up   */
+    `)                                                                            // Finaliza Escritura Pop-up
 
-    window.janelaSlide.document.close()                                                                                  /* Fecha Fluxo e Renderiza     */
-    console.log("[slide.js] Conteúdo escrito na janela do slide.")                                                       /* Log Conclusão Sucesso       */
-}                                                                                                                        /* Fecha abertura pop-up       */
+    window.janelaSlide.document.close()                                           // Fecha Fluxo e Renderiza
+    console.log("[slide.js] Conteúdo escrito na janela do slide.")                // Log Conclusão Sucesso
+}                                                                                 // Fecha abertura pop-up

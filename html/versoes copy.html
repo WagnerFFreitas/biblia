@@ -1,170 +1,170 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<!------------------------------------------>
-<!--        CONFIGURAÇÃO DO DOCUMENTO     -->
-<!------------------------------------------>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura o viewport para responsividade -->
-    <title>Bíblia Sagrada Online</title>
-    <!-- Carrega os estilos externos modulares -->
-    <link rel="stylesheet" href="../css/versoes.css">
-    <link rel="stylesheet" href="../css/capitulos.css">
-    <link rel="stylesheet" href="../css/modo_leitura.css">
-</head>
-
-<!------------------------------------------->
-<!--         CONTEÚDO PRINCIPAL            -->
-<!--   ORGANIZADO EM SEÇÕES SEMÂNTICAS     -->
-<!------------------------------------------->
-
-<body>
-    <!-- ========== CABEÇALHO DA PÁGINA ========== -->
-    <header>
-        <div class="cabecalho-superior">
-            <div class="titulo-conteiner">
-                <h1 id="titulo-principal-versao">Bíblia Sagrada</h1>
-                <p id="subtitulo-versao-extenso" class="nome-extenso-versao"></p>
-            </div>
-            <!-- Barra de pesquisa do seletor de versões -->
-            <div class="barra-pesquisa">
-                <select id="seletor-versao-principal" style="display: none;">
-                    <option value="acf">ACF</option>
-                    <option value="ara">ARA</option>
-                    <option value="arc">ARC</option>
-                    <option value="kjv">KJV</option>
-                    <option value="naa">NAA</option>
-                    <option value="ntlh">NTLH</option>
-                    <option value="nvi">NVI</option>
-                    <option value="nvt">NVT</option>
-                    <option value="original">ORIGINAL</option>
-                </select>
-                <input type="text" placeholder="Digite o termo de busca">
-                <button>Buscar</button>
-            </div>
-        </div>
-
-        <!-- Barra do menu superior com as opções -->
-        <div class="cabecalho-inferior">
-            <nav>
-                <span class="titulo-menu">LIVROS</span>
-                <ul class="menu-opcoes">
-                    <li><a href="../index.html">Menu Principal</a></li>
-                    <li><a href="#" id="modo-leitura" aria-pressed="false">Modo Leitura</a></li>
-                    <li><a href="#" id="link-slide">Slide</a></li>
-                    <li><a href="../html/menu_dicionarioconcordancia.html">Concordância e Dicionário</a></li>
-                    <li><a href="../html/harpa_cantor.html">Harpa e Cantor</a></li>
-                    <li class="meu-suspenso">
-                        <a href="#" id="baixar">Baixar</a>
-                        <ul class="conteudo-menu-suspenso" id="baixar-list"></ul>
-                    </li>
-                    <li class="meu-suspenso">
-                        <a href="#" id="utilidades">Utilidades</a>
-                        <ul class="conteudo-menu-suspenso" id="utilidades-list"></ul>
-                    </li>
-                    <li><a href="mailto:wagnerffreitas1973@gmail.com">Contato</a></li>
-                    <li><a href="#" id="sobre">Sobre</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <!-- ========== MENU LATERAL COM LIVROS ========== -->
-    <main>
-        <div class="conteiner">
-            <aside class="menu-livros">
-                <ul>
-                    <li><a href="#" data-livro="genesis">Gênesis</a></li>
-                    <li><a href="#" data-livro="exodo">Êxodo</a></li>
-                    <li><a href="#" data-livro="levitico">Levítico</a></li>
-                    <li><a href="#" data-livro="numeros">Números</a></li>
-                    <li><a href="#" data-livro="deuteronomio">Deuteronômio</a></li>
-                    <li><a href="#" data-livro="josue">Josué</a></li>
-                    <li><a href="#" data-livro="juizes">Juízes</a></li>
-                    <li><a href="#" data-livro="rute">Rute</a></li>
-                    <li><a href="#" data-livro="1samuel">1º Samuel</a></li>
-                    <li><a href="#" data-livro="2samuel">2º Samuel</a></li>
-                    <li><a href="#" data-livro="1reis">1º Reis</a></li>
-                    <li><a href="#" data-livro="2reis">2º Reis</a></li>
-                    <li><a href="#" data-livro="1cronicas">1º Crônicas</a></li>
-                    <li><a href="#" data-livro="2cronicas">2º Crônicas</a></li>
-                    <li><a href="#" data-livro="esdras">Esdras</a></li>
-                    <li><a href="#" data-livro="neemias">Neemias</a></li>
-                    <li><a href="#" data-livro="ester">Ester</a></li>
-                    <li><a href="#" data-livro="jo">Jó</a></li>
-                    <li><a href="#" data-livro="salmos">Salmos</a></li>
-                    <li><a href="#" data-livro="proverbios">Provérbios</a></li>
-                    <li><a href="#" data-livro="eclesiastes">Eclesiastes</a></li>
-                    <li><a href="#" data-livro="cantares">Cantares</a></li>
-                    <li><a href="#" data-livro="isaias">Isaías</a></li>
-                    <li><a href="#" data-livro="jeremias">Jeremias</a></li>
-                    <li><a href="#" data-livro="lamentacoes">Lamentações</a></li>
-                    <li><a href="#" data-livro="ezequiel">Ezequiel</a></li>
-                    <li><a href="#" data-livro="daniel">Daniel</a></li>
-                    <li><a href="#" data-livro="oseias">Oséias</a></li>
-                    <li><a href="#" data-livro="joel">Joel</a></li>
-                    <li><a href="#" data-livro="amos">Amós</a></li>
-                    <li><a href="#" data-livro="obadias">Obadias</a></li>
-                    <li><a href="#" data-livro="jonas">Jonas</a></li>
-                    <li><a href="#" data-livro="miqueias">Miquéias</a></li>
-                    <li><a href="#" data-livro="naum">Naum</a></li>
-                    <li><a href="#" data-livro="habacuque">Habacuque</a></li>
-                    <li><a href="#" data-livro="sofonias">Sofonias</a></li>
-                    <li><a href="#" data-livro="ageu">Ageu</a></li>
-                    <li><a href="#" data-livro="zacarias">Zacarias</a></li>
-                    <li><a href="#" data-livro="malaquias">Malaquias</a></li>
-                    <li><a href="#" data-livro="mateus">Mateus</a></li>
-                    <li><a href="#" data-livro="marcos">Marcos</a></li>
-                    <li><a href="#" data-livro="lucas">Lucas</a></li>
-                    <li><a href="#" data-livro="joao">João</a></li>
-                    <li><a href="#" data-livro="atos">Atos</a></li>
-                    <li><a href="#" data-livro="romanos">Romanos</a></li>
-                    <li><a href="#" data-livro="1corintios">1º Coríntios</a></li>
-                    <li><a href="#" data-livro="2corintios">2º Coríntios</a></li>
-                    <li><a href="#" data-livro="galatas">Gálatas</a></li>
-                    <li><a href="#" data-livro="efesios">Efésios</a></li>
-                    <li><a href="#" data-livro="filipenses">Filipenses</a></li>
-                    <li><a href="#" data-livro="colossenses">Colossenses</a></li>
-                    <li><a href="#" data-livro="1tessalonicenses">1º Tessalonicenses</a></li>
-                    <li><a href="#" data-livro="2tessalonicenses">2º Tessalonicenses</a></li>
-                    <li><a href="#" data-livro="1timoteo">1º Timóteo</a></li>
-                    <li><a href="#" data-livro="2timoteo">2º Timóteo</a></li>
-                    <li><a href="#" data-livro="tito">Tito</a></li>
-                    <li><a href="#" data-livro="filemom">Filemom</a></li>
-                    <li><a href="#" data-livro="hebreus">Hebreus</a></li>
-                    <li><a href="#" data-livro="tiago">Tiago</a></li>
-                    <li><a href="#" data-livro="1pedro">1º Pedro</a></li>
-                    <li><a href="#" data-livro="2pedro">2º Pedro</a></li>
-                    <li><a href="#" data-livro="1joao">1º João</a></li>
-                    <li><a href="#" data-livro="2joao">2º João</a></li>
-                    <li><a href="#" data-livro="3joao">3º João</a></li>
-                    <li><a href="#" data-livro="judas">Judas</a></li>
-                    <li><a href="#" data-livro="apocalipse">Apocalipse</a></li>
-                </ul>
-            </aside>
-            
-            <!-- Área de marca d'água e título do capítulo -->
-            <section class="conteudo">
-                <h2></h2>
-                <!--<div class="marcadagua"></div>-->
-            </section>
-        </div>
-    </main>
-
-    <!-- ========== RODAPÉ ========== -->
-    <footer>
-        <p>© Bíblia Sagrada 2024</p>
-    </footer>
-
-    <!-- ========== SCRIPTS EXTERNOS ========== -->
-    <script src="../script/marcadagua.js"></script>
-    <script src="../script/livros_capitulos.js"></script>
-    <script src="../script/sobre.js"></script>
-    <script src="../script/dropdown.js"></script>
-    <script src="../script/biblia-navegacao.js"></script>
-    <script src="../script/versoes_realizabusca.js"></script>
-    <script src="../script/versoes.js"></script>
-</body>
-</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<!--------------------------------------------->
+<!--        CONFIGURAÇÃO DO DOCUMENTO        -->
+<!--------------------------------------------->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura o viewport para responsividade -->
+    <title>Bíblia Sagrada Online</title>
+    <!-- Carrega os estilos externos modulares -->
+    <link rel="stylesheet" href="../css/versoes.css">
+    <link rel="stylesheet" href="../css/capitulos.css">
+    <link rel="stylesheet" href="../css/modo_leitura.css">
+</head>
+
+<!--------------------------------------------->
+<!--           CONTEÚDO PRINCIPAL            -->
+<!--     ORGANIZADO EM SEÇÕES SEMÂNTICAS     -->
+<!--------------------------------------------->
+
+<body>
+    <!-- ========== CABEÇALHO DA PÁGINA ========== -->
+    <header>
+        <div class="cabecalho-superior">
+            <div class="titulo-conteiner">
+                <h1 id="titulo-principal-versao">Bíblia Sagrada</h1>
+                <p id="subtitulo-versao-extenso" class="nome-extenso-versao"></p>
+            </div>
+            <!-- Barra de pesquisa do seletor de versões -->
+            <div class="barra-pesquisa">
+                <select id="seletor-versao-principal" style="display: none;">
+                    <option value="acf">ACF</option>
+                    <option value="ara">ARA</option>
+                    <option value="arc">ARC</option>
+                    <option value="kjv">KJV</option>
+                    <option value="naa">NAA</option>
+                    <option value="ntlh">NTLH</option>
+                    <option value="nvi">NVI</option>
+                    <option value="nvt">NVT</option>
+                    <option value="original">ORIGINAL</option>
+                </select>
+                <input type="text" placeholder="Digite o termo de busca">
+                <button>Buscar</button>
+            </div>
+        </div>
+
+        <!-- Barra do menu superior com as opções -->
+        <div class="cabecalho-inferior">
+            <nav>
+                <span class="titulo-menu">LIVROS</span>
+                <ul class="menu-opcoes">
+                    <li><a href="../index.html">Menu Principal</a></li>
+                    <li><a href="#" id="modo-leitura" aria-pressed="false">Modo Leitura</a></li>
+                    <li><a href="#" id="link-slide">Slide</a></li>
+                    <li><a href="../html/menu_dicionarioconcordancia.html">Concordância e Dicionário</a></li>
+                    <li><a href="../html/harpa_cantor.html">Harpa e Cantor</a></li>
+                    <li class="meu-suspenso">
+                        <a href="#" id="baixar">Baixar</a>
+                        <ul class="conteudo-menu-suspenso" id="baixar-list"></ul>
+                    </li>
+                    <li class="meu-suspenso">
+                        <a href="#" id="utilidades">Utilidades</a>
+                        <ul class="conteudo-menu-suspenso" id="utilidades-list"></ul>
+                    </li>
+                    <li><a href="mailto:wagnerffreitas1973@gmail.com">Contato</a></li>
+                    <li><a href="#" id="sobre">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========== MENU LATERAL COM LIVROS ========== -->
+    <main>
+        <div class="conteiner">
+            <aside class="menu-livros">
+                <ul>
+                    <li><a href="#" data-livro="genesis">Gênesis</a></li>
+                    <li><a href="#" data-livro="exodo">Êxodo</a></li>
+                    <li><a href="#" data-livro="levitico">Levítico</a></li>
+                    <li><a href="#" data-livro="numeros">Números</a></li>
+                    <li><a href="#" data-livro="deuteronomio">Deuteronômio</a></li>
+                    <li><a href="#" data-livro="josue">Josué</a></li>
+                    <li><a href="#" data-livro="juizes">Juízes</a></li>
+                    <li><a href="#" data-livro="rute">Rute</a></li>
+                    <li><a href="#" data-livro="1samuel">1º Samuel</a></li>
+                    <li><a href="#" data-livro="2samuel">2º Samuel</a></li>
+                    <li><a href="#" data-livro="1reis">1º Reis</a></li>
+                    <li><a href="#" data-livro="2reis">2º Reis</a></li>
+                    <li><a href="#" data-livro="1cronicas">1º Crônicas</a></li>
+                    <li><a href="#" data-livro="2cronicas">2º Crônicas</a></li>
+                    <li><a href="#" data-livro="esdras">Esdras</a></li>
+                    <li><a href="#" data-livro="neemias">Neemias</a></li>
+                    <li><a href="#" data-livro="ester">Ester</a></li>
+                    <li><a href="#" data-livro="jo">Jó</a></li>
+                    <li><a href="#" data-livro="salmos">Salmos</a></li>
+                    <li><a href="#" data-livro="proverbios">Provérbios</a></li>
+                    <li><a href="#" data-livro="eclesiastes">Eclesiastes</a></li>
+                    <li><a href="#" data-livro="cantares">Cantares</a></li>
+                    <li><a href="#" data-livro="isaias">Isaías</a></li>
+                    <li><a href="#" data-livro="jeremias">Jeremias</a></li>
+                    <li><a href="#" data-livro="lamentacoes">Lamentações</a></li>
+                    <li><a href="#" data-livro="ezequiel">Ezequiel</a></li>
+                    <li><a href="#" data-livro="daniel">Daniel</a></li>
+                    <li><a href="#" data-livro="oseias">Oséias</a></li>
+                    <li><a href="#" data-livro="joel">Joel</a></li>
+                    <li><a href="#" data-livro="amos">Amós</a></li>
+                    <li><a href="#" data-livro="obadias">Obadias</a></li>
+                    <li><a href="#" data-livro="jonas">Jonas</a></li>
+                    <li><a href="#" data-livro="miqueias">Miquéias</a></li>
+                    <li><a href="#" data-livro="naum">Naum</a></li>
+                    <li><a href="#" data-livro="habacuque">Habacuque</a></li>
+                    <li><a href="#" data-livro="sofonias">Sofonias</a></li>
+                    <li><a href="#" data-livro="ageu">Ageu</a></li>
+                    <li><a href="#" data-livro="zacarias">Zacarias</a></li>
+                    <li><a href="#" data-livro="malaquias">Malaquias</a></li>
+                    <li><a href="#" data-livro="mateus">Mateus</a></li>
+                    <li><a href="#" data-livro="marcos">Marcos</a></li>
+                    <li><a href="#" data-livro="lucas">Lucas</a></li>
+                    <li><a href="#" data-livro="joao">João</a></li>
+                    <li><a href="#" data-livro="atos">Atos</a></li>
+                    <li><a href="#" data-livro="romanos">Romanos</a></li>
+                    <li><a href="#" data-livro="1corintios">1º Coríntios</a></li>
+                    <li><a href="#" data-livro="2corintios">2º Coríntios</a></li>
+                    <li><a href="#" data-livro="galatas">Gálatas</a></li>
+                    <li><a href="#" data-livro="efesios">Efésios</a></li>
+                    <li><a href="#" data-livro="filipenses">Filipenses</a></li>
+                    <li><a href="#" data-livro="colossenses">Colossenses</a></li>
+                    <li><a href="#" data-livro="1tessalonicenses">1º Tessalonicenses</a></li>
+                    <li><a href="#" data-livro="2tessalonicenses">2º Tessalonicenses</a></li>
+                    <li><a href="#" data-livro="1timoteo">1º Timóteo</a></li>
+                    <li><a href="#" data-livro="2timoteo">2º Timóteo</a></li>
+                    <li><a href="#" data-livro="tito">Tito</a></li>
+                    <li><a href="#" data-livro="filemom">Filemom</a></li>
+                    <li><a href="#" data-livro="hebreus">Hebreus</a></li>
+                    <li><a href="#" data-livro="tiago">Tiago</a></li>
+                    <li><a href="#" data-livro="1pedro">1º Pedro</a></li>
+                    <li><a href="#" data-livro="2pedro">2º Pedro</a></li>
+                    <li><a href="#" data-livro="1joao">1º João</a></li>
+                    <li><a href="#" data-livro="2joao">2º João</a></li>
+                    <li><a href="#" data-livro="3joao">3º João</a></li>
+                    <li><a href="#" data-livro="judas">Judas</a></li>
+                    <li><a href="#" data-livro="apocalipse">Apocalipse</a></li>
+                </ul>
+            </aside>
+            
+            <!-- Área de marca d'água e título do capítulo -->
+            <section class="conteudo">
+                <h2></h2>
+                <!-- <div class="marcadagua"></div> -->
+            </section>
+        </div>
+    </main>
+
+    <!-- ========== RODAPÉ ========== -->
+    <footer>
+        <p>© Bíblia Sagrada 2024</p>
+    </footer>
+
+    <!-- ========== SCRIPTS EXTERNOS ========== -->
+    <script src="../script/marcadagua.js"></script>
+    <script src="../script/livros_capitulos.js"></script>
+    <script src="../script/sobre.js"></script>
+    <script src="../script/dropdown.js"></script>
+    <script src="../script/biblia-navegacao.js"></script>
+    <script src="../script/versoes_realizabusca.js"></script>
+    <script src="../script/versoes.js"></script>
+</body>
+</html>

@@ -1,6 +1,66 @@
 {
-  "livro": "Salmos - תְּהִלִּים - Tehillim",
+  "livro": "Salmos - תְּהִלִּים - Tehillim",
   "capítulo": 123,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "A ti levanto os meus olhos, ó tu que habitas nos céus.",
+      "palavras": [
+        { "hebraico": "אֵ֭לֶיךָ", "transliteral": "ʾē-ley-ḵā", "traducao_palavra": "a ti" },
+        { "hebraico": "נָשָׂ֣אתִי", "transliteral": "nā-śā-ṯî", "traducao_palavra": "levantei" },
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "[objeto]" },
+        { "hebraico": "עֵינַ֑י", "transliteral": "ʿê-nay", "traducao_palavra": "meus olhos" },
+        { "hebraico": "הַ֝יֹּשְׁבִ֗י", "transliteral": "hay-yō-šə-ḇî", "traducao_palavra": "o que habita" },
+        { "hebraico": "בַּשָּׁמָֽיִם׃", "transliteral": "ba-ššā-ma-yim", "traducao_palavra": "nos céus" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Eis que, como os olhos dos servos atentam para a mão do seu senhor, e os olhos da serva para a mão da sua senhora, assim os nossos olhos atentam para YHWH nosso Deus, até que tenha piedade de nós.",
+      "palavras": [
+        { "hebraico": "הִנֵּ֨ה", "transliteral": "hin-nēh", "traducao_palavra": "eis que" },
+        { "hebraico": "כְעֵינֵ֪י", "transliteral": "ḵə-ʿê-nê", "traducao_palavra": "como os olhos de" },
+        { "hebraico": "עֲבָדִ֡ים", "transliteral": "ʿă-ḇā-ḏîm", "traducao_palavra": "servos" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "para/ao" },
+        { "hebraico": "יַ֤ד", "transliteral": "yaḏ", "traducao_palavra": "[a] mão de" },
+        { "hebraico": "אֲדֹֽונֵיהֶ֗ם", "transliteral": "ʾă-ḏô-nê-hem", "traducao_palavra": "senhores deles" },
+        { "hebraico": "כְּעֵינֵ֣י", "transliteral": "kə-ʿê-nê", "traducao_palavra": "como os olhos de" },
+        { "hebraico": "שִׁפְחָה֮", "transliteral": "šip̄-ḥā", "traducao_palavra": "[uma] serva" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "para/à" },
+        { "hebraico": "יַ֪ד", "transliteral": "yaḏ", "traducao_palavra": "[a] mão de" },
+        { "hebraico": "גְּבִ֫רְתָּ֥הּ", "transliteral": "gə-ḇir-tāh", "traducao_palavra": "senhora dela" },
+        { "hebraico": "כֵּ֣ן", "transliteral": "kên", "traducao_palavra": "assim" },
+        { "hebraico": "עֵ֭ינֵינוּ", "transliteral": "ʿê-nê-nû", "traducao_palavra": "nossos olhos" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "para/a" },
+        { "hebraico": "יְהוָ֣ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֱלֹהֵ֑ינוּ", "transliteral": "ʾĕ-lō-hê-nû", "traducao_palavra": "nosso Deus" },
+        { "hebraico": "עַ֝֗ד", "transliteral": "ʿaḏ", "traducao_palavra": "até" },
+        { "hebraico": "שֶׁיְּחָנֵּֽנוּ׃", "transliteral": "še-yə-ḥon-nē-nû", "traducao_palavra": "que ele tenha piedade de nós" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Tem piedade de nós, YHWH, tem piedade de nós, pois estamos mui fartos de desprezo.",
+      "palavras": [
+        { "hebraico": "חָנֵּ֤נוּ", "transliteral": "ḥon-nē-nû", "traducao_palavra": "tem piedade de nós" },
+        { "hebraico": "יְהוָ֨ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "חָנֵּ֑נוּ", "transliteral": "ḥon-nē-nû", "traducao_palavra": "tem piedade de nós" },
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "רַ֝֗ב", "transliteral": "raḇ", "traducao_palavra": "muito" },
+        { "hebraico": "שָׂבַ֥עְנוּ", "transliteral": "śā-ḇaʿ-nû", "traducao_palavra": "fartamo-nos" },
+        { "hebraico": "בֽוּז׃", "transliteral": "bûz", "traducao_palavra": "de desprezo" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "A nossa alma está sobremodo farta do escárnio dos que estão à sua vontade e do desprezo dos soberbos.",
+      "palavras": [
+        { "hebraico": "רַבַּת֮", "transliteral": "rab-baṯ", "traducao_palavra": "muito" },
+        { "hebraico": "שָֽׂבְעָה־", "transliteral": "śā-ḇə-ʿā-", "traducao_palavra": "fartou-se" },
+        { "hebraico": "לָּ֪הּ", "transliteral": "lāh", "traducao_palavra": "ela" },
+        { "hebraico": "נַפְשֵׁ֫נוּ", "transliteral": "nap̄-šē-nû", "traducao_palavra": "nossa alma" },
+        { "hebraico": "הַלַּ֥עַג", "transliteral": "hal-la-ʿaḡ", "traducao_palavra": "[com o] escárnio de" },
+        { "hebraico": "הַשַּׁאֲנַנִּ֑ים", "transliteral": "ha-šša-ʾă-nan-nîm", "traducao_palavra": "os arrogantes/tranquilos" },
+        { "hebraico": "הַ֝בּ֗וּז", "transliteral": "hab-bûz", "traducao_palavra": "[com o] desprezo de" },
+        { "hebraico": "לִגְאֵיֹונִֽים׃", "transliteral": "liḡ-ʾê-yô-nîm", "traducao_palavra": "os soberbos" }
+      ]
+    }
+  }
 }

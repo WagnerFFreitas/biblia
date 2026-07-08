@@ -1,82 +1,82 @@
-/*======================================================*/
-/*              ESTILOS PARA A HARPA CRISTÃ             */
-/*   Grid de hinos, botões e seus estados interativos   */
-/*======================================================*/
-
-/*======================================================*/
-/*               GRID DE BOTÕES DE HINOS                */
-/*   Layout organizado para exibição dos hinos          */
-/*======================================================*/
-#botoes-hinos {
-    display: grid;                                         /* Define a exibição como grade para organizar os BOTÕES DE HINOS em colunas e linhas estruturadas.  */
-    grid-template-columns: repeat(auto-fill, 200px);       /* Define a estrutura de colunas responsivas com largura fixa de 200px para os BOTÕES DE HINOS.      */
-    gap: 10px;                                             /* Define o espaçamento entre os BOTÕES DE HINOS na grade.                                           */
-    align-items: start;                                    /* Define o alinhamento vertical ao topo para os BOTÕES DE HINOS na grade.                           */
-    justify-content: center;                               /* Define o alinhamento horizontal centralizado para os BOTÕES DE HINOS na grade.                    */
-    width: 100%;                                           /* Define a largura total para garantir que o GRID DE BOTÕES DE HINOS ocupe toda a extensão.         */
-    max-width: 1200px;                                     /* Define o limite máximo de largura para evitar expansão excessiva do GRID DE BOTÕES DE HINOS.      */
-    margin: 20px auto;                                     /* Define margens verticais e centralização horizontal para o GRID DE BOTÕES DE HINOS.               */
-    padding: 15px;                                         /* Define o preenchimento interno para criar um respiro no GRID DE BOTÕES DE HINOS.                  */
-    background-color: rgba(0, 0, 0, 0.5);                /* Define a cor de fundo em preto translúcido para o GRID DE BOTÕES DE HINOS.                        */
-    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design do GRID DE BOTÕES DE HINOS.                  */
-}
-
-/*======================================================*/
-/*       GRID DE BOTÕES DE HINOS — ESTADO VAZIO         */
-/*   Remove estilos quando não há hinos para exibir     */
-/*======================================================*/
-#botoes-hinos:empty {
-    background: none;                                      /* Define a cor de fundo como transparente para o GRID DE BOTÕES DE HINOS quando vazio.                             */
-    padding: 0;                                            /* Define o preenchimento interno como nulo para remover os espaçamentos do GRID DE BOTÕES DE HINOS quando vazio.   */
-    min-height: 0;                                         /* Define a altura mínima como zero para o GRID DE BOTÕES DE HINOS quando vazio.                                    */
-}
-
-/*======================================================*/
-/*               BOTÃO DE CAPÍTULO (HINO)               */
-/*     Controle individual para selecionar hinos        */
-/*======================================================*/
-.botao-capitulo {
-    width: 200px;                                          /* Define a largura fixa para padronizar o tamanho do BOTÃO DE CAPÍTULO.                             */
-    min-height: 48px;                                      /* Define a altura mínima para garantir a usabilidade do BOTÃO DE CAPÍTULO.                          */
-    height: auto;                                          /* Define a altura automática para que o BOTÃO DE CAPÍTULO se ajuste ao seu conteúdo.                */
-    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do BOTÃO DE CAPÍTULO.   */
-    padding: 8px 12px;                                     /* Define o preenchimento interno para criar um respiro no BOTÃO DE CAPÍTULO.                        */
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do BOTÃO DE CAPÍTULO.                */
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no BOTÃO DE CAPÍTULO.                */
-    justify-content: flex-start;                           /* Define o alinhamento horizontal ao início para o conteúdo do BOTÃO DE CAPÍTULO.                   */
-    gap: 5px;                                              /* Define o espaçamento entre os elementos internos do BOTÃO DE CAPÍTULO.                            */
-    text-align: left;                                      /* Define o alinhamento de texto à esquerda para o BOTÃO DE CAPÍTULO.                                */
-    white-space: normal;                                   /* Permite a quebra automática de linha para manter a legibilidade do texto no BOTÃO DE CAPÍTULO.    */
-    line-height: 1.2;                                      /* Define a altura da linha para melhorar a legibilidade do texto no BOTÃO DE CAPÍTULO.              */
-    word-wrap: break-word;                                 /* Define a quebra automática de palavras longas para evitar transbordamento no BOTÃO DE CAPÍTULO.   */
-    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO DE CAPÍTULO.            */
-    background: rgba(59, 71, 161, 0.8);                  /* Define a cor de fundo em azul translúcido para o BOTÃO DE CAPÍTULO.                               */
-    border: 2px solid transparent;                         /* Define uma borda sólida transparente para delimitar o BOTÃO DE CAPÍTULO.                          */
-    border-radius: 8px;                                    /* Define os cantos arredondados para suavizar o design do BOTÃO DE CAPÍTULO.                        */
-    color: #fff;                                         /* Define a cor do texto em branco para garantir o contraste no BOTÃO DE CAPÍTULO.                   */
-    font-size: 0.9em;                                      /* Define o tamanho da fonte para assegurar a legibilidade no BOTÃO DE CAPÍTULO.                     */
-    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o BOTÃO DE CAPÍTULO.                                       */
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);              /* Define uma sombra suave para criar profundidade e destaque no BOTÃO DE CAPÍTULO.                  */
-    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total do BOTÃO DE CAPÍTULO.                                    */
-    transition: background 0.2s, transform 0.2s, border-color 0.2s; /* Define transições suaves para as propriedades do BOTÃO DE CAPÍTULO.                      */
-}
-
-/*======================================================*/
-/*           BOTÃO DE CAPÍTULO — EFEITO HOVER           */
-/*   Feedback visual ao passar o mouse sobre o botão    */
-/*======================================================*/
-.botao-capitulo:hover {
-    background: rgba(35, 43, 92, 0.9);                   /* Define a cor de fundo em azul escuro translúcido para o efeito visual de HOVER no BOTÃO DE CAPÍTULO.*/
-    transform: translateY(-1px);                           /* Define o deslocamento vertical para cima no efeito de HOVER do BOTÃO DE CAPÍTULO.                   */
-    border-color: #ffd700;                               /* Define a cor da borda como dourada para destacar o BOTÃO DE CAPÍTULO em HOVER.                      */
-}
-
-/*======================================================*/
-/*          BOTÃO DE CAPÍTULO — ESTADO ATIVO            */
-/*   Estilo visual quando o botão está selecionado      */
-/*======================================================*/
-.botao-capitulo.active {
-    background: #232b5c;                                 /* Define a cor de fundo em azul escuro sólido para o BOTÃO DE CAPÍTULO ativo.           */
-    border: 2px solid #ffd700;                           /* Define uma borda sólida dourada para delimitar o BOTÃO DE CAPÍTULO ativo.             */
-    color: #fff;                                         /* Define a cor do texto em branco para garantir o contraste no BOTÃO DE CAPÍTULO ativo. */
-}
+/*======================================================*/
+/*             ESTILOS PARA A HARPA CRISTÃ              */
+/*   Grid de hinos, botões e seus estados interativos   */
+/*======================================================*/
+
+/*======================================================*/
+/*               GRID DE BOTÕES DE HINOS                */
+/*      Layout organizado para exibição dos hinos       */
+/*======================================================*/
+#botoes-hinos {
+    display: grid;                                         /* Define a exibição como grade para organizar os BOTÕES DE HINOS em colunas e linhas estruturadas. */
+    grid-template-columns: repeat(auto-fill, 200px);       /* Define a estrutura de colunas responsivas com largura fixa de 200px para os BOTÕES DE HINOS.     */
+    gap: 10px;                                             /* Define o espaçamento entre os BOTÕES DE HINOS na grade.                                          */
+    align-items: start;                                    /* Define o alinhamento vertical ao topo para os BOTÕES DE HINOS na grade.                          */
+    justify-content: center;                               /* Define o alinhamento horizontal centralizado para os BOTÕES DE HINOS na grade.                   */
+    width: 100%;                                           /* Define a largura total para garantir que o GRID DE BOTÕES DE HINOS ocupe toda a extensão.        */
+    max-width: 1200px;                                     /* Define o limite máximo de largura para evitar expansão excessiva do GRID DE BOTÕES DE HINOS.     */
+    margin: 20px auto;                                     /* Define margens verticais e centralização horizontal para o GRID DE BOTÕES DE HINOS.              */
+    padding: 15px;                                         /* Define o preenchimento interno para criar um respiro no GRID DE BOTÕES DE HINOS.                 */
+    background-color: rgba(0, 0, 0, 0.5);                  /* Define a cor de fundo em preto translúcido para o GRID DE BOTÕES DE HINOS.                       */
+    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design do GRID DE BOTÕES DE HINOS.                 */
+}
+
+/*======================================================*/
+/*        GRID DE BOTÕES DE HINOS — ESTADO VAZIO        */
+/*    Remove estilos quando não há hinos para exibir    */
+/*======================================================*/
+#botoes-hinos:empty {
+    background: none;                                      /* Define a cor de fundo como transparente para o GRID DE BOTÕES DE HINOS quando vazio.                           */
+    padding: 0;                                            /* Define o preenchimento interno como nulo para remover os espaçamentos do GRID DE BOTÕES DE HINOS quando vazio. */
+    min-height: 0;                                         /* Define a altura mínima como zero para o GRID DE BOTÕES DE HINOS quando vazio.                                  */
+}
+
+/*======================================================*/
+/*               BOTÃO DE CAPÍTULO (HINO)               */
+/*      Controle individual para selecionar hinos       */
+/*======================================================*/
+.botao-capitulo {
+    width: 200px;                                          /* Define a largura fixa para padronizar o tamanho do BOTÃO DE CAPÍTULO.                           */
+    min-height: 48px;                                      /* Define a altura mínima para garantir a usabilidade do BOTÃO DE CAPÍTULO.                        */
+    height: auto;                                          /* Define a altura automática para que o BOTÃO DE CAPÍTULO se ajuste ao seu conteúdo.              */
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do BOTÃO DE CAPÍTULO. */
+    padding: 8px 12px;                                     /* Define o preenchimento interno para criar um respiro no BOTÃO DE CAPÍTULO.                      */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do BOTÃO DE CAPÍTULO.              */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no BOTÃO DE CAPÍTULO.              */
+    justify-content: flex-start;                           /* Define o alinhamento horizontal ao início para o conteúdo do BOTÃO DE CAPÍTULO.                 */
+    gap: 5px;                                              /* Define o espaçamento entre os elementos internos do BOTÃO DE CAPÍTULO.                          */
+    text-align: left;                                      /* Define o alinhamento de texto à esquerda para o BOTÃO DE CAPÍTULO.                              */
+    white-space: normal;                                   /* Permite a quebra automática de linha para manter a legibilidade do texto no BOTÃO DE CAPÍTULO.  */
+    line-height: 1.2;                                      /* Define a altura da linha para melhorar a legibilidade do texto no BOTÃO DE CAPÍTULO.            */
+    word-wrap: break-word;                                 /* Define a quebra automática de palavras longas para evitar transbordamento no BOTÃO DE CAPÍTULO. */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO DE CAPÍTULO.          */
+    background: rgba(59, 71, 161, 0.8);                    /* Define a cor de fundo em azul translúcido para o BOTÃO DE CAPÍTULO.                             */
+    border: 2px solid transparent;                         /* Define uma borda sólida transparente para delimitar o BOTÃO DE CAPÍTULO.                        */
+    border-radius: 8px;                                    /* Define os cantos arredondados para suavizar o design do BOTÃO DE CAPÍTULO.                      */
+    color: #fff;                                           /* Define a cor do texto em branco para garantir o contraste no BOTÃO DE CAPÍTULO.                 */
+    font-size: 0.9em;                                      /* Define o tamanho da fonte para assegurar a legibilidade no BOTÃO DE CAPÍTULO.                   */
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o BOTÃO DE CAPÍTULO.                                     */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);                /* Define uma sombra suave para criar profundidade e destaque no BOTÃO DE CAPÍTULO.                */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total do BOTÃO DE CAPÍTULO.                                  */
+    transition: background 0.2s, transform 0.2s, border-color 0.2s;  /* Define transições suaves para as propriedades do BOTÃO DE CAPÍTULO.                   */
+}
+
+/*======================================================*/
+/*           BOTÃO DE CAPÍTULO — EFEITO HOVER           */
+/*   Feedback visual ao passar o mouse sobre o botão    */
+/*======================================================*/
+.botao-capitulo:hover {
+    background: rgba(35, 43, 92, 0.9);                     /* Define a cor de fundo em azul escuro translúcido para o efeito visual de HOVER no BOTÃO DE CAPÍTULO. */
+    transform: translateY(-1px);                           /* Define o deslocamento vertical para cima no efeito de HOVER do BOTÃO DE CAPÍTULO.                    */
+    border-color: #ffd700;                                 /* Define a cor da borda como dourada para destacar o BOTÃO DE CAPÍTULO em HOVER.                       */
+}
+
+/*======================================================*/
+/*           BOTÃO DE CAPÍTULO — ESTADO ATIVO           */
+/*    Estilo visual quando o botão está selecionado     */
+/*======================================================*/
+.botao-capitulo.active {
+    background: #232b5c;                                   /* Define a cor de fundo em azul escuro sólido para o BOTÃO DE CAPÍTULO ativo.           */
+    border: 2px solid #ffd700;                             /* Define uma borda sólida dourada para delimitar o BOTÃO DE CAPÍTULO ativo.             */
+    color: #fff;                                           /* Define a cor do texto em branco para garantir o contraste no BOTÃO DE CAPÍTULO ativo. */
+}

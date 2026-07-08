@@ -1,325 +1,325 @@
-/*=====================================================*/
-/*     ESTILOS PARA SLIDE DE HINOS - HARPA E CANTOR    */
-/*   Layout, fundo, cabeçalho, conteúdo e controles    */
-/*=====================================================*/
-
-/*======================================================*/
-/*            CONFIGURAÇÃO INICIAL (RESET)              */
-/*    Remove margens e PADDING padrão para garantir     */
-/*           consistência entre navegadores.            */
-/*======================================================*/
-html, body {
-    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão.           */
-    padding: 0;                                            /* Define o preenchimento interno como nulo para remover os espaçamentos padrão.        */
-    width: 100%;                                           /* Define a largura total para garantir que o CONTÊINER PRINCIPAL ocupe toda a extensão.*/
-    height: 100%;                                          /* Define a altura total para garantir que o CONTÊINER PRINCIPAL ocupe toda a extensão. */
-    overflow: hidden;                                      /* Oculta o transbordamento e desativa a rolagem do CONTÊINER PRINCIPAL.                */
-    font-family: SANS-SERIF;                               /* Define o tipo de fonte como SANS-SERIF do CONTÊINER PRINCIPAL.                       */
-    background-color: #181818;                           /* Define a cor de fundo em cinza escuro do CONTÊINER PRINCIPAL.                        */
-    color: #fff;                                         /* Define a cor do texto em branco do CONTÊINER PRINCIPAL.                              */
-    position: relative;                                    /* Define o posicionamento relativo para o CONTÊINER PRINCIPAL.                         */
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do CONTÊINER PRINCIPAL. */
-    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os elementos.              */
-    min-height: 100vh;                                     /* Define a altura mínima para ocupar toda a visão vertical do CONTÊINER PRINCIPAL.     */
-    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).                     */
-}
-
-/*======================================================*/
-/*                OVERLAY ESCURO DO CORPO               */
-/*      Escurece o fundo quando o modal está ativo      */
-/*======================================================*/
-body::before {
-    content: '';                                           /* Define o pseudo-elemento com conteúdo vazio para criar a camada de OVERLAY ESCURO.                */
-    position: absolute;                                    /* Define o posicionamento absoluto para cobrir toda a tela quando o OVERLAY ESCURO estiver ativo.   */
-    top: 0;                                                /* Define a distância do topo como zero para iniciar o OVERLAY ESCURO no limite superior.            */
-    left: 0;                                               /* Define a distância da esquerda como zero para iniciar o OVERLAY ESCURO no limite lateral.         */
-    width: 100%;                                           /* Define a largura total para garantir que o OVERLAY ESCURO preencha toda a tela.                   */
-    height: 100%;                                          /* Define a altura total para garantir que o OVERLAY ESCURO preencha toda a tela.                    */
-    background-color: rgba(10, 10, 10, 0.85);            /* Define a cor de fundo escura e translúcida para escurecer o fundo sob a JANELA SLIDE.             */
-    z-index: 1;                                            /* Define a ordem de empilhamento em camada de fundo para o OVERLAY ESCURO.                          */
-}
-
-/*======================================================*/
-/*            CONTÊINER PRINCIPAL DO SLIDE              */
-/*   Estrutura flexível que organiza o cabeçalho,       */
-/*   conteúdo e controles do slide de hinos             */
-/*======================================================*/
-#slide-conteiner {
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do CONTÊINER PRINCIPAL DO SLIDE.        */
-    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os elementos.                              */
-    justify-content: space-between;                        /* Define a distribuição dos itens para criar espaçamento entre os blocos do SLIDE.                     */
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no SLIDE.                               */ 
-    height: 100vh;                                         /* Define a altura total para garantir que o CONTÊINER PRINCIPAL DO SLIDE ocupe toda a visão vertical.  */
-    width: 100%;                                           /* Define a largura total para garantir que o CONTÊINER PRINCIPAL DO SLIDE ocupe toda a extensão.       */
-    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).                                     */
-    position: relative;                                    /* Define o posicionamento relativo para o CONTÊINER PRINCIPAL DO SLIDE.                                */
-    z-index: 2;                                            /* Define a ordem de empilhamento para que o CONTÊINER PRINCIPAL DO SLIDE se sobreponha ao fundo.       */
-}
-
-/*======================================================*/
-/*                CABEÇALHO DO SLIDE                    */
-/*   Seção superior fixa com título e progresso         */
-/*   do hino atual                                      */
-/*======================================================*/
-#slide-header {
-    background-color: rgba(0, 0, 0, 0.6);                /* Define a cor de fundo preta translúcida para o CABEÇALHO DO SLIDE.                      */
-    width: 100%;                                           /* Define a largura total para garantir que o CABEÇALHO DO SLIDE ocupe toda a extensão.    */
-    padding: 0.3rem 0;                                     /* Define o preenchimento interno vertical para criar um respiro no CABEÇALHO DO SLIDE.    */
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para o CABEÇALHO DO SLIDE.                   */
-    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o CABEÇALHO DO SLIDE.                            */
-    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o CABEÇALHO DO SLIDE.                        */
-    text-transform: uppercase;                             /* Define a transformação do texto em maiúsculas para o CABEÇALHO DO SLIDE.                */
-    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do SLIDE.     */
-    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).                        */
-    flex-shrink: 0;                                        /* Impede que o CABEÇALHO DO SLIDE encolha dentro do layout flexível.                      */
-    z-index: 3;                                            /* Define a ordem de empilhamento para que o CABEÇALHO DO SLIDE se sobreponha ao conteúdo. */
-}
-
-/*======================================================*/
-/*                 TÍTULO DO SLIDE                      */
-/*       Exibe o nome do hino em cor dourada            */
-/*======================================================*/
-#slide-titulo {
-    color: #f1c40f;                                      /* Define a cor do texto em dourado para o TÍTULO DO SLIDE.                                          */
-    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do TÍTULO DO SLIDE.     */
-}
-
-/*======================================================*/
-/*                PROGRESSO DO SLIDE                    */
-/*   Exibe a estrofe atual e o total de estrofes        */
-/*   em cor cinza claro                                 */
-/*======================================================*/
-#slide-progresso {
-    color: #cccccc;                                      /* Define a cor do texto em cinza claro para o PROGRESSO DO SLIDE.               */
-    font-size: clamp(0.9rem, 1.5vw, 1.5rem);               /* Define o tamanho da fonte de forma responsiva para o PROGRESSO DO SLIDE.      */
-    margin-top: 0.2vh;                                     /* Define o espaçamento superior para separar o PROGRESSO DO SLIDE do título.    */
-}
-
-/*======================================================*/
-/*                CONTEÚDO DO SLIDE                     */
-/*   Área central que exibe o texto da estrofe          */
-/*   atual com animação de entrada                      */
-/*======================================================*/
-#slide-conteudo {
-    width: 100%;                                           /* Define a largura total para garantir que o CONTEÚDO DO SLIDE ocupe toda a extensão.  */
-    height: 100%;                                          /* Define a altura total para garantir que o CONTEÚDO DO SLIDE ocupe toda a extensão.   */
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do CONTEÚDO DO SLIDE.   */
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no CONTEÚDO DO SLIDE.   */
-    justify-content: center;                               /* Define o alinhamento horizontal centralizado para os elementos no CONTEÚDO DO SLIDE. */
-    padding: 1rem;                                         /* Define o preenchimento interno para criar um respiro no CONTEÚDO DO SLIDE.           */
-    overflow: auto;                                        /* Define o comportamento de rolagem automática para o CONTEÚDO DO SLIDE.               */
-}
-
-/*======================================================*/
-/*                 TEXTO DA ESTROFE                     */
-/*   Estilo do parágrafo principal com fundo            */
-/*   semi-transparente e animação de entrada            */
-/*======================================================*/
-.estrofe-texto {
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TEXTO DA ESTROFE.                        */
-    max-width: 100%;                                       /* Define o limite máximo de largura sem restrições para o TEXTO DA ESTROFE.                  */
-    overflow-wrap: break-word;                             /* Define a quebra de palavras longas para evitar transbordamento no TEXTO DA ESTROFE.        */
-    line-height: 1;                                        /* Define a altura da linha para manter o espaçamento vertical compacto no TEXTO DA ESTROFE.  */
-    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o TEXTO DA ESTROFE.                                 */
-    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o TEXTO DA ESTROFE.                             */
-    font-family: "Arial Black", Gadget, SANS-SERIF;        /* Define a família da fonte como ARIAL BLACK para o TEXTO DA ESTROFE.                        */
-    z-index: 3;                                            /* Define a ordem de empilhamento para que o TEXTO DA ESTROFE se sobreponha ao fundo.         */
-    padding: 1rem 2rem;                                    /* Define o preenchimento interno vertical e horizontal para criar um respiro na ESTROFE.     */
-    background-color: rgba(0, 0, 0, 0.4);                /* Define a cor de fundo preta translúcida para o TEXTO DA ESTROFE.                           */
-    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design do TEXTO DA ESTROFE.                  */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);             /* Define uma sombra suave para criar profundidade e destaque no TEXTO DA ESTROFE.            */
-    animation: fadeIn 0.5s ease-out;                       /* Define a animação de entrada para o TEXTO DA ESTROFE.                                      */
-    width: 90vw;                                           /* Define a largura relativa para garantir que o TEXTO DA ESTROFE seja responsivo.            */
-    min-height: 50vh;                                      /* Define a altura mínima para garantir a visibilidade do TEXTO DA ESTROFE.                   */
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do TEXTO DA ESTROFE.          */
-    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os elementos da ESTROFE.         */
-    justify-content: center;                               /* Define o alinhamento vertical centralizado para os elementos no TEXTO DA ESTROFE.          */
-    padding: 2rem;                                         /* Define o preenchimento interno para criar um respiro no TEXTO DA ESTROFE.                  */
-    font-size: clamp(2rem, 3.25vw, 4rem);                  /* Define o tamanho da fonte de forma responsiva para o TEXTO DA ESTROFE.                     */
-    line-height: 1.2;                                      /* Define a altura da linha para ajustar o espaçamento vertical entre os textos da ESTROFE.   */
-    white-space: pre-line;                                 /* Define a preservação de quebras de linha do caractere de nova linha na ESTROFE.            */
-    overflow-wrap: break-word;                             /* Define a quebra de palavras longas para evitar transbordamento no TEXTO DA ESTROFE.        */
-    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).                           */
-    margin: 0 auto;                                        /* Define as margens laterais automáticas para centralizar o TEXTO DA ESTROFE.                */
-    background-color: rgba(0, 0, 0, 0.6);                /* Define a cor de fundo preta translúcida mais escura para o TEXTO DA ESTROFE.               */
-}
-
-/*======================================================*/
-/*              TEXTO DA ESTROFE DO CORO                */
-/*   Destaque visual para estrofes identificadas        */
-/*   como coro (refrão) em cor verde claro              */
-/*======================================================*/
-.estrofe-texto.coro {
-    color: #5df565;                                      /* Define a cor do texto em verde claro para o TEXTO DA ESTROFE DO CORO.         */
-    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o TEXTO DA ESTROFE DO CORO.        */
-}
-
-/*======================================================*/
-/*                CONTROLES DO SLIDE                    */
-/*   Barra fixa inferior com botões de navegação        */
-/*   entre estrofes                                     */
-/*======================================================*/
-#controles {
-    width: 100%;                                           /* Define a largura total para garantir que os CONTROLES DO SLIDE ocupem toda a extensão.     */
-    background-color: rgba(0, 0, 0, 0.6);                /* Define a cor de fundo preta translúcida para os CONTROLES DO SLIDE.                        */
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout dos CONTROLES DO SLIDE.       */
-    justify-content: center;                               /* Define o alinhamento horizontal centralizado para os elementos nos CONTROLES DO SLIDE.     */
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos nos CONTROLES DO SLIDE.       */
-    gap: 1rem;                                             /* Define o espaçamento entre os elementos internos dos CONTROLES DO SLIDE.                   */
-    padding: 0.5rem 1.2rem;                                /* Define o preenchimento interno vertical e horizontal para criar um respiro nos CONTROLES.  */
-    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).                           */
-    flex-shrink: 0;                                        /* Impede que os CONTROLES DO SLIDE encolham dentro do layout flexível.                       */
-    z-index: 3;                                            /* Define a ordem de empilhamento para que os CONTROLES DO SLIDE se sobreponham ao conteúdo.  */
-}
-
-/*======================================================*/
-/*            BOTÕES DE ANTERIOR E PRÓXIMO              */
-/*   Estilo comum para botões de navegação              */
-/*   entre estrofes do hino                             */
-/*======================================================*/
-#btn-anterior, #btn-proximo {
-    border: none;                                          /* Define a borda como nula para remover o contorno padrão dos BOTÕES DE NAVEGAÇÃO.           */
-    padding: 0.6rem 1.5rem;                                /* Define o preenchimento interno vertical e horizontal para dimensionar os BOTÕES.           */
-    font-size: clamp(0.9rem, 1.2vw, 1.2rem);               /* Define o tamanho da fonte de forma responsiva para os BOTÕES DE NAVEGAÇÃO.                 */
-    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para os BOTÕES DE NAVEGAÇÃO.                             */
-    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design dos BOTÕES DE NAVEGAÇÃO.              */
-    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação nos BOTÕES DE NAVEGAÇÃO.  */
-    transition: all 0.2s ease;                             /* Define uma transição suave para todas as propriedades dos BOTÕES DE NAVEGAÇÃO.             */
-    min-width: 120px;                                      /* Define a largura mínima para garantir a visibilidade dos BOTÕES DE NAVEGAÇÃO.              */
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para os BOTÕES DE NAVEGAÇÃO.                    */
-}
-
-/*======================================================*/
-/*            BOTÃO DE ESTROFE ANTERIOR                 */
-/*   Aciona a navegação para a estrofe anterior         */
-/*   do hino atual                                      */
-/*======================================================*/
-#btn-anterior {
-    background-color: #f1c40f;                           /* Define a cor de fundo em dourado para destacar a ação do BOTÃO DE ESTROFE ANTERIOR.    */
-    color: black;                                        /* Define a cor do texto em preto para garantir a leitura no BOTÃO DE ESTROFE ANTERIOR.   */
-}
-
-/*======================================================*/
-/*            BOTÃO DE PRÓXIMA ESTROFE                  */
-/*   Aciona a navegação para a próxima estrofe          */
-/*   do hino atual                                      */
-/*======================================================*/
-#btn-proximo {
-    background-color: #f1c40f;                           /* Define a cor de fundo em dourado para destacar a ação do BOTÃO DE PRÓXIMA ESTROFE.     */
-    color: black;                                        /* Define a cor do texto em preto para garantir a leitura no BOTÃO DE PRÓXIMA ESTROFE.    */
-}
-
-/*======================================================*/
-/*         BOTÃO DE ESTROFE ANTERIOR - HOVER            */
-/*           Efeito visual ao passar o mouse            */
-/*======================================================*/
-#btn-anterior:not(:disabled):hover {
-    background-color: #d4ac0d;                           /* Define a cor de fundo em dourado mais escuro para o efeito de HOVER no BOTÃO ANTERIOR. */
-    color: white;                                        /* Define a cor do texto em branco para o efeito de HOVER no BOTÃO ANterior.              */
-}
-
-/*======================================================*/
-/*         BOTÃO DE PRÓXIMA ESTROFE - HOVER             */
-/*           Efeito visual ao passar o mouse            */
-/*======================================================*/
-#btn-proximo:not(:disabled):hover {
-    background-color: #d4ac0d;                           /* Define a cor de fundo em dourado mais escuro para o efeito de HOVER no BOTÃO PRÓXIMO.  */
-    color: white;                                        /* Define a cor do texto em branco para o efeito de HOVER no BOTÃO PRÓXIMO.               */
-}
-
-/*======================================================*/
-/*            BOTÕES DE NAVEGAÇÃO DESATIVADOS           */
-/*   Estilo visual para botões inativos quando          */
-/*   não há estrofe anterior/próxima disponível         */
-/*======================================================*/
-#btn-anterior:disabled, #btn-proximo:disabled {
-    background-color: #333333;                           /* Define a cor de fundo em cinza escuro para os BOTÕES DE NAVEGAÇÃO quando desativados.  */
-    color: #888888;                                      /* Define a cor do texto em cinza claro para os BOTÕES DE NAVEGAÇÃO quando desativados.   */
-    cursor: not-allowed;                                   /* Define o cursor como "não permitido" para os BOTÕES DE NAVEGAÇÃO quando desativados.   */
-    opacity: 0.6;                                          /* Define a opacidade reduzida para os BOTÕES DE NAVEGAÇÃO quando desativados.            */
-}
-
-/*======================================================*/
-/*                  MARCA D'ÁGUA                        */
-/*       Imagem de fundo semi-transparente              */
-/*======================================================*/
-#marcadagua {
-    position: fixed;                                       /* Define o posicionamento fixo para manter a MARCA D'ÁGUA estática durante a rolagem da página.     */
-    top: 0;                                                /* Define a distância do topo como zero para que a MARCA D'ÁGUA comece no limite superior.           */
-    left: 0;                                               /* Define a distância da esquerda como zero para alinhar a MARCA D'ÁGUA ao limite lateral.           */
-    z-index: 1;                                            /* Define a ordem de empilhamento em camada de fundo para a MARCA D'ÁGUA.                            */
-    width: 100%;                                           /* Define a largura total para garantir que a MARCA D'ÁGUA preencha a tela horizontalmente.          */
-    height: 100%;                                          /* Define a altura total para garantir que a MARCA D'ÁGUA preencha a tela verticalmente.             */
-    background-image: url('../img/biblia.png');            /* Define a imagem de fundo da MARCA D'ÁGUA.                                                         */
-    opacity: 0.15;                                         /* Define a opacidade para tornar a MARCA D'ÁGUA semi-transparente e sutil.                          */
-    background-size: cover;                                /* Define o tamanho do fundo para cobrir toda a área sem distorcer a MARCA D'ÁGUA.                   */
-    background-repeat: no-repeat;                          /* Impede que a imagem de fundo da MARCA D'ÁGUA se repita na tela.                                   */
-    background-position: center;                           /* Centraliza a imagem de fundo da MARCA D'ÁGUA na área de visualização.                             */
-}
-
-/*======================================================*/
-/*          ANIMAÇÃO DE ENTRADA DOS ITENS               */
-/*   Efeito visual suave ao exibir as definições        */
-/*   (fade in com movimento para cima)                  */
-/*======================================================*/
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }      /* Define a opacidade inicial como zero para a ANIMAÇÃO DE ENTRADA.   */
-    to { opacity: 1; transform: translateY(0); }           /* Define a opacidade final como total para a ANIMAÇÃO DE ENTRADA.    */
-}
-
-/*======================================================*/
-/*              CONTEÚDO DA OPÇÃO “SOBRE”               */
-/*     Janela central com informações da aplicação      */
-/*======================================================*/
-.popup-overlay {
-    position: fixed;                                       /* Define o posicionamento fixo para manter a janela do POPUP sempre visível durante a interação.    */
-    top: 0;                                                /* Define a distância do topo como zero para que o POPUP comece no limite superior.                  */
-    left: 0;                                               /* Define a distância da esquerda como zero para alinhar o POPUP ao limite lateral.                  */
-    width: 100%;                                           /* Define a largura total para garantir que o POPUP preencha a tela horizontalmente.                 */
-    height: 100%;                                          /* Define a altura total para garantir que o POPUP preencha a tela verticalmente.                    */
-    background-color: rgba(0, 0, 0, 0.7);                /* Define a cor de fundo em preto translúcido para destacar e isolar o conteúdo do POPUP.            */
-    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do POPUP.                            */
-    justify-content: center;                               /* Define o alinhamento horizontal centralizado para o conteúdo do POPUP.                            */
-    align-items: center;                                   /* Define o alinhamento vertical centralizado para o conteúdo do POPUP.                              */
-    z-index: 1000;                                         /* Define a ordem de empilhamento em nível máximo para garantir que o POPUP fique acima de todos.    */
-}
-
-/*======================================================*/
-/*                POPUP — CONTEÚDO                      */
-/*     Janela central com informações da aplicação      */
-/*======================================================*/
-.popup-conteudo {
-    background-color: white;                             /* Define a cor de fundo em branco para o CONTEÚDO DO POPUP.                                  */
-    padding: 2rem;                                         /* Define o preenchimento interno para criar um respiro entre o conteúdo e as bordas do POPUP.*/
-    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design da janela flutuante do POPUP.         */
-    text-align: center;                                    /* Define o alinhamento de texto centralizado para o CONTEÚDO DO POPUP.                       */
-    color: black;                                        /* Define a cor do texto em preto para o CONTEÚDO DO POPUP.                                   */
-}
-
-/*======================================================*/
-/*                POPUP — TÍTULO (H2)                   */
-/*======================================================*/
-.popup-conteudo h2 {
-    margin-top: 0;                                         /* Define a margem superior como nula para remover o espaçamento padrão do TÍTULO DO POPUP.*/
-}
-
-/*======================================================*/
-/*             POPUP — BOTÃO FECHAR                     */
-/*======================================================*/
-#fechar-popup {
-    background-color: #f1c40f;                           /* Define a cor de fundo em dourado para destacar a ação do BOTÃO FECHAR DO POPUP.                   */
-    color: black;                                        /* Define a cor do texto em preto para garantir a leitura no BOTÃO FECHAR DO POPUP.                  */
-    border: none;                                          /* Define a borda como nula para remover o contorno padrão do BOTÃO FECHAR DO POPUP.                 */
-    padding: 0.5rem 1rem;                                  /* Define o preenchimento interno vertical e horizontal para dimensionar o BOTÃO FECHAR DO POPUP.    */
-    border-radius: 5px;                                    /* Define os cantos arredondados para suavizar o design do BOTÃO FECHAR DO POPUP.                    */
-    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO FECHAR DO POPUP.        */
-    font-size: 1rem;                                       /* Define o tamanho da fonte para dar destaque ao texto do BOTÃO FECHAR DO POPUP.                    */
-}
-
-/*======================================================*/
-/*             POPUP — BOTÃO FECHAR — HOVER             */
-/*           Efeito visual ao passar o mouse            */
-/*======================================================*/
-#fechar-popup:hover {
-    background-color: #d4ac0d;                           /* Define a cor de fundo em dourado mais escuro para o efeito de HOVER no BOTÃO FECHAR DO POPUP.*/
-}
+/*======================================================*/
+/*     ESTILOS PARA SLIDE DE HINOS - HARPA E CANTOR     */
+/*    Layout, fundo, cabeçalho, conteúdo e controles    */
+/*======================================================*/
+
+/*======================================================*/
+/*             CONFIGURAÇÃO INICIAL (RESET)             */
+/*    Remove margens e PADDING padrão para garantir     */
+/*           consistência entre navegadores.            */
+/*======================================================*/
+html, body {
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão.            */
+    padding: 0;                                            /* Define o preenchimento interno como nulo para remover os espaçamentos padrão.         */
+    width: 100%;                                           /* Define a largura total para garantir que o CONTÊINER PRINCIPAL ocupe toda a extensão. */
+    height: 100%;                                          /* Define a altura total para garantir que o CONTÊINER PRINCIPAL ocupe toda a extensão.  */
+    overflow: hidden;                                      /* Oculta o transbordamento e desativa a rolagem do CONTÊINER PRINCIPAL.                 */
+    font-family: SANS-SERIF;                               /* Define o tipo de fonte como SANS-SERIF do CONTÊINER PRINCIPAL.                        */
+    background-color: #181818;                             /* Define a cor de fundo em cinza escuro do CONTÊINER PRINCIPAL.                         */
+    color: #fff;                                           /* Define a cor do texto em branco do CONTÊINER PRINCIPAL.                               */
+    position: relative;                                    /* Define o posicionamento relativo para o CONTÊINER PRINCIPAL.                          */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do CONTÊINER PRINCIPAL.  */
+    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os elementos.               */
+    min-height: 100vh;                                     /* Define a altura mínima para ocupar toda a visão vertical do CONTÊINER PRINCIPAL.      */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).                      */
+}
+
+/*======================================================*/
+/*               OVERLAY ESCURO DO CORPO                */
+/*      Escurece o fundo quando o modal está ativo      */
+/*======================================================*/
+body::before {
+    content: '';                                           /* Define o pseudo-elemento com conteúdo vazio para criar a camada de OVERLAY ESCURO.              */
+    position: absolute;                                    /* Define o posicionamento absoluto para cobrir toda a tela quando o OVERLAY ESCURO estiver ativo. */
+    top: 0;                                                /* Define a distância do topo como zero para iniciar o OVERLAY ESCURO no limite superior.          */
+    left: 0;                                               /* Define a distância da esquerda como zero para iniciar o OVERLAY ESCURO no limite lateral.       */
+    width: 100%;                                           /* Define a largura total para garantir que o OVERLAY ESCURO preencha toda a tela.                 */
+    height: 100%;                                          /* Define a altura total para garantir que o OVERLAY ESCURO preencha toda a tela.                  */
+    background-color: rgba(10, 10, 10, 0.85);              /* Define a cor de fundo escura e translúcida para escurecer o fundo sob a JANELA SLIDE.           */
+    z-index: 1;                                            /* Define a ordem de empilhamento em camada de fundo para o OVERLAY ESCURO.                        */
+}
+
+/*======================================================*/
+/*             CONTÊINER PRINCIPAL DO SLIDE             */
+/*     Estrutura flexível que organiza o cabeçalho,     */
+/*        conteúdo e controles do slide de hinos        */
+/*======================================================*/
+#slide-conteiner {
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do CONTÊINER PRINCIPAL DO SLIDE.       */
+    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os elementos.                             */
+    justify-content: space-between;                        /* Define a distribuição dos itens para criar espaçamento entre os blocos do SLIDE.                    */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no SLIDE.                              */
+    height: 100vh;                                         /* Define a altura total para garantir que o CONTÊINER PRINCIPAL DO SLIDE ocupe toda a visão vertical. */
+    width: 100%;                                           /* Define a largura total para garantir que o CONTÊINER PRINCIPAL DO SLIDE ocupe toda a extensão.      */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).                                    */
+    position: relative;                                    /* Define o posicionamento relativo para o CONTÊINER PRINCIPAL DO SLIDE.                               */
+    z-index: 2;                                            /* Define a ordem de empilhamento para que o CONTÊINER PRINCIPAL DO SLIDE se sobreponha ao fundo.      */
+}
+
+/*======================================================*/
+/*                  CABEÇALHO DO SLIDE                  */
+/*      Seção superior fixa com título e progresso      */
+/*                    do hino atual                     */
+/*======================================================*/
+#slide-header {
+    background-color: rgba(0, 0, 0, 0.6);                  /* Define a cor de fundo preta translúcida para o CABEÇALHO DO SLIDE.                      */
+    width: 100%;                                           /* Define a largura total para garantir que o CABEÇALHO DO SLIDE ocupe toda a extensão.    */
+    padding: 0.3rem 0;                                     /* Define o preenchimento interno vertical para criar um respiro no CABEÇALHO DO SLIDE.    */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o CABEÇALHO DO SLIDE.                   */
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o CABEÇALHO DO SLIDE.                            */
+    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o CABEÇALHO DO SLIDE.                        */
+    text-transform: uppercase;                             /* Define a transformação do texto em maiúsculas para o CABEÇALHO DO SLIDE.                */
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do SLIDE.     */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).                        */
+    flex-shrink: 0;                                        /* Impede que o CABEÇALHO DO SLIDE encolha dentro do layout flexível.                      */
+    z-index: 3;                                            /* Define a ordem de empilhamento para que o CABEÇALHO DO SLIDE se sobreponha ao conteúdo. */
+}
+
+/*======================================================*/
+/*                   TÍTULO DO SLIDE                    */
+/*         Exibe o nome do hino em cor dourada          */
+/*======================================================*/
+#slide-titulo {
+    color: #f1c40f;                                        /* Define a cor do texto em dourado para o TÍTULO DO SLIDE.                                      */
+    margin: 0;                                             /* Define as margens externas como nulas para remover os espaçamentos padrão do TÍTULO DO SLIDE. */
+}
+
+/*======================================================*/
+/*                  PROGRESSO DO SLIDE                  */
+/*     Exibe a estrofe atual e o total de estrofes      */
+/*                  em cor cinza claro                  */
+/*======================================================*/
+#slide-progresso {
+    color: #cccccc;                                        /* Define a cor do texto em cinza claro para o PROGRESSO DO SLIDE.            */
+    font-size: clamp(0.9rem, 1.5vw, 1.5rem);               /* Define o tamanho da fonte de forma responsiva para o PROGRESSO DO SLIDE.   */
+    margin-top: 0.2vh;                                     /* Define o espaçamento superior para separar o PROGRESSO DO SLIDE do título. */
+}
+
+/*======================================================*/
+/*                  CONTEÚDO DO SLIDE                   */
+/*      Área central que exibe o texto da estrofe       */
+/*            atual com animação de entrada             */
+/*======================================================*/
+#slide-conteudo {
+    width: 100%;                                           /* Define a largura total para garantir que o CONTEÚDO DO SLIDE ocupe toda a extensão.  */
+    height: 100%;                                          /* Define a altura total para garantir que o CONTEÚDO DO SLIDE ocupe toda a extensão.   */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do CONTEÚDO DO SLIDE.   */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos no CONTEÚDO DO SLIDE.   */
+    justify-content: center;                               /* Define o alinhamento horizontal centralizado para os elementos no CONTEÚDO DO SLIDE. */
+    padding: 1rem;                                         /* Define o preenchimento interno para criar um respiro no CONTEÚDO DO SLIDE.           */
+    overflow: auto;                                        /* Define o comportamento de rolagem automática para o CONTEÚDO DO SLIDE.               */
+}
+
+/*======================================================*/
+/*                   TEXTO DA ESTROFE                   */
+/*       Estilo do parágrafo principal com fundo        */
+/*       semi-transparente e animação de entrada        */
+/*======================================================*/
+.estrofe-texto {
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o TEXTO DA ESTROFE.                       */
+    max-width: 100%;                                       /* Define o limite máximo de largura sem restrições para o TEXTO DA ESTROFE.                 */
+    overflow-wrap: break-word;                             /* Define a quebra de palavras longas para evitar transbordamento no TEXTO DA ESTROFE.       */
+    line-height: 1;                                        /* Define a altura da linha para manter o espaçamento vertical compacto no TEXTO DA ESTROFE. */
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para o TEXTO DA ESTROFE.                                */
+    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o TEXTO DA ESTROFE.                            */
+    font-family: "Arial Black", Gadget, SANS-SERIF;        /* Define a família da fonte como ARIAL BLACK para o TEXTO DA ESTROFE.                       */
+    z-index: 3;                                            /* Define a ordem de empilhamento para que o TEXTO DA ESTROFE se sobreponha ao fundo.        */
+    padding: 1rem 2rem;                                    /* Define o preenchimento interno vertical e horizontal para criar um respiro na ESTROFE.    */
+    background-color: rgba(0, 0, 0, 0.4);                  /* Define a cor de fundo preta translúcida para o TEXTO DA ESTROFE.                          */
+    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design do TEXTO DA ESTROFE.                 */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);               /* Define uma sombra suave para criar profundidade e destaque no TEXTO DA ESTROFE.           */
+    animation: fadeIn 0.5s ease-out;                       /* Define a animação de entrada para o TEXTO DA ESTROFE.                                     */
+    width: 90vw;                                           /* Define a largura relativa para garantir que o TEXTO DA ESTROFE seja responsivo.           */
+    min-height: 50vh;                                      /* Define a altura mínima para garantir a visibilidade do TEXTO DA ESTROFE.                  */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do TEXTO DA ESTROFE.         */
+    flex-direction: column;                                /* Define a orientação em coluna para empilhar verticalmente os elementos da ESTROFE.        */
+    justify-content: center;                               /* Define o alinhamento vertical centralizado para os elementos no TEXTO DA ESTROFE.         */
+    padding: 2rem;                                         /* Define o preenchimento interno para criar um respiro no TEXTO DA ESTROFE.                 */
+    font-size: clamp(2rem, 3.25vw, 4rem);                  /* Define o tamanho da fonte de forma responsiva para o TEXTO DA ESTROFE.                    */
+    line-height: 1.2;                                      /* Define a altura da linha para ajustar o espaçamento vertical entre os textos da ESTROFE.  */
+    white-space: pre-line;                                 /* Define a preservação de quebras de linha do caractere de nova linha na ESTROFE.           */
+    overflow-wrap: break-word;                             /* Define a quebra de palavras longas para evitar transbordamento no TEXTO DA ESTROFE.       */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).                          */
+    margin: 0 auto;                                        /* Define as margens laterais automáticas para centralizar o TEXTO DA ESTROFE.               */
+    background-color: rgba(0, 0, 0, 0.6);                  /* Define a cor de fundo preta translúcida mais escura para o TEXTO DA ESTROFE.              */
+}
+
+/*======================================================*/
+/*               TEXTO DA ESTROFE DO CORO               */
+/*     Destaque visual para estrofes identificadas      */
+/*        como coro (refrão) em cor verde claro         */
+/*======================================================*/
+.estrofe-texto.coro {
+    color: #5df565;                                        /* Define a cor do texto em verde claro para o TEXTO DA ESTROFE DO CORO.  */
+    font-style: italic;                                    /* Define o estilo da fonte como ITÁLICO para o TEXTO DA ESTROFE DO CORO. */
+}
+
+/*======================================================*/
+/*                  CONTROLES DO SLIDE                  */
+/*     Barra fixa inferior com botões de navegação      */
+/*                    entre estrofes                    */
+/*======================================================*/
+#controles {
+    width: 100%;                                           /* Define a largura total para garantir que os CONTROLES DO SLIDE ocupem toda a extensão.    */
+    background-color: rgba(0, 0, 0, 0.6);                  /* Define a cor de fundo preta translúcida para os CONTROLES DO SLIDE.                       */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout dos CONTROLES DO SLIDE.      */
+    justify-content: center;                               /* Define o alinhamento horizontal centralizado para os elementos nos CONTROLES DO SLIDE.    */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para os elementos nos CONTROLES DO SLIDE.      */
+    gap: 1rem;                                             /* Define o espaçamento entre os elementos internos dos CONTROLES DO SLIDE.                  */
+    padding: 0.5rem 1.2rem;                                /* Define o preenchimento interno vertical e horizontal para criar um respiro nos CONTROLES. */
+    box-sizing: border-box;                                /* Inclui bordas e padding no tamanho total (Evita quebrar layout).                          */
+    flex-shrink: 0;                                        /* Impede que os CONTROLES DO SLIDE encolham dentro do layout flexível.                      */
+    z-index: 3;                                            /* Define a ordem de empilhamento para que os CONTROLES DO SLIDE se sobreponham ao conteúdo. */
+}
+
+/*======================================================*/
+/*             BOTÕES DE ANTERIOR E PRÓXIMO             */
+/*        Estilo comum para botões de navegação         */
+/*                entre estrofes do hino                */
+/*======================================================*/
+#btn-anterior, #btn-proximo {
+    border: none;                                          /* Define a borda como nula para remover o contorno padrão dos BOTÕES DE NAVEGAÇÃO.          */
+    padding: 0.6rem 1.5rem;                                /* Define o preenchimento interno vertical e horizontal para dimensionar os BOTÕES.          */
+    font-size: clamp(0.9rem, 1.2vw, 1.2rem);               /* Define o tamanho da fonte de forma responsiva para os BOTÕES DE NAVEGAÇÃO.                */
+    font-weight: bold;                                     /* Define o peso da fonte em NEGRITO para os BOTÕES DE NAVEGAÇÃO.                            */
+    border-radius: 6px;                                    /* Define os cantos arredondados para suavizar o design dos BOTÕES DE NAVEGAÇÃO.             */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação nos BOTÕES DE NAVEGAÇÃO. */
+    transition: all 0.2s ease;                             /* Define uma transição suave para todas as propriedades dos BOTÕES DE NAVEGAÇÃO.            */
+    min-width: 120px;                                      /* Define a largura mínima para garantir a visibilidade dos BOTÕES DE NAVEGAÇÃO.             */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para os BOTÕES DE NAVEGAÇÃO.                   */
+}
+
+/*======================================================*/
+/*              BOTÃO DE ESTROFE ANTERIOR               */
+/*      Aciona a navegação para a estrofe anterior      */
+/*                    do hino atual                     */
+/*======================================================*/
+#btn-anterior {
+    background-color: #f1c40f;                             /* Define a cor de fundo em dourado para destacar a ação do BOTÃO DE ESTROFE ANTERIOR.  */
+    color: black;                                          /* Define a cor do texto em preto para garantir a leitura no BOTÃO DE ESTROFE ANTERIOR. */
+}
+
+/*======================================================*/
+/*               BOTÃO DE PRÓXIMA ESTROFE               */
+/*      Aciona a navegação para a próxima estrofe       */
+/*                    do hino atual                     */
+/*======================================================*/
+#btn-proximo {
+    background-color: #f1c40f;                             /* Define a cor de fundo em dourado para destacar a ação do BOTÃO DE PRÓXIMA ESTROFE.  */
+    color: black;                                          /* Define a cor do texto em preto para garantir a leitura no BOTÃO DE PRÓXIMA ESTROFE. */
+}
+
+/*======================================================*/
+/*          BOTÃO DE ESTROFE ANTERIOR - HOVER           */
+/*           Efeito visual ao passar o mouse            */
+/*======================================================*/
+#btn-anterior:not(:disabled):hover {
+    background-color: #d4ac0d;                             /* Define a cor de fundo em dourado mais escuro para o efeito de HOVER no BOTÃO ANTERIOR. */
+    color: white;                                          /* Define a cor do texto em branco para o efeito de HOVER no BOTÃO ANterior.              */
+}
+
+/*======================================================*/
+/*           BOTÃO DE PRÓXIMA ESTROFE - HOVER           */
+/*           Efeito visual ao passar o mouse            */
+/*======================================================*/
+#btn-proximo:not(:disabled):hover {
+    background-color: #d4ac0d;                             /* Define a cor de fundo em dourado mais escuro para o efeito de HOVER no BOTÃO PRÓXIMO. */
+    color: white;                                          /* Define a cor do texto em branco para o efeito de HOVER no BOTÃO PRÓXIMO.              */
+}
+
+/*======================================================*/
+/*           BOTÕES DE NAVEGAÇÃO DESATIVADOS            */
+/*      Estilo visual para botões inativos quando       */
+/*      não há estrofe anterior/próxima disponível      */
+/*======================================================*/
+#btn-anterior:disabled, #btn-proximo:disabled {
+    background-color: #333333;                             /* Define a cor de fundo em cinza escuro para os BOTÕES DE NAVEGAÇÃO quando desativados. */
+    color: #888888;                                        /* Define a cor do texto em cinza claro para os BOTÕES DE NAVEGAÇÃO quando desativados.  */
+    cursor: not-allowed;                                   /* Define o cursor como "não permitido" para os BOTÕES DE NAVEGAÇÃO quando desativados.  */
+    opacity: 0.6;                                          /* Define a opacidade reduzida para os BOTÕES DE NAVEGAÇÃO quando desativados.           */
+}
+
+/*======================================================*/
+/*                     MARCA D'ÁGUA                     */
+/*          Imagem de fundo semi-transparente           */
+/*======================================================*/
+#marcadagua {
+    position: fixed;                                       /* Define o posicionamento fixo para manter a MARCA D'ÁGUA estática durante a rolagem da página. */
+    top: 0;                                                /* Define a distância do topo como zero para que a MARCA D'ÁGUA comece no limite superior.       */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar a MARCA D'ÁGUA ao limite lateral.       */
+    z-index: 1;                                            /* Define a ordem de empilhamento em camada de fundo para a MARCA D'ÁGUA.                        */
+    width: 100%;                                           /* Define a largura total para garantir que a MARCA D'ÁGUA preencha a tela horizontalmente.      */
+    height: 100%;                                          /* Define a altura total para garantir que a MARCA D'ÁGUA preencha a tela verticalmente.         */
+    background-image: url('../img/biblia.png');            /* Define a imagem de fundo da MARCA D'ÁGUA.                                                     */
+    opacity: 0.15;                                         /* Define a opacidade para tornar a MARCA D'ÁGUA semi-transparente e sutil.                      */
+    background-size: cover;                                /* Define o tamanho do fundo para cobrir toda a área sem distorcer a MARCA D'ÁGUA.               */
+    background-repeat: no-repeat;                          /* Impede que a imagem de fundo da MARCA D'ÁGUA se repita na tela.                               */
+    background-position: center;                           /* Centraliza a imagem de fundo da MARCA D'ÁGUA na área de visualização.                         */
+}
+
+/*======================================================*/
+/*            ANIMAÇÃO DE ENTRADA DOS ITENS             */
+/*     Efeito visual suave ao exibir as definições      */
+/*          (fade in com movimento para cima)           */
+/*======================================================*/
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }      /* Define a opacidade inicial como zero para a ANIMAÇÃO DE ENTRADA. */
+    to { opacity: 1; transform: translateY(0); }           /* Define a opacidade final como total para a ANIMAÇÃO DE ENTRADA. */
+}
+
+/*======================================================*/
+/*              CONTEÚDO DA OPÇÃO “SOBRE”               */
+/*     Janela central com informações da aplicação      */
+/*======================================================*/
+.popup-overlay {
+    position: fixed;                                       /* Define o posicionamento fixo para manter a janela do POPUP sempre visível durante a interação. */
+    top: 0;                                                /* Define a distância do topo como zero para que o POPUP comece no limite superior.               */
+    left: 0;                                               /* Define a distância da esquerda como zero para alinhar o POPUP ao limite lateral.               */
+    width: 100%;                                           /* Define a largura total para garantir que o POPUP preencha a tela horizontalmente.              */
+    height: 100%;                                          /* Define a altura total para garantir que o POPUP preencha a tela verticalmente.                 */
+    background-color: rgba(0, 0, 0, 0.7);                  /* Define a cor de fundo em preto translúcido para destacar e isolar o conteúdo do POPUP.         */
+    display: flex;                                         /* Ativa o FLEXBOX para alinhar os itens corretamente no layout do POPUP.                         */
+    justify-content: center;                               /* Define o alinhamento horizontal centralizado para o conteúdo do POPUP.                         */
+    align-items: center;                                   /* Define o alinhamento vertical centralizado para o conteúdo do POPUP.                           */
+    z-index: 1000;                                         /* Define a ordem de empilhamento em nível máximo para garantir que o POPUP fique acima de todos. */
+}
+
+/*======================================================*/
+/*                   POPUP — CONTEÚDO                   */
+/*     Janela central com informações da aplicação      */
+/*======================================================*/
+.popup-conteudo {
+    background-color: white;                               /* Define a cor de fundo em branco para o CONTEÚDO DO POPUP.                                   */
+    padding: 2rem;                                         /* Define o preenchimento interno para criar um respiro entre o conteúdo e as bordas do POPUP. */
+    border-radius: 10px;                                   /* Define os cantos arredondados para suavizar o design da janela flutuante do POPUP.          */
+    text-align: center;                                    /* Define o alinhamento de texto centralizado para o CONTEÚDO DO POPUP.                        */
+    color: black;                                          /* Define a cor do texto em preto para o CONTEÚDO DO POPUP.                                    */
+}
+
+/*======================================================*/
+/*                 POPUP — TÍTULO (H2)                  */
+/*======================================================*/
+.popup-conteudo h2 {
+    margin-top: 0;                                         /* Define a margem superior como nula para remover o espaçamento padrão do TÍTULO DO POPUP. */
+}
+
+/*======================================================*/
+/*                 POPUP — BOTÃO FECHAR                 */
+/*======================================================*/
+#fechar-popup {
+    background-color: #f1c40f;                             /* Define a cor de fundo em dourado para destacar a ação do BOTÃO FECHAR DO POPUP.                */
+    color: black;                                          /* Define a cor do texto em preto para garantir a leitura no BOTÃO FECHAR DO POPUP.               */
+    border: none;                                          /* Define a borda como nula para remover o contorno padrão do BOTÃO FECHAR DO POPUP.              */
+    padding: 0.5rem 1rem;                                  /* Define o preenchimento interno vertical e horizontal para dimensionar o BOTÃO FECHAR DO POPUP. */
+    border-radius: 5px;                                    /* Define os cantos arredondados para suavizar o design do BOTÃO FECHAR DO POPUP.                 */
+    cursor: pointer;                                       /* Define o cursor como ponteiro para indicar uma área de interação no BOTÃO FECHAR DO POPUP.     */
+    font-size: 1rem;                                       /* Define o tamanho da fonte para dar destaque ao texto do BOTÃO FECHAR DO POPUP.                 */
+}
+
+/*======================================================*/
+/*             POPUP — BOTÃO FECHAR — HOVER             */
+/*           Efeito visual ao passar o mouse            */
+/*======================================================*/
+#fechar-popup:hover {
+    background-color: #d4ac0d;                             /* Define a cor de fundo em dourado mais escuro para o efeito de HOVER no BOTÃO FECHAR DO POPUP. */
+}

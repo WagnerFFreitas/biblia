@@ -1,6 +1,352 @@
 {
-  "livro": "Provérbios - מִשְׁלֵי - Mishlei",
+  "livro": "Provérbios - מִשְׁלֵי - Mishlei",
   "capítulo": 27,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Não te glories do dia de amanhã, porque não sabes o que o dia gerará.",
+      "palavras": [
+        { "hebraico": "אַל־", "transliteral": "ʾal-", "traducao_palavra": "Não" },
+        { "hebraico": "תִּתְהַלֵּ֥ל", "transliteral": "tiṯ-hal-lêl", "traducao_palavra": "te glories" },
+        { "hebraico": "בְּיֹ֣ום", "transliteral": "bə-yôm", "traducao_palavra": "no dia de" },
+        { "hebraico": "מָחָ֑ר", "transliteral": "mā-ḥār", "traducao_palavra": "amanhã" },
+        { "hebraico": "כִּ֘י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "לֹא־", "transliteral": "lō-", "traducao_palavra": "não" },
+        { "hebraico": "תֵדַ֥ע", "transliteral": "ṯê-ḏaʿ", "traducao_palavra": "sabes" },
+        { "hebraico": "מַה־", "transliteral": "mah-", "traducao_palavra": "o que" },
+        { "hebraico": "יֵּ֥לֶד", "transliteral": "yê-leḏ", "traducao_palavra": "parirá/gerará" },
+        { "hebraico": "יֹֽום׃", "transliteral": "yôm", "traducao_palavra": "[o] dia" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Louve-te o estranho, e não a tua própria boca; o estrangeiro, e não os teus próprios lábios.",
+      "palavras": [
+        { "hebraico": "יְהַלֶּלְךָ֣", "transliteral": "yə-hal-lel-ḵā", "traducao_palavra": "Louve-te" },
+        { "hebraico": "זָ֭ר", "transliteral": "zār", "traducao_palavra": "um estranho" },
+        { "hebraico": "וְלֹא־", "transliteral": "wə-lō-", "traducao_palavra": "e não" },
+        { "hebraico": "פִ֑יךָ", "transliteral": "p̄î-ḵā", "traducao_palavra": "tua boca" },
+        { "hebraico": "נָ֝כְרִ֗י", "transliteral": "nā-ḵə-rî", "traducao_palavra": "um estrangeiro" },
+        { "hebraico": "וְאַל־", "transliteral": "wə-ʾal-", "traducao_palavra": "e não" },
+        { "hebraico": "שְׂפָתֶֽיךָ׃", "transliteral": "śə-p̄ā-ṯe-ḵā", "traducao_palavra": "teus lábios" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Pesada é a pedra, e a areia também; mas a ira do insensato é mais pesada do que ambas.",
+      "palavras": [
+        { "hebraico": "כֹּֽבֶד־", "transliteral": "kō-ḇeḏ-", "traducao_palavra": "Peso de" },
+        { "hebraico": "אֶ֭בֶן", "transliteral": "ʾe-ḇen", "traducao_palavra": "pedra" },
+        { "hebraico": "וְנֵ֣טֶל", "transliteral": "wə-nê-ṭel", "traducao_palavra": "e a carga de" },
+        { "hebraico": "הַחֹ֑ול", "transliteral": "ha-ḥôl", "traducao_palavra": "a areia" },
+        { "hebraico": "וְכַ֥עַס", "transliteral": "wə-ḵa-ʿas", "traducao_palavra": "mas a ira de" },
+        { "hebraico": "אֱ֝וִ֗יל", "transliteral": "ʾĕ-wîl", "traducao_palavra": "um tolo" },
+        { "hebraico": "כָּבֵ֥ד", "transliteral": "kā-ḇêḏ", "traducao_palavra": "[é] pesada" },
+        { "hebraico": "מִשְּׁנֵיהֶֽם׃", "transliteral": "miš-šə-nê-hem", "traducao_palavra": "mais que ambas elas" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Cruel é o furor e impetuosa a ira, mas quem poderá subsistir perante a inveja?",
+      "palavras": [
+        { "hebraico": "אַכְזְרִיּ֥וּת", "transliteral": "ʾaḵ-zə-rî-yût", "traducao_palavra": "Crueldade [é o]" },
+        { "hebraico": "חֵ֭מָה", "transliteral": "ḥê-mā", "traducao_palavra": "furor" },
+        { "hebraico": "וְשֶׁ֣טֶף", "transliteral": "wə-še-ṭep̄", "traducao_palavra": "e inundação [é a]" },
+        { "hebraico": "אָ֑ף", "transliteral": "ʾāp̄", "traducao_palavra": "ira" },
+        { "hebraico": "וּמִ֥י", "transliteral": "ū-mî", "traducao_palavra": "mas quem" },
+        { "hebraico": "יַ֝עֲמֹ֗ד", "transliteral": "ya-ʿă-mōḏ", "traducao_palavra": "ficará de pé/subsistirá" },
+        { "hebraico": "לִפְנֵ֥י", "transliteral": "lip̄-nê", "traducao_palavra": "diante de" },
+        { "hebraico": "קִנְאָֽה׃", "transliteral": "qin-ʾā", "traducao_palavra": "inveja" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Melhor é a repreensão aberta do que o amor escondido.",
+      "palavras": [
+        { "hebraico": "טֹ֭ובָה", "transliteral": "ṭô-ḇā", "traducao_palavra": "Melhor [é]" },
+        { "hebraico": "תֹּוכַ֣חַת", "transliteral": "tô-ḵa-ḥaṯ", "traducao_palavra": "repreensão" },
+        { "hebraico": "מְגֻלָּ֑ה", "transliteral": "mə-ḡul-lā", "traducao_palavra": "revelada/aberta" },
+        { "hebraico": "מֵאַהֲבָ֖ה", "transliteral": "mē-ʾa-hă-ḇā", "traducao_palavra": "do que amor" },
+        { "hebraico": "מְסֻתָּֽרֶת׃", "transliteral": "mə-śut-tā-reṯ", "traducao_palavra": "escondido" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Fiéis são as feridas feitas pelo que ama, mas os beijos do que odeia são enganosos.",
+      "palavras": [
+        { "hebraico": "נֶ֭אֱמָנִים", "transliteral": "ne-ʾĕ-mā-nîm", "traducao_palavra": "Fiéis" },
+        { "hebraico": "פִּצְעֵ֣י", "transliteral": "piṣ-ʿê", "traducao_palavra": "[são] as feridas de" },
+        { "hebraico": "אֹוהֵ֑ב", "transliteral": "ʾô-hēḇ", "traducao_palavra": "quem ama" },
+        { "hebraico": "וְנַעְתָּרֹ֗ות", "transliteral": "wə-naʿ-tā-rôṯ", "traducao_palavra": "mas abundantes/excessivos" },
+        { "hebraico": "נְשִׁיקֹ֥ות", "transliteral": "nə-šî-qôṯ", "traducao_palavra": "[são] os beijos de" },
+        { "hebraico": "שֹׂונֵֽא׃", "transliteral": "śô-nê", "traducao_palavra": "quem odeia" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "A alma farta pisa o favo de mel, mas à alma faminta todo amargo é doce.",
+      "palavras": [
+        { "hebraico": "נֶ֣פֶשׁ", "transliteral": "ne-p̄eš", "traducao_palavra": "Alma" },
+        { "hebraico": "שְׂ֭בֵעָה", "transliteral": "śə-ḇê-ʿā", "traducao_palavra": "saciada/farta" },
+        { "hebraico": "תָּב֣וּס", "transliteral": "tā-ḇûs", "traducao_palavra": "pisará/rejeitará" },
+        { "hebraico": "נֹ֑פֶת", "transliteral": "nō-p̄eṯ", "traducao_palavra": "favo de mel" },
+        { "hebraico": "וְנֶ֥פֶשׁ", "transliteral": "wə-ne-p̄eš", "traducao_palavra": "mas a alma" },
+        { "hebraico": "רְ֝עֵבָה", "transliteral": "rə-ʿê-ḇā", "traducao_palavra": "faminta" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todo" },
+        { "hebraico": "מַ֥ר", "transliteral": "mar", "traducao_palavra": "amargo [é]" },
+        { "hebraico": "מָתֹֽוק׃", "transliteral": "mā-ṯôq", "traducao_palavra": "doce" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Como o pássaro que foge do seu ninho, assim é o homem que foge do seu lugar.",
+      "palavras": [
+        { "hebraico": "כְּצִפֹּ֥ור", "transliteral": "kə-ṣip-pôr", "traducao_palavra": "Como ave" },
+        { "hebraico": "נֹודֶ֗דֶת", "transliteral": "nô-ḏe-ḏeṯ", "traducao_palavra": "[que] vagueia/foge" },
+        { "hebraico": "מִן־", "transliteral": "min-", "traducao_palavra": "de" },
+        { "hebraico": "קִנָּ֑הּ", "transliteral": "qin-nāh", "traducao_palavra": "seu ninho" },
+        { "hebraico": "כֵּֽן־", "transliteral": "kên-", "traducao_palavra": "assim [é o]" },
+        { "hebraico": "אִ֝֗ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homem" },
+        { "hebraico": "נֹודֵ֥ד", "transliteral": "nô-ḏêḏ", "traducao_palavra": "vagueando" },
+        { "hebraico": "מִמְּקֹומֹֽו׃", "transliteral": "mim-mə-qô-mô", "traducao_palavra": "de seu lugar" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "O azeite e o perfume alegram o coração; assim a doçura do amigo pelo conselho cordial.",
+      "palavras": [
+        { "hebraico": "שֶׁ֣מֶן", "transliteral": "še-men", "traducao_palavra": "Azeite" },
+        { "hebraico": "וּ֭קְטֹרֶת", "transliteral": "ū-qə-ṭō-reṯ", "traducao_palavra": "e incenso/perfume" },
+        { "hebraico": "יְשַׂמַּח־", "transliteral": "yə-śam-maḥ-", "traducao_palavra": "alegram" },
+        { "hebraico": "לֵ֑ב", "transliteral": "lēḇ", "traducao_palavra": "[o] coração" },
+        { "hebraico": "וּמֶ֥תֶק", "transliteral": "ū-me-ṯeq", "traducao_palavra": "e a doçura de" },
+        { "hebraico": "רֵ֝עֵ֗הוּ", "transliteral": "rê-ʿê-hû", "traducao_palavra": "seu amigo" },
+        { "hebraico": "מֵעֲצַ֥ת־", "transliteral": "mē-ʿă-ṣat-", "traducao_palavra": "pelo conselho de" },
+        { "hebraico": "נָֽפֶשׁ׃", "transliteral": "nā-p̄eš", "traducao_palavra": "alma/coração" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Não abandones o teu amigo, nem o amigo de teu pai, nem entres na casa de teu irmão no dia da tua adversidade; melhor é o vizinho perto do que o irmão longe.",
+      "palavras": [
+        { "hebraico": "רֵֽעֲךָ֨", "transliteral": "rê-ʿă-ḵā", "traducao_palavra": "Teu amigo" },
+        { "hebraico": "וְרֵ֪עַ", "transliteral": "wə-rê-aʿ", "traducao_palavra": "e o amigo de" },
+        { "hebraico": "אָבִ֡יךָ", "transliteral": "ʾā-ḇî-ḵā", "traducao_palavra": "teu pai" },
+        { "hebraico": "אַֽל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "תַּעֲזֹ֗ב", "transliteral": "ta-ʿă-zōḇ", "traducao_palavra": "abandones" },
+        { "hebraico": "וּבֵ֥ית", "transliteral": "ū-ḇêṯ", "traducao_palavra": "e na casa de" },
+        { "hebraico": "אָחִ֗יךָ", "transliteral": "ʾā-ḥî-ḵā", "traducao_palavra": "teu irmão" },
+        { "hebraico": "אַל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "תָּבֹ֥וא", "transliteral": "ṯā-ḇô", "traducao_palavra": "vás" },
+        { "hebraico": "בְּיֹ֣ום", "transliteral": "bə-yôm", "traducao_palavra": "no dia de" },
+        { "hebraico": "אֵידֶ֑ךָ", "transliteral": "ʾê-ḏe-ḵā", "traducao_palavra": "tua calamidade" },
+        { "hebraico": "טֹ֥וב", "transliteral": "ṭôḇ", "traducao_palavra": "melhor [é]" },
+        { "hebraico": "שָׁכֵ֥ן", "transliteral": "šā-ḵên", "traducao_palavra": "[um] vizinho" },
+        { "hebraico": "קָ֝רֹוב", "transliteral": "qā-rôḇ", "traducao_palavra": "próximo" },
+        { "hebraico": "מֵאָ֥ח", "transliteral": "mē-ʾāḥ", "traducao_palavra": "do que irmão" },
+        { "hebraico": "רָחֹֽוק׃", "transliteral": "rā-ḥôq", "traducao_palavra": "distante" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Sê sábio, filho meu, e alegra o meu coração, para que eu tenha o que responder àquele que me afrontar.",
+      "palavras": [
+        { "hebraico": "חֲכַ֣ם", "transliteral": "ḥă-ḵam", "traducao_palavra": "Sê sábio" },
+        { "hebraico": "בְּ֭נִי", "transliteral": "bə-nî", "traducao_palavra": "filho meu" },
+        { "hebraico": "וְשַׂמַּ֣ח", "transliteral": "wə-śam-maḥ", "traducao_palavra": "e alegra" },
+        { "hebraico": "לִבִּ֑י", "transliteral": "lib-bî", "traducao_palavra": "meu coração" },
+        { "hebraico": "וְאָשִׁ֖יבָה", "transliteral": "wə-ʾā-šî-ḇā", "traducao_palavra": "e eu responda" },
+        { "hebraico": "חֹרְפִ֣י", "transliteral": "ḥō-rə-p̄î", "traducao_palavra": "[a] quem me insulta" },
+        { "hebraico": "דָּבָֽר׃", "transliteral": "dā-ḇār", "traducao_palavra": "[com uma] palavra" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "O prudente vê o mal e esconde-se; mas os simples passam e sofrem a pena.",
+      "palavras": [
+        { "hebraico": "עָר֤וּם", "transliteral": "ʿā-rûm", "traducao_palavra": "Prudente" },
+        { "hebraico": "רָאָ֣ה", "transliteral": "rā-ʾā", "traducao_palavra": "viu" },
+        { "hebraico": "רָעָ֣ה", "transliteral": "rā-ʿā", "traducao_palavra": "[o] mal" },
+        { "hebraico": "נִסְתָּ֑ר", "transliteral": "nis-tār", "traducao_palavra": "escondeu-se" },
+        { "hebraico": "פְּ֝תָאיִ֗ם", "transliteral": "p̄ə-ṯā-yim", "traducao_palavra": "[os] simples" },
+        { "hebraico": "עָבְר֥וּ", "transliteral": "ʿā-ḇə-rû", "traducao_palavra": "passaram" },
+        { "hebraico": "נֶעֱנָֽשׁוּ׃", "transliteral": "ne-ʿĕ-nā-šû", "traducao_palavra": "[e] foram punidos" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Toma a sua veste ao que ficou por fiador do estranho; e, por penhor, ao que se obrigou pela estrangeira.",
+      "palavras": [
+        { "hebraico": "לְֽקַח־", "transliteral": "lə-qaḥ-", "traducao_palavra": "Toma" },
+        { "hebraico": "בִּ֭גְדֹו", "transliteral": "biḡ-ḏô", "traducao_palavra": "a veste dele" },
+        { "hebraico": "כִּי־", "transliteral": "kî-", "traducao_palavra": "porque" },
+        { "hebraico": "עָ֣רַב", "transliteral": "ʿā-raḇ", "traducao_palavra": "foi fiador de" },
+        { "hebraico": "זָ֑ר", "transliteral": "zār", "traducao_palavra": "[um] estranho" },
+        { "hebraico": "וּבְעַ֖ד", "transliteral": "ū-ḇə-ʿaḏ", "traducao_palavra": "e por causa de" },
+        { "hebraico": "נָכְרִיָּ֣ה", "transliteral": "nā-ḵə-rî-yā", "traducao_palavra": "estrangeira" },
+        { "hebraico": "חַבְלֵֽהוּ׃", "transliteral": "ḥaḇ-lê-hû", "traducao_palavra": "toma dele o penhor" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "O que bendiz o seu amigo em alta voz, levantando-se de madrugada, isso lhe será contado como maldição.",
+      "palavras": [
+        { "hebraico": "מְבָ֘רֵ֤ךְ", "transliteral": "mə-ḇā-rēḵ", "traducao_palavra": "O que bendiz" },
+        { "hebraico": "רֵעֵ֨הוּ", "transliteral": "rê-ʿê-hû", "traducao_palavra": "seu amigo" },
+        { "hebraico": "בְּקֹ֣ול", "transliteral": "bə-qôl", "traducao_palavra": "em voz" },
+        { "hebraico": "גָּ֭דֹול", "transliteral": "gā-ḏôl", "traducao_palavra": "alta" },
+        { "hebraico": "בַּבֹּ֣קֶר", "transliteral": "bab-bō-qer", "traducao_palavra": "pela manhã" },
+        { "hebraico": "הַשְׁכֵּ֑ים", "transliteral": "haš-kêm", "traducao_palavra": "cedo/madrugada" },
+        { "hebraico": "קְ֝לָלָ֗ה", "transliteral": "qə-lā-lā", "traducao_palavra": "[como] maldição" },
+        { "hebraico": "תֵּחָ֥שֶׁב", "transliteral": "tê-ḥā-šêḇ", "traducao_palavra": "será contado" },
+        { "hebraico": "לֹֽו׃", "transliteral": "lô", "traducao_palavra": "para ele" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "O gotejar contínuo em dia de grande chuva e a mulher briguenta são semelhantes.",
+      "palavras": [
+        { "hebraico": "דֶּ֣לֶף", "transliteral": "de-leḉ", "traducao_palavra": "Gotejamento" },
+        { "hebraico": "טֹ֭ורֵד", "transliteral": "ṭô-rēḏ", "traducao_palavra": "contínuo" },
+        { "hebraico": "בְּיֹ֣ום", "transliteral": "bə-yôm", "traducao_palavra": "no dia de" },
+        { "hebraico": "סַגְרִ֑יר", "transliteral": "saḡ-rîr", "traducao_palavra": "chuva torrencial" },
+        { "hebraico": "וְאֵ֥שֶׁת", "transliteral": "wə-ʾê-šeṯ", "traducao_palavra": "e mulher de" },
+        { "hebraico": "מִ֝דְיָנִ֗ים", "transliteral": "miḏ-yā-nîm", "traducao_palavra": "contendas/briguenta" },
+        { "hebraico": "נִשְׁתָּוָֽה׃", "transliteral": "niš-tā-wā", "traducao_palavra": "são iguais/semelhantes" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Quem a quiser refrear, refreará o vento, e o azeite na sua mão direita se denunciará.",
+      "palavras": [
+        { "hebraico": "צֹפְנֶ֣הָ", "transliteral": "ṣōp̄-ne-hā", "traducao_palavra": "O que a esconde/refreia" },
+        { "hebraico": "צָֽפַן־", "transliteral": "ṣā-p̄an-", "traducao_palavra": "escondeu" },
+        { "hebraico": "ר֭וּחַ", "transliteral": "rû-aḥ", "traducao_palavra": "[o] vento" },
+        { "hebraico": "וְשֶׁ֥מֶן", "transliteral": "wə-še-men", "traducao_palavra": "e o azeite" },
+        { "hebraico": "יְמִינֹ֗ו", "transliteral": "yə-mî-nô", "traducao_palavra": "na sua mão direita" },
+        { "hebraico": "יִקְרָֽא׃", "transliteral": "yiq-rā", "traducao_palavra": "se anuncia/proclama" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "Como o ferro com o ferro se afia, assim o homem afia o rosto do seu amigo.",
+      "palavras": [
+        { "hebraico": "בַּרְזֶ֣ל", "transliteral": "bar-zel", "traducao_palavra": "Ferro" },
+        { "hebraico": "בְּבַרְזֶ֣ל", "transliteral": "bə-bar-zel", "traducao_palavra": "com ferro" },
+        { "hebraico": "יָ֑חַד", "transliteral": "yā-ḥaḏ", "traducao_palavra": "se aguça/afia" },
+        { "hebraico": "וְ֝אִ֗ישׁ", "transliteral": "wə-ʾîš", "traducao_palavra": "e um homem" },
+        { "hebraico": "יַ֣חַד", "transliteral": "ya-ḥaḏ", "traducao_palavra": "afia/aguça" },
+        { "hebraico": "פְּנֵֽי־", "transliteral": "pə-nê-", "traducao_palavra": "a face de" },
+        { "hebraico": "רֵעֵֽהוּ׃", "transliteral": "rê-ʿê-hû", "traducao_palavra": "seu amigo" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "O que guarda a figueira comerá o seu fruto; e o que guarda ao seu senhor será honrado.",
+      "palavras": [
+        { "hebraico": "נֹצֵ֣ר", "transliteral": "nō-ṣêr", "traducao_palavra": "O que guarda" },
+        { "hebraico": "תְּ֭אֵנָה", "transliteral": "tə-ʾē-nā", "traducao_palavra": "[a] figueira" },
+        { "hebraico": "יֹאכַ֣ל", "transliteral": "yō-ḵal", "traducao_palavra": "comerá" },
+        { "hebraico": "פִּרְיָ֑הּ", "transliteral": "pir-yāh", "traducao_palavra": "o fruto dela" },
+        { "hebraico": "וְשֹׁמֵ֥ר", "transliteral": "wə-šō-mêr", "traducao_palavra": "e o que observa/guarda" },
+        { "hebraico": "אֲ֝דֹנָ֗יו", "transliteral": "ʾă-ḏō-nāyw", "traducao_palavra": "seu senhor" },
+        { "hebraico": "יְכֻבָּֽד׃", "transliteral": "yə-ḵub-bāḏ", "traducao_palavra": "será honrado" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "Como na água o rosto corresponde ao rosto, assim o coração do homem ao homem.",
+      "palavras": [
+        { "hebraico": "כַּמַּ֥יִם", "transliteral": "kam-ma-yim", "traducao_palavra": "Como na água" },
+        { "hebraico": "הַפָּנִ֣ים", "transliteral": "hap-pā-nîm", "traducao_palavra": "a face [corresponde]" },
+        { "hebraico": "לַפָּנִ֑ים", "transliteral": "lap-pā-nîm", "traducao_palavra": "à face" },
+        { "hebraico": "כֵּ֤ן", "transliteral": "kên", "traducao_palavra": "assim" },
+        { "hebraico": "לֵֽב־", "transliteral": "leḇ-", "traducao_palavra": "[é o] coração de" },
+        { "hebraico": "הָ֝אָדָ֗ם", "transliteral": "hā-ʾā-ḏām", "traducao_palavra": "o homem" },
+        { "hebraico": "לָאָדָֽם׃", "transliteral": "lā-ʾā-ḏām", "traducao_palavra": "ao homem" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "O Seol e o Abadom nunca se fartam, e os olhos do homem nunca se satisfazem.",
+      "palavras": [
+        { "hebraico": "שְׁאֹ֣ול", "transliteral": "šə-ʾôl", "traducao_palavra": "Seol" },
+        { "hebraico": "וַ֭אֲבַדֹּוה", "transliteral": "wa-ʾă-ḇad-dōh", "traducao_palavra": "e Abadom [destruição]" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תִשְׂבַּ֑עְנָה", "transliteral": "tiś-ba-ʿə-nā", "traducao_palavra": "se fartarão" },
+        { "hebraico": "וְעֵינֵ֥י", "transliteral": "wə-ʿê-nê", "traducao_palavra": "e os olhos de" },
+        { "hebraico": "הָ֝אָדָ֗ם", "transliteral": "hā-ʾā-ḏām", "traducao_palavra": "o homem" },
+        { "hebraico": "לֹ֥א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "תִשְׂבַּֽעְנָה׃", "transliteral": "tiś-ba-ʿə-nā", "traducao_palavra": "se fartarão" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "O crisol é para a prata e o forno para o ouro, e o homem é provado pelos louvores que recebe.",
+      "palavras": [
+        { "hebraico": "מַצְרֵ֣ף", "transliteral": "maṣ-rēp̄", "traducao_palavra": "Crisol" },
+        { "hebraico": "לַ֭כֶּסֶף", "transliteral": "lak-ke-sep̄", "traducao_palavra": "para a prata" },
+        { "hebraico": "וְכ֣וּר", "transliteral": "wə-ḵûr", "traducao_palavra": "e forno" },
+        { "hebraico": "לַזָּהָ֑ב", "transliteral": "laz-zā-hāḇ", "traducao_palavra": "para o ouro" },
+        { "hebraico": "וְ֝אִ֗ישׁ", "transliteral": "wə-ʾîš", "traducao_palavra": "e um homem [é provado]" },
+        { "hebraico": "לְפִ֣י", "transliteral": "lə-p̄î", "traducao_palavra": "segundo" },
+        { "hebraico": "מַהֲלָלֹֽו׃", "transliteral": "ma-hă-lā-lô", "traducao_palavra": "o seu louvor" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "Ainda que pisasses o tolo num gral entre grãos de trigo com um pilão, não se afastaria dele a sua estultícia.",
+      "palavras": [
+        { "hebraico": "אִ֥ם", "transliteral": "ʾim", "traducao_palavra": "Ainda que" },
+        { "hebraico": "תִּכְתֹּֽושׁ־", "transliteral": "tiḵ-tôš-", "traducao_palavra": "pisasses/esmagasses" },
+        { "hebraico": "אֶת־הָאֱוִ֨יל", "transliteral": "ʾeṯ-hā-ʾĕ-wîl", "traducao_palavra": "ao tolo" },
+        { "hebraico": "בַּֽמַּכְתֵּ֡שׁ", "transliteral": "bam-maḵ-tēš", "traducao_palavra": "no gral/almofariz" },
+        { "hebraico": "בְּתֹ֣וךְ", "transliteral": "bə-ṯôḵ", "traducao_palavra": "no meio de" },
+        { "hebraico": "הָ֭רִיפֹות", "transliteral": "hā-rî-p̄ôṯ", "traducao_palavra": "grãos de trigo" },
+        { "hebraico": "בַּעֱלִ֑י", "transliteral": "ba-ʿĕ-lî", "traducao_palavra": "com o pilão" },
+        { "hebraico": "לֹא־תָס֥וּר", "transliteral": "lō-ṯā-śûr", "traducao_palavra": "não se afastaria" },
+        { "hebraico": "מֵ֝עָלָ֗יו", "transliteral": "mē-ʿā-lāyw", "traducao_palavra": "de cima dele" },
+        { "hebraico": "אִוַּלְתֹּֽו׃", "transliteral": "ʾiw-wal-tô", "traducao_palavra": "a estultícia dele" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "Procura conhecer o estado das tuas ovelhas; põe o teu coração sobre os teus rebanhos.",
+      "palavras": [
+        { "hebraico": "יָדֹ֣עַ", "transliteral": "yā-ḏō-aʿ", "traducao_palavra": "Conhecer" },
+        { "hebraico": "תֵּ֭דַע", "transliteral": "tê-ḏaʿ", "traducao_palavra": "deves conhecer" },
+        { "hebraico": "פְּנֵ֣י", "transliteral": "pə-nê", "traducao_palavra": "[a] face/estado de" },
+        { "hebraico": "צֹאנֶ֑ךָ", "transliteral": "ṣō-ne-ḵā", "traducao_palavra": "tuas ovelhas" },
+        { "hebraico": "שִׁ֥ית", "transliteral": "šîṯ", "traducao_palavra": "põe" },
+        { "hebraico": "לִ֝בְּךָ֗", "transliteral": "lib-bə-ḵā", "traducao_palavra": "teu coração" },
+        { "hebraico": "לַעֲדָרִֽים׃", "transliteral": "la-ʿă-ḏā-rîm", "traducao_palavra": "para os rebanhos" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "Porque as riquezas não duram para sempre; e duraria a coroa de geração em geração?",
+      "palavras": [
+        { "hebraico": "כִּ֤י", "transliteral": "kî", "traducao_palavra": "Porque" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "לְעֹולָ֣ם", "transliteral": "lə-ʿô-lām", "traducao_palavra": "para sempre [é]" },
+        { "hebraico": "חֹ֑סֶן", "transliteral": "ḥō-sen", "traducao_palavra": "[a] riqueza/força" },
+        { "hebraico": "וְאִם־", "transliteral": "wə-ʾim-", "traducao_palavra": "e acaso" },
+        { "hebraico": "נֵ֝זֶר", "transliteral": "nê-zer", "traducao_palavra": "[a] coroa/diadema" },
+        { "hebraico": "לְדֹ֣ור", "transliteral": "lə-ḏôr", "traducao_palavra": "de geração" },
+        { "hebraico": "וָדֹור׃", "transliteral": "wā-ḏôr", "traducao_palavra": "em geração?" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "Quando aparecer o feno, e se virem as ervas verdes, então se colherão as ervas dos montes.",
+      "palavras": [
+        { "hebraico": "גָּלָ֣ה", "transliteral": "gā-lā", "traducao_palavra": "Aparece/revela-se" },
+        { "hebraico": "חָ֭צִיר", "transliteral": "ḥā-ṣîr", "traducao_palavra": "[o] feno/capim" },
+        { "hebraico": "וְנִרְאָה־", "transliteral": "wə-nir-ʾā-", "traducao_palavra": "e é vista" },
+        { "hebraico": "דֶ֑שֶׁא", "transliteral": "de-še", "traducao_palavra": "[a] erva verde" },
+        { "hebraico": "וְ֝נֶאֶסְפ֗וּ", "transliteral": "wə-ne-ʾĕ-śə-p̄û", "traducao_palavra": "e são colhidas" },
+        { "hebraico": "עִשְּׂבֹ֥ות", "transliteral": "ʿiś-śə-ḇôṯ", "traducao_palavra": "[as] ervas de" },
+        { "hebraico": "הָרִֽים׃", "transliteral": "hā-rîm", "traducao_palavra": "[os] montes" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "Os cordeiros serão para o teu vestido, e os bodes para o preço do campo.",
+      "palavras": [
+        { "hebraico": "כְּבָשִׂ֥ים", "transliteral": "kə-ḇā-śîm", "traducao_palavra": "[Os] cordeiros" },
+        { "hebraico": "לִלְבוּשֶׁ֑ךָ", "transliteral": "lil-ḇû-še-ḵā", "traducao_palavra": "para tua veste" },
+        { "hebraico": "וּמְחִ֥יר", "transliteral": "ū-mə-ḥîr", "traducao_palavra": "e [como] preço de" },
+        { "hebraico": "שָׂ֝דֶ֗ה", "transliteral": "śā-ḏeh", "traducao_palavra": "campo" },
+        { "hebraico": "עַתּוּדִֽים׃", "transliteral": "ʿat-tū-ḏîm", "traducao_palavra": "[os] bodes" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "E haverá bastante leite de cabras para o teu sustento, para o sustento da tua casa e para o mantimento das tuas criadas.",
+      "palavras": [
+        { "hebraico": "וְדֵ֤י", "transliteral": "wə-ḏê", "traducao_palavra": "E suficiência de" },
+        { "hebraico": "חֲלֵ֬ב", "transliteral": "ḥă-lêḇ", "traducao_palavra": "leite de" },
+        { "hebraico": "עִזִּ֗ים", "transliteral": "ʿiz-zîm", "traducao_palavra": "cabras" },
+        { "hebraico": "לְ֭לַחְמְךָ", "transliteral": "lə-laḥ-mə-ḵā", "traducao_palavra": "para teu pão/alimento" },
+        { "hebraico": "לְלֶ֣חֶם", "transliteral": "lə-le-ḥem", "traducao_palavra": "para alimento de" },
+        { "hebraico": "בֵּיתֶ֑ךָ", "transliteral": "bê-te-ḵā", "traducao_palavra": "tua casa" },
+        { "hebraico": "וְ֝חַיִּ֗ים", "transliteral": "wə-ḥay-yîm", "traducao_palavra": "e sustento/vida para" },
+        { "hebraico": "לְנַעֲרֹותֶֽיךָ׃", "transliteral": "lə-na-ʿă-rô-ṯe-y-ḵā", "traducao_palavra": "tuas criadas" }
+      ]
+    }
+  }
 }

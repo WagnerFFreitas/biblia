@@ -2,91 +2,82 @@
 /*                           MÓDULO DE DADOS BÍBLICOS                            */
 /*===============================================================================*/
 /*        Este módulo contém:                                                    */
-/*                          - Mapeamento de nomes de livros com/sem acentos      */
-/*                          - Contagem de versículos por capítulo                */
+/*                - Mapeamento de nomes de livros com/sem acentos                */
+/*                     - Contagem de versículos por capítulo                     */
 /*                          - Ordem canônica dos livros                          */
 /*===============================================================================*/
 
-// Este arquivo é como uma "enciclopédia de dados" da Bíblia.
-// Imagine que você tem uma biblioteca gigante com todas as informações sobre a Bíblia:
-// 1. Um "dicionário" que traduz nomes bonitos (Gênesis) para nomes técnicos (genesis)
-// 2. Uma "tabela" que diz quantos versículos tem cada capítulo de cada livro
-// 3. Uma "lista" com todos os 66 livros na ordem correta
-// É como ter um "banco de dados" completo sobre a estrutura da Bíblia!
+console.log("[slide_biblia_dados.js] Script iniciado.")                           // Indica o início do módulo de dados bíblicos
 
-console.log("[slide_biblia_dados.js] Script iniciado.")                              
-// ↑ Indica o início do módulo de dados bíblicos
-
-// Este é um "dicionário de tradução" de nomes de livros.
-// O problema: alguns lugares escrevem "Gênesis" (com acento), outros "genesis" (sem acento).
-// Esta tabela ajuda o programa a entender que "Gênesis" = "genesis", etc.
+/* BLOCO: Cria o objeto de mapeamento de nomes de livros com acentos para        */
+/* formato padrão                                                                */
 const livroAcentuadosParaSemAcentos = {
-    "Gênesis": "genesis",         // ↑ "Gênesis" vira "genesis"
-    "Êxodo": "exodo",             // ↑ "Êxodo" vira "exodo"
-    "Levítico": "levitico",       // ↑ "Levítico" vira "levitico"
-    "Números": "numeros",         // ↑ "Números" vira "numeros"
-    "Deuteronômio": "deuteronomio", // ↑ "Deuteronômio" vira "deuteronomio"
-    "Josué": "josue",             // ↑ "Josué" vira "josue"
-    "Juízes": "juizes",           // ↑ "Juízes" vira "juizes"
-    "Rute": "rute",               // ↑ "Rute" continua "rute"
-    "1Samuel": "1samuel",         // ↑ "1Samuel" vira "1samuel"
-    "2Samuel": "2samuel",         // ↑ "2Samuel" vira "2samuel"
-    "1Reis": "1reis",             // ↑ "1Reis" vira "1reis"
-    "2Reis": "2reis",             // ↑ "2Reis" vira "2reis"
-    "1Crônicas": "1cronica",      // ↑ "1Crônicas" vira "1cronica"
-    "2Crônicas": "2cronica",      // ↑ "2Crônicas" vira "2cronica"
-    "Esdras": "esdras",           // ↑ "Esdras" continua "esdras"
-    "Neemias": "neemias",         // ↑ "Neemias" continua "neemias"
-    "Ester": "ester",             // ↑ "Ester" continua "ester"
-    "Jó": "jo",                   // ↑ "Jó" vira "jo"
-    "Cantares": "cantares",       // ↑ "Cantares" continua "cantares"
-    "Isaías": "isaias",           // ↑ "Isaías" vira "isaias"
-    "Jeremias": "jeremias",       // ↑ "Jeremias" continua "jeremias"
-    "Lamentações": "lamentacoes", // ↑ "Lamentações" vira "lamentacoes"
-    "Ezequiel": "ezequiel",       // ↑ "Ezequiel" continua "ezequiel"
-    "Daniel": "daniel",           // ↑ "Daniel" continua "daniel"
-    "Oséias": "oseas",            // ↑ "Oséias" vira "oseas"
-    "Joel": "joel",               // ↑ "Joel" continua "joel"
-    "Amós": "amos",               // ↑ "Amós" vira "amos"
-    "Obadias": "obadias",         // ↑ "Obadias" continua "obadias"
-    "Jonas": "jonas",             // ↑ "Jonas" continua "jonas"
-    "Miquéias": "miqueias",       // ↑ "Miquéias" vira "miqueias"
-    "Naum": "naum",               // ↑ "Naum" continua "naum"
-    "Habacuque": "habacuque",     // ↑ "Habacuque" continua "habacuque"
-    "Sofonias": "sofonias",       // ↑ "Sofonias" continua "sofonias"
-    "Ageu": "ageu",               // ↑ "Ageu" continua "ageu"
-    "Zacarias": "zacarias",       // ↑ "Zacarias" continua "zacarias"
-    "Malaquias": "malaquias",     // ↑ "Malaquias" continua "malaquias"
-    "Mateus": "mateus",           // ↑ "Mateus" continua "mateus"
-    "Marcos": "marcos",           // ↑ "Marcos" continua "marcos"
-    "Lucas": "lucas",             // ↑ "Lucas" continua "lucas"
-    "João": "joao",               // ↑ "João" vira "joao"
-    "Atos": "atos",               // ↑ "Atos" continua "atos"
-    "Romanos": "romanos",         // ↑ "Romanos" continua "romanos"
-    "1Coríntios": "1corintios",   // ↑ "1Coríntios" vira "1corintios"
-    "2Coríntios": "2corintios",   // ↑ "2Coríntios" vira "2corintios"
-    "Gálatas": "galatas",         // ↑ "Gálatas" vira "galatas"
-    "Efésios": "efesios",         // ↑ "Efésios" vira "efesios"
-    "Filipenses": "filipenses",   // ↑ "Filipenses" continua "filipenses"
-    "Colossenses": "colossenses", // ↑ "Colossenses" continua "colossenses"
-    "1Tessalonicenses": "1tessalonicenses", // ↑ "1Tessalonicenses" continua igual
-    "2Tessalonicenses": "2tessalonicenses", // ↑ "2Tessalonicenses" continua igual
-    "1Timóteo": "1timoteo",       // ↑ "1Timóteo" vira "1timoteo"
-    "2Timóteo": "2timoteo",       // ↑ "2Timóteo" vira "2timoteo"
-    "Tito": "tito",               // ↑ "Tito" continua "tito"
-    "Filemom": "filemom",         // ↑ "Filemom" continua "filemom"
-    "Hebreus": "hebreus",         // ↑ "Hebreus" continua "hebreus"
-    "Tiago": "tiago",             // ↑ "Tiago" continua "tiago"
-    "1Pedro": "1pedro",           // ↑ "1Pedro" vira "1pedro"
-    "2Pedro": "2pedro",           // ↑ "2Pedro" vira "2pedro"
-    "1João": "1joao",             // ↑ "1João" vira "1joao"
-    "2João": "2joao",             // ↑ "2João" vira "2joao"
-    "3João": "3joao",             // ↑ "3João" vira "3joao"
-    "Judas": "judas",             // ↑ "Judas" continua "judas"
-    "Apocalipse": "apocalipse"    // ↑ "Apocalipse" continua "apocalipse"
+    "Gênesis": "genesis",
+    "Êxodo": "exodo",
+    "Levítico": "levitico",
+    "Números": "numeros",
+    "Deuteronômio": "deuteronomio",
+    "Josué": "josue",
+    "Juízes": "juizes",
+    "Rute": "rute",
+    "1Samuel": "1samuel",
+    "2Samuel": "2samuel",
+    "1Reis": "1reis",
+    "2Reis": "2reis",
+    "1Crônicas": "1cronica",
+    "2Crônicas": "2cronica",
+    "Esdras": "esdras",
+    "Neemias": "neemias",
+    "Ester": "ester",
+    "Jó": "jo",
+    "Cantares": "cantares",
+    "Isaías": "isaias",
+    "Jeremias": "jeremias",
+    "Lamentações": "lamentacoes",
+    "Ezequiel": "ezequiel",
+    "Daniel": "daniel",
+    "Oséias": "oseas",
+    "Joel": "joel",
+    "Amós": "amos",
+    "Obadias": "obadias",
+    "Jonas": "jonas",
+    "Miquéias": "miqueias",
+    "Naum": "naum",
+    "Habacuque": "habacuque",
+    "Sofonias": "sofonias",
+    "Ageu": "ageu",
+    "Zacarias": "zacarias",
+    "Malaquias": "malaquias",
+    "Mateus": "mateus",
+    "Marcos": "marcos",
+    "Lucas": "lucas",
+    "João": "joao",
+    "Atos": "atos",
+    "Romanos": "romanos",
+    "1Coríntios": "1corintios",
+    "2Coríntios": "2corintios",
+    "Gálatas": "galatas",
+    "Efésios": "efesios",
+    "Filipenses": "filipenses",
+    "Colossenses": "colossenses",
+    "1Tessalonicenses": "1tessalonicenses",
+    "2Tessalonicenses": "2tessalonicenses",
+    "1Timóteo": "1timoteo",
+    "2Timóteo": "2timoteo",
+    "Tito": "tito",
+    "Filemom": "filemom",
+    "Hebreus": "hebreus",
+    "Tiago": "tiago",
+    "1Pedro": "1pedro",
+    "2Pedro": "2pedro",
+    "1João": "1joao",
+    "2João": "2joao",
+    "3João": "3joao",
+    "Judas": "judas",
+    "Apocalipse": "apocalipse"
 }
 
-/* BLOCO: Cria a estrutura base com contagem de versículos por capítulo                  */
+/* BLOCO: Cria a estrutura base com contagem de versículos por capítulo          */
 const baseLivros = {
     "genesis": { 1: 31, 2: 25, 3: 24, 4: 26, 5: 32, 6: 22, 7: 24, 8: 22, 9: 29, 10: 32, 11: 32, 12: 20, 13: 18, 14: 24, 15: 21, 16: 16, 17: 27, 18: 33, 19: 38, 20: 18, 21: 34, 22: 24, 23: 20, 24: 67, 25: 34, 26: 35, 27: 46, 28: 22, 29: 35, 30: 43, 31: 55, 32: 32, 33: 20, 34: 31, 35: 29, 36: 43, 37: 36, 38: 30, 39: 23, 40: 23, 41: 57, 42: 38, 43: 34, 44: 34, 45: 28, 46: 34, 47: 31, 48: 22, 49: 33, 50: 26 },
     "exodo": { 1: 22, 2: 25, 3: 22, 4: 31, 5: 23, 6: 30, 7: 25, 8: 32, 9: 35, 10: 29, 11: 10, 12: 37, 13: 22, 14: 31, 15: 27, 16: 36, 17: 16, 18: 27, 19: 29, 20: 26, 21: 36, 22: 31, 23: 33, 24: 18 },
@@ -153,7 +144,8 @@ const baseLivros = {
     "apocalipse": { 1: 20, 2: 29, 3: 22, 4: 11, 5: 14, 6: 17, 7: 17, 8: 13, 9: 21, 10: 11, 11: 19, 12: 17, 13: 18, 14: 20, 15: 8, 16: 21, 17: 18, 18: 24, 19: 21, 20: 15, 21: 27, 22: 21 }
 }
 
-/* BLOCO: Cria o objeto de contagem de versículos por versão (todas usam a mesma estrutura base)   */
+/* BLOCO: Cria o objeto de contagem de versículos por versão (todas usam a       */
+/* mesma estrutura base)                                                         */
 const contagemVersiculosPorVersao = {
     acf: baseLivros,
     ara: baseLivros,
@@ -165,7 +157,7 @@ const contagemVersiculosPorVersao = {
     original: baseLivros,
 }
 
-/* BLOCO: Cria o array com a ordem canônica dos livros                                   */
+/* BLOCO: Cria o array com a ordem canônica dos livros                           */
 const livrosOrdem = [
     "genesis",
     "exodo",
@@ -232,8 +224,9 @@ const livrosOrdem = [
     "apocalipse"
 ]
 
-/* BLOCO: Define as exportações globais para permitir o acesso aos dados bíblicos por outros módulos do sistema*/
-window.livroAcentuadosParaSemAcentos = livroAcentuadosParaSemAcentos               /* Exporta mapa de nomes       */
-window.baseLivros = baseLivros                                                     /* Exporta banco de contagem   */
-window.contagemVersiculosPorVersao = contagemVersiculosPorVersao                   /* Exporta mapa de traduções   */
-window.livrosOrdem = livrosOrdem                                                   /* Exporta lista de ordenação  */
+/* BLOCO: Define as exportações globais para permitir o acesso aos dados         */
+/* bíblicos por outros módulos do sistema                                        */
+window.livroAcentuadosParaSemAcentos = livroAcentuadosParaSemAcentos              // Exporta mapa de nomes
+window.baseLivros = baseLivros                                                    // Exporta banco de contagem
+window.contagemVersiculosPorVersao = contagemVersiculosPorVersao                  // Exporta mapa de traduções
+window.livrosOrdem = livrosOrdem                                                  // Exporta lista de ordenação

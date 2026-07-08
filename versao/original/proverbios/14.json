@@ -1,6 +1,430 @@
 {
-  "livro": "Provérbios - מִשְׁלֵי - Mishlei",
+  "livro": "Provérbios - מִשְׁלֵי - Mishlei",
   "capítulo": 14,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "A mulher sábia edifica a sua casa, mas a insensata a derruba com as suas próprias mãos.",
+      "palavras": [
+        { "hebraico": "חַכְמֹ֣ות", "transliteral": "ḥaḵ-môṯ", "traducao_palavra": "A sabedoria de [as sábias]" },
+        { "hebraico": "נָ֭שִׁים", "transliteral": "nā-šîm", "traducao_palavra": "mulheres" },
+        { "hebraico": "בָּנְתָ֣ה", "transliteral": "bā-nə-ṯā", "traducao_palavra": "edificou" },
+        { "hebraico": "בֵיתָ֑הּ", "transliteral": "bê-ṯāh", "traducao_palavra": "sua casa" },
+        { "hebraico": "וְ֝אִוֶּ֗לֶת", "transliteral": "wə-ʾiw-we-leṯ", "traducao_palavra": "mas a estultícia/tola" },
+        { "hebraico": "בְּיָדֶ֥יהָ", "transliteral": "bə-yā-ḏe-y-hā", "traducao_palavra": "com suas mãos" },
+        { "hebraico": "תֶהֶרְסֶֽנּוּ׃", "transliteral": "ṯe-her-sen-nû", "traducao_palavra": "a derruba" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "O que anda na sua retidão teme a YHWH, mas o que perverte os seus caminhos o despreza.",
+      "palavras": [
+        { "hebraico": "הֹולֵ֣ךְ", "transliteral": "hō-lêḵ", "traducao_palavra": "O que anda" },
+        { "hebraico": "בְּיָשְׁרֹו֮", "transliteral": "bə-yāš-rô", "traducao_palavra": "na sua retidão" },
+        { "hebraico": "יְרֵ֪א", "transliteral": "yə-rē", "traducao_palavra": "teme" },
+        { "hebraico": "יְהוָ֥ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "וּנְלֹ֖וז", "transliteral": "ū-nə-lôz", "traducao_palavra": "mas o que perverte" },
+        { "hebraico": "דְּרָכָ֣יו", "transliteral": "də-rā-ḵāw", "traducao_palavra": "seus caminhos" },
+        { "hebraico": "בֹּוזֵֽהוּ׃", "transliteral": "bô-zē-hû", "traducao_palavra": "o despreza" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Na boca do insensato está a vara da soberba, mas os lábios dos sábios os preservarão.",
+      "palavras": [
+        { "hebraico": "בְּפִי־", "transliteral": "bə-p̄î-", "traducao_palavra": "Na boca de" },
+        { "hebraico": "אֱ֭וִיל", "transliteral": "ʾĕ-wîl", "traducao_palavra": "um tolo" },
+        { "hebraico": "חֹ֣טֶר", "transliteral": "ḥō-ṭer", "traducao_palavra": "[está a] vara/broto de" },
+        { "hebraico": "גַּאֲוָ֑ה", "transliteral": "ga-ʾă-wā", "traducao_palavra": "soberba" },
+        { "hebraico": "וְשִׂפְתֵ֥י", "transliteral": "wə-śip̄-ṯê", "traducao_palavra": "mas os lábios de" },
+        { "hebraico": "חֲ֝כָמִ֗ים", "transliteral": "ḥă-ḵā-mîm", "traducao_palavra": "sábios" },
+        { "hebraico": "תִּשְׁמוּרֵֽם׃", "transliteral": "tiš-mū-rêm", "traducao_palavra": "os guardarão" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Onde não há bois o estábulo está limpo, mas pelo vigor do boi há abundância de colheita.",
+      "palavras": [
+        { "hebraico": "בְּאֵ֣ין", "transliteral": "bə-ʾên", "traducao_palavra": "Em não havendo" },
+        { "hebraico": "אֲ֭לָפִים", "transliteral": "ʾă-lā-p̄îm", "traducao_palavra": "bois" },
+        { "hebraico": "אֵב֣וּס", "transliteral": "ʾê-ḇûs", "traducao_palavra": "[o] estábulo/manjedoura" },
+        { "hebraico": "בָּ֑ר", "transliteral": "bār", "traducao_palavra": "[está] limpo/vazio" },
+        { "hebraico": "וְרָב־", "transliteral": "wə-rāḇ-", "traducao_palavra": "mas muita" },
+        { "hebraico": "תְּ֝בוּאֹ֗ות", "transliteral": "tə-ḇû-ʾôṯ", "traducao_palavra": "colheita/renda" },
+        { "hebraico": "בְּכֹ֣חַ", "transliteral": "bə-ḵō-aḥ", "traducao_palavra": "[há] pela força de" },
+        { "hebraico": "שֹֽׁור׃", "transliteral": "šôr", "traducao_palavra": "boi" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "A testemunha verdadeira não mentirá, mas a testemunha falsa profere mentiras.",
+      "palavras": [
+        { "hebraico": "עֵ֣ד", "transliteral": "ʿēḏ", "traducao_palavra": "Testemunha" },
+        { "hebraico": "אֱ֭מוּנִים", "transliteral": "ʾĕ-mû-nîm", "traducao_palavra": "fiel/verdadeira" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "יְכַזֵּ֑ב", "transliteral": "yə-ḵaz-zēḇ", "traducao_palavra": "mentirá" },
+        { "hebraico": "וְיָפִ֥יחַ", "transliteral": "wə-yā-p̄î-aḥ", "traducao_palavra": "mas sopra/profere" },
+        { "hebraico": "כְּ֝זָבִ֗ים", "transliteral": "kə-zā-ḇîm", "traducao_palavra": "mentiras" },
+        { "hebraico": "עֵ֣ד", "transliteral": "ʿēḏ", "traducao_palavra": "[a] testemunha" },
+        { "hebraico": "שָֽׁקֶר׃", "transliteral": "šā-qer", "traducao_palavra": "falsa" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "O escarnecedor busca sabedoria e não a acha, mas para o prudente o conhecimento é fácil.",
+      "palavras": [
+        { "hebraico": "בִּקֶּשׁ־", "transliteral": "biq-qeš-", "traducao_palavra": "Buscou" },
+        { "hebraico": "לֵ֣ץ", "transliteral": "lêṣ", "traducao_palavra": "[o] escarnecedor" },
+        { "hebraico": "חָכְמָ֣ה", "transliteral": "ḥā-ḵə-mā", "traducao_palavra": "sabedoria" },
+        { "hebraico": "וָאָ֑יִן", "transliteral": "wā-ʾā-yin", "traducao_palavra": "e nada [achou]" },
+        { "hebraico": "וְדַ֖עַת", "transliteral": "wə-ḏa-ʿaṯ", "traducao_palavra": "mas o conhecimento" },
+        { "hebraico": "לְנָבֹ֣ון", "transliteral": "lə-nā-ḇôn", "traducao_palavra": "para o entendido" },
+        { "hebraico": "נָקָֽל׃", "transliteral": "nā-qāl", "traducao_palavra": "[é] fácil/leve" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Vai-te da presença do homem insensato, pois nele não acharás lábios de conhecimento.",
+      "palavras": [
+        { "hebraico": "לֵ֣ךְ", "transliteral": "lêḵ", "traducao_palavra": "Vai/afasta-te" },
+        { "hebraico": "מִנֶּ֭גֶד", "transliteral": "min-ne-ḡeḏ", "traducao_palavra": "da presença de" },
+        { "hebraico": "לְאִ֣ישׁ", "transliteral": "lə-ʾîš", "traducao_palavra": "um homem" },
+        { "hebraico": "כְּסִ֑יל", "transliteral": "kə-śîl", "traducao_palavra": "tolo" },
+        { "hebraico": "וּבַל־", "transliteral": "ū-ḇal-", "traducao_palavra": "e não" },
+        { "hebraico": "יָ֝דַ֗עְתָּ", "transliteral": "yā-ḏa-ʿatā", "traducao_palavra": "conhecerás/acharás" },
+        { "hebraico": "שִׂפְתֵי־", "transliteral": "śip̄-ṯê-", "traducao_palavra": "lábios de" },
+        { "hebraico": "דָֽעַת׃", "transliteral": "dā-ʿaṯ", "traducao_palavra": "conhecimento" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "A sabedoria do prudente é entender o seu caminho, mas a estultícia dos insensatos é engano.",
+      "palavras": [
+        { "hebraico": "חָכְמַ֣ת", "transliteral": "ḥāḵ-maṯ", "traducao_palavra": "A sabedoria de" },
+        { "hebraico": "עָ֭רוּם", "transliteral": "ʿā-rûm", "traducao_palavra": "[o] prudente" },
+        { "hebraico": "הָבִ֣ין", "transliteral": "hā-ḇîn", "traducao_palavra": "[é] entender" },
+        { "hebraico": "דַּרְכֹּ֑ו", "transliteral": "dar-kô", "traducao_palavra": "seu caminho" },
+        { "hebraico": "וְאִוֶּ֖לֶת", "transliteral": "wə-ʾiw-we-leṯ", "traducao_palavra": "mas a estultícia de" },
+        { "hebraico": "כְּסִילִ֣ים", "transliteral": "kə-śî-lîm", "traducao_palavra": "tolos" },
+        { "hebraico": "מִרְמָֽה׃", "transliteral": "mir-mā", "traducao_palavra": "[é] engano" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Os insensatos zombam do pecado, mas entre os retos há benevolência.",
+      "palavras": [
+        { "hebraico": "אֱ֭וִלִים", "transliteral": "ʾĕ-wi-lîm", "traducao_palavra": "Tolos" },
+        { "hebraico": "יָלִ֣יץ", "transliteral": "yā-lîṣ", "traducao_palavra": "zombam/escarnecem de" },
+        { "hebraico": "אָשָׁ֑ם", "transliteral": "ʾā-šām", "traducao_palavra": "culpa/oferta pelo pecado" },
+        { "hebraico": "וּבֵ֖ין", "transliteral": "ū-ḇên", "traducao_palavra": "mas entre" },
+        { "hebraico": "יְשָׁרִ֣ים", "transliteral": "yə-šā-rîm", "traducao_palavra": "retos" },
+        { "hebraico": "רָצֹֽון׃", "transliteral": "rā-ṣôn", "traducao_palavra": "[há] favor/prazer" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "O coração conhece a sua própria amargura, e da sua alegria o estranho não participará.",
+      "palavras": [
+        { "hebraico": "לֵ֗ב", "transliteral": "lēḇ", "traducao_palavra": "[O] coração" },
+        { "hebraico": "יֹ֭ודֵעַ", "transliteral": "yô-ḏē-aʿ", "traducao_palavra": "conhece" },
+        { "hebraico": "מָרַּ֣ת", "transliteral": "mā-raṯ", "traducao_palavra": "[a] amargura de" },
+        { "hebraico": "נַפְשֹׁ֑ו", "transliteral": "nap̄-šô", "traducao_palavra": "sua alma" },
+        { "hebraico": "וּבְשִׂמְחָתֹ֗ו", "transliteral": "ū-ḇə-śim-ḥā-ṯô", "traducao_palavra": "e na sua alegria" },
+        { "hebraico": "לֹא־", "transliteral": "lō-", "traducao_palavra": "não" },
+        { "hebraico": "יִתְעָרַ֥ב", "transliteral": "yiṯ-ʿā-raḇ", "traducao_palavra": "se misturará/participará" },
+        { "hebraico": "זָֽר׃", "transliteral": "zār", "traducao_palavra": "[um] estranho" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "A casa dos ímpios se desfará, mas a tenda dos retos florescerá.",
+      "palavras": [
+        { "hebraico": "בֵּ֣ית", "transliteral": "bêṯ", "traducao_palavra": "A casa de" },
+        { "hebraico": "רְ֭שָׁעִים", "transliteral": "rə-šā-ʿîm", "traducao_palavra": "ímpios" },
+        { "hebraico": "יִשָּׁמֵ֑ד", "transliteral": "yiš-šā-mêḏ", "traducao_palavra": "será destruída" },
+        { "hebraico": "וְאֹ֖הֶל", "transliteral": "wə-ʾō-hel", "traducao_palavra": "mas a tenda de" },
+        { "hebraico": "יְשָׁרִ֣ים", "transliteral": "yə-šā-rîm", "traducao_palavra": "retos" },
+        { "hebraico": "יַפְרִֽיחַ׃", "transliteral": "yap̄-rî-aḥ", "traducao_palavra": "florescerá" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Há caminho que ao homem parece direito, mas o fim dele são caminhos de morte.",
+      "palavras": [
+        { "hebraico": "יֵ֤שׁ", "transliteral": "yêš", "traducao_palavra": "Há" },
+        { "hebraico": "דֶּ֣רֶךְ", "transliteral": "de-reḵ", "traducao_palavra": "caminho" },
+        { "hebraico": "יָשָׁ֣ר", "transliteral": "yā-šār", "traducao_palavra": "reto" },
+        { "hebraico": "לִפְנֵי־", "transliteral": "lip̄-nê-", "traducao_palavra": "diante de" },
+        { "hebraico": "אִ֑ישׁ", "transliteral": "ʾîš", "traducao_palavra": "um homem" },
+        { "hebraico": "וְ֝אַחֲרִיתָ֗הּ", "transliteral": "wə-ʾa-ḥă-rî-ṯāh", "traducao_palavra": "mas o fim dele" },
+        { "hebraico": "דַּרְכֵי־", "transliteral": "dar-ḵê-", "traducao_palavra": "[são] caminhos de" },
+        { "hebraico": "מָֽוֶת׃", "transliteral": "mā-weṯ", "traducao_palavra": "morte" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Até no riso o coração tem dor, e o fim da alegria é tristeza.",
+      "palavras": [
+        { "hebraico": "גַּם־", "transliteral": "gam-", "traducao_palavra": "Até/também" },
+        { "hebraico": "בִּשְׂחֹ֥וק", "transliteral": "biś-ḥôq", "traducao_palavra": "no riso" },
+        { "hebraico": "יִכְאַב־", "transliteral": "yiḵ-ʾaḇ-", "traducao_palavra": "sentirá dor" },
+        { "hebraico": "לֵ֑ב", "transliteral": "lēḇ", "traducao_palavra": "[o] coração" },
+        { "hebraico": "וְאַחֲרִיתָ֖הּ", "transliteral": "wə-ʾa-ḥă-rî-ṯāh", "traducao_palavra": "e o fim dela" },
+        { "hebraico": "שִׂמְחָ֣ה", "transliteral": "śim-ḥā", "traducao_palavra": "[da] alegria" },
+        { "hebraico": "תּוּגָֽה׃", "transliteral": "tū-ḡā", "traducao_palavra": "[é] tristeza" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "O infiel de coração se fartará dos seus caminhos, mas o homem bom se fartará de si mesmo.",
+      "palavras": [
+        { "hebraico": "מִדְּרָכָ֣יו", "transliteral": "mid-də-rā-ḵāyw", "traducao_palavra": "Dos seus caminhos" },
+        { "hebraico": "יִשְׂבַּ֣ע", "transliteral": "yiś-baʿ", "traducao_palavra": "se fartará" },
+        { "hebraico": "ס֣וּג", "transliteral": "sûḡ", "traducao_palavra": "o infiel/desviado de" },
+        { "hebraico": "לֵ֑ב", "transliteral": "lēḇ", "traducao_palavra": "coração" },
+        { "hebraico": "וּ֝מֵעָלָ֗יו", "transliteral": "ū-mê-ʿā-lāyw", "traducao_palavra": "e de cima dele/de si" },
+        { "hebraico": "אִ֣ישׁ", "transliteral": "ʾîš", "traducao_palavra": "um homem" },
+        { "hebraico": "טֹֽוב׃", "transliteral": "ṭôḇ", "traducao_palavra": "bom" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "O simples dá crédito a toda palavra, mas o prudente atenta para os seus passos.",
+      "palavras": [
+        { "hebraico": "פֶּ֭תִי", "transliteral": "pe-ṯî", "traducao_palavra": "O simples" },
+        { "hebraico": "יַאֲמִ֣ין", "transliteral": "ya-ʾă-mîn", "traducao_palavra": "crê/dá crédito" },
+        { "hebraico": "לְכָל־", "transliteral": "lə-ḵāl-", "traducao_palavra": "a toda" },
+        { "hebraico": "דָּבָ֑ר", "transliteral": "dā-ḇār", "traducao_palavra": "palavra" },
+        { "hebraico": "וְ֝עָר֗וּם", "transliteral": "wə-ʿā-rûm", "traducao_palavra": "mas o prudente" },
+        { "hebraico": "יָבִ֥ין", "transliteral": "yā-ḇîn", "traducao_palavra": "entende/atenta" },
+        { "hebraico": "לַאֲשֻׁרֹֽו׃", "transliteral": "la-ʾă-šu-rô", "traducao_palavra": "para o seu passo" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "O sábio teme e desvia-se do mal, mas o tolo é arrogante e confia em si mesmo.",
+      "palavras": [
+        { "hebraico": "חָכָ֣ם", "transliteral": "ḥā-ḵām", "traducao_palavra": "O sábio" },
+        { "hebraico": "יָ֭רֵא", "transliteral": "yā-rê", "traducao_palavra": "teme" },
+        { "hebraico": "וְסָ֣ר", "transliteral": "wə-sār", "traducao_palavra": "e desvia-se" },
+        { "hebraico": "מֵרָ֑ע", "transliteral": "mê-rāʿ", "traducao_palavra": "do mal" },
+        { "hebraico": "וּ֝כְסִ֗יל", "transliteral": "ū-ḵə-śîl", "traducao_palavra": "mas o tolo" },
+        { "hebraico": "מִתְעַבֵּ֥ר", "transliteral": "miṯ-ʿab-bêr", "traducao_palavra": "arrogante/passa dos limites" },
+        { "hebraico": "וּבֹוטֵֽחַ׃", "transliteral": "ū-ḇô-ṭê-aḥ", "traducao_palavra": "e [é] confiante" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "O que se ira facilmente faz doidices, e o homem de maus desígnios é odiado.",
+      "palavras": [
+        { "hebraico": "קְֽצַר־", "transliteral": "qə-ṣar-", "traducao_palavra": "O curto de" },
+        { "hebraico": "אַ֭פַּיִם", "transliteral": "ʾap-pa-yim", "traducao_palavra": "narizes [ira/paciência]" },
+        { "hebraico": "יַעֲשֶׂ֣ה", "transliteral": "ya-ʿă-śeh", "traducao_palavra": "fará" },
+        { "hebraico": "אִוֶּ֑לֶת", "transliteral": "ʾiw-we-leṯ", "traducao_palavra": "doidices/estultícia" },
+        { "hebraico": "וְאִ֥ישׁ", "transliteral": "wə-ʾîš", "traducao_palavra": "e o homem de" },
+        { "hebraico": "מְ֝זִמֹּ֗ות", "transliteral": "mə-zim-môṯ", "traducao_palavra": "maus desígnios" },
+        { "hebraico": "יִשָּׂנֵֽא׃", "transliteral": "yiś-śā-nê", "traducao_palavra": "será odiado" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "Os simples herdam a estultícia, mas os prudentes coroam-se de conhecimento.",
+      "palavras": [
+        { "hebraico": "נָחֲל֣וּ", "transliteral": "nā-ḥă-lû", "traducao_palavra": "Herdaram" },
+        { "hebraico": "פְתָאיִ֣ם", "transliteral": "p̄ə-ṯā-yim", "traducao_palavra": "[os] simples" },
+        { "hebraico": "אִוֶּ֑לֶת", "transliteral": "ʾiw-we-leṯ", "traducao_palavra": "estultícia" },
+        { "hebraico": "וַ֝עֲרוּמִ֗ים", "transliteral": "wa-ʿă-rû-mîm", "traducao_palavra": "mas os prudentes" },
+        { "hebraico": "יַכְתִּ֥רוּ", "transliteral": "yaḵ-ti-rû", "traducao_palavra": "se coroarão de" },
+        { "hebraico": "דָֽעַת׃", "transliteral": "dā-ʿaṯ", "traducao_palavra": "conhecimento" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "Os maus inclinam-se perante os bons, e os ímpios diante das portas dos justos.",
+      "palavras": [
+        { "hebraico": "שַׁח֣וּ", "transliteral": "ša-ḥû", "traducao_palavra": "Inclinaram-se/curvaram-se" },
+        { "hebraico": "רָ֭עִים", "transliteral": "rā-ʿîm", "traducao_palavra": "[os] maus" },
+        { "hebraico": "לִפְנֵ֣י", "transliteral": "lip̄-nê", "traducao_palavra": "diante de" },
+        { "hebraico": "טֹובִ֑ים", "transliteral": "ṭô-ḇîm", "traducao_palavra": "[os] bons" },
+        { "hebraico": "וּ֝רְשָׁעִ֗ים", "transliteral": "ū-rə-šā-ʿîm", "traducao_palavra": "e os ímpios" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "junto a" },
+        { "hebraico": "שַׁעֲרֵ֥י", "transliteral": "ša-ʿă-rê", "traducao_palavra": "as portas de" },
+        { "hebraico": "צַדִּֽיק׃", "transliteral": "ṣad-dîq", "traducao_palavra": "um justo" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "O pobre é odiado até pelo seu próximo, mas os amigos dos ricos são muitos.",
+      "palavras": [
+        { "hebraico": "גַּם־", "transliteral": "gam-", "traducao_palavra": "Até/também" },
+        { "hebraico": "לְ֭רֵעֵהוּ", "transliteral": "lə-rê-ʿê-hû", "traducao_palavra": "por seu próximo" },
+        { "hebraico": "יִשָּׂ֣נֵא", "transliteral": "yiś-śā-nê", "traducao_palavra": "é odiado" },
+        { "hebraico": "רָ֑שׁ", "transliteral": "rāš", "traducao_palavra": "[o] pobre" },
+        { "hebraico": "וְאֹהֲבֵ֖י", "transliteral": "wə-ʾō-hă-ḇê", "traducao_palavra": "mas os que amam" },
+        { "hebraico": "עָשִׁ֣יר", "transliteral": "ʿā-šîr", "traducao_palavra": "[o] rico" },
+        { "hebraico": "רַבִּֽים׃", "transliteral": "rab-bîm", "traducao_palavra": "[são] muitos" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "O que despreza o seu próximo peca, mas o que se compadece dos humildes é bem-aventurado.",
+      "palavras": [
+        { "hebraico": "בָּז־", "transliteral": "bāz-", "traducao_palavra": "[O que] despreza" },
+        { "hebraico": "לְרֵעֵ֥הוּ", "transliteral": "lə-rê-ʿê-hû", "traducao_palavra": "seu próximo" },
+        { "hebraico": "חֹוטֵ֑א", "transliteral": "ḥô-ṭê", "traducao_palavra": "peca" },
+        { "hebraico": "וּמְחֹונֵ֖ן", "transliteral": "ū-mə-ḥô-nên", "traducao_palavra": "mas o que se compadece de" },
+        { "hebraico": "עֲנָוִ֣ים", "transliteral": "ʿă-nā-wîm", "traducao_palavra": "humildes/aflitos" },
+        { "hebraico": "אַשְׁרָֽיו׃", "transliteral": "ʾaš-rāyw", "traducao_palavra": "bem-aventurado [é]" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "Porventura não erram os que maquinam o mal? Mas bondade e verdade haverá para os que maquinam o bem.",
+      "palavras": [
+        { "hebraico": "הֲלֹוא־", "transliteral": "hă-lô-", "traducao_palavra": "Acaso não" },
+        { "hebraico": "יִ֭תְעוּ", "transliteral": "yiṯ-ʿû", "traducao_palavra": "erram" },
+        { "hebraico": "חֹ֣רְשֵׁי", "transliteral": "ḥō-rə-šê", "traducao_palavra": "os que maquinam" },
+        { "hebraico": "רָ֑ע", "transliteral": "rāʿ", "traducao_palavra": "mal" },
+        { "hebraico": "וְחֶ֥סֶד", "transliteral": "wə-ḥe-seḏ", "traducao_palavra": "mas bondade" },
+        { "hebraico": "וֶ֝אֱמֶ֗ת", "transliteral": "we-ʾĕ-meṯ", "traducao_palavra": "e verdade" },
+        { "hebraico": "חֹ֣רְשֵׁי", "transliteral": "ḥō-rə-šê", "traducao_palavra": "[terão] os que maquinam" },
+        { "hebraico": "טֹֽוב׃", "transliteral": "ṭôḇ", "traducao_palavra": "bem" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "Em todo trabalho há proveito, mas a palavra dos lábios só conduz à pobreza.",
+      "palavras": [
+        { "hebraico": "בְּכָל־", "transliteral": "bə-ḵāl-", "traducao_palavra": "Em todo" },
+        { "hebraico": "עֶ֭צֶב", "transliteral": "ʿe-ṣeḇ", "traducao_palavra": "trabalho/fadiga" },
+        { "hebraico": "יִהְיֶ֣ה", "transliteral": "yih-yeh", "traducao_palavra": "haverá" },
+        { "hebraico": "מֹותָ֑ר", "transliteral": "mô-ṯār", "traducao_palavra": "proveito/lucro" },
+        { "hebraico": "וּדְבַר־", "transliteral": "ū-ḏə-ḇar-", "traducao_palavra": "mas a palavra de" },
+        { "hebraico": "שְׂ֝פָתַ֗יִם", "transliteral": "śə-p̄ā-ṯa-yim", "traducao_palavra": "lábios" },
+        { "hebraico": "אַךְ־", "transliteral": "ʾaḵ-", "traducao_palavra": "apenas" },
+        { "hebraico": "לְמַחְסֹֽור׃", "transliteral": "lə-maḥ-śôr", "traducao_palavra": "para necessidade/pobreza" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "A coroa dos sábios é a sua riqueza, mas a estultícia dos insensatos é apenas estultícia.",
+      "palavras": [
+        { "hebraico": "עֲטֶ֣רֶת", "transliteral": "ʿă-ṭe-reṯ", "traducao_palavra": "[A] coroa de" },
+        { "hebraico": "חֲכָמִ֣ים", "transliteral": "ḥă-ḵā-mîm", "traducao_palavra": "sábios" },
+        { "hebraico": "עָשְׁרָ֑ם", "transliteral": "ʿāš-rām", "traducao_palavra": "[é] sua riqueza" },
+        { "hebraico": "אִוֶּ֖לֶת", "transliteral": "ʾiw-we-leṯ", "traducao_palavra": "[mas a] estultícia de" },
+        { "hebraico": "כְּסִילִ֣ים", "transliteral": "kə-śî-lîm", "traducao_palavra": "tolos" },
+        { "hebraico": "אִוֶּֽלֶת׃", "transliteral": "ʾiw-we-leṯ", "traducao_palavra": "[é] estultícia" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "A testemunha verdadeira livra as almas, mas o que profere mentiras é enganador.",
+      "palavras": [
+        { "hebraico": "מַצִּ֣יל", "transliteral": "maṣ-ṣîl", "traducao_palavra": "Livra" },
+        { "hebraico": "נְפָשֹׁ֣ות", "transliteral": "nə-p̄ā-šôṯ", "traducao_palavra": "almas" },
+        { "hebraico": "עֵ֣ד", "transliteral": "ʿēḏ", "traducao_palavra": "[a] testemunha" },
+        { "hebraico": "אֱמֶ֑ת", "transliteral": "ʾĕ-meṯ", "traducao_palavra": "verdadeira" },
+        { "hebraico": "וְיָפִ֖יחַ", "transliteral": "wə-yā-p̄î-aḥ", "traducao_palavra": "mas o que sopra" },
+        { "hebraico": "כְּזָבִ֣ים", "transliteral": "kə-zā-ḇîm", "traducao_palavra": "mentiras" },
+        { "hebraico": "מִרְמָֽה׃", "transliteral": "mir-mā", "traducao_palavra": "[é] enganador" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "No temor de YHWH há forte confiança, e os seus filhos terão um refúgio.",
+      "palavras": [
+        { "hebraico": "בְּיִרְאַ֣ת", "transliteral": "bə-yir-ʾaṯ", "traducao_palavra": "No temor de" },
+        { "hebraico": "יְ֭הוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "מִבְטַח־", "transliteral": "miḇ-ṭaḥ-", "traducao_palavra": "confiança" },
+        { "hebraico": "עֹ֑ז", "transliteral": "ʿōz", "traducao_palavra": "forte" },
+        { "hebraico": "וּ֝לְבָנָ֗יו", "transliteral": "ū-lə-ḇā-nāyw", "traducao_palavra": "e para seus filhos" },
+        { "hebraico": "יִהְיֶ֥ה", "transliteral": "yih-yeh", "traducao_palavra": "haverá" },
+        { "hebraico": "מַחְסֶֽה׃", "transliteral": "maḥ-seh", "traducao_palavra": "[um] refúgio" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "O temor de YHWH é uma fonte de vida para desviar dos laços da morte.",
+      "palavras": [
+        { "hebraico": "יִרְאַ֣ת", "transliteral": "yir-ʾaṯ", "traducao_palavra": "O temor de" },
+        { "hebraico": "יְ֭הוָה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "מְקֹ֣ור", "transliteral": "mə-qôr", "traducao_palavra": "[é] fonte de" },
+        { "hebraico": "חַיִּ֑ים", "transliteral": "ḥay-yîm", "traducao_palavra": "vida" },
+        { "hebraico": "לָ֝ס֗וּר", "transliteral": "lā-śûr", "traducao_palavra": "para desviar" },
+        { "hebraico": "מִמֹּקְשֵׁ֥י", "transliteral": "mim-mō-qə-šê", "traducao_palavra": "dos laços de" },
+        { "hebraico": "מָֽוֶת׃", "transliteral": "mā-weṯ", "traducao_palavra": "morte" }
+      ]
+    },
+    "28": {
+      "traducao_completa": "Na multidão do povo está a glória do rei, mas na falta de povo está a ruína do príncipe.",
+      "palavras": [
+        { "hebraico": "בְּרָב־", "transliteral": "bə-rāḇ-", "traducao_palavra": "Na multidão de" },
+        { "hebraico": "עָ֭ם", "transliteral": "ʿām", "traducao_palavra": "povo" },
+        { "hebraico": "הַדְרַת־", "transliteral": "haḏ-raṯ-", "traducao_palavra": "[está a] glória de" },
+        { "hebraico": "מֶ֑לֶךְ", "transliteral": "me-leḵ", "traducao_palavra": "um rei" },
+        { "hebraico": "וּבְאֶ֥פֶס", "transliteral": "ū-ḇə-ʾe-p̄es", "traducao_palavra": "mas na falta de" },
+        { "hebraico": "לְ֝אֹ֗ם", "transliteral": "lə-ʾôm", "traducao_palavra": "nação/povo" },
+        { "hebraico": "מְחִתַּ֥ת", "transliteral": "mə-ḥit-taṯ", "traducao_palavra": "[está a] ruína de" },
+        { "hebraico": "רָזֹֽון׃", "transliteral": "rā-zôn", "traducao_palavra": "um príncipe/dignatário" }
+      ]
+    },
+    "29": {
+      "traducao_completa": "O que é tardio em irar-se é grande em entendimento, mas o que é de espírito apressado exalta a estultícia.",
+      "palavras": [
+        { "hebraico": "אֶ֣רֶךְ", "transliteral": "ʾe-reḵ", "traducao_palavra": "O longo de" },
+        { "hebraico": "אַ֭פַּיִם", "transliteral": "ʾap-pa-yim", "traducao_palavra": "narizes [paciência]" },
+        { "hebraico": "רַב־", "transliteral": "rab-", "traducao_palavra": "[é] grande em" },
+        { "hebraico": "תְּבוּנָ֑ה", "transliteral": "tə-ḇû-nā", "traducao_palavra": "entendimento" },
+        { "hebraico": "וּקְצַר־", "transliteral": "ū-qə-ṣar-", "traducao_palavra": "mas o curto de" },
+        { "hebraico": "ר֝֗וּחַ", "transliteral": "rû-aḥ", "traducao_palavra": "espírito/paciência" },
+        { "hebraico": "מֵרִ֥ים", "transliteral": "mê-rîm", "traducao_palavra": "levanta/exalta" },
+        { "hebraico": "אִוֶּֽלֶת׃", "transliteral": "ʾiw-we-leṯ", "traducao_palavra": "estultícia" }
+      ]
+    },
+    "30": {
+      "traducao_completa": "O coração tranquilo é a vida da carne, mas a inveja é a podridão dos ossos.",
+      "palavras": [
+        { "hebraico": "חַיֵּ֣י", "transliteral": "ḥay-yê", "traducao_palavra": "Vida de" },
+        { "hebraico": "בְשָׂרִ֣ים", "transliteral": "ḇə-śā-rîm", "traducao_palavra": "carnes/corpo" },
+        { "hebraico": "לֵ֣ב", "transliteral": "lēḇ", "traducao_palavra": "[é um] coração" },
+        { "hebraico": "מַרְפֵּ֑א", "transliteral": "mar-pê", "traducao_palavra": "tranquilo/saudável" },
+        { "hebraico": "וּרְקַ֖ב", "transliteral": "ū-rə-qaḇ", "traducao_palavra": "mas a podridão de" },
+        { "hebraico": "עֲצָמֹ֣ות", "transliteral": "ʿă-ṣā-môṯ", "traducao_palavra": "ossos" },
+        { "hebraico": "קִנְאָֽה׃", "transliteral": "qin-ʾā", "traducao_palavra": "[é] a inveja" }
+      ]
+    },
+    "31": {
+      "traducao_completa": "O que oprime o pobre insulta ao seu Criador, mas o que se compadece do necessitado o honra.",
+      "palavras": [
+        { "hebraico": "עֹשֵׁ֣ק", "transliteral": "ʿō-šēq", "traducao_palavra": "O que oprime" },
+        { "hebraico": "דָּ֭ל", "transliteral": "dāl", "traducao_palavra": "[o] pobre" },
+        { "hebraico": "חֵרֵ֣ף", "transliteral": "ḥê-rēp̄", "traducao_palavra": "insulta" },
+        { "hebraico": "עֹשֵׂ֑הוּ", "transliteral": "ʿō-śê-hû", "traducao_palavra": "seu Criador" },
+        { "hebraico": "וּ֝מְכַבְּדֹ֗ו", "transliteral": "ū-mə-ḵab-bə-ḏô", "traducao_palavra": "mas honra-o" },
+        { "hebraico": "חֹנֵ֥ן", "transliteral": "ḥō-nên", "traducao_palavra": "o que se compadece de" },
+        { "hebraico": "אֶבְיֹֽון׃", "transliteral": "ʾeḇ-yôn", "traducao_palavra": "um necessitado" }
+      ]
+    },
+    "32": {
+      "traducao_completa": "Pela sua própria maldade é lançado fora o ímpio, mas o justo tem esperança até na sua morte.",
+      "palavras": [
+        { "hebraico": "בְּרָעָתֹ֥ו", "transliteral": "bə-rā-ʿā-ṯô", "traducao_palavra": "Na sua maldade" },
+        { "hebraico": "יִדָּחֶ֪ה", "transliteral": "yid-dā-ḥeh", "traducao_palavra": "será lançado fora" },
+        { "hebraico": "רָשָׁ֑ע", "transliteral": "rā-šāʿ", "traducao_palavra": "[o] ímpio" },
+        { "hebraico": "וְחֹוסֶ֖ה", "transliteral": "wə-ḥō-śeh", "traducao_palavra": "mas tem refúgio/esperança" },
+        { "hebraico": "בְמֹותֹ֣ו", "transliteral": "ḇə-mô-ṯô", "traducao_palavra": "na sua morte" },
+        { "hebraico": "צַדִּֽיק׃", "transliteral": "ṣad-dîq", "traducao_palavra": "um justo" }
+      ]
+    },
+    "33": {
+      "traducao_completa": "No coração do prudente repousa a sabedoria, mas o que há no interior dos insensatos se dá a conhecer.",
+      "palavras": [
+        { "hebraico": "בְּלֵ֣ב", "transliteral": "bə-lêḇ", "traducao_palavra": "No coração de" },
+        { "hebraico": "נָ֭בֹון", "transliteral": "nā-ḇôn", "traducao_palavra": "[um] prudente" },
+        { "hebraico": "תָּנ֣וּחַ", "transliteral": "tā-nū-aḥ", "traducao_palavra": "repousa" },
+        { "hebraico": "חָכְמָ֑ה", "transliteral": "ḥā-ḵə-mā", "traducao_palavra": "sabedoria" },
+        { "hebraico": "וּבְקֶ֥רֶב", "transliteral": "ū-ḇə-qe-reḇ", "traducao_palavra": "mas no interior de" },
+        { "hebraico": "כְּ֝סִילִ֗ים", "transliteral": "kə-śî-lîm", "traducao_palavra": "tolos" },
+        { "hebraico": "תִּוָּדֵֽעַ׃", "transliteral": "tiw-wā-ḏê-aʿ", "traducao_palavra": "será conhecida" }
+      ]
+    },
+    "34": {
+      "traducao_completa": "A justiça exalta as nações, mas o pecado é o opróbrio dos povos.",
+      "palavras": [
+        { "hebraico": "צְדָקָ֥ה", "transliteral": "ṣə-ḏā-qā", "traducao_palavra": "Justiça" },
+        { "hebraico": "תְּרֹומֵֽם־", "transliteral": "tə-rô-mêm-", "traducao_palavra": "exalta" },
+        { "hebraico": "גֹּ֑וי", "transliteral": "gôy", "traducao_palavra": "[uma] nação" },
+        { "hebraico": "וְחֶ֥סֶד", "transliteral": "wə-ḥe-seḏ", "traducao_palavra": "mas a vergonha/misericórdia [opróbrio]" },
+        { "hebraico": "לְ֝אֻמִּ֗ים", "transliteral": "lə-ʾum-mîm", "traducao_palavra": "[dos] povos" },
+        { "hebraico": "חַטָּֽאת׃", "transliteral": "ḥaṭ-ṭāṯ", "traducao_palavra": "[é o] pecado" }
+      ]
+    },
+    "35": {
+      "traducao_completa": "O favor do rei é para o servo prudente, mas o seu furor é contra o que envergonha.",
+      "palavras": [
+        { "hebraico": "רְצֹון־", "transliteral": "rə-ṣôn-", "traducao_palavra": "O favor de" },
+        { "hebraico": "מֶ֭לֶךְ", "transliteral": "me-leḵ", "traducao_palavra": "[um] rei" },
+        { "hebraico": "לְעֶ֣בֶד", "transliteral": "lə-ʿe-ḇeḏ", "traducao_palavra": "[é] para o servo" },
+        { "hebraico": "מַשְׂכִּ֑יל", "transliteral": "maś-kîl", "traducao_palavra": "prudente/sábio" },
+        { "hebraico": "וְ֝עֶבְרָתֹ֗ו", "transliteral": "wə-ʿeḇ-rā-ṯô", "traducao_palavra": "mas o seu furor" },
+        { "hebraico": "תִּהְיֶ֥ה", "transliteral": "tih-yeh", "traducao_palavra": "será [contra]" },
+        { "hebraico": "מֵבִֽישׁ׃", "transliteral": "mê-ḇîš", "traducao_palavra": "o que envergonha" }
+      ]
+    }
+  }
 }
