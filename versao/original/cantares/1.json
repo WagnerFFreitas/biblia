@@ -1,6 +1,230 @@
 {
-  "livro": "Cantares - שִׁיר הַשִּׁירִים - Shir HaShirim",
+  "livro": "Cantares - שִׁיר הַשִּׁירִים - Shir Hashirim",
   "capítulo": 1,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "O cântico dos cânticos, que é de Salomão.",
+      "palavras": [
+        { "hebraico": "שִׁיר", "transliteral": "šîr", "traducao_palavra": "O cântico" },
+        { "hebraico": "הַשִּׁירִים", "transliteral": "haš-šî-rîm", "traducao_palavra": "dos cânticos" },
+        { "hebraico": "אֲשֶׁר", "transliteral": "ʾă-šer", "traducao_palavra": "que [é]" },
+        { "hebraico": "לִשְׁלֹמֹה׃", "transliteral": "liš-lō-mōh", "traducao_palavra": "de Salomão" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Beije-me ele com os beijos da sua boca; porque melhor é o teu amor do que o vinho.",
+      "palavras": [
+        { "hebraico": "יִשָּׁקֵ֨נִי֙", "transliteral": "yiš-šā-qê-nî", "traducao_palavra": "Beije-me" },
+        { "hebraico": "מִנְּשִׁיקֹות", "transliteral": "min-nə-šî-qôṯ", "traducao_palavra": "com os beijos de" },
+        { "hebraico": "פִּיהוּ", "transliteral": "p̄î-hû", "traducao_palavra": "sua boca" },
+        { "hebraico": "כִּֽי־טֹובִ֥ים", "transliteral": "kî-ṭô-ḇîm", "traducao_palavra": "porque melhores [são]" },
+        { "hebraico": "דֹּדֶ֖יךָ", "transliteral": "dō-ḏe-ḵā", "traducao_palavra": "teus amores" },
+        { "hebraico": "מִיָּֽיִן׃", "transliteral": "miy-yā-yin", "traducao_palavra": "do que o vinho" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Suave é o cheiro dos teus unguentos; como unguento derramado é o teu nome; por isso as donzelas te amam.",
+      "palavras": [
+        { "hebraico": "לְרֵ֣יחַ", "transliteral": "lə-rê-aḥ", "traducao_palavra": "Para o cheiro de" },
+        { "hebraico": "שְׁמָנֶיךָ", "transliteral": "šə-mā-ne-ḵā", "traducao_palavra": "teus óleos/unguentos" },
+        { "hebraico": "טֹובִים", "transliteral": "ṭô-ḇîm", "traducao_palavra": "bons" },
+        { "hebraico": "שֶׁ֚מֶן", "transliteral": "še-men", "traducao_palavra": "óleo" },
+        { "hebraico": "תּוּרַ֣ק", "transliteral": "tū-raq", "traducao_palavra": "derramado" },
+        { "hebraico": "שְׁמֶ֑ךָ", "transliteral": "šə-me-ḵā", "traducao_palavra": "[é] teu nome" },
+        { "hebraico": "עַל־כֵּ֭ן", "transliteral": "ʿal-kên", "traducao_palavra": "por isso" },
+        { "hebraico": "עֲלָמֹ֥ות", "transliteral": "ʿă-lā-môṯ", "traducao_palavra": "as donzelas/jovens" },
+        { "hebraico": "אֲהֵבֽוּךָ׃", "transliteral": "ʾă-hê-ḇû-ḵā", "traducao_palavra": "amam-te" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Leva-me tu; correremos após ti. O rei me introduziu nas suas câmaras; em ti nos regozijaremos e nos alegraremos; do teu amor nos lembraremos, mais do que do vinho; os retos te amam.",
+      "palavras": [
+        { "hebraico": "מָשְׁכֵ֖נִי", "transliteral": "mā-šə-ḵê-nî", "traducao_palavra": "Atrai-me/leva-me" },
+        { "hebraico": "אַחֲרֶ֣יךָ", "transliteral": "ʾa-ḥă-re-y-ḵā", "traducao_palavra": "após ti" },
+        { "hebraico": "נָּר֑וּצָה", "transliteral": "nā-rû-ṣā", "traducao_palavra": "correremos" },
+        { "hebraico": "הֱבִיאַ֨נִי", "transliteral": "hĕ-ḇî-ʾa-nî", "traducao_palavra": "introduziu-me" },
+        { "hebraico": "הַמֶּ֜לֶךְ", "transliteral": "ham-me-leḵ", "traducao_palavra": "o rei [nas]" },
+        { "hebraico": "חֲדָרָ֗יו", "transliteral": "ḥă-ḏā-rāyw", "traducao_palavra": "suas câmaras" },
+        { "hebraico": "נָגִ֤ילָה", "transliteral": "nā-ḡî-lā", "traducao_palavra": "exultaremos" },
+        { "hebraico": "וְנִשְׂמְחָה֙", "transliteral": "wə-niś-mə-ḥā", "traducao_palavra": "e nos alegraremos" },
+        { "hebraico": "בָּ֔ךְ", "transliteral": "bāḵ", "traducao_palavra": "em ti" },
+        { "hebraico": "נַזְכִּירָ֤ה", "transliteral": "naz-kî-rā", "traducao_palavra": "celebraremos/lembraremos" },
+        { "hebraico": "דֹדֶ֨יךָ֙", "transliteral": "dō-ḏe-ḵā", "traducao_palavra": "teus amores" },
+        { "hebraico": "מִיַּ֔יִן", "transliteral": "miy-ya-yin", "traducao_palavra": "mais que o vinho" },
+        { "hebraico": "מֵישָׁרִ֖ים", "transliteral": "mê-šā-rîm", "traducao_palavra": "[com] retidão" },
+        { "hebraico": "אֲהֵבֽוּךָ׃", "transliteral": "ʾă-hê-ḇû-ḵā", "traducao_palavra": "amam-te" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Eu sou morena, porém formosa, ó filhas de Jerusalém, como as tendas de Quedar, como as cortinas de Salomão.",
+      "palavras": [
+        { "hebraico": "שְׁחֹורָ֥ה", "transliteral": "šə-ḥô-rā", "traducao_palavra": "Negra/morena" },
+        { "hebraico": "אֲנִ֛י", "transliteral": "ʾă-nî", "traducao_palavra": "[sou] eu" },
+        { "hebraico": "וְנָאוָ֖ה", "transliteral": "wə-nā-wā", "traducao_palavra": "e formosa" },
+        { "hebraico": "בְּנֹ֣ות", "transliteral": "bə-nôṯ", "traducao_palavra": "ó filhas de" },
+        { "hebraico": "יְרוּשָׁלִָ֑ם", "transliteral": "yə-rû-šā-la-yim", "traducao_palavra": "Jerusalém" },
+        { "hebraico": "כְּאָהֳלֵ֣י", "transliteral": "kə-ʾā-ho-lê", "traducao_palavra": "como as tendas de" },
+        { "hebraico": "קֵדָ֔ר", "transliteral": "qê-ḏār", "traducao_palavra": "Quedar" },
+        { "hebraico": "כִּירִיעֹ֖ות", "transliteral": "kî-rî-ʿôṯ", "traducao_palavra": "como as cortinas de" },
+        { "hebraico": "שְׁלֹמֹֽה׃", "transliteral": "šə-lō-mōh", "traducao_palavra": "Salomão" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Não olheis para mim por ser eu morena, porque o sol me queimou; os filhos de minha mãe se indignaram contra mim, puseram-me por guarda das vinhas; a minha vinha, que me pertence, não guardei.",
+      "palavras": [
+        { "hebraico": "אַל־תִּרְא֨וּנִי֙", "transliteral": "ʾal-tir-ʾû-nî", "traducao_palavra": "Não olheis para mim" },
+        { "hebraico": "שֶׁאָהֲבָה֙", "transliteral": "še-ʾă-nî", "traducao_palavra": "que eu [sou]" },
+        { "hebraico": "שְׁחַרְחֹ֔רֶת", "transliteral": "šə-ḥar-ḥō-reṯ", "traducao_palavra": "morena/escura" },
+        { "hebraico": "שֶׁשֱּׁזָפַ֖תְנִי", "transliteral": "šeš-šĕ-zā-p̄aṯ-nî", "traducao_palavra": "porque me olhou/queimou" },
+        { "hebraico": "הַשָּׁ֑מֶשׁ", "transliteral": "haš-šā-meš", "traducao_palavra": "o sol" },
+        { "hebraico": "בְּנֵ֧י", "transliteral": "bə-nê", "traducao_palavra": "[os] filhos de" },
+        { "hebraico": "אִמִּ֣י", "transliteral": "ʾim-mî", "traducao_palavra": "minha mãe" },
+        { "hebraico": "נִֽחֲרוּ־בִ֗י", "transliteral": "ni-ḥă-rû-ḇî", "traducao_palavra": "indignaram-se contra mim" },
+        { "hebraico": "שָׂמֻ֨נִי֙", "transliteral": "śā-mu-nî", "traducao_palavra": "puseram-me" },
+        { "hebraico": "נֹטֵרָ֣ה", "transliteral": "nō-ṭê-rā", "traducao_palavra": "[como] guarda de" },
+        { "hebraico": "אֶת־הַכְּרָמִ֔ים", "transliteral": "ʾeṯ-hak-kə-rā-mîm", "traducao_palavra": "as vinhas" },
+        { "hebraico": "כַּרְמִ֥י", "transliteral": "kar-mî", "traducao_palavra": "minha vinha" },
+        { "hebraico": "שֶׁלִּ֖י", "transliteral": "šel-lî", "traducao_palavra": "que [é] minha" },
+        { "hebraico": "לֹ֥א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "נָטָֽרְתִּי׃", "transliteral": "nā-ṭā-rə-tî", "traducao_palavra": "guardei" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Dize-me, ó tu, a quem ama a minha alma: Onde apascentas o teu rebanho, onde o fazes repousar ao meio-dia? Pois por que razão seria eu como a que anda errante junto aos rebanhos dos teus companheiros?",
+      "palavras": [
+        { "hebraico": "הַגִּ֣ידָה", "transliteral": "hag-gî-ḏā", "traducao_palavra": "Dize" },
+        { "hebraico": "לִּ֗י", "transliteral": "lî", "traducao_palavra": "a mim" },
+        { "hebraico": "שֶׁאָהֲבָה֙", "transliteral": "še-ʾā-hă-ḇā", "traducao_palavra": "a quem ama" },
+        { "hebraico": "נַפְשִׁ֔י", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma" },
+        { "hebraico": "אֵיכָ֣ה", "transliteral": "ʾê-ḵā", "traducao_palavra": "onde" },
+        { "hebraico": "תִרְעֶ֔ה", "transliteral": "ṯir-ʿeh", "traducao_palavra": "apascentas" },
+        { "hebraico": "אֵיכָ֖ה", "transliteral": "ʾê-ḵā", "traducao_palavra": "onde" },
+        { "hebraico": "תַּרְבִּ֣יץ", "transliteral": "tar-bîṣ", "traducao_palavra": "fazes repousar" },
+        { "hebraico": "בַּֽצָּהֳרָ֑יִם", "transliteral": "baṣ-ṣo-ho-rā-yim", "traducao_palavra": "ao meio-dia" },
+        { "hebraico": "שַׁלָּמָ֤ה", "transliteral": "šal-lā-mā", "traducao_palavra": "pois por que" },
+        { "hebraico": "אֶֽהְיֶה֙", "transliteral": "ʾeh-yeh", "traducao_palavra": "seria eu" },
+        { "hebraico": "כְּעֹ֣טְיָ֔ה", "transliteral": "kə-ʿō-ṭə-yā", "traducao_palavra": "como a que se cobre/errante" },
+        { "hebraico": "עַ֖ל", "transliteral": "ʿal", "traducao_palavra": "junto a" },
+        { "hebraico": "עֶדְרֵ֥י", "transliteral": "ʿeḏ-rê", "traducao_palavra": "[os] rebanhos de" },
+        { "hebraico": "חֲבֵרֶֽיךָ׃", "transliteral": "ḥă-ḇê-re-ḵā", "traducao_palavra": "teus companheiros" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Se tu não o sabes, ó mais formosa entre as mulheres, sai pelas pisadas do rebanho, e apascenta os teus cabritos junto às tendas dos pastores.",
+      "palavras": [
+        { "hebraico": "אִם־לֹ֨א", "transliteral": "ʾim-lō", "traducao_palavra": "Se não" },
+        { "hebraico": "תֵדְעִ֤י", "transliteral": "ṯê-ḏə-ʿî", "traducao_palavra": "sabes" },
+        { "hebraico": "לָךְ֙", "transliteral": "lāḵ", "traducao_palavra": "tu" },
+        { "hebraico": "הַיָּפָ֣ה", "transliteral": "hay-yā-p̄ā", "traducao_palavra": "[ó] a formosa" },
+        { "hebraico": "בַּנָּשִׁ֔ים", "transliteral": "ban-nā-šîm", "traducao_palavra": "entre as mulheres" },
+        { "hebraico": "צְאִֽי־לָךְ֙", "transliteral": "ṣə-ʾî-lāḵ", "traducao_palavra": "sai tu" },
+        { "hebraico": "בְּעִקְבֵ֣י", "transliteral": "bə-ʿiq-ḇê", "traducao_palavra": "pelas pisadas de" },
+        { "hebraico": "הַצֹּ֔אן", "transliteral": "haṣ-ṣōn", "traducao_palavra": "o rebanho" },
+        { "hebraico": "וּרְעִי֙", "transliteral": "ū-rə-ʿî", "traducao_palavra": "e apascenta" },
+        { "hebraico": "אֶת־גְּדִיֹּתַ֔יִךְ", "transliteral": "ʾeṯ-gə-ḏî-yō-ṯa-yiḵ", "traducao_palavra": "teus cabritos" },
+        { "hebraico": "עַ֖ל", "transliteral": "ʿal", "traducao_palavra": "junto a" },
+        { "hebraico": "מִשְׁכְּנֹ֥ות", "transliteral": "miš-kə-nôṯ", "traducao_palavra": "tendas de" },
+        { "hebraico": "הָרֹעִֽים׃", "transliteral": "ha-rō-ʿîm", "traducao_palavra": "os pastores" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Às éguas dos carros de Faraó te comparo, ó amada minha.",
+      "palavras": [
+        { "hebraico": "לְסֻסָתִ֗י", "transliteral": "lə-su-śā-ṯî", "traducao_palavra": "À minha égua" },
+        { "hebraico": "בְּרִכְבֵי֙", "transliteral": "bə-riḵ-ḇê", "traducao_palavra": "nos carros de" },
+        { "hebraico": "פַּרְעֹ֔ה", "transliteral": "par-ʿōh", "traducao_palavra": "Faraó" },
+        { "hebraico": "דִּמִּיתִ֖יךְ", "transliteral": "dim-mî-ṯîḵ", "traducao_palavra": "comparo-te" },
+        { "hebraico": "רַעְיָתִֽי׃", "transliteral": "ra-ʿə-yā-ṯî", "traducao_palavra": "ó amada minha" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Formosas são as tuas faces entre os teus enfeites, o teu pescoço com os colares.",
+      "palavras": [
+        { "hebraico": "נָאו֤וּ", "transliteral": "nā-ʾwû", "traducao_palavra": "Formosas são" },
+        { "hebraico": "לְחָיַ֨יִךְ֙", "transliteral": "lə-ḥā-ya-yiḵ", "traducao_palavra": "tuas faces/bochechas" },
+        { "hebraico": "בַּתֹּרִ֔ים", "transliteral": "bat-tō-rîm", "traducao_palavra": "com os enfeites/tranças" },
+        { "hebraico": "צַוָּארֵ֖ךְ", "transliteral": "ṣaw-wā-rêḵ", "traducao_palavra": "teu pescoço" },
+        { "hebraico": "בַּחֲרוּזִֽים׃", "transliteral": "ba-ḥă-rû-zîm", "traducao_palavra": "com colares/pérolas" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Enfeites de ouro te faremos, com pontos de prata.",
+      "palavras": [
+        { "hebraico": "תֹּורֵ֤י", "transliteral": "tô-rê", "traducao_palavra": "Enfeites/tranças de" },
+        { "hebraico": "זָהָב֙", "transliteral": "zā-hāḇ", "traducao_palavra": "ouro" },
+        { "hebraico": "נַעֲשֶׂה־לָּ֔ךְ", "transliteral": "na-ʿă-śeh-lāḵ", "traducao_palavra": "faremos para ti" },
+        { "hebraico": "עִ֖ם", "transliteral": "ʿim", "traducao_palavra": "com" },
+        { "hebraico": "נְקֻדֹּ֥ות", "transliteral": "nə-qud-dôṯ", "traducao_palavra": "pontos de" },
+        { "hebraico": "הַכָּֽסֶף׃", "transliteral": "hak-kā-sep̄", "traducao_palavra": "prata" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Enquanto o rei está assentado à sua mesa, o meu nardo exala o seu perfume.",
+      "palavras": [
+        { "hebraico": "עַד־שֶׁהַמֶּ֖לֶךְ", "transliteral": "ʿaḏ-še-ham-me-leḵ", "traducao_palavra": "Enquanto o rei [está]" },
+        { "hebraico": "בִּמסִבֹּ֑ו", "transliteral": "bim-śib-bô", "traducao_palavra": "em seu banquete/mesa" },
+        { "hebraico": "נִרְדִּ֖י", "transliteral": "nir-dî", "traducao_palavra": "meu nardo" },
+        { "hebraico": "נָתַ֥ן", "transliteral": "nā-ṯan", "traducao_palavra": "deu/exalou" },
+        { "hebraico": "רֵיחֹֽו׃", "transliteral": "rê-ḥô", "traducao_palavra": "seu perfume" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "O meu amado é para mim como um saquitel de mirra, que repousa entre os meus seios.",
+      "palavras": [
+        { "hebraico": "צְרֹ֨ור", "transliteral": "ṣə-rôr", "traducao_palavra": "Um saquitel/bolsa de" },
+        { "hebraico": "הַמֹּ֤ר", "transliteral": "ham-mōr", "traducao_palavra": "mirra" },
+        { "hebraico": "דֹּודִי֙", "transliteral": "dô-ḏî", "traducao_palavra": "[é] meu amado" },
+        { "hebraico": "לִ֔י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "בֵּ֥ין", "transliteral": "bên", "traducao_palavra": "entre" },
+        { "hebraico": "שָׁדַ֖י", "transliteral": "šā-ḏay", "traducao_palavra": "meus seios" },
+        { "hebraico": "יָלִֽין׃", "transliteral": "yā-lîn", "traducao_palavra": "pernoitará/repousará" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Como um cacho de flores de alfena nas vinhas de En-Gedi é para mim o meu amado.",
+      "palavras": [
+        { "hebraico": "אֶשְׁכֹּ֨ל", "transliteral": "ʾeš-kōl", "traducao_palavra": "Cacho de" },
+        { "hebraico": "הַכֹּ֤פֶר", "transliteral": "hak-kō-p̄er", "traducao_palavra": "henas/alfena" },
+        { "hebraico": "דֹּודִי֙", "transliteral": "dô-ḏî", "traducao_palavra": "[é] meu amado" },
+        { "hebraico": "לִ֔י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "בְּכַרְמֵ֖י", "transliteral": "bə-ḵar-mê", "traducao_palavra": "nas vinhas de" },
+        { "hebraico": "עֵ֥ין גֶּֽדִי׃", "transliteral": "ʿên ge-ḏî", "traducao_palavra": "En-Gedi" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "Eis que és formosa, ó amada minha, eis que és formosa; os teus olhos são como os das pombas.",
+      "palavras": [
+        { "hebraico": "הִנָּ֤ךְ", "transliteral": "hin-nāḵ", "traducao_palavra": "Eis que" },
+        { "hebraico": "יָפָה֙", "transliteral": "yā-p̄ā", "traducao_palavra": "[és] formosa" },
+        { "hebraico": "רַעְיָתִ֔י", "transliteral": "ra-ʿə-yā-ṯî", "traducao_palavra": "amada minha" },
+        { "hebraico": "הִנָּ֥ךְ", "transliteral": "hin-nāḵ", "traducao_palavra": "eis que" },
+        { "hebraico": "יָפָ֖ה", "transliteral": "yā-p̄ā", "traducao_palavra": "formosa" },
+        { "hebraico": "עֵינַ֥יִךְ", "transliteral": "ʿê-na-yiḵ", "traducao_palavra": "teus olhos [são]" },
+        { "hebraico": "יֹונִֽים׃", "transliteral": "yô-nîm", "traducao_palavra": "pombas" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Eis que és formoso, ó amado meu, e também amável; o nosso leito é viçoso.",
+      "palavras": [
+        { "hebraico": "הִנְּךָ֨", "transliteral": "hin-nə-ḵā", "traducao_palavra": "Eis que" },
+        { "hebraico": "יָפֶ֤ה", "transliteral": "yā-p̄eh", "traducao_palavra": "[és] formoso" },
+        { "hebraico": "דֹודִי֙", "transliteral": "dô-ḏî", "traducao_palavra": "amado meu" },
+        { "hebraico": "אַ֣ף", "transliteral": "ʾap̄", "traducao_palavra": "também" },
+        { "hebraico": "נָעִ֔ים", "transliteral": "nā-ʿîm", "traducao_palavra": "amável/agradável" },
+        { "hebraico": "אַף־עַרְשֵׂ֖נוּ", "transliteral": "ʾap̄-ʿar-śê-nû", "traducao_palavra": "também nosso leito" },
+        { "hebraico": "רַעֲנָנָֽה׃", "transliteral": "ra-ʿă-nā-nā", "traducao_palavra": "[é] verdejante/viçoso" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "As traves da nossa casa são de cedro, as nossas vigas de cipreste.",
+      "palavras": [
+        { "hebraico": "קֹרֹ֤ות", "transliteral": "qō-rôṯ", "traducao_palavra": "[As] traves de" },
+        { "hebraico": "בָּתֵּ֨ינוּ֙", "transliteral": "bāt-tê-nû", "traducao_palavra": "nossa casa" },
+        { "hebraico": "אֲרָזִ֔ים", "transliteral": "ʾă-rā-zîm", "traducao_palavra": "[são de] cedros" },
+        { "hebraico": "רַחִיטֵ֖נוּ", "transliteral": "ra-ḥî-ṭê-nû", "traducao_palavra": "nossos painéis/vigas" },
+        { "hebraico": "בְּרֹותִֽים׃", "transliteral": "bə-rô-ṯîm", "traducao_palavra": "[são de] ciprestes/faias" }
+      ]
+    }
+  }
 }

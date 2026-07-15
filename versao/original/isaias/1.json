@@ -1,6 +1,497 @@
 {
-  "livro": "Isaías - יְשַׁעְיָהוּ - Yeshayahu",
+  "livro": "Isaías - יְשַׁעְיָהוּ - Yeshayahu",
   "capítulo": 1,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Visão de Isaías, filho de Amoz, que ele teve a respeito de Judá e Jerusalém, nos dias de Uzias, Jotão, Acaz e Ezequias, reis de Judá.",
+      "palavras": [
+        { "hebraico": "חֲזֹון֙", "transliteral": "ḥă-zôn", "traducao_palavra": "Visão de" },
+        { "hebraico": "יְשַׁעְיָ֣הוּ", "transliteral": "yə-šaʿ-yā-hû", "traducao_palavra": "Isaías" },
+        { "hebraico": "בֶן־אָמֹ֔וץ", "transliteral": "ben-ʾā-môṣ", "traducao_palavra": "filho de Amoz" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "חָזָ֔ה", "transliteral": "ḥā-zā", "traducao_palavra": "ele viu/contemplou" },
+        { "hebraico": "עַל־יְהוּדָ֖ה", "transliteral": "ʿal-yə-hû-ḏā", "traducao_palavra": "sobre Judá" },
+        { "hebraico": "וִירוּשָׁלִָ֑ם", "transliteral": "wî-rû-šā-la-yim", "traducao_palavra": "e Jerusalém" },
+        { "hebraico": "בִּימֵ֨י", "transliteral": "bî-mê", "traducao_palavra": "nos dias de" },
+        { "hebraico": "עֻזִּיָּ֧הוּ", "transliteral": "ʿuz-zî-yā-hû", "traducao_palavra": "Uzias" },
+        { "hebraico": "יֹותָ֛ם", "transliteral": "yô-ṯām", "traducao_palavra": "Jotão" },
+        { "hebraico": "אָחָ֥ז", "transliteral": "ʾā-ḥāz", "traducao_palavra": "Acaz" },
+        { "hebraico": "יְחִזְקִיָּ֖הוּ", "transliteral": "yə-ḥiz-qî-yā-hû", "traducao_palavra": "Ezequias" },
+        { "hebraico": "מַלְכֵ֥י", "transliteral": "mal-ḵê", "traducao_palavra": "reis de" },
+        { "hebraico": "יְהוּדָֽה׃", "transliteral": "yə-hû-ḏā", "traducao_palavra": "Judá" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Ouvi, ó céus, e dá ouvidos, ó terra, porque falou YHWH: Criei filhos, e engrandeci-os, mas eles se rebelaram contra mim.",
+      "palavras": [
+        { "hebraico": "שִׁמְע֤וּ", "transliteral": "šim-ʿû", "traducao_palavra": "Ouvi" },
+        { "hebraico": "שָׁמַ֨יִם֙", "transliteral": "šā-ma-yim", "traducao_palavra": "céus" },
+        { "hebraico": "וְהַאֲזִ֣ינִי", "transliteral": "wə-ha-ʾă-zî-nî", "traducao_palavra": "e dá ouvidos" },
+        { "hebraico": "אֶ֔רֶץ", "transliteral": "ʾe-reṣ", "traducao_palavra": "terra" },
+        { "hebraico": "כִּ֥י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "דִּבֵּ֑ר", "transliteral": "dib-bêr", "traducao_palavra": "falou" },
+        { "hebraico": "בָּנִים֙", "transliteral": "bā-nîm", "traducao_palavra": "filhos" },
+        { "hebraico": "גִּדַּ֣לְתִּי", "transliteral": "gid-dal-tî", "traducao_palavra": "criei/engrandeci" },
+        { "hebraico": "וְרֹומַ֔מְתִּי", "transliteral": "wə-rô-mam-tî", "traducao_palavra": "e exaltei" },
+        { "hebraico": "וְהֵ֖ם", "transliteral": "wə-hêm", "traducao_palavra": "mas eles" },
+        { "hebraico": "פָּ֥שְׁעוּ", "transliteral": "pā-šə-ʿû", "traducao_palavra": "se rebelaram" },
+        { "hebraico": "בִֽי׃", "transliteral": "ḇî", "traducao_palavra": "contra mim" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "O boi conhece o seu possuidor, e o jumento a manjedoura do seu dono; mas Israel não tem conhecimento, o meu povo não entende.",
+      "palavras": [
+        { "hebraico": "יָדַ֥ע", "transliteral": "yā-ḏaʿ", "traducao_palavra": "Conhece" },
+        { "hebraico": "שֹׁור֙", "transliteral": "šôr", "traducao_palavra": "[o] boi" },
+        { "hebraico": "קֹנֵ֔הוּ", "transliteral": "qō-nê-hû", "traducao_palavra": "seu comprador/possuidor" },
+        { "hebraico": "וַחֲמֹ֖ור", "transliteral": "wa-ḥă-môr", "traducao_palavra": "e [o] jumento" },
+        { "hebraico": "אֵב֣וּס", "transliteral": "ʾê-ḇûs", "traducao_palavra": "[a] manjedoura de" },
+        { "hebraico": "בְּעָלָ֑יו", "transliteral": "bə-ʿā-lāyw", "traducao_palavra": "seu dono" },
+        { "hebraico": "יִשְׂרָאֵל֙", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "יָדַ֔ע", "transliteral": "yā-ḏaʿ", "traducao_palavra": "conheceu/sabe" },
+        { "hebraico": "עַמִּ֖י", "transliteral": "ʿam-mî", "traducao_palavra": "meu povo" },
+        { "hebraico": "לֹ֥א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "הִתְבֹּונָֽן׃", "transliteral": "hiṯ-bô-nān", "traducao_palavra": "entendeu/considerou" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Ai da nação pecadora, do povo carregado de iniquidade, da semente de malfeitores, dos filhos corruptores! Deixaram a YHWH, blasfemaram do Santo de Israel, voltaram para trás.",
+      "palavras": [
+        { "hebraico": "הֹ֣וי ׀", "transliteral": "hôy", "traducao_palavra": "Ai" },
+        { "hebraico": "גֹּ֣וי", "transliteral": "gôy", "traducao_palavra": "[da] nação" },
+        { "hebraico": "חֹטֵ֗א", "transliteral": "ḥō-ṭê", "traducao_palavra": "pecadora" },
+        { "hebraico": "עַ֚ם", "transliteral": "ʿam", "traducao_palavra": "povo" },
+        { "hebraico": "כֶּ֣בֶד", "transliteral": "ke-ḇeḏ", "traducao_palavra": "pesado/carregado de" },
+        { "hebraico": "עָוֹ֔ן", "transliteral": "ʿā-wōn", "traducao_palavra": "iniquidade" },
+        { "hebraico": "זֶ֣רַע", "transliteral": "ze-raʿ", "traducao_palavra": "descendência de" },
+        { "hebraico": "מְרֵעִ֔ים", "transliteral": "mə-rê-ʿîm", "traducao_palavra": "malfeitores" },
+        { "hebraico": "בָּנִ֖ים", "transliteral": "bā-nîm", "traducao_palavra": "filhos" },
+        { "hebraico": "מַשְׁחִיתִ֑ים", "transliteral": "maš-ḥî-ṯîm", "traducao_palavra": "corruptores" },
+        { "hebraico": "עָזְב֣וּ", "transliteral": "ʿā-zə-ḇû", "traducao_palavra": "abandonaram" },
+        { "hebraico": "אֶת־יְהוָ֗ה", "transliteral": "ʾeṯ-YHWH", "traducao_palavra": "a YHWH" },
+        { "hebraico": "נִֽאֲצ֛וּ", "transliteral": "ni-ʾă-ṣû", "traducao_palavra": "desprezaram/blasfemaram" },
+        { "hebraico": "אֶת־קְדֹ֥ושׁ", "transliteral": "ʾeṯ-qə-ḏôš", "traducao_palavra": "o Santo de" },
+        { "hebraico": "יִשְׂרָאֵ֖ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "נָזֹ֥רוּ", "transliteral": "nā-zō-rû", "traducao_palavra": "estranharam-se/afastaram-se" },
+        { "hebraico": "אָחֹֽור׃", "transliteral": "ʾā-ḥôr", "traducao_palavra": "para trás" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Por que seríeis ainda feridos, visto que mais vos rebelais? Toda a cabeça está enferma e todo o coração desfalecido.",
+      "palavras": [
+        { "hebraico": "עַ֣ל", "transliteral": "ʿal", "traducao_palavra": "Sobre/Por" },
+        { "hebraico": "מֶ֥ה", "transliteral": "meh", "traducao_palavra": "que" },
+        { "hebraico": "תֻכּ֨וּ", "transliteral": "ṯuk-kû", "traducao_palavra": "seríeis feridos" },
+        { "hebraico": "עֹ֔וד", "transliteral": "ʿôḏ", "traducao_palavra": "ainda" },
+        { "hebraico": "תֹּוסִ֖יפוּ", "transliteral": "tô-śî-p̄û", "traducao_palavra": "continuais/acrescentais" },
+        { "hebraico": "סָרָ֑ה", "transliteral": "śā-rā", "traducao_palavra": "rebeldia" },
+        { "hebraico": "כָּל־רֹ֣אשׁ", "transliteral": "kāl-rōš", "traducao_palavra": "toda cabeça" },
+        { "hebraico": "לָחֳלִ֔י", "transliteral": "lā-ḥo-lî", "traducao_palavra": "[está para] doença" },
+        { "hebraico": "וְכָל־לֵבָ֖ב", "transliteral": "wə-ḵāl-lê-ḇāḇ", "traducao_palavra": "e todo coração" },
+        { "hebraico": "דַּוָּֽי׃", "transliteral": "daw-wāy", "traducao_palavra": "enfermo/desfalecido" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Desde a planta do pé até à cabeça não há nele coisa sã, senão feridas, e inchaços, e chagas vivas; não foram espremidas, nem atadas, nem amolecidas com óleo.",
+      "palavras": [
+        { "hebraico": "מִכַּף־רֶ֤גֶל", "transliteral": "mik-kap̄-re-ḡel", "traducao_palavra": "Desde a planta do pé" },
+        { "hebraico": "וְעַד־רֹ֨אשׁ֙", "transliteral": "wə-ʿaḏ-rōš", "traducao_palavra": "até a cabeça" },
+        { "hebraico": "אֵֽין־בֹּ֣ו", "transliteral": "ʾên-bô", "traducao_palavra": "não há nele" },
+        { "hebraico": "מְתֹ֔ם", "transliteral": "mə-ṯōm", "traducao_palavra": "saúde/integridade" },
+        { "hebraico": "פֶּ֥צַע", "transliteral": "pe-ṣaʿ", "traducao_palavra": "ferida" },
+        { "hebraico": "וְחַבּוּרָ֖ה", "transliteral": "wə-ḥab-bû-rā", "traducao_palavra": "e inchaço/contusão" },
+        { "hebraico": "וּמַכָּ֣ה", "transliteral": "ū-mak-kā", "traducao_palavra": "e chaga" },
+        { "hebraico": "טְרִיָּ֑ה", "transliteral": "ṭə-rî-yā", "traducao_palavra": "fresca/viva" },
+        { "hebraico": "לֹא־זֹ֨רוּ֙", "transliteral": "lō-zō-rû", "traducao_palavra": "não foram limpas/espremidas" },
+        { "hebraico": "וְלֹ֣א", "transliteral": "wə-lō", "traducao_palavra": "nem" },
+        { "hebraico": "חֻבָּ֔שׁוּ", "transliteral": "ḥub-bā-šû", "traducao_palavra": "atadas/enfaixadas" },
+        { "hebraico": "וְלֹ֥א", "transliteral": "wə-lō", "traducao_palavra": "nem" },
+        { "hebraico": "רֻכְּכָ֖ה", "transliteral": "ruk-kə-ḵā", "traducao_palavra": "suavizadas" },
+        { "hebraico": "בַּשָּֽׁמֶן׃", "transliteral": "baš-šā-men", "traducao_palavra": "com o óleo" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "A vossa terra está assolada, as vossas cidades consumidas pelo fogo; a vossa região os estrangeiros a devoram em vossa presença; e está assolada, como por uma subversão de estrangeiros.",
+      "palavras": [
+        { "hebraico": "אַרְצְכֶ֣ם", "transliteral": "ʾar-ṣə-ḵem", "traducao_palavra": "Vossa terra" },
+        { "hebraico": "שְׁמָמָ֔ה", "transliteral": "šə-mā-mā", "traducao_palavra": "[está] desolada" },
+        { "hebraico": "עָרֵיכֶ֖ם", "transliteral": "ʿā-rê-ḵem", "traducao_palavra": "vossas cidades" },
+        { "hebraico": "שְׂרֻפֹ֣ות", "transliteral": "śə-ru-p̄ôṯ", "traducao_palavra": "queimadas" },
+        { "hebraico": "אֵ֑שׁ", "transliteral": "ʾêš", "traducao_palavra": "[com] fogo" },
+        { "hebraico": "אַדְמַתְכֶ֗ם", "transliteral": "ʾaḏ-maṯ-ḵem", "traducao_palavra": "vossa solo/terra" },
+        { "hebraico": "לְנֶגְדְּכֶם֙", "transliteral": "lə-neḡ-də-ḵem", "traducao_palavra": "diante de vós" },
+        { "hebraico": "זָרִים֙", "transliteral": "zā-rîm", "traducao_palavra": "estrangeiros" },
+        { "hebraico": "אֹכְלִ֣ים", "transliteral": "ʾō-ḵə-lîm", "traducao_palavra": "comem/devoram" },
+        { "hebraico": "אֹתָ֔הּ", "transliteral": "ʾō-ṯāh", "traducao_palavra": "a ela" },
+        { "hebraico": "וּשְׁמָמָ֖ה", "transliteral": "ū-šə-mā-mā", "traducao_palavra": "e desolação" },
+        { "hebraico": "כְּמַהְפֵּכַ֥ת", "transliteral": "kə-mah-pê-ḵaṯ", "traducao_palavra": "como subversão de" },
+        { "hebraico": "זָרִֽים׃", "transliteral": "zā-rîm", "traducao_palavra": "estrangeiros" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "E a filha de Sião é deixada como a cabana na vinha, como a choça no pepinal, como cidade cercada.",
+      "palavras": [
+        { "hebraico": "וְנֹותְרָ֥ה", "transliteral": "wə-nô-ṯə-rā", "traducao_palavra": "E é deixada" },
+        { "hebraico": "בַת־צִיֹּ֖ון", "transliteral": "ḇaṯ-ṣî-yôn", "traducao_palavra": "[a] filha de Sião" },
+        { "hebraico": "כְּסֻכָּ֣ה", "transliteral": "kə-suk-kā", "traducao_palavra": "como cabana" },
+        { "hebraico": "בְכָ֑רֶם", "transliteral": "ḇə-ḵā-rem", "traducao_palavra": "na vinha" },
+        { "hebraico": "כִּמְלוּנָ֥ה", "transliteral": "kim-lû-nā", "traducao_palavra": "como choça/abrigo" },
+        { "hebraico": "בְמִקְשָׁ֖ה", "transliteral": "ḇə-miq-šā", "traducao_palavra": "no pepinal" },
+        { "hebraico": "כְּעִ֥יר", "transliteral": "kə-ʿîr", "traducao_palavra": "como cidade" },
+        { "hebraico": "נְצוּרָֽה׃", "transliteral": "nə-ṣû-rā", "traducao_palavra": "guardada/sitiada" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Se YHWH dos Exércitos não nos deixara algum remanescente, já como Sodoma seríamos e semelhantes a Gomorra.",
+      "palavras": [
+        { "hebraico": "לוּלֵי֙", "transliteral": "lû-lê", "traducao_palavra": "Se não" },
+        { "hebraico": "יְהוָ֣ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "צְבָאֹ֔ות", "transliteral": "ṣə-ḇā-ʾôṯ", "traducao_palavra": "[dos] Exércitos" },
+        { "hebraico": "הֹותִ֥יר", "transliteral": "hô-ṯîr", "traducao_palavra": "[nos] deixasse" },
+        { "hebraico": "לָ֛נוּ", "transliteral": "lā-nû", "traducao_palavra": "para nós" },
+        { "hebraico": "שָׂרִ֖יד", "transliteral": "śā-rîḏ", "traducao_palavra": "remanescente" },
+        { "hebraico": "כִּמְעָ֑ט", "transliteral": "kim-ʿāṭ", "traducao_palavra": "quase" },
+        { "hebraico": "כִּסְדֹ֣ם", "transliteral": "ki-śə-ḏōm", "traducao_palavra": "como Sodoma" },
+        { "hebraico": "הָיִ֔ינוּ", "transliteral": "hā-yî-nû", "traducao_palavra": "seríamos" },
+        { "hebraico": "לַעֲמֹרָ֖ה", "transliteral": "la-ʿă-mō-rā", "traducao_palavra": "a Gomorra" },
+        { "hebraico": "דָּמִֽינוּ׃", "transliteral": "dā-mî-nû", "traducao_palavra": "se assemelharíamos" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Ouvi a palavra de YHWH, vós, governantes de Sodoma; dá ouvidos à lei do nosso Deus, vós, povo de Gomorra.",
+      "palavras": [
+        { "hebraico": "שִׁמְע֥וּ", "transliteral": "šim-ʿû", "traducao_palavra": "Ouvi" },
+        { "hebraico": "דְבַר־יְהוָ֖ה", "transliteral": "də-ḇar-YHWH", "traducao_palavra": "[a] palavra de YHWH" },
+        { "hebraico": "קְצִינֵ֣י", "transliteral": "qə-ṣî-nê", "traducao_palavra": "governantes de" },
+        { "hebraico": "סְדֹ֑ם", "transliteral": "śə-ḏōm", "traducao_palavra": "Sodoma" },
+        { "hebraico": "הַאֲזִ֨ינוּ֙", "transliteral": "ha-ʾă-zî-nû", "traducao_palavra": "dai ouvidos" },
+        { "hebraico": "תֹּורַ֣ת", "transliteral": "tô-raṯ", "traducao_palavra": "[à] lei de" },
+        { "hebraico": "אֱלֹהֵ֔ינוּ", "transliteral": "ʾĕ-lō-hê-nû", "traducao_palavra": "nosso Deus" },
+        { "hebraico": "עַ֖ם", "transliteral": "ʿam", "traducao_palavra": "povo de" },
+        { "hebraico": "עֲמֹרָֽה׃", "transliteral": "ʿă-mō-rā", "traducao_palavra": "Gomorra" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "De que me serve a mim a multidão de vossos sacrifícios, diz YHWH? Já estou farto dos holocaustos de carneiros e da gordura de animais cevados; e não me agrado do sangue de bezerros, nem de cordeiros, nem de bodes.",
+      "palavras": [
+        { "hebraico": "לָמָּה־לִּ֨י", "transliteral": "lām-mā-lî", "traducao_palavra": "Para que me [serve]" },
+        { "hebraico": "רֹב־זִבְחֵיכֶ֜ם", "transliteral": "rōḇ-ziḇ-ḥê-ḵem", "traducao_palavra": "[a] multidão de vossos sacrifícios" },
+        { "hebraico": "יֹאמַ֣ר", "transliteral": "yō-mar", "traducao_palavra": "diz" },
+        { "hebraico": "יְהוָ֗ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "שָׂבַ֨עְתִּי֙", "transliteral": "śā-ḇa-ʿatî", "traducao_palavra": "estou farto [de]" },
+        { "hebraico": "עֹלֹ֣ות", "transliteral": "ʿō-lôṯ", "traducao_palavra": "holocaustos de" },
+        { "hebraico": "אֵילִ֔ים", "transliteral": "ʾê-lîm", "traducao_palavra": "carneiros" },
+        { "hebraico": "וְחֵ֥לֶב", "transliteral": "wə-ḥê-leḇ", "traducao_palavra": "e gordura de" },
+        { "hebraico": "מְרִיאִ֑ים", "transliteral": "mə-rî-ʾîm", "traducao_palavra": "animais gordos" },
+        { "hebraico": "וְדַ֨ם", "transliteral": "wə-ḏam", "traducao_palavra": "e sangue de" },
+        { "hebraico": "פָּרִ֧ים", "transliteral": "pā-rîm", "traducao_palavra": "novilhos" },
+        { "hebraico": "וּכְבָשִׂ֛ים", "transliteral": "ū-ḵə-ḇā-śîm", "traducao_palavra": "e cordeiros" },
+        { "hebraico": "וְעַתּוּדִ֖ים", "transliteral": "wə-ʿat-tū-ḏîm", "traducao_palavra": "e bodes" },
+        { "hebraico": "לֹ֥א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "חָפָֽצְתִּי׃", "transliteral": "ḥā-p̄ā-ṣə-tî", "traducao_palavra": "me agrado/desejo" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Quando vindes para comparecer perante mim, quem requereu isto de vossas mãos, que pisásseis os meus átrios?",
+      "palavras": [
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "Quando" },
+        { "hebraico": "תָבֹ֔אוּ", "transliteral": "ṯā-ḇō-ʾû", "traducao_palavra": "vindes" },
+        { "hebraico": "לֵרָאֹ֖ות", "transliteral": "lê-rā-ʾôṯ", "traducao_palavra": "para ser visto/comparecer" },
+        { "hebraico": "פָּנָ֑י", "transliteral": "pā-nāy", "traducao_palavra": "face minha" },
+        { "hebraico": "מִי־בִקֵּ֥שׁ", "transliteral": "mî-ḇiq-qêš", "traducao_palavra": "quem requereu/buscou" },
+        { "hebraico": "זֹ֛את", "transliteral": "zōṯ", "traducao_palavra": "isto" },
+        { "hebraico": "מִיֶּדְכֶ֖ם", "transliteral": "miy-yeḏ-ḵem", "traducao_palavra": "da vossa mão" },
+        { "hebraico": "רְמֹ֥ס", "transliteral": "rə-mōs", "traducao_palavra": "pisar" },
+        { "hebraico": "חֲצֵרָֽי׃", "transliteral": "ḥă-ṣê-rāy", "traducao_palavra": "meus átrios" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Não tragais mais ofertas vãs; o incenso é para mim abominação, e também as luas novas, e os sábados, e a convocação das assembleias; não posso suportar a iniquidade ajuntada ao ajuntamento solene.",
+      "palavras": [
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "Não" },
+        { "hebraico": "תֹוסִ֨יפוּ֙", "transliteral": "ṯô-śî-p̄û", "traducao_palavra": "torneis a/acrescenteis" },
+        { "hebraico": "הָבִ֣יא", "transliteral": "hā-ḇî", "traducao_palavra": "trazer" },
+        { "hebraico": "מִנְחַת־שָׁ֔וְא", "transliteral": "min-ḥaṯ-šāw", "traducao_palavra": "oferta vã/falsa" },
+        { "hebraico": "קְטֹ֧רֶת", "transliteral": "qə-ṭō-reṯ", "traducao_palavra": "incenso" },
+        { "hebraico": "תֹּועֵבָ֥ה", "transliteral": "tô-ʿê-ḇā", "traducao_palavra": "[é] abominação" },
+        { "hebraico": "הִ֖יא", "transliteral": "hî", "traducao_palavra": "ele [é]" },
+        { "hebraico": "לִ֑י", "transliteral": "lî", "traducao_palavra": "para mim" },
+        { "hebraico": "חֹ֤דֶשׁ", "transliteral": "ḥō-ḏeš", "traducao_palavra": "Lua nova" },
+        { "hebraico": "וְשַׁבָּת֙", "transliteral": "wə-šab-bāṯ", "traducao_palavra": "e sábado" },
+        { "hebraico": "קְרֹ֣א", "transliteral": "qə-rō", "traducao_palavra": "convocação de" },
+        { "hebraico": "מִקְרָ֔א", "transliteral": "miq-rā", "traducao_palavra": "assembleia" },
+        { "hebraico": "לֹא־אוּכַ֥ל", "transliteral": "lō-ʾû-ḵal", "traducao_palavra": "não posso [suportar]" },
+        { "hebraico": "אָ֖וֶן", "transliteral": "ʾā-wen", "traducao_palavra": "iniquidade" },
+        { "hebraico": "וַעֲצָרָֽה׃", "transliteral": "wa-ʿă-ṣā-rā", "traducao_palavra": "e ajuntamento solene" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "As vossas luas novas, e as vossas solenidades, a minha alma as odeia; já me são pesadas; já estou cansado de as sofrer.",
+      "palavras": [
+        { "hebraico": "חָדְשֵׁיכֶ֣ם", "transliteral": "ḥāḏ-šê-ḵem", "traducao_palavra": "Vossas luas novas" },
+        { "hebraico": "וּמֹועֲדֵיכֶם֙", "transliteral": "ū-mô-ʿă-ḏê-ḵem", "traducao_palavra": "e vossas festas fixas" },
+        { "hebraico": "שָׂנְאָ֣ה", "transliteral": "śā-nə-ʾā", "traducao_palavra": "odiou" },
+        { "hebraico": "נַפְשִׁ֔י", "transliteral": "nap̄-šî", "traducao_palavra": "minha alma" },
+        { "hebraico": "הָי֥וּ", "transliteral": "hā-yû", "traducao_palavra": "elas foram" },
+        { "hebraico": "עָלַ֖י", "transliteral": "ʿā-lay", "traducao_palavra": "sobre mim" },
+        { "hebraico": "לָטֹ֑רַח", "transliteral": "lā-ṭō-raḥ", "traducao_palavra": "para carga/fardo" },
+        { "hebraico": "נִלְאֵ֖יתִי", "transliteral": "nil-ʾê-ṯî", "traducao_palavra": "estou cansado" },
+        { "hebraico": "נְשֹֽׂא׃", "transliteral": "nə-śō", "traducao_palavra": "de carregar/sofrer" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "E quando estenderdes as vossas mãos, esconderei de vós os meus olhos; e ainda que multipliqueis as vossas orações, não as ouvirei; as vossas mãos estão cheias de sangue.",
+      "palavras": [
+        { "hebraico": "וּבְפָרִשְׂכֶ֣ם", "transliteral": "ū-ḇə-p̄ā-riś-ḵem", "traducao_palavra": "E ao estenderdes" },
+        { "hebraico": "כַּפֵּיכֶ֗ם", "transliteral": "kap-pê-ḵem", "traducao_palavra": "vossas mãos" },
+        { "hebraico": "אַעְלִ֤ים", "transliteral": "ʾaʿ-lîm", "traducao_palavra": "esconderei" },
+        { "hebraico": "עֵינַי֙", "transliteral": "ʿê-nay", "traducao_palavra": "meus olhos" },
+        { "hebraico": "מִכֶּ֔ם", "transliteral": "mik-kem", "traducao_palavra": "de vós" },
+        { "hebraico": "גַּ֛ם", "transliteral": "gam", "traducao_palavra": "também" },
+        { "hebraico": "כִּֽי־", "transliteral": "kî-", "traducao_palavra": "quando" },
+        { "hebraico": "תַרְבּ֥וּ", "transliteral": "ṯar-bû", "traducao_palavra": "multiplicardes" },
+        { "hebraico": "תְפִלָּ֖ה", "transliteral": "ṯə-p̄il-lā", "traducao_palavra": "[a] oração" },
+        { "hebraico": "אֵינֶ֣נִּי", "transliteral": "ʾê-nen-nî", "traducao_palavra": "não [estou]" },
+        { "hebraico": "שֹׁמֵ֑עַ", "transliteral": "šō-mê-aʿ", "traducao_palavra": "ouvindo" },
+        { "hebraico": "יְדֵיכֶ֖ם", "transliteral": "yə-ḏê-ḵem", "traducao_palavra": "vossas mãos" },
+        { "hebraico": "דָּמִ֥ים", "transliteral": "dā-mîm", "traducao_palavra": "[de] sangues" },
+        { "hebraico": "מָלֵֽאוּ׃", "transliteral": "mā-lê-ʾû", "traducao_palavra": "estão cheias" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Lavai-vos, purificai-vos, tirai a maldade de vossos atos de diante dos meus olhos; cessai de fazer o mal.",
+      "palavras": [
+        { "hebraico": "רַחֲצ֕וּ", "transliteral": "ra-ḥă-ṣû", "traducao_palavra": "lavai-vos" },
+        { "hebraico": "הִזַּכּ֑וּ", "transliteral": "hiz-zak-kû", "traducao_palavra": "purificai-vos" },
+        { "hebraico": "הָסִ֨ירוּ֙", "transliteral": "hā-śî-rû", "traducao_palavra": "tirai/removei" },
+        { "hebraico": "רֹ֣עַ", "transliteral": "rō-aʿ", "traducao_palavra": "[a] maldade de" },
+        { "hebraico": "מַעַלְלֵיכֶ֔ם", "transliteral": "ma-ʿal-lê-ḵem", "traducao_palavra": "vossos atos" },
+        { "hebraico": "מִנֶּ֖גֶד", "transliteral": "min-ne-ḡeḏ", "traducao_palavra": "de diante de" },
+        { "hebraico": "עֵינָ֑י", "transliteral": "ʿê-nāy", "traducao_palavra": "meus olhos" },
+        { "hebraico": "חִדְל֖וּ", "transliteral": "ḥiḏ-lû", "traducao_palavra": "cessai" },
+        { "hebraico": "הָרֵֽעַ׃", "transliteral": "hā-rê-aʿ", "traducao_palavra": "[de] fazer o mal" }
+      ]
+    },
+    "17": {
+      "traducao_completa": "Aprendei a fazer o bem; buscai o juízo, acabai com a opressão, fazei justiça ao órfão, defendei a causa da viúva.",
+      "palavras": [
+        { "hebraico": "לִמְד֥וּ", "transliteral": "lim-ḏû", "traducao_palavra": "aprender" },
+        { "hebraico": "הֵיטֵ֛ב", "transliteral": "hê-ṭêḇ", "traducao_palavra": "[a] fazer o bem" },
+        { "hebraico": "דִּרְשׁ֥וּ", "transliteral": "dir-šû", "traducao_palavra": "buscai" },
+        { "hebraico": "מִשְׁפָּ֖ט", "transliteral": "miš-pāṭ", "traducao_palavra": "[o] juízo" },
+        { "hebraico": "אַשְּׁר֣וּ", "transliteral": "ʾaš-šə-rû", "traducao_palavra": "endireitai/ajudai" },
+        { "hebraico": "חָמֹ֑וץ", "transliteral": "ḥā-môṣ", "traducao_palavra": "[o] oprimido" },
+        { "hebraico": "שִׁפְט֣וּ", "transliteral": "šip̄-ṭû", "traducao_palavra": "julgai/fazei justiça" },
+        { "hebraico": "יָתֹ֔ום", "transliteral": "yā-ṯôm", "traducao_palavra": "[ao] órfão" },
+        { "hebraico": "רִ֖יבוּ", "transliteral": "rî-ḇû", "traducao_palavra": "defendei/pleiteai" },
+        { "hebraico": "אַלְמָנָֽה׃", "transliteral": "ʾal-mā-nā", "traducao_palavra": "[a] viúva" }
+      ]
+    },
+    "18": {
+      "traducao_completa": "Vinde agora, e arguamo-nos, diz YHWH: ainda que os vossos pecados sejam como a escarlata, eles se tornarão brancos como a neve; ainda que sejam vermelhos como o carmesim, tornar-se-ão como a lã.",
+      "palavras": [
+        { "hebraico": "לְכוּ־נָ֛א", "transliteral": "lə-ḵû-nā", "traducao_palavra": "vinde agora" },
+        { "hebraico": "וְנִוָּֽכְחָ֖ה", "transliteral": "wə-niw-wā-ḵə-ḥā", "traducao_palavra": "e arrazoemos/arguamo-nos" },
+        { "hebraico": "יֹאמַ֣ר", "transliteral": "yō-mar", "traducao_palavra": "diz" },
+        { "hebraico": "יְהוָ֑ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אִם־יִֽהְי֨וּ", "transliteral": "ʾim-yih-yû", "traducao_palavra": "se forem" },
+        { "hebraico": "חֲטָאֵיכֶ֤ם", "transliteral": "ḥă-ṭā-ʾê-ḵem", "traducao_palavra": "vossos pecados" },
+        { "hebraico": "כַּשָּׁנִים֙", "transliteral": "kaš-šā-nîm", "traducao_palavra": "como escarlata" },
+        { "hebraico": "כַּשֶּׁ֣לֶג", "transliteral": "kaš-še-leḡ", "traducao_palavra": "como a neve" },
+        { "hebraico": "יַלְבִּ֔ינוּ", "transliteral": "yal-bî-nû", "traducao_palavra": "se tornarão brancos" },
+        { "hebraico": "אִם־יַאְדִּ֥ימוּ", "transliteral": "ʾim-ya-ʾə-ḏî-mû", "traducao_palavra": "se forem vermelhos" },
+        { "hebraico": "כַתֹּולָ֖ע", "transliteral": "ḵat-tô-lāʿ", "traducao_palavra": "como carmesim" },
+        { "hebraico": "כַּצֶּ֥מֶר", "transliteral": "kaṣ-ṣe-mer", "traducao_palavra": "como a lã" },
+        { "hebraico": "יִהְיֽוּ׃", "transliteral": "yih-yû", "traducao_palavra": "serão" }
+      ]
+    },
+    "19": {
+      "traducao_completa": "Se quiserdes, e ouvirdes, comereis o bem desta terra.",
+      "palavras": [
+        { "hebraico": "אִם־תֹּאב֖וּ", "transliteral": "ʾim-tō-ḇû", "traducao_palavra": "se quiserdes" },
+        { "hebraico": "וּשְׁמַעְתֶּ֑ם", "transliteral": "ū-šə-ma-ʿə-tem", "traducao_palavra": "e ouvirdes" },
+        { "hebraico": "טוּב", "transliteral": "ṭûḇ", "traducao_palavra": "[o] melhor/bem de" },
+        { "hebraico": "הָאָ֖רֶץ", "transliteral": "hā-ʾā-reṣ", "traducao_palavra": "a terra" },
+        { "hebraico": "תֹּאכֵֽלוּ׃", "transliteral": "tō-ḵê-lû", "traducao_palavra": "comereis" }
+      ]
+    },
+    "20": {
+      "traducao_completa": "Mas se recusardes, e fordes rebeldes, sereis devorados pela espada; porque a boca de YHWH o disse.",
+      "palavras": [
+        { "hebraico": "וְאִם־תְּמָאֲנ֖וּ", "transliteral": "wə-ʾim-tə-mā-ʾă-nû", "traducao_palavra": "mas se recusardes" },
+        { "hebraico": "וּמְרִיתֶ֑ם", "transliteral": "ū-mə-rî-ṯem", "traducao_palavra": "e fordes rebeldes" },
+        { "hebraico": "חֶ֚רֶב", "transliteral": "ḥe-reḇ", "traducao_palavra": "[pela] espada" },
+        { "hebraico": "תֻּאכְּל֔וּ", "transliteral": "tuk-kə-lû", "traducao_palavra": "sereis devorados" },
+        { "hebraico": "כִּ֛י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "פִּ֥י", "transliteral": "pî", "traducao_palavra": "[a] boca de" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "דִּבֵּֽר׃", "transliteral": "dib-bêr", "traducao_palavra": "falou" }
+      ]
+    },
+    "21": {
+      "traducao_completa": "Como se tornou prostituta a cidade fiel! Ela que estava cheia de justiça! A retidão habitava nela, mas agora assassinos.",
+      "palavras": [
+        { "hebraico": "אֵיכָה֙", "transliteral": "ʾê-ḵā", "traducao_palavra": "Como" },
+        { "hebraico": "הָיְתָ֣ה", "transliteral": "hā-yə-ṯā", "traducao_palavra": "tornou-se" },
+        { "hebraico": "לְזֹונָ֔ה", "transliteral": "lə-zô-nā", "traducao_palavra": "prostituta" },
+        { "hebraico": "קִרְיָ֖ה", "transliteral": "qir-yā", "traducao_palavra": "[a] cidade" },
+        { "hebraico": "נֶאֱמָנָ֑ה", "transliteral": "ne-ʾĕ-mā-nā", "traducao_palavra": "fiel" },
+        { "hebraico": "מְלֵאֲתִ֣י", "transliteral": "mə-lê-ʾă-ṯî", "traducao_palavra": "[estava] cheia de" },
+        { "hebraico": "מִשְׁפָּ֗ט", "transliteral": "miš-pāṭ", "traducao_palavra": "juízo" },
+        { "hebraico": "צֶ֧דֶק", "transliteral": "ṣe-ḏeq", "traducao_palavra": "justiça" },
+        { "hebraico": "יָלִ֥ין", "transliteral": "yā-lîn", "traducao_palavra": "habitava" },
+        { "hebraico": "בָּ֖הּ", "transliteral": "bāh", "traducao_palavra": "nela" },
+        { "hebraico": "וְעַתָּ֥ה", "transliteral": "wə-ʿat-tā", "traducao_palavra": "mas agora" },
+        { "hebraico": "מְרַצְּחִֽים׃", "transliteral": "mə-raṣ-ṣə-ḥîm", "traducao_palavra": "assassinos" }
+      ]
+    },
+    "22": {
+      "traducao_completa": "A tua prata tornou-se em escórias, o teu vinho misturou-se com água.",
+      "palavras": [
+        { "hebraico": "כַּסְפֵּ֖ךְ", "transliteral": "kas-pêḵ", "traducao_palavra": "Tua prata" },
+        { "hebraico": "הָיָ֣ה", "transliteral": "hā-yā", "traducao_palavra": "tornou-se" },
+        { "hebraico": "לְסִיגִ֑ים", "transliteral": "lə-śî-ḡîm", "traducao_palavra": "em escórias" },
+        { "hebraico": "סָבְאֵ֖ךְ", "transliteral": "śā-ḇə-ʾêḵ", "traducao_palavra": "teu vinho" },
+        { "hebraico": "מָה֥וּל", "transliteral": "mā-hûl", "traducao_palavra": "diluído/misturado" },
+        { "hebraico": "בַּמָּֽיִם׃", "transliteral": "bam-mā-yim", "traducao_palavra": "com água" }
+      ]
+    },
+    "23": {
+      "traducao_completa": "Os teus príncipes são rebeldes, e companheiros de ladrões; cada um deles ama o suborno, e corre após recompensas; não fazem justiça ao órfão, e não chega perante eles a causa da viúva.",
+      "palavras": [
+        { "hebraico": "שָׂרַ֣יִךְ", "transliteral": "śā-ra-yiḵ", "traducao_palavra": "Teus príncipes" },
+        { "hebraico": "סֹורְרִ֗ים", "transliteral": "śô-rə-rîm", "traducao_palavra": "[são] rebeldes" },
+        { "hebraico": "וְחַבְרֵי֙", "transliteral": "wə-ḥaḇ-rê", "traducao_palavra": "e companheiros de" },
+        { "hebraico": "גַּנָּבִ֔ים", "transliteral": "gan-nā-ḇîm", "traducao_palavra": "ladrões" },
+        { "hebraico": "כֻּלֹּו֙", "transliteral": "kul-lô", "traducao_palavra": "cada um deles" },
+        { "hebraico": "אֹהֵ֣ב", "transliteral": "ʾō-hēḇ", "traducao_palavra": "ama" },
+        { "hebraico": "שֹׁ֔חַד", "transliteral": "šō-ḥaḏ", "traducao_palavra": "[o] suborno" },
+        { "hebraico": "וְרֹדֵ֖ף", "transliteral": "wə-rō-ḏēp̄", "traducao_palavra": "e persegue" },
+        { "hebraico": "שַׁלְמֹנִ֑ים", "transliteral": "šal-mō-nîm", "traducao_palavra": "recompensas" },
+        { "hebraico": "יָתֹום֙", "transliteral": "yā-ṯôm", "traducao_palavra": "[ao] órfão" },
+        { "hebraico": "לֹ֣א", "transliteral": "lō", "traducao_palavra": "não" },
+        { "hebraico": "יִשְׁפֹּ֔טוּ", "transliteral": "yiš-pō-ṭû", "traducao_palavra": "julgam" },
+        { "hebraico": "וְרִ֥יב", "transliteral": "wə-rîḇ", "traducao_palavra": "e a causa de" },
+        { "hebraico": "אַלְמָנָ֖ה", "transliteral": "ʾal-mā-nā", "traducao_palavra": "viúva" },
+        { "hebraico": "לֹֽא־יָבֹ֥וא", "transliteral": "lō-yā-ḇô", "traducao_palavra": "não chega" },
+        { "hebraico": "אֲלֵיהֶֽם׃", "transliteral": "ʾă-lê-hem", "traducao_palavra": "a eles" }
+      ]
+    },
+    "24": {
+      "traducao_completa": "Portanto diz o Senhor, YHWH dos Exércitos, o Poderoso de Israel: Ah! consolar-me-ei acerca dos meus adversários, e vingar-me-ei dos meus inimigos.",
+      "palavras": [
+        { "hebraico": "לָכֵן֙", "transliteral": "lā-ḵên", "traducao_palavra": "Portanto" },
+        { "hebraico": "נְאֻ֧ם", "transliteral": "nə-ʾum", "traducao_palavra": "declaração de" },
+        { "hebraico": "הָאָדֹ֛ון", "transliteral": "hā-ʾā-ḏôn", "traducao_palavra": "o Senhor" },
+        { "hebraico": "יְהוָ֥ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "צְבָאֹ֖ות", "transliteral": "ṣə-ḇā-ʾôṯ", "traducao_palavra": "[dos] Exércitos" },
+        { "hebraico": "אֲבִ֣יר", "transliteral": "ʾă-ḇîr", "traducao_palavra": "o Poderoso de" },
+        { "hebraico": "יִשְׂרָאֵ֑ל", "transliteral": "yiś-rā-ʾēl", "traducao_palavra": "Israel" },
+        { "hebraico": "הֹ֚וי", "transliteral": "hôy", "traducao_palavra": "Ah!" },
+        { "hebraico": "אֶנָּחֵ֣ם", "transliteral": "ʾen-nā-ḥêm", "traducao_palavra": "consolar-me-ei/desforrar-me-ei" },
+        { "hebraico": "מִצָּרַ֔י", "transliteral": "miṣ-ṣā-ray", "traducao_palavra": "dos meus adversários" },
+        { "hebraico": "וְאִנָּקְמָ֖ה", "transliteral": "wə-ʾin-nā-qə-mā", "traducao_palavra": "e vingar-me-ei" },
+        { "hebraico": "מֵאֹויְבָֽי׃", "transliteral": "mê-ʾô-yə-ḇāy", "traducao_palavra": "dos meus inimigos" }
+      ]
+    },
+    "25": {
+      "traducao_completa": "E voltarei a minha mão contra ti, e purificarei inteiramente as tuas escórias, e tirarei todo o teu estanho.",
+      "palavras": [
+        { "hebraico": "וְאָשִׁ֤יבָה", "transliteral": "wə-ʾā-šî-ḇā", "traducao_palavra": "E voltarei" },
+        { "hebraico": "יָדִי֙", "transliteral": "yā-ḏî", "traducao_palavra": "minha mão" },
+        { "hebraico": "עָלַ֔יִךְ", "transliteral": "ʿā-la-yiḵ", "traducao_palavra": "contra ti" },
+        { "hebraico": "וְאֶצְרֹ֥ף", "transliteral": "wə-ʾeṣ-rōp̄", "traducao_palavra": "e purificarei/refinarei" },
+        { "hebraico": "כַּבֹּ֖ר", "transliteral": "kab-bōr", "traducao_palavra": "como com soda/puramente" },
+        { "hebraico": "סִיגָ֑יִךְ", "transliteral": "śî-ḡā-yiḵ", "traducao_palavra": "tuas escórias" },
+        { "hebraico": "וְאָסִ֖יר", "transliteral": "wə-ʾā-śîr", "traducao_palavra": "e tirarei" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todo" },
+        { "hebraico": "בְּדִילָֽיִךְ׃", "transliteral": "bə-ḏî-lā-yiḵ", "traducao_palavra": "teu estanho/chumbo" }
+      ]
+    },
+    "26": {
+      "traducao_completa": "E te restituirei os teus juízes, como foram dantes; e os teus conselheiros, como no princípio; e depois te chamarão cidade de justiça, cidade fiel.",
+      "palavras": [
+        { "hebraico": "וְאָשִׁ֤יבָה", "transliteral": "wə-ʾā-šî-ḇā", "traducao_palavra": "E restituirei" },
+        { "hebraico": "שֹׁפְטַ֨יִךְ֙", "transliteral": "šō-p̄ə-ṭa-yiḵ", "traducao_palavra": "teus juízes" },
+        { "hebraico": "כְּבָרִאשֹׁנָ֔ה", "transliteral": "kə-ḇā-ri-šō-nā", "traducao_palavra": "como no princípio" },
+        { "hebraico": "וְיֹעֲצַ֖יִךְ", "transliteral": "wə-yō-ʿă-ṣa-yiḵ", "traducao_palavra": "e teus conselheiros" },
+        { "hebraico": "כְּבַתְּחִלָּ֑ה", "transliteral": "kə-ḇat-tə-ḥil-lā", "traducao_palavra": "como no começo" },
+        { "hebraico": "אַחֲרֵי־כֵ֗ן", "transliteral": "ʾa-ḥă-rê-ḵên", "traducao_palavra": "depois disso" },
+        { "hebraico": "יִקָּ֤רֵא", "transliteral": "yiq-qā-rê", "traducao_palavra": "será chamada" },
+        { "hebraico": "לָךְ֙", "transliteral": "lāḵ", "traducao_palavra": "a ti" },
+        { "hebraico": "עִ֣יר", "transliteral": "ʿîr", "traducao_palavra": "cidade de" },
+        { "hebraico": "הַצֶּ֔דֶק", "transliteral": "haṣ-ṣe-ḏeq", "traducao_palavra": "justiça" },
+        { "hebraico": "קִרְיָ֖ה", "transliteral": "qir-yā", "traducao_palavra": "cidade" },
+        { "hebraico": "נֶאֱמָנָֽה׃", "transliteral": "ne-ʾĕ-mā-nā", "traducao_palavra": "fiel" }
+      ]
+    },
+    "27": {
+      "traducao_completa": "Sião será remida pelo juízo, e os que voltam para ela, pela justiça.",
+      "palavras": [
+        { "hebraico": "צִיֹּ֖ון", "transliteral": "ṣî-yôn", "traducao_palavra": "Sião" },
+        { "hebraico": "בְּמִשְׁפָּ֣ט", "transliteral": "bə-miš-pāṭ", "traducao_palavra": "pelo juízo" },
+        { "hebraico": "תִּפָּדֶ֑ה", "transliteral": "tip-pā-ḏeh", "traducao_palavra": "será remida" },
+        { "hebraico": "וְשָׁבֶ֖יהָ", "transliteral": "wə-šā-ḇe-hā", "traducao_palavra": "e os seus que voltam" },
+        { "hebraico": "בִּצְדָקָֽה׃", "transliteral": "biṣ-ḏā-qā", "traducao_palavra": "pela justiça" }
+      ]
+    },
+    "28": {
+      "traducao_completa": "Mas os transgressores e os pecadores serão juntamente destruídos; e os que deixarem a YHWH perecerão.",
+      "palavras": [
+        { "hebraico": "וְשֶׁ֧בֶר", "transliteral": "wə-še-ḇer", "traducao_palavra": "E a destruição de" },
+        { "hebraico": "פֹּשְׁעִ֛ים", "transliteral": "pō-šə-ʿîm", "traducao_palavra": "transgressores" },
+        { "hebraico": "וְחַטָּאִ֖ים", "transliteral": "wə-ḥaṭ-ṭā-ʾîm", "traducao_palavra": "e pecadores" },
+        { "hebraico": "יַחְדָּ֑ו", "transliteral": "yaḥ-dāw", "traducao_palavra": "juntamente" },
+        { "hebraico": "וְעֹזְבֵ֥י", "transliteral": "wə-ʿō-zə-ḇê", "traducao_palavra": "e os que abandonam" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "יִכְלֽוּ׃", "transliteral": "yik-lû", "traducao_palavra": "perecerão/serão consumidos" }
+      ]
+    },
+    "29": {
+      "traducao_completa": "Porque vos envergonhareis dos carvalhos que desejastes, e sereis confundidos pelos jardins que escolhestes.",
+      "palavras": [
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "Porque" },
+        { "hebraico": "יֵבֹ֖שׁוּ", "transliteral": "yē-ḇō-šû", "traducao_palavra": "se envergonharão" },
+        { "hebraico": "מֵאֵילִים", "transliteral": "mê-ʾê-lîm", "traducao_palavra": "dos carvalhos/ídolos" },
+        { "hebraico": "אֲשֶׁ֣ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "חֲמַדְתֶּ֑ם", "transliteral": "ḥă-maḏ-tem", "traducao_palavra": "desejastes" },
+        { "hebraico": "וְתַחְפְּר֕וּ", "transliteral": "wə-ṯaḥ-pə-rû", "traducao_palavra": "e sereis confundidos/envergonhados" },
+        { "hebraico": "מֵהַגַּנֹּ֖ות", "transliteral": "mê-hag-gan-nôṯ", "traducao_palavra": "pelos jardins" },
+        { "hebraico": "אֲשֶׁ֥ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "בְּחַרְתֶּֽם׃", "transliteral": "bə-ḥar-tem", "traducao_palavra": "escolhestes" }
+      ]
+    },
+    "30": {
+      "traducao_completa": "Porque sereis como o carvalho, cuja folha murcha, e como o jardim que não tem água.",
+      "palavras": [
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "Porque" },
+        { "hebraico": "תִֽהְי֔וּ", "transliteral": "ṯih-yû", "traducao_palavra": "sereis" },
+        { "hebraico": "כְּאֵלָ֖ה", "transliteral": "kə-ʾê-lā", "traducao_palavra": "como carvalho/terebinto" },
+        { "hebraico": "נֹבֶ֣לֶת", "transliteral": "nō-ḇe-leṯ", "traducao_palavra": "murchando" },
+        { "hebraico": "עָלֶ֑הָ", "transliteral": "ʿā-le-hā", "traducao_palavra": "sua folha" },
+        { "hebraico": "וּכְגַנָּ֕ה", "transliteral": "ū-ḵə-gan-nā", "traducao_palavra": "e como jardim" },
+        { "hebraico": "אֲשֶׁר־מַ֖יִם", "transliteral": "ʾă-šer-ma-yim", "traducao_palavra": "que água" },
+        { "hebraico": "אֵ֥ין", "transliteral": "ʾên", "traducao_palavra": "não [há]" },
+        { "hebraico": "לָֽהּ׃", "transliteral": "lāh", "traducao_palavra": "para ele" }
+      ]
+    },
+    "31": {
+      "traducao_completa": "E o forte tornar-se-á em estopa, e a sua obra em faísca; e ambos arderão juntamente, e não haverá quem os apague.",
+      "palavras": [
+        { "hebraico": "וְהָיָ֥ה", "transliteral": "wə-hā-yā", "traducao_palavra": "E será" },
+        { "hebraico": "הֶחָסֹ֣ן", "transliteral": "he-ḥā-śōn", "traducao_palavra": "o forte" },
+        { "hebraico": "לִנְעֹ֔רֶת", "transliteral": "lin-ʿō-reṯ", "traducao_palavra": "em estopa/fibras" },
+        { "hebraico": "וּפֹעֲלֹ֖ו", "transliteral": "ū-p̄ō-ʿă-lô", "traducao_palavra": "e sua obra" },
+        { "hebraico": "לְנִיצֹ֑וץ", "transliteral": "lə-nî-ṣôṣ", "traducao_palavra": "em centelha/faísca" },
+        { "hebraico": "וּבָעֲר֧וּ", "transliteral": "ū-ḇā-ʿă-rû", "traducao_palavra": "e arderão" },
+        { "hebraico": "שְׁנֵיהֶ֛ם", "transliteral": "šə-nê-hem", "traducao_palavra": "ambos eles" },
+        { "hebraico": "יַחְדָּ֖ו", "transliteral": "yaḥ-dāw", "traducao_palavra": "juntamente" },
+        { "hebraico": "וְאֵ֥ין", "transliteral": "wə-ʾên", "traducao_palavra": "e não [haverá]" },
+        { "hebraico": "מְכַבֶּֽה׃", "transliteral": "mə-ḵab-beh", "traducao_palavra": "quem apague" }
+      ]
+    }
+  }
 }

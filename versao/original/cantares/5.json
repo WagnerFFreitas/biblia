@@ -1,6 +1,132 @@
 {
-  "livro": "Cantares - שִׁיר הַשִּׁירִים - Shir HaShirim",
-  "capítulo": 5,
+  "livro": "Cantares - שִׁיר הַשִּׁירִים - Shir Hashirim",
+  "capítulo": 4,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "9": {
+      "traducao_completa": "Arrebataste-me o coração, minha irmã, minha esposa; arrebataste-me o coração com um só dos teus olhares, com um só colar do teu pescoço.",
+      "palavras": [
+        { "hebraico": "לִבַּבְתִּ֖נִי", "transliteral": "lib-baḇ-ti-nî", "traducao_palavra": "Arrebataste-me o coração" },
+        { "hebraico": "אֲחֹתִ֣י", "transliteral": "ʾă-ḥō-ṯî", "traducao_palavra": "minha irmã" },
+        { "hebraico": "כַלָּ֑ה", "transliteral": "ḵal-lā", "traducao_palavra": "[minha] noiva/esposa" },
+        { "hebraico": "לִבַּבְתִּ֨ינִי֙", "transliteral": "lib-baḇ-ti-nî", "traducao_palavra": "arrebataste-me o coração" },
+        { "hebraico": "בְּאַחַ֣ת", "transliteral": "bə-ʾa-ḥaṯ", "traducao_palavra": "com uma" },
+        { "hebraico": "מֵעֵינַ֔יִךְ", "transliteral": "mê-ʿê-na-yiḵ", "traducao_palavra": "de tuas vistas/olhares" },
+        { "hebraico": "בְּאַחַ֥ד", "transliteral": "bə-ʾa-ḥaḏ", "traducao_palavra": "com um" },
+        { "hebraico": "עֲנָ֥ק", "transliteral": "ʿă-nāq", "traducao_palavra": "colar/elo de" },
+        { "hebraico": "מִצַּוְּרֹנָֽיִךְ׃", "transliteral": "miṣ-ṣaw-wə-rō-nā-yiḵ", "traducao_palavra": "teu pescoço" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Quão belos são os teus amores, minha irmã, minha esposa! Quanto melhores são os teus amores do que o vinho! E o cheiro dos teus unguentos do que o de todas as especiarias!",
+      "palavras": [
+        { "hebraico": "מַה־יָּפ֥וּ", "transliteral": "mah-yā-p̄û", "traducao_palavra": "Quão belos são" },
+        { "hebraico": "דֹדַ֖יִךְ", "transliteral": "ḏō-ḏa-yiḵ", "traducao_palavra": "teus amores" },
+        { "hebraico": "אֲחֹתִ֣י", "transliteral": "ʾă-ḥō-ṯî", "traducao_palavra": "minha irmã" },
+        { "hebraico": "כַלָּ֑ה", "transliteral": "ḵal-lā", "traducao_palavra": "[minha] noiva/esposa" },
+        { "hebraico": "מַה־טֹּ֤בוּ", "transliteral": "mah-ṭō-ḇû", "traducao_palavra": "quão melhores são" },
+        { "hebraico": "דֹדַ֨יִךְ֙", "transliteral": "ḏō-ḏa-yiḵ", "traducao_palavra": "teus amores" },
+        { "hebraico": "מִיַּ֔יִן", "transliteral": "miy-ya-yin", "traducao_palavra": "mais que o vinho" },
+        { "hebraico": "וְרֵ֥יחַ", "transliteral": "wə-rê-aḥ", "traducao_palavra": "e o cheiro de" },
+        { "hebraico": "שְׁמָנַ֖יִךְ", "transliteral": "šə-mā-na-yiḵ", "traducao_palavra": "teus óleos" },
+        { "hebraico": "מִכָּל־", "transliteral": "mik-kāl-", "traducao_palavra": "mais que todas" },
+        { "hebraico": "בְּשָׂמִֽים׃", "transliteral": "bə-śā-mîm", "traducao_palavra": "[as] especiarias" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Os teus lábios, ó minha esposa, destilam favos de mel; mel e leite estão debaixo da tua língua, e o cheiro dos teus vestidos é como o cheiro do Líbano.",
+      "palavras": [
+        { "hebraico": "נֹ֤פֶת", "transliteral": "nō-p̄eṯ", "traducao_palavra": "Favos de mel" },
+        { "hebraico": "תִּטֹּ֨פְנָה֙", "transliteral": "tiṭ-ṭō-p̄ə-nā", "traducao_palavra": "destilam" },
+        { "hebraico": "שִׂפְתֹותַ֔יִךְ", "transliteral": "śip̄-ṯô-ṯa-yiḵ", "traducao_palavra": "teus lábios" },
+        { "hebraico": "כַּלָּ֑ה", "transliteral": "kal-lā", "traducao_palavra": "[ó] noiva" },
+        { "hebraico": "דְּבַ֤שׁ", "transliteral": "də-ḇaš", "traducao_palavra": "mel" },
+        { "hebraico": "וְחָלָב֙", "transliteral": "wə-ḥā-lāḇ", "traducao_palavra": "e leite" },
+        { "hebraico": "תַּ֣חַת", "transliteral": "ta-ḥaṯ", "traducao_palavra": "[estão] debaixo de" },
+        { "hebraico": "לְשֹׁונֵ֔ךְ", "transliteral": "lə-šô-nêḵ", "traducao_palavra": "tua língua" },
+        { "hebraico": "וְרֵ֥יחַ", "transliteral": "wə-rê-aḥ", "traducao_palavra": "e o cheiro de" },
+        { "hebraico": "שַׂלְמֹתַ֖יִךְ", "transliteral": "śal-mō-ṯa-yiḵ", "traducao_palavra": "teus vestidos" },
+        { "hebraico": "כְּרֵ֥יחַ", "transliteral": "kə-rê-aḥ", "traducao_palavra": "como o cheiro de" },
+        { "hebraico": "לְבָנֹֽון׃", "transliteral": "lə-ḇā-nôn", "traducao_palavra": "Líbano" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Jardim fechado és tu, minha irmã, minha esposa, manancial fechado, fonte selada.",
+      "palavras": [
+        { "hebraico": "גַּ֥ן", "transliteral": "gan", "traducao_palavra": "Jardim" },
+        { "hebraico": "נָע֖וּל", "transliteral": "nā-ʿûl", "traducao_palavra": "fechado/trancado" },
+        { "hebraico": "אֲחֹתִ֣י", "transliteral": "ʾă-ḥō-ṯî", "traducao_palavra": "minha irmã" },
+        { "hebraico": "כַלָּ֑ה", "transliteral": "ḵal-lā", "traducao_palavra": "[minha] noiva" },
+        { "hebraico": "גַּ֥ל", "transliteral": "gal", "traducao_palavra": "onda/manancial" },
+        { "hebraico": "נָע֖וּל", "transliteral": "nā-ʿûl", "traducao_palavra": "fechado" },
+        { "hebraico": "מַעְיָ֥ן", "transliteral": "maʿ-yān", "traducao_palavra": "fonte" },
+        { "hebraico": "חָתֽוּם׃", "transliteral": "ḥā-ṯûm", "traducao_palavra": "selada" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Os teus renovos são um pomar de romãs, com frutos excelentes, a alfena com o nardo,",
+      "palavras": [
+        { "hebraico": "שְׁלָחַ֨יִךְ֙", "transliteral": "šə-lā-ḥa-yiḵ", "traducao_palavra": "Teus rebentos/renovos" },
+        { "hebraico": "פַּרְדֵּ֣ס", "transliteral": "par-dês", "traducao_palavra": "[são] pomar/paraiso de" },
+        { "hebraico": "רִמֹּונִ֔ים", "transliteral": "rim-mô-nîm", "traducao_palavra": "romãs" },
+        { "hebraico": "עִ֖ם", "transliteral": "ʿim", "traducao_palavra": "com" },
+        { "hebraico": "פְּרִ֣י", "transliteral": "pə-rî", "traducao_palavra": "fruto de" },
+        { "hebraico": "מְגָדִ֑ים", "transliteral": "mə-ḡā-ḏîm", "traducao_palavra": "excelências/delícias" },
+        { "hebraico": "כְּפָרִ֖ים", "transliteral": "kə-p̄ā-rîm", "traducao_palavra": "alfenas/henas" },
+        { "hebraico": "עִם־", "transliteral": "ʿim-", "traducao_palavra": "com" },
+        { "hebraico": "נְרָדִֽים׃", "transliteral": "nə-rā-ḏîm", "traducao_palavra": "nardos" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "o nardo e o açafrão, o cálamo e o cinamomo, com toda a sorte de árvores de incenso, a mirra e o aloés, com todas as principais especiarias.",
+      "palavras": [
+        { "hebraico": "נֵ֣רְדְּ", "transliteral": "nêrd", "traducao_palavra": "Nardo" },
+        { "hebraico": "וְכַרְכֹּ֗ם", "transliteral": "wə-ḵar-kōm", "traducao_palavra": "e açafrão" },
+        { "hebraico": "קָנֶה֙", "transliteral": "qā-neh", "traducao_palavra": "cálamo" },
+        { "hebraico": "וְקִנָּמֹ֔ון", "transliteral": "wə-qin-nā-môn", "traducao_palavra": "e cinamomo" },
+        { "hebraico": "עִ֖ם", "transliteral": "ʿim", "traducao_palavra": "com" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todas" },
+        { "hebraico": "עֲצֵ֣י", "transliteral": "ʿă-ṣê", "traducao_palavra": "árvores de" },
+        { "hebraico": "לְבֹונָ֑ה", "transliteral": "lə-ḇô-nā", "traducao_palavra": "incenso" },
+        { "hebraico": "מֹ֚ר", "transliteral": "mōr", "traducao_palavra": "mirra" },
+        { "hebraico": "וַאֲהָלֹ֔ות", "transliteral": "wa-ʾă-hā-lôṯ", "traducao_palavra": "e aloés" },
+        { "hebraico": "עִ֖ם", "transliteral": "ʿim", "traducao_palavra": "com" },
+        { "hebraico": "כָּל־", "transliteral": "kāl-", "traducao_palavra": "todos" },
+        { "hebraico": "רָאשֵׁ֥י", "transliteral": "rā-šê", "traducao_palavra": "[os] principais/chefes de" },
+        { "hebraico": "בְשָׂמִֽים׃", "transliteral": "ḇə-śā-mîm", "traducao_palavra": "especiarias" }
+      ]
+    },
+    "15": {
+      "traducao_completa": "És a fonte dos jardins, poço das águas vivas, que correm do Líbano!",
+      "palavras": [
+        { "hebraico": "מַעְיַ֣ן", "transliteral": "maʿ-yan", "traducao_palavra": "Fonte de" },
+        { "hebraico": "גַּנִּ֔ים", "transliteral": "gan-nîm", "traducao_palavra": "jardins" },
+        { "hebraico": "בְּאֵ֖ר", "transliteral": "bə-ʾêr", "traducao_palavra": "poço de" },
+        { "hebraico": "מַ֣יִם", "transliteral": "ma-yim", "traducao_palavra": "águas" },
+        { "hebraico": "חַיִּ֑ים", "transliteral": "ḥay-yîm", "traducao_palavra": "vivas" },
+        { "hebraico": "וְנֹזְלִ֖ים", "transliteral": "wə-nō-zə-lîm", "traducao_palavra": "e que fluem/correm" },
+        { "hebraico": "מִן־", "transliteral": "min-", "traducao_palavra": "do" },
+        { "hebraico": "לְבָנֹֽון׃", "transliteral": "lə-ḇā-nôn", "traducao_palavra": "Líbano" }
+      ]
+    },
+    "16": {
+      "traducao_completa": "Levanta-te, vento norte, e vem tu, vento sul; assopra no meu jardim, para que destilem os seus aromas. Venha o meu amado ao seu jardim, e coma os seus frutos excelentes.",
+      "palavras": [
+        { "hebraico": "ע֤וּרִי", "transliteral": "ʿû-rî", "traducao_palavra": "Desperta/levanta-te" },
+        { "hebraico": "צָפֹון֙", "transliteral": "ṣā-p̄ôn", "traducao_palavra": "[vento] norte" },
+        { "hebraico": "וּבֹ֣ואִי", "transliteral": "ū-ḇô-ʾî", "traducao_palavra": "e vem" },
+        { "hebraico": "תֵימָ֔ן", "transliteral": "ṯê-mān", "traducao_palavra": "[vento] sul" },
+        { "hebraico": "הָפִ֥יחִי", "transliteral": "hā-p̄î-ḥî", "traducao_palavra": "sopra [no]" },
+        { "hebraico": "גַנִּ֖י", "transliteral": "gan-nî", "traducao_palavra": "meu jardim" },
+        { "hebraico": "יִזְּל֣וּ", "transliteral": "yiz-zə-lû", "traducao_palavra": "fluam/destilem" },
+        { "hebraico": "בְשָׂמָ֑יו", "transliteral": "ḇə-śā-māyw", "traducao_palavra": "seus aromas" },
+        { "hebraico": "יָבֹ֤א", "transliteral": "yā-ḇō", "traducao_palavra": "venha" },
+        { "hebraico": "דֹודִי֙", "transliteral": "ḏô-ḏî", "traducao_palavra": "amado meu" },
+        { "hebraico": "לְגַנֹּ֔ו", "transliteral": "lə-ḡan-nô", "traducao_palavra": "ao seu jardim" },
+        { "hebraico": "וְיֹאכַ֖ל", "transliteral": "wə-yō-ḵal", "traducao_palavra": "e coma" },
+        { "hebraico": "פְּרִ֥י", "transliteral": "pə-rî", "traducao_palavra": "fruto de" },
+        { "hebraico": "מְגָדָֽיו׃", "transliteral": "mə-ḡā-ḏāyw", "traducao_palavra": "suas excelências" }
+      ]
+    }
+  }
 }

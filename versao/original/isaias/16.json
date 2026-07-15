@@ -1,6 +1,252 @@
 {
-  "livro": "Isaías - יְשַׁעְיָהוּ - Yeshayahu",
+  "livro": "Isaías - יְשַׁעְיָהוּ - Yeshayahu",
   "capítulo": 16,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Enviai o cordeiro ao dominador da terra, desde Sela, pelo deserto, até ao monte da filha de Sião.",
+      "palavras": [
+        { "hebraico": "שִׁלְחוּ־", "transliteral": "šil-ḥû-", "traducao_palavra": "Enviai" },
+        { "hebraico": "כַ֥ר", "transliteral": "ḵar", "traducao_palavra": "[o] cordeiro" },
+        { "hebraico": "מֹֽשֵׁל־", "transliteral": "mō-šêl-", "traducao_palavra": "[ao] dominador de" },
+        { "hebraico": "אֶ֖רֶץ", "transliteral": "ʾe-reṣ", "traducao_palavra": "[a] terra" },
+        { "hebraico": "מִסֶּ֨לַע", "transliteral": "miś-se-laʿ", "traducao_palavra": "desde Sela" },
+        { "hebraico": "מִדְבָּ֑רָה", "transliteral": "miḏ-bā-rā", "traducao_palavra": "[pelo] deserto" },
+        { "hebraico": "אֶל־", "transliteral": "ʾel-", "traducao_palavra": "até" },
+        { "hebraico": "הַ֖ר", "transliteral": "har", "traducao_palavra": "[o] monte de" },
+        { "hebraico": "בַּת־", "transliteral": "baṯ-", "traducao_palavra": "[a] filha de" },
+        { "hebraico": "צִיֹּֽון׃", "transliteral": "ṣî-yôn", "traducao_palavra": "Sião" }
+      ]
+    },
+    "2": {
+      "traducao_completa": "E acontecerá que, como pássaro espantado, lançado fora do ninho, assim serão as filhas de Moabe nos vaus de Arnom.",
+      "palavras": [
+        { "hebraico": "וְהָיָה֙", "transliteral": "wə-hā-yā", "traducao_palavra": "E será [que]" },
+        { "hebraico": "כְעֹ֣וף", "transliteral": "ḵə-ʿôp̄", "traducao_palavra": "como ave" },
+        { "hebraico": "נֹודֵ֔ד", "transliteral": "nô-ḏêḏ", "traducao_palavra": "vagueante/espantada" },
+        { "hebraico": "קֵ֖ן", "transliteral": "qên", "traducao_palavra": "[como] ninho" },
+        { "hebraico": "מְשֻׁלָּ֑ח", "transliteral": "mə-šul-lāḥ", "traducao_palavra": "lançado fora" },
+        { "hebraico": "תִּֽהְיֶ֨ינָה֙", "transliteral": "tih-ye-nā", "traducao_palavra": "serão" },
+        { "hebraico": "בְּנֹ֣ות", "transliteral": "bə-nôṯ", "traducao_palavra": "[as] filhas de" },
+        { "hebraico": "מֹואָ֔ב", "transliteral": "mô-ʾāḇ", "traducao_palavra": "Moabe" },
+        { "hebraico": "מַעְבָּרֹ֖ת", "transliteral": "ma-ʿă-bā-rōṯ", "traducao_palavra": "[nos] vaus/passagens de" },
+        { "hebraico": "לְאַרְנֹֽון׃", "transliteral": "lə-ʾar-nôn", "traducao_palavra": "Arnom" }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Dá conselho, executa o juízo; põe a tua sombra no pino do meio-dia como a noite; esconde os desterrados, e não descubras o que anda fugindo.",
+      "palavras": [
+        { "hebraico": "הָבִ֤יאִי", "transliteral": "hā-ḇî-ʾî", "traducao_palavra": "Traze/dá" },
+        { "hebraico": "עֵצָה֙", "transliteral": "ʿê-ṣā", "traducao_palavra": "conselho" },
+        { "hebraico": "עֲשׂ֣וּ", "transliteral": "ʿă-śû", "traducao_palavra": "fazei" },
+        { "hebraico": "פְּלִילָ֔ה", "transliteral": "pə-lî-lā", "traducao_palavra": "justiça/decisão" },
+        { "hebraico": "שִׁיתִ֥י", "transliteral": "šî-ṯî", "traducao_palavra": "põe" },
+        { "hebraico": "כַלַּ֛יְלָה", "transliteral": "ḵal-lay-lā", "traducao_palavra": "como a noite" },
+        { "hebraico": "צִלֵּ֖ךְ", "transliteral": "ṣil-lêḵ", "traducao_palavra": "tua sombra" },
+        { "hebraico": "בְּתֹ֣וךְ", "transliteral": "bə-ṯôḵ", "traducao_palavra": "no meio de" },
+        { "hebraico": "צָהֳרָ֑יִם", "transliteral": "ṣo-ho-rā-yim", "traducao_palavra": "meio-dia" },
+        { "hebraico": "סַתְּרִי֙", "transliteral": "śat-tə-rî", "traducao_palavra": "esconde" },
+        { "hebraico": "נִדָּחִ֔ים", "transliteral": "nid-dā-ḥîm", "traducao_palavra": "[os] desterrados" },
+        { "hebraico": "נֹדֵ֖ד", "transliteral": "nō-ḏêḏ", "traducao_palavra": "[ao] fugitivo" },
+        { "hebraico": "אַל־", "transliteral": "ʾal-", "traducao_palavra": "não" },
+        { "hebraico": "תְּגַלִּֽי׃", "transliteral": "tə-ḡal-lî", "traducao_palavra": "reveles/denuncies" }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Habitem contigo os meus desterrados, ó Moabe; serve-lhes de refúgio perante a face do destruidor; porque o opressor terá fim, a destruição cessará, e o pisador será consumido da terra.",
+      "palavras": [
+        { "hebraico": "יָג֥וּרוּ", "transliteral": "yā-ḡû-rû", "traducao_palavra": "Habitem/peregrinem" },
+        { "hebraico": "בָ֣ךְ", "transliteral": "ḇāḵ", "traducao_palavra": "contigo" },
+        { "hebraico": "נִדָּחַי֮", "transliteral": "nid-dā-ḥay", "traducao_palavra": "meus desterrados" },
+        { "hebraico": "מֹואָב֒", "transliteral": "mô-ʾāḇ", "traducao_palavra": "[ó] Moabe" },
+        { "hebraico": "הֱוִי־", "transliteral": "hĕ-wî-", "traducao_palavra": "sê" },
+        { "hebraico": "סֵ֣תֶר", "transliteral": "sê-ṯer", "traducao_palavra": "refúgio" },
+        { "hebraico": "לָ֕מֹו", "transliteral": "lā-mô", "traducao_palavra": "para eles" },
+        { "hebraico": "מִפְּנֵ֖י", "transliteral": "mip-pə-nê", "traducao_palavra": "diante de" },
+        { "hebraico": "שֹׁודֵ֑ד", "transliteral": "šô-ḏêḏ", "traducao_palavra": "[o] destruidor" },
+        { "hebraico": "כִּֽי־אָפֵ֤ס", "transliteral": "kî-ʾā-p̄ês", "traducao_palavra": "pois findou" },
+        { "hebraico": "הַמֵּץ֙", "transliteral": "ham-mêṣ", "traducao_palavra": "o opressor" },
+        { "hebraico": "כָּ֣לָה", "transliteral": "kā-lā", "traducao_palavra": "acabou" },
+        { "hebraico": "שֹׁ֔ד", "transliteral": "šōḏ", "traducao_palavra": "[a] destruição" },
+        { "hebraico": "תַּ֥מּוּ", "transliteral": "tam-mû", "traducao_palavra": "cessaram/consumiram-se" },
+        { "hebraico": "רֹמֵ֖ס", "transliteral": "rō-mêś", "traducao_palavra": "[os] pisadores" },
+        { "hebraico": "מִן־הָאָֽרֶץ׃", "transliteral": "min-hā-ʾā-reṣ", "traducao_palavra": "da terra" }
+      ]
+    },
+    "5": {
+      "traducao_completa": "E um trono será estabelecido em misericórdia, e sobre ele no pavilhão de Davi se assentará um com verdade, julgando, e buscando o juízo, e apressando a justiça.",
+      "palavras": [
+        { "hebraico": "וְהוּכַ֤ן", "transliteral": "wə-hû-ḵan", "traducao_palavra": "E será estabelecido" },
+        { "hebraico": "בַּחֶ֨סֶד֙", "transliteral": "ba-ḥe-seḏ", "traducao_palavra": "em misericórdia" },
+        { "hebraico": "כִּסֵּ֔א", "transliteral": "kiś-śê", "traducao_palavra": "[um] trono" },
+        { "hebraico": "וְיָשַׁ֥ב", "transliteral": "wə-yā-šaḇ", "traducao_palavra": "e se assentará" },
+        { "hebraico": "עָלָ֛יו", "transliteral": "ʿā-lāyw", "traducao_palavra": "sobre ele" },
+        { "hebraico": "בֶּאֱמֶ֖ת", "transliteral": "be-ʾĕ-meṯ", "traducao_palavra": "com verdade" },
+        { "hebraico": "בְּאֹ֣הֶל", "transliteral": "bə-ʾō-hel", "traducao_palavra": "na tenda/pavilhão de" },
+        { "hebraico": "דָּוִ֑ד", "transliteral": "dā-wiḏ", "traducao_palavra": "Davi" },
+        { "hebraico": "שֹׁפֵ֛ט", "transliteral": "šō-p̄êṭ", "traducao_palavra": "julgando" },
+        { "hebraico": "וְדֹרֵ֥שׁ", "transliteral": "wə-ḏō-rêš", "traducao_palavra": "e buscando" },
+        { "hebraico": "מִשְׁפָּ֖ט", "transliteral": "miš-pāṭ", "traducao_palavra": "juízo" },
+        { "hebraico": "וּמְהִ֥ר", "transliteral": "ū-mə-hir", "traducao_palavra": "e apressando" },
+        { "hebraico": "צֶֽדֶק׃", "transliteral": "ṣe-ḏeq", "traducao_palavra": "[a] justiça" }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Ouvimos da soberba de Moabe, que é mui soberbo; da sua altivez, e da sua soberba, e do seu furor; mas as suas mentiras não serão assim.",
+      "palavras": [
+        { "hebraico": "שָׁמַ֥עְנוּ", "transliteral": "šā-ma-ʿənû", "traducao_palavra": "Ouvimos" },
+        { "hebraico": "גְאֹון־", "transliteral": "ḡə-ʾôn-", "traducao_palavra": "[da] soberba de" },
+        { "hebraico": "מֹואָ֖ב", "transliteral": "mô-ʾāḇ", "traducao_palavra": "Moabe" },
+        { "hebraico": "גֵּ֣א", "transliteral": "gê", "traducao_palavra": "soberbo" },
+        { "hebraico": "מְאֹ֑ד", "transliteral": "mə-ʾōḏ", "traducao_palavra": "muito" },
+        { "hebraico": "גַּאֲוָתֹ֧ו", "transliteral": "ga-ʾă-wā-ṯô", "traducao_palavra": "sua altivez" },
+        { "hebraico": "וּגְאֹונֹ֛ו", "transliteral": "ū-ḡə-ʾô-nô", "traducao_palavra": "e sua soberba" },
+        { "hebraico": "וְעֶבְרָתֹ֖ו", "transliteral": "wə-ʿeḇ-rā-ṯô", "traducao_palavra": "e seu furor" },
+        { "hebraico": "לֹא־", "transliteral": "lō-", "traducao_palavra": "não" },
+        { "hebraico": "כֵ֥ן", "transliteral": "ḵên", "traducao_palavra": "assim" },
+        { "hebraico": "בַּדָּיו׃", "transliteral": "bad-dāyw", "traducao_palavra": "[são] suas mentiras/jactâncias" }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Portanto Moabe uivará por Moabe, todos uivarão; pelos fundamentos de Quir-Haresete gemereis, certamente abatidos.",
+      "palavras": [
+        { "hebraico": "לָכֵ֗ן", "transliteral": "lā-ḵên", "traducao_palavra": "Portanto" },
+        { "hebraico": "יְיֵלִ֧יל", "transliteral": "yə-yê-lîl", "traducao_palavra": "uivará" },
+        { "hebraico": "מֹואָ֛ב", "transliteral": "mô-ʾāḇ", "traducao_palavra": "Moabe" },
+        { "hebraico": "לְמֹואָ֖ב", "transliteral": "lə-mô-ʾāḇ", "traducao_palavra": "por Moabe" },
+        { "hebraico": "כֻּלֹּ֣ה", "transliteral": "kul-lō", "traducao_palavra": "todo ele" },
+        { "hebraico": "יְיֵלִ֑יל", "transliteral": "yə-yê-lîl", "traducao_palavra": "uivará" },
+        { "hebraico": "לַאֲשִׁישֵׁ֧י", "transliteral": "la-ʾă-šî-šê", "traducao_palavra": "pelos fundamentos/bolos de" },
+        { "hebraico": "קִיר־חֲרֶ֛שֶׂת", "transliteral": "qîr-ḥă-re-śeṯ", "traducao_palavra": "Quir-Haresete" },
+        { "hebraico": "תֶּהְגּ֖וּ", "transliteral": "te-hə-ḡû", "traducao_palavra": "gemereis/murmurareis" },
+        { "hebraico": "אַךְ־נְכָאִֽים׃", "transliteral": "ʾaḵ-nə-ḵā-ʾîm", "traducao_palavra": "certamente abatidos" }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Porque os campos de Hesbom esmoreceram, e a vinha de Sibma; os senhores das nações quebraram as suas melhores vides, que chegavam até Jazer e se estendiam pelo deserto; os seus ramos se espalhavam e passavam o mar.",
+      "palavras": [
+        { "hebraico": "כִּ֣י", "transliteral": "kî", "traducao_palavra": "Porque" },
+        { "hebraico": "שַׁדְמֹות", "transliteral": "šaḏ-môṯ", "traducao_palavra": "[os] campos de" },
+        { "hebraico": "חֶשְׁבֹּון֮", "transliteral": "ḥeš-bôn", "traducao_palavra": "Hesbom" },
+        { "hebraico": "אֻמְלָל֒", "transliteral": "ʾum-lāl", "traducao_palavra": "esmoreceram" },
+        { "hebraico": "גֶּ֣פֶן", "transliteral": "ge-p̄en", "traducao_palavra": "[a] vinha de" },
+        { "hebraico": "שִׂבְמָ֗ה", "transliteral": "śiḇ-mā", "traducao_palavra": "Sibma" },
+        { "hebraico": "בַּעֲלֵ֤י", "transliteral": "ba-ʿă-lê", "traducao_palavra": "[os] senhores de" },
+        { "hebraico": "גֹויִם֙", "transliteral": "gô-yim", "traducao_palavra": "nações" },
+        { "hebraico": "הָלְמ֣וּ", "transliteral": "hā-lə-mû", "traducao_palavra": "quebraram/golpearam" },
+        { "hebraico": "שְׁרוּקֶּ֔יהָ", "transliteral": "šə-rûq-qe-hā", "traducao_palavra": "suas vides escolhidas" },
+        { "hebraico": "עַד־יַעְזֵ֥ר", "transliteral": "ʿaḏ-yaʿ-zêr", "traducao_palavra": "até Jazer" },
+        { "hebraico": "נָגָ֖עוּ", "transliteral": "nā-ḡā-ʿû", "traducao_palavra": "chegaram" },
+        { "hebraico": "תָּע֣וּ", "transliteral": "tā-ʿû", "traducao_palavra": "erraram/vaguearam" },
+        { "hebraico": "מִדְבָּ֑ר", "transliteral": "miḏ-bār", "traducao_palavra": "[pelo] deserto" },
+        { "hebraico": "שְׁלֻחֹותֶ֥יהָ", "transliteral": "šə-lu-ḥô-ṯe-hā", "traducao_palavra": "seus ramos" },
+        { "hebraico": "נִטְּשׁ֖וּ", "transliteral": "niṭ-ṭə-šû", "traducao_palavra": "espalharam-se/foram deixados" },
+        { "hebraico": "עָ֥בְרוּ", "transliteral": "ʿā-ḇə-rû", "traducao_palavra": "atravessaram" },
+        { "hebraico": "יָֽם׃", "transliteral": "yām", "traducao_palavra": "[o] mar" }
+      ]
+    },
+    "9": {
+      "traducao_completa": "Pelo que chorarei, com o choro de Jazer, a vinha de Sibma; regar-te-ei com as minhas lágrimas, ó Hesbom e Eleale; porque sobre os teus frutos de verão e sobre a tua sega caiu o grito de guerra.",
+      "palavras": [
+        { "hebraico": "עַל־כֵּ֠ן", "transliteral": "ʿal-kên", "traducao_palavra": "Portanto" },
+        { "hebraico": "אֶבְכֶּ֞ה", "transliteral": "ʾeḇ-keh", "traducao_palavra": "chorarei" },
+        { "hebraico": "בִּבְכִ֤י", "transliteral": "biḇ-ḵî", "traducao_palavra": "com o choro de" },
+        { "hebraico": "יַעְזֵר֙", "transliteral": "yaʿ-zêr", "traducao_palavra": "Jazer" },
+        { "hebraico": "גֶּ֣פֶן", "transliteral": "ge-p̄en", "traducao_palavra": "[pela] vinha de" },
+        { "hebraico": "שִׂבְמָ֔ה", "transliteral": "śiḇ-mā", "traducao_palavra": "Sibma" },
+        { "hebraico": "אֲרַיָּ֨וֶךְ֙", "transliteral": "ʾă-ray-yā-weḵ", "traducao_palavra": "regar-te-ei" },
+        { "hebraico": "דִּמְעָתִ֔י", "transliteral": "dim-ʿā-ṯî", "traducao_palavra": "[com] minha lágrima" },
+        { "hebraico": "חֶשְׁבֹּ֖ון", "transliteral": "ḥeš-bôn", "traducao_palavra": "Hesbom" },
+        { "hebraico": "וְאֶלְעָלֵ֑ה", "transliteral": "wə-ʾel-ʿā-lēh", "traducao_palavra": "e Eleale" },
+        { "hebraico": "כִּ֧י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "עַל־קֵיצֵ֥ךְ", "transliteral": "ʿal-qê-ṣêḵ", "traducao_palavra": "sobre teu fruto de verão" },
+        { "hebraico": "וְעַל־קְצִירֵ֖ךְ", "transliteral": "wə-ʿal-qə-ṣî-rêḵ", "traducao_palavra": "e sobre tua colheita" },
+        { "hebraico": "הֵידָ֥ד", "transliteral": "hê-ḏāḏ", "traducao_palavra": "[o] grito/uivo" },
+        { "hebraico": "נָפָֽל׃", "transliteral": "nā-p̄āl", "traducao_palavra": "caiu" }
+      ]
+    },
+    "10": {
+      "traducao_completa": "E tirada é a alegria e o júbilo do campo fértil, e nas vinhas não se cantará, nem haverá júbilo algum; o pisador não pisará o vinho nos lagares; eu fiz cessar o grito de alegria.",
+      "palavras": [
+        { "hebraico": "וְנֶאֱסַ֨ף", "transliteral": "wə-ne-ʾĕ-śap̄", "traducao_palavra": "E foi tirada" },
+        { "hebraico": "שִׂמְחָ֤ה", "transliteral": "śim-ḥā", "traducao_palavra": "[a] alegria" },
+        { "hebraico": "וָגִ֙יל֙", "transliteral": "wā-ḡîl", "traducao_palavra": "e o júbilo" },
+        { "hebraico": "מִן־", "transliteral": "min-", "traducao_palavra": "do" },
+        { "hebraico": "הַכַּרְמֶ֔ל", "transliteral": "hak-kar-mel", "traducao_palavra": "campo fértil/pomar" },
+        { "hebraico": "וּבַכְּרָמִ֥ים", "transliteral": "ū-ḇak-kə-rā-mîm", "traducao_palavra": "e nas vinhas" },
+        { "hebraico": "לֹא־יְרֻנָּ֖ן", "transliteral": "lō-yə-run-nān", "traducao_palavra": "não se cantará" },
+        { "hebraico": "וְלֹ֣א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "יְרֹעָ֑ע", "transliteral": "yə-rō-ʿāʿ", "traducao_palavra": "se gritará de júbilo" },
+        { "hebraico": "יַ֕יִן", "transliteral": "ya-yin", "traducao_palavra": "vinho" },
+        { "hebraico": "בַּיְקָבִ֛ים", "transliteral": "bay-qā-ḇîm", "traducao_palavra": "nos lagares" },
+        { "hebraico": "לֹא־יִדְרֹ֧ךְ", "transliteral": "lō-yiḏ-rōḵ", "traducao_palavra": "não pisará" },
+        { "hebraico": "הַדֹּרֵ֖ךְ", "transliteral": "had-dō-rêḵ", "traducao_palavra": "o pisador" },
+        { "hebraico": "הֵידָ֥ד", "transliteral": "hê-ḏāḏ", "traducao_palavra": "[o] grito de alegria" },
+        { "hebraico": "הִשְׁבַּֽתִּי׃", "transliteral": "hiš-bat-tî", "traducao_palavra": "eu fiz cessar" }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Pelo que as minhas entranhas vibram por Moabe como harpa, e o meu íntimo por Quir-Haresete.",
+      "palavras": [
+        { "hebraico": "עַל־כֵּן֙", "transliteral": "ʿal-kên", "traducao_palavra": "Portanto" },
+        { "hebraico": "מֵעַ֣י", "transliteral": "mê-ʿay", "traducao_palavra": "minhas entranhas" },
+        { "hebraico": "לְמֹואָ֔ב", "transliteral": "lə-mô-ʾāḇ", "traducao_palavra": "por Moabe" },
+        { "hebraico": "כְּכִנֹּ֖ור", "transliteral": "kə-ḵin-nôr", "traducao_palavra": "como harpa" },
+        { "hebraico": "יהמו", "transliteral": "ye-hĕ-mû", "traducao_palavra": "vibram/ressoam" },
+        { "hebraico": "וְקִרְבִּ֖י", "transliteral": "wə-qir-bî", "traducao_palavra": "e meu íntimo" },
+        { "hebraico": "לְקִיר־חָֽרֶשׂ׃", "transliteral": "lə-qîr-ḥā-reś", "traducao_palavra": "por Quir-Haresete" }
+      ]
+    },
+    "12": {
+      "traducao_completa": "E acontecerá que, quando se vir que Moabe está cansado nos altos, então irá ao seu santuário a orar, mas não prevalecerá.",
+      "palavras": [
+        { "hebraico": "וְהָיָה֙", "transliteral": "wə-hā-yā", "traducao_palavra": "E será" },
+        { "hebraico": "כִּֽי־נִרְאָ֔ה", "transliteral": "kî-nir-ʾā", "traducao_palavra": "quando for visto" },
+        { "hebraico": "כִּֽי־נִלְאָ֥ה", "transliteral": "kî-nil-ʾā", "traducao_palavra": "que se cansou" },
+        { "hebraico": "מֹואָ֖ב", "transliteral": "mô-ʾāḇ", "traducao_palavra": "Moabe" },
+        { "hebraico": "עַל־הַבָּמָ֑ה", "transliteral": "ʿal-ha-bā-mā", "traducao_palavra": "sobre o alto" },
+        { "hebraico": "וּבָ֧א", "transliteral": "ū-ḇā", "traducao_palavra": "e virá" },
+        { "hebraico": "אֶל־מִקְדָּשֹׁ֛ו", "transliteral": "ʾel-miq-dā-šô", "traducao_palavra": "ao seu santuário" },
+        { "hebraico": "לְהִתְפַּלֵּ֖ל", "transliteral": "lə-hiṯ-pal-lêl", "traducao_palavra": "para orar" },
+        { "hebraico": "וְלֹ֥א", "transliteral": "wə-lō", "traducao_palavra": "mas não" },
+        { "hebraico": "יוּכָֽל׃", "transliteral": "yû-ḵāl", "traducao_palavra": "poderá/prevalecerá" }
+      ]
+    },
+    "13": {
+      "traducao_completa": "Esta é a palavra que YHWH falou contra Moabe outrora.",
+      "palavras": [
+        { "hebraico": "זֶ֣ה", "transliteral": "zeh", "traducao_palavra": "Esta [é]" },
+        { "hebraico": "הַדָּבָ֗ר", "transliteral": "had-dā-ḇār", "traducao_palavra": "a palavra" },
+        { "hebraico": "אֲשֶׁ֨ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "דִּבֶּ֧ר", "transliteral": "dib-bêr", "traducao_palavra": "falou" },
+        { "hebraico": "יְהוָ֛ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "אֶל־מֹואָ֖ב", "transliteral": "ʾel-mô-ʾāḇ", "traducao_palavra": "contra Moabe" },
+        { "hebraico": "מֵאָֽז׃", "transliteral": "mê-ʾāz", "traducao_palavra": "desde outrora/antigamente" }
+      ]
+    },
+    "14": {
+      "traducao_completa": "Mas agora falou YHWH, dizendo: Dentro de três anos, tais como os anos de jornaleiro, a glória de Moabe será envilecida, com toda a sua grande multidão; e o remanescente será muito pequeno e débil.",
+      "palavras": [
+        { "hebraico": "וְעַתָּה֙", "transliteral": "wə-ʿat-tā", "traducao_palavra": "Mas agora" },
+        { "hebraico": "דִּבֶּ֣ר", "transliteral": "dib-bêr", "traducao_palavra": "falou" },
+        { "hebraico": "יְהוָ֣ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "לֵאמֹ֔ר", "transliteral": "lê-mōr", "traducao_palavra": "dizendo" },
+        { "hebraico": "בְּשָׁלֹ֣שׁ", "transliteral": "bə-šā-lōš", "traducao_palavra": "em três" },
+        { "hebraico": "שָׁנִ֔ים", "transliteral": "šā-nîm", "traducao_palavra": "anos" },
+        { "hebraico": "כִּשְׁנֵ֖י", "transliteral": "kiš-nê", "traducao_palavra": "como anos de" },
+        { "hebraico": "שָׂכִ֑יר", "transliteral": "śā-ḵîr", "traducao_palavra": "trabalhador contratado/jornaleiro" },
+        { "hebraico": "וְנִקְלָ֞ה", "transliteral": "wə-niq-lā", "traducao_palavra": "e será desprezada/envilecida" },
+        { "hebraico": "כְּבֹ֣וד", "transliteral": "kə-ḇôḏ", "traducao_palavra": "[a] glória de" },
+        { "hebraico": "מֹואָ֗ב", "transliteral": "mô-ʾāḇ", "traducao_palavra": "Moabe" },
+        { "hebraico": "בְּכֹל֙", "transliteral": "bə-ḵōl", "traducao_palavra": "com toda" },
+        { "hebraico": "הֶהָמֹ֣ון", "transliteral": "he-hā-môn", "traducao_palavra": "a multidão" },
+        { "hebraico": "הָרָ֑ב", "transliteral": "ha-rāḇ", "traducao_palavra": "grande" },
+        { "hebraico": "וּשְׁאָ֥ר", "transliteral": "ū-šə-ʾār", "traducao_palavra": "e o resto" },
+        { "hebraico": "מְעַ֛ט", "transliteral": "mə-ʿāṭ", "traducao_palavra": "[será] pequeno" },
+        { "hebraico": "מִזְעָ֖ר", "transliteral": "miz-ʿār", "traducao_palavra": "muito insignificante" },
+        { "hebraico": "לֹ֥וא", "transliteral": "lô", "traducao_palavra": "não" },
+        { "hebraico": "כַבִּֽיר׃", "transliteral": "kab-bîr", "traducao_palavra": "poderoso/forte" }
+      ]
+    }
+  }
 }
