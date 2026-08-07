@@ -1,6 +1,233 @@
 {
-  "livro": "Isaías - יְשַׁעְיָהוּ - Yeshayahu",
+  "livro": "Isaías - יְשַֽׁעְיָהוּ - Yəšayāhū",
   "capítulo": 53,
   "titulos": {},
-  "versiculos": {}
+  "versiculos": {
+    "1": {
+      "traducao_completa": "Quem creu em nossa pregação? E sobre quem se manifestou o braço de YHWH?",
+      "palavras": [
+        { "hebraico": "מִ֥י", "transliteral": "mî", "traducao_palavra": "Quem" },
+        { "hebraico": "הֶאֱמִ֖ין", "transliteral": "he-ʾĕ-mîn", "traducao_palavra": "creu" },
+        { "hebraico": "לִשְׁמֻעָתֵ֑נוּ", "transliteral": "liš-mu-ʿā-ṯê-nū", "traducao_palavra": "em nossa pregação/mensagem" },
+        { "hebraico": "וּזְרֹ֥ועַ", "transliteral": "ū-zə-rō-wa-ʿ", "traducao_palavra": "e o braço de" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "עַל־", "transliteral": "ʿal-", "traducao_palavra": "sobre" },
+        { "hebraico": "מִ֥י", "transliteral": "mî", "traducao_palavra": "quem" },
+        { "hebraico": "נִגְלָֽתָה׃", "transliteral": "niḡ-lā-ṯāh", "traducao_palavra": "se manifestou/revelou." }
+      ]
+    },
+    "2": {
+      "traducao_completa": "Porque subiu como um renovo perante ele, e como raiz de uma terra seca; não tinha parecer nem formosura; e, olhando nós para ele, não havia beleza para que o desejássemos.",
+      "palavras": [
+        { "hebraico": "וַיַּ֨עַל", "transliteral": "way-ya-ʿal", "traducao_palavra": "E ele subiu" },
+        { "hebraico": "כַּיֹּונֵ֜ק", "transliteral": "kay-yō-w-nêq", "traducao_palavra": "como renovo/rebento" },
+        { "hebraico": "לְפָנָ֗יו", "transliteral": "lə-p̄ā-nāy-w", "traducao_palavra": "perante ele" },
+        { "hebraico": "וְכַשֹּׁ֙רֶשׁ֙", "transliteral": "wə-ḵaš-šō-reš", "traducao_palavra": "e como raiz" },
+        { "hebraico": "מֵאֶ֣רֶץ", "transliteral": "mê-ʾe-reṣ", "traducao_palavra": "de terra" },
+        { "hebraico": "צִיָּ֔ה", "transliteral": "ṣiy-yāh", "traducao_palavra": "seca" },
+        { "hebraico": "לֹא־", "transliteral": "lō-", "traducao_palavra": "não" },
+        { "hebraico": "תֹ֥אַר", "transliteral": "ṯō-ʾar", "traducao_palavra": "parecer/forma" },
+        { "hebraico": "לֹ֖ו", "transliteral": "lō-w", "traducao_palavra": "[tinha] ele" },
+        { "hebraico": "וְלֹ֣א", "transliteral": "wə-lō", "traducao_palavra": "nem" },
+        { "hebraico": "הָדָ֑ר", "transliteral": "hā-ḏār", "traducao_palavra": "esplendor/majestade" },
+        { "hebraico": "וְנִרְאֵ֥הוּ", "transliteral": "wə-nir-ʾê-hū", "traducao_palavra": "e o vimos" },
+        { "hebraico": "וְלֹֽא־", "transliteral": "wə-lō-", "traducao_palavra": "mas não" },
+        { "hebraico": "מַרְאֶ֖ה", "transliteral": "mar-ʾeh", "traducao_palavra": "[tinha] aparência" },
+        { "hebraico": "וְנֶחְמְדֵֽהוּ׃", "transliteral": "wə-neḥ-mə-ḏê-hū", "traducao_palavra": "para que o desejássemos." }
+      ]
+    },
+    "3": {
+      "traducao_completa": "Era desprezado e o mais indigno entre os homens, homem de dores, e experimentado nos trabalhos; e, como um de quem os homens escondiam o rosto, era desprezado, e não fizemos dele caso algum.",
+      "palavras": [
+        { "hebraico": "נִבְזֶה֙", "transliteral": "niḇ-zeh", "traducao_palavra": "Desprezado" },
+        { "hebraico": "וַחֲדַ֣ל", "transliteral": "wa-ḥă-ḏal", "traducao_palavra": "e rejeitado de/faltando" },
+        { "hebraico": "אִישִׁ֔ים", "transliteral": "ʾî-šîm", "traducao_palavra": "[entre os] homens" },
+        { "hebraico": "אִ֥ישׁ", "transliteral": "ʾîš", "traducao_palavra": "homem de" },
+        { "hebraico": "מַכְאֹבֹ֖ות", "transliteral": "maḵ-ʾō-ḇō-wṯ", "traducao_palavra": "dores" },
+        { "hebraico": "וִיד֣וּעַ", "transliteral": "wî-ḏū-aʿ", "traducao_palavra": "e conhecido/experimentado em" },
+        { "hebraico": "חֹ֑לִי", "transliteral": "ḥō-lî", "traducao_palavra": "doença/sofrimento" },
+        { "hebraico": "וּכְמַסְתֵּ֤ר", "transliteral": "ū-ḵə-mas-tēr", "traducao_palavra": "e como [quem] esconde" },
+        { "hebraico": "פָּנִים֙", "transliteral": "pā-nîm", "traducao_palavra": "[o] rosto" },
+        { "hebraico": "מִמֶּ֔נּוּ", "transliteral": "mim-men-nū", "traducao_palavra": "dele/de nós" },
+        { "hebraico": "נִבְזֶ֖ה", "transliteral": "niḇ-zeh", "traducao_palavra": "[foi] desprezado" },
+        { "hebraico": "וְלֹ֥א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "חֲשַׁבְנֻֽהוּ׃", "transliteral": "ḥă-šaḇ-nu-hū", "traducao_palavra": "estimamos ele." }
+      ]
+    },
+    "4": {
+      "traducao_completa": "Verdadeiramente ele tomou sobre si as nossas enfermidades, e as nossas dores levou sobre si; e nós o reputávamos por aflito, ferido de Deus e oprimido.",
+      "palavras": [
+        { "hebraico": "אָכֵ֤ן", "transliteral": "ʾā-ḵēn", "traducao_palavra": "Certamente/Verdadeiramente" },
+        { "hebraico": "חֳלָיֵ֙נוּ֙", "transliteral": "ḥo-lā-yê-nū", "traducao_palavra": "nossas enfermidades" },
+        { "hebraico": "ה֣וּא", "transliteral": "hū", "traducao_palavra": "ele" },
+        { "hebraico": "נָשָׂ֔א", "transliteral": "nā-śā", "traducao_palavra": "carregou" },
+        { "hebraico": "וּמַכְאֹבֵ֖ינוּ", "transliteral": "ū-maḵ-ʾō-ḇê-nū", "traducao_palavra": "e nossas dores" },
+        { "hebraico": "סְבָלָ֑ם", "transliteral": "śə-ḇā-lām", "traducao_palavra": "levou-as" },
+        { "hebraico": "וַאֲנַ֣חְנוּ", "transliteral": "wa-ʾă-naḥ-nū", "traducao_palavra": "e nós" },
+        { "hebraico": "חֲשַׁבְנֻ֔הוּ", "transliteral": "ḥă-šaḇ-nu-hū", "traducao_palavra": "reputávamos ele" },
+        { "hebraico": "נָג֛וּעַ", "transliteral": "nā-ḡū-aʿ", "traducao_palavra": "ferido/flagelado" },
+        { "hebraico": "מֻכֵּ֥ה", "transliteral": "muk-kēh", "traducao_palavra": "golpeado por" },
+        { "hebraico": "אֱלֹהִ֖ים", "transliteral": "ʾĕ-lō-hîm", "traducao_palavra": "Deus" },
+        { "hebraico": "וּמְעֻנֶּֽה׃", "transliteral": "ū-mə-ʿun-neh", "traducao_palavra": "e afligido/humilhado." }
+      ]
+    },
+    "5": {
+      "traducao_completa": "Mas ele foi traspassado pelas nossas transgressões, e moído pelas nossas iniquidades; o castigo que nos traz a paz estava sobre ele, e pelas suas pisaduras fomos sarados.",
+      "palavras": [
+        { "hebraico": "וְהוּא֙", "transliteral": "wə-hū", "traducao_palavra": "E ele" },
+        { "hebraico": "מְחֹלָ֣ל", "transliteral": "mə-ḥō-lāl", "traducao_palavra": "traspassado/ferido" },
+        { "hebraico": "מִפְּשָׁעֵ֔נוּ", "transliteral": "mip-pə-šā-ʿê-nū", "traducao_palavra": "pelas nossas transgressões" },
+        { "hebraico": "מְדֻכָּ֖א", "transliteral": "mə-ḏuk-kā", "traducao_palavra": "esmagado/moído" },
+        { "hebraico": "מֵעֲוֹנֹתֵ֑ינוּ", "transliteral": "mê-ʿă-wō-nō-ṯê-nū", "traducao_palavra": "pelas nossas iniquidades" },
+        { "hebraico": "מוּסַ֤ר", "transliteral": "mū-śar", "traducao_palavra": "[o] castigo/disciplina de" },
+        { "hebraico": "שְׁלֹומֵ֙נוּ֙", "transliteral": "šə-lō-w-mê-nū", "traducao_palavra": "nossa paz" },
+        { "hebraico": "עָלָ֔יו", "transliteral": "ʿā-lāy-w", "traducao_palavra": "[estava] sobre ele" },
+        { "hebraico": "וּבַחֲבֻרָתֹ֖ו", "transliteral": "ū-ḇa-ḥă-ḇu-rā-ṯō-w", "traducao_palavra": "e por sua ferida/vergão" },
+        { "hebraico": "נִרְפָּא־", "transliteral": "nir-pā-", "traducao_palavra": "houve cura" },
+        { "hebraico": "לָֽנוּ׃", "transliteral": "lā-nū", "traducao_palavra": "para nós." }
+      ]
+    },
+    "6": {
+      "traducao_completa": "Todos nós andávamos desgarrados como ovelhas; cada um se desviava pelo seu caminho; mas YHWH fez cair sobre ele a iniquidade de todos nós.",
+      "palavras": [
+        { "hebraico": "כֻּלָּ֙נוּ֙", "transliteral": "kul-lā-nū", "traducao_palavra": "Todos nós" },
+        { "hebraico": "כַּצֹּ֣אן", "transliteral": "kaṣ-ṣō-wn", "traducao_palavra": "como ovelhas" },
+        { "hebraico": "תָּעִ֔ינוּ", "transliteral": "ṯā-ʿî-nū", "traducao_palavra": "desgarramo-nos" },
+        { "hebraico": "אִ֥ישׁ", "transliteral": "ʾîš", "traducao_palavra": "cada um" },
+        { "hebraico": "לְדַרְכֹּ֖ו", "transliteral": "lə-ḏar-kō-w", "traducao_palavra": "ao seu caminho" },
+        { "hebraico": "פָּנִ֑ינוּ", "transliteral": "pā-nî-nū", "traducao_palavra": "voltamo-nos" },
+        { "hebraico": "וַֽיהוָה֙", "transliteral": "way-YHWH", "traducao_palavra": "mas YHWH" },
+        { "hebraico": "הִפְגִּ֣יעַ", "transliteral": "hip̄-gî-aʿ", "traducao_palavra": "fez cair/interceder" },
+        { "hebraico": "בֹּ֔ו", "transliteral": "bō-w", "traducao_palavra": "nele" },
+        { "hebraico": "אֵ֖ת", "transliteral": "ʾēṯ", "traducao_palavra": "[partícula acusativa]" },
+        { "hebraico": "עֲוֹ֥ן", "transliteral": "ʿă-wōn", "traducao_palavra": "[a] iniquidade de" },
+        { "hebraico": "כֻּלָּֽנוּ׃", "transliteral": "kul-lā-nū", "traducao_palavra": "todos nós." }
+      ]
+    },
+    "7": {
+      "traducao_completa": "Ele foi oprimido e afligido, mas não abriu a sua boca; como um cordeiro foi levado ao matadouro, e como a ovelha muda perante os seus tosquiadores, assim ele não abriu a sua boca.",
+      "palavras": [
+        { "hebraico": "נִגַּ֨שׂ", "transliteral": "nig-gaś", "traducao_palavra": "Ele foi oprimido" },
+        { "hebraico": "וְה֣וּא", "transliteral": "wə-hū", "traducao_palavra": "e ele" },
+        { "hebraico": "נַעֲנֶה֮", "transliteral": "na-ʿă-neh", "traducao_palavra": "foi afligido" },
+        { "hebraico": "וְלֹ֣א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "יִפְתַּח־", "transliteral": "yip̄-taḥ-", "traducao_palavra": "abriu" },
+        { "hebraico": "פִּיו֒", "transliteral": "pîw", "traducao_palavra": "sua boca" },
+        { "hebraico": "כַּשֶּׂה֙", "transliteral": "kaś-śeh", "traducao_palavra": "como cordeiro" },
+        { "hebraico": "לַטֶּ֣בַח", "transliteral": "laṭ-ṭe-ḇaḥ", "traducao_palavra": "ao matadouro" },
+        { "hebraico": "יוּבָ֔ל", "transliteral": "yū-ḇāl", "traducao_palavra": "foi levado" },
+        { "hebraico": "וּכְרָחֵ֕ל", "transliteral": "ū-ḵə-rā-ḥēl", "traducao_palavra": "e como ovelha" },
+        { "hebraico": "לִפְנֵ֥י", "transliteral": "lip̄-nê", "traducao_palavra": "diante de" },
+        { "hebraico": "גֹזְזֶ֖יהָ", "transliteral": "ḡō-zə-ze-hā", "traducao_palavra": "seus tosquiadores" },
+        { "hebraico": "נֶאֱלָ֑מָה", "transliteral": "ne-ʾĕ-lā-māh", "traducao_palavra": "[está] muda" },
+        { "hebraico": "וְלֹ֥א", "transliteral": "wə-lō", "traducao_palavra": "e não" },
+        { "hebraico": "יִפְתַּ֖ח", "transliteral": "yip̄-taḥ", "traducao_palavra": "abriu" },
+        { "hebraico": "פִּֽיו׃", "transliteral": "pîw", "traducao_palavra": "sua boca." }
+      ]
+    },
+    "8": {
+      "traducao_completa": "Da opressão e do juízo foi tirado; e quem contará o tempo da sua vida? Porquanto foi cortado da terra dos viventes; pela transgressão do meu povo foi ele ferido.",
+      "palavras": [
+        { "hebraico": "מֵעֹ֤צֶר", "transliteral": "mê-ʿō-ṣer", "traducao_palavra": "Da opressão/prisão" },
+        { "hebraico": "וּמִמִּשְׁפָּט֙", "transliteral": "ū-mim-miš-pāṭ", "traducao_palavra": "e do juízo" },
+        { "hebraico": "לֻקָּ֔ח", "transliteral": "luq-qāḥ", "traducao_palavra": "foi tirado" },
+        { "hebraico": "וְאֶת־", "transliteral": "wə-ʾeṯ-", "traducao_palavra": "e [quanto à]" },
+        { "hebraico": "דֹּורֹ֖ו", "transliteral": "dō-w-rō-w", "traducao_palavra": "sua geração/descendência" },
+        { "hebraico": "מִ֣י", "transliteral": "mî", "traducao_palavra": "quem" },
+        { "hebraico": "יְשֹׂוחֵ֑חַ", "transliteral": "yə-śō-w-ḥē-aḥ", "traducao_palavra": "considerará/declarará?" },
+        { "hebraico": "כִּ֤י", "transliteral": "kî", "traducao_palavra": "porque" },
+        { "hebraico": "נִגְזַר֙", "transliteral": "niḡ-zar", "traducao_palavra": "foi cortado" },
+        { "hebraico": "מֵאֶ֣רֶץ", "transliteral": "mê-ʾe-reṣ", "traducao_palavra": "da terra de" },
+        { "hebraico": "חַיִּ֔ים", "transliteral": "ḥay-yîm", "traducao_palavra": "vivos" },
+        { "hebraico": "מִפֶּ֥שַׁע", "transliteral": "mip-pe-ša-ʿ", "traducao_palavra": "pela transgressão de" },
+        { "hebraico": "עַמִּ֖י", "transliteral": "ʿam-mî", "traducao_palavra": "meu povo" },
+        { "hebraico": "נֶ֥גַע", "transliteral": "ne-ḡa-ʿ", "traducao_palavra": "[houve] ferimento" },
+        { "hebraico": "לָֽמֹו׃", "transliteral": "lā-mōw", "traducao_palavra": "para ele." }
+      ]
+    },
+    "9": {
+      "traducao_completa": "E puseram a sua sepultura com os ímpios, e com o rico na sua morte; ainda que nunca cometera injustiça, nem houvesse engano na sua boca.",
+      "palavras": [
+        { "hebraico": "וַיִּתֵּ֤ן", "transliteral": "way-yit-tên", "traducao_palavra": "E puseram/deu" },
+        { "hebraico": "אֶת־", "transliteral": "ʾeṯ-", "traducao_palavra": "[partícula acusativa]" },
+        { "hebraico": "רְשָׁעִים֙", "transliteral": "rə-šā-ʿîm", "traducao_palavra": "[com os] ímpios" },
+        { "hebraico": "קִבְרֹ֔ו", "transliteral": "qiḇ-rō-w", "traducao_palavra": "sua sepultura" },
+        { "hebraico": "וְאֶת־", "transliteral": "wə-ʾeṯ-", "traducao_palavra": "e com" },
+        { "hebraico": "עָשִׁ֖יר", "transliteral": "ʿā-šîr", "traducao_palavra": "[o] rico" },
+        { "hebraico": "בְּמֹתָ֑יו", "transliteral": "bə-mō-ṯāy-w", "traducao_palavra": "em sua morte" },
+        { "hebraico": "עַ֚ל", "transliteral": "ʿal", "traducao_palavra": "sobre/apesar de" },
+        { "hebraico": "לֹא־", "transliteral": "lō-", "traducao_palavra": "não [ter]" },
+        { "hebraico": "חָמָ֣ס", "transliteral": "ḥā-māś", "traducao_palavra": "violência/injustiça" },
+        { "hebraico": "עָשָׂ֔ה", "transliteral": "ʿā-śā", "traducao_palavra": "feito" },
+        { "hebraico": "וְלֹ֥א", "transliteral": "wə-lō", "traducao_palavra": "e não [haver]" },
+        { "hebraico": "מִרְמָ֖ה", "transliteral": "mir-māh", "traducao_palavra": "engano" },
+        { "hebraico": "בְּפִֽיו׃", "transliteral": "bə-p̄îw", "traducao_palavra": "em sua boca." }
+      ]
+    },
+    "10": {
+      "traducao_completa": "Todavia, agradou a YHWH moê-lo, fazendo-o enfermar; quando a sua alma se puser por expiação do pecado, verá a sua posteridade, prolongará os seus dias; e o desejo de YHWH prosperará na sua mão.",
+      "palavras": [
+        { "hebraico": "וַיהוָ֞ה", "transliteral": "wa-YHWH", "traducao_palavra": "Mas YHWH" },
+        { "hebraico": "חָפֵ֤ץ", "transliteral": "ḥā-p̄ēṣ", "traducao_palavra": "desejou/agradou-se de" },
+        { "hebraico": "דַּכְּאֹו֙", "transliteral": "dak-kə-ʾō-w", "traducao_palavra": "esmagá-lo" },
+        { "hebraico": "הֶֽחֱלִ֔י", "transliteral": "he-ḥĕ-lî", "traducao_palavra": "fê-lo enfermar" },
+        { "hebraico": "אִם־", "transliteral": "ʾim-", "traducao_palavra": "se" },
+        { "hebraico": "תָּשִׂ֤ים", "transliteral": "tā-śîm", "traducao_palavra": "puser" },
+        { "hebraico": "אָשָׁם֙", "transliteral": "ʾā-šām", "traducao_palavra": "[por] expiação/culpa" },
+        { "hebraico": "נַפְשֹׁ֔ו", "transliteral": "nap̄-šō-w", "traducao_palavra": "sua alma" },
+        { "hebraico": "יִרְאֶ֥ה", "transliteral": "yir-ʾeh", "traducao_palavra": "verá" },
+        { "hebraico": "זֶ֖רַע", "transliteral": "ze-raʿ", "traducao_palavra": "descendência" },
+        { "hebraico": "יַאֲרִ֣יךְ", "transliteral": "ya-ʾă-rîḵ", "traducao_palavra": "prolongará" },
+        { "hebraico": "יָמִ֑ים", "transliteral": "yā-mîm", "traducao_palavra": "dias" },
+        { "hebraico": "וְחֵ֥פֶץ", "transliteral": "wə-ḥê-p̄eṣ", "traducao_palavra": "e o prazer de" },
+        { "hebraico": "יְהוָ֖ה", "transliteral": "YHWH", "traducao_palavra": "YHWH" },
+        { "hebraico": "בְּיָדֹ֥ו", "transliteral": "bə-yā-ḏō-w", "traducao_palavra": "em sua mão" },
+        { "hebraico": "יִצְלָֽח׃", "transliteral": "yiṣ-lāḥ", "traducao_palavra": "prosperará." }
+      ]
+    },
+    "11": {
+      "traducao_completa": "Ele verá o fruto do trabalho da sua alma, e ficará satisfeito; com o seu conhecimento o meu servo, o justo, justificará a muitos; porque as iniquidades deles levará sobre si.",
+      "palavras": [
+        { "hebraico": "מֵעֲמַ֤ל", "transliteral": "mê-ʿă-mal", "traducao_palavra": "Do trabalho de" },
+        { "hebraico": "נַפְשֹׁו֙", "transliteral": "nap̄-šō-w", "traducao_palavra": "sua alma" },
+        { "hebraico": "יִרְאֶ֣ה", "transliteral": "yir-ʾeh", "traducao_palavra": "verá" },
+        { "hebraico": "יִשְׂבָּ֔ע", "transliteral": "yiś-bā-ʿ", "traducao_palavra": "se fartará" },
+        { "hebraico": "בְּדַעְתֹּ֗ו", "transliteral": "bə-ḏa-ʿtō-w", "traducao_palavra": "pelo seu conhecimento" },
+        { "hebraico": "יַצְדִּ֥יק", "transliteral": "yaṣ-dîq", "traducao_palavra": "justificará" },
+        { "hebraico": "צַדִּ֛יק", "transliteral": "ṣad-dîq", "traducao_palavra": "[o] justo" },
+        { "hebraico": "עַבְדִּ֖י", "transliteral": "ʿaḇ-dî", "traducao_palavra": "meu servo" },
+        { "hebraico": "לָֽרַבִּ֑ים", "transliteral": "lā-rab-bîm", "traducao_palavra": "a muitos" },
+        { "hebraico": "וַעֲוֹנֹתָ֖ם", "transliteral": "wa-ʿă-wō-nō-ṯām", "traducao_palavra": "e as iniquidades deles" },
+        { "hebraico": "ה֥וּא", "transliteral": "hū", "traducao_palavra": "ele" },
+        { "hebraico": "יִסְבֹּֽל׃", "transliteral": "yis-bōl", "traducao_palavra": "carregará." }
+      ]
+    },
+    "12": {
+      "traducao_completa": "Pelo que lhe darei a sua parte entre os grandes, e com os poderosos repartirá ele o despojo; porquanto derramou a sua alma na morte, e foi contado com os transgressores; mas ele levou sobre si o pecado de muitos, e pelos transgressores intercedeu.",
+      "palavras": [
+        { "hebraico": "לָ֠כֵן", "transliteral": "lā-ḵēn", "traducao_palavra": "Portanto" },
+        { "hebraico": "אֲחַלֶּק־", "transliteral": "ʾă-ḥal-leq-", "traducao_palavra": "dividirei" },
+        { "hebraico": "לֹ֣ו", "transliteral": "lō-w", "traducao_palavra": "para ele" },
+        { "hebraico": "בָרַבִּ֗ים", "transliteral": "ḇā-rab-bîm", "traducao_palavra": "entre os muitos/grandes" },
+        { "hebraico": "וְאֶת־", "transliteral": "wə-ʾeṯ-", "traducao_palavra": "e com" },
+        { "hebraico": "עֲצוּמִים֮", "transliteral": "ʿă-ṣū-mîm", "traducao_palavra": "[os] poderosos" },
+        { "hebraico": "יְחַלֵּ֣ק", "transliteral": "yə-ḥal-lēq", "traducao_palavra": "dividirá" },
+        { "hebraico": "שָׁלָל֒", "transliteral": "šā-lāl", "traducao_palavra": "despojo" },
+        { "hebraico": "תַּ֗חַת", "transliteral": "ta-ḥaṯ", "traducao_palavra": "por causa de/em vez de" },
+        { "hebraico": "אֲשֶׁ֨ר", "transliteral": "ʾă-šer", "traducao_palavra": "que" },
+        { "hebraico": "הֶעֱרָ֤ה", "transliteral": "he-ʿĕ-rāh", "traducao_palavra": "derramou/expôs" },
+        { "hebraico": "לַמָּ֙וֶת֙", "transliteral": "lam-mā-weṯ", "traducao_palavra": "para a morte" },
+        { "hebraico": "נַפְשֹׁ֔ו", "transliteral": "nap̄-šō-w", "traducao_palavra": "sua alma" },
+        { "hebraico": "וְאֶת־", "transliteral": "wə-ʾeṯ-", "traducao_palavra": "e com" },
+        { "hebraico": "פֹּשְׁעִ֖ים", "transliteral": "pō-šə-ʿîm", "traducao_palavra": "[os] transgressores" },
+        { "hebraico": "נִמְנָ֑ה", "transliteral": "nim-nāh", "traducao_palavra": "foi contado" },
+        { "hebraico": "וְהוּא֙", "transliteral": "wə-hū", "traducao_palavra": "e ele" },
+        { "hebraico": "חֵטְא־", "transliteral": "ḥêṭ-", "traducao_palavra": "[o] pecado de" },
+        { "hebraico": "רַבִּ֣ים", "transliteral": "rab-bîm", "traducao_palavra": "muitos" },
+        { "hebraico": "נָשָׂ֔א", "transliteral": "nā-śā", "traducao_palavra": "carregou" },
+        { "hebraico": "וְלַפֹּשְׁעִ֖ים", "transliteral": "wə-lap-pō-šə-ʿîm", "traducao_palavra": "e pelos transgressores" },
+        { "hebraico": "יַפְגִּֽיעַ׃", "transliteral": "yap̄-gî-aʿ", "traducao_palavra": "intercedeu." }
+      ]
+    }
+  }
 }
